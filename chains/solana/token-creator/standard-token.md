@@ -34,7 +34,7 @@ Key Use Cases:
 
 Start your Standard Token Creator on Solana with CiaoTool now:
 
-{% embed url="https://ciaotool.io/en-US/token/create" %}
+{% embed url="https://ciaotool.io/en-US/token/create-token" %}
 
 ***
 

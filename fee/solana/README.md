@@ -11,12 +11,12 @@ description: >-
 
 ### Token Creator
 
-* [**Standard Token**](https://ciaotool.io/en-US/token/create)**:** 0.075 SOL
-* [**Tax Token**](https://ciaotool.io/en-US/token/taxToken/create-token-2022)**:** 0.015 SOL
+* [**Standard Token**](https://ciaotool.io/en-US/token/create-token)**:** 0.075 SOL
+* [**Tax Token**](https://ciaotool.io/en-US/token/tax-token)**:** 0.015 SOL
 
 ### Token Manager
 
-* [**Tax Fee Claim**](https://ciaotool.io/en-US/token/taxToken/tax-fee-claim)**:** 0.075 SOL
+* [**Tax Fee Claim**](https://ciaotool.io/en-US/token/tax-fee-claim)**:** 0.075 SOL
 * [**Revoke Permission**](https://ciaotool.io/en-US/token/revoke-permission)**:** 0.075 SOL
 * [**Mint Token**](https://ciaotool.io/en-US/token/mint)**:** 0.075 SOL
 * [**Update Token**](https://ciaotool.io/en-US/token/update)**:** 0.0375 SOL

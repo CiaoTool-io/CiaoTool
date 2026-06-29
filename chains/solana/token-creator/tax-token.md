@@ -32,7 +32,7 @@ Key Use Cases
 
 Start your Standard Token Creator on Solana with CiaoTool now:
 
-{% embed url="https://ciaotool.io/en-US/token/taxToken/create-token-2022" %}
+{% embed url="https://ciaotool.io/en-US/token/tax-token" %}
 
 ***
 
