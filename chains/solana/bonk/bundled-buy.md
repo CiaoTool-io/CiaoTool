@@ -30,7 +30,7 @@ Key Use Cases:
 
 Start your Multi-address Bundled Buy on Bonk with CiaoTool now:
 
-{% embed url="https://ciaotool.io/en-US/letsbonkZone/bundled-buy" %}
+{% embed url="https://ciaotool.io/en-US/bonk/multi-address-buy" %}
 
 ***
 

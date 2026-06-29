@@ -21,7 +21,7 @@ Click [**"EVM - Multi-to-One Transfer"**](../../../tools/multisender/multi-to-on
 
 Start your Multi-to-One Transfer on Solana with CiaoTool now:
 
-{% embed url="https://ciaotool.io/en-US/wallet/manage/batch-collection" %}
+{% embed url="https://ciaotool.io/en-US/transfer/many-to-one" %}
 
 ***
 

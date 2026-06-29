@@ -30,7 +30,7 @@ Key Use Cases:
 
 Start your Multi-address Bundled Buy on PumpFun with CiaoTool now:
 
-{% embed url="https://ciaotool.io/en-US/pump/bundled-buy" %}
+{% embed url="https://ciaotool.io/en-US/pump/multi-address-buy" %}
 
 ***
 

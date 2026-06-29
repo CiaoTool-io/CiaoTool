@@ -17,7 +17,7 @@ The core mechanism of this feature lies in rapidly performing batch swaps of tok
 
 Start your Batch Swap on Meteora with CiaoTool now:
 
-{% embed url="https://ciaotool.io/en-US/meteora/multi-swap" %}
+{% embed url="https://ciaotool.io/en-US/meteora/batch-swap" %}
 
 ***
 

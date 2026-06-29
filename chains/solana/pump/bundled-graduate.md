@@ -24,7 +24,7 @@ Unlike standard meme deployment utilities, this feature sharpens its focus entir
 
 Start your Bundled Graduate on PumpFun with CiaoTool now:
 
-{% embed url="https://ciaotool.io/en-US/pump/snipe/bundled-buy-snipe" %}
+{% embed url="https://ciaotool.io/en-US/pump/bundled-graduate" %}
 
 ***
 

@@ -26,7 +26,7 @@ Core Execution Stages
 
 Start your Graduation Sniper on PumpFun with CiaoTool now:
 
-{% embed url="https://ciaotool.io/en-US/pump/snipe/launch-buy-snipe" %}
+{% embed url="https://ciaotool.io/en-US/pump/graduation-sniper" %}
 
 ***
 

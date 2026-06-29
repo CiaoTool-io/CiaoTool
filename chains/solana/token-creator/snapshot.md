@@ -8,7 +8,7 @@ description: >-
 # Solana  - Token Snapshot Tutorial
 
 {% hint style="success" %}
-**Solana Token Snapshot:** [https://ciaotool.io/en-US/token/tokenTool/snapshot-token-holders](https://ciaotool.io/en-US/token/tokenTool/snapshot-token-holders)
+**Solana Token Snapshot:** [https://ciaotool.io/en-US/token/snapshot](https://ciaotool.io/en-US/token/snapshot)
 {% endhint %}
 
 ## What is a Solana Token Snapshot?

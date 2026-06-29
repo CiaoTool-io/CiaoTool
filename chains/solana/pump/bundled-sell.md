@@ -28,7 +28,7 @@ Key Use Cases:
 
 Start your Multi-address Bundled Sell on PumpFun with CiaoTool now:
 
-{% embed url="https://ciaotool.io/en-US/pump/bundled-sell" %}
+{% embed url="https://ciaotool.io/en-US/pump/multi-address-sell" %}
 
 ***
 

@@ -17,7 +17,7 @@ Under the Token-2022 standard, the taxes generated during user transactions or t
 
 Start your Tax Fee Claim on Solana with CiaoTool now:
 
-{% embed url="https://ciaotool.io/en-US/token/taxToken/tax-fee-claim" %}
+{% embed url="https://ciaotool.io/en-US/token/tax-fee-claim" %}
 
 ***
 

@@ -21,7 +21,7 @@ The core mechanism of this feature lies in rapidly performing batch swaps of tok
 
 Start your Batch Swap on PumpFun with CiaoTool now:
 
-{% embed url="https://ciaotool.io/en-US/pump/multi-swap" %}
+{% embed url="https://ciaotool.io/en-US/pump/batch-swap" %}
 
 ***
 

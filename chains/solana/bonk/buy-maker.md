@@ -21,7 +21,7 @@ The core mechanism of this feature lies in a complete "fully automated execution
 
 Start your Boost Makers on Bonk with CiaoTool now:
 
-{% embed url="https://ciaotool.io/en-US/letsbonkZone/bundled-buy" %}
+{% embed url="https://ciaotool.io/en-US/bonk/volume" %}
 
 ***
 

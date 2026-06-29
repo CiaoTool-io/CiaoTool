@@ -26,7 +26,7 @@ Key Use Cases:
 
 Start your Multi-address Bundled Buy on Meteora with CiaoTool now:
 
-{% embed url="https://ciaotool.io/en-US/meteora/bundled-buy" %}
+{% embed url="https://ciaotool.io/en-US/meteora/multi-address-buy" %}
 
 ***
 

@@ -28,7 +28,7 @@ This tool is especially suitable for:
 
 Start your Multi-address Bundled Sell on PumpSwap with CiaoTool now:
 
-{% embed url="https://ciaotool.io/en-US/pumpSwap/bundled-sell" %}
+{% embed url="https://ciaotool.io/en-US/pumpSwap/multi-address-sell" %}
 
 ***
 

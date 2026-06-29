@@ -28,7 +28,7 @@ Key Use Cases:
 
 Start your One-to-Multi Transfer on Solana with CiaoTool now:
 
-{% embed url="https://ciaotool.io/en-US/wallet/manage/one-to-multi" %}
+{% embed url="https://ciaotool.io/en-US/transfer/one-to-many" %}
 
 ***
 

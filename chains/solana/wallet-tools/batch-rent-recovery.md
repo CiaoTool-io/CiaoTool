@@ -7,7 +7,7 @@ description: >-
 # Solana - Batch Rent Recovery Tutorial
 
 {% hint style="success" %}
-**Solana Batch Rent Recovery：**[https://ciaotool.io/en-US/wallet/manage/reclaim-rent-batch](https://ciaotool.io/en-US/wallet/manage/reclaim-rent-batch)
+**Solana Batch Rent Recovery：**[https://ciaotool.io/en-US/wallet/claim-rent-batch](https://ciaotool.io/en-US/wallet/claim-rent-batch)
 {% endhint %}
 
 #### 🔗 Steps to Operate

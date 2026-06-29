@@ -21,7 +21,7 @@ Unlike the traditional "deploy first, manual buy later" method, Bundler uses ato
 
 Start your Bundler on PumpFun with CiaoTool now:
 
-{% embed url="https://ciaotool.io/en-US/pump/launch-and-buy" %}
+{% embed url="https://ciaotool.io/en-US/pump/create-and-buy" %}
 
 ***
 

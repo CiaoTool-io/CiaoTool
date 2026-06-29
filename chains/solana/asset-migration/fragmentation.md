@@ -29,7 +29,7 @@ Key Use Cases:
 
 Start your holding dispersal and fragmented asset migration on the Solana network now using CiaoTool's Fragmentation feature:
 
-{% embed url="https://ciaotool.io/en-US/changeWarehouseZone/one-click-coldChangeWarehouse" %}
+{% embed url="https://ciaotool.io/en-US/asset-migration/fragmentation" %}
 
 ***
 

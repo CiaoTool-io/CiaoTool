@@ -29,7 +29,7 @@ Key Use Cases:
 
 Start your Sell & Bundled Buy on PumpSwap with CiaoTool now:
 
-{% embed url="https://ciaotool.io/en-US/pumpSwap/bundled-sell-buy" %}
+{% embed url="https://ciaotool.io/en-US/pumpSwap/sell-buy" %}
 
 ***
 

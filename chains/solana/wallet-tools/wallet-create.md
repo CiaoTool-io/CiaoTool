@@ -31,7 +31,7 @@ Key Use Cases:
 
 Start batch-creating your wallets on the Solana network with CiaoTool now:
 
-{% embed url="https://ciaotool.io/en-US/wallet/my-wallets/create-wallets" %}
+{% embed url="https://ciaotool.io/en-US/wallet/wallet-create" %}
 
 ***
 

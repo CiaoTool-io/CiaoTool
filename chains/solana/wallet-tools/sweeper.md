@@ -7,7 +7,7 @@ description: >-
 # Solana - Wallet Sweeper Tutorial
 
 {% hint style="success" %}
-**Solana Wallet Sweeper:** [https://ciaotool.io/en-US/wallet/manage/one-click-clearance](https://ciaotool.io/en-US/wallet/manage/one-click-clearance)
+**Solana Wallet Sweeper:** [https://ciaotool.io/en-US/wallet/sweeper](https://ciaotool.io/en-US/wallet/sweeper)
 {% endhint %}
 
 #### 🧩 How to Use Solana Wallet Sweeper？

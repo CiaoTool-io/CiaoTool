@@ -21,7 +21,7 @@ The core mechanism of this feature lies in rapidly performing batch swaps of tok
 
 Start your Batch Swap on Bonk with CiaoTool now:
 
-{% embed url="https://ciaotool.io/en-US/letsbonkZone/multi-swap" %}
+{% embed url="https://ciaotool.io/en-US/bonk/batch-swap" %}
 
 ***
 

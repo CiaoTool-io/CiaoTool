@@ -30,7 +30,7 @@ Key Use Cases:
 
 Start your Multi-to-Multi Transfer on Solana with CiaoTool now:
 
-{% embed url="https://ciaotool.io/en-US/wallet/manage/multi-to-multi" %}
+{% embed url="https://ciaotool.io/en-US/transfer/many-to-many" %}
 
 ***
 

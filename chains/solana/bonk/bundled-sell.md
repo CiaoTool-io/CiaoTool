@@ -28,7 +28,7 @@ Key Use Cases:
 
 Start your Multi-address Bundled Sell on Bonk.fun with CiaoTool now:
 
-{% embed url="https://ciaotool.io/en-US/letsbonkZone/bundled-buy" %}
+{% embed url="https://ciaotool.io/en-US/bonk/multi-address-sell" %}
 
 ***
 

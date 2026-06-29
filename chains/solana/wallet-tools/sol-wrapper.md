@@ -16,7 +16,7 @@ On the Solana network, native SOL serves as the base blockchain gas and is not d
 
 Start your SOL wrapping and WSOL unwrapping operations on Solana with CiaoTool now:
 
-{% embed url="https://ciaotool.io/en-US/wallet/manage/wsol-exchange" %}
+{% embed url="https://ciaotool.io/en-US/wallet/solana-wrapper" %}
 
 ***
 

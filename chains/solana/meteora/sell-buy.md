@@ -25,7 +25,7 @@ Key Use Cases:
 
 Start your Sell & Bundled Buy on Meteora with CiaoTool now:
 
-{% embed url="https://ciaotool.io/en-US/meteora/bundled-sell-buy" %}
+{% embed url="https://ciaotool.io/en-US/meteora/sell-buy" %}
 
 ***
 

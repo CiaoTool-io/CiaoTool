@@ -21,7 +21,7 @@ Unlike the traditional "deploy first, manual buy later" method, Bundler uses ato
 
 Start your Bundler on Bonk with CiaoTool now:
 
-{% embed url="https://ciaotool.io/en-US/letsbonkZone/launch-and-buy" %}
+{% embed url="https://ciaotool.io/en-US/bonk/create-and-buy" %}
 
 ***
 

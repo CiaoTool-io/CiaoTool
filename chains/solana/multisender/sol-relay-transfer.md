@@ -29,7 +29,7 @@ This tool is particularly suitable for:
 
 Start your SOL Relay Transfer on Solana with CiaoTool now:
 
-{% embed url="https://ciaotool.io/en-US/wallet/manage/relay-transfer" %}
+{% embed url="https://ciaotool.io/en-US/transfer/relay-transfer" %}
 
 ***
 

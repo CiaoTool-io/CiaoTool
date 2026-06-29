@@ -17,7 +17,7 @@ The core mechanism of this feature lies in a complete "fully automated execution
 
 Start your Boost Makers on Meteora with CiaoTool now:
 
-{% embed url="https://ciaotool.io/en-US/meteora/newaddr-buyers-markers" %}
+{% embed url="https://ciaotool.io/en-US/meteora/volume" %}
 
 ***
 

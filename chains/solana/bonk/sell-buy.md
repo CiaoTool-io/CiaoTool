@@ -29,7 +29,7 @@ Key Use Cases:
 
 Start your Sell & Bundled Buy on Bonk with CiaoTool now:
 
-{% embed url="https://ciaotool.io/en-US/letsbonkZone/bundled-sell-buy" %}
+{% embed url="https://ciaotool.io/en-US/bonk/sell-buy" %}
 
 ***
 

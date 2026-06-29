@@ -7,7 +7,7 @@ description: >-
 # Solana - Rent Recovery Tutorial
 
 {% hint style="success" %}
-**Rent Recovery：**[https://ciaotool.io/en-US/wallet/manage/reclaim-rent](https://ciaotool.io/en-US/wallet/manage/reclaim-rent)
+**Rent Recovery：**[https://ciaotool.io/en-US/wallet/claim-rent](https://ciaotool.io/en-US/wallet/claim-rent)
 {% endhint %}
 
 #### 📝 Steps to Use
