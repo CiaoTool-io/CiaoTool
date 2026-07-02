@@ -84,13 +84,11 @@ Available for Raydium AMM, CLMM, and CPMM.
 
 ## Pump Zone
 
-* [**Bundler (Create & Buy)**](https://ciaotool.io/en-US/pump/create-and-buy)**:** Volume-based pricing, as low as 0.02625 SOL / address.
+* [**Bundler (Create & Buy)**](https://ciaotool.io/en-US/pump/create-and-buy)**:** Volume-based pricing, as low as 0.03375 SOL / address.
 
 ```
  0 < address ≤  4，0.0375 SOL per address
  4 < address ≤  8，0.03375 SOL per address
- 8 < address ≤ 12，0.03 SOL per address
-12 < address ≤ 16，0.02625 SOL per address
 ```
 
 * [**Graduation Sniper (Create & Buy, Graduation Buy)**](https://ciaotool.io/en-US/pump/graduation-sniper)**:** 0.1875 SOL / address
@@ -147,14 +145,7 @@ Available for Raydium AMM, CLMM, and CPMM.
 Supports Bonk tokens quoted in SOL or USD1.
 {% endhint %}
 
-* [**Bundler (Create & Buy)**](https://ciaotool.io/en-US/bonk/create-and-buy)**:** Volume-based pricing, as low as 0.03 SOL / address.
-
-```
- 0 < address ≤  4，0.0375 SOL per address
- 4 < address ≤  8，0.03375 SOL per address
- 8 < address ≤ 12，0.03 SOL per address
-```
-
+* [**Bundler (Create & Buy)**](https://ciaotool.io/en-US/bonk/create-and-buy)**:** Volume-based pricing, as low as 0.0225 SOL / address.
 * [**Multi-address Bundled Buy**](https://ciaotool.io/en-US/bonk/multi-address-buy)**:** 0.0075 SOL / address
 * [**Sell and Bundled Buy**](https://ciaotool.io/en-US/bonk/sell-buy)**:** 0.0075 SOL / address
 * [**Multi-address Bundled Sell**](https://ciaotool.io/en-US/bonk/multi-address-sell)**:** Volume-based pricing, as low as 0.00375 SOL / address.
