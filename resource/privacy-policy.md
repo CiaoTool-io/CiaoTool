@@ -43,7 +43,7 @@ To continuously optimize the user experience of **CiaoTool** and enhance the res
   This includes your wallet public key addresses and publicly accessible on-chain network information regarding transactions. Your transaction instructions are broadcasted directly to the blockchain networks via RPC nodes, and we do not interfere with or tamper with any data broadcasted to the chain
 * **Usage and Browsing Data**\
   This covers information regarding how you interact with our services, such as page views, click frequencies of specific functionalities, and error logs. Such information undergoes rigorous anonymization and de-identification processing, is utilized solely for analyzing user behavior and optimizing tool performance, and cannot be used to identify the real-world identity of any specific user.\
-  有关您如何使用服务的资讯（如页面访问量、特定功能的点击频率与报错日志）。这些资讯经过严格的脱敏处理，仅用于分析用户行为与优化工具性能，无法用于识别任何特定用户的真实身份。
+  Information about how you use our services (such as page visits, the frequency of specific feature usage, and error logs). This information is strictly anonymized and is only used to analyze user behavior and optimize tool performance. It cannot be used to identify the real identity of any specific user.
 * **Communications and Support Information**\
   When you contact our support team (e.g., to obtain technical assistance or request the _Fund Security Assurance_), we will record the content of the communication to monitor and improve our service quality.
 * **Form Information**\
