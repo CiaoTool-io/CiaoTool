@@ -64,7 +64,7 @@ Seamlessly integrate with Raydium, Meteora, and PancakeSwap to execute liquidity
 #### 1. Asset Issuance & Permission Management
 
 * **Multi-chain Deployment:** \
-  Support for Solana, BSC, Base, IoTeX, opBNB, X Layer, and BOT Chain, with full compatibility for SPL, ERC-20, and BEP-20 protocols.
+  Support for Solana, BSC, Base, IoTeX, opBNB, X Layer, BOT, and Ronbinhood Chain, with full compatibility for SPL, ERC-20, and BEP-20 protocols.
 * **Advanced Tokenomics Integration:** \
   Fully compatible with the Solana Token-2022 extension protocol. On EVM networks like BSC, we support complex smart contract logic including dividend reflections, liquidity burning, 314 Protocol tokens, and blackhole mechanisms to satisfy diverse tokenomic requirements.
 * **Contract Lifecycle Control:**\
