@@ -7,7 +7,7 @@ description: >-
 # EVM - Batch Wallet Creator Tutoiral
 
 {% hint style="info" %}
-You are currently on the **"EVM - Batch Wallet Creator"** tutorial page for EVM networks including **BSC, Base, X Layer, IoTeX, and BOT Chain.**
+You are currently on the **"EVM - Batch Wallet Creator"** tutorial page for EVM networks including **BSC, opBNB, Base, X Layer, IoTeX, BOT and Robinhood Chain.**
 
 Demonstrated on BSC. Universally compatible across all EVM networks, please switch to your target chain to operate.
 

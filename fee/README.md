@@ -59,3 +59,17 @@ We are committed to providing highly cost-effective Web3 tools. If you find a lo
 {% endcontent-ref %}
 {% endcolumn %}
 {% endcolumns %}
+
+{% columns %}
+{% column %}
+{% content-ref url="bot.md" %}
+[bot.md](bot.md)
+{% endcontent-ref %}
+{% endcolumn %}
+
+{% column %}
+{% content-ref url="robinhood.md" %}
+[robinhood.md](robinhood.md)
+{% endcontent-ref %}
+{% endcolumn %}
+{% endcolumns %}

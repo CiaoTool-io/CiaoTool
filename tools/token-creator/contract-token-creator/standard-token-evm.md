@@ -8,7 +8,7 @@ description: >-
 # EVM - Standard Token Creator Tutorial
 
 {% hint style="info" %}
-You are currently on the **"EVM - Standard Token Creator"** tutorial page for EVM networks including **BSC, Base, X Layer, IoTeX, and BOT Chain.**
+You are currently on the **"EVM - Standard Token Creator"** tutorial page for EVM networks including **BSC, Base, X Layer, IoTeX, BOT, and Robinhood Chain.**
 
 Demonstrated on BSC. Universally compatible across all EVM networks, please switch to your target chain to operate.
 
@@ -34,7 +34,7 @@ Start your Standard Token Creator on EVM Network with CiaoTool now:
 
 {% embed url="https://bsc.ciaotool.io/en/token/create-token" %}
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/Base3.png" alt="" data-size="line"> Base (ERC-20)</td><td><a href="https://base.ciaotool.io/en/token/create-token">https://base.ciaotool.io/en/token/create-token</a></td></tr><tr><td><img src="../../../.gitbook/assets/3 (1).png" alt="" data-size="line"> X Layer (ERC-20)</td><td><a href="https://xlayer.ciaotool.io/en/token/create-token">https://xlayer.ciaotool.io/en/token/create-token</a></td></tr><tr><td><img src="../../../.gitbook/assets/IoTex.png" alt="" data-size="line"> IoTeX (XRC-20)</td><td><a href="https://iotex.ciaotool.io/en/token/create-token">https://iotex.ciaotool.io/en/token/create-token</a></td></tr><tr><td><img src="../../../.gitbook/assets/BOT-2.png" alt="" data-size="line"> BOT (ERC-20)</td><td><a href="https://iotex.ciaotool.io/en/token/create-token">https://iotex.ciaotool.io/en/token/create-token</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/Base3.png" alt="" data-size="line"> Base (ERC-20)</td><td><a href="https://base.ciaotool.io/en/token/create-token">https://base.ciaotool.io/en/token/create-token</a></td></tr><tr><td><img src="../../../.gitbook/assets/3 (1).png" alt="" data-size="line"> X Layer (ERC-20)</td><td><a href="https://xlayer.ciaotool.io/en/token/create-token">https://xlayer.ciaotool.io/en/token/create-token</a></td></tr><tr><td><img src="../../../.gitbook/assets/IoTex.png" alt="" data-size="line"> IoTeX (XRC-20)</td><td><a href="https://iotex.ciaotool.io/en/token/create-token">https://iotex.ciaotool.io/en/token/create-token</a></td></tr><tr><td><img src="../../../.gitbook/assets/BOT-2.png" alt="" data-size="line"> BOT (ERC-20)</td><td><a href="https://iotex.ciaotool.io/en/token/create-token">https://iotex.ciaotool.io/en/token/create-token</a></td></tr><tr><td><img src="../../../.gitbook/assets/Group 1261152954.png" alt="" data-size="line"> Robinhood (ERC-20)</td><td><a href="https://robinhood.ciaotool.io/en/token/create-token">https://robinhood.ciaotool.io/en/token/create-token</a></td></tr></tbody></table>
 
 ***
 
