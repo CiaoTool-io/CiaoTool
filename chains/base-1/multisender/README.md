@@ -71,7 +71,7 @@ Whether distributing tokens from a single wallet to multiple addresses or consol
 
 ## Why Choose CiaoTool Robinhood Multisender? <a href="#advantage" id="advantage"></a>
 
-CiaoTool provides a professional-grade solution for multi-wallet asset management on Coinbase, combining flexibility, efficiency, and security.
+CiaoTool provides a professional-grade solution for multi-wallet asset management on Robinhood, combining flexibility, efficiency, and security.
 
 * **Complete Transfer Modes**\
   Supports one-to-multi distribution, multi-to-one consolidation, and multi-to-multi transfers to meet different asset management needs.
