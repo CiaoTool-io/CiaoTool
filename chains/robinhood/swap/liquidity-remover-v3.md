@@ -1,4 +1,8 @@
-# Base - Create V3 Liuidity Pool Tutorial
+---
+hidden: true
+---
+
+# Base - V3 Liquidity Remover Tutorial
 
 Feature coming soon. Contact support for help.
 

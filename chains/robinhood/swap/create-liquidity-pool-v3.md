@@ -1,4 +1,8 @@
-# Base - V3 Liquidity Adder Tutorial
+---
+hidden: true
+---
+
+# Base - Create V3 Liquidity Pool Tutorial
 
 Feature coming soon. Contact support for help.
 

@@ -3,6 +3,7 @@ description: >-
   A multi-wallet batch swap tool for SushiSwap V3. Enables multiple wallets to
   swap tokens into a target token simultaneously, improving trading efficiency
   and execution speed.
+hidden: true
 ---
 
 # Base - V3 Batch Swap

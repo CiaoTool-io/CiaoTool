@@ -12,7 +12,7 @@ description: >-
 
 ## What is CiaoTool Robinhood Market Making Bot?
 
-<figure><img src="../../../.gitbook/assets/image (1057).png" alt="CiaoTool Robinhood Chain Toolkit about Uniswap Market Making Bot page"><figcaption></figcaption></figure>
+<figure><picture><source srcset="../../../.gitbook/assets/image (1067).png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (1057).png" alt="CiaoTool Robinhood Chain Toolkit about Uniswap Market Making Bot page"></picture><figcaption></figcaption></figure>
 
 **CiaoTool Robinhood Chain Market Making Bot** is an automated trading tool designed for supported Uniswap V2 and V3 liquidity pools.
 
@@ -20,16 +20,21 @@ It allows users to configure multiple user-controlled wallets and execute rule-b
 
 Instead of repeatedly submitting transactions from individual wallets, users can manage the entire execution process through one interface. The bot helps reduce repetitive work and makes multi-wallet trading strategies easier to configure, monitor, and stop.
 
-In this guide, “Market Making” refers to automated Swap execution. It does not mean that CiaoTool operates a custodial market maker, provides liquidity on behalf of users, or guarantees price stability, trading volume, or financial returns.
+In this guide, “Market Making” refers to automated trading execution. It does not mean that CiaoTool operates a custodial market maker, provides liquidity on behalf of users, or guarantees price stability, trading volume, or financial returns.
 
 Common Use Cases:
 
-* **Price Boost**\
-  Optimizes the token's upward price presentation through calibrated order book interactions.
-* **Smooth Correction**\
-  Controls the price decline trajectory smoothly to mitigate drastic market volatility.
-* **Volume Support**\
-  Simulates organic market trades via multi-address randomized swaps to boost volume naturally.
+*   **Maintain Market Activity**
+
+    Run continuous buy and sell cycles across multiple wallets to keep the token’s onchain trading activity active over time.
+* **Strengthen Buy-Side Activity**\
+  Execute configurable buy strategies to increase buy-side participation and support positive market momentum.
+* **Smooth Sell-Side Execution**\
+  Distribute sell transactions across different times and wallets to reduce the market impact of concentrated selling.
+* **Boost Token Visibility**\
+  Maintain consistent trading activity to improve the token’s onchain presence and increase its visibility among market participants.
+* **Automated Strategy Control**\
+  Manage trade amounts, execution frequency, transaction speed, and buy/sell direction while using run-count or price-range conditions to stop the strategy automatically.
 
 Start your Market Making Bot and boost your token on Robinhood Chain with CiaoTool now:
 
@@ -136,10 +141,7 @@ Supports three trading amount types: **"Fixed Amount"**, **"Fixed Retain"**, and
 Closing / refreshing the page will **immediately stop** the bot strategy. Please ensure that the page remains open and running continuously in the background while the strategy is being executed. To ensure necessary strategy execution, **this feature is not recommended for use on mobile devices.**
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (1064).png" alt=""><figcaption></figcaption></figure>
-
-**Transaction Speed**\
-Set higher priority fees to speed up block execution and frontrun MEV bots.
+<figure><img src="../../../.gitbook/assets/image (1066).png" alt=""><figcaption></figcaption></figure>
 
 **Stop Methods**
 
