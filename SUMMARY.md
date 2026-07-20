@@ -162,7 +162,7 @@
     * [Standard Token](tools/token-creator/contract-token-creator/standard-token-evm.md)
   * [Base - SushiSwap Toolkit](chains/base/swap/README.md "SWAP Zone")
     * [Base - V3 Batch Swap](chains/base/swap/batch-swap.md "Batch Swap")
-    * [Base - Create V3 Liuidity Pool Tutorial](chains/base/swap/create-liquidity-pool-v3.md "Create V3 Liuidity Pool")
+    * [Base - Create V3 Liquidity Pool Tutorial](chains/base/swap/create-liquidity-pool-v3.md "Create V3 Liuidity Pool")
     * [Base - V3 Liquidity Adder Tutorial](chains/base/swap/liquidity-adder-v3.md "V3 Liquidity Adder")
     * [Base - V3 Liquidity Remover Tutorial](chains/base/swap/liquidity-remover-v3.md "V3 Liquidity Remover")
 * [X Layer | All-in-One Token Solution Platform](chains/xlayer/README.md "X Layer Guide")
@@ -215,7 +215,7 @@
   * [Robinhood - UniSwap Toolkit](chains/base-1/swap/README.md "SWAP Zone")
     * [Robinhood - Market Making Bot Guide](chains/base-1/swap/market-making.md "Market Making")
     * [Base - V3 Batch Swap](chains/base-1/swap/batch-swap.md "Batch Swap")
-    * [Base - Create V3 Liuidity Pool Tutorial](chains/base-1/swap/create-liquidity-pool-v3.md "Create V3 Liuidity Pool")
+    * [Base - Create V3 Liquidity Pool Tutorial](chains/base-1/swap/create-liquidity-pool-v3.md "Create V3 Liuidity Pool")
     * [Base - V3 Liquidity Adder Tutorial](chains/base-1/swap/liquidity-adder-v3.md "V3 Liquidity Adder")
     * [Base - V3 Liquidity Remover Tutorial](chains/base-1/swap/liquidity-remover-v3.md "V3 Liquidity Remover")
 
