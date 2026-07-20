@@ -36,6 +36,10 @@ Common Use Cases:
 * **Automated Strategy Control**\
   Manage trade amounts, execution frequency, transaction speed, and buy/sell direction while using run-count or price-range conditions to stop the strategy automatically.
 
+***
+
+## Quick Start
+
 Start your Market Making Bot and boost your token on Robinhood Chain with CiaoTool now:
 
 <table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Uniswap V2 Market Making Bot</td><td><a href="https://robinhood.ciaotool.io/en/swap/v2/market-making-manage-v2">https://robinhood.ciaotool.io/en/swap/v2/market-making-manage-v2</a></td></tr><tr><td>Uniswap V3 Market Making Bot</td><td><a href="https://robinhood.ciaotool.io/en/swap/v3/market-making-manage-v3">https://robinhood.ciaotool.io/en/swap/v3/market-making-manage-v3</a></td></tr></tbody></table>
