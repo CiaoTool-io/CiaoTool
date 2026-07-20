@@ -9,7 +9,7 @@ description: >-
 
 ## Quick Start
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th></th></tr></thead><tbody><tr><td><img src="../../.gitbook/assets/gf-create 1.svg" alt="" data-size="original"></td><td></td><td><h4>Deploy Token</h4></td><td>Create a ERC20 Token On Robinhood Chain</td></tr><tr><td><img src="../../.gitbook/assets/水.svg" alt="" data-size="line"></td><td></td><td><h4>Create Liquidity Pool</h4></td><td>Create a liquidity pool and start trading</td></tr><tr><td><img src="../../.gitbook/assets/chart.svg" alt="" data-size="line"></td><td></td><td><h4>Volume Bot</h4></td><td>Boost your token activity and market visibility</td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th></th><th></th></tr></thead><tbody><tr><td><i class="fa-square-plus">:square-plus:</i></td><td></td><td><h4>Deploy Token</h4></td><td>Create a ERC20 Token On Robinhood Chain</td><td></td></tr><tr><td><i class="fa-droplet">:droplet:</i></td><td></td><td><h4>Create Liquidity Pool</h4></td><td>Create a liquidity pool and start trading</td><td></td></tr><tr><td><i class="fa-chart-simple">:chart-simple:</i></td><td></td><td><h4>Volume Bot</h4></td><td>Boost your token activity and market visibility</td><td></td></tr></tbody></table>
 
 ## Network Params
 
