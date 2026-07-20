@@ -55,7 +55,7 @@ Available for PancakeSwap V2 and V3.
 
 ### **Liquidity Manager**
 
-* [**Liquidity Bundler**](https://bsc.ciaotool.io/en/swap/v2/create-liquidity-and-buy-v2)**:** 0.024 BNB + 0.02 BNB / adress
+* [**Liquidity Bundler**](https://bsc.ciaotool.io/en/swap/v2/create-liquidity-and-buy-v2)**:** 0.024 BNB + 0.02 BNB / address
 * [**Create Liquidity Pool**](https://bsc.ciaotool.io/en/swap/v2/create-liquidity-v2)**:** 0.024 BNB
 * [**Liquidity Adder**](https://bsc.ciaotool.io/en/swap/v2/add-liquidity-v2)**:** 0.024 BNB
 * [**Liquidity Remover**](https://bsc.ciaotool.io/en/swap/v2/remove-liquidity-v2)**:** 0.024 BNB

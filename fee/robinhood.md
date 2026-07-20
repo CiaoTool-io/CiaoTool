@@ -35,7 +35,19 @@ description: >-
 
 ## Swap Zone
 
+### **Liquidity Manager**
+
+* [**Create Liquidity Pool and Concorrent Buy**](https://robinhood.ciaotool.io/en/swap/v2/create-liquidity-and-buy-v2)**:** 0.005 ETH + 0.0002 ETH / address
+* [**Create Liquidity Pool**](https://robinhood.ciaotool.io/en/swap/v2/create-liquidity-v2)**:** 0.005 ETH
+* [**Liquidity Adder**](https://robinhood.ciaotool.io/en/swap/v2/add-liquidity-v2)**:** 0.005 ETH
+* [**Liquidity Remover**](https://robinhood.ciaotool.io/en/swap/v2/remove-liquidity-v2)**:** 0.005 BNB
+
+### Market Making Bot
+
+* [**Market Making Bot**](https://robinhood.ciaotool.io/en/swap/v2/market-making-manage-v2)**:** 0.0002 ETH / trasaction
 * [**Batch Swap**](https://robinhood.ciaotool.io/en/swap/v3/batch-swap-v3)**:** 0.0002 ETH / address
+* [**Multi-Address Concorrent Buy**](https://robinhood.ciaotool.io/en/swap/v2/multi-address-buy-v2)**:** 0.0002 ETH / address
+* [**Multi-Address Concorrent Sell**](https://robinhood.ciaotool.io/en/swap/v2/multi-address-sell-v2)**:** 0.0002 ETH / address
 
 ***
 

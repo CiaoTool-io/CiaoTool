@@ -1,8 +1,7 @@
 ---
 description: >-
-  An market-making bot and volume bot for Uniswap. Supports both V2 and V3
-  liquidity pools, helping increase trading activity and improve market
-  performance.
+  Boost token activity and market visibility on Robinhood Chain with automated
+  multi-wallet swaps and flexible strategies across Uniswap V2 and V3 pools.
 ---
 
 # Robinhood - Market Making Bot Guide
@@ -11,15 +10,17 @@ description: >-
 **CiaoTool Uniswap Market Making Bot** supports all **V2 and V3** liquidity pool types on Robinhood Chain. Please switch to the corresponding pool page to perform market-making operations based on your needs.
 {% endhint %}
 
-## What is Robinhood Market Making?
+## What is CiaoTool Robinhood Market Making Bot?
 
 <figure><img src="../../../.gitbook/assets/image (1057).png" alt="CiaoTool Robinhood Chain Toolkit about Uniswap Market Making Bot page"><figcaption></figcaption></figure>
 
-**CiaoTool Robinhood Market Making Bot** is an advanced automated liquidity tool for the Robinhood chain, allowing teams to execute automated market-making strategies on **Uniswap** to boost token depth and activity.
+**CiaoTool Robinhood Chain Market Making Bot** is an automated trading tool designed for supported Uniswap V2 and V3 liquidity pools.
 
-Compared to tedious and hard-to-control manual trading, the core advantage of this feature lies in its fully automated strategy execution engine. The system can intelligently dispatch multiple wallet addresses to perform continuous, natural, two-way buying and selling interactions based on the set frequency and scale.
+It allows users to configure multiple user-controlled wallets and execute rule-based buy and sell transactions according to predefined amounts, intervals, transaction priority, and stop conditions.
 
-This not only effectively optimizes token holder distribution and unique trading address structures, but also makes on-chain trading behavior closer to real, natural market participation, comprehensively enhancing the natural look of overall data performance.
+Instead of repeatedly submitting transactions from individual wallets, users can manage the entire execution process through one interface. The bot helps reduce repetitive work and makes multi-wallet trading strategies easier to configure, monitor, and stop.
+
+In this guide, “Market Making” refers to automated Swap execution. It does not mean that CiaoTool operates a custodial market maker, provides liquidity on behalf of users, or guarantees price stability, trading volume, or financial returns.
 
 Common Use Cases:
 
