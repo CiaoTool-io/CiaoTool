@@ -22,7 +22,11 @@ Instead of repeatedly submitting transactions from individual wallets, users can
 
 In this guide, “Market Making” refers to automated trading execution. It does not mean that CiaoTool operates a custodial market maker, provides liquidity on behalf of users, or guarantees price stability, trading volume, or financial returns.
 
-Common Use Cases:
+***
+
+## Common Use Cases
+
+<table data-view="cards"><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><strong>Maintain Market Activity</strong></td><td>Run continuous buy and sell cycles across multiple wallets to keep the token’s onchain trading activity active over time.</td></tr><tr><td><strong>Strengthen Buy-Side Activity</strong></td><td>Execute configurable buy strategies to increase buy-side participation and support positive market momentum.</td></tr><tr><td><strong>Smooth Sell-Side Execution</strong></td><td>Distribute sell transactions across different times and wallets to reduce the market impact of concentrated selling.</td></tr><tr><td><strong>Boost Token Visibility</strong></td><td>Maintain consistent trading activity to improve the token’s onchain presence and increase its visibility among market participants.</td></tr><tr><td><strong>Automated Strategy Control</strong></td><td>Manage trade amounts, execution frequency, transaction speed, and buy/sell direction while using run-count or price-range conditions to stop the strategy automatically.</td></tr></tbody></table>
 
 *   **Maintain Market Activity**
 
