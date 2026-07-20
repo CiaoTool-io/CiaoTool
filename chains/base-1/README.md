@@ -9,7 +9,7 @@ description: >-
 
 ## Quick Start
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th></th><th></th></tr></thead><tbody><tr><td><i class="fa-square-plus">:square-plus:</i></td><td></td><td><h4>Deploy Token</h4></td><td>Create a ERC20 Token On Robinhood Chain</td><td></td></tr><tr><td><i class="fa-droplet">:droplet:</i></td><td></td><td><h4>Create Liquidity Pool</h4></td><td>Create a liquidity pool and start trading</td><td></td></tr><tr><td><i class="fa-chart-simple">:chart-simple:</i></td><td></td><td><h4>Volume Bot</h4></td><td>Boost your token activity and market visibility</td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="image">Cover image</th></tr></thead><tbody><tr><td><h4>Deploy Token</h4></td><td>Create a ERC20 Token On Robinhood Chain</td><td></td><td><a href="../../.gitbook/assets/Frame 1321314813 (1).png">Frame 1321314813 (1).png</a></td></tr><tr><td><h4>Create Liquidity Pool</h4></td><td>Create a liquidity pool and start trading</td><td></td><td><a href="../../.gitbook/assets/423954206.png">423954206.png</a></td></tr><tr><td><h4>Volume Bot</h4></td><td>Boost your token activity and market visibility</td><td></td><td><a href="../../.gitbook/assets/423954206-1.png">423954206-1.png</a></td></tr></tbody></table>
 
 ## Network Params
 
