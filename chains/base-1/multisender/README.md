@@ -3,7 +3,6 @@ description: >-
   CiaoTool is a Robinhood asset transfer toolkit supporting ETH and ERC-20
   tokens. Features include airdrops, fund consolidation, and multi-wallet
   transfers,for efficient asset management.
-hidden: true
 icon: '1'
 ---
 
@@ -65,7 +64,7 @@ Compared to traditional transfer methods, the multi-to-multi model is ideal for 
 
 Whether distributing tokens from a single wallet to multiple addresses or consolidating assets from multiple wallets into one destination wallet, the tool streamlines large-scale fund movements through automated on-chain execution.
 
-<figure><picture><source srcset="../../../.gitbook/assets/屏幕截图 2026-06-17 160153.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (975).png" alt="CiaoTool Base Toolkit Page about Multisender Feature"></picture><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1054).png" alt="CiaoTool Robinhood chain Toolkit about Multisender Feature"><figcaption></figcaption></figure>
 
 ***
 
