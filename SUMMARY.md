@@ -213,6 +213,7 @@
   * [Robinhood Chain Token Creator | Deploy ERC-20 Token](chains/base-1/token-creator/README.md "Token Creator")
     * [Standard Token](tools/token-creator/contract-token-creator/standard-token-evm.md)
   * [Robinhood - UniSwap Toolkit](chains/base-1/swap/README.md "SWAP Zone")
+    * [Robinhood - Market Making Bot Guide](chains/base-1/swap/market-making.md "Market Making")
     * [Base - V3 Batch Swap](chains/base-1/swap/batch-swap.md "Batch Swap")
     * [Base - Create V3 Liuidity Pool Tutorial](chains/base-1/swap/create-liquidity-pool-v3.md "Create V3 Liuidity Pool")
     * [Base - V3 Liquidity Adder Tutorial](chains/base-1/swap/liquidity-adder-v3.md "V3 Liquidity Adder")
