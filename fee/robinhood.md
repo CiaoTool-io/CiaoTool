@@ -35,12 +35,16 @@ description: >-
 
 ## Swap Zone
 
+{% hint style="info" %}
+Available for Uniswap V2 and V3 on Robinhood Chain.
+{% endhint %}
+
 ### **Liquidity Manager**
 
 * [**Create Liquidity Pool and Concorrent Buy**](https://robinhood.ciaotool.io/en/swap/v2/create-liquidity-and-buy-v2)**:** 0.005 ETH + 0.0002 ETH / address
 * [**Create Liquidity Pool**](https://robinhood.ciaotool.io/en/swap/v2/create-liquidity-v2)**:** 0.005 ETH
 * [**Liquidity Adder**](https://robinhood.ciaotool.io/en/swap/v2/add-liquidity-v2)**:** 0.005 ETH
-* [**Liquidity Remover**](https://robinhood.ciaotool.io/en/swap/v2/remove-liquidity-v2)**:** 0.005 BNB
+* [**Liquidity Remover**](https://robinhood.ciaotool.io/en/swap/v2/remove-liquidity-v2)**:** 0.005 ETH
 
 ### Market Making Bot
 
