@@ -6,23 +6,25 @@ description: >-
 hidden: true
 ---
 
-# Base - V3 Batch Swap
+# Robinhood - Batch Swap Guide
 
 {% hint style="info" %}
-**CiaoTool SushiSwap Batch Swap** now fullysupports **V3** liquidity pool types.&#x20;
+**CiaoTool Uniswap Market Making Bot** supports all **V2 and V3** liquidity pool types on Robinhood Chain. Please switch to the corresponding pool page to perform market-making operations based on your needs.
 {% endhint %}
 
 ## What is CiaoTool Base Batch Swap? <a href="#what-is-coinfactory-solana-multisender" id="what-is-coinfactory-solana-multisender"></a>
 
-<figure><picture><source srcset="../../../.gitbook/assets/ScreenShot_2026-06-18_175516_891 (9).png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (1045).png" alt="CiaoTool BSC Toolkit Page about SushiSwap Batch Swap Feature"></picture><figcaption></figcaption></figure>
+<figure><picture><source srcset="../../../.gitbook/assets/屏幕截图 2026-07-21 140848.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (1069).png" alt=""></picture><figcaption></figcaption></figure>
 
 **CiaoTool Base Batch Swap** is an automated on-chain engine that removes single-wallet manual bottlenecks, allowing users to execute batch trades on SushiSwap V3 with a single click.
 
 By executing concurrently across multiple addresses, the system rapidly swaps tokens in batches to boost response speed and flow efficiency. This eliminates manual tasks and is ideal for large-scale token swaps or asset allocations.
 
-Start your Batch Swap on Coinbase Chain with CiaoTool now:
+Start your Batch Swap on R bwith CiaoTool now:
 
-{% embed url="https://base.ciaotool.io/en/swap/v3/batch-swap-v3" %}
+{% embed url="https://robinhood.ciaotool.io/en/swap/v2/batch-swap-v2" %}
+
+{% embed url="https://robinhood.ciaotool.io/en/swap/v3/batch-swap-v3" %}
 
 ***
 

@@ -214,7 +214,7 @@
     * [Standard Token](tools/token-creator/contract-token-creator/standard-token-evm.md)
   * [Robinhood - UniSwap Toolkit](chains/robinhood/swap/README.md "SWAP Zone")
     * [Robinhood - Market Making Bot Guide](chains/robinhood/swap/market-making.md "Market Making")
-    * [Base - V3 Batch Swap](chains/robinhood/swap/batch-swap.md "Batch Swap")
+    * [Robinhood - Batch Swap Guide](chains/robinhood/swap/batch-swap.md "Batch Swap")
     * [Base - Create V3 Liquidity Pool Tutorial](chains/robinhood/swap/create-liquidity-pool-v3.md "Create V3 Liuidity Pool")
     * [Base - V3 Liquidity Adder Tutorial](chains/robinhood/swap/liquidity-adder-v3.md "V3 Liquidity Adder")
     * [Base - V3 Liquidity Remover Tutorial](chains/robinhood/swap/liquidity-remover-v3.md "V3 Liquidity Remover")

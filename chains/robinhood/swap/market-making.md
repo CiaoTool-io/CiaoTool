@@ -36,9 +36,11 @@ Start your Market Making Bot and boost your token on Robinhood Chain with CiaoTo
 
 ## Why Choose CiaoTool Robinhood Market Making Bot?
 
-CiaoTool delivers a secure, intelligent market-making solution on the Robinhood Chain. Through automated parameter configurations, it ensures precise strategy execution to optimize early liquidity, boost daily activity, or manage complex multi-address trades.
+CiaoTool helps project teams boost token activity and strengthen market visibility on Robinhood Chain through continuous, configurable buy and sell strategies across supported Uniswap V2 and V3 pools.
 
-Built for Uniswap, it simplifies complex market-making into a one-click automated workflow. Featuring secure local front-end signing, it saves massive operational time while providing a cost-effective liquidity defense line.
+Instead of repeatedly switching wallets and submitting transactions manually, users can manage up to 20 trading wallets from one interface. Trade amounts, execution intervals, transaction priority, and stop conditions can all be configured before the strategy begins.
+
+With multi-wallet automation, secure local browser signing, flexible amount modes, randomized execution intervals, and automatic stop controls, CiaoTool makes continuous market-making strategies easier, safer, and more efficient to manage.
 
 ***
 
@@ -46,7 +48,7 @@ Built for Uniswap, it simplifies complex market-making into a one-click automate
 
 {% stepper %}
 {% step %}
-#### Connect Wallet <a href="#connect-wallet" id="connect-wallet"></a>
+### Connect Wallet <a href="#connect-wallet" id="connect-wallet"></a>
 
 Click the button in the top right corner to connect a wallet that supports the EVM network.
 
@@ -112,7 +114,7 @@ Click to download and view the template:
 {% endstep %}
 
 {% step %}
-### Enter Buy Amount
+### Set Trade Amount
 
 Supports three trading amount types: **"Fixed Amount"**, **"Fixed Retain"**, and **"All Balance"**.
 
