@@ -216,6 +216,7 @@
     * [Robinhood - Market Making Bot Guide](chains/robinhood/swap/market-making.md "Market Making")
     * [Robinhood - Batch Swap Guide](chains/robinhood/swap/batch-swap.md "Batch Swap")
     * [Robinhood - Multi-Address Concurrent Buy Guide](chains/robinhood/swap/multi-address-buy.md "Multi-Address Concurrent Buy")
+    * [Robinhood - Multi-Address Concurrent Sell Guide](chains/robinhood/swap/multi-address-sell.md "Multi-Address Concurrent Sell")
     * [Base - Create V3 Liquidity Pool Tutorial](chains/robinhood/swap/create-liquidity-pool-v3.md "Create V3 Liuidity Pool")
     * [Base - V3 Liquidity Adder Tutorial](chains/robinhood/swap/liquidity-adder-v3.md "V3 Liquidity Adder")
     * [Base - V3 Liquidity Remover Tutorial](chains/robinhood/swap/liquidity-remover-v3.md "V3 Liquidity Remover")
