@@ -69,9 +69,9 @@ Therefore, CiaoTool uses a coordinated concurrent broadcast strategy:
 {% hint style="warning" %}
 **Best-Effort Execution**
 
-Concurrent Buy is a best-effort broadcast strategy. CiaoTool triggers multiple transaction broadcasts within a narrow time window, but it cannot guarantee identical arrival times, predefined ordering, same-block inclusion, or execution before MEV bots.
+Concurrent Sell is a best-effort broadcast strategy. CiaoTool triggers multiple transaction broadcasts within a narrow time window, but it cannot guarantee identical arrival times, predefined ordering, same-block inclusion, or execution before MEV bots.
 
-Transactions broadcast through Concurrent Buy may enter the same block, adjacent blocks, or different blocks. The final arrival time, execution order, and confirmation result depend on multiple factors, including the user’s network speed and latency, device and browser performance, RPC response time and availability, current Robinhood Chain activity, block timing, sequencer load, and pool conditions.
+Transactions broadcast through Concurrent Sell may enter the same block, adjacent blocks, or different blocks. The final arrival time, execution order, and confirmation result depend on multiple factors, including the user’s network speed and latency, device and browser performance, RPC response time and availability, current Robinhood Chain activity, block timing, sequencer load, and pool conditions.
 
 Network or RPC delays may cause some wallet transactions to reach the Robinhood Chain sequencer later than others, even when CiaoTool triggers their broadcasts at nearly the same time.
 {% endhint %}

@@ -10,7 +10,7 @@ description: >-
 {% hint style="info" %}
 This page covers **PancakeSwap V3 Liquidity Bundler**, which creates a V3 liquidity pool with concentrated liquidity and custom price ranges.
 
-If you want to create a V2 liquidity pool featuring ease of use and full-range coverage, please refer to the [**PancakeSwap V2 Liquidity Pool Creator**](bundler-v2.md) guide.
+If you want to create a V2 liquidity pool featuring ease of use and full-range coverage, please refer to the [**PancakeSwap V2 Liquidity Bundler**](bundler-v2.md) guide.
 {% endhint %}
 
 ## What is PancakeSwap V3 Liquidity Pool Bundler?

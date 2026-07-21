@@ -1,0 +1,277 @@
+---
+description: >-
+  Create a Uniswap V2 liquidity pool on Robinhood Chain and trigger multi-wallet
+  concurrent buys after confirmation. Reduce manual delays with best-effort
+  coordinated execution.
+---
+
+# Robinhood - Create V2 Liquidity Pool and Buy
+
+{% hint style="info" %}
+This page covers **Create Uniswap V2 Liquidity Pool and Buy**, which creates a full-range V2 liquidity pool without requiring price range configuration.
+
+If you want concentrated liquidity and custom price ranges, please refer to the [**Uniswap V3 Liquidity Bundler**](create-and-buy-v3.md) guide.
+{% endhint %}
+
+## What is **Uniswap V2 Liquidity Pool and Buy**?
+
+<figure><img src="../../../.gitbook/assets/image (1083).png" alt="CiaoTool Robinhood Chain Toolkit about Create V2 Liquidity Pool and Multi-Address Buy Tool page"><figcaption></figcaption></figure>
+
+**CiaoTool Create V2 Liquidity Pool and Buy** is a token-launch tool that helps users create an initial Uniswap V2 liquidity pool on Robinhood Chain and coordinate buy transactions from multiple user-controlled wallets.
+
+Creating liquidity and then manually switching between multiple wallets introduces delays at one of the most time-sensitive stages of a token launch. After the pool becomes available, unrelated transactions or low-latency bots may reach the Robinhood Chain sequencer before the intended wallet buys are submitted.
+
+CiaoTool simplifies this process by preparing the liquidity settings, buying wallets, and buy amounts before execution. The system submits the liquidity-creation transaction first and, after confirmation, triggers the prepared wallet buys through coordinated concurrent broadcasting.
+
+This reduces the manual delay between pool activation and multi-wallet buying while keeping the liquidity parameters, wallet allocation, and buy amounts settings under the user’s control.
+
+### Core Advantages
+
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><strong>Reduce Manual Launch Delays</strong></td><td>Without automation, users must wait for liquidity confirmation and then manually switch wallets to submit buy transactions. CiaoTool connects these steps through one configured workflow.</td></tr><tr><td><strong>Simplify Multi-Wallet Coordination</strong></td><td>Configure the initial liquidity, participating wallets, and wallet buy amounts before creating the pool.</td></tr><tr><td><strong>Improve Buy Execution Consistency</strong></td><td>Concurrent broadcasting reduces the submission-time difference between buying wallets compared with manual or sequential execution.</td></tr><tr><td><strong>Shorten the Pool-Opening Exposure Window</strong></td><td>The period immediately after a pool becomes tradable is time-sensitive. Coordinated broadcasting helps reduce the delay before the intended wallet buys are submitted.</td></tr></tbody></table>
+
+### Quick Start
+
+Start your Create V2 Liquidity and Buy on Robinhood Chain and quick launch with CiaoTool now:
+
+{% embed url="https://robinhood.ciaotool.io/en/swap/v2/create-liquidity-and-buy-v2" %}
+
+***
+
+## How Does Create V2 Liquidity Pool and Buy Work on Robinhood Chain?
+
+### Working Mechanism
+
+Robinhood Chain uses a **first-come, first-served sequencing model**. Transaction order is determined by the time each transaction reaches the sequencer. According to the official network documentation, a transaction cannot bypass an earlier transaction simply by paying a higher fee.
+
+Robinhood Chain also targets approximately **100-millisecond block times**, allowing transactions to be processed quickly. However, even small differences in network propagation and sequencer arrival time can affect ordering.
+
+[Learn more about Robinhood Chain transaction ordering](https://docs.robinhood.com/chain/) and [network infrastructure](https://robinhood.com/blockchain).
+
+### CiaoTool's Solution
+
+Robinhood Chain’s current transaction-submission model does not provide CiaoTool with a supported bundle route for combining liquidity creation and independently signed wallet buys into one atomic, ordered, same-block execution.
+
+The liquidity transaction and wallet buy transactions are therefore executed separately:
+
+1. The liquidity transaction is submitted;
+2. The system waits for liquidity confirmation;
+3. The prepared wallet buys are triggered concurrently;
+4. Each wallet buy is processed independently.
+
+{% hint style="warning" %}
+**Best-Effort Execution**
+
+CiaoTool attempts to trigger the prepared wallet buys as soon as possible after liquidity confirmation. However, this is a best-effort strategy, but it cannot guarantee identical arrival times, predefined ordering, same-block inclusion, or execution before MEV bots.
+
+Transactions broadcast through Concurrent Buy may enter the same block, adjacent blocks, or different blocks. The final arrival time, execution order, and confirmation result depend on multiple factors, including the user’s network speed and latency, device and browser performance, RPC response time and availability, current Robinhood Chain activity, block timing, sequencer load, and pool conditions.
+
+Network or RPC delays may cause some wallet transactions to reach the Robinhood Chain sequencer later than others, even when CiaoTool triggers their broadcasts at nearly the same time.
+{% endhint %}
+
+### Differ in Bundle
+
+| Feature              | Concurrent Sell                                                                     | Bundled Sell                                                                  |
+| -------------------- | ----------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| Execution model      | Two stages: liquidity confirmation followed by concurrent wallet buys               | Liquidity creation and wallet buys are submitted as one bundle                |
+| Transaction ordering | Liquidity is confirmed first; wallet buys are then broadcast independently          | Preserves the predefined order of liquidity creation followed by buys         |
+| Same-block execution | Not guaranteed                                                                      | Yes                                                                           |
+| Atomic execution     | No; every wallet transaction is independent                                         | Yes; the bundle is executed atomically                                        |
+| Failure handling     | Each transaction may succeed or fail independently                                  | All transactions must succeed; one failure causes the entire bundle to revert |
+| MEV protection       | Best effort; MEV bots may occasionally reach the sequencer first                    | Bundle execution reduces external insertion between internal transactions     |
+| Execution result     | Depends on network latency, RPC status, sequencer arrival time, and pool conditions | Executes together according to the predefined bundle order                    |
+
+***
+
+## How to Choose Between V2 and V3 Liquidity Pools?
+
+<table><thead><tr><th width="134">Dimension</th><th>V2 Pool</th><th>V3 Pool</th></tr></thead><tbody><tr><td>Liquidity Distribution</td><td>Full-range coverage.</td><td>Concentrated liquidity (custom price ranges)</td></tr><tr><td>Capital Efficiency</td><td>Relatively low. Large amounts of capital sit idle at extreme prices without being effectively utilized.</td><td>Extremely high. Compared to V2, capital efficiency can be increased by up to 4,000 times.</td></tr><tr><td>User Threshold</td><td>Extremely low. Requires only entering the token amount and BNB ratio to create a pool with one click.</td><td>Relatively high. Requires manually setting and adjusting the upper and lower price limits of liquidity.</td></tr><tr><td>Fee Mechanism</td><td>Fixed 0.25% trading fee.</td><td>Provides multiple tier levels (e.g., 0.01%, 0.05%, 0.25%, 1%), customizable based on asset volatility.</td></tr><tr><td>Impermanent Loss Risk</td><td>Standard risk. Losses brought by asset price changes are relatively predictable.</td><td>Higher risk. Due to concentrated capital, if the price falls out of your set range, it will break through instantly.</td></tr><tr><td>Slippage Performance</td><td>Prone to causing larger slippage during large-volume trades.</td><td>Within the set liquidity range, slippage is extremely low, delivering an excellent trading experience.</td></tr><tr><td>Tokenomics Compatibility</td><td>Some tokens with complex mechanisms may encounter compatibility issues when deployed on V3.</td><td>Perfectly compatible with all types of tokens.</td></tr></tbody></table>
+
+***
+
+## Step by Step
+
+{% stepper %}
+{% step %}
+### **Connect Wallet**
+
+Click the button in the top right corner to connect a wallet that supports the EVM network.
+
+<figure><img src="../../../.gitbook/assets/image (1058).png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Enter Payment Wallet Private Key <a href="#enter-payment-wallet-private-key" id="enter-payment-wallet-private-key"></a>
+
+{% hint style="danger" %}
+<mark style="color:red;">**Security Tips**</mark>
+
+Currently supports private key import only. Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
+{% endhint %}
+
+This wallet address will be used to pay fees and will hold ownership of the pool.
+
+<figure><img src="../../../.gitbook/assets/image (1016).png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Enter Pool-Adding Token Addresses
+
+Input the token addresses into the boxes as the quote token and project token; there is no specific entry order.
+
+<figure><img src="../../../.gitbook/assets/image (1084).png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Enter Pool-Adding Token Amount
+
+<figure><img src="../../../.gitbook/assets/image (1085).png" alt=""><figcaption></figcaption></figure>
+
+Enter the token amounts of the two pool-adding tokens to be placed into the liquidity pool respectively. Please calculate the appropriate ratio yourself and determine the initial pair price before creating liquidity.
+
+Initial Pair Price: `Project Token / Quote Token = Initial Price`
+{% endstep %}
+
+{% step %}
+### Import Trading Wallet Private Key
+
+{% hint style="danger" %}
+<mark style="color:red;">**Security Tips**</mark>
+
+Currently supports private key import only. Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
+{% endhint %}
+
+Supports two import types for trading address private keys: "Manual Input" and "Upload File". Up to 20 addresses is supported.
+
+1. Click the **"Import Private Key"** button to open the input pop-up.
+
+<figure><img src="../../../.gitbook/assets/image (1086).png" alt=""><figcaption></figcaption></figure>
+
+2. Manually enter or import the private key file, and click confirm once the private key is displayed in the confirmation box.
+
+<figure><img src="../../../.gitbook/assets/image (1074).png" alt=""><figcaption></figcaption></figure>
+
+Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.\
+Click to download and view the template:
+
+{% file src="../../../.gitbook/assets/EVM_privateKey_demo.xlsx" %}
+{% endstep %}
+
+{% step %}
+### Enter Buy Amount
+
+Supports two trading amount types: **"Custom Input"**, and **"All"**.
+
+1. **Custom Input**\
+   Enter the transaction amount for each wallet individually.
+   * If an amount is filled in, the transfer will use that specific amount.
+   * If an amount is left blank, the transfer will default to the amount configured in the global settings.
+2. **All**\
+   Swaps the entire wallet balance into the target token.
+{% endstep %}
+
+{% step %}
+### **Confirm** <a href="#confirm" id="confirm"></a>
+
+After verifying all details, all applicable fees are displayed before execution.&#x20;
+
+Click the **"Start Swap"** button below and wait for the transaction process to complete.
+
+<figure><img src="../../../.gitbook/assets/image (1075).png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+{% endstepper %}
+
+***
+
+## FAQs
+
+<details>
+
+<summary><strong>What is Create V2 Liquidity Pool and Buy?</strong></summary>
+
+It is a two-stage launch tool that creates a Uniswap V2 liquidity pool on Robinhood Chain and triggers prepared multi-wallet buy transactions after the liquidity transaction is confirmed.
+
+</details>
+
+<details>
+
+<summary><strong>What is the difference between V2 and V3 liquidity?</strong></summary>
+
+V2 distributes liquidity across the full price curve. V3 allows liquidity to be concentrated within a selected price range, which may improve capital efficiency but requires more precise configuration and active position management.
+
+</details>
+
+<details>
+
+<summary><strong>Is this feature a Liquidity Bundler?</strong></summary>
+
+No. Under Robinhood Chain’s current transaction-submission model, liquidity creation and wallet buys cannot be combined into one atomic, ordered, same-block Bundle through CiaoTool.
+
+</details>
+
+<details>
+
+<summary><strong>Will liquidity creation and wallet buys enter the same block?</strong></summary>
+
+Not necessarily. The liquidity transaction must be confirmed before CiaoTool triggers the concurrent wallet buys. The buys may enter the next block, adjacent blocks, or different blocks.
+
+</details>
+
+<details>
+
+<summary><strong>Can an MEV or sniper bot buy before the configured wallets?</strong></summary>
+
+Yes. CiaoTool attempts to trigger wallet buys as soon as possible after liquidity confirmation, but a lower-latency MEV bot, sniper bot, or other user may occasionally reach the sequencer first.
+
+</details>
+
+<details>
+
+<summary><strong>What determines the initial V2 pool price?</strong></summary>
+
+The initial price is determined by the ratio between the deposited base-token amount and quote-token amount.
+
+</details>
+
+<details>
+
+<summary><strong>Why might wallet execution prices be different?</strong></summary>
+
+Each wallet submits an independent transaction. Pool state changes after every successful buy, while network latency, RPC response time, sequencer arrival order, slippage, and third-party transactions may affect execution.
+
+</details>
+
+<details>
+
+<summary><strong>How many buying wallets are supported?</strong></summary>
+
+CiaoTool supports up to 20 buying wallets per task.
+
+</details>
+
+<details>
+
+<summary><strong>How does CiaoTool protect imported private keys?</strong></summary>
+
+Private keys are processed locally in the browser and are not uploaded, transmitted, stored, logged, or written to Local Storage. Imported private-key data is cleared when the page is closed or refreshed.
+
+</details>
+
+<details>
+
+<summary><strong>Does CiaoTool guarantee a successful or bot-free token launch?</strong></summary>
+
+No. CiaoTool uses a best-effort strategy and cannot guarantee same-block execution, buy ordering, identical prices, complete MEV protection, token price, wallet-buy success, or launch results.
+
+</details>
+
+***
+
+## Contact Us
+
+**Need help? Join our community for real-time support:**
+
+<table data-header-hidden><thead><tr><th width="188"></th><th valign="top"></th><th data-hidden></th></tr></thead><tbody><tr><td>Email</td><td valign="top"><a href="mailto:ciaotoolglobal@gmail.com">ciaotoolglobal@gmail.com</a></td><td></td></tr><tr><td>Telegram</td><td valign="top"><a href="https://t.me/ciaotools">https://t.me/ciaotools</a></td><td></td></tr><tr><td>WhatsApp</td><td valign="top"><a href="https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J">https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J</a></td><td></td></tr></tbody></table>
+
+{% hint style="danger" %}
+CiaoTool is committed to providing convenient tooling services but does not offer any form of investment advice. Platform content may change with product iterations. Users are advised to exercise judgment and stay informed about updates.
+{% endhint %}
