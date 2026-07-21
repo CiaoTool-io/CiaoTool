@@ -217,8 +217,9 @@
     * [Robinhood - Batch Swap Guide](chains/robinhood/swap/batch-swap.md "Batch Swap")
     * [Robinhood - Multi-Address Concurrent Buy Guide](chains/robinhood/swap/multi-address-buy.md "Multi-Address Concurrent Buy")
     * [Robinhood - Multi-Address Concurrent Sell Guide](chains/robinhood/swap/multi-address-sell.md "Multi-Address Concurrent Sell")
-    * [Robinhood - Create V2 Liquidity Pool and Buy](chains/robinhood/swap/create-and-buy-v2.md "Create Liquidity and Buy「V2」")
-    * [Robinhood - Create V3 Liquidity Pool and Buy](chains/robinhood/swap/create-and-buy-v3.md "Create Liquidity and Buy「V3」")
+    * [Create Liquidity and Buy](chains/robinhood/swap/create-and-buy/README.md "Create Liquidity and Buy")
+      * [Robinhood - Create V2 Liquidity Pool and Buy](chains/robinhood/swap/create-and-buy/v2.md "V2")
+      * [Robinhood - Create V3 Liquidity Pool and Buy](chains/robinhood/swap/create-and-buy/v3.md "V3")
 
 ## Tools
 
