@@ -232,7 +232,7 @@ The platform uses a fully client-side signing mechanism. Your private key is nev
 
 ***
 
-## **Conncect Us**
+## **Contact Us**
 
 **Need help? Join our community for real-time support:**
 

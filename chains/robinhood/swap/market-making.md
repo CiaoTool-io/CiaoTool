@@ -237,7 +237,7 @@ After the condition is detected, the bot stops scheduling new transactions. Tran
 
 ***
 
-## Connect Us
+## Contact Us
 
 **Need help? Join our community for real-time support:**
 

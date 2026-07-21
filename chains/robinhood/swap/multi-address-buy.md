@@ -13,7 +13,7 @@ description: >-
 
 ## What is CiaoTool Robinhood Multi-Address Concurrent Buy?
 
-<figure><picture><source srcset="../../../.gitbook/assets/ScreenShot_2026-07-21_153825_863.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (1077).png" alt="CiaoTool Robinhood Chain Toolkit about Uniswap Bundled Buy Tool page"></picture><figcaption></figcaption></figure>
+<figure><picture><source srcset="../../../.gitbook/assets/ScreenShot_2026-07-21_153825_863.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (1077).png" alt="CiaoTool Robinhood Chain Toolkit about Uniswap Concurrent Buy Tool page"></picture><figcaption></figcaption></figure>
 
 CiaoTool Multi-Address Concurrent Buy is an automated multi-wallet buying tool designed for time-sensitive token purchases on Robinhood Chain.
 
@@ -33,7 +33,7 @@ This coordinated broadcast method helps reduce the time difference between walle
 
 ### Quick Start
 
-Start your Multi-Address Bundled Buy on Robinhood Chain with CiaoTool now:
+Start your Multi-Address Concurrent Buy on Robinhood Chain with CiaoTool now:
 
 {% embed url="https://robinhood.ciaotool.io/en/swap/v2/multi-address-buy-v2" %}
 
@@ -66,7 +66,11 @@ Therefore, CiaoTool uses a coordinated concurrent broadcast strategy:
 5. Submit each signed transaction independently to Robinhood Chain.
 6. Track the result of each transaction separately.
 
-{% hint style="info" %}
+{% hint style="warning" %}
+**Best-Effort Execution**
+
+Concurrent Buy is a best-effort broadcast strategy. CiaoTool triggers multiple transaction broadcasts within a narrow time window, but it cannot guarantee identical arrival times, predefined ordering, same-block inclusion, or execution before MEV bots.
+
 Transactions broadcast through Concurrent Buy may enter the same block, adjacent blocks, or different blocks. The final arrival time, execution order, and confirmation result depend on multiple factors, including the user’s network speed and latency, device and browser performance, RPC response time and availability, current Robinhood Chain activity, block timing, sequencer load, and pool conditions.
 
 Network or RPC delays may cause some wallet transactions to reach the Robinhood Chain sequencer later than others, even when CiaoTool triggers their broadcasts at nearly the same time.
@@ -74,7 +78,7 @@ Network or RPC delays may cause some wallet transactions to reach the Robinhood 
 
 ### Differ in Bundle
 
-<table><thead><tr><th width="132">Feature</th><th>Concurrent Buy</th><th>Bundled Buy</th></tr></thead><tbody><tr><td>Submission method</td><td>Multiple independent transactions are broadcast within a narrow time window</td><td>Multiple transactions are packaged and submitted as one bundle</td></tr><tr><td>Transaction ordering</td><td>Not guaranteed; determined by when each transaction reaches the sequencer</td><td>Preserves the predefined internal transaction order</td></tr><tr><td>Same-block execution</td><td>Not guaranteed; transactions may enter the same, adjacent, or different blocks</td><td>Yes; all bundled transactions execute within the same block</td></tr><tr><td>Atomic execution</td><td>No; every wallet transaction is independent</td><td>Yes; the bundle is executed atomically</td></tr><tr><td>Failure handling</td><td>Each transaction may succeed or fail independently</td><td>All transactions must succeed; one failure causes the entire bundle to revert</td></tr><tr><td>Transaction hash</td><td>Each wallet has an independent transaction hash</td><td>Each transaction remains traceable within the bundled execution</td></tr><tr><td>MEV protection</td><td>Best effort; MEV bots may occasionally reach the sequencer first</td><td>Bundle execution reduces external insertion between internal transactions</td></tr><tr><td>Execution result</td><td>Depends on network latency, RPC status, sequencer arrival time, and pool conditions</td><td>Executes together according to the predefined bundle order</td></tr></tbody></table>
+<table><thead><tr><th width="132">Feature</th><th>Concurrent Buy</th><th>Bundled Buy</th></tr></thead><tbody><tr><td>Submission method</td><td>Multiple independent transactions are broadcast within a narrow time window</td><td>Multiple transactions are packaged and submitted as one bundle</td></tr><tr><td>Transaction ordering</td><td>Not guaranteed; determined by when each transaction reaches the sequencer</td><td>Preserves the predefined internal transaction order</td></tr><tr><td>Same-block execution</td><td>Not guaranteed; transactions may enter the same, adjacent, or different blocks</td><td>Yes; all bundled transactions execute within the same block</td></tr><tr><td>Atomic execution</td><td>No; every wallet transaction is independent</td><td>Yes; the bundle is executed atomically</td></tr><tr><td>Failure handling</td><td>Each transaction may succeed or fail independently</td><td>All transactions must succeed; one failure causes the entire bundle to revert</td></tr><tr><td>MEV protection</td><td>Best effort; MEV bots may occasionally reach the sequencer first</td><td>Bundle execution reduces external insertion between internal transactions</td></tr><tr><td>Execution result</td><td>Depends on network latency, RPC status, sequencer arrival time, and pool conditions</td><td>Executes together according to the predefined bundle order</td></tr></tbody></table>
 
 ***
 
@@ -82,7 +86,7 @@ Network or RPC delays may cause some wallet transactions to reach the Robinhood 
 
 {% stepper %}
 {% step %}
-#### **Connect Wallet** <a href="#connect-wallet" id="connect-wallet"></a>
+### **Connect Wallet** <a href="#connect-wallet" id="connect-wallet"></a>
 
 Click the button in the top right corner to connect a wallet that supports the EVM network.
 
@@ -144,7 +148,7 @@ Click to download and view the template:
 Supports two trading amount types: **"Custom Input"**, and **"All"**.
 
 1. **Custom Input**\
-   Enter the transfer amount for each wallet individually.
+   Enter the transaction amount for each wallet individually.
    * If an amount is filled in, the transfer will use that specific amount.
    * If an amount is left blank, the transfer will default to the amount configured in the global settings.
 2. **All**\
@@ -230,7 +234,7 @@ Private keys are processed locally in the browser and are not uploaded, transmit
 
 </details>
 
-## **Connect Us**
+## **Contact Us**
 
 **Need help? Join our community for real-time support:**
 
