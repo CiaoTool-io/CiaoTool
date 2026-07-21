@@ -161,25 +161,47 @@ Click the **"Start Swap"** button below and wait for the transaction process to 
 
 <details>
 
-<summary><strong>What is Robinhood Market Making?</strong></summary>
+<summary><strong>Which Uniswap versions does CiaoTool support on Robinhood Chain?</strong></summary>
 
-This feature automates Uniswap trades across multiple addresses to boost token and market attention. By using randomized intervals, it closely simulates organic market behavior to deliver natural data performance.
-
-</details>
-
-<details>
-
-<summary><strong>Can it be paused at any time during operation?</strong></summary>
-
-Yes, CiaoTool is a pure front-end developer tool; refreshing the current page will immediately stop and close the process.
+CiaoTool supports eligible Uniswap V2 and V3 liquidity pools on Robinhood Chain. V2 and V3 use different pool-selection methods, so select the page matching your target pool before starting.
 
 </details>
 
 <details>
 
-<summary><strong>Why is using multiple wallets recommended for market making?</strong></summary>
+<summary><strong>What is the difference between the V2 and V3 Market Making tools?</strong></summary>
 
-It can effectively optimize the token holder distribution and simulate real user transactions.
+For V2, users generally select the tokens and corresponding V2 trading pair.
+
+For V3, users must enter the exact pool address because the same token pair may have multiple pools with different fee tiers. Each V3 pool has a unique contract address.
+
+</details>
+
+<details>
+
+<summary><strong>How do I find the correct Uniswap V3 pool address?</strong></summary>
+
+Find the pool through the official Uniswap interface or the Robinhood Chain block explorer. Before continuing, verify both token contract addresses, the pool fee tier, and the pool address displayed by CiaoTool.
+
+Do not use an address received from an unverified message, advertisement, or social media account.
+
+</details>
+
+<details>
+
+<summary><strong>How many trading wallets can I import?</strong></summary>
+
+CiaoTool currently supports importing up to 20 trading wallets per task through manual input or a compatible private-key file.
+
+</details>
+
+<details>
+
+<summary><strong>Why are a payment wallet and trading wallets required?</strong></summary>
+
+The payment wallet is used to pay applicable CiaoTool service fees.
+
+Trading wallets are used to execute Swap transactions and must contain the assets being traded and enough ETH to pay Robinhood Chain Gas fees.
 
 </details>
 
@@ -191,7 +213,29 @@ The platform uses a fully client-side signing mechanism. Your private key is nev
 
 </details>
 
+<details>
+
+<summary><strong>What happens if I close or refresh the page?</strong></summary>
+
+The automation runs in the active browser session. Closing or refreshing the page stops CiaoTool from scheduling new transactions.
+
+Transactions that have already been submitted to Robinhood Chain may still be confirmed. Closing the page does not reverse confirmed transactions or guarantee the cancellation of pending transactions.
+
+</details>
+
+<details>
+
+<summary><strong>How do the stop conditions work?</strong></summary>
+
+CiaoTool supports stopping new task execution based on a configured run count or price boundary.
+
+After the condition is detected, the bot stops scheduling new transactions. Transactions that have already been submitted or confirmed are not reversed.
+
+</details>
+
 ***
+
+## Connect Us
 
 **Need help? Join our community for real-time support:**
 
