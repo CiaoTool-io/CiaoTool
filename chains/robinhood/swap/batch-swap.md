@@ -135,6 +135,23 @@ Supports three trading amount types: **"Fixed Amount"**, **"Fixed Retain"**, and
 {% endstep %}
 
 {% step %}
+### Trading Setting
+
+{% hint style="info" %}
+V2 / V3 layouts vary slightly. (Skip this step for V3).
+{% endhint %}
+
+<figure><img src="../../../.gitbook/assets/image (1076).png" alt=""><figcaption></figcaption></figure>
+
+**Slippage**\
+Set max slippage percentage.\
+The gap between execution and expected price. Too low may cause failed trades; too high exposes you to large price fluctuations.
+
+**Timeout**\
+The maximum duration allowed for a trade to execute before the pending swap is cancelled.
+{% endstep %}
+
+{% step %}
 ### **Confirm** <a href="#confirm" id="confirm"></a>
 
 After verifying all details, all applicable fees are displayed before execution.&#x20;
