@@ -220,7 +220,7 @@
     * [Create Liquidity Pool and Multi-Address Concurrent Buy on Robinhood](chains/robinhood/swap/create-and-buy/README.md "Create Liquidity and Buy")
       * [Robinhood - Create V2 Liquidity Pool and Buy](chains/robinhood/swap/create-and-buy/v2.md "V2")
       * [Robinhood - Create V3 Liquidity Pool and Buy](chains/robinhood/swap/create-and-buy/v3.md "V3")
-    * [Create Uniswap Liquidity Pool on Robinhood Chain](chains/robinhood/swap/create-liquidity-pool/README.md "Create Liquidity Pool")
+    * [Create Uniswap Liquidity Pool on Robinhood Chain](chains/robinhood/swap/create-liquidity-pool.md "Create Liquidity Pool")
       * [Robinhood - Create V2 Liquidity Pool](chains/robinhood/swap/create-liquidity-pool/v2.md "V2")
       * [Robinhood - Create V3 Liquidity Pool](chains/robinhood/swap/create-liquidity-pool/v3.md "V3")
 
