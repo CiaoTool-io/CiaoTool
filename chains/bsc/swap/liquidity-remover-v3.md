@@ -8,7 +8,7 @@ description: >-
 # BSC - V3 Liquidity Remover Tutorial
 
 {% hint style="info" %}
-This page covers **PancakeSwap V3 Liquidity Remover**, which removes V2 liquidity to recover funds.
+This page covers **PancakeSwap V3 Liquidity Remover**, which removes V3 liquidity to recover funds.
 
 If you want to remove V2 liquidity and recover funds, please refer to the [**PancakeSwap V2 Liquidity Remover guide**](liquidity-remover-v2.md).
 {% endhint %}
