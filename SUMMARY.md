@@ -225,6 +225,7 @@
       * [Robinhood - Create V3 Liquidity Pool](chains/robinhood/swap/create-liquidity-pool/v3.md "V3")
     * [Add Liquidity](chains/robinhood/swap/add-liquidity/README.md "Liquidity Adder")
       * [Robinhood - V2 Liquidity Pool Adder Tutorial](chains/robinhood/swap/add-liquidity/v2.md "V2")
+      * [Robinhood - V3 Liquidity Pool Adder Tutorial](chains/robinhood/swap/add-liquidity/v3.md "V3")
 
 ## Tools
 
