@@ -13,7 +13,7 @@ description: >-
 
 ## What is CiaoTool Robinhood Batch Swap? <a href="#what-is-coinfactory-solana-multisender" id="what-is-coinfactory-solana-multisender"></a>
 
-<figure><picture><source srcset="../../../.gitbook/assets/屏幕截图 2026-07-21 140848.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (1069).png" alt="CiaoTool Robinhood Chain Toolkit about Uniswap Batch Swap Tool page"></picture><figcaption></figcaption></figure>
+<figure><picture><source srcset="../../../.gitbook/assets/屏幕截图 2026-07-21 140848.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/ScreenShot_2026-07-23_141346_461.png" alt="CiaoTool Robinhood Chain Toolkit about Uniswap Batch Swap Tool page"></picture><figcaption></figcaption></figure>
 
 CiaoTool Robinhood Chain Batch Swap is a multi-wallet trading tool that allows users to execute the same buy or sell task across multiple user-controlled wallets.
 
