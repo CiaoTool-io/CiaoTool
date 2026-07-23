@@ -65,7 +65,7 @@ Click the button in the top right corner to connect a wallet that supports the E
 Currently supports private key import only. Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
 {% endhint %}
 
-This wallet address will be used for tool fee payments. Ensure this address holds the required pool permissions.
+Enter the private key of a wallet with pool management authority. The associated operation fees will be paid by this wallet.
 
 <figure><img src="../../../.gitbook/assets/image (1024).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
