@@ -44,6 +44,16 @@ Built for PancakeSwap, it simplifies complex market-making into a one-click auto
 
 ***
 
+## Tutorial Video
+
+{% hint style="info" %}
+If you prefer video tutorials, this feature follows a similar layout and workflow to the PancakeSwap page. You can refer to and watch this tutorial.
+{% endhint %}
+
+{% embed url="https://www.youtube.com/watch?pp=0gcJCaMLAYcqIYzv&v=BwBf5yPNkeo" %}
+
+***
+
 ## Step by Step
 
 {% stepper %}

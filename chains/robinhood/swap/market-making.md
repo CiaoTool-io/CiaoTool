@@ -44,6 +44,12 @@ With multi-wallet automation, secure local browser signing, flexible amount mode
 
 ***
 
+## Tutorial Video
+
+{% embed url="https://www.youtube.com/watch?pp=0gcJCaMLAYcqIYzv&v=BwBf5yPNkeo" %}
+
+***
+
 ## Step by Step
 
 {% stepper %}

@@ -44,6 +44,12 @@ CiaoTool provides a professional asset allocation solution for EVM networks, bal
 
 ***
 
+## **Tutorial Video**
+
+{% embed url="https://www.youtube.com/watch?v=eBuVimEcJoI" %}
+
+***
+
 ## **Step by Step**
 
 {% stepper %}
