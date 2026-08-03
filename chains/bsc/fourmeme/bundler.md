@@ -8,7 +8,7 @@ description: >-
 # Fourmeme - Bundler Tutorial (Create & Buy)
 
 {% hint style="info" %}
-**CiaoTool Fourmeme Bundler** fully supports all quote tokens, including **BNB, USD1 and UUSD**. Please switch to the specific token page to perform token launch operations based on your needs.&#x20;
+**CiaoTool Fourmeme Bundler** fully supports all quote tokens, including **BNB, USD1, UUSD and NVDAb**. Please switch to the specific token page to perform token launch operations based on your needs.&#x20;
 {% endhint %}
 
 ## What is CiaoTool Fourmeme Bundler?
