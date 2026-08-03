@@ -9,10 +9,10 @@ description: >-
 
 ## Multisender
 
-* [**One-to-Multi Transfer**](https://opbnb.ciaotool.io/en/transfer/one-to-many)**:** 0.00008 BNB / address
-* [**Batch One-to-Multi Transfer**](https://opbnb.ciaotool.io/en/transfer/one-to-many-multi)**:** 0.00008 BNB / address
-* [**Multi-to-One Transfer**](https://opbnb.ciaotool.io/en/transfer/many-to-one)**:** 0.00008 BNB / address
-* [**Multi-to-Multi Transfer**](https://opbnb.ciaotool.io/en/transfer/many-to-many)**:** 0.00008 BNB / address
+* [**One-to-Multi Transfer**](https://opbnb.ciaotool.io/en/transfer/one-to-many)**:** ~~0.00008 BNB / address~~ FREE
+* [**Batch One-to-Multi Transfer**](https://opbnb.ciaotool.io/en/transfer/one-to-many-multi)**:** ~~0.00008 BNB / address~~ FREE
+* [**Multi-to-One Transfer**](https://opbnb.ciaotool.io/en/transfer/many-to-one)**:** ~~0.00008 BNB / address~~ FREE
+* [**Multi-to-Multi Transfer**](https://opbnb.ciaotool.io/en/transfer/many-to-many)**:** ~~0.00008 BNB / address~~ FREE
 
 ***
 
