@@ -115,6 +115,12 @@ For V2, select or enter the market-making token addresses in the token input box
 <figure><img src="../../../.gitbook/assets/image (1078).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (1079).png" alt=""><figcaption></figcaption></figure>
+
+**Can’t find the V3 Pool Address?**
+
+{% content-ref url="../../../start/find-v3-token-pair-address.md" %}
+[find-v3-token-pair-address.md](../../../start/find-v3-token-pair-address.md)
+{% endcontent-ref %}
 {% endstep %}
 
 {% step %}

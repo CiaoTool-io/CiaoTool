@@ -86,6 +86,12 @@ Unlike V2 liquidity pools, each V3 liquidity pool with a different token pair an
 Click the center arrow to quickly flip the swap direction.
 
 <figure><img src="../../../.gitbook/assets/image (981).png" alt=""><figcaption></figcaption></figure>
+
+**Can’t find the V3 Pool Address?**
+
+{% content-ref url="../../../start/find-v3-token-pair-address.md" %}
+[find-v3-token-pair-address.md](../../../start/find-v3-token-pair-address.md)
+{% endcontent-ref %}
 {% endtab %}
 {% endtabs %}
 {% endstep %}

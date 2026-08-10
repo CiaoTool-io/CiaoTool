@@ -400,6 +400,7 @@
 * [The Beginner Guide to Token Creation](start/basic-guide.md)
 * [How Should Token Liquidity Be Allocated?](start/liquidity-configuration.md)
 * [How to Get a Token Logo Displayed?](start/update-logo.md)
+* [How to Find a V3 Pool Address | CiaoTool Guide](start/find-v3-token-pair-address.md "How to Find a V3 Pool Address")
 
 ## service
 
