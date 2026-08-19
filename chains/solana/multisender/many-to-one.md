@@ -1,190 +1,187 @@
 ---
-description: >-
-  Conveniently consolidate SOL or SPL tokens scattered across multiple accounts
-  into a single master account, improving fund management efficiency while
-  reducing transaction costs and time.
+description: 方便快捷地将分散在多个账户中的 SOL 或 SPL 代币统一归集到一个主账户，提高资金管理的效率，同时减少交易成本和时间。
 ---
 
-# Solana - Multisender | Multi-to-One Transfer Tutorial
+# Solana - 批量转账 | 多对一转账教程
 
 {% hint style="info" %}
-You are currently on the **"Solana - Multi-to-One Transfer"** tutorial page.
-
-Click [**"EVM - Multi-to-One Transfer"**](../../../tools/multisender/multi-to-one/many-to-one.md) to view multisender tutorials for EVM networks such as BSC, opBNB, Base, X Layer, IoTeX, and BOT Chain.
+当前&#x662F;**「Solana 多对一转账」**&#x6559;程页面，点击[**「EVM - 多对一转账」**](../../../tools/multisender/multi-to-one/many-to-one.md)以查看 BSC、opBNB、Base、X Layer、IoTeX、BOT 等 EVM 网络多对一转账教程
 {% endhint %}
 
-## What is CiaoTool Solana Multi-to-One Transfer?
+## CiaoTool Solana 多对一转账是什么？ <a href="#definition" id="definition"></a>
 
-<figure><img src="../../../.gitbook/assets/image (687).png" alt="CiaoTool Solana Toolkit Page about Multi-to-One Transfer Feature"><figcaption></figcaption></figure>
+**CiaoTool Solana 多对一转账**是一款简单高效的工具，可让您一次性将多个钱包地址的 **SOL（原生代币）**&#x6216;**任何 SPL 代币**归集到单一钱包地址。与逐笔发送交易不同，多对一转账可自动执行批量转账，从而节省时间、减少人为错误，并简化钱包归集的代币转账流程。
 
-**CiaoTool Solana Multi-to-One Transfer** is a simple and efficient tool that allows you to consolidate SOL (native token) or any SPL token from multiple wallet addresses into a single address at once. Unlike manual, transaction-by-transaction transfers, this feature automates the process, saving time, reducing human error, and streamlining the token consolidation workflow.
+立即在 Solana 上，用 CiaoTool​ 批量转账功能进行多对一转账操作：
 
-Start your Multi-to-One Transfer on Solana with CiaoTool now:
-
-{% embed url="https://ciaotool.io/en-US/transfer/many-to-one" %}
+{% embed url="https://ciaotool.io/zh-CN/transfer/many-to-one" %}
 
 ***
 
-## Why Choose CiaoTool Multi-to-One Transfer?
+## 为什么选择 CiaoTool 多对一转账？ <a href="#advantage" id="advantage"></a>
 
-CiaoTool provides the fastest and most reliable way to consolidate tokens on Solana. Whether you are aggregating funds from market-making wallets, reallocating capital, or sweeping idle balances, its bulk transfer feature ensures accuracy, scalability, and a smooth user experience.
+**CiaoTool** 提供了一种在 Solana 上归集代币最快捷、最可靠的方式。无论您是归集做市钱包资金，资金归集重新分配还是归集闲置资金，其批量转账功能都能确保准确性、可扩展性和流畅的用户体验。
 
-Supporting **SOL and SPL tokens**, file imports, and automatic batching, it is an essential tool for any Web3 project operating on Solana.
+它支持 **SOL 和 SPL 代币**、文件导入和自动批处理，是任何在 Solana 上运行的 Web3 项目必不可少的工具。
 
 ***
 
-## **Step by Step | Solana Multisender - Multi-to-One Transfer**
+## **图文指南 | Solana 批量转账 - 多对一转账**&#x20;
 
 {% stepper %}
 {% step %}
-### Connect Wallet
+### **绑定钱包**
 
-Click the button in the top right corner to connect a wallet that supports the Solana network.
+点击右上角按钮，绑定支持 Solana 链的钱包
 
-<figure><img src="../../../.gitbook/assets/image (688).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (256).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Select a Token to Send
+### 选择转账代币
 
-You can choose SOL or any SPL token currently held in your wallet for transfer.
+可以选择 SOL，也可以选择当前钱包拥有的代币进行转账。
 
-<figure><img src="../../../.gitbook/assets/image (690).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (258).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Input Sending Wallet Private Key
+### 导入转账钱包私钥
 
 {% hint style="danger" %}
-Currently supports private key import only. Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
+**「多对一转账」**&#x529F;能仅支持私钥导入以进行转账操作。请确保在安全环境下输入私钥信息，您的资金安全对我们来说至关重要，[**了解更多 CiaoTool 如何保障您的资金安全：资金安全保障**](../../../security-guide.md)**。**
 {% endhint %}
 
-Supports two methods for importing sending private key: **"Manual Input"** and **"Upload File"**. Select an option to view the detailed tutorial.
+支&#x6301;**「手动输入」**&#x548C;**「上传文件」**&#x4E24;种导入转账地址私钥的类型，选择以查看详细教程
 
 {% tabs %}
-{% tab title="Manual Input" %}
-1. Click the "Manual Input" button to open the input field.
+{% tab title="手动输入" %}
+1. 点&#x51FB;**「手动输入」**&#x6309;钮，弹出手动输入框。
 
-<figure><img src="../../../.gitbook/assets/image (691).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (260).png" alt=""><figcaption></figcaption></figure>
 
-2. Enter / bulk paste private keys, one private key per line. Press Enter to start a new line.
+<figure><img src="../../../.gitbook/assets/image (320).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (695).png" alt=""><figcaption></figcaption></figure>
+2. 输入 / 批量粘贴**钱包私钥，**&#x4E00;行仅输入一个私钥，按回车键换行
 
-3. Click **"OK"** to import all entered addresses into the operation panel.
+<figure><img src="../../../.gitbook/assets/image (263).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (696).png" alt=""><figcaption></figcaption></figure>
+3. 点&#x51FB;**「确定」**，将所有输入地址导入到操作面板
+
+<figure><img src="../../../.gitbook/assets/image (264).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
-{% tab title="Upload File" %}
-1. Click the **"Upload File"** button to open the file upload window.
+{% tab title="上传文件" %}
+1. 点&#x51FB;**「上传文件」**&#x6309;钮，弹出文件上传窗口。
 
-<figure><img src="../../../.gitbook/assets/image (692).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (262).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (693).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (251).png" alt=""><figcaption></figcaption></figure>
 
-2. Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.   \
-   Click to download and view the template:
+2. 导入钱包私钥信息文件，显示私钥信息。\
+   请通过 CiaoTool 模板文件导入，以确保私钥准确导入。
 
 {% file src="../../../.gitbook/assets/Solana_privateKey_demo.xlsx" %}
 
-<figure><img src="../../../.gitbook/assets/image (698).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (247).png" alt=""><figcaption></figcaption></figure>
 
-3. Click **"OK"** to import all entered addresses into the operation panel.
+3. 点&#x51FB;**「确定」**，将所有输入地址导入到操作面板
 
-<figure><img src="../../../.gitbook/assets/image (697).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (264).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 {% endstep %}
 
 {% step %}
-### Enter Transfer Amount
+### 输入转账金额
 
-<figure><img src="../../../.gitbook/assets/image (699).png" alt=""><figcaption></figcaption></figure>
+点击归集数量上方&#x7684;**「设置」**&#x6309;&#x94AE;**，**&#x652F;&#x6301;**「全部」「归集数量」**&#x548C;**「保留数量」**&#x4E09;种转账金额类型。
 
-Click the "Set" button above the Collect Amount to choose from three transfer modes: **"All"**, **"Collect Amount"**, and **"Retain Amount"**.
-
-1. **All**\
-   Quickly consolidate all of a specific token from your wallets to one address with no extra steps.
-2. **Collect Amount**\
-   Consolidate a uniform amount from all selected wallets.
-3. **Retain Amount**\
-   Ensure a fixed amount remains in each wallet for future use.
+1. **全部**\
+   无需额外操作，方便快捷将钱包所有该代币归集到同一地址
+2. **归集数量**\
+   统一全部待归集钱包的转账金额数量
+3. **保留数量**\
+   确保每个钱包有固定留存，以便后续继续使用
 {% endstep %}
 
 {% step %}
-### Enter Payment Wallet Private Key
+### 输入支付钱包私钥
 
-Import the private key; this wallet will be used to pay the transaction fees for this operation.
+导入私钥，该次使用功能的手续费将由该钱包支付。
 
-<figure><img src="../../../.gitbook/assets/image (700).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (265).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Enter Recipient Wallet Address
+### 输入接收钱包地址
 
-Specify the consolidation recipient address by entering a wallet address or selecting your currently bound wallet.
+指定归集接收地址，输入钱包地址或选定当前绑定钱包
 
-<figure><img src="../../../.gitbook/assets/image (701).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (266).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### **Confirm**
+### 确认交易
 
-After verifying all details, click the **"Start Collction"** button below and wait for the transaction process to complete.
+确认信息无误后，点击下方「**确认转账**」按钮，并等待转账程序完成。
 {% endstep %}
 {% endstepper %}
 
 ***
 
-## **FAQs**
+## **常见问题 FAQ**
 
 <details>
 
-<summary>What is Multi-to-One Bulk Transfer?</summary>
+<summary><strong>什么是多对一批量转账？</strong></summary>
 
-Multi-to-One consolidation refers to transferring tokens held in multiple wallet addresses into a single master address, facilitating centralized asset management and unified capital allocation.
+多对一批量归集指将多个钱包地址中持有的代币统一转入一个主地址，**便于集中管理资产、统一调配资金**。
 
 </details>
 
 <details>
 
-<summary>How do I import sending addresses?</summary>
+<summary><strong>如何导入接收地址？</strong></summary>
 
-You can either manually enter addresses or upload a CSV file to import a list of sending addresses. The system will automatically recognize and display a preview.
-
-</details>
-
-<details>
-
-<summary><strong>Is the operation secure?</strong></summary>
-
-CiaoTool uses a fully client-side signing mechanism. Your private key is never uploaded or stored on any server, and all transactions are signed locally in your browser. This ensures, at a technical level, that the platform has no access to your private key.
+你可以手动输入地址，也可以上传 CSV 文件导入目标地址列表，系统会自动识别并展示预览。
 
 </details>
 
 <details>
 
-<summary><strong>How many addresses can be sent at once?</strong></summary>
+<summary><strong>操作是否安全？</strong></summary>
 
-Using the private key import mode, the Multi-to-One Transfer feature eliminates the hassle of signing for every individual wallet, with no limit on the number of sending addresses.
+平台采用纯前端签名机制，您的私钥绝不会被上传或储存在任何服务器上，所有交易均在本地浏览器完成签名，从技术层面确保平台无法访问您的私钥。
 
 </details>
 
 <details>
 
-<summary><strong>Can I send multiple types of tokens at the same time?</strong></summary>
+<summary><strong>一次可以多少个地址转账？</strong></summary>
 
-The current version supports selecting a single SPL token or SOL for multisender. For multiple asset consolidation, you can perform the operation multiple times.
+得益于私钥导入的模式，多对一转账功能免除了逐一钱包签署的繁复工作，发送地址没有任何数量限制。
 
 </details>
 
-***
+<details>
 
-**Need help? Join our community for real-time support:**
+<summary><strong>可以同时转多种代币吗？</strong></summary>
 
-<table data-header-hidden><thead><tr><th width="188"></th><th valign="top"></th><th data-hidden></th></tr></thead><tbody><tr><td>Email</td><td valign="top"><a href="mailto:ciaotoolglobal@gmail.com">ciaotoolglobal@gmail.com</a></td><td></td></tr><tr><td>Telegram</td><td valign="top"><a href="https://t.me/ciaotools">https://t.me/ciaotools</a></td><td></td></tr><tr><td>WhatsApp</td><td valign="top"><a href="https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J">https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J</a></td><td></td></tr></tbody></table>
+当前版本支持选择单一 SPL 代币或 SOL 进行批量转账；如需多种资产归集，可多次执行操作。
+
+</details>
+
+**💬 如遇到问题？加入社群实时咨询**：[https://t.me/ciaotool](https://t.me/ciaotool)
+
+* **Email**：[support@ciaotool.io](mailto:support@ciaotool.io)
+* **官网**：[https://ciaotool.io](https://ciaotool.io/)
+* **X（Twitter）**：[https://x.com/CiaoTool](https://x.com/CiaoTool)
+* **Medium**： [https://medium.com/@ciaotool](https://medium.com/@ciaotool)
+* **Blog**：[https://www.ciaoailiquidity.com/zh/blog](https://www.ciaoailiquidity.com/zh/blog)
+* **YouTube**：[https://www.youtube.com/@CiaoTool](https://www.youtube.com/@CiaoTool)
+* **WhatsApp**：[https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J](https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J)
 
 {% hint style="danger" %}
-CiaoTool is committed to providing convenient tooling services but does not offer any form of investment advice. Platform content may change with product iterations. Users are advised to exercise judgment and stay informed about updates.
+CiaoTool 致力于提供便捷的工具服务，但不构成任何投资建议。平台内容可能根据产品迭代进行调整，敬请用户自行判断并留意更新。
 {% endhint %}

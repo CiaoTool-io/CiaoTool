@@ -2,6 +2,6 @@
 icon: '3'
 ---
 
-# Liquidity Adder
+# 添加流动性
 
 功能开发中...

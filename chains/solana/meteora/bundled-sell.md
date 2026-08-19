@@ -1,150 +1,147 @@
 ---
 description: >-
-  Custom-built for Meteora, this bundled sell tool aggregates multi-address
-  sales within the same block—securely minimizing MEV sandwich risks and
-  optimizing team asset exit efficiency.
+  专为 Meteora 打造的高效批量卖出工具，通过同区块聚合执行多地址卖出，有效降低 MEV
+  夹击风险与资金损耗，优化团队资产出仓效率，是保障交易成本效益的专业利器。
 ---
 
-# Meteora - Multi-Address Bundled Sell Tutorial
+# Meteora - 多地址捆绑卖出教程
 
-## What is CiaoTool Meteora Multi-Address Bundled Sell?
+## CiaoTool Meteora 多地址捆绑卖出是什么？
 
-<figure><img src="../../../.gitbook/assets/image (865).png" alt="CiaoTool Solana Toolkit Page about Meteora Multi-address Bundled Sell Feature"><figcaption></figcaption></figure>
+**CiaoTool Meteora 多地址捆绑卖出**是一款专注于交易执行优化与链上流动性管理的高阶工具。它允许您通过底层智能聚合技术，在同一个区块内，自动让多个独立钱包同步完成 Pump.fun 上的代币批量卖出操作。&#x20;
 
-**CiaoTool Meteora Multi-Address Bundled Sell** is an advanced tool focusing on trade execution optimization and on-chain market making. Utilizing underlying smart aggregation technology, it allows you to automatically enable multiple independent wallets to synchronously complete batch token sell operations on **Meteora** within the exact same block.
+相较于传统的分批手动交易，多地址捆绑卖出的核心优势在于有效降低 MEV 机器人的干扰与资金损耗。系统将多笔交易聚合于同一区块执行，最大程度减少交易“被夹”的风险，保障交易的成本效益。这不仅能显著提升批量出仓的执行效率，更能帮助团队安全、稳健地管理代币的链上流动性，是执行进阶做市与流动性调整策略的关键利器。 ​ 此工具尤其适用于：
 
-Compared to conventional batch manual trading, the core advantage of Multi-address Bundled Sell lies in effectively reducing MEV bot interference and capital attrition. By aggregating multiple transactions into the same block for execution, the system minimizes the risk of transactions being "sandwiched" to the greatest extent, ensuring the cost-effectiveness of the trades. This not only significantly enhances the execution efficiency of batch position exits, but also helps teams securely and steadily manage token on-chain liquidity, serving as a critical tool for executing advanced market making and liquidity adjustment strategies.
+* 专业做市的资产变现与流动性安全平仓
+* 降低多钱包批量卖出时的滑点与 MEV 夹击风险
+* 安全、稳健地管理及调整代币的链上分布状态
+* 提升多地址链上资产配置与资金回笼的整体效率
 
-Key Use Cases:
+立即在 Meteora 上，用 CiaoTool 进行多地址捆绑卖出操作：
 
-* Asset liquidation and secure position closing in professional market making.
-* Reducing slippage and MEV sandwich risks during multi-wallet batch selling.
-* Securely and steadily managing and adjusting the on-chain distribution status of tokens.
-* Enhancing the overall efficiency of multi-address on-chain asset allocation and capital repatriation.
-
-Start your Multi-address Bundled Sell on Meteora with CiaoTool now:
-
-{% embed url="https://ciaotool.io/en-US/meteora/multi-address-sell" %}
+{% embed url="https://ciaotool.io/zh-CN/meteora/multi-address-sell" %}
 
 ***
 
-## Why Choose CiaoTool Meteora Multi-Address Bundled Sell?
+## 为什么选择 CiaoTool Meteora 多地址捆绑卖出？
 
-CiaoTool offers a professional Meteora liquidity solution, balancing execution efficiency with cost protection. Whether for asset liquidation, evading MEV sandwich attacks, or managing on-chain liquidity, its Multi-address Bundled Sell leverages same-block smart aggregation to eliminate manual account-switching, saving valuable operational time.
-
-* Anti-MEV & Low Slippage: Custom-built for Solana to minimize slippage attrition and completely block interference from predatory on-chain bots.
-* Automated Batching: Powering efficient multi-wallet asset liquidation and fast exiting without tedious manual address management.
-* Elite Tooling: Serving as an indispensable liquidity management weapon for Web3 project parties and professional teams.
+**CiaoTool** 为 **Meteora** 上的资产管理与流动性调整提供了一种兼顾效率与成本保护的专业方案。无论您是执行专业做市的资产变现、规避 MEV 夹击的批量卖出交易，还是稳健地管理代币的链上流动性，其多地址捆绑卖出功能都能通过同区块智能聚合技术，免去您在繁琐流程中频繁更换钱包地址的操作麻烦，成倍节省宝贵的运营时间，全方位保障交易的成本效益与执行安全。\
+​\
+专为 **Meteora** 交易环境打造，它能最大程度降低滑点损耗与链上机器人的干扰。结合自动化批处理引擎，它在免除人工换号操作的同时，极大提升了多钱包资产变现的效率，是 Web3 项目方和专业团队不可或缺的流动性管理利器。
 
 ***
 
-## **Step by Step |** Meteora Multi-Address Bundled Sell
+## **图文指南 |** Meteora 多地址捆绑卖出
 
 {% stepper %}
 {% step %}
-### Connect Wallet
+### **绑定钱包**
 
-Click the button in the top right corner to connect a wallet that supports the Solana network.
+点击右上角按钮，绑定支持 Solana 链的钱包
 
-<figure><img src="../../../.gitbook/assets/image (836).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (308).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Select a Token to Sell
+### 选择卖出代币
 
-You can choose to enter the token address, or select a token currently owned by your wallet to perform the sell operation.
+可以选择输入代币地址，也可以选择当前钱包拥有的代币进行卖出操作。
 
-<figure><img src="../../../.gitbook/assets/image (856).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (376).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Input Trading Wallet Private Key
+### 导入卖出钱包私钥
 
 {% hint style="danger" %}
-<mark style="color:$danger;">**Security Tips**</mark>
+<mark style="color:$danger;">**安全须知**</mark>
 
-Currently supports private key import only. Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
+当&#x524D;**「多地址捆绑卖出」**&#x529F;能仅支持 私钥导入以进行交易操作。请确保在安全环境下输入私钥信息，您的资金安全对我们来说至关重要，[**了解更多 CiaoTool 如何保障您的资金安全：资金安全保障**](../../../security-guide.md)**。**
 {% endhint %}
 
 {% hint style="info" %}
-<mark style="color:$primary;">**Bundle Settings**</mark>
+<mark style="color:$primary;">**捆绑包设置**</mark>
 
-There is no limit on the number of imported wallets for **Meteora Multi-address Bundled Sell**, but each transaction group supports a maximum of **20 addresses** for bundled buying.
+**Meteora 多地址捆绑卖出**导入钱包没有数量限制，每组交易最多支持 20 个地址捆绑卖出。
 
-The service fees for the Multi-address Bundled Buy are paid entirely by the first address of each group, and the Jito tip is paid by the last address imported. Please ensure that the first and last addresses imported have sufficient balances.
+多地址捆绑卖出的服务费均由每组第一个地址支付，Jito 小费由导入的最后一个地址支付，调整导入的第一个和最后一个地址中有足够余额。
 {% endhint %}
 
-Supports two methods for importing sending private key: **"Manual Input"** and **"Upload File"**. Select an option to view the detailed tutorial.
+支&#x6301;**「手动输入」**&#x548C;**「上传文件」**&#x4E24;种导入钱包私钥的类型，选择以查看详细教程
 
 {% tabs %}
-{% tab title="Manual Input" %}
-1. Click the **"Manual Input"** button to open the input field.
+{% tab title="手动输入" %}
+1. 点&#x51FB;**「手动输入」**&#x6309;钮，弹出手动输入框。
 
-<figure><img src="../../../.gitbook/assets/image (857).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
-2. Enter / bulk paste private keys, one private key per line. Press Enter to start a new line.
+<figure><img src="../../../.gitbook/assets/image (310).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (787).png" alt=""><figcaption></figcaption></figure>
+2. 输入 / 批量粘贴**钱包私钥，**&#x4E00;行仅输入一个私钥，按回车键换行
 
-3. Click **"OK"** to import all entered addresses into the operation panel.
+<figure><img src="../../../.gitbook/assets/image (263).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (860).png" alt=""><figcaption></figcaption></figure>
+3. 点&#x51FB;**「确定」**，将所有输入地址导入到操作面板
+
+<figure><img src="../../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
-{% tab title="Upload File" %}
-1. Click the **"Upload File"** button to open the file upload window.
+{% tab title="上传文件" %}
+1. 点&#x51FB;**「上传文件」**&#x6309;钮，弹出文件上传窗口。
 
-<figure><img src="../../../.gitbook/assets/image (858).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (790).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (251).png" alt=""><figcaption></figcaption></figure>
 
-2. Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.   \
-   Click to download and view the template:
+2. 导入钱包私钥信息文件，显示私钥信息。\
+   请通过 CiaoTool 模板文件导入，以确保私钥准确导入。
 
-{% file src="../../../.gitbook/assets/Solana_privateKey_demo.xlsx" %}
+<figure><img src="../../../.gitbook/assets/image (317).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (791).png" alt=""><figcaption></figcaption></figure>
+3. 点&#x51FB;**「确定」**，将所有输入地址导入到操作面板
 
-3. Click **"OK"** to import all entered addresses into the operation panel.
-
-<figure><img src="../../../.gitbook/assets/image (859).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 {% endstep %}
 
 {% step %}
-### Confirm
+### 确认交易
 
-After verifying all details, click the **"Bundled Sell"** button below and wait for the transaction process to complete.
+确认信息无误后，点击下&#x65B9;**「捆绑卖出」**&#x6309;钮，并等待卖出程序完成。
 {% endstep %}
 {% endstepper %}
 
 ***
 
-## **FAQs**
+## **常见问题 FAQ**
 
 <details>
 
-<summary><strong>What is the Meteora Multi-Address Bundled Sell feature?</strong></summary>
+<summary><strong>什么是 Meteora 多地址捆绑卖出功能？</strong></summary>
 
-It executes synchronous sell operations across multiple wallets within a single block. By packaging transactions together, it eliminates time-gap price fluctuations, minimizes slippage, and boosts execution efficiency—ideal for market exiting and profit-taking.
+多地址捆绑卖出是指通过多个钱包在同一区块内同步执行卖出操作。通过将多笔交易打包执行，可以减少时间差带来的价格波动，从而降低滑点并提升整体执行效率，适用于退出、止盈等关键交易阶段。
 
 </details>
 
 <details>
 
-<summary><strong>Is the operation secure?</strong></summary>
+<summary><strong>操作是否安全？</strong></summary>
 
-CiaoTool uses a fully client-side signing mechanism. Your private key is never uploaded or stored on any server, and all transactions are signed locally in your browser. This ensures, at a technical level, that the platform has no access to your private key.
+平台采用纯前端签名机制，您的私钥绝不会被上传或储存在任何服务器上，所有交易均在本地浏览器完成签名，从技术层面确保平台无法访问您的私钥。
 
 </details>
 
-***
+**💬 如遇到问题？加入社群实时咨询**：[https://t.me/ciaotool](https://t.me/ciaotool)
 
-**Need help? Join our community for real-time support:**
-
-<table data-header-hidden><thead><tr><th width="188"></th><th valign="top"></th><th data-hidden></th></tr></thead><tbody><tr><td>Email</td><td valign="top"><a href="mailto:ciaotoolglobal@gmail.com">ciaotoolglobal@gmail.com</a></td><td></td></tr><tr><td>Telegram</td><td valign="top"><a href="https://t.me/ciaotools">https://t.me/ciaotools</a></td><td></td></tr><tr><td>WhatsApp</td><td valign="top"><a href="https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J">https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J</a></td><td></td></tr></tbody></table>
+* **Email**：[support@ciaotool.io](mailto:support@ciaotool.io)
+* **官网**：[https://ciaotool.io](https://ciaotool.io/)
+* **X（Twitter）**：[https://x.com/CiaoTool](https://x.com/CiaoTool)
+* **Medium**： [https://medium.com/@ciaotool](https://medium.com/@ciaotool)
+* **Blog**：[https://www.ciaoailiquidity.com/zh/blog](https://www.ciaoailiquidity.com/zh/blog)
+* **YouTube**：[https://www.youtube.com/@CiaoTool](https://www.youtube.com/@CiaoTool)
+* **WhatsApp**：[https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J](https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J)
 
 {% hint style="danger" %}
-CiaoTool is committed to providing convenient tooling services but does not offer any form of investment advice. Platform content may change with product iterations. Users are advised to exercise judgment and stay informed about updates.
+CiaoTool 致力于提供便捷的工具服务，但不构成任何投资建议。平台内容可能根据产品迭代进行调整，敬请用户自行判断并留意更新。
 {% endhint %}

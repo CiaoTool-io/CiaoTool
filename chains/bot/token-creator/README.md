@@ -1,9 +1,7 @@
 ---
-description: >-
-  CiaoTool Industry-Exclusive BOT Chain One-Click Token Deployer. Create your
-  bespoke ERC-20 token in under a minute with zero coding required.
+description: CiaoTool 全网独家 BOT Chain 一键发币平台，创建您的专属 ERC-20 代币，无需代码，一分钟搞定。
 icon: '3'
 ---
 
-# BOT Chain Token Creator | Deploy ERC-20 Token
+# BOT 一键发币平台 | 创建 ERC-20 代币
 

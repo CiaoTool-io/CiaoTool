@@ -1,263 +1,257 @@
 ---
 description: >-
-  A token launch and bundle buy tool for Pump.fun. Create a token and executes
-  batch purchases within the same block, helping secure early positions and
-  optimize token distribution.
+  专为 Pump.fun
+  平台提供的代币发行与多地址捆绑买入工具。支持在同区块内同步完成代币创建与首笔批量买入，有效阻断机器人抢跑，确保项目方以极低初始成本安全建仓并优化早期持币分布。
 ---
 
-# PumpFun - Bundler Tutorial
+# PumpFun - 创建并买入教程
 
 {% hint style="info" %}
-**CiaoTool PumpFun Bundler** now fully supports all quote tokens, including official **SOL and USDC**. Please switch to the specific token page first to perform market management operations, meeting your rapid market-making service needs across various scenarios.
+**CiaoTool PumpFun 创建并买入**现已全面支持官方 **SOL** 和 **USDC** 全部的价值代币，请先切换到指定代币页面进行创建代币并捆绑买入操作，满足不同场景下的快捷开盘服务。
 {% endhint %}
 
-## What is CiaoTool PumpFun Bundler?
+## CiaoTool PumpFun 创建并买入是什么？
 
-<figure><img src="../../../.gitbook/assets/image (881).png" alt="CiaoTool Solana Toolkit Page about PumpFun Bundler Feature"><figcaption></figcaption></figure>
+**CiaoTool PumpFun 创建并买入**是一款专为 Solana 生态 **Pump.fun 平台**打造的代币发行与自动化建仓工具。它允许用户在发布全新代币的同时，全自动调度多个钱包地址在同一区块内完成首笔批量买入。
 
-CiaoTool PumpFun Bundler is an elite token issuance and automated position-building engine custom-built for Solana's **Pump.fun platform**. It allows developers to deploy a brand-new token while simultaneously orchestrating multiple wallet addresses to execute the foundational batch buy within the exact same block.
+相较于“先发币、后手动买入”的传统模式，该功能的核心机制在于“底层捆绑打包”。系统会将代币创建指令与多地址的买入指令聚合为一个不可分割的数据包提交至链上。这种机制确保了用户的买入交易紧跟在代币创建之后瞬间完成，彻底消除了时间差。它从根本上防止了链上狙击机器人的抢跑买入，保障项目方能够以内盘最底端的初始价格完成早期资产配置。
 
-Unlike the traditional "deploy first, manual buy later" method, Bundler uses atomic bundling to merge token creation and multi-wallet buys into a single, indivisible on-chain package. This eliminates any time gap, ensuring instant execution alongside the launch.
+立即在 PumpFun 上，用 CiaoTool​ 创建并买入功能进行一键开盘操作：
 
-Start your Bundler on PumpFun with CiaoTool now:
-
-{% embed url="https://ciaotool.io/en-US/pump/create-and-buy" %}
+{% embed url="https://ciaotool.io/zh-CN/pump/launch-and-buy" %}
 
 ***
 
-## Why Choose CiaoTool PumpFun Bundler?
+## 为什么选择 CiaoTool PumpFun 创建并买入？
 
-CiaoTool delivers an elite, ultra-secure, and low-cost token launch solution for the Pump.fun platform. For teams requiring absolute control over initial token supply and foolproof protection against sniper interference, this tool establishes an ironclad execution matrix:
+CiaoTool 为 Pump.fun 平台上的代币首发提供了一种兼顾安全性与极低成本的专业解决方案。对于需要精确控制早期筹码及防范恶意夹击的用户而言，该工具构建了稳健的执行防线：
 
-* **Absolute Sniper Eradication:** \
-  Utilizing underlying bundle packaging technology, token deployment and multi-wallet buy orders are atomic-aggregated into the exact same block, completely disabling on-chain snipers from front-running and inflating early prices.
-* **Guaranteed Floor Price Entry:** \
-  Ensures your multi-address buy orders execute as the absolute first transactions of the token's genesis block, locking in early positions at the pristine initial floor price to maximize capital efficiency.
-* **Optimized Holder Distribution:** \
-  Supports customizable, synchronous buys across multiple independent wallets, executing an organic, decentralized holder structure at the exact microsecond of launch to beautifully optimize early on-chain metrics.
-* **1-Click Automated Autopilot:** \
-  Fully automates metadata uploads, parameter configurations, and multi-wallet asset distribution in one single click, totally liberating your team from tedious manual account-switching and frantic panic-buying.
+* **彻底阻断抢跑：**&#x901A;过底层捆绑打包技术，将发币与买入指令在同区块内无缝聚合，有效防止链上狙击机器人提前买入推高价格。
+* **锁定极低成本：**&#x786E;保多钱包买入指令作为创世区块的首批交易执行，使项目方能够以绝对的初始低价完成建仓，最大程度降低资金损耗。
+* **优化早期分布：**&#x652F;持自定义配置多个独立地址同步买入，在代币发射的瞬间即完成基础的持币者结构分散，美化早期链上数据。
+* **全自动极速部署：**&#x4E00;键自动完成代币信息上传、参数配置与多地址资产分发，彻底免去繁琐的人工切换与手动抢筹操作。
 
 ***
 
-## Video Tutorial | PumpFun Bundler
+## 视频教程 | PumpFun 创建并买入
 
-{% embed url="https://www.youtube.com/watch?t=12s&v=j381k3jjEyU" %}
+{% embed url="https://www.youtube.com/watch?v=wg1xE_Grqvs" %}
 
 ***
 
-## **Step by Step |** PumpFun Bundler
+## **图文指南 |** PumpFun 创建并买入&#x20;
 
 {% stepper %}
 {% step %}
-### Connect Wallet
+### **绑定钱包**
 
-Click the button in the top right corner to connect a wallet that supports the Solana network.
+点击右上角按钮，绑定支持 Solana 链的钱包
 
-<figure><img src="../../../.gitbook/assets/image (757).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (396).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Enter Token Information
+### 填写代币基础信息
+
+您可以手动填写代币信息，或者点击 **【克隆】** 按钮，克隆其他代币的信息
+
+* **名称：**&#x60A8;希望展示在钱包或区块浏览器中的完整代币名称（_例如：MyFirstToken_）。
+* **简称：**&#x4EE3;币的缩写，通常为 3\~6 个大写字母（_例如：MYT_）。
+* **Logo：**&#x4E0A;传项目或代币的标志图像，建议尺寸 1000\*1000 像素。
+* **描述：**&#x975E;必填项，简要介绍项目的背景、目标和用途。此描述将帮助用户理解您的代币的功能和项目愿景，提高项目真实性。
+
+<figure><img src="../../../.gitbook/assets/image (398).png" alt=""><figcaption></figcaption></figure>
+
+* **社交链接：**&#x6DFB;加与项目相关的社交媒体链接（如 官网、X/Twitter、Telegram）,有助于用户关注和加入您的项目社区。
+* **自动卖出：**&#x8BBE;置当价格上涨超过 X％ 时，自动卖出捆绑钱包买入的全部代币。
 
 {% hint style="info" %}
-**Clone:** Click the **"Clone"** button to copy information from another token.
-{% endhint %}
-
-* **Token Name:** The full name of the token as you wish it to be displayed in wallets or block explorers (e.g., MyFirstToken).
-* **Token Symbol:** The abbreviation of the token, typically 3 to 6 uppercase letters (e.g., MYT).
-* **LOGO：**&#x55;pload the logo image for your project or token. A recommended dimension is 1000\*1000 pixels.
-* **Description:** A brief introduction to the token's utility, story, or Memecoin background (Optional).
-
-<figure><img src="../../../.gitbook/assets/image (882).png" alt=""><figcaption></figcaption></figure>
-
-* **Social Links:** Although optional, it is highly recommended to fill this in, including Official Website, X / Twitter, and Telegram.
-* **Auto-Sell:** Automatically sell 100% of the tokens held by bundled buyer wallets once the price surges past X%.
-
-{% hint style="info" %}
-If **"Auto-Sell"** is enabled, avoid purchasing with your Dev wallet. Instead, input your bundled wallet private keys below. Using the Dev wallet will trigger automated signature requests during the sell execution, which may cause critical timing delays. Supports up to 12 wallets.
+如果打&#x5F00;**「自动卖出」**&#x9009;项，建议您不要使用 Dev 钱包购买，应在下面填写捆绑钱包的私钥参与购买。否则，销售时会要求您自动签名，可能会耽误一些时间。支持多达 12 个钱包。
 {% endhint %}
 {% endstep %}
 
 {% step %}
-### Dev Wallet Buy
+### Dev 钱包买入
 
-Uses the currently connected wallet to execute the buy order. Defaults to 0 if left blank.
+即当前绑定钱包进行买入操作，不填默认为 0。
 
-<figure><img src="../../../.gitbook/assets/image (883).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (399).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Input Buyer Wallet Private Key
+### 导入捆绑买入私钥地址
 
 {% hint style="danger" %}
-<mark style="color:$danger;">**Security Tips**</mark>
+<mark style="color:$danger;">**安全须知**</mark>
 
-Currently supports private key import only. Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
+当&#x524D;**「创建并买入」**&#x529F;能仅支持 私钥导入以进行交易操作。请确保在安全环境下输入私钥信息，您的资金安全对我们来说至关重要，[**了解更多 CiaoTool 如何保障您的资金安全：资金安全保障**](../../../security-guide.md)**。**
 {% endhint %}
 
-Supports two methods for importing sending private key: **"Manual Input"** and **"Upload File"**. Support a maximum of **12 addresses** for bundled buying. Select an option to view the detailed tutorial.
+支&#x6301;**「手动输入」**&#x548C;**「上传文件」**&#x4E24;种导入接收地址的类型，选择以查看详细教程。最多支持 **12 个地址**捆绑买入。
 
 {% tabs %}
-{% tab title="Manual Input" %}
-1. Click the **"Manual Input"** button to open the input field.
+{% tab title="手动输入" %}
+1. 点&#x51FB;**「手动输入」**&#x6309;钮，弹出手动输入框。
 
-<figure><img src="../../../.gitbook/assets/image (884).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (400).png" alt=""><figcaption></figcaption></figure>
 
-2. Enter / bulk paste private keys, one private key per line. Press Enter to start a new line.
+<figure><img src="../../../.gitbook/assets/image (401).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (787).png" alt=""><figcaption></figcaption></figure>
+2. 输入 / 批量粘贴**钱包地址，**&#x4E00;行仅输入一个地址，按回车键换行
 
-3. Click **"OK"** to import all entered addresses into the operation panel.
+<figure><img src="../../../.gitbook/assets/image (402).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (887).png" alt=""><figcaption></figcaption></figure>
+3.
+
+    点&#x51FB;**「确定」**，将所有输入地址导入到操作面板
+
+<figure><img src="../../../.gitbook/assets/image (403).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
-{% tab title="Upload File" %}
-1. Click the **"Upload File"** button to open the file upload window.
+{% tab title="上传文件" %}
+1. 点&#x51FB;**「上传文件」**&#x6309;钮，弹出文件上传窗口。
 
-<figure><img src="../../../.gitbook/assets/image (885).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (405).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (790).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (251).png" alt=""><figcaption></figcaption></figure>
 
-2. Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.   \
-   Click to download and view the template:
+2. 导入钱包地址信息文件，显示地址信息。\
+   请通过 CiaoTool 模板文件导入，以确保私钥准确导入。
 
-{% file src="../../../.gitbook/assets/Solana_privateKey_demo.xlsx" %}
+<figure><img src="../../../.gitbook/assets/image (247).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (791).png" alt=""><figcaption></figcaption></figure>
+3. 点&#x51FB;**「确定」**，将所有输入地址导入到操作面板
 
-3. Click **"OK"** to import all entered addresses into the operation panel.
-
-<figure><img src="../../../.gitbook/assets/image (886).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (404).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 {% endstep %}
 
 {% step %}
-### Enter Buy Amount
+### 输入买入金额
 
-Supports three buy amount types: **"Individual Input", "Amount",** **"Percentage"** and **"All"**.
+支&#x6301;**「逐一输入」「统一金额」「百分比」**&#x548C;**「全部」**&#x56DB;种交易金额类型。
 
-1.  **Individual Input**\
-    In the input fields, enter the buy amount for each address one by one.
+<figure><img src="../../../.gitbook/assets/image (440).png" alt=""><figcaption></figcaption></figure>
 
-    <figure><img src="../../../.gitbook/assets/image (846).png" alt=""><figcaption></figcaption></figure>
-2. **Amount:**\
-   Click the **"Batch Input"** button above the buy amount, select the "Amount" option, and enter the amount. All addresses will then have a uniform buy amount applied.
-3. **Percentage:**\
-   Click the **"Batch Input"** button above the buy amount, select the "Percentage" option, and enter the percentage parameter. All addresses will then execute the buy operation based on the specified percentage of their respective balances.
-4. **All Amount**\
-   All wallets will buy 100% of their token holdings into the designated token.
+1. **逐一输入**
+
+* 在输入框中，逐一输入买入金额数量
+* 若填写数量，则按照填写的数量进行交易。
+* 若未填写数量，则按照交易数量中  设置的数量进行交易。
+
+2. **统一金额**\
+   击转账数量上方&#x7684;**「统一输入」**&#x6309;钮，选&#x62E9;**「统一金额」，**&#x6240;有选钱包根据同一数量将代币全部兑换为指定代币。
+3. **百分比**\
+   点击转账数量上方&#x7684;**「统一输入」**&#x6309;钮，选&#x62E9;**「百分比」，**&#x6240;有选钱包根据当前余额的百分比，兑换为指定代币。
+
+* **全部**\
+  所有钱包将把价值代币全部购买为指定代币。
 {% endstep %}
 
 {% step %}
-### Custom Service
+### 自定义服务
 
-#### Custom Contract Address
+#### 自定义合约地址
 
-<figure><img src="../../../.gitbook/assets/image (890).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (406).png" alt=""><figcaption></figcaption></figure>
 
-Customize your personalized token address; setting up a token address incurs **an additional fee of 0.01 SOL**.
+打造你的个性化代币地址，设置代币地址，**额外收费 0.01 SOL。**
 
-1. **Ending with "pump"**
-   * The token address will end with "pump".
-2. **Custom Token Address**
-   * Generate your desired wallet address in advance, which can be a vanity address.
-   * Paste and import the private key you generated in advance **(the address must be completely new and must not have paid any SOL rent);**
-   * The system will use this address to deploy your token, ensuring the contract address matches your expectations.
+1. **以「pump」结尾：**
+   * 代币地址以「pump」结尾
+2. **自定义代币地址**
+   * 提前生成您想要的钱包地址，可以是靓号地址。
+   * 将你提前生成的私钥粘贴导入（**地址必须要全新地址且没有付过SOL租金**）；
+   * 系统将使用该地址部署你的代币，确保合约地址与预期一致。
 
-#### Pre-generate Token Contract
+#### 提前生成代币合约
 
-Pre-generate your token contract address while preserving all currently edited token metadata securely on-chain. This feature is ideal for scenarios requiring pre-launch marketing, community warming, or early third-party integrations before trading officially opens.
+提前生成代币合约地址，当前编辑的代币信息将全部保留与链上，适用于需要在正式开盘前进行预热或对接的场景。
 {% endstep %}
 
 {% step %}
-### Set Jito Tip
+### Jito 小费设置
 
-Configure Jito MEV tips to accelerate transaction packaging and maximize sequence priority.
+配置 Jito MEV 小费，用于加速打包交易，提高排序优先级。
 
 {% hint style="danger" %}
-This feature relies entirely on Jito’s bundling capabilities. Due to the complex interplay of network volatility, Jito nodes, RPC providers, and block engines, bundled transactions may experience a higher failure rate.
+此功能实现依赖于 Jito 的捆绑功能。由于网络环境、Jito节点、RPC节点和区块处理引擎的复杂影响，该功能可能面临较高的失败率。
 
-If the execution fails, the token will NOT be launched and zero fees will be incurred (atomic reversion). To resolve this, please try switching your RPC node or block engine, increasing the Jito tip (0.001 SOL recommended), or re-executing during periods of lower network congestion.
+若操作失败，不会开盘成功也不会产生任何费用，请尝试更换RPC节点，区块处理引擎，增加Jito的小费(建议0.001SOL)，并考虑在链上活跃度较低的时段再次尝试。
 {% endhint %}
 {% endstep %}
 
 {% step %}
-### Confirm
+### 确认交易
 
-After verifying all details, click the **"Pump Launch and Buy"** button below and wait for the transaction process to complete.
-
-<figure><img src="../../../.gitbook/assets/image (760).png" alt=""><figcaption></figcaption></figure>
+确认信息无误后，点击下&#x65B9;**「创建并买入」**&#x6309;钮，并等待开盘完成。
 {% endstep %}
 {% endstepper %}
 
-## Common Failure Cases
+## **常见失败案例**
 
-* **Insufficent Jito Tip**\
-  If the execution fails because your Jito tip is below the market average or gets front-run by other bots, please appropriately increase the Jito tip and retry.
-* **Node & Engine Latency**\
-  If you miss the strict packaging window due to response latency from RPC nodes or block engines, please switch to a more stable alternative.
-* **Insufficient Wallet Buffer**\
-  If the primary wallet lacks the balance to cover hidden overheads like token creation fees and rent exemptions, please ensure you leave a buffer of at least 0.05 SOL.
-* **Metadata Upload Timeout**\
-  If the token avatar file is too large and causes an upload timeout, please compress the image to under 1MB before re-initiating the operation.
-* **Network Congestion & Packet Loss**\
-  During periods of extreme Solana network congestion causing random underlying packet loss, please bypass peak trading hours and try again later.
+* 若因 Jito 小费低于市场均值或遭机器人抢跑导致失败，请适当提高 Jito 小费并重试。
+* 若因 RPC 节点或区块引擎响应延迟导致错失打包时机，请切换至其他更稳定的节点。
+* 若因主钱包余额不足以支付建币费与租金等隐藏消耗，请确保额外预留至少 0.05 SOL 的缓冲资金。
+* 若因代币头像档案过大导致上传逾时，请将图片压缩至 1MB 以内再重新发起操作。
+* 若遇 Solana 链上极度壅塞引发底层随机丢包，请直接避开交易尖峰时段，稍后再试。
 
 ***
 
-## **FAQs**
+## **常见问题 FAQ**
 
 <details>
 
-<summary><strong>What is the PumpFun "Bundler" (Create &#x26; Buy) feature?</strong></summary>
+<summary><strong>什么是 PumpFun 创建并买入功能？</strong></summary>
 
-It is a high-speed token deployment engine custom-built for the Pump.fun platform. By atomically bundling "token creation" and "multi-wallet buys" into the exact same block for simultaneous execution, it guarantees you secure early supply at the absolute initial floor price while instantly establishing a decentralized holder footprint at launch.
+这是一款针对 Pump.fun 平台的代币极速发行工具。它能够将“创建代币”与“多个地址买入”这两个独立动作打包在同一个区块内同步执行，确保您 100% 在底部买入筹码，实现开盘及多地址持仓分布。
 
 </details>
 
 <details>
 
-<summary><strong>Why must "Creation" and "Buying" be bundled together?</strong></summary>
+<summary><strong>为什么要将“创建”和“买入”捆绑在一起执行？</strong></summary>
 
-Pump.fun utilizes a bonding curve pricing mechanism where token prices surge sharply alongside early buy order inflows. If you deploy a token first and execute manual buys later, the resulting latency window leaves you vulnerable to malicious on-chain sniper bots that front-run your launch, forcing you to buy back your own token at inflated prices. Bundling completely eradicates this timing gap, neutralizing snipers to lock in your initial capital efficiency.
-
-</details>
-
-<details>
-
-<summary><strong>Can this feature be used to optimize the early holder structure?</strong></summary>
-
-Absolutely. Since the feature supports batching multiple independent wallet addresses for simultaneous buy execution, these allocations are completed at the exact microsecond of token deployment. This allows your token to present a healthy, well-distributed holder ledger right at birth, preventing red flags caused by capital over-concentration in a single address.
+Pump.fun 采用联合曲线定价机制，代币价格会随着买入量的增加而迅速上涨。如果先发币再手动买入，中间产生的时间差极易被链上狙击机器人监控并抢先买入，导致您被迫以数倍的高价接盘。捆绑执行消除了时间差，彻底阻断了恶意抢跑，保护了初始建仓的资金成本。
 
 </details>
 
 <details>
 
-<summary><strong>Why does the "Create &#x26; Buy" execution frequently fail</strong></summary>
+<summary><strong>这项功能可以用来优化代币早期的持币结构吗？</strong></summary>
 
-* Why it fails: This feature relies on Jito's bundling protocol. High network congestion or node latency can miss strict packaging windows, causing transactions to be dropped.
-* Is my capital safe? Yes, 100% safe. The execution is fully atomic. If it fails, the token will not launch, and all assets/fees instantly revert with zero attrition.
-* How to fix: Increase your Jito tip (0.001 SOL recommended), switch to a premium RPC node/block engine, or retry during off-peak hours.
+可以。由于该功能支持批量导入多个钱包地址同步执行买入，这些买入会在代币创建的瞬间独立完成。这能让代币在刚发布时就展现出健康、分散的持币者分布数据，避免筹码过于集中在单一地址中。
 
 </details>
 
 <details>
 
-<summary><strong>Is the operation secure?</strong></summary>
+<summary><strong>为什么“创建并买入”操作会一直提示失败？</strong></summary>
 
-CiaoTool uses a fully client-side signing mechanism. Your private key is never uploaded or stored on any server, and all transactions are signed locally in your browser. This ensures, at a technical level, that the platform has no access to your private key.
+失败是由于该功能依赖于 Jito 的捆绑打包机制。在网络拥堵或节点延迟时，Jito 捆绑包很难被验证者顺利打包上链，从而导致较高的失败率。\
+完全不会扣钱。 该操作是绑定的，一旦失败，代币不会发行，本金和手续费也不会有任何损耗。若需提高成功率，建议尝试增加 Jito 小费（推荐 0.001 SOL）、更换 RPC 节点/区块引擎，或在链上交易低谷期重新操作。
 
 </details>
 
-***
+<details>
 
-**Need help? Join our community for real-time support:**
+<summary><strong>操作是否安全？</strong></summary>
 
-<table data-header-hidden><thead><tr><th width="188"></th><th valign="top"></th><th data-hidden></th></tr></thead><tbody><tr><td>Email</td><td valign="top"><a href="mailto:ciaotoolglobal@gmail.com">ciaotoolglobal@gmail.com</a></td><td></td></tr><tr><td>Telegram</td><td valign="top"><a href="https://t.me/ciaotools">https://t.me/ciaotools</a></td><td></td></tr><tr><td>WhatsApp</td><td valign="top"><a href="https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J">https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J</a></td><td></td></tr></tbody></table>
+平台采用纯前端签名机制，您的私钥绝不会被上传或储存在任何服务器上，所有交易均在本地浏览器完成签名，从技术层面确保平台无法访问您的私钥。
+
+</details>
+
+**💬 如遇到问题？加入社群实时咨询**：[https://t.me/ciaotool](https://t.me/ciaotool)
+
+* **Email**：[support@ciaotool.io](mailto:support@ciaotool.io)
+* **官网**：[https://ciaotool.io](https://ciaotool.io/)
+* **X（Twitter）**：[https://x.com/CiaoTool](https://x.com/CiaoTool)
+* **Medium**： [https://medium.com/@ciaotool](https://medium.com/@ciaotool)
+* **Blog**：[https://www.ciaoailiquidity.com/zh/blog](https://www.ciaoailiquidity.com/zh/blog)
+* **YouTube**：[https://www.youtube.com/@CiaoTool](https://www.youtube.com/@CiaoTool)
+* **WhatsApp**：[https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J](https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J)
 
 {% hint style="danger" %}
-CiaoTool is committed to providing convenient tooling services but does not offer any form of investment advice. Platform content may change with product iterations. Users are advised to exercise judgment and stay informed about updates.
+CiaoTool 致力于提供便捷的工具服务，但不构成任何投资建议。平台内容可能根据产品迭代进行调整，敬请用户自行判断并留意更新。
 {% endhint %}

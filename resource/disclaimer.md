@@ -1,94 +1,75 @@
 ---
-description: 'Last Updated: May 2026'
+description: 最后更新日期：2026年5月
 ---
 
-# CiaoTool Disclaimer
+# CiaoTool 免责声明
 
-This Disclaimer (hereinafter referred to as "this Disclaimer" or "this Statement") is provided by CiaoTool (hereinafter referred to as "we," "us," or "this Platform") and applies to your access to and use of the CiaoTool website, Web3 SaaS tools, and related services (collectively, "this Website" or "the Services"). Please read it carefully before use. This Disclaimer is intended to provide the maximum disclosure of risks associated with blockchain interactions and to clearly define the legal liability boundaries of this Platform as a pure frontend technology provider.
+本免责声明（“本声明”）由 CiaoTool（“我们”或“本平台”）提供，并适用于您对 CiaoTool 网站、Web3 SaaS 工具及相关服务（统称“本网站”或“服务”）的访问和使用。请您在使用前仔细阅读。本声明旨在最大限度地提示区块链交互风险，并清晰界定本平台作为纯前端技术提供方的法律责任边界。
 
-## 1. Technical Nature
+## 1. 技术性质
 
-All tools provided on this Website serve solely as neutral technical channels and on-chain instruction construction tools.
+本网站提供的所有工具仅作为中立的技术通道与链上指令构建工具。
 
-Nothing on this Platform constitutes, or shall be deemed to constitute, any form of investment, financial, legal, tax, or other professional advice. When utilizing the tools of this Platform to execute any on-chain liquidity management or automated strategies, all decisions are made by you independently, and you shall voluntarily assume all corresponding risks. We assume no responsibility or liability for your business decisions, or for any resulting market outcomes and token price performances.
+本平台绝不构成任何形式的投资、金融、法律、税务或其他专业建议。您在利用本平台工具执行任何链上流动性管理或自动化策略时，所有决策均由您独立做出并承担相应风险。我们对您的商业决策及其导致的市场结果、代币价格表现不承担任何责任。
 
-## 2. Nature of Services
+## 2. 服务性质
 
-The various SaaS tools and frontend interfaces of this Website are provided on an "AS IS" and "AS AVAILABLE" basis. We make no warranties or representations, express or implied, regarding their continuity, absolute accuracy, absence of network latency, or the final market efficacy of any specific strategy.
+本网站的各项 SaaS 工具与前端界面均按“现状”（AS IS）和“可用”（AS AVAILABLE）基础提供。我们不对其持续性、绝对准确性、无网络延迟或特定策略的最终市场效果作出任何明示或默示的保证。\
+我们不保证本网站将不间断运行、完全无代码漏洞，或能 100% 防御底层区块链的安全威胁、黑客攻击及第三方 RPC 节点的突发性中断。
 
-We do not guarantee that this Website will operate uninterrupted, be entirely free of code vulnerabilities, or be 100% resilient against underlying blockchain security threats, hacker attacks, or abrupt disruptions of third-party RPC nodes.
+## 3. 纯前端架构与非托管声明
 
-## 3. Pure Frontend Architecture and Non-Custodial Declaration
+本网站为纯前端、绝对非托管型的 Web3 应用程序。我们不持有、不存储、不管理、亦无法拦截或备份用户的数字资产或私钥。
 
-This Website is a purely frontend, absolutely non-custodial Web3 application. We do not hold, store, or manage, nor do we possess the technical ability to intercept or back up, users' digital assets or private keys.
+您对自身连接的非托管钱包、私钥、助记词及每一次链上授权签名负有完全且唯一的安全保管责任。若因您自身设备安全问题导致凭证遗失、泄露或遭钓鱼盗取，本网站在技术上无法为您恢复，在法律上亦不承担任何连带赔偿责任。
 
-You bear the sole and exclusive security and custody responsibility for the non-custodial wallets you connect, your private keys, seed phrases, and every single on-chain authorized signature. If your credentials are lost, leaked, or stolen via phishing due to security issues with your own devices, this Website is technically incapable of recovering them for you and shall bear no joint or several liability or indemnification obligations under applicable laws.
+## 4. 区块链与策略执行风险
 
-## 4. Blockchain and Strategy Execution Risks
+#### **(a) 已知风险**
 
-#### **(a)** Known Risks
+您理解并同意，使用 Web3 辅助工具及去中心化协议必然涉及以下风险，包括但不限于：
 
-u understand and agree that accessing and using Web3 auxiliary tools and decentralized protocols inevitably involves the following inherent risks, including but not limited to:
+* 市场极端波动： 数字资产具有高度投机性与流动性枯竭风险。
+* 技术执行偏差：交易量机器人或其他自动化策略可能因网络严重延迟或流动性池深度不足，而产生预期外的价格滑点或执行失败。
+* 底层协议漏洞： 第三方智能合约（如 DEX 路由合约）可能存在代码缺陷、被黑客攻击或执行异常。
+* 防御机制局限： 尽管 CiaoTool 工具内置了防夹（Anti-MEV）等防御机制，但由于区块链环境的复杂性，无法保证绝对免受恶意狙击机器人的干扰。
+* 网络与费用变数： 区块链网络拥堵、分叉、RPC 节点崩溃或 Gas 费用异常飙升。
+* 合规与监管限制： 全球法律法规的变动，包括严格的地域禁令（如中国大陆、美国等地的限制）。
 
-* **Extreme Market Volatility**\
-  Digital assets are highly speculative and carry inherent risks of sudden liquidity depletion.
-* **Technical Execution Deviations**\
-  Volume Bots or other automated strategies may experience unanticipated price slippage or execution failures due to severe network latency or insufficient depth in liquidity pools.
-* **Underlying Protocol Vulnerabilities**\
-  Third-party smart contracts (such as DEX routing contracts) may possess code defects, suffer hacker attacks, or experience execution anomalies.
-* Limitations of Defensive Mechanisms\
-  Although CiaoTool's tools feature built-in defensive mechanisms such as Anti-MEV (anti-sandwich), we cannot guarantee absolute immunity against interference from malicious sniping bots due to the complexity of the blockchain environment.
-* **Network and Fee Variables**\
-  Abrupt blockchain network congestion, hard forks, RPC node crashes, or abnormal surges in Gas fees.
-* **Compliance and Regulatory Restrictions**\
-  Shifting global legal and regulatory landscapes, including strict regional prohibitions or bans (such as restrictions in Mainland China, the United States, etc.).
+#### (b) 未知风险
 
-#### (b) Unknown Risks
+您进一步理解并同意，Web3 领域仍处于快速迭代阶段，可能存在未能预见的新型风险，包括但不限于：
 
-You further understand and agree that the Web3 sector remains in a stage of rapid iteration, and there may exist unforeseen or novel risks, including but not limited to:
+* 底层密码学技术的突破带来的全新安全漏洞；
+* 突发性的全球监管政策打击；
+* 不可预见的黑天鹅事件对数字资产基础设施的毁灭性影响。
 
-* Breakthroughs in underlying cryptographic technologies that expose entirely new security vulnerabilities;
-* Sudden, aggressive crackdowns by global regulatory policies;
-* The catastrophic or destructive impact of unpredictable black swan events on the core infrastructure of digital assets.
+&#x20;所有已知与未知风险均由您完全自行承担，本网站不对此承担任何法律责任。
 
-**Absolute Assumption of Risk Clause:** Any and all known and unknown risks shall be borne fully and solely by you, and this Website assumes no legal liability whatsoever for any such risks.
+## 5. 责任限制
 
-## 5. Limitation of Liability
+在适用法律允许的最大范围内，CiaoTool 做出以下绝对免责声明：
 
-To the maximum extent permitted by applicable law, CiaoTool makes the following absolute liability disclaimers:
+* 本网站及开发团队不对您因使用或无法使用本 SaaS 服务而遭受的任何直接、间接、附带、衍生、惩罚性或特殊损失负责（包括但不限于利润损失、资产归零、数据丢失或策略机会损失）；
+* 本网站在任何情况下的总责任上限，绝不超过您在引发索赔的特定事件中，直接向我们支付的技术服务费（此费用不包含您支付给区块链网络的 Gas 费）；
+* 对于因超出我们合理控制范围的事件（如不可抗力、公链主网宕机、监管禁令）导致的损失，我们不承担任何责任。
 
-* **Exclusion of Certain Damages**\
-  This Website and its development team shall not be liable to you for any direct, indirect, incidental, consequential, punitive, or special losses or damages (including, without limitation, loss of profit, asset wipeout/token zeroing, loss of data, or loss of strategic or commercial opportunities) arising out of, resulting from, or in connection with your use of or inability to use this SaaS service;
-* **Cap on Aggregate Liability**\
-  Under no circumstances shall the total aggregate liability of this Website and its development team, for any and all claims arising under this Agreement, exceed the technical service fees directly paid by you to us in connection with the specific event giving rise to such claim (such fees strictly exclude any Gas fees, transaction costs, or network fees paid to blockchain networks);
-* **Events Beyond Reasonable Control**\
-  We assume no liability, responsibility, or obligation for any losses, damages, or failures caused by, or resulting from, events or circumstances beyond our reasonable control, including but not limited to force majeure, mainnet downtime or consensus failures of public blockchains, or abrupt regulatory prohibitions and government bans.
+## 6. 用户合规声明
 
-## 6. User Compliance Declaration
+您确认并承诺：
 
-You hereby confirm, represent, and warrant that:
+* 您在使用本服务时已独立完成尽职调查，并具备足够的区块链底层知识、操作经验和财务承受能力；
+* 您将对自身的每一次链上签名、参数设定及智能合约调用独立负责，并承担全部财务与法律后果；
+* 您承诺严格遵守本平台的访问限制，确认您并非来自受限司法管辖区（特别是中国大陆、美国及其所有属地），且未通过 VPN 等虚拟网络技术手段恶意规避此类限制。
 
-* **Due Diligence and Capability**\
-  You have independently conducted comprehensive due diligence prior to accessing or using this Service, and you possess sufficient underlying blockchain technical knowledge, operational experience, and financial risk tolerance;
-* **Independent Responsibility for Transactions**\
-  ou shall bear the sole, exclusive, and absolute responsibility for your every single on-chain signature, parameter configuration, and smart contract invocation, and you shall voluntarily assume all resulting financial and legal consequences;
-* **Adherence to Access Restrictions**\
-  You covenant and promise to strictly abide by the access and geographical restrictions of this Platform. You explicitly confirm that you are not from, located in, incorporated under the laws of, or a resident of any Restricted Jurisdiction (specifically including Mainland China, the United States, and all of its territories and possessions), and that you have not utilized and shall not utilize virtual private networks (VPNs), proxy servers, or any other technological means or methods to maliciously evade or circumvent such restrictions.
+## 7. 无弃权与独立条款
 
-## 7. Non-Waiver and Severability
+本网站未行使或延迟行使本声明项下的任何权利，不构成对该权利的放弃。若本声明的任何条款被有权机关认定为无效或不可执行，其余条款仍保持完全效力，并在法律允许范围内最大化解释和适用。
 
-Any failure or delay by this Website in exercising any right, power, or privilege under this Disclaimer shall not operate or be construed as a waiver thereof, nor shall any single or partial exercise of any right, power, or privilege preclude any other or further exercise thereof.
+## 8. 适用法律
 
-If any provision or part of this Disclaimer is held to be invalid, illegal, or unenforceable by any court, arbitration tribunal, or other competent authority, such provision shall be deemed severable, and such invalidity or unenforceability shall not affect the validity or enforceability of the remaining provisions of this Disclaimer, which shall continue in full force and effect and shall be construed and applied to the maximum extent permitted by applicable law.
+本声明的效力、解释与执行，受 \[适用新加坡、香港司法管辖区] 管辖，但不考虑法律冲突原则。若与《服务条款》存在不一致，以本声明与《服务条款》结合解释为准。
 
-## 8. Governing Law
+## 9. 最终确认
 
-The validity, interpretation, and enforcement of this Disclaimer shall be governed by, and construed in accordance with, the laws of \[Insert Applicable Jurisdiction, e.g., the State of California, United States], without regard to principles of conflicts of law.
-
-In the event of any inconsistency or conflict between the provisions of this Disclaimer and the Terms of Service, this Disclaimer shall be construed in conjunction with the Terms of Service, provided that this Disclaimer shall prevail to the extent of such inconsistency or conflict.
-
-## 9. Final Confirmation
-
-Your access to and use of this Website requires your complete understanding of and unconditional agreement to all terms and conditions of this Disclaimer, as well as your recognition of the Platform’s operational logic of "providing technical channels only, without touching user funds". If you do not agree to any part or provision of this Disclaimer, you must immediately sever your wallet connection and cease all access to and use of this Website.
-
-By continuing to use CiaoTool, you acknowledge that you fully comprehend the inherent risks associated with Web3 SaaS tools, and you hereby voluntarily agree to release, indemnify, and hold harmless this Platform from any and all known and unknown risks to the maximum extent permitted by applicable law. This Statement shall be governed by and subject to applicable laws and regulations, and CiaoTool reserves the exclusive right of final interpretation.
+使用本网站需要您完全理解并同意本免责声明的所有条款，认可本平台“只提供技术通道、不碰触资金”的运作逻辑。 如果您不同意本免责声明的任何部分，请立即切断钱包连接并停止使用本网站。 如果您继续使用 CiaoTool，即表示您已充分理解 Web3 SaaS 工具相关的固有风险，并自愿同意在法律允许范围内对本平台的所有已知与未知风险免责。本声明受适用法律法规约束，CiaoTool 保留最终解释权。

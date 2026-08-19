@@ -2,5 +2,5 @@
 icon: '1'
 ---
 
-# Liquidity Bundler
+# 创建流动性并捆绑买入
 

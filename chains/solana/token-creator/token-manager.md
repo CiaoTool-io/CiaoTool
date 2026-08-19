@@ -1,87 +1,93 @@
 ---
-description: >-
-  Categorize tokens within the wallet for streamlined permission management,
-  burning, and other operations.
+description: 对钱包内代币分类整理，便于统一进行权限管理、燃烧等操作
 ---
 
-# Solana - Token Management Tutorial
+# Solana - 代币管理教程
 
 {% hint style="success" %}
-**Solana Token Management：**[https://ciaotool.io/en-US/token/management](https://ciaotool.io/en-US/token/management)
+**Solana 代币管理**：[https://ciaotool.io/zh-CN/token/management](https://ciaotool.io/zh-CN/token/management)
 {% endhint %}
 
-## What is Solana Token Management?
+#### **🎯 什么是 Solana 代币管理？**
 
-Solana Token Management refers to the unified operation and control of already created tokens, including authority management, batch operations, and more. Through our tools, you can perform one-stop management across different asset types (Standard Tokens, Pump Tokens, NFTs, and Stablecoins) and complete complex operations without any programming, thereby enhancing the execution efficiency of both funds and strategies.
+Solana 代币管理，是指对已创建的 Token 进行统一操作与控制，包括权限管理、批量操作等。通过工具可对不同类型代币（标准代币、Pump 代币、NFT、稳定币）进行一站式管理，无需编程即可完成复杂操作，提升资金与策略执行效率。
 
-Common Uses:
+常见用途：
 
-* Authority Management: Setting or renouncing Mint / Freeze authorities.
-* Multi-Type Management: Unified operations for Standard Tokens, Pump Tokens, NFTs, and Stablecoins.
-* Asset Cleanup: Clearing and burning tokens across multiple wallets.
+* 权限管理：设置或放弃 Mint / Freeze 权限
+* 多类型管理：统一操作标准币、Pump 币、NFT、稳定币
+* 资产整理：清理、燃烧多个钱包的 Token
 
-#### **Solana tokens are classified into the following 4 categories:**
+**Solana 代币分为以下 4 类**
 
-<figure><img src="../../../.gitbook/assets/image (763).png" alt=""><figcaption></figcaption></figure>
+💰 **标准代币：**&#x6700;常见的 SPL 代币类型，用于普通交易和转账。
 
-**Standard Tokens:** The most common SPL token type, utilized for general trading and transfers.
+<figure><img src="../../../.gitbook/assets/image (290).png" alt=""><figcaption></figcaption></figure>
 
-**Pump Tokens:** Typically used for short-cycle, community-driven speculative trading, characterized by high volatility.
+🎯 **Pump 代币：**&#x901A;常用于短周期、社区驱动的投机交易，具备高波动性特征。
 
-**NFTs:** Based on the Metaplex standard, representing unique assets such as images, in-game items, and more.
+<figure><img src="../../../.gitbook/assets/image (291).png" alt=""><figcaption></figcaption></figure>
 
-**Stablecoins:** Tokens pegged to fiat currencies (e.g., USD) with relatively stable prices, commonly used for payments and settlements.
+🖼️ **NFT 代币：**&#x57FA;于 Metaplex 标准，代表唯一资产，如图片、游戏道具等。
 
-## How to Manage Tokens on Solana
+💵 **稳定币：**&#x951A;定法币（如 USD）的代币，价格相对稳定，常用于支付和清算。
 
-1. **Connect Wallet**
+<figure><img src="../../../.gitbook/assets/image (292).png" alt=""><figcaption></figcaption></figure>
 
-* Click \[Connect Wallet] in the top right corner, select your wallet address, and approve the authorization.
-* Once the wallet address is displayed in the top right corner of the page, it indicates that the wallet has been successfully connected.
+#### 🧩 **如何在 Solana 管理代币**
 
-<figure><img src="../../../.gitbook/assets/image (764).png" alt=""><figcaption></figcaption></figure>
+**1. 绑定钱包**
 
-2. **Select a Token to Proceed**
+* 点击右上角【连接钱包】，选择钱包地址并确认授权。
+* 页面右上角显示钱包地址即表示绑定成功。
 
-* [**Mint Token**](https://ciaotool.io/en-US/token/mint)
-* [**Update Token**](https://ciaotool.io/en-US/token/update)
-* [**Freeze Account**](https://ciaotool.io/en-US/token/freeze-account)
-* [**Unfreeze Account**](https://ciaotool.io/en-US/token/unfreeze-account)
-* [**Revoke Permission**](https://ciaotool.io/en-US/token/revoke-permission)
-* [**Burn Token**](https://ciaotool.io/en-US/token/burn)
+<figure><img src="../../../.gitbook/assets/image (293).png" alt=""><figcaption></figcaption></figure>
 
-#### ❓ Frequently Asked Questions <a href="#frequently-asked-questions" id="frequently-asked-questions"></a>
+**2.选择代币进行操作**
 
-**1. Can I change the total supply of a standard token?**
+* [**代币增发**](https://ciaotool.io/zh-CN/token/mint)
+* [**代币更新**](https://ciaotool.io/zh-CN/token/update)
+* [**代币冻结**](https://ciaotool.io/zh-CN/token/freeze-account)
+* [**代币解冻**](https://ciaotool.io/zh-CN/token/unfreeze-account)
+* [**放弃权限**](https://ciaotool.io/zh-CN/token/revoke-permission)
+* [**代币燃烧**](https://ciaotool.io/zh-CN/token/burn)
 
-* **Answer:** Yes, if you’ve retained the **Mint authority**, you can increase or reduce the supply through minting or burning; otherwise, the supply cannot be changed.
+#### ❓**常见问题**
 
-**2. Do I have to revoke permissions for Pump tokens?**
+**1. 标准代币可以修改发行总量吗？**
 
-* **Answer:** It's strongly recommended to **revoke permissions early** to avoid concerns about potential minting or freezing, and to build community trust.
+* [x] 答：如果你保留了 Mint 权限，就可以增发或燃烧来调整总量；否则无法修改。
 
-**3. What’s the core difference between NFTs and regular tokens?**
+**2. Pump 代币是否一定要放弃权限？**
 
-* **Answer:** **NFTs are unique, non-fungible assets** (usually based on the Metaplex standard), while standard tokens are **fungible and divisible**.
+* [x] 答：建议尽早放弃权限，避免社区对“随时增发或冻结”的担忧，提高代币信任度。
 
-**4. How do stablecoins maintain price stability?**
+**3. NFT 和普通代币有什么本质区别？**
 
-* **Answer:** Stablecoins typically rely on **reserves, pegging mechanisms,** or **algorithms** to maintain a 1:1 ratio with fiat currencies like USD.
+* [x] 答：NFT 是唯一性资产（通常使用 Metaplex 标准），而标准代币具备可替代性和可分割性。
 
-**5. Can Pump tokens or NFTs be managed as standard tokens?**
+**4.稳定币如何确保价格稳定？**
 
-* **Answer:** Not recommended. NFTs and some Pump tokens have **different structures**, and their **permission controls and trading behavior** may not follow standard token rules.
+* [x] 答：稳定币通常通过储备、锚定机制或算法控制其与法币（如 USD）的锚定比例。
 
-💬 **Need help? Join our community for real-time support:** [https://t.me/ciaotool](https://t.me/ciaotool)
+**5. 可以把 Pump 代币或 NFT 当作标准代币管理吗？**
 
-* **Email:** [support@ciaotool.io](mailto:support@ciaotool.io)
-* **Website:** [https://ciaotool.io](https://ciaotool.io/)
-* **X (Twitter):** [https://x.com/CiaoTool](https://x.com/CiaoTool)
-* **Blog**: [https://www.ciaoailiquidity.com/blog](https://www.ciaoailiquidity.com/blog)
-* **Medium:** [https://medium.com/@ciaotool](https://medium.com/@ciaotool)
-* **YouTube:** [https://www.youtube.com/@CiaoTool](https://www.youtube.com/@CiaoTool)
-* **WhatsApp：**[https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J](https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J)
+* [x] 答：不建议，因为 NFT 和某些 Pump Token 结构不同，权限管理和交易规则存在差异。
+
+**🔰 更多快捷工具&指南**
+
+《 [Solana 租金回收](https://ciaotool.io/zh-CN/wallet/manage/reclaim-rent) 》《 [Solana 一键清仓](https://ciaotool.io/zh-CN/wallet/manage/one-click-clearance) 》
+
+**💬 如遇到问题？加入社群实时咨询：**[https://t.me/ciaotool](https://t.me/ciaotool)
+
+* Email：[support@ciaotool.io](mailto:support@ciaotool.io)
+* 官网：[https://ciaotool.io](https://ciaotool.io/)
+* X（Twitter）：[https://x.com/CiaoTool](https://x.com/CiaoTool)
+* Medium： [https://medium.com/@ciaotool](https://medium.com/@ciaotool)
+* Blog：[https://www.ciaoailiquidity.com/zh/blog](https://www.ciaoailiquidity.com/zh/blog)
+* YouTube：[https://www.youtube.com/@CiaoTool](https://www.youtube.com/@CiaoTool)
+* WhatsApp：[https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J](https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J)
 
 {% hint style="danger" %}
-**Note:** CiaoTool is committed to providing convenient tooling services but does not offer any form of investment advice. Platform content may change with product iterations. Users are advised to exercise judgment and stay informed about updates.
+CiaoTool 致力于提供便捷的工具服务，但不构成任何投资建议。平台内容可能根据产品迭代进行调整，敬请用户自行判断并留意更新。
 {% endhint %}

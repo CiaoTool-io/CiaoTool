@@ -2,5 +2,5 @@
 icon: '4'
 ---
 
-# IoTeX Chain Token Creator | Deploy XRC-20 Token
+# IoTeX - 创建代币
 

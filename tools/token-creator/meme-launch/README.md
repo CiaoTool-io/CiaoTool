@@ -2,7 +2,7 @@
 icon: '2'
 ---
 
-# Meme Launch Toolkit
+# 内盘发射代币功能集
 
 ## Solana
 

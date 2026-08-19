@@ -1,43 +1,42 @@
 ---
-description: >-
-  Build on the fast and secure IoTeX network. Our platform supports token
-  creation and multisender across the complete token lifecycle. View the service
-  fees below.
+description: 借助极速且安全的 IoTeX 网络高效推進您的 Web3 项目。本平台支持从代币创建到代币批量转账的完整代币生命周期。在此探索大规模代币流转的最佳价格方案。
 ---
 
-# IoTeX Service Fees
+# IoTeX 服务费用
 
-## Token Creator
+## 创建代币
 
-* [**Standard Token**](https://iotex.ciaotool.io/en/token/create-token)**:** 800 IOTX
-
-***
-
-## Multisender
-
-* [**One-to-Multi Transfer**](https://iotex.ciaotool.io/en/transfer/one-to-many)**:** 3.2 IOTX / address
-* [**Batch One-to-Multi Transfer**](https://iotex.ciaotool.io/en/transfer/one-to-many-multi)**:** 3.2 IOTX / address
-* [**Multi-to-One Transfer**](https://iotex.ciaotool.io/en/transfer/many-to-one)**:** 3.2 IOTX / address
-* [**Multi-to-Multi Transfer**](https://iotex.ciaotool.io/en/transfer/many-to-many)**:** 3.2 IOTX / address
+* [**标准代币**](https://iotex.ciaotool.io/token/create-token)：800 IOTX
 
 ***
 
-## Wallet Tool
+## 批量转账
 
-* [**Batch Create Wallet**](https://iotex.ciaotool.io/en/wallet/wallet-create): Free
-
-***
-
-## Asset Migration
-
-* [**Fragmentation**](https://iotex.ciaotool.io/en/assert-migration/assert-migration-cold)**:** 3.2 IOTX / address
+* [**一对多转账**](https://iotex.ciaotool.io/transfer/one-to-many)：3.2 IOTX / 每个地址
+* [**批量一转多**](https://iotex.ciaotool.io/transfer/one-to-many-multi)：3.2 IOTX / 每个地址
+* [**多对一转账**](https://iotex.ciaotool.io/transfer/many-to-one)**：**&#x33;.2 IOTX / 每个地址
+* [**多对多转账**](https://iotex.ciaotool.io/transfer/many-to-many)**：**&#x33;.2 IOTX / 每个地址
 
 ***
 
-**Need help? Join our community for real-time support:**
+## 钱包工具
 
-<table data-header-hidden><thead><tr><th width="188"></th><th valign="top"></th><th data-hidden></th></tr></thead><tbody><tr><td>Email</td><td valign="top"><a href="mailto:ciaotoolglobal@gmail.com">ciaotoolglobal@gmail.com</a></td><td></td></tr><tr><td>Telegram</td><td valign="top"><a href="https://t.me/ciaotools">https://t.me/ciaotools</a></td><td></td></tr><tr><td>WhatsApp</td><td valign="top"><a href="https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J">https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J</a></td><td></td></tr></tbody></table>
+* [**批量创建钱包**](https://iotex.ciaotool.io/zh-Hans/wallet/wallet-create)：免费
 
-{% hint style="danger" %}
-CiaoTool is committed to providing convenient tooling services but does not offer any form of investment advice. Platform content may change with product iterations. Users are advised to exercise judgment and stay informed about updates.
-{% endhint %}
+***
+
+## 换仓专区
+
+* [**冷换仓**](https://iotex.ciaotool.io/zh-Hans/assert-migration/assert-migration-cold)：3.2 IOTX / 每个地址
+
+***
+
+**💬 如遇到问题？加入社群实时咨询**：[https://t.me/ciaotool](https://t.me/ciaotool)
+
+* **Email**：[support@ciaotool.io](mailto:support@ciaotool.io)
+* **官网**：[https://ciaotool.io](https://ciaotool.io/)
+* **X（Twitter）**：[https://x.com/CiaoTool](https://x.com/CiaoTool)
+* **Medium**： [https://medium.com/@ciaotool](https://medium.com/@ciaotool)
+* **Blog**：[https://www.ciaoailiquidity.com/zh/blog](https://www.ciaoailiquidity.com/zh/blog)
+* **YouTube**：[https://www.youtube.com/@CiaoTool](https://www.youtube.com/@CiaoTool)
+* **WhatsApp**：[https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J](https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J)

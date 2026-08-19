@@ -1,268 +1,136 @@
 ---
 description: >-
-  Supports same-block multi-wallet sell execution on Four.meme. With fully
-  client-side processing, it enables efficient batch exits across multiple
-  wallets and streamlines multi-wallet asset management.
+  支持在 BSC 链上针对 Four.meme 发射平台进行同区块多钱包并发平仓。纯前端本地处理私钥，彻底阻断 MEV
+  机器人抢跑，助您安全、高效完成分散筹码的无损套现。
+metaLinks:
+  alternates:
+    - >-
+      https://app.gitbook.com/s/b56FKZGe1viFi67H1pPQ/fourmeme/bnb-multi-address-sell
 ---
 
-# Fourmeme - Multi-Address Bundled Sell Tutorial
+# Fourmeme - 多地址捆绑卖出
 
 {% hint style="info" %}
-**CiaoTool Fourmeme Multi-Address Bundled Sell** fully supports all quote tokens, including **BNB, USD1 and UUSD**. Please switch to the specific token page to perform bundled trading operations based on your needs.&#x20;
+**CiaoTool Fourmeme 多地址捆绑卖出**现已全面支持官方 **BNB、USD1 和 UUSD** 全部的价值代币，请先切换到指定代币页面进行多地址捆绑卖出操作，满足不同场景下的快捷捆绑服务。
 {% endhint %}
 
-## What is CiaoTool Fourmeme Multi-Address Bundled Sell?
+## CiaoTool Fourmeme 多地址捆绑卖出？
 
-<figure><picture><source srcset="../../../.gitbook/assets/屏幕截图 2026-06-18 161827.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (1010).png" alt="CiaoTool BSC Toolkit Page about Four.meme Multi-Address Bundled Sell Feature"></picture><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (608).png" alt="CiaoTool BSC生态 Fourmeme 多地址捆绑卖出 功能页面"><figcaption></figcaption></figure>
 
-**Fourmeme Multi-Address Bundled Sell** is an advanced strategy for the Four.meme launchpad. It deploys dozens or hundreds of sub-wallets to execute concurrent sell orders within a single block, achieving instant multi-address fund reclamation.
+**Fourmeme 多地址捆绑卖出** 是一种专为 Four.meme 发射平台设计的高阶链上平仓与筹码回收策略。该功能允许通过单一指令调度先前分散建仓的多个独立子钱包，在同一个区块链区块内进行并发卖出。
 
-Common Use Cases:
+通过底层智能合约的聚合打包技术，系统确保数十个子钱包的抛售指令在极短的时间窗口内被矿工同步确认，从而实现多地址资金的瞬间回笼。
 
-* **Lossless Exit**\
-  Selling one by one manually depresses prices for subsequent wallets. Same-block concurrent execution ensures all sub-wallets exit at the exact same optimal price.
-* **Anti-MEV Frontrun**\
-  Bundled selling removes the time gap for malicious MEV bots to frontrun large-scale token dumps, fully securing your exit profits.
+核心适用场景：
 
-Start your Multi-Address Bundled Sell on Four.meme with CiaoTool now:
+* 多钱包无损平仓： 如果手动逐一使用子钱包卖出，前一个钱包的抛售会不可避免地压低后续钱包的卖出价格。捆绑卖出通过同区块打包并发，确保所有子钱包都能在同一最优价格切面上完成平仓。
+* 极致防夹击： 在大额筹码抛售瞬间，极易触发 MEV 机器人（夹子）的抢跑。捆绑卖出消除了恶意机器人插队的时间差，保护平仓利润不被无端剥削。
 
-{% embed url="https://bsc.ciaotool.io/en/fourmeme/bnb/multi-address-sell" %}
+立即在 Fourmeme 上，用 CiaoTool​ 多地址捆绑卖出功能进行一键卖出操作：
 
-***
-
-## Why Choose CiaoTool Fourmeme Multi-Address Bundled Sell?
-
-In fierce on-chain execution, capital efficiency and concealment determine the success or failure of a strategy. CiaoTool builds the ultimate on-chain defense line for professional teams:
-
-* **No-Code**\
-  Visual web panel replaces complex RPC scripts. Just check token-holding wallets for one-click anti-MEV bot exits.
-* **Local Privacy**\
-  Pure client-side local signing ensures total key privacy and multi-wallet safety.
-* **All-in-One Toolkit**\
-  Instantly links Fourmeme bundled sells with Multi-to-One Transfer to aggregate funds into one wallets.
+{% embed url="https://bsc.ciaotool.io/zh-Hans/fourmeme/bnb/multi-address-sell" %}
 
 ***
 
-## **Step by Step**
+## 为什么选择 CiaoTool Fourmeme 多地址捆绑卖出？
+
+在变幻莫测的内盘博弈中，撤退的速度与资金的安全性同样重要。CiaoTool 为专业团队构筑了极致的链上防线：
+
+* **零代码同区块并发：**\
+  将复杂的 RPC 节点多线程并发逻辑转化为直观的 Web 端操作，无需编写脚本，只需勾选对应的持币钱包，一键即可实现防夹击并发套现。
+* **纯前端私钥隔离：**\
+  平台严格采用客户端本地处理机制。您的钱包私钥仅在本地浏览器中用于交易签名，绝不上传、存储或传输至任何云端服务器，从技术底层切断资金风险。
+* **端到端的生态闭环：**\
+  作为全栈式 Web3 工具平台，在完成 Fourmeme 捆绑卖出、资金回笼后，可立刻联动「多对一转账」工具，将所有子钱包一键归集至安全冷钱包，实现完美的资金闭环。
+
+***
+
+## **图文指南 | Fourmeme** 多地址捆绑卖出
 
 {% stepper %}
 {% step %}
-#### **Connect Wallet** <a href="#connect-wallet" id="connect-wallet"></a>
+### **绑定钱包**
 
-Click the button in the top right corner to connect a wallet that supports the EVM network.
+点击右上角按钮，绑定支持 BSC 链的钱包
 
-<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (446).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Enter Payment Wallet Private Key
+### 输入支付钱包私钥
 
 {% hint style="danger" %}
-<mark style="color:red;">**Security Tips**</mark>
+<mark style="color:$danger;">**安全须知**</mark>
 
-Currently supports private key import only. Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
+当&#x524D;**「多地址捆绑卖出」**&#x529F;能仅支持 私钥导入以进行支付操作。请确保在安全环境下输入私钥信息，您的资金安全对我们来说至关重要，[**了解更多 CiaoTool 如何保障您的资金安全：资金安全保障**](../../../security-guide.md)**。**
 {% endhint %}
 
-Enter the paying wallet's private key. Enter the private key of the wallet that will be used to pay the service fees for market-making operations.
-
-<figure><img src="../../../.gitbook/assets/image (1011).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (595).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Enter Token Address
+### 输入代币合约地址
 
-Enter / Paste the contract address of the target token into the token input box.
+在代币输入框中 **粘贴目标代币的合约地址**。
 
-<figure><img src="../../../.gitbook/assets/image (1004).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (596).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Import Trading Wallet Private Key
+### 导入捆绑买入私钥地址
 
 {% hint style="danger" %}
-<mark style="color:red;">**Security Tips**</mark>
+<mark style="color:$danger;">**安全须知**</mark>
 
-Currently supports private key import only. Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
+当&#x524D;**「多地址捆绑卖出」**&#x529F;能仅支持 私钥导入以进行多地址卖出操作。请确保在安全环境下输入私钥信息，您的资金安全对我们来说至关重要，[**了解更多 CiaoTool 如何保障您的资金安全：资金安全保障**](../../../security-guide.md)**。**
 {% endhint %}
 
-Supports two import types for trading address private keys: "Manual Input" and "Upload File". Up to 20 addresses is supported.
+1. 点&#x51FB;**「导入私钥」**&#x6309;钮，弹出上传弹窗。
 
-1. Click the **"Import Private Key"** button to open the input pop-up.
+<figure><img src="../../../.gitbook/assets/image (452).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (1001).png" alt=""><figcaption></figcaption></figure>
+2. 支&#x6301;**「手动输入」**&#x548C;**「上传文件」**&#x4E24;种导入钱包私钥的类型，最多支持 **20 个地址**捆绑买入。
 
-2. Manually enter or import the private key file, and click confirm once the private key is displayed in the confirmation box.
+<figure><img src="../../../.gitbook/assets/image (453).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (984).png" alt=""><figcaption></figcaption></figure>
-
-Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.\
-Click to download and view the template:
+使用 CiaoTool 模板文件导入，并保存确定导入并显示在输入框内。\
+点击下载并查看模板：
 
 {% file src="../../../.gitbook/assets/EVM_privateKey_demo.xlsx" %}
+
+3. 系统将自动读取每个私钥的 **BNB 余额**
+
+<figure><img src="../../../.gitbook/assets/image (454).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Enter Sell Amount
+### 输入卖出金额
 
-{% hint style="info" %}
-Keep at least 0.0008 BNB in each wallet to cover gas fees.
+为每个地址设置**卖出金额。**
+
+{% hint style="danger" %}
+买入地址的 BNB 余额必须大于 0.0008，以预留支付 Gas 等网络费用；
+
+当选择 MAX 时，系统将自动预留 0.001 BNB 左右的余额于钱包内，您可手动调整范围。
 {% endhint %}
 
-Supports two trading amount types: **"Custom Input"**, and **"All"**.
-
-<figure><img src="../../../.gitbook/assets/image (1002).png" alt=""><figcaption></figcaption></figure>
-
-1. **Custom Input**\
-   Enter the transfer amount for each wallet individually.
-   * If an amount is filled in, the transfer will use that specific amount.
-   * If an amount is left blank, the transfer will default to the amount configured in the global settings.
-2. **All**\
-   Swaps the entire wallet balance into the target token.
+<figure><img src="../../../.gitbook/assets/image (455).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### **Confirm** <a href="#confirm" id="confirm"></a>
+### 确认交易
 
-After verifying all details, click the **"Start Swap"** button below and wait for the transaction process to complete.
+确认信息无误后，点击下&#x65B9;**「代币卖出」**&#x6309;钮，并等待交易完成。
 {% endstep %}
 {% endstepper %}
 
 ***
 
-**Need help? Join our community for real-time support:**
+**如遇到问题？**&#x4F60;可以通过以下方即时联系 CiaoTool 团队：
 
 <table data-header-hidden><thead><tr><th width="188"></th><th valign="top"></th><th data-hidden></th></tr></thead><tbody><tr><td>Email</td><td valign="top"><a href="mailto:ciaotoolglobal@gmail.com">ciaotoolglobal@gmail.com</a></td><td></td></tr><tr><td>Telegram</td><td valign="top"><a href="https://t.me/ciaotools">https://t.me/ciaotools</a></td><td></td></tr><tr><td>WhatsApp</td><td valign="top"><a href="https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J">https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J</a></td><td></td></tr></tbody></table>
 
 {% hint style="danger" %}
-CiaoTool is committed to providing convenient tooling services but does not offer any form of investment advice. Platform content may change with product iterations. Users are advised to exercise judgment and stay informed about updates.
-{% endhint %}
-
-{% hint style="info" %}
-**CiaoTool Fourmeme Multi-Address Bundled Sell** fully supports all quote tokens, including **BNB, USD1 and UUSD**. Please switch to the specific token page to perform bundled trading operations based on your needs.&#x20;
-{% endhint %}
-
-## What is CiaoTool Fourmeme Multi-Address Bundled Sell?
-
-<figure><picture><source srcset="../../../.gitbook/assets/屏幕截图 2026-06-18 161827.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (1010).png" alt="CiaoTool BSC Toolkit Page about Four.meme Multi-Address Bundled Sell Feature"></picture><figcaption></figcaption></figure>
-
-**Fourmeme Multi-Address Bundled Sell** is an advanced strategy for the Four.meme launchpad. It deploys dozens or hundreds of sub-wallets to execute concurrent sell orders within a single block, achieving instant multi-address fund reclamation.
-
-Common Use Cases:
-
-* **Lossless Exit**\
-  Selling one by one manually depresses prices for subsequent wallets. Same-block concurrent execution ensures all sub-wallets exit at the exact same optimal price.
-* **Anti-MEV Frontrun**\
-  Bundled selling removes the time gap for malicious MEV bots to frontrun large-scale token dumps, fully securing your exit profits.
-
-Start your Multi-Address Bundled Sell on Four.meme with CiaoTool now:
-
-{% embed url="https://bsc.ciaotool.io/en/fourmeme/bnb/multi-address-sell" %}
-
-***
-
-## Why Choose CiaoTool Fourmeme Multi-Address Bundled Sell?
-
-In fierce on-chain execution, capital efficiency and concealment determine the success or failure of a strategy. CiaoTool builds the ultimate on-chain defense line for professional teams:
-
-* **No-Code**\
-  Visual web panel replaces complex RPC scripts. Just check token-holding wallets for one-click anti-MEV bot exits.
-* **Local Privacy**\
-  Pure client-side local signing ensures total key privacy and multi-wallet safety.
-* **All-in-One Toolkit**\
-  Instantly links Fourmeme bundled sells with Multi-to-One Transfer to aggregate funds into one wallets.
-
-***
-
-## **Step by Step**
-
-{% stepper %}
-{% step %}
-#### **Connect Wallet** <a href="#connect-wallet" id="connect-wallet"></a>
-
-Click the button in the top right corner to connect a wallet that supports the EVM network.
-
-<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
-{% endstep %}
-
-{% step %}
-### Enter Payment Wallet Private Key
-
-{% hint style="danger" %}
-<mark style="color:red;">**Security Tips**</mark>
-
-Currently supports private key import only. Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
-{% endhint %}
-
-Enter the paying wallet's private key. Enter the private key of the wallet that will be used to pay the service fees for market-making operations.
-
-<figure><img src="../../../.gitbook/assets/image (1011).png" alt=""><figcaption></figcaption></figure>
-{% endstep %}
-
-{% step %}
-### Enter Token Address
-
-Enter / Paste the contract address of the target token into the token input box.
-
-<figure><img src="../../../.gitbook/assets/image (1004).png" alt=""><figcaption></figcaption></figure>
-{% endstep %}
-
-{% step %}
-### Import Trading Wallet Private Key
-
-{% hint style="danger" %}
-<mark style="color:red;">**Security Tips**</mark>
-
-Currently supports private key import only. Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
-{% endhint %}
-
-Supports two import types for trading address private keys: "Manual Input" and "Upload File". Up to 20 addresses is supported.
-
-1. Click the **"Import Private Key"** button to open the input pop-up.
-
-<figure><img src="../../../.gitbook/assets/image (1001).png" alt=""><figcaption></figcaption></figure>
-
-2. Manually enter or import the private key file, and click confirm once the private key is displayed in the confirmation box.
-
-<figure><img src="../../../.gitbook/assets/image (984).png" alt=""><figcaption></figcaption></figure>
-
-Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.\
-Click to download and view the template:
-
-{% file src="../../../.gitbook/assets/EVM_privateKey_demo.xlsx" %}
-{% endstep %}
-
-{% step %}
-### Enter Sell Amount
-
-{% hint style="info" %}
-Keep at least 0.0008 BNB in each wallet to cover gas fees.
-{% endhint %}
-
-Supports two trading amount types: **"Custom Input"**, and **"All"**.
-
-<figure><img src="../../../.gitbook/assets/image (1002).png" alt=""><figcaption></figcaption></figure>
-
-1. **Custom Input**\
-   Enter the transfer amount for each wallet individually.
-   * If an amount is filled in, the transfer will use that specific amount.
-   * If an amount is left blank, the transfer will default to the amount configured in the global settings.
-2. **All**\
-   Swaps the entire wallet balance into the target token.
-{% endstep %}
-
-{% step %}
-### **Confirm** <a href="#confirm" id="confirm"></a>
-
-After verifying all details, click the **"Start Swap"** button below and wait for the transaction process to complete.
-{% endstep %}
-{% endstepper %}
-
-***
-
-**Need help? Join our community for real-time support:**
-
-<table data-header-hidden><thead><tr><th width="188"></th><th valign="top"></th><th data-hidden></th></tr></thead><tbody><tr><td>Email</td><td valign="top"><a href="mailto:ciaotoolglobal@gmail.com">ciaotoolglobal@gmail.com</a></td><td></td></tr><tr><td>Telegram</td><td valign="top"><a href="https://t.me/ciaotools">https://t.me/ciaotools</a></td><td></td></tr><tr><td>WhatsApp</td><td valign="top"><a href="https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J">https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J</a></td><td></td></tr></tbody></table>
-
-{% hint style="danger" %}
-CiaoTool is committed to providing convenient tooling services but does not offer any form of investment advice. Platform content may change with product iterations. Users are advised to exercise judgment and stay informed about updates.
+CiaoTool 致力于提供便捷的工具服务，但不构成任何投资建议。平台内容可能根据产品迭代进行调整，敬请用户自行判断并留意更新。
 {% endhint %}

@@ -1,253 +1,243 @@
 ---
 description: >-
-  CiaoTool provides no-code deployment for BSC blackhole reward tokens. Combine
-  holder rewards and automatic burns in a single BEP-20 token to build a
-  deflationary token model.
+  CiaoTool 提供免代码的 BSC 黑洞分红代币创建服务。一键部署自带“持币分红”与“自动销毁通缩”双重机制的 BEP-20
+  智能合约。自定义税率分配，助您在 BNB Chain 上轻松构建极致通缩的高阶通证经济模型。
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/b56FKZGe1viFi67H1pPQ/token/black-hole
 ---
 
-# BSC - Burning Reflection Token Creator Tutorial
+# BSC - 黑洞分红代币创建教程
 
 {% hint style="danger" %}
-<mark style="color:red;">**Security Alert**</mark>
+<mark style="color:red;">**检测风险提醒**</mark>
 
-This token type contains custom logic that **may be flagged** by certain audit platforms. For 100% flawless green scores, please choose [**"Standard Token"**](standard-token-evm.md). By proceeding with this deployment, **you acknowledge and accept that such security alerts or risk flags may appear.**
+该类型代币由于采用特殊机制或扩展功能，部分安全检测平台可能会标记为**存在潜在风险或给予较低评分**。若您较为关注代币检测结果，建议选择[**「创建标准代币」**](standard-token-evm.md)，标准代币通常具有更好的兼容性与检测表现。继续创建此类型代币，**即表示您已了解并接受可能产生的检测提示或风险标记。**
 {% endhint %}
 
-## What is BSC Burning Reflection Token Creator?
+## BSC 黑洞分红代币是什么？
 
-<figure><picture><source srcset="../../../.gitbook/assets/屏幕截图 2026-06-17 141353.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (971).png" alt="CiaoTool BSC Toolkit Page about BSC Burning Reflection Token Creator Feature"></picture><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (542).png" alt="CIaoTool BSC 黑洞分红代币 页面"><figcaption></figcaption></figure>
 
-The core of this feature lies in the introduction of a tokenomics innovation called "Burn-to-Earn": once the token is deployed, the system automatically opens a dividend pool. Standard token holders cannot directly earn yields; users must actively transfer their project tokens to the black hole address (permanent destruction) to activate and qualify for reflections.&#x20;
+该功能的核心在于引入了「销毁即挖矿」的代币经济学创新：代币部署后，系统将自动开启分红池。普通的持币者无法直接获得收益，用户必须主动将手中持有的项目代币转入黑洞地址（即永久销毁），才能激活并获得分红资格。 同时，在创建合约时，项目方可以自由指定分红池派发的资产类型。
 
-Meanwhile, when creating the contract, project owners can freely designate the specific asset type distributed by the dividend pool.
-
-This mechanism drives holders into a strategic game between "holding to wait for appreciation" and "burning to exchange for stable cash flow," thereby achieving an ultra-fast, permanent reduction in circulating supply.
+这种机制促使持币者在「持有等待升值」与「销毁换取稳定现金流」之间进行博弈，从而实现代币流通量的极速、永久性核减。
 
 {% hint style="info" %}
-Blackhole Address: `0x000000000000000000000000000000000000dEaD`
+黑洞地址：`0x000000000000000000000000000000000000dEaD`
 {% endhint %}
 
-Use Case:
+核心适用场景：
 
-* **Hyper-Scarcity:**  Rewards token-burning to rapidly and permanently reduce circulating market supply.
-* **Token Synergy:** Distributes USDT, BNB, or ecosystem assets to drive dual-token synergy.
+* 打造极致稀缺经济模型： 适合需要稳健构建链上通缩模型的 Web3 项目。通过鼓励用户主动销毁筹码换取分红，极速减少市场流通量。
+* 跨资产生态联动： 支持灵活设置分红币种，项目方可以设定分发 USDT、BNB 或其他生态代币，实现双币联动。
 
-| Dimension                 | Holders Dividend Token                                | Burning Reflection Token                                                       |
-| ------------------------- | ----------------------------------------------------- | ------------------------------------------------------------------------------ |
-| Eligibility Condition     | Simply holding the token in the wallet is sufficient. | Must actively transfer the token to the black hole address for destruction.    |
-| Yield Asset Type          | Typically rewards the project token itself.           | Can customize rewards to be any on-chain token.                                |
-| Circulating Supply Impact | Unchanged; it merely transfers between user wallets.  | Decreases; users will actively eliminate circulating supply to secure profits. |
-| User Game Psychology      | Passively waiting for transaction tax yields.         | 主动出击，权衡“卖出赚差价”还是“销毁拿永续分红”                                                      |
+| 对比维度    | 分红本币           | 黑洞分红                      |
+| ------- | -------------- | ------------------------- |
+| 获取分红条件  | 只要钱包里持有该代币即可   | 必须主动将该代币转入黑洞地址永久销毁        |
+| 收益资产类型  | 通常奖励项目代币本身     | 可自定义奖励任意链上代币              |
+| 代币流通量变化 | 不变，仅在玩家钱包中发生转移 | 减少，用户为了获利会主动消灭流通量         |
+| 玩家博弈心理  | 被动等待交易税收益      | 主动出击，权衡“卖出赚差价”还是“销毁拿永续分红” |
 
-Start your Burning Reflection Token Creator on BNB Smart Chain with CiaoTool now:
+立即在 BSC 网络上，用 CiaoTool​ 创建黑洞分红代币：
 
-{% embed url="https://bsc.ciaotool.io/en/token/black-hole" %}
-
-***
-
-## Why choode CiaoTool BSC Burning Reflection Token Creatoe
-
-CiaoTool delivers a secure, streamlined asset issuance solution on the BNB Chain, providing highly efficient infrastructure for complex on-chain cross-asset routing:
-
-* **Flexible Taxes**\
-  Custom buy/sell taxes with flexible rewards and parameter settings for any economic model.
-* **No-Code**\
-  Form-based deployment without coding or debugging; confirm Gas to issue tokens instantly.
-* **Ecosystem**\
-  Direct access to MM & liquidity tools, bridging the full lifecycle from creation to operation.
+{% embed url="https://bsc.ciaotool.io/zh-Hans/token/black-hole" %}
 
 ***
 
-## **Step by Step**
+## 为什么选择 CiaoTool BSC 黑洞分红代币创建？
+
+CiaoTool 为 BSC 链上的资产发行提供了一种兼顾绝对安全与极简操作的专业解决方案。对于需要处理复杂链上跨资产路由的项目方，CiaoTool 构筑了极致安全与高效的基础设施：
+
+* **灵活的通缩矩阵配置：** \
+  支持自定义买入税、卖出税的具体比例。允许发行者灵活设置分红币种与参数，完美适配多样化的操盘策略与经济学模型。
+* **零代码极速创建：**\
+  彻底免去编写与调试复杂智能合约的繁琐流程，全前端表单化操作，一键支付 Gas 费即可实现链上资产的极速诞生，将技术门槛降至为零。
+* **全矩阵生态闭环：**\
+  完美衔接 CiaoTool 强大的市值管理（MM）与流动性管理工具，帮助项目从“创建”平稳过渡到“运营”，完美适配从资产生成到生态繁荣的全生命周期战略。
+
+***
+
+## **图文指南 | BSC** 持币暴力分红代币创建
 
 {% stepper %}
 {% step %}
-### **Connect Wallet**
+### **绑定钱包**
 
-Click the button in the top right corner to connect a wallet that supports the EVM network.
+选择你要创建代币的**区块链**，并绑定支持 EVM 网络的钱包
 
-<figure><img src="../../../.gitbook/assets/image (972).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (446).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Enter Token Information
+### 填写代币基础信息
 
-<figure><img src="../../../.gitbook/assets/image (954).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (530).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-<mark style="color:$primary;">**LOGO & Project Description**</mark>
+<mark style="color:blue;">**LOGO 及 项目描述**</mark>
 
-LOGO and descriptions are off-chain by default on EVM. You must manually apply to DeFi platforms/wallets for display, or [contact us to get a tailored service quote](https://t.me/CiaoTools).
+EVM 网络创建代币并不会将 LOGO 和 项目描述信息同步上链，需要自行联系去中心化平台及钱包dapp申请 LOGO 及其附属信息。我们也有偿提供代币 LOGO 上传服务，各平台与网络要求与价格均不相同，[联系我们以获取 LOGO 上传服务费用。](https://t.me/CiaoTools)
 {% endhint %}
 
-* **Token Name:** The full name of the token as you wish it to be displayed in wallets or block explorers (e.g., MyFirstToken).
-* **Token Symbol:** The abbreviation of the token, typically 3 to 6 uppercase letters (e.g., MYT).
-* **Decimals:** Refers to the minimum number of decimal places a token can be divided into. The most common choice is 12.
-* **Total Supply:** The total volume of tokens to be issued.
+* **代币名称：**&#x60A8;希望展示在钱包或区块浏览器中的完整代币名称（_例如：MyFirstToken_）。
+* **代币简称：**&#x4EE3;币的缩写，通常为 3\~6 个大写字母（_例如：MYT_）。
+* **精度：**&#x6307;的是一种代币最小可以分割到的小数位数。简单来说，它决定了你可以将一枚代币分成多小的单位。常见为 18 位。
+* **总供应量：**&#x53D1;行的代币总量
 {% endstep %}
 
 {% step %}
-### Receiving Wallet Address
+### 填写收币地址
 
-Enter wallet address to receive total supply. This action transfers full token ownership and the total minted supply directly to the specified address.
+创建代币后，接收所有代币的地址。即将代币所有权和所有代币转移到指定地址
 {% endstep %}
 
 {% step %}
-### Choose Dividends Token
+### 选择分红代币
 
-<figure><img src="../../../.gitbook/assets/image (970).png" alt=""><figcaption></figcaption></figure>
+选择或输入分红的代币地址，产生税费时并分发给持有者的代币，可以是主流价值代币，也可以是任意 BEP-20 代币。
 
-Select or enter the token contract address you wish to distribute as dividend.
-
-**The selected dividend token must possess an active BNB trading pair and be fully tradeable.** If the token suffers from insufficient liquidity or lacks a BNB paired pool, the automated reflection mechanism may fail to execute. Major assets are highly recommended.
+<figure><img src="../../../.gitbook/assets/image (543).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Set Buy/Sell Tax Rates
+### 设置买卖税率
 
-{% hint style="info" %}
-Individual tax rate cannot exceed 25%.
+CiaoTool 支持买入卖出双税费机制，您可以自由配置买入和卖出税率。
 
-Combined buy and sell tax rates cannot exceed 50%.
-{% endhint %}
+<figure><img src="../../../.gitbook/assets/image (546).png" alt=""><figcaption></figcaption></figure>
 
-CiaoTool features a dual-tax framework for transaction friction. You can flexibly customize individual tax rates for both buy and sell orders.
-
-<figure><img src="../../../.gitbook/assets/image (973).png" alt=""><figcaption></figcaption></figure>
-
-* **Fund Fee:** Auto-transfers a fixed rate of tokens to the fund address for project promotion.
-* **Reflect Fee:** Distributes tax allocations to all LP token holders based on ownership percentages.
-* **LP Fee:** Automatically injects a portion of tokens into the pool to sustain deep trading liquidity.
+* **营销税率**：交易中指定额度的代币将会自动转入指定的营销钱包中，用于进行其他营销活动。
+* **分红税率**：交易中指定额度的代币会按持币比例分配给所有 LP 代币持有者，实现分红。
+* **回流税率**：交易中指定额度的代币将会自动添加到流动池内，保证交易始终存在流动性。
+* **营销钱包**：用于接收营销税费的钱包地址。
+* **黑洞分红最小销毁量：**&#x94B1;包地址中扔至黑洞的代币数量超过此门槛才获得分红资格，合理的门槛设置可以让用户更长期和更多数量的持有，不填默认扔了就获得资格。
 {% endstep %}
 
 {% step %}
-### Initial Liquidity Setup
+### 流动性初始设置
 
-<figure><img src="../../../.gitbook/assets/image (957).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (526).png" alt=""><figcaption></figcaption></figure>
 
-When initially creating the liquidity pool, you must complete the initial setup to activate the native token reflection mechanism.
+初始创建流动性池时，必须使用初始设置，以触发 LP 分红机制。
 
-* **Target DEX:** PancakeSwap (Currently the only supported platform on BSC)
-* **Currency:** The asset paired with your new token, typically using major tokens like BNB or USDT.
+* **交易所：**&#x42;SC 链目前只支持 PancakeSwap。
+* **底池代币：**&#x5373;与新代币配对的价值代币，通常使用主流币。
 {% endstep %}
 
 {% step %}
-### Function Setup
+### 多功能开启
 
-All of the following functions can be managed by adjusting parameters via the Console, or their administrative permissions can be permanently renounced.
+以下功能均可通过控制台调整参数，或永久关闭权限。
 
-1.  **Manual Trading Enable**
-
-    The initial trading session after adding liquidity must be activated manually via the dashboard console.
-2. **Tax Switch**\
-   Buy and sell tax rates can be manually adjusted at any time post-creation. However, both individual buy and sell taxes must strictly adhere to the range of 0% to 25%.
-3. **Blacklist**\
-   Enables blocking specific wallet addresses from trading or transferring tokens. Once this module is turned off, it is permanently renounced and cannot be reactivated.
-4. **Max Holding**\
-   Allows you to cap the maximum number of tokens a single wallet can hold (Anti-Whale). Once this toggle is disabled, it is permanently locked and cannot be enabled again.
+1. **手动开启交易**\
+   添加池子后的首次交易需要在控制台手动开启。
+2. **税率开关**\
+   创建后可随时手动调整买卖税率，但是买卖税率都需要为 0 ≤ 25%。
+3. **黑名单功能**\
+   可拉黑部分钱包地址令其无法交易及转账。此按钮关闭后无法再次开启。
+4. **最大持币量限制**\
+   可设置单个钱包最大持有代币数量。此开关关闭后无法再次开启。
 {% endstep %}
 
 {% step %}
-### Confirm
+### 确认交易
 
-After verifying all details, click the **"Create Contract"** button below and wait for the transaction process to complete.
+确认信息无误后，点击下&#x65B9;**「创建合约」**&#x6309;钮，并等待合约创建完成。
 {% endstep %}
 
 {% step %}
-### Add Token to Wallet dApps
+### 添加代币到钱包dapp
 
-If your token doesn't show up automatically, simply copy the contract address and use the "Import / Add Custom Token" feature in your wallet.
+部分钱包无法直接查看到流动性小的代币，但你可以通过手动添加的方式，将您的代币添加到钱包当中。
 
 <details>
 
-<summary><strong>Add Tutorial</strong></summary>
+<summary><strong>添加教程</strong></summary>
 
-1. Open your wallet (browser extension or mobile app).
-2. Navigate to the tokens tab and select "Import Tokens" (or "Add Token").
+1. 打开你的钱包，插件钱包或APP程序
+2. 找到代币页面-选择添加代币
 
-<figure><img src="../../../.gitbook/assets/image (948).png" alt=""><figcaption></figcaption></figure>
+<img src="https://ciaotool.gitbook.io/docs/~gitbook/image?url=https%3A%2F%2Fcontent.gitbook.com%2Fcontent%2FRbU9EUruu3lWQ1GJ5WVC%2Fblobs%2FAPA2BpGAbSxRd0loKfVb%2Fimage.png&#x26;width=768&#x26;dpr=3&#x26;quality=100&#x26;sign=71aaa5bf&#x26;sv=2" alt="" height="218" width="443">
 
-<figure><img src="../../../.gitbook/assets/image (949).png" alt=""><figcaption></figcaption></figure>
+3. 选择你创建代币所在的链，两种模式添加，这里我们选择自定义代币
 
-3. Ensure you are on the network where the token was deployed. Choose "Custom Crypto" from the import options.
+<figure><img src="../../../.gitbook/assets/image (521).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (950).png" alt=""><figcaption></figcaption></figure>
+4. 粘贴你的代币合约，即可查看你的代币信息，点击导入即可
 
-4. Paste your token contract address to autofill the token details, then click "Import" to finish.
-
-<figure><img src="../../../.gitbook/assets/image (951).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (520).png" alt=""><figcaption></figcaption></figure>
 
 </details>
 {% endstep %}
 
 {% step %}
-### Create Liquidity Pool
+### 创建流动性池
 
 {% hint style="danger" %}
-The initial asset pool must be created as a **"V2" Liquidity Pool**. Please note that "V3" liquidity pools are incompatible with and cannot trigger any tax or reflection mechanisms.
+初始创建流动性资产池必须&#x4E3A;**「V2」流动性池**，「V3」流动性池无法参与任何税费机制。
 {% endhint %}
 
-Once created, your token only supports basic transfers and cannot be traded yet. To enable market trading, you must Add a Liquidity Pool (LP), allowing users to swap your token freely on decentralized exchanges (DEXs).
+代币创建完成后，还不具有交易属性，只能进行转账操作。添加流动性资金池，让代币在去中心化平台自由兑换。
 
-Click here to view the Liquidity Pool Creation Tutorial:
+点击查看创建流动性池教程：
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Create Liquidity Pool - V2</td><td><a href="../../../chains/bsc/swap/create-liquidity-v2.md">create-liquidity-v2.md</a></td></tr><tr><td><a data-footnote-ref href="#user-content-fn-1">Liquidity Bundler</a> - V2</td><td><a href="../../../chains/bsc/swap/bundler-v2.md">bundler-v2.md</a></td></tr><tr><td>Create Liquidity Pool - V3</td><td><a href="../../../chains/bsc/swap/create-liquidity-v3.md">create-liquidity-v3.md</a></td></tr><tr><td><a data-footnote-ref href="#user-content-fn-1">Liquidity Bundler</a> - V3</td><td><a href="../../../chains/bsc/swap/bundler-v3.md">bundler-v3.md</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>创建流动性池 - V2</td><td><a href="../../../chains/bsc/swap/create-liquidity-v2.md">create-liquidity-v2.md</a></td></tr><tr><td>创建流动性池并捆绑买入 - V2</td><td><a href="../../../chains/bsc/swap/bundler-v2.md">bundler-v2.md</a></td></tr><tr><td>创建流动性池 - V3</td><td><a href="../../../chains/bsc/swap/create-liquidity-v3.md">create-liquidity-v3.md</a></td></tr><tr><td>创建流动性池并捆绑买入 - V3</td><td><a href="../../../chains/bsc/swap/bundler-v3.md">bundler-v3.md</a></td></tr></tbody></table>
 {% endstep %}
 {% endstepper %}
 
 ***
 
-## **FAQs**
+## **常见问题 FAQ**
 
 <details>
 
-<summary><strong>Do all black hole addresses unlock reflect?</strong></summary>
+<summary><strong>黑洞地址都能获得分红权限吗？</strong></summary>
 
-No. Currently, only one specific black hole address is supported, which is: `0x000000000000000000000000000000000000dEaD`. The other black hole address does not support dividend eligibility.
+不是的，目前只支持1个黑洞地址，即：`0x000000000000000000000000000000000000dEaD`，另一个黑洞地址不支持分红权限。
 
 </details>
 
 <details>
 
-<summary><strong>Why are there still no reflections after making multiple purchases?</strong></summary>
+<summary><strong>为什么买了很多笔还是没有分红？</strong></summary>
 
-1. Avoid trading with tax-exempt whitelisted wallets (deployer/marketing).&#x20;
-2. The contract relies on a "buy-and-sell" tax cycle; a market sell order must occur to trigger the reflection payout.
+不要使用白名单地址交易，如发币地址、营销钱包地址交易都无法触发分红。
 
-</details>
-
-<details>
-
-<summary><strong>Can the black hole dividend threshold value be modified?</strong></summary>
-
-No, this value is immutable even with permissions. It must be set correctly during creation.
+交易税费以「买 + 卖」为一个循环，必须先触发卖出机制才能触发分红条件。
 
 </details>
 
 <details>
 
-<summary><strong>Can I use Chinese characters for the Token Name and Symbol?</strong></summary>
+<summary><strong>黑洞分红门槛阈值能修改吗？</strong></summary>
 
-Yes. The BNB Smart Chain (BSC) fully supports Chinese, English, and mixed alphanumeric characters for token metadata.
+注意，该数值不支持修改，有权限也不行，所以创建合约的时候一定要设定好。
 
 </details>
 
 <details>
 
-<summary><strong>Is It Secure?</strong></summary>
+<summary><strong>代币名称和代币简称能使用中文吗？</strong></summary>
 
-The platform uses a fully client-side signing mechanism. Your private key is never uploaded or stored on any server, and all transactions are signed locally in your browser, ensuring the platform cannot access your private key.
+可以，现在 BSC 链全面支持中文、英文以及中英混合文字。
+
+</details>
+
+<details>
+
+<summary><strong>操作是否安全？</strong></summary>
+
+平台采用纯前端签名机制，您的私钥绝不会被上传或储存在任何服务器上，所有交易均在本地浏览器完成签名，从技术层面确保平台无法访问您的私钥。
 
 </details>
 
 ***
 
-**Need help? Join our community for real-time support:**
+**如遇到问题？**&#x4F60;可以通过以下方即时联系 CiaoTool 团队：
 
 <table data-header-hidden><thead><tr><th width="188"></th><th valign="top"></th><th data-hidden></th></tr></thead><tbody><tr><td>Email</td><td valign="top"><a href="mailto:ciaotoolglobal@gmail.com">ciaotoolglobal@gmail.com</a></td><td></td></tr><tr><td>Telegram</td><td valign="top"><a href="https://t.me/ciaotools">https://t.me/ciaotools</a></td><td></td></tr><tr><td>WhatsApp</td><td valign="top"><a href="https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J">https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J</a></td><td></td></tr></tbody></table>
 
 {% hint style="danger" %}
-CiaoTool is committed to providing convenient tooling services but does not offer any form of investment advice. Platform content may change with product iterations. Users are advised to exercise judgment and stay informed about updates.
+CiaoTool 致力于提供便捷的工具服务，但不构成任何投资建议。平台内容可能根据产品迭代进行调整，敬请用户自行判断并留意更新。
 {% endhint %}
-
-[^1]: Create Liquidity Pool & Multi-Address Bundled Buy

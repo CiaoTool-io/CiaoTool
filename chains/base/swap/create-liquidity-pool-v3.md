@@ -1,5 +1,6 @@
-# Base - Create V3 Liuidity Pool Tutorial
+# Base - 创建 V3 流动性池教程
 
-Feature coming soon. Contact support for help.
+功能开发中...如需帮助请联系我们
 
 {% embed url="https://t.me/CiaoTools" %}
+

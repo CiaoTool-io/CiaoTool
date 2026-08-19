@@ -1,135 +1,129 @@
 ---
 description: >-
-  One-click Solana token creation for Token-2022 deployment with built-in
-  transfer tax support. Secure client-side processing with seamless support for
-  liquidity management and multi-wallet operations.
+  Solana 一键发币工具，快速创建具有税费功能的 Token-2022 代币，通过纯前端安全处理，助力 Web3
+  开发者与链上运营者以极低成本快速发行代币，并无缝衔接后续的流动性管理与多地址资产调度。
 ---
 
-# Solana - Tax Token Creator Tutrial
+# Solana - 税费代币创建教程
 
 {% hint style="info" %}
-You are currently on the **"Solana - Taxable Token Creator"** tutorial page.
-
-Click [**"Solana - Standard Token Creator"**](standard-token.md) to view tutorials for strandard token creator.
+当前&#x662F;**「Solana - 税费代币创建」**&#x6559;程页面，点击[**「Solana - 标准代币创建」**](standard-token.md)以查看标准代币创建教程。
 {% endhint %}
 
-## What is CiaoTool Solana Tax Token Creator?
+## CiaoTool Solana 税费代币创建是什么？
 
-<figure><img src="../../../.gitbook/assets/image (761).png" alt="CiaoTool Solana Toolkit Page about Taxable Token Creator Feature"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (647).png" alt="CiaoTool Solana网络 创建税费代币 功能页面"><figcaption></figcaption></figure>
 
-Traditional Solana standard tokens (SPL Tokens) are primarily utilized for basic transfers and circulation, whereas **Solana Tax Token Creator** is an advanced asset issuance feature implemented based on Solana's latest official **Token-2022 Extension Program.**
+传统 Solana 标准代币（SPL Token）主要用于基础的转账与流通，而 Solana 税费代币创建 则是基于 Solana 官方最新的 Token-2022 扩展协议 实现的高阶资产发行功能。
 
-Through CiaoTool's one-click creation tool, project teams can configure "transfer / transaction tax rates" and a "maximum tax cap per transaction" directly at the underlying protocol level without writing any smart contract code. This means that every time the token circulates on-chain, a set percentage of the fee is automatically deducted and deposited into the "tax collection wallet" designated by the project team. Users can also manage or renounce token authorities (such as minting and freezing). Issuers can generate their exclusive tokens with a single click, fully leveraging Solana's ultra-high concurrency capabilities and extremely low network transaction fees.
+通过 CiaoTool 的一键创建工具，项目方可以在无需编写任何智能合约代码的情况下，直接在底层协议级别为代币设定“转账/交易税率”以及“单笔最高税费上限”。这意味着代币在每一次链上流转时，都会自动扣除一定比例的费用并存入项目方指定的“收税钱包”中，并可设置或放弃代币权限（如增发、冻结）。发行方可以一键生成具备 Solana 极高并发处理能力与极低网络手续费特性的专属代币。
 
-Key Use Cases
+**适用场景：**
 
-* **Community Treasury & Ecosystem Development Funds**\
-  Collected token taxes automatically flow into the project's multi-sig treasury to fund long-term R\&D, marketing, and rewards for ecosystem contributors, ensuring the project possesses sustainable revenue generation capabilities.
-* **Building Deflationary Economic Models**\
-  Project teams can regularly burn the collected tax tokens to continuously reduce the circulating supply, thereby optimizing the token's scarcity and long-term value support.
-* **Project-Specific Mechanism Innovation**\
-  Supports configuring complex authorization mechanisms, including advanced settings like authority delegation and interest-bearing features, providing more flexible mechanisms and market strategies for SocialFi or specific utility tokens.
+* 社区金库与生态建设基金 \
+  将收取到的代币税费自动流入项目多签金库，用于长期的研发、市场营销与生态贡献者奖励，确保项目拥有持续的造血能力。
+* 构建通缩经济模型：\
+  项目方可通过定期销毁收取的税费代币，实现流通量的持续减少，从而优化代币的稀缺性与长期价值支撑。
+* 项目专属机制创新：\
+  支持设置复杂的授权机制，包括权限委托与利息设定等高级配置，为 SocialFi 或特定实用型代币提供更灵活的机制与市场策略。
 
-Start your Standard Token Creator on Solana with CiaoTool now:
+立即在 Solana 网络上，用 CiaoTool​ 创建税费代币：
 
-{% embed url="https://ciaotool.io/en-US/token/tax-token" %}
-
-***
-
-## Why Choose CiaoTool Solana Tax Token Creator?
-
-In the fast-paced Solana ecosystem, efficiency and supporting infrastructure determine a project's starting line. CiaoTool builds highly competitive infrastructure for token issuers:
-
-* **Ultra-High Security** \
-  CiaoTool employs pure client-side local execution, never upload private keys. The contract code is open-source and transparent, guaranteeing the absolute control of the creator.
-* **Zero-Code Rapid Creation**\
-  Completely eliminates the tedious process of writing and debugging complex smart contracts. With a fully client-side, form-based interface, a single click to pay gas fees brings your on-chain assets to life instantly.
-* **Extreme Client-Side Security Isolation**\
-  Utilizing a localized client-side processing mechanism, it ensures authority control and private key safety during the token issuance process.
-* **Full-lifecycle Token Ecosystem**\
-  Perfectly integrates with CiaoTool's powerful Market Making (MM) and liquidity management tools, helping projects transition smoothly from "creation" to "operation." It is a flawless fit for full-lifecycle strategies, spanning from asset generation to ecosystem prosperity.
+{% embed url="https://ciaotool.io/zh-CN/token/tax-token" %}
 
 ***
 
-## **Video Tutorial | Solana Tax Token Creator**
+## 为什么选择 CiaoTool Solana 税费代币创建？
+
+在快节奏的 Solana 生态中，效率与后续配套设施决定了项目的起跑线。CiaoTool 为发行方构筑了极具竞争力的基础设施：
+
+* **极高安全性：** \
+  CiaoTool 采用纯前端本地执行，私钥不触网，合约代码开源透明，保障创建者的绝对控制权。
+* **零代码极速创建：**\
+  彻底免去编写与调试复杂智能合约的繁琐流程，全前端表单化操作，一键支付 Gas 费即可实现链上资产的极速诞生，将技术门槛降至为零。
+* **极致的前端安全隔离：** \
+  采用前端本地化处理机制，确保发币过程中的权限控制与私钥安全，从技术底层杜绝中心化存储带来的资产风险。
+* **全矩阵生态闭环：**\
+  完美衔接 CiaoTool 强大的市值管理（MM）与流动性管理工具，帮助项目从“创建”平稳过渡到“运营”，完美适配从资产生成到生态繁荣的全生命周期战略。
+
+***
+
+## **视频教程 | Solana 税费代币创建**
 
 {% hint style="info" %}
-If you prefer video tutorials, this feature has a similar workflow to the Tax Token Creator page. You can refer to and watch this tutorial.
+如果你更偏好视频形式的学习，该功能页面与 税费代币 页面结构类似，参考并观看本教程
 {% endhint %}
 
-{% embed url="https://www.youtube.com/watch?v=efxCzNAMpYE" %}
+{% embed url="https://www.youtube.com/watch?v=FtfJagh1u2s" %}
 
 ***
 
-## **Step by Step | Solana Tax Token Creator**
+## **图文指南 | Solana 税费代币创建**
 
 {% stepper %}
 {% step %}
-### **Connect Wallet**
+### **绑定钱包**
 
-Click the button in the top right corner to connect a wallet that supports the Solana network.
+点击右上角按钮，绑定支持 Solana 网络的钱包
 
-<figure><img src="../../../.gitbook/assets/image (757).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (622).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Enter Token Information
+### 填写代币基础信息
 
-<figure><img src="../../../.gitbook/assets/image (758).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (643).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-**Clone:** Click the **"Clone"** button to copy information from another token.
+**克隆：** 点击克隆按钮，克隆其他代币的信息。
 {% endhint %}
 
-* **Token Name:** The full name of the token as you wish it to be displayed in wallets or block explorers (e.g., MyFirstToken).
-* **Token Symbol:** The abbreviation of the token, typically 3 to 6 uppercase letters (e.g., MYT).
-* **Decimals:** Refers to the minimum number of decimal places a token can be divided into. The most common choice is 6 / 9.
-* **Total Supply:** The total volume of tokens to be issued.
-* **LOGO：**&#x55;pload the logo image for your project or token. A recommended dimension is 1000\*1000 pixels.
-* **Description:** A brief introduction to the token's utility, story, or Memecoin background (Optional).
-* **Social Links:** Although optional, it is highly recommended to fill this in, including Official Website, X / Twitter, and Telegram.
+* **代币名称：**&#x60A8;希望展示在钱包或区块浏览器中的完整代币名称（_例如：MyFirstToken_）。
+* **代币简称：**&#x4EE3;币的缩写，通常为 3\~6 个大写字母（_例如：MYT_）。
+* **精度：**&#x6307;的是一种代币最小可以分割到的小数位数。简单来说，它决定了你可以将一枚代币分成多小的单位。常见为 18 位。
+* **总供应量：**&#x53D1;行的代币总量。
+* **LOGO：**&#x4E0A;传项目或代币的标志图像，建议尺寸 1000\*1000 像素。
+* **描述：** 简要介绍代币用途、故事或 Meme 背景（选填）。
+* **添加社交链接**：虽然为可选项，但强烈建议填写，**官网、X / Twitter、Telegram。**
 {% endstep %}
 
 {% step %}
-### Tax Setting
+### 税费设置
 
-<figure><img src="../../../.gitbook/assets/image (762).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (648).png" alt=""><figcaption></figcaption></figure>
 
-* **Tax Rate:** The fee rate required for each transaction or transfer, measured as a percentage.
-* **Maximum Fee:** The maximum upper limit of the fee for a single transfer or transaction.
-* **Authority Wallet Address:** Defaults to the currently connected wallet address, which controls all permissions and authorities for this token.
-* **Withdraw Wallet Address:** The address authorized to withdraw the accumulated transaction fees generated by the token; defaults to the currently connected wallet address.
+* **费率：**&#x6BCF;次交易或转账所需的手续费率，单位为百分比。
+* **最高费用：**&#x5355;笔转账或交易时的最大手续费用上限。
+* **权限钱包地址：**&#x9ED8;认为当前连接的钱包地址，控制此代币的所有权限。
+* **提现钱包地址：**&#x4EE3;币所产生的手续费，有权限进行提现的地址，默认为当前连接的钱包地址。
 {% endstep %}
 
 {% step %}
-### Set Permissions
+### 设置权限
 
-**Revoke Update**\
-"Revoke update authority" means you will no longer be able to modify the token metadata. This is highly effective in making investors feel more secure.
+**元数据修改权**：“放弃元数据修改权”，意味着您将无法修改令牌元数据，让投资者感到更安全确实很有用。
 
-**Revoke Freeze**\
-"Revoke freeze authority" means you cannot restrict specific accounts from performing actions such as sending transactions.
+**冻结权**：“放弃冻结权”，意味着您无法限制特定帐户执行发送交易等操作，CiaoTool 支持未放弃此权限的代币创建市场。
 
-Revoke Mint\
-"Revoke mint authority" is necessary to make investors feel more secure and to ensure the success of the token. If you renounce the mint authority, it means you will no longer be able to mint additional token supply.
+**铸币权**：“放弃铸币权”对于让投资者感到更加安全和作为代币的成功是必要的。如果您放弃铸币权，则意味着您将无法铸造更多代币供应。
 
-<figure><img src="../../../.gitbook/assets/image (759).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (645).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Confirm
+### 确认交易
 
-After verifying all details, click the **"Create Token"** button below and wait for the transaction process to complete.
+确认信息无误后，点击下&#x65B9;**「创建代币」**&#x6309;钮，并等待合约创建完成。
 
-<figure><img src="../../../.gitbook/assets/image (760).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (646).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Create Liquidity Pool
+### 创建流动性池
 
-Once the token creation is complete, it does not yet possess trading attributes and can only be used for transfer operations. Add a liquidity pool to enable your token to be freely traded and swapped on decentralized platforms.
+代币创建完成后，还不具有交易属性，只能进行转账操作。添加流动性资金池，让代币在去中心化平台自由兑换。
 
-Click to go to Raydium to create a liquidity pool:
+点击前往 Raydium 创建流动性资金池：
 
 {% embed url="https://raydium.io/liquidity-pools/" %}
 {% endstep %}
@@ -137,7 +131,7 @@ Click to go to Raydium to create a liquidity pool:
 
 ***
 
-## **More Tools**
+## **更多快捷工具 & 指南**
 
 {% columns %}
 {% column %}
@@ -153,62 +147,70 @@ Click to go to Raydium to create a liquidity pool:
 {% endcolumn %}
 {% endcolumns %}
 
-## **FAQs**
+## **常见问题 FAQ**
 
 <details>
 
-<summary><strong>Are transaction fees charged during trading or during transfers?</strong></summary>
+<summary><strong>手续费是交易的时候出，还是转账的时候出？</strong></summary>
 
-Both transfers and trades will generate transaction fees, and this cannot be changed. Solana does not allow for scenario-specific configurations like BSC does.
+转账和交易，都会产生手续费，且无法更改。Solana不像BSC那样，可以设置某些场景。
 
 </details>
 
 <details>
 
-<summary><strong>Can the transaction fees be paid in USDT or SOL?</strong></summary>
+<summary><strong>手续费可以是 USDT 或者 SOL 吗？</strong></summary>
 
-No. Under the Token-2022 standard, transaction fees can only be collected in the project's native token (the specific token you create).
-
-</details>
-
-<details>
-
-<summary><strong>Is the token creation address whitelisted? Are transfers or trades from it tax-free?</strong></summary>
-
-Solana tokens do not feature whitelist functionality. All address transfers and trades will incur transaction fees, and the authority address is no exception.
+不行，Token-2022 标准的手续费，只能是项目代币（您创建的代币）。
 
 </details>
 
 <details>
 
-<summary><strong>Is the transaction fee paid by the sender's address or the recipient's address?</strong></summary>
+<summary><strong>创建代币的地址是白名单吗？转账或交易没有税费吗？</strong></summary>
 
-If a user initiates a transfer of 1,000 tokens with an assumed tax rate of 10%, the recipient will receive 900 tokens.
-
-</details>
-
-<details>
-
-<summary><strong>Can I still modify the metadata after the token is launched?</strong></summary>
-
-As long as you have not revoke the update authority for the metadata, you are free to modify it. If you revoke the metadata update authority, the data can no longer be modified, and you would have to create a new token.
+Solana 代币没有白名单功能，所有地址转账与交易都会产生手续费，权限地址也不例外。
 
 </details>
 
 <details>
 
-<summary><strong>Is the operation secure?</strong></summary>
+<summary><strong>手续费是发起转账的地址出，还是接收地址出？</strong></summary>
 
-CiaoTool uses a fully client-side signing mechanism. Your private key is never uploaded or stored on any server, and all transactions are signed locally in your browser. This ensures, at a technical level, that the platform has no access to your private key.
+用户发起转账1000枚代币，假设10%的税率，接受者到账是900枚。
+
+</details>
+
+<details>
+
+<summary><strong>发币后还能修改参数吗？</strong></summary>
+
+没有放弃元数据修改权前，您可以自由地修改代币参数。若放弃元数据修改权限，不能再修改数据，您必须重新创建代币。
+
+</details>
+
+<details>
+
+<summary><strong>代币名称和代币简称能使用中文吗？</strong></summary>
+
+可以，现在 Solana 链全面支持中文、英文以及中英混合文字。
+
+</details>
+
+<details>
+
+<summary><strong>操作是否安全？</strong></summary>
+
+平台采用纯前端签名机制，您的私钥绝不会被上传或储存在任何服务器上，所有交易均在本地浏览器完成签名，从技术层面确保平台无法访问您的私钥。
 
 </details>
 
 ***
 
-**Need help? Join our community for real-time support:**
+**如遇到问题？**&#x4F60;可以通过以下方即时联系 CiaoTool 团队：
 
 <table data-header-hidden><thead><tr><th width="188"></th><th valign="top"></th><th data-hidden></th></tr></thead><tbody><tr><td>Email</td><td valign="top"><a href="mailto:ciaotoolglobal@gmail.com">ciaotoolglobal@gmail.com</a></td><td></td></tr><tr><td>Telegram</td><td valign="top"><a href="https://t.me/ciaotools">https://t.me/ciaotools</a></td><td></td></tr><tr><td>WhatsApp</td><td valign="top"><a href="https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J">https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J</a></td><td></td></tr></tbody></table>
 
 {% hint style="danger" %}
-CiaoTool is committed to providing convenient tooling services but does not offer any form of investment advice. Platform content may change with product iterations. Users are advised to exercise judgment and stay informed about updates.
+CiaoTool 致力于提供便捷的工具服务，但不构成任何投资建议。平台内容可能根据产品迭代进行调整，敬请用户自行判断并留意更新。
 {% endhint %}

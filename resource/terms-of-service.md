@@ -1,287 +1,258 @@
 ---
-description: 'Last Updated: May 2026'
+description: 最后更新日期：2026年5月
 ---
 
-# CiaoTool Terms of Service
+# CiaoTool 服务条款
 
-Welcome to and thank you for using **CiaoTool** (hereinafter referred to as "this Website," "this Platform," or "we"). CiaoTool is a platform providing multi-chain Web3 tooling services, offering pathways to access various public blockchains and their smart contract protocols, including but not limited to Solana, BSC, opBNB, Base, X Layer, and IoTeX. It allows users to create and manage digital assets through tools such as token creation, multisender, liquidity management, and market-making management.
+欢迎访问并使用 **CiaoTool**（以下简称“本网站”、“本平台”或“我们”）。CiaoTool 是一个提供多链 Web3 工具服务的平台，提供访问各种公共区块链，包括但不限于 Solana、BSC、opBNB、Base、X Layer、IoTeX 等智能合约协议的途径，并允许使用者创建与管理数字资产（如代币创建、批量转账、流动性管理及市值管理等工具）。
 
-To use our website, you must utilize non-custodial wallet software (such as MetaMask, Phantom, etc.) to interact with public blockchains. Your relationship with such non-custodial wallet providers is governed by the applicable terms of service of that third party, rather than these Terms of Service (hereinafter referred to as "this Agreement").
+要使用我们的网站，您必须使用非托管钱包软件（如 MetaMask、Phantom 等）来与公共区块链进行交互。您与该非托管钱包提供商的关系受该第三方适用服务条款的管辖，而非本服务条款（以下简称“本协议”）。
 
-**IMPORTANT NOTICE:** Please read this Agreement carefully, as it governs the terms and conditions of your access to and use of this Website. This Agreement contains important compliance information, disclaimers, and binding dispute resolution and arbitration clauses. By accessing or using this Website, you acknowledge that you have read, understood, and fully agreed to be bound by this Agreement. If you do not agree to any terms of this Agreement, please immediately cease accessing and using any services provided by this Platform.
+**本平台严格作为非托管的技术界面，不持有、不接触、亦不控制任何用户资产。** 本平台不构成经纪商、托管人或任何金融服务主体，亦不以任何形式参与任何资金流转、代币托管、募集或投资行为。
 
-## 1. User Eligibility and Access Restrictions
+**重要通知：** 请仔细阅读本协议，因为它规范了您访问和使用本网站的条款与条件。本协议包含重要的合规信息、免责声明以及具有约束力的争议解决与仲裁条款。访问或使用本网站即表示您确认已阅读、理解并完全同意受本协议约束。如果您不同意本协议的任何条款，请立即停止访问并停止使用本平台提供的任何服务。
 
-#### Eligible Users
+## 1. 用户资格与访问限制
 
-You must be **at least 18 years of age** (or the legal age of majority in your jurisdiction, whichever is higher), possess full civil capacity to enter into a legally binding contract, and not be restricted or prohibited from using this Website under applicable laws, in order to access and use this Website and the related tooling services provided by CiaoTool.
+#### 服务对象
 
-If you are accessing or using this Website on behalf of a company, organization, or other legal entity, you hereby represent and warrant that:
+您必须年满 **18 岁**（或您所在司法管辖区的法定成年年龄，以较高者为准），并具备签订具有法律约束力合同的完全民事行为能力，并且在适用法律下不受禁止使用本网站的限制，方可访问和使用本网站及 CiaoTool 提供的相关工具服务。
 
-* You have the requisite legal authority to bind such entity to the restrictive terms and conditions of this Agreement;
-* You possess the full power and proper qualifications to perform the obligations under this Agreement on behalf of such entity.
+如果您代表公司、组织或其他法律实体使用本网站，您声明并保证：
 
-### Geographical Restrictions
+* 您具有将该实体与本协议约束条款绑定的合法授权；
+* 您有权力并具备相应资格代表该实体履行本协议项下的义务。
 
-Although the core interaction logic of CiaoTool operates within your local browser environment, we strictly adhere to global digital asset regulatory policies. Any individual or entity located in, incorporated under the laws of, or serving as a resident of the following Restricted Regions is strictly prohibited from accessing or using this Website and related tooling services in any form or by any means:
+#### 地域限制
 
-* **Mainland China, the United States** (including its territories and possessions: American Samoa, Guam, Puerto Rico, the Northern Mariana Islands, and the U.S. Virgin Islands);
-* **Other Restricted Regions:** Belarus, Cuba, the Crimea region, the Democratic Republic of the Congo, Iran, Iraq, New Zealand, North Korea, South Sudan, Sudan, Syria, and Zimbabwe;
-* **Any other jurisdiction** where cryptocurrency transactions, token issuance, or the use of Web3 services are restricted or prohibited under local applicable laws.
+尽管 CiaoTool 的核心交互逻辑在您的本地浏览器环境中运行，我们依然严格遵守全球数字资产监管政策。严禁位于、成立于或作为以下受限制地区居民的任何个人或实体以任何形式访问、使用本网站及相关工具服务：
 
-#### International Sanctions
+* **中国大陆、美国**（包括其属地：美属萨摩亚、关岛、波多黎各、北马里亚纳群岛和美属维尔京群岛）；
+* **其他受限制地区：** 白俄罗斯、古巴、克里米亚地区、刚果民主共和国、伊朗、伊拉克、新西兰、朝鲜、南苏丹、苏丹、叙利亚、津巴布韦；
+* 任何当地法律限制、禁止加密货币交易、代币发行或 Web3 服务使用的**司法管辖区**。
 
-As an on-chain tool provider, CiaoTool refuses to provide any technical support to subjects of international sanctions. By connecting your non-custodial wallet to this Platform, you hereby represent and warrant that:
+#### **国际制裁**
 
-* **You are not listed** on any applicable sanctions list;
-* **You are not identified** as a restricted person by any international organization, the United Nations, the European Union and its member states, the United States, the United Kingdom, or any other government or competent authority.
+作为链上工具提供商，CiaoTool 拒绝为受国际制裁的对象提供任何技术支持。透过将您的非托管钱包连接至本平台，您即声明并保证：
 
-_<mark style="color:$info;">For the purposes of this Agreement, "sanctions lists" include, but are not limited to, any sanctions, Specially Designated Nationals (SDN) lists, or similar restriction lists issued or promulgated by the United Nations Security Council, the European Union, the U.S. Department of the Treasury’s Office of Foreign Assets Control (OFAC), the UK His Majesty's Treasury (HM Treasury), or any other competent authority.</mark>_
+* 您未被列入任何适用的制裁名单；
+* 您不是被国际组织、联合国、欧盟及其成员国、美国、英国或其他任何政府或主管机关认定为受限人员。 “制裁名单”包括但不限于：由联合国安理会、欧盟、美国财政部外国资产控制办公室（OFAC）、英国财政部或其他主管机构发布的任何制裁、特别指定国民（SDN）名单或类似限制名单。
 
-#### Prohibition of Technological Circumvention
+#### **禁止技术规避**
 
-You explicitly agree that you shall not utilize virtual private networks (VPNs), proxy servers, or any other technological means or methods designed to conceal or obscure your true geographical location to circumvent, bypass, or attempt to circumvent the geographical or legal restrictions of this Website. Any such act of circumvention or evasion shall be deemed a material breach of this Agreement. Such violation may result in the immediate suspension or termination of your access privileges, and this Platform shall not assume any liability for any asset losses or legal liabilities arising therefrom.
+您同意不使用虚拟专用网络（VPN）、代理伺服器或其他任何旨在隐藏您真实地理位置的技术手段，来规避、绕过或试图规避本网站的地理或法律限制。任何规避行为均被视为严重违反本协议，可能导致您的访问权限被立即暂停或终止，且本平台不承担由此产生的任何资产损失或法律责任。
 
-#### Blocking and Termination of Access Rights
+#### 访问权的阻断与终止
 
-We reserve the right, at our sole discretion, to restrict your access to CiaoTool based on compliance reviews, risk controls, or upon receipt of legally effective directives or orders:
+我们保留基于合规审查、风险控制或在收到具法律效力指令时，自行决定限制您访问 CiaoTool 的权利：
 
-* **Frontend and Node Blocking:** If we discover or detect that your operations violate the aforementioned geographical or sanction restrictions, we possess the right to immediately terminate the connection of your IP address or wallet address with the CiaoTool frontend dashboard and RPC nodes.
-* **Disclaimer of Liability for Termination:** Since CiaoTool is a purely non-custodial, locally executed tool, we are technically incapable of freezing your on-chain assets; however, we will permanently refuse to provide any relevant CiaoTool services to non-compliant users. The Platform shall not bear any liability or responsibility for any interruption of trading strategies, impacts on data performance, or indirect or consequential losses resulting from the termination of access rights.
+* **前端与节点阻断：** 若我们发现您的操作违反上述地域或制裁限制，我们有权立即中断您的 IP 或钱包地址与 CiaoTool 前端仪表板及 RPC 节点的连接。
+* **无责终止声明：** 由于 CiaoTool 为纯粹的非托管本地执行工具，我们无法冻结您的链上资产，但我们将永久拒绝向违规用户提供 CiaoTool 的任何相关服务。本平台不对因访问权限终止而导致的任何交易策略中断、数据表现影响或间接损失承担责任。
 
-## 2. Amendments to the Agreement
+## 2. 协议修改
 
-We reserve the right to modify, amend, or update this Agreement at any time at our sole discretion.
+我们保留随时自行决定修改或更新本协议的权利。
 
-* **Method of Notice:** In the event of any material changes or modifications, we will notify you by updating the "Last Updated" date at the top of this Agreement or by posting a prominent announcement on the Website.
-* **Effective Date:** Any and all modifications or amendments shall become effective immediately upon their publication or posting on the Website.
-* **Acknowledgment of Acceptance**: Your continued access to or use of CiaoTool following the publication of any modifications or updates shall be deemed as your unconditional acceptance of and agreement to the updated terms. If you do not agree to the modified or updated agreement, you must immediately cease all access to and stop using this Platform.
+* **通知方式：** 若发生重大更改，我们将通过更新本协议顶部的“最后更新日期”或在网站显著位置发布公告。
+* **生效时间：** 修改内容自发布时起立即生效。
+* **确认接受：** 您在修改发布后继续访问或使用 CiaoTool，即视为您已接受更新后的条款。如果您不同意修改后的协议，应立即停止使用本平台。
 
-## 3. Intellectual Property and License to Use
+## 3. 知识产权与使用许可
 
-#### User Content
+#### 用户内容
 
-As **CiaoTool** is a purely frontend Web3 SaaS tooling platform, we do not claim any ownership or title over any on-chain digital assets (including but not limited to deployed tokens and liquidity pools) created by you through the interface of this Website, or over any operational parameters inputted by you. You hereby represent and warrant that you possess full and complete legal control and ownership over all digital assets and related content deployed, interacted with, or operated through this Platform.
+**CiaoTool** 作为纯前端的 Web3 SaaS 工具平台，我们不主张对您通过本网站界面创建的任何链上数字资产（如部署的代币、流动性池）或输入的运行参数享有任何所有权。您声明并保证，您对通过本平台部署、交互或操作的所有资产及相关内容拥有完整的合法控制权与所有权。
 
-To ensure that our frontend architecture can accurately and without error deliver your on-chain instructions to the decentralized network, you hereby grant us a limited, non-exclusive, royalty-free license solely to the extent necessary to maintain the normal operation of the services. This license permits the system to process, format, and broadcast your transaction instructions and non-sensitive operational data strictly within your local browser environment and public blockchain networks.
+为了确保我们的前端架构能够将您的链上指令准确无误地送达去中心化网络，您在此授予我们一项仅限于维持服务正常运行所需的许可。该许可仅允许系统在您的本地浏览器环境及公共区块链网络中处理、格式化、广播您的交易指令与非敏感运行数据。
 
-#### Platform Content
+#### 平台内容
 
-Except for your on-chain assets and personal interaction data, the CiaoTool website and all content provided therein—including but not limited to frontend interface designs, underlying interaction logic, defensive technical architectures, functional modules, texts, images, trademarks, and logos—are wholly owned by the CiaoTool team or its legally authorized parties, and are strictly protected by copyright, trademark, and other applicable global intellectual property laws.
+除您的链上资产及个人交互数据外，**CiaoTool** 网站及其提供的所有内容，包括但不限于前端界面设计、底层交互逻辑、防御技术架构、功能模块、文本、图像、商标及标识，均由 CiaoTool 团队或其合法授权方全资拥有，并受版权、商标权及全球其他知识产权法律的严格保护。
 
-Without our prior express written permission, you shall not, in any form or by any means, reverse engineer, decompile, deconstruct, copy, modify, adapt, scrape, license, or sell the code or interfaces of this Platform, nor shall you utilize them for any commercial distribution or third-party integrations.
+未经我们事先明确的书面许可，您不得以任何形式对本平台的代码或界面进行反向工程、复制、修改、改编、抓取、许可、出售，或将其用于任何商业化分发及第三方集成。
 
-#### License to Use
+#### 使用许可
 
-Subject to your full compliance with the eligibility requirements and your strict adherence to all other terms and conditions specified in this Agreement, we hereby grant you a limited, personal, non-exclusive, non-transferable, and revocable license to access and use the interfaces and tools of CiaoTool solely for legitimate Web3 auxiliary development and asset management purposes. Except for the rights expressly granted to you under this Agreement, we reserve all other proprietary and exclusive rights not explicitly mentioned herein.
+在您完全符合本协议规定的使用资格，并严格遵守各项条款的前提下，我们授予您一项有限的、个人的、非排他性的、不可转让且随时可撤销的许可。该许可仅允许您出于合法的 Web3 辅助开发与资产管理目的，访问和使用 **CiaoTool** 的界面与工具。除本协议明示授予的权利外，我们保留所有其他未明确提及的专属权利。
 
-## 4. Privacy Statement
+## 4. 隐私声明
 
-CiaoTool is committed to protecting user privacy, and our data processing practices adhere to the following principles:
+CiaoTool 致力于保护用户隐私，我们的数据处理遵循以下原则：
 
-* **Data Collection:** We only collect on-chain information that is strictly necessary to maintain the normal operation of our tools, including your wallet address, transaction hashes, token names, and symbols. We do not actively or principles-based collect your legal name, contact information, or any Personally Identifiable Information (PII).
-* **Third-Party Services:** This Website may integrate third-party service providers. These third parties may acquire or obtain your information through public channels. We exert no control over the privacy practices of these third parties, and we strongly recommend that you review their respective and corresponding privacy policies.
-* **On-Chain Publicity and Transparency:** Given the inherent transparency of blockchain technology, all of your on-chain interactions are publicly accessible. CiaoTool assumes no liability or responsibility for any information exposed, revealed, or publicized on the blockchain in the course of your operations.
+* **数据收集：** 我们仅收集维持工具运行所必需的链上信息，包括您的钱包地址、交易哈希、代币名称及符号。我们不会主动收集您的姓名、联系方式或任何可识别身份的个人信息（PII）。
+* **第三方服务：** 本网站可能集成第三方服务提供商。这些第三方可能会从公开渠道获取您的信息。我们无法控制这些第三方的隐私实践，建议您查阅其对应的隐私政策。
+* **链上公开性：** 鉴于区块链技术的透明性，您的所有链上交互均是公开的。CiaoTool 对您在操作过程中暴露在区块链上的任何信息不承担责任。
 
-For detailed information regarding your on-chain operations and data processing on this platform, please refer to our independent [**Privacy Policy**](privacy-policy.md) page.
+您在平台的链上操作及数据处理请参考独立的[隐私权政策](privacy-policy.md)页面。
 
-## 5. Compliance and Taxation
+## 5. 合规与税务
 
-#### User's Compliance Responsibility
+#### 用户的合规责任
 
-CiaoTool serves solely as a technological provider of decentralized Web3 SaaS tools. The frontend interface and related tools of this Platform may be restricted or inapplicable in certain jurisdictions. When accessing and using this Platform (including but not limited to executing operations such as token deployment, liquidity management, multisender, or market-making management), you must independently ensure that your conduct fully complies with all applicable laws, statutes, regulations, and regulatory requirements of your jurisdiction. You shall bear the sole and exclusive responsibility for ensuring the legality and compliance of your own on-chain operations.
+CiaoTool 仅作为去中心化 Web3 SaaS 工具的技术提供方。本平台的前端介面及相关工具在某些司法管辖区可能受到限制或不适用。您在访问与使用本平台（包括但不限于执行代币部署、流动性管理、批量转帐或市值管理等操作）时，必须自行确保您的行为完全符合您所在司法管辖区的所有适用法律、法规及监管要求。您对确保自身链上操作的合法性与合规性承担完全且唯一的责任。
 
-#### Tax Assessment and Reporting
+#### 税务评估与申报
 
-You understand and agree that interacting on-chain using the auxiliary tools and related decentralized protocols provided by CiaoTool may trigger corresponding tax liabilities in various jurisdictions. These tax liabilities may include, but are not limited to, income tax, capital gains tax, value-added tax (VAT), or goods and services tax (GST).
+您理解并同意，使用 CiaoTool 提供的辅助工具及相关去中心化协议进行链上交互，可能会在不同的司法管辖区触发相应的税务责任，这可能包括但不限于所得税、资本利得税、增值税（VAT）或商品与服务税（GST）。
 
-#### Platform Disclaimer
+#### 平台免责声明
 
-It is your sole responsibility to determine, record, report, and remit the correct and full amount of any and all taxes arising from your on-chain asset interactions or tool usage to the applicable tax authorities. CiaoTool, acting strictly as a non-custodial technical interface:
+您有责任自行确定、记录、申报并向适用的税务机关足额缴纳因您的链上资产交互或工具使用而产生的任何税款。 CiaoTool 作为非托管的技术介面：
 
-* **Does not provide** any form of tax, legal, or financial advice;
-* **Is not responsible** for assessing, determining, or evaluating whether your transactions are subject to taxation;
-* **Will not** calculate, track, coupon, withhold, or remit any taxes related to your digital assets on your behalf.
+* 不提供任何形式的税务、法律或财务建议；
+* 不负责评估您的交易是否需要缴税；
+* 不会为您计算、追踪、代扣或代缴任何与数字资产相关的税款。
 
-If you have any questions or uncertainties regarding your own tax obligations, you must seek independent advice from a qualified tax professional before conducting any on-chain operations.
+如果您对自身的税务义务有任何疑问，请在进行任何链上操作前，务必寻求合格税务专业人士的独立建议。
 
-## 6. Risk Disclosure Statement
+## 6. 风险声明
 
-By accessing and using CiaoTool, you acknowledge and warrant that you possess sufficient blockchain technical and financial knowledge to fully understand the inherent risks of decentralized systems, smart contracts, and digital asset interactions, and that you voluntarily assume any and all of the following risks:
+透过访问和使用 CiaoTool，您确认并保证您具备足够的区块链技术与财务知识，能够完全理解去中心化系统、智能合约及数字资产交互的内在风险，并自愿承担以下全部风险：
 
-#### Market and Asset Volatility Risks
+#### 市场与资产波动风险
 
-The digital asset market is highly volatile, and the liquidity and prices of tokens may experience drastic fluctuations due to market sentiment, speculative behavior, or changes in global regulatory policies. Services such as market-making management, multisender, and liquidity management provided by CiaoTool are merely ancillary technical tools to assist in the execution of on-chain instructions. We do not provide any form of guarantee, warranty, or commitment regarding the market performance, liquidity depth, or profitability of any token.
+数字资产市场极具波动性，代币的流动性与价格可能因市场情绪、投机行为或全球监管政策变化而出现剧烈波动。 CiaoTool 提供的市值管理、批量转帐及流动性管理等服务，仅为辅助执行链上指令的技术工具。我们不对任何代币的市场表现、流动性深度或盈利能力提供任何形式的保证或承诺。
 
-#### Technical and Smart Contract Risks
+#### 技术与智能合约风险
 
-Transactions on the blockchain are irreversible once broadcasted and confirmed within the network. Although CiaoTool's frontend tools directly invoke mature and official decentralized protocols, all underlying smart contracts may still possess inherent security vulnerabilities or code defects, and carry the risk of being subjected to hacker attacks. Furthermore, any individual may issue tokens without any threshold or restriction (including but not limited to fraudulent or counterfeit project tokens). You must independently perform due diligence to verify the counterparty or entity you interact with, and guard against any asset losses resulting from authorizing incorrect contracts or trading wrong assets.
+区块链上的交易一经广播并确认即不可逆转。尽管 CiaoTool 的前端工具直接调用成熟的官方去中心化协议，但所有底层智能合约仍可能存在固有的安全漏洞、代码缺陷或遭受骇客攻击的风险。此外，任何人均可无门槛地发行代币（包括虚假或仿冒项目的代币），您必须自行甄别交互对象，防范因授权错误合约或交易错误资产而导致的损失。
 
-#### Network Congestion and Execution Costs
+#### 网路拥堵与执行成本
 
-The transaction costs (Gas fees or network miner fees) and confirmation speeds of public blockchain networks fluctuate significantly based on network congestion. Under extreme market conditions or during periods of heavy network traffic, your on-chain instructions may face severe delays, transaction failures, higher-than-expected price slippage, or abnormally high network fees. CiaoTool exercises no control over the operational state of the underlying public blockchain networks and shall not be held liable or responsible for any losses resulting from such network variables.
+公共区块链网络的交易成本（Gas 费用或网络矿工费）和确认速度会随网络拥堵情况而大幅波动。在极端市场条件下或网络繁忙时，您的链上指令可能面临严重的延迟、交易失败、超出预期的价格滑点或异常高昂的网络费用。 CiaoTool 无法控制底层公链的运行状态，对此类因网络变数导致的损失概不负责。
 
-#### Human Operational Risks
+#### 人为操作风险
 
-CiaoTool grants you a high degree of customization privileges, under which you are independently required to configure all execution parameters for the tools (including but not limited to, distribution amounts for multi-address transfers, transaction frequencies and volume quotas for market-making management, and slippage tolerance tiers). Any and all capital or fund losses resulting from your personal operational errors, input of incorrect destinations or addresses, configuration of unreasonable parameters, or failure to properly safeguard your non-custodial wallet private keys shall be fully and solely borne by you.
+CiaoTool 赋予您高度的自定义权限，您需自行设定所有工具的执行参数（例如：多地址分发的金额、市值管理的交易频率与额度、滑点容忍度等）。因您个人操作失误、输入错误的地址、设置不合理的参数，或未能妥善保管非托管钱包私钥所导致的一切资金损失，由您完全自行承担。
 
-#### General Disclaimer of Liability
+#### 免责声明
 
-You explicitly acknowledge and agree to the following:
+您明确承认并接受：
 
-* **No Responsibility for Variables or Risks:** CiaoTool shall not be held liable or responsible for any of the aforementioned variables or inherent risks.
-* **No Ownership or Control:** The Platform does not own, operate, or control any underlying blockchain networks or third-party protocols.
-* **Limitation of Liability:** To the maximum extent permitted by applicable law, the Platform shall not assume any legal liability or responsibility for any direct, indirect, incidental, or consequential losses (including, without limitation, loss of profit, loss of data, or total loss of assets) suffered by you during your access to or use of CiaoTool tools.
+* CiaoTool 不对上述任何变数或风险负责；
+* 不拥有亦不控制任何底层区块链网络或第三方协议。
+* 对于您在访问或使用 CiaoTool 工具期间遭受的任何直接、间接、附带或衍生性损失（包括但不限于利润损失、数据丢失或资产清零），本平台均不承担任何法律责任。
 
-By accessing and using this Platform, you represent that you understand and agree to assume full and sole responsibility for all risks associated with your use of the services.
+您访问并使用本平台即表示，您理解并同意对所有相关风险承担完全责任。
 
-## 7. Prohibited Conduct
+## 7. 禁止行为
 
-You explicitly agree that, in the course of accessing or using CiaoTool and various Web3 SaaS tools provided herein (including but not limited to token creation, multisender, and market-making management interfaces), you shall not directly or indirectly engage in, or attempt to engage in, any of the following prohibited activities or conducts:
+您同意在访问或使用 CiaoTool 及其提供的各项 Web3 SaaS 工具（包括但不限于代币创建、批量转账、市值管理界面等）的过程中，不得直接或间接参与或尝试参与以下任何被禁止的活动：
 
-#### Cyberattacks and System Disruption
+#### **网络攻击与系统破坏**
 
-Engaging in any conduct or behavior that attempts to disrupt, compromise, or interfere with the integrity, stability, and security of CiaoTool's frontend interfaces, RPC node infrastructure, or the underlying blockchain networks. This includes, but is not limited to: implanting or distributing malicious software (malware), launching Denial of Service (DoS) or Distributed Denial of Service (DDoS) attacks, engaging in unauthorized access (hacking), and executing unauthorized data tampering or manipulation.
+从事任何试图破坏或干扰 CiaoTool 前端界面、RPC 节点基础设施或底层区块链网络完整性与安全性的行为。这包括但不限于：植入恶意软件、发起拒绝服务（DDoS）攻击、未经授权的访问及数据篡改。
 
-#### Malicious Fraud and Misrepresentation
+#### **恶意欺诈与虚假陈述**
 
-Utilizing the decentralized tools of this Platform to engage in any conduct aimed at deceiving, misleading, or illegally acquiring the property or assets of others. This includes, but is not limited to: issuing fraudulent or fake tokens (such as maliciously counterfeiting well-known projects), deploying smart contracts containing hidden malicious code (such as Honeypots, malicious minting or inflation contracts), or engaging in identity theft and impersonation.
+利用本平台的去中心化工具从事旨在欺骗、误导或非法获取他人财产的行为。这包括但不限于：发行以诈骗为目的的虚假代币（如恶意仿冒知名项目）、部署包含隐藏恶意代码的智能合约（如貔貅盘 Honeypot、恶意增发合约），或进行身份冒充。
 
-#### Violation of Securities and Derivatives Regulations
+#### **违反证券与衍生品法规**
 
-Engaging in any conduct that violates the laws, rules, statutes, or regulatory requirements of applicable jurisdictions regarding securities, commodities, or derivatives trading. You solemnly promise not to utilize the token creation, multi-address distribution (multisender), or automated trading tools provided by CiaoTool to conduct unregistered or illegal securities issuances (such as illegal ICOs/IDOs), or to illegally provide, market, or promote leveraged products and other regulated financial derivatives to retail customers in Restricted Regions (including but not limited to Mainland China, the United States, etc.).
+从事任何违反适用司法管辖区关于证券、商品或衍生品交易的法律、规则或监管要求的行为。您承诺，不得利用 CiaoTool 提供的代币创建、多地址分发或自动化交易工具，进行未经注册的非法证券发行（如非法的 ICO/IDO），或向受限制地区（如中国大陆、美国等）的零售客户非法提供、推销杠杆产品及其他受管制的金融衍生品。
 
-#### Malicious Market Manipulation and Non-compliant Trading
+#### **恶意市场操纵与违规交易**
 
-Engaging in any malicious manipulation behavior that violates the laws of applicable jurisdictions and is aimed at defrauding or exploiting retail investors (including but not limited to malicious Pump-and-Dump schemes).
+从事任何违反适用司法管辖区法律、旨在欺诈散户投资者的恶意操纵行为（如恶意的拉高出货 Pump-and-Dump）。
 
-**Compliant Use Declaration:** The trading volume bots and market-making management tools provided by CiaoTool are designed solely to offer compliant, legal, and professional liquidity management and on-chain data optimization services for Web3 project owners. You hereby covenant, represent, and warrant that when utilizing the aforementioned tools, your usage must be strictly confined to legitimate purposes of market-making maintenance and liquidity construction; it is strictly and absolutely prohibited to utilize or leverage them to implement financial fraud, market manipulation, or to maliciously harvest, exploit, or defraud the market.
+合规使用声明： CiaoTool 提供的交易量机器人与市值管理工具，旨在为 Web3 项目方提供合规且专业的流动性管理与链上数据优化服务。您承诺在使用上述工具时，必须出于合法的市值维护与流动性建设之目的，严禁将其用于实施金融诈欺或恶意收割市场。
 
-#### Violation of Anti-Money Laundering and Sanctions Regulations
+#### **违反反洗钱与制裁法规**
 
-Utilizing the non-custodial nature and on-chain interaction functions of this Platform to engage in any form of money laundering, terrorist financing (CFT), or to evade, bypass, or circumvent economic sanctions and export control regulations of applicable jurisdictions.
+利用本平台的非托管特性与链上交互功能，从事任何形式的非法集资、洗钱、恐怖融资，或规避适用司法管辖区的经济制裁与出口管制法规。
 
-#### Intellectual Property Infringement
+#### **知识产权侵权**
 
-Copying, modifying, adapting, reverse engineering, decompiling, or commercially distributing any code, interface designs, trademarks, logos, proprietary technologies, or functional modules of this Platform without prior express written authorization and license from CiaoTool.
+未经 CiaoTool 事先明确的书面授权，复制、修改、改编、反向工程或商业化分发本平台的任何代码、界面设计、商标、标识及专有技术。
 
-#### Other Illegal Activities
+#### **其他非法行为**
 
-Engaging in any conduct that violates the laws, rules, or regulatory requirements of the United States, Mainland China, the European Union, the United Kingdom, the United Nations, or any other relevant and applicable jurisdictions, including but not limited to non-compliant conduct in financial sanctions, anti-money laundering (AML), combating the financing of terrorism (CFT), and export controls.
+从事任何违反 美国、中国大陆、欧盟、英国、联合国或其他相关司法管辖区的法律、规则或监管要求的行为，包括但不限于：金融制裁、反洗钱（AML）、打击恐怖融资（CFT）、出口管制等方面的违规行为。
 
-_<mark style="color:$info;">Any violation or breach of the above provisions shall be deemed a material breach of this Agreement. CiaoTool reserves the absolute right to immediately terminate or restrict your access rights to the platform's frontend interface and RPC node infrastructure, and possesses the right to cooperate fully with the lawful investigation requirements, subpoenas, or directives of relevant law enforcement agencies and judicial authorities.</mark>_
+_任何违反上述规定的行为均被视为对本协议的严重违约。CiaoTool 保留立即终止您对本平台前端界面访问权限的权利，并有权配合相关执法机关的合法调查要求。_
 
-## 8. Service Neutrality
+## 8. 服务中立性
 
-The core positioning of CiaoTool is that of an objective, neutral Web3 infrastructure and frontend technology provider. All interactions, operations, and transactions you perform on or through this Platform are based entirely on your own independent will, autonomous business decisions, and commercial judgments.
+CiaoTool 的核心定位为客观、中立的 Web3 基础设施与前端技术提供商。您在本平台上进行的所有交互，均完全基于您的自主意愿与独立业务决策。
 
-#### Functional Purpose of Platform Content
+本平台所展示的任何功能介面、操作手册、数据仪表板或技术指引，其唯一目的均为阐明工具的运行逻辑与使用方式。在任何司法管辖区内，上述内容均不构成、也不应被推定为对任何数字资产的购买、出售、持有或市值管理的招揽、明示或暗示的推荐。我们不具备提供财务、法律或税务咨询的资质。鋻于数字资产市场的高度投机性与风险性，您在利用本平台工具实施任何链上策略前，必须自行完成尽职调查，并在必要时寻求持牌专业人士的独立意见。
 
-Any functional interfaces, operation manuals, user guides, data dashboards, or technical guidelines displayed or made available on this Platform are solely and exclusively for the purpose of clarifying the underlying operational logic and usage methods of the tools.
+## 9. 非托管架构与无受托责任
 
-#### No Solicitation or Offer
+#### 非托管平台
 
-In any jurisdiction, the aforementioned content and information do not constitute, nor shall they be presumed, construed, or implied to constitute, a solicitation, offer, or express or implied recommendation for the purchase, sale, holding, or market-making management of any digital assets.
+CiaoTool 严格贯彻 Web3 领域的非托管安全标准。我们的架构设计确保所有涉及资产转移的交易签名，均在您授权的本地钱包环境中独立完成。亦绝对不会拦截、上传、存储或备份您的私钥、助记词或钱包密码。因此，您必须对本地设备的安全环境、私钥的妥善保管以及每一次链上授权的准确性承担完全且唯一的责任。
 
-#### No Professional Licensing or Advice
+#### 法律关系的界定与责任豁免
 
-We do not possess the requisite legal qualifications or licenses to provide financial, legal, or tax consulting and advice.
+您与 CiaoTool 之间仅构成单一的「技术工具提供方」与「使用方」关系。本协议以及您对本系统的任何调用行为，均不会在双方之间创设任何事实或法律上的信托、受托、合伙、合资或代理关系。
 
-#### User's Independent Due Diligence
+本平台不提供任何形式的资金托管帐户，不构成经纪、托管或任何金融服务主体，不参与任何资金流转或投资行为。在适用法律允许的最大范围内，CiaoTool 及其团队明确否认对您或任何第三方承担任何法定或衡平法上的受托义务。您在此不可撤销地同意，放弃基于信托或受托责任向本平台提出任何索赔或追责的权利。
 
-Given the highly speculative and risky nature of the digital asset market, you must independently perform your own comprehensive due diligence before utilizing the tools of this Platform to implement any on-chain strategies, and seek independent advice from licensed professionals where necessary.
+## 10. 不可抗力
 
-## 9. Non-Custodial Architecture and Absence of Fiduciary Duty
+对于因超出我们合理控制范围的事件（如自然灾害、战争、网络供应商故障、公链节点故障、黑客攻击或政策突变）导致的履约失败，本平台不承担法律责任。
 
-#### Non-Custodial Platform
+作为建立在去中心化网络之上的纯前端 SaaS 应用，CiaoTool 的稳定运行在极大程度上依赖于外部的公共区块链基础设施与第三方节点。在适用法律允许的最大范围内，对于因超出我们合理控制范围的事件或情形，直接或间接导致的服务延迟、中断、策略执行失败或数据异常，CiaoTool 概不承担任何违约责任及赔偿义务。
 
-CiaoTool strictly implements and adheres to the non-custodial security standards within the Web3 sector. Our architectural design ensures that all transaction signatures involving asset transfers are independently completed within your authorized local wallet environment. This Platform does not provide any form of asset custody accounts, nor will it ever intercept, upload, store, or back up your private keys, mnemonic phrases, or wallet passwords. Therefore, you must bear the full and sole responsibility for maintaining the secure environment of your local device, the proper safeguarding of your private keys, and the absolute accuracy of every on-chain authorization.
+此类不可抗力与例外情况包括但不限于：
 
-#### Definition of Legal Relationship and Liability Exemptions
+* **常规不可抗力事件：** 自然灾害（如台风、地震、洪水等）、战争、恐怖袭击、暴乱、大罢工、疫情或政府强制性防疫与管制措施。
+* **区块链底层基础设施故障：** 适用的公共区块链网络（如 Solana、BSC、Ethereum 等）出现极端网络拥堵、硬分叉、主网宕机、节点大面积脱机、51% 攻击或其他网络共识机制失效的情况。
+* **第三方协议与 RPC 接口异常：** 官方去中心化交易协议（如 PancakeSwap、Raydium、Meteora、Bonk 等）的底层智能合约遭遇黑客攻击、出现代码漏洞或强制升级停机；以及第三方 RPC 节点服务商、API 提供商遭遇严重中断或拒绝服务（DDoS）攻击。
+* **监管与法律政策突变：** 任何司法管辖区针对数字资产交易、去中心化金融（DeFi）、Web3 自动化工具或相关加密技术出台突发性的限制、禁令或严厉的合规监管行动。
+* **用户端通讯与软硬件故障：** 用户的本地互联网连接中断、硬件设备损毁、第三方非托管钱包扩展程序（如 MetaMask、Phantom）崩溃，或用户本地运行环境遭受恶意软件感染。
 
-The legal relationship between you and CiaoTool constitutes solely and exclusively a relationship between a "technical tool provider" and a "user". Neither this Agreement nor any of your invocation or invocation-based behaviors regarding this system shall create or be deemed to create any factual or legal trust, fiduciary, partnership, joint venture, or agency relationship between the parties.
+资产绝对控制与免责声明： 我们在此特别说明：即使发生上述不可抗力事件导致 CiaoTool 前端界面完全无法访问，或导致您的市值管理策略意外中止，您的核心数字资产及授权始终安全地记录在去中心化的区块链上，并由您的本地钱包私钥完全控制。 您可以随时通过其他官方入口、协议官网或区块链浏览器直接接管您的资产。
 
-This Platform does not provide any form of custodial asset accounts, nor does it constitute a broker, custodian, or any other financial service entity, and it does not participate in any fund flows or investment activities.
+对于因上述不可抗力或技术例外情况导致的任何错失的交易机会、预期的市值管理目标未达标、Gas 费用无谓损耗或间接财务损失，CiaoTool 不承担任何法律及财务赔偿责任。
 
-To the maximum extent permitted by applicable law, CiaoTool and its team expressly disclaim any statutory or equitable fiduciary duties to you or any third party. You hereby unconditionally and irrevocably agree to waive the right to assert any claims, demands, or seek accountability against this Platform based on trust or fiduciary duties.
+## 11. 争议解决与仲裁
 
-## 10. Force Majeure
+作为一家提供去中心化 Web3 前端工具的服务商，CiaoTool 致力于通过高效的技术手段解决问题。对于因本协议或您使用 CiaoTool 界面及工具引起的任何争议、索赔或纠纷，您与我们同意采用以下机制解决：
 
-This Platform shall not bear any legal liability or responsibility for any performance failure caused by, or resulting from, events or circumstances beyond our reasonable control (including but not limited to natural disasters, acts of god, wars, network service provider failures, public blockchain node failures, hacker attacks, or sudden regulatory or policy changes).
+#### **强制性非正式协商**
 
-As a pure frontend SaaS application built and operating upon decentralized networks, the stable and continuous operation of CiaoTool heavily relies on external public blockchain infrastructures and third-party nodes. To the maximum extent permitted by applicable law, CiaoTool assumes no liability for breach of contract, nor any indemnification or compensation obligations, for any service delays, interruptions, strategy execution failures, or data anomalies directly or indirectly caused by events or circumstances beyond our reasonable control.
+在提起任何正式的仲裁或法律程序之前，您同意首先尝试通过非正式方式解决争议。您必须向我们的官方邮箱 (support@ciaotool.io) 发送书面通知，说明争议的性质、事实依据及您寻求的解决方案。双方同意在收到通知后的三十（30）天内进行善意的沟通与协商。
 
-Such force majeure events and technical exceptional circumstances include, but are not limited to:
+#### **具有约束力的仲裁**
 
-* **Routine Force Majeure Events**\
-  Natural disasters (such as typhoons, earthquakes, floods, etc.), acts of god, wars, terrorist attacks, riots, civil commotions, major strikes, epidemics, pandemics, or mandatory government epidemic prevention, quarantine, and control measures.
-* **Blockchain Underlying Infrastructure Failures**\
-  Situations where the applicable public blockchain networks (such as Solana, BSC, Ethereum, etc.) experience extreme network congestion, hard forks, mainnet downtime, large-scale node offline status, 51% attacks, or other network consensus mechanism failures or anomalies.
-* **Third-Party Protocol and RPC Interface Anomalies**\
-  Underlying smart contracts of official decentralized trading or exchange protocols (such as PancakeSwap, Raydium, Meteora, Bonk, etc.) encountering hacker attacks, exploiting of code vulnerabilities, or forced upgrade shutdowns; as well as third-party RPC node service providers or API providers experiencing severe disruptions, outages, or Distributed Denial of Service (DDoS) attacks.
-* **Sudden Regulatory and Legal Policy Changes**\
-  Sudden restrictions, bans, prohibitions, or strict compliance regulatory actions introduced, promulgated, or enforced by any jurisdiction targeting digital asset trading, decentralized finance (DeFi), Web3 automation tools, or related cryptographic technologies.
-* **User-Side Communication and Hardware/Software Failures**\
-  Interruption or instability of the user's local internet connection, destruction or failure of local hardware equipment, crashes or anomalies of third-party non-custodial wallet extension software (such as MetaMask, Phantom), or infection of the user's local operating or computing environment by malicious software, malware, or ransomware.
+若非正式协商期满仍未能解决争议，除下文规定的特定例外情况外，您与 CiaoTool 均同意将争议提交至具有约束力的最终仲裁程序，而非向具有一般管辖权的法院提起诉讼。双方在此明确放弃由法官或陪审团进行法庭审判的权利。
 
-#### Absolute Asset Control and Disclaimer Notice
+#### **适用法律**
 
-We hereby specifically and explicitly declare: even if the aforementioned force majeure events or circumstances cause the CiaoTool frontend interface to be completely inaccessible, or cause your market-making management strategy to be unexpectedly suspended, your core digital assets and authorizations are always securely, immutably recorded on the decentralized blockchain and remain fully and exclusively controlled by your local wallet private keys. You can independently take over, manage, and interact with your assets at any time through other official entry points, protocol alternative websites, or blockchain explorers.
+本仲裁约定的可执行性、解释与程序，受美国《联邦仲裁法》（FAA，9 U.S.C. § 1 et seq.）在法律允许的最大范围内进行规范与适用。无论您身处何地，涉及 CiaoTool 工具使用的争议仲裁均应适用该法案的程序性与实体性规定。
 
-CiaoTool shall not bear any legal or financial liability, responsibility, or compensation regarding any missed trading opportunities, failure to meet expected market-making management targets, wasteful or unnecessary consumption of Gas fees, or any indirect or consequential financial losses caused by the aforementioned force majeure or technical exceptions.
+#### **集体诉讼与代表诉讼豁免**
 
-## 11. Dispute Resolution and Arbitration
+您与 CiaoTool 明确同意，任何形式的争议解决、仲裁或诉讼必须且只能以您的个人名义进行。您在此不可撤销地放弃作为原告或集体成员，参与任何预期的集体诉讼、集团诉讼、私人总检察长诉讼或任何合并代表程序的权利。仲裁员无权主理或合并任何形式的集体或代表性请求。
 
-As a service provider offering decentralized Web3 frontend tools, CiaoTool is committed to resolving issues through efficient technical and communication means. For any disputes, claims, causes of action, or controversies arising out of or relating to this Agreement or your access to and use of the CiaoTool interface and tools, you and we explicitly agree to resolve them through the following mechanisms:
+#### **仲裁例外情形**
 
-#### Mandatory Informal Negotiation
+以下类型的纠纷不受上述强制仲裁条款的限制：
 
-Prior to initiating or launching any formal arbitration or legal proceedings, you explicitly agree to first attempt to resolve the dispute through informal negotiation channels. You must transmit a formal written notice to our official email address (support@ciaotool.io), describing in reasonable detail the nature of the dispute, the underlying factual basis, and the specific remedies or solutions you seek. Both parties agree to engage in good faith communication and negotiation within thirty (30) days upon our receipt of such written notice.
+* 知识产权保护： 任何一方为保护、执行知识产权（包括但不限于 CiaoTool 的代码防篡改、前端设计、商业秘密、商标侵权及反向工程行为）而向有管辖权的法院寻求紧急禁令或其他衡平法救济。
+* 小额索赔： 如果您的索赔符合条件，您可以向您所在地具有管辖权的小额索赔法院提起个人诉讼。
 
-#### Binding Arbitration
+#### **时效限制**
 
-If the dispute remains unresolved upon the expiration of the informal negotiation period specified above, except for specific exceptions expressly provided below, both you and CiaoTool explicitly agree to submit the dispute to binding final arbitration proceedings, rather than filing or initiating a lawsuit in a court of general jurisdiction. Both parties hereby expressly, knowingly, and voluntarily waive their respective rights to a trial by a judge or a jury in a court of law.
+在适用法律允许的最大范围内，任何因本协议或使用 CiaoTool 服务（包括市值管理、代币创建等操作）引起的索赔或诉讼由，必须在该等事件发生之日起的**一 (1) 年**内提出。若逾期未提出，则该索赔或诉讼由将被视为永久丧失并被禁止。
 
-#### Governing Law and Procedural Framework
+#### **强制性法律提示**
 
-To the maximum extent permitted by applicable law, the enforceability, interpretation, construction, and procedures of this arbitration agreement shall be governed by, construed under, and enforced in accordance with the United States Federal Arbitration Act (FAA, 9 U.S.C. § 1 et seq.). Regardless of your actual geographic location or residency, the procedural and substantive provisions of the FAA shall apply exclusively to the arbitration of any disputes involving or related to the use of CiaoTool tools.
+尽管本协议约定了 FAA 管辖及上述豁免条款，但如您所在司法辖区的强制性消费者保护法对强制仲裁、集体诉讼豁免或索赔时效限制作出绝对相反的强制性规定，且该规定依法不可通过协议排除，则在发生冲突的特定范围内，以您所在辖区的该强制性法律为准。
 
-#### Class Action and Representative Action Waiver
+## 12. 违约与违规处理
 
-You and CiaoTool explicitly, mutually agree that any dispute resolution, arbitration, or litigation proceedings must and can only be conducted solely in your individual capacity. You hereby irrevocably and unconditionally waive the right to participate as a plaintiff, class representative, or class member in any contemplated class action, collective action, private attorney general action, or any consolidated representative proceedings. The arbitrator shall possess no authority or jurisdiction to preside over, manage, or consolidate any form of class or representative claims.
+#### 有限数据披露与配合调查
 
-#### Exceptions to Arbitration
+**CiaoTool** 保留对平台使用情况进行审查的权利。在我们认为绝对必要的情况下，为了配合相关执法机构的合法调查或合规投诉，或为了识别、联系、追究可能损害、干扰 CiaoTool 基础设施（如前端界面、RPC 节点或防夹防御机制）及合法权益的个人或实体，我们可能会披露依法掌握的有限非敏感运行数据（如连接的钱包地址或交互日志）。当适用法律要求或允许时，我们亦可披露此类信息，包括出于防范数字资产欺诈、洗钱等目的与其他合规机构或安全组织交换网络数据。
 
-The following specific types of disputes are exempt from and not subject to the mandatory arbitration provisions set forth above:
+#### 违约追责与成本追回
 
-* **Intellectual Property Protection**\
-  Either party seeking emergency injunctive relief, specific performance, or other equitable remedies from a court of competent jurisdiction to protect, enforce, or defend intellectual property rights (including but not limited to actions addressing CiaoTool's code anti-tampering, frontend UI/UX designs, trade secrets, trademark infringement, copyright violations, and reverse engineering, decompiling, or scraping behaviors).
-* **Small Claims Court**\
-  You may bring and maintain an individual action in a small claims court of competent jurisdiction in your local region, provided that your claim qualifies under the applicable jurisdictional monetary thresholds and limitations.
+您理解并同意，您对 **CiaoTool** 服务的访问是一项特权而非绝对权利。如果因您严重违反本协议（包括但不限于实施网络攻击、非法规避地域限制、进行恶意市场操纵或滥用我们的 SaaS 工具），导致 CiaoTool 遭受损失或被迫对您采取法律行动，在适用法律允许的最大范围内，CiaoTool 有权向您追讨由此产生的所有合理的律师费、诉讼费及相关执行成本，且此项权利不影响我们依法享有的任何其他救济措施或损害赔偿要求。
 
-#### Limitation of Action
+## 13. 联系我们
 
-To the maximum extent permitted by applicable law, any claim, controversy, or cause of action arising out of or related to this Agreement or the access to and use of CiaoTool services (including but not limited to operations involving Volume Bot, token creation, liquidity management, etc.) must be filed within **one (1) year** from the date on which such event or accrual of the claim occurred. If it is not filed within this one-year period, such claim or cause of action shall be deemed permanently waived, barred, and extinguished.
-
-#### Mandatory Legal Notice and Local Law Precedence
-
-Notwithstanding the mutual agreement on FAA governance and the aforementioned waiver and limitation clauses, if the mandatory consumer protection laws of your applicable jurisdiction impose absolute contrary mandatory provisions regarding mandatory arbitration, class action waivers, or limitation of actions, and such provisions cannot be legally excluded or contracted around by agreement, then to the specific extent of such irreconcilable conflict, the mandatory consumer or local laws of your jurisdiction shall prevail.
-
-## 12. Handling of Breaches and Violations
-
-#### Limited Data Disclosure and Cooperation with Investigations
-
-CiaoTool reserves the right to review and monitor platform usage. Under circumstances where we deem it absolutely necessary—in order to cooperate with lawful investigations, subpoenas, or compliance complaints from relevant law enforcement agencies and regulatory authorities, or to identify, contact, or pursue legal actions against any individuals or entities that may damage, disrupt, or interfere with CiaoTool's infrastructure (including but not limited to the frontend interfaces, RPC nodes, or sandwich/MEV defense mechanisms) and legitimate rights—we may disclose limited, non-sensitive operational data in our possession in accordance with the law (such as connected wallet addresses or interaction logs).
-
-We may also disclose such information when required or permitted by applicable law, including exchanging network data with other compliance agencies, judicial organs, or cybersecurity organizations for the purpose of preventing digital asset fraud, money laundering, and other illicit activities.
-
-#### Accountability for Breach and Recovery of Costs
-
-You explicitly understand and agree that your access to CiaoTool services is a revocable privilege and not an absolute right. If CiaoTool suffers losses, damages, or is forced to initiate legal actions or arbitration proceedings against you due to your material breach of this Agreement (including but not limited to implementing cyberattacks, illegally evading geographical restrictions, engaging in malicious market manipulation, or abusing our SaaS tools), to the maximum extent permitted by applicable law, CiaoTool reserves the right to recover from you all reasonable attorneys' fees, litigation costs, arbitration expenses, and related enforcement expenditures incurred therefrom. This right of recovery shall be cumulative and shall not affect, prejudice, or impair any other legal or equitable remedies, damages claims, or reliefs we are entitled to by law.
-
-## 13. Contact Us
-
-If you have any questions, inquiries, or clarifications regarding these Terms of Service, require assistance to resolve a complaint regarding your access to or use of the Website and its Web3 SaaS tools, or wish to obtain further compliance and regulatory information about CiaoTool, you are welcome to contact us through our officially designated email address at:
-
-* Official Email Address: [support@ciaotool.io](mailto:support@ciaotool.io)
+如果您对本服务条款有任何疑问、需要解决有关网站或工具使用的投诉，或想了解更多关于 CiaoTool 的服务及合规信息，欢迎通过官方电子邮件 [support@ciaotool.io](mailto:support@ciaotool.io)与我们联系。
 

@@ -2,7 +2,7 @@
 icon: '2'
 ---
 
-# Create Liquidity Pool
+# 创建流动性池
 
 功能开发中...
 

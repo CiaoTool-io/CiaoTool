@@ -2,5 +2,5 @@
 icon: '5'
 ---
 
-# BSC - PancakeSwap Toolkit
+# BSC - PancakeSwap 专区
 

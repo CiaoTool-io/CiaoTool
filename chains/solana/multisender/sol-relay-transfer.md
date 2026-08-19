@@ -1,243 +1,238 @@
 ---
-description: >-
-  Route SOL via intermediary addresses to sever direct links. This disrupts
-  funding ties, optimizes bubblemap, secures multi-wallet transfers, and keeps
-  your asset strategy discreet.
+description: 通过独立中间地址处理 SOL 的资金转移，切断首尾直接联系，有效打断资金关联，优化气泡图呈现，提升多钱包资金调拨安全性，打造深度隐匿的资产管理策略。
 ---
 
-# Solana - Multisender | Relay Transfer Tutorial
+# Solana - 批量转账 | 中转转账教程
 
 {% hint style="info" %}
-You are currently on the **"Solana - Relay Transfe Transfer"** tutorial page.
-
-Click [**"EVM - Relay Transfer"**](../../bsc/multisender/relay-transfer.md) to view multisender tutorials for BNB Smart Chain.
+当前&#x662F;**「Solana 中转转账」**&#x6559;程页面，点击[**「BSC - 中转转账」**](../../bsc/multisender/relay-transfer.md)以查看 BSC 网络多对多转账教程。
 {% endhint %}
 
-## What is CiaoTool Solana Relay Transfer?
+## CiaoTool Solana 中转转账是什么？
 
-<figure><img src="../../../.gitbook/assets/image (720).png" alt="CiaoTool Solana Toolkit Page about Relay Transfer Feature"><figcaption></figcaption></figure>
+**CiaoTool Solana 中转转账**是一款专注于链上隐私保护与资金隐匿的高阶工具。它允许您在转账过程中自动引入独立的中间钱包节点，将 SOL（原生代币） 智能中转并批量分发至目标钱包。\
+​\
+相较于普通的直接转账，中转转账的核心优势在于切断发送端与接收端之间的直接链上联系。系统通过中间地址自动处理资金流转，完美模拟真实独立交互行为，有效打乱资金流转路径，优化气泡图等链上工具的聚类分析与追踪显示。这不仅能隐藏资金的动向，保护主钱包安全隐私，保障多钱包交互的安全流转。
 
-**CiaoTool Solana Relay Transfer** is an advanced tool dedicated to on-chain privacy protection and asset obfuscation. It allows you to automatically introduce independent intermediary wallet nodes during the transfer process, intelligently routing and distributing SOL (native token) to target wallets in batches.
+此工具尤其适用于： ​ ​
 
-Compared to standard direct transfers, the core advantage of a Relay Transfer lies in severing the direct on-chain link between the sender and recipient. By automatically routing funds through intermediary addresses, the system perfectly mimics real, independent interactions. This effectively breaks up fund flow paths and optimizes how on-chain tools display cluster analysis and bubble charts. It not only hides capital movements and protects the privacy of master wallets, but also secures flows across multi-wallet interactions.
+* 隐私保护下的 SOL 资金调拨与分仓策略
+* 优化链上气泡图与聚类分析显示
+* 安全的多地址资产分布管理
 
-This tool is particularly suitable for:
+立即在 Solana 上，用 CiaoTool​ 批量转账功能进行中转转账操作：
 
-* SOL Capital Allocation & Portfolio Splitting under Privacy Protection
-* Optimizing On-Chain Bubble Charts & Cluster Analysis Displays
-* Secure Asset Distribution Management Across Multiple Addresses
-
-Start your SOL Relay Transfer on Solana with CiaoTool now:
-
-{% embed url="https://ciaotool.io/en-US/transfer/relay-transfer" %}
+{% embed url="https://ciaotool.io/zh-CN/transfer/relay-transfer" %}
 
 ***
 
-## Why Choose CiaoTool Relay Transfer?
+## 为什么选择 CiaoTool 中转转账？
 
-CiaoTool provides a professional solution for managing on-chain assets efficiently and securely on Solana. Whether you need privacy-focused SOL distributions, secure rebalancing across multiple wallets, or complex fund allocations between nodes, the Relay Transfer feature ensures operational accuracy, effectively diversifies fund flow paths, and optimizes on-chain linkage displays by introducing intermediary nodes to mimic real, independent transactions.
+**CiaoTool** 提供了一种在 Solana 上高效、安全管理链上资产的专业方案。无论您是需要进行注重隐私的 SOL 资金分发、多钱包的安全换仓，还是执行复杂的节点资金调拨，其中转转账功能都能通过引入中间节点并模拟真实的独立交易，确保操作的准确性，有效分散资金流转路径并优化链上关联显示。
 
-Purpose-built for **SOL** asset flows and combined with one-click file imports and bulk processing, it drastically reduces operational overhead. It stands as an indispensable secure asset management tool for any Web3 project or professional team dedicated to building on Solana.
+专为 **SOL** 资产流转打造，结合一键文件导入与批量处理，它不仅极大解放了运营双手，更是任何在 Solana 上深耕的 Web3 项目和专业团队不可或缺的安全资管利器。
 
 ***
 
-## **Step by Step | Solana Multisender - Relay Transfer**
+## **图文指南 | Solana 批量转账 - 中转转账**&#x20;
 
 {% stepper %}
 {% step %}
-### Connect Wallet <a href="#connect-wallet" id="connect-wallet"></a>
+### **绑定钱包**
 
-Click the button in the top right corner to connect a wallet that supports the Solana network.
+点击右上角按钮，绑定支持 Solana 链的钱包
 
-<figure><img src="../../../.gitbook/assets/image (721).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (256).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Select a Token to Send
+### 选择转账代币
 
-You can choose SOL or any SPL token currently held in your wallet for transfer.
+可以选择 SOL，也可以选择当前钱包拥有的代币进行转账。
 
-<figure><img src="../../../.gitbook/assets/image (722).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (243).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Input Sending Wallet Private Key
+### 导入转账钱包私钥
 
 {% hint style="danger" %}
-Currently supports private key import only. Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
+**「中转转账」**&#x529F;能仅支持私钥导入以进行转账操作。请确保在安全环境下输入私钥信息，您的资金安全对我们来说至关重要，[**了解更多 CiaoTool 如何保障您的资金安全：资金安全保障**](../../../security-guide.md)**。**
 {% endhint %}
 
 {% hint style="info" %}
-The number of sender wallets must match the number of recipient wallets.
+转出钱包数量需要和接收钱包数量保持一致
 {% endhint %}
 
-Supports two methods for importing sending private key: **"Manual Input"** and **"Upload File"**. Select an option to view the detailed tutorial.
+支&#x6301;**「手动输入」**&#x548C;**「上传文件」**&#x4E24;种导入转账地址私钥的类型，选择以查看详细教程
 
 {% tabs %}
-{% tab title="Manual Input" %}
-1. Click the "Manual Input" button to open the input field.
+{% tab title="手动输入" %}
+1. 点&#x51FB;**「手动输入」**&#x6309;钮，弹出手动输入框。
 
-<figure><img src="../../../.gitbook/assets/image (705).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (267).png" alt=""><figcaption></figcaption></figure>
 
-2. Enter / bulk paste private keys, one private key per line. Press Enter to start a new line.
+<figure><img src="../../../.gitbook/assets/image (245).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (707).png" alt=""><figcaption></figcaption></figure>
+2. 输入 / 批量粘贴**钱包私钥，**&#x4E00;行仅输入一个私钥，按回车键换行
 
-3. Click **"OK"** to import all entered addresses into the operation panel.
+<figure><img src="../../../.gitbook/assets/image (263).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (708).png" alt=""><figcaption></figcaption></figure>
+3. 点&#x51FB;**「确定」**，将所有输入地址导入到操作面板
+
+<figure><img src="../../../.gitbook/assets/image (270).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
-{% tab title="Upload File" %}
-1. Click the **"Upload File"** button to open the file upload window.
+{% tab title="上传文件" %}
+1. 点&#x51FB;**「上传文件」**&#x6309;钮，弹出文件上传窗口。
 
-<figure><img src="../../../.gitbook/assets/image (706).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (268).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (710).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (251).png" alt=""><figcaption></figcaption></figure>
 
-2. Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.   \
-   Click to download and view the template:
+2. 导入钱包私钥信息文件，显示私钥信息\
+   请通过 CiaoTool 模板文件导入，以确保私钥准确导入。
 
 {% file src="../../../.gitbook/assets/Solana_privateKey_demo.xlsx" %}
 
-<figure><img src="../../../.gitbook/assets/image (711).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (318).png" alt=""><figcaption></figcaption></figure>
 
-3. Click **"OK"** to import all entered addresses into the operation panel.
+3. 点&#x51FB;**「确定」**，将所有输入地址导入到操作面板
 
-<figure><img src="../../../.gitbook/assets/image (709).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (269).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 {% endstep %}
 
 {% step %}
-### Enter Transfer Amount <a href="#enter-transfer-amount" id="enter-transfer-amount"></a>
+### 输入转账金额
 
-<figure><img src="../../../.gitbook/assets/image (712).png" alt=""><figcaption></figcaption></figure>
+点击转账数量上方&#x7684;**「统一输入」**&#x6309;&#x94AE;**，**&#x652F;&#x6301;**「金额」「百分比」「保留数量」**&#x548C;**「全部」四**种转账金额类型。
 
-Click the **"Batch Input"** button above the transfer amount to choose from four transfer modes: **"Amount"**, **"Percentage"**, **"Retain Amount"**, and **"All"**. Custom Input is also supported.
-
-1. **Custom Input**\
-   Enter the transfer amount for each wallet individually.
-   * If an amount is filled in, the transfer will use that specific amount.
-   * If an amount is left blank, the transfer will default to the amount configured in the global settings.
-2. **Amount**\
-   Apply a uniform, designated amount across all wallets for the transfer.
-3. **Percentage**\
-   Set a uniform balance percentage; each wallet will transfer funds according to its specific percentage.
-4. **Retain Amount**\
-   Ensure a fixed amount remains in each wallet for future use, transferring the remaining balance to the recipient address.
-5. **All**\
-   Quickly transfer all of a specific token from the wallets from the sending addresses with no extra steps.
+1. **金额**\
+   统一所有钱包指定金额进行转账
+2. **百分比**\
+   统一设定余额百分比，每个钱包根据百分比数量进行转账
+3. **保留数量**\
+   确保每个钱包有固定留存，以便后续继续使用，其余金额转入接收钱包地址
+4. **全部**\
+   无需额外操作，方便快捷将钱包所有该代币转账到接收地址
 {% endstep %}
 
 {% step %}
-### Input Recipient Wallet Address
+### 导入接收钱包地址
 
 {% hint style="info" %}
-The number of sender wallets must match the number of recipient wallets.
+接收钱包数量需要和转出钱包数量保持一致
 {% endhint %}
 
-Supports two methods for importing recipient addresses: **"Manual Input"** and **"Upload File"**. Select an option to view the detailed tutorial.
+支&#x6301;**「手动输入」**&#x548C;**「上传文件」**&#x4E24;种导入接收地址的类型，选择以查看详细教程
 
 {% tabs %}
-{% tab title="Manual Input" %}
-1. Click the "Manual Input" button to open the input field.
+{% tab title="手动输入" %}
+1. 点&#x51FB;**「手动输入」**&#x6309;钮，弹出手动输入框。
 
-<figure><img src="../../../.gitbook/assets/image (713).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (312).png" alt=""><figcaption></figcaption></figure>
 
-2. Enter / bulk paste wallet addresses, one address per line. Press Enter to start a new line.
+<figure><img src="../../../.gitbook/assets/image (245).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (715).png" alt=""><figcaption></figcaption></figure>
+2. 输入 / 批量粘贴**钱包地址，**&#x4E00;行仅输入一个地址，按回车键换行
 
-3. Click "OK" to import all entered addresses into the operation panel.
+<figure><img src="../../../.gitbook/assets/image (247).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (716).png" alt=""><figcaption></figcaption></figure>
+3. 点&#x51FB;**「确定」**，将所有输入地址导入到操作面板
+
+<figure><img src="../../../.gitbook/assets/image (313).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
-{% tab title="Upload File" %}
-1. Click the "Upload File" button to open the file upload window.
+{% tab title="上传文件" %}
+* 点&#x51FB;**「上传文件」**&#x6309;钮，弹出文件上传窗口。
 
-<figure><img src="../../../.gitbook/assets/image (714).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (314).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (718).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (251).png" alt=""><figcaption></figcaption></figure>
 
-2. Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.   \
-   Click to download and view the template:
+2. 导入钱包地址信息文件，显示地址信息\
+   请通过 CiaoTool 模板文件导入，以确保钱包地址准确导入。
 
 {% file src="../../../.gitbook/assets/Solana_address_demo.xlsx" %}
 
-<figure><img src="../../../.gitbook/assets/image (719).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (247).png" alt=""><figcaption></figcaption></figure>
 
-3. Click **"OK"** to import all entered addresses into the operation panel.
+3. 点&#x51FB;**「确定」**，将所有输入地址导入到操作面板
 
-<figure><img src="../../../.gitbook/assets/image (717).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (313).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 {% endstep %}
 
 {% step %}
-### Set Relay Count
+### 设置中转数量
 
-Customize the number of relay addresses. All transfers will pass through the specified number of intermediary addresses before reaching the destination wallet.
+自定义中转地址数量，所有转账均会经过数个地址到达指定接收钱包
 {% endstep %}
 
 {% step %}
-### **Confirm**
+### 确认交易
 
-After verifying all details, click the **"Confirm Transfer"** button below and wait for the transaction process to complete.
+确认信息无误后，点击下方「**确认转账**」按钮，并等待转账程序完成。
 {% endstep %}
 {% endstepper %}
 
 ***
 
-## **FAQs**
+## **常见问题 FAQ**
 
 <details>
 
-<summary><strong>What is a Relay Transfer?</strong></summary>
+<summary><strong>什么是中转转账？</strong></summary>
 
-The Solana Relay Transfer is a visual operational tool dedicated to on-chain privacy protection. By automatically generating intermediary wallets to act as "stepping stones," it routes funds from the sender to these transit addresses first, before automatically transferring them to the final recipient wallets. This mechanism effectively severs the direct transaction history between the sender and recipient on blockchain explorers.
+Solana 中转转账是一款专注于链上隐私保护的可视化操作工具。它通过自动生成中间钱包作为“跳板”，将资金从发送方先转入中转地址，再由中转地址自动转入最终的接收钱包。这种机制能在区块链浏览器上有效切断发送方与接收方之间的直接交易记录。
 
 </details>
 
 <details>
 
-<summary><strong>How do I import sending addresses?</strong></summary>
+<summary><strong>如何导入地址？</strong></summary>
 
-You can either manually enter addresses or upload a CSV file to import a list of sending addresses. The system will automatically recognize and display a preview.
-
-</details>
-
-<details>
-
-<summary><strong>Is the operation secure?</strong></summary>
-
-CiaoTool uses a fully client-side signing mechanism. Your private key is never uploaded or stored on any server, and all transactions are signed locally in your browser. This ensures, at a technical level, that the platform has no access to your private key.
+你可以手动输入地址，也可以上传 CSV 文件导入目标地址列表（支持地址+金额格式），系统会自动识别并展示预览。
 
 </details>
 
 <details>
 
-<summary><strong>How many addresses can be sent at once?</strong></summary>
+<summary><strong>操作是否安全？</strong></summary>
 
-Using the private key import mode, the Relay Transfer feature eliminates the hassle of signing for every individual wallet, with no limit on the number of sending addresses.
+平台采用纯前端签名机制，您的私钥绝不会被上传或储存在任何服务器上，所有交易均在本地浏览器完成签名，从技术层面确保平台无法访问您的私钥。
 
 </details>
 
 <details>
 
-<summary><strong>What token types are supported for transfers?</strong></summary>
+<summary><strong>一次可以发送到多少个地址？</strong></summary>
 
-The current version only supports SOL for bulk transfers.
+得益于私钥导入的模式，中转转账功能免除了逐一钱包签署的繁复工作，发送地址没有任何数量限制。
 
 </details>
 
-***
+<details>
 
-**Need help? Join our community for real-time support:**
+<summary><strong>可以同时转多种代币吗？</strong></summary>
 
-<table data-header-hidden><thead><tr><th width="188"></th><th valign="top"></th><th data-hidden></th></tr></thead><tbody><tr><td>Email</td><td valign="top"><a href="mailto:ciaotoolglobal@gmail.com">ciaotoolglobal@gmail.com</a></td><td></td></tr><tr><td>Telegram</td><td valign="top"><a href="https://t.me/ciaotools">https://t.me/ciaotools</a></td><td></td></tr><tr><td>WhatsApp</td><td valign="top"><a href="https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J">https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J</a></td><td></td></tr></tbody></table>
+当前版本仅支持选择 SOL 进行批量转账。
+
+</details>
+
+**💬 如遇到问题？加入社群实时咨询**：[https://t.me/ciaotool](https://t.me/ciaotool)
+
+* **Email**：[support@ciaotool.io](mailto:support@ciaotool.io)
+* **官网**：[https://ciaotool.io](https://ciaotool.io/)
+* **X（Twitter）**：[https://x.com/CiaoTool](https://x.com/CiaoTool)
+* **Medium**： [https://medium.com/@ciaotool](https://medium.com/@ciaotool)
+* **Blog**：[https://www.ciaoailiquidity.com/zh/blog](https://www.ciaoailiquidity.com/zh/blog)
+* **YouTube**：[https://www.youtube.com/@CiaoTool](https://www.youtube.com/@CiaoTool)
+* **WhatsApp**：[https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J](https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J)
 
 {% hint style="danger" %}
-CiaoTool is committed to providing convenient tooling services but does not offer any form of investment advice. Platform content may change with product iterations. Users are advised to exercise judgment and stay informed about updates.
+CiaoTool 致力于提供便捷的工具服务，但不构成任何投资建议。平台内容可能根据产品迭代进行调整，敬请用户自行判断并留意更新。
 {% endhint %}

@@ -2,5 +2,5 @@
 icon: '2'
 ---
 
-# Batch Swap
+# 批量交易
 

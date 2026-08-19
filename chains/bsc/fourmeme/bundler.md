@@ -1,228 +1,234 @@
 ---
 description: >-
-  A token launch and bundle buy tool built for Four.meme. Create tokens and
-  execute multi-wallet buys within the same block to optimize early holder
-  distribution and establish positions efficiently.
+  专为 Four.meme
+  平台提供的代币发行与多地址捆绑买入工具。支持在同区块内同步完成代币创建与首笔批量买入，有效阻断机器人抢跑，支持税费经济。确保以极低初始成本安全建仓并优化早期持币分布。
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/b56FKZGe1viFi67H1pPQ/fourmeme/bnb-create-and-buy
 ---
 
-# Fourmeme - Bundler Tutorial (Create & Buy)
+# Fourmeme - 创建并买入教程
 
 {% hint style="info" %}
-**CiaoTool Fourmeme Bundler** fully supports all quote tokens, including **BNB, USD1, UUSD and NVDAb**. Please switch to the specific token page to perform token launch operations based on your needs.&#x20;
+**CiaoTool Fourmeme 创建并买入**现已全面支持官方 **BNB、USD1、UUSD 和 NVDAb** 全部的价值代币，请先切换到指定代币页面进行创建代币并捆绑买入操作，满足不同场景下的快捷开盘服务。
 {% endhint %}
 
-## What is CiaoTool Fourmeme Bundler?
+## CiaoTool Fourmeme 创建并买入是什么？
 
-<figure><picture><source srcset="../../../.gitbook/assets/ScreenShot_2026-06-22_165108_209.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (1035).png" alt="CiaoTool BSC Toolkit Page about Four.meme Bundler Feature"></picture><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (445).png" alt="CiaoTool Fourmeme 创建并买入功能页面"><figcaption></figcaption></figure>
 
-**CiaoTool Fourmeme Bundler** is an automated token deployment and position-building tool built for the BSC **Four.meme platform**, enabling multi-wallet batch purchases alongside token creation in the same block.
+**CiaoTool Fourmeme 创建并买入**是一款专为 BSC 生态 **Four.meme 平台**打造的代币发行与自动化建仓工具。它允许用户在发布全新代币的同时，全自动调度多个钱包地址在同一区块内完成首笔批量买入。
 
-Instead of traditional manual buying, it aggregates the creation and multi-address purchase instructions into an indivisible data package, executing buy orders instantly after deployment to wipe out time gaps.
+相较于「先发币、后手动买入」的传统模式，该功能的核心机制在于「底层捆绑打包」。系统会将代币创建指令与多地址的买入指令聚合为一个不可分割的数据包提交至链上。这种机制确保了用户的买入交易紧跟在代币创建之后瞬间完成，彻底消除了时间差。它从根本上防止了链上狙击机器人的抢跑买入，保障项目方能够以内盘最底端的初始价格完成早期资产配置。
 
-This atomic execution completely blocks on-chain front-running bots, safeguarding your early asset configuration at the absolute lowest internal floor price.
+立即在 Fourmeme 上，用 CiaoTool​ 创建并买入功能进行一键开盘操作：
 
-Start Create and Buy Token on Fourmeme with CiaoTool now:
-
-{% embed url="https://bsc.ciaotool.io/en/fourmeme/bnb/create-and-buy" %}
+{% embed url="https://bsc.ciaotool.io/zh-Hans/fourmeme/bnb/create-and-buy" %}
 
 ***
 
-## Why Choose CiaoTool Fourmeme Bundler
+## 为什么选择 CiaoTool Fourmeme 创建并买入？
 
-CiaoTool provides a secure and efficient launch solution for Four.meme tokens, helping users optimize early token distribution and streamline the launch process.
+CiaoTool 为 Fourmeme 平台上的代币首发提供了一种兼顾安全性与极低成本的专业解决方案。对于需要精确控制早期筹码及防范恶意夹击的用户而言，该工具构建了稳健的执行防线：
 
-* **Same-Block Execution**\
-  Token creation and buying are bundled together for a faster and more efficient launch process.
-* **Efficient Position Building**\
-  Supports simultaneous purchases across multiple wallets to establish early positions quickly.
-* **Optimized Holder Distribution**\
-  Allows multiple addresses to participate in the initial buy, improving holder distribution.
-* **One-Click Launch**\
-  Automates token creation, parameter setup, and batch buying for a streamlined launch experience.
-* **All-in-One Toolkit**\
-  Smoothly transitions from bundled buys to market making or multisender within one platform.
+* **彻底阻断抢跑：**\
+  通过底层捆绑打包技术，将发币与买入指令在同区块内无缝聚合，有效防止链上狙击机器人提前买入推高价格。
+* **锁定极低成本：**\
+  确保多钱包买入指令作为创世区块的首批交易执行，使项目方能够以绝对的初始低价完成建仓，最大程度降低资金损耗。
+* **优化早期分布：**\
+  支持自定义配置多个独立地址同步买入，在代币发射的瞬间即完成基础的持币者结构分散，美化早期链上数据。
+* **全自动极速部署：**\
+  一键自动完成代币信息上传、参数配置与多地址资产分发，彻底免去繁琐的人工切换与手动抢筹操作。
 
 ***
 
-## Video Tutorial
+## 视频教程 | Fourmeme 创建并买入
 
-{% embed url="https://www.youtube.com/watch?v=qupM7HDdaxY" %}
+{% embed url="https://www.youtube.com/watch?v=0w2oKTzzyoQ" %}
 
 ***
 
-## **Step by Step**
+## **图文指南 | Fourmeme** 创建并买入&#x20;
 
 {% stepper %}
 {% step %}
-### **Connect Wallet**
+### **绑定钱包**
 
-Click the button in the top right corner to connect a wallet that supports the EVM network.
+点击右上角按钮，绑定支持 BSC 链的钱包
 
-<figure><img src="../../../.gitbook/assets/image (1036).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (446).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Enter Payment Wallet Private Key
+### 输入支付钱包私钥
+
+输入用于发币的控制地址私钥，该地址将会作为 Four 创建代币的代币开发者地址，以及支付功能服务费用。
+
+<figure><img src="../../../.gitbook/assets/image (653).png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### 填写代币基础信息
 
 {% hint style="danger" %}
-<mark style="color:red;">**Security Tips**</mark>
+<mark style="color:$danger;">**安全须知**</mark>
 
-Currently supports private key import only. Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
+当&#x524D;**「创建并买入」**&#x529F;能仅支持 私钥导入以进行开盘操作。请确保在安全环境下输入私钥信息，您的资金安全对我们来说至关重要，[**了解更多 CiaoTool 如何保障您的资金安全：资金安全保障**](../../../security-guide.md)**。**
 {% endhint %}
 
-Enter the private key of the control address used for token issuance. This address will serve as the token developer address for creating tokens on Four.meme, as well as for paying functional service fees.
+<figure><img src="../../../.gitbook/assets/image (598).png" alt=""><figcaption></figcaption></figure>
 
-
-
-<figure><img src="../../../.gitbook/assets/image (1037).png" alt=""><figcaption></figcaption></figure>
+* **代币名称：**&#x60A8;希望展示在钱包或区块浏览器中的完整代币名称（_例如：MyFirstToken_）。
+* **简称：**&#x4EE3;币的缩写，通常为 3\~6 个大写字母（_例如：MYT_）。
+* **LOGO：**&#x4E0A;传项目或代币的标志图像，建议尺寸 1000\*1000 像素。
+* **描述：**&#x975E;必填项，简要介绍项目的背景、目标和用途。此描述将帮助用户理解您的代币的功能和项目愿景，提高项目真实性。
+* **社交链接：**&#x867D;为可选项但强烈建议填写，**官网、X / Twitter、Telegram**，有助于用户关注和加入您的项目社区。
 {% endstep %}
 
 {% step %}
-### Enter Token Information
-
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
-
-* **Token Name:** Full token name displayed in wallets and explorers (e.g., MyFirstToken).
-* **Symbol:** Token abbreviation, usually 3–6 uppercase letters (e.g., MYT).
-* **LOGO:** Upload the project badge image. Recommended size: 1000x1000 px.
-* **Description (Opt.):** Brief background and goals to boost project trust and clarity.
-* **Socials Links (Opt.):** Highly recommended: Website, X, and Telegram to build your community.
-{% endstep %}
-
-{% step %}
-### Dev Buy
+### Dev 钱包买入
 
 {% hint style="warning" %}
-**Wallet Settings:**
+<mark style="color:$warning;">**钱包设置**</mark>
 
-The Dev wallet and bundled wallets cannot be shared; all business private keys must be unique.
+Dev 钱包、捆绑钱包不能共用，所有业务私钥必须唯一
 {% endhint %}
 
-The amount of tokens purchased using the token developer's wallet; on-chain monitoring platforms will display this as a developer purchase. Leaving it blank defaults to 0.
+用代币开发者钱包买入的代币数量，链上监控平台会显示为开发者买入。不填默认为 0。
 
-<figure><img src="../../../.gitbook/assets/image (1039).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (450).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Select Project Tags
+### 选择项目标签
 
-Select one tag below to define your project's scenario and direction. Single choice only.
+* 从以下标签中选择适合你项目的定位，让其他用户更容易理解项目的方向和应用场景，系统不支持多选：
 
 `Meme / AI / DeFi / Game / Infra / DeSci / Social / DePin / Charity / Others`
 
-<figure><img src="../../../.gitbook/assets/image (1040).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (599).png" alt=""><figcaption></figcaption></figure>
+
+**示例用法：**&#x4F60;发的是狗狗币类 Meme，可选「Meme」；如果未来要做 NFT 或 Game 叙事，也可同步选「Game」。
 {% endstep %}
 
 {% step %}
-### Set Trading Tax<sub><mark style="color:$info;">(opt.)<mark style="color:$info;"></sub>
+### 设置代币税费<sub><mark style="color:$info;">（可选）<mark style="color:$info;"></sub>
 
-CiaoTool now supports Fourmeme's latest tax fee function, making it convenient and fast to build exclusive tokenomics.
+CiaoTool 现已支持 Fourmeme 最新税费功能，方便快捷打造专属代币经济学。交易税费将会在代币打满联合曲线并迁移至 DEX 之后生效。
 
-Trading tax fees will take effect after the token fills up the bonding curve and migrates to the DEX.
+<figure><img src="../../../.gitbook/assets/image (459).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (1041).png" alt=""><figcaption></figcaption></figure>
-
-* **Tax Receive Fee:** Auto-transfers a fixed rate of tokens to the fund address for project promotion.
-* **Dividend Fee:** Distributes tax allocations to all LP token holders based on ownership percentages.
-* **Burn Fee:** Distributes tax allocations to all LP token holders based on ownership percentages.
-* **LP Fee:** Automatically injects a portion of tokens into the pool to sustain deep trading liquidity.
-* **Dividend Threshold:** Limits rewards to holders meeting the minimum balance, driving holding confidence. Min: 10,000.
+* **营销税率**：交易中指定额度的代币将会自动转入指定的营销钱包中，用于进行其他营销活动。
+* **分红税率**：交易中指定额度的代币会按持币比例分配给所有持币者，实现持币分红。
+* **分红门槛：**&#x53EA;有持币数量达到持有门槛的持币者，才能开始享受分红税费带来的额外分红，吸引交易者持有更多代币，增强长期持有信心。最低门槛为 10000。
+* **销毁税率**：交易中指定额度的代币将会被打入黑洞地址，变相实现通缩机制，变相拉升代币价值。
+* **回流税率**：交易中指定额度的代币将会自动添加到流动池内，保证交易始终存在流动性。
 {% endstep %}
 
 {% step %}
-### Import Trading Wallet Private Key
+### 导入捆绑买入私钥地址
 
 {% hint style="danger" %}
-<mark style="color:red;">**Security Tips**</mark>
+<mark style="color:$danger;">**安全须知**</mark>
 
-Currently supports private key import only. Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
+当&#x524D;**「创建并买入」**&#x529F;能仅支持 私钥导入以进行多地址交易操作。请确保在安全环境下输入私钥信息，您的资金安全对我们来说至关重要，[**了解更多 CiaoTool 如何保障您的资金安全：资金安全保障**](../../../security-guide.md)**。**
 {% endhint %}
 
-Supports two import types for trading address private keys: "Manual Input" and "Upload File". Up to 20 addresses is supported.
+1. 点&#x51FB;**「导入私钥」**&#x6309;钮，弹出上传弹窗。
 
-1. Click the **"Import Private Key"** button to open the input pop-up.
+<figure><img src="../../../.gitbook/assets/image (460).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (1005).png" alt=""><figcaption></figcaption></figure>
+2. 支&#x6301;**「手动输入」**&#x548C;**「上传文件」**&#x4E24;种导入钱包私钥的类型，最多支持 **20 个地址**捆绑买入。
 
-2. Manually enter or import the private key file, and click confirm once the private key is displayed in the confirmation box.
+<figure><img src="../../../.gitbook/assets/image (453).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (984).png" alt=""><figcaption></figcaption></figure>
-
-Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.\
-Click to download and view the template:
+使用 CiaoTool 模板文件导入，并保存确定导入并显示在输入框内。\
+点击下载并查看模板：
 
 {% file src="../../../.gitbook/assets/EVM_privateKey_demo.xlsx" %}
-{% endstep %}
 
-{% step %}
-### Enter Buy Amount
+3. 系统将自动读取每个私钥的 **BNB 余额，**&#x5E76;输入买入金额
 
-{% hint style="info" %}
-Keep at least 0.0008 BNB in each wallet to cover gas fees.
+{% hint style="danger" %}
+买入地址的 BNB 余额必须大于 0.0008，以预留支付 Gas 等网络费用；
 
-Clicking MAX auto-reserves \~0.001 BNB for gas fees. You can still manually edit the final amount.
+当选择 MAX 时，系统将自动预留 0.001 BNB 左右的余额于钱包内，您可手动调整范围。
 {% endhint %}
 
-Set custom buy amounts per address. The total combined volume **must not exceed 18 BNB.**
+<figure><img src="../../../.gitbook/assets/image (461).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### **Confirm** <a href="#confirm" id="confirm"></a>
+### 输入买入金额
 
-After verifying all details, click the **"Create Token and Buy"** button below and wait for the launch process to complete.
+为每个地址设置**买入金额**，所有地址总买入数量不得超过 18 BNB。
+
+{% hint style="warning" %}
+买入地址的 BNB 余额必须大于 0.0008，以预留支付 Gas 等网络费用；
+
+当选择 MAX 时，系统将自动预留 0.001 BNB 左右的余额于钱包内，您可手动调整范围。
+{% endhint %}
+
+<figure><img src="../../../.gitbook/assets/image (600).png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### 确认交易
+
+确认信息无误后，点击下&#x65B9;**「创建并买入」**&#x6309;钮，并等待开盘完成。
 {% endstep %}
 {% endstepper %}
 
 ***
 
-## **FAQs**
+## **常见问题 FAQ**
 
 <details>
 
-<summary><strong>What is Fourmeme Bundler?</strong></summary>
+<summary><strong>什么是 Fourmeme 创建并买入？</strong></summary>
 
-A zero-code tool on BSC to launch tokens and deploy multi-wallet, same-block buys simultaneously.
+这是专为 BSC (BNB Chain) 生态的 Fourmeme 发射平台打造的一体化部署与建仓工具。它支持在可视化界面中一键完成代币创建，并在代币部署上链的绝对初始区块内，自动联动多个预设钱包同步执行买入，实现代币上线与初始建仓的同步。
 
 </details>
 
 <details>
 
-<summary><strong>Why execute "creation" and "buying" bundled together?</strong></summary>
+<summary><strong>为什么要将“创建”和“买入”捆绑在一起执行？</strong></summary>
 
-Bonding curves pump prices instantly. Bundling wipes out time gaps to completely stop front-running bots.
-
-</details>
-
-<details>
-
-<summary><strong>Can this feature be used to optimize the early token-holding structure?</strong></summary>
-
-Yes. Spreading buys across wallet matrices builds a naturally decentralized holder map at launch.
+Four.meme 采用联合曲线定价机制，代币价格会随着买入量的增加而迅速上涨。如果先发币再手动买入，中间产生的时间差极易被链上狙击机器人监控并抢先买入，导致您被迫以数倍的高价接盘。捆绑执行消除了时间差，彻底阻断了恶意抢跑，保护了初始建仓的资金成本。
 
 </details>
 
 <details>
 
-<summary><strong>Why does the "Bundler" operation prompt a failure?</strong></summary>
+<summary><strong>这项功能可以用来优化代币早期的持币结构吗？</strong></summary>
 
-According to Four.meme's rules, the same token name can only have one token. If the token name is the same, it cannot be created.
+可以。由于该功能支持批量导入多个钱包地址同步执行买入，这些买入会在代币创建的瞬间独立完成。这能让代币在刚发布时就展现出健康、分散的持币者分布数据，避免筹码过于集中在单一地址中。
 
 </details>
 
 <details>
 
-<summary><strong>Is It Secure?</strong></summary>
+<summary><strong>为什么“创建并买入”操作会提示失败？</strong></summary>
 
-The platform uses a fully client-side signing mechanism. Your private key is never uploaded or stored on any server, and all transactions are signed locally in your browser, ensuring the platform cannot access your private key.
+根据 Four.meme 的规则，同一个代币名称只能有一种代币。如果代币名称一样，则无法创建。
+
+</details>
+
+<details>
+
+<summary><strong>操作是否安全？</strong></summary>
+
+平台采用纯前端签名机制，您的私钥绝不会被上传或储存在任何服务器上，所有交易均在本地浏览器完成签名，从技术层面确保平台无法访问您的私钥。
 
 </details>
 
 ***
 
-**Need help? Join our community for real-time support:**
+**如遇到问题？**&#x4F60;可以通过以下方即时联系 CiaoTool 团队：
 
 <table data-header-hidden><thead><tr><th width="188"></th><th valign="top"></th><th data-hidden></th></tr></thead><tbody><tr><td>Email</td><td valign="top"><a href="mailto:ciaotoolglobal@gmail.com">ciaotoolglobal@gmail.com</a></td><td></td></tr><tr><td>Telegram</td><td valign="top"><a href="https://t.me/ciaotools">https://t.me/ciaotools</a></td><td></td></tr><tr><td>WhatsApp</td><td valign="top"><a href="https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J">https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J</a></td><td></td></tr></tbody></table>
 
 {% hint style="danger" %}
-CiaoTool is committed to providing convenient tooling services but does not offer any form of investment advice. Platform content may change with product iterations. Users are advised to exercise judgment and stay informed about updates.
+CiaoTool 致力于提供便捷的工具服务，但不构成任何投资建议。平台内容可能根据产品迭代进行调整，敬请用户自行判断并留意更新。
 {% endhint %}

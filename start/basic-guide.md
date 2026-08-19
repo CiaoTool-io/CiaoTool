@@ -1,267 +1,233 @@
 ---
-description: >-
-  If this is your first time hearing about “creating a token,” don’t worry—after
-  reading this, you’ll go from a complete beginner to a token-creation pro.
+description: 如果你是第一次接触“发币”这个概念，请放轻松——看完这篇，你就能从“币圈小白”变成“发币专家”。
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/b56FKZGe1viFi67H1pPQ/basic-guide
 ---
 
-# The Beginner Guide to Token Creation
+# 新人发币最全指南
 
-* The blockchain world can look complicated: tons of jargon, different chains, fee mechanisms, permission settings…
-* But in reality, creating a token isn’t mysterious at all. With smart one-click token-creation platforms like CiaoTool, you don’t need to write any code or stress about security and deployment. In just a few minutes, your token can be ready.
-
-***
-
-## Preparations and Basic Concepts Before Creating a Token
-
-### **What is “creating a token?”**
-
-* **Creating a token** means deploying a token contract on an existing blockchain. You define its name, symbol, total supply, and functions — in short, you are its creator.
-
-> **Example:** Bitcoin is an independent blockchain (produced through mining), whereas what you’re creating is a “token” deployed on an existing blockchain, such as generating your own token on BSC or Solana.
+区块链的世界看似复杂：各种术语、不同公链、费用机制、权限设置……\
+但其实，发币这件事并不神秘。借助像 **CiaoTool** 这样的智能一键发币平台，你无需会代码，也不用担心安全与部署问题，只要几分钟，就能完成。
 
 ***
 
-### **Choosing a Blockchain: Where to Launch Your Token?**
+### 🧩 第一部分：发币前的准备与概念入门
 
-{% hint style="info" %}
-Different blockchains have varying rules and costs, so this is something you should plan ahead. BSC and Solana are currently among the most popular choices.
-{% endhint %}
+#### **🔹 什么是“发币”？**
 
-* The mainstream options are as follows:
+**发币（Create Token）指的是：** 在一条已有的区块链上，部署一个属于你的代币合约。你定义名字、符号、总量、功能 —— 你就是它的创造者。
 
-| Blockchain                       | Features                                 | Suitable For                          |
-| -------------------------------- | ---------------------------------------- | ------------------------------------- |
-| BSC (Binance Smart Chain)        | Mature and stable, low transaction costs | Beginners / project teams             |
-| **Solana**                       | Fast, active ecosystem                   | Users creating Meme or light projects |
-| **Base / X Layer / IoTeX / BOT** | Emerging chains, flexible operations     | Developers exploring new ecosystems   |
-
-<figure><img src="../.gitbook/assets/image (1052).png" alt=""><figcaption></figcaption></figure>
+> 🧠 举个例子：比特币是独立公链（挖矿产出），而你要创建的是部署在某条链上的“代币”，比如在 BSC 或 Solana 上生成自己的 Token。
 
 ***
 
-### **How to Create a Token?**
+#### **🔹 选链：在哪条链上发？**
 
-Normally, issuing a token requires a developer to write a smart contract and deploy it on the blockchain. But if you’re not technical, you can skip the coding step entirely by using a one-click token creation tool like **CiaoTool**. By paying low service fee, you can have your own token ready in just a few minutes.
+不同公链的规则、成本都不同，这个是你需要提前计划的，BSC链和Solana链热度偏高。\
+目前主流选择如下：
 
-### **How Much Does It Cost to Create a Token?**
+| 区块链                        | 特点         | 适合人群            |
+| -------------------------- | ---------- | --------------- |
+| **BSC（币安链）**               | 成熟稳定、交易成本低 | 新手/项目方          |
+| **Solana**                 | 速度快、生态活跃   | 想做 Meme 或轻项目的用户 |
+| **Base / X Layer / IoTeX** | 新兴链，操作灵活   | 想玩新生态的开发者       |
 
-The cost varies depending on the blockchain and is generally paid in the chain’s native token. You can check the official pages for real-time fees:
-
-* **Solana** ➜ Paid in SOL, fees: [https://ciaotool.gitbook.io/ciaotool/sol/price](https://ciaotool.gitbook.io/ciaotool/sol/price)
-* **BSC** ➜ Paid in BNB, fees: [https://ciaotool.gitbook.io/ciaotool/bsc/price](https://ciaotool.gitbook.io/ciaotool/bsc/price)
-* **Base** ➜ Paid in ETH，fees: [https://base.ciaotool.io/](https://base.ciaotool.io/)
-* **IoTeX** ➜ Paid in IOTX，fees: [https://ciaotool.gitbook.io/ciaotool/iotex/price](https://ciaotool.gitbook.io/ciaotool/iotex/price)
-* **OKX Chain**（X Layer) ➜ Paid in OKB，fees: [https://xlayer.ciaotool.io/](https://xlayer.ciaotool.io/)
-* BOT Chain ➜ Paid in BOT，fees: [https://bot.ciaotool.io/](https://bot.ciaotool.io/)
+![](<../.gitbook/assets/image (5)>)
 
 ***
 
-### **What Can You Do After Creating a Token?**
+#### **🔹 如何发币？**
 
-You can:
+一般来说，发行代币必须由开发者编写智能合约并完成上链部署。但如果你不懂技术，其实可以直接利用 **一键式发币工具（CiaoTool）** 来跳过写代码这一步。支付一笔很低的服务费，就能在几分钟内生成属于你的代币。
 
-* Transfer or airdrop it to others
-* Create a liquidity pool for trading
-* Track your token’s market data on DEX platforms
+#### **🔹 发币要多少钱？**
 
-**Note:** To enable trading, assign a price, and have your token appear on platforms like GMGN and DexScreener, you must create a liquidity pool.
+费用随链而异，一般用该链的原生代币支付，可参考官方费用获取实时数据：
 
-***
-
-### Meme Launchpad vs. One-Click Token Creation
-
-| Type                     | Features                                                                                       | Note                                                   |
-| ------------------------ | ---------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
-| Launchpad                | Auto Add Liquidity, tokens must be purchased, limited control by the project team              | Suitable for lightweight applications                  |
-| One-Click Token Creation | Tokens are received directly, liquidity can be added independently, functions are configurable | The project team has full control over the token logic |
-
-> CiaoTool supports both modes: you can either use the one-click token creation feature or connect to Launchpad bonding curve like Pump.fun, Bonk.fun, Four.meme, and Flap.sh to create and purchase tokens within their ecosystems.
+* **Solana ➜ 用 SOL**，费用：[https://ciaotool.gitbook.io/ciaotool/sol/price](https://ciaotool.gitbook.io/ciaotool/sol/price)
+* **BSC ➜ 用 BNB** ，费用：[https://ciaotool.gitbook.io/ciaotool/bsc/price](https://ciaotool.gitbook.io/ciaotool/bsc/price)
+* **Base ➜ 用 ETH**，费用：[https://base.ciaotool.io/](https://base.ciaotool.io/)
+* **IoTeX ➜ 用IOTX**，费用：[https://ciaotool.gitbook.io/ciaotool/iotex/price](https://ciaotool.gitbook.io/ciaotool/iotex/price)
+* **OKX链（X Layer) ➜ 用 OKB**，费用：[https://xlayer.ciaotool.io/](https://xlayer.ciaotool.io/)
 
 ***
 
-### **Token Creation Prep Checklist**
+#### **🔹 发完币之后能做什么？**
 
-| Tools                             | Purpose                                                                      |
-| --------------------------------- | ---------------------------------------------------------------------------- |
-| Computer / Phone                  | Using a computer is recommended for more stable and convenient operations    |
-| Wallet (MetaMask / Phantom / OKX) | Store blockchain assets                                                      |
-| Assets Preparation                | Have BNB, SOL, or other tokens ready to pay gas fees in your wallet          |
-| Telegram                          | Join the official CiaoTool Telegram group for support: https://t.me/ciaotool |
+✅ 你可以：
+
+* 转账或空投给他人
+* 创建流动性池（Liquidity Pool）供交易
+* 查看代币在 DEX 平台的行情
+
+⚠️ 注意：要想让你的代币能交易、有价格、并在 GMGN、DexScreener 上显示，必须创建流动性池。
+
+***
+
+#### **🔹 内盘 vs 一键发币的区别？**
+
+| 类型       | 特征                 | 说明          |
+| -------- | ------------------ | ----------- |
+| **内盘发币** | 自动加池、代币需购买、项目方控制力弱 | 适合轻量应用      |
+| **一键发币** | 代币直接到账、自主加池、功能可配置  | 项目方完全掌控代币逻辑 |
+
+> 💡 CiaoTool 支持两种模式：既能做「一键发币」，也能连接 PumpFun、BonkFun、Fourmeme、Flap 等内盘生态创建并买入。
+
+***
+
+#### **⚙️ 发币前准备清单**
+
+| 工具                          | 用途                                          |
+| --------------------------- | ------------------------------------------- |
+| 💻 电脑/手机                    | 建议用电脑操作（更稳定便捷）                              |
+| 🌐 可用的网络配置环境                | 访问链上资源与教程                                   |
+| 💰 钱包（MetaMask/Phantom/OKX） | 存放链上资产                                      |
+| 🪙 资产准备                     | 钱包中需有 BNB、SOL 等支付 Gas 的代币                   |
+| 💬 Telegram                 | 加入 CiaoTool 官方群组获取帮助： https://t.me/ciaotool |
 
 {% hint style="warning" %}
-Don’t know how to use a wallet ❌ Not recommended to create a token
+重要提醒：
 
-Wallet has no funds ❌ Not recommended to create a token
-
-Don’t understand basic concepts ❌ Not recommended to create a token
+* 不会用钱包 ❌ 不建议发币
+* 钱包没资产 ❌ 不建议发币
+* 不懂基础概念 ❌ 不建议发币
 {% endhint %}
 
 ***
 
-## Practical Guide to Creating a Token
+### 💥 第二部分：发币实操指南
 
-Ready? In this section, we dive into hands-on steps! Whether you’re making a community token, a Meme coin, or an experimental project, the process is largely the same.
+准备好了吗？这一部分，我们正式进入实战！无论你打算做一个社群 Token、Meme 币还是实验项目，流程都大同小异。
 
 {% stepper %}
 {% step %}
-### Fill in Basic Information
+#### 填写基本信息
 
-Parameters and recommendations:
+参数说明与建议：
 
-* **Name:** Full token name, can be in Chinese or English. Example: SolDog
-* **Symbol:** Short code, usually 3–5 letters. Example: DOG, MEOW
-* **Supply:** Maximum token amount, recommended as an integer (no decimals)
-* **Decimals:** Smallest divisible unit, suggest 18.
-* **Logo:** Supported on Solana; for other chains, uploads may not display. (On Solana, you can replace freely; for other chains, contact official support)
+* 名称（Name）：代币全称，可中英文。示例：SolDog、喵币
+* 符号（Symbol）：简称，通常 3-5 字母。示例：DOG、MEOW
+* 总量（Supply）：代币最大数量，建议整数、非小数
+* 精度（Decimals）：最小分割单位，推荐 18
+* 头像（Logo）：Solana 链支持上传，其他链有时上传了也不一定显示（Solana 链可自行替换，其他链需联系对应官方客服）
 {% endstep %}
 
 {% step %}
-### Optional Feature Configuration
+#### 可选功能配置
 
-Features and suitable users:
+常见功能与适合人群：
 
-* **Burn:** Destroy part of the tokens to increase scarcity. Suitable for deflationary projects
-* **Blacklist:** Freeze specific addresses to prevent malicious wallets
-* **Mint:** Dynamically increase supply, mainly for testing purposes
-* **Standard Token:** No special permissions, recommended for beginners, fully green in safety checks
+* 燃烧（销毁部分代币，推高价格）—— 想做通缩模型的项目
+* 黑名单（冻结特定地址）—— 防御恶意钱包
+* 增发（动态增加供应量）—— 测试用途
+* 标准代币（无任何权限功能）—— 新手推荐，全绿检测
 
-Beginners are recommended to create a **Standard Token** — simplest functionality, highest security, and most friendly for risk-control checks.
+> 建议新手创建「标准代币」—— 功能最简洁、安全性最高、风控检测最友好。
 {% endstep %}
 
 {% step %}
-### Choose a Blockchain & Payment
+#### 选择区块链
 
-* **Choose a Blockchain:**
-  * EVM-based chains (BSC / Base / X Layer): Powerful features, high compatibility, slightly higher cost
-  * Solana: Fast, logo displays nicely, simpler functionality
-* **Payment and Creation:** After confirming all parameters, the system will prompt you to pay the token creation fee. Once paid, the token will be automatically generated and sent to your connected wallet.
-* **If the token is not visible in your wallet, please add it manually.**
+选择要部署的链与其优劣：
+
+* EVM 系（BSC/Base/X Layer）：功能强大、兼容性高，成本略高
+* Solana：速度快、头像显示友好，功能较简洁
+{% endstep %}
+
+{% step %}
+#### 支付与创建
+
+确认参数后，系统会提示支付发币费用。支付完成后，代币会自动生成并发送到当前绑定的钱包，如果未在钱包查看到请自行添加到钱包中。
 {% endstep %}
 {% endstepper %}
 
 ***
 
-## Managing and Maintaining Your Token
+### 💼 第三部分：发币后的管理与维护
 
-Congratulations! You now officially own your token. But the next crucial step is how to operate and maintain your token ecosystem.
+恭喜你！到这里，你已经正式拥有了自己的代币。但接下来还有更关键的部分——如何运营与维护代币生态。
 
-### **Quick FAQs**
+#### **💡 常见问题速查**
 
 <details>
 
-<summary><strong>Q1: Where is my token? Why doesn’t it show in my wallet?</strong></summary>
+<summary>Q1：代币在哪？为什么钱包看不到？</summary>
 
-All tokens are in the wallet you connected. If it doesn’t appear, manually add the token address.
+所有代币都在你连接的钱包中。若未显示，请手动添加代币地址。
 
 </details>
 
 <details>
 
-<summary><strong>Q2: How can I trade it?</strong></summary>
+<summary>Q2：怎么交易？</summary>
 
-Create a liquidity pool, for example:
+创建流动性池（Liquidity Pool），例如：
 
-* **BSC:** PancakeSwap →[ https://pancakeswap.finance/liquidity/pools?](https://pancakeswap.finance/liquidity/pools?)
-* **Solana:** Raydium → [https://raydium.io/liquidity-pools/](https://raydium.io/liquidity-pools/)
-* **Base:** PancakeSwap →[ https://pancakeswap.finance/liquidity/pools?](https://pancakeswap.finance/liquidity/pools?)
-* **X Layer:** PotatoSwap → [https://potatoswap.finance/swap](https://potatoswap.finance/swap)
-
-</details>
-
-<details>
-
-<summary><strong>Q3: How is the token price determined?</strong></summary>
-
-Price = ratio of the two assets in the liquidity pool. For example:\
-100 USDT + 100 TOKEN → initial price 1 USDT/TOKEN
+* **BSC：**&#x50;ancakeSwap，[https://pancakeswap.finance/liquidity/pools?](https://pancakeswap.finance/liquidity/pools?)
+* **Solana：**&#x52;aydium，[https://raydium.io/liquidity-pools/](https://raydium.io/liquidity-pools/)
+* **Base:** PancakeSwap，[https://pancakeswap.finance/liquidity/pools?](https://pancakeswap.finance/liquidity/pools?)
+* **X Layer:** potatoswap，[https://potatoswap.finance/swap](https://potatoswap.finance/swap)
 
 </details>
 
 <details>
 
-<summary><strong>Q4: Why does risk detection show red?</strong></summary>
+<summary>Q3：代币价格怎么来？</summary>
 
-Adding features like “Mint” or “Blacklist” flags high risk in checks. It’s recommended to use a **Standard Token** to keep the green status.
-
-</details>
-
-<details>
-
-<summary><strong>Q5: If someone buys my token, where does the money go?</strong></summary>
-
-The purchase funds go into the liquidity pool. To withdraw earnings, use the “Remove Liquidity” function.
+价格 = 流动池内两种资产比例。例如：100 USDT + 100 TOKEN = 初始价 1 USDT/TOKEN。
 
 </details>
 
 <details>
 
-<summary><strong>Q6: Who can create a liquidity pool?</strong></summary>
+<summary>Q4：为什么风险检测显示红？</summary>
 
-Anyone with tokens and assets can create one.
-
-</details>
-
-<details>
-
-<summary><strong>Q7: How much should I invest in the pool?</strong></summary>
-
-There’s no fixed minimum; even a few dozen USD can work.
+若添加“增发”“黑名单”等功能，检测会判为高风险。建议用「标准代币」保持绿色标识。
 
 </details>
 
 <details>
 
-<summary><strong>Q8: Can the pool’s tokens be completely bought out?</strong></summary>
+<summary>Q5：别人买了我的代币，钱去哪？</summary>
 
-In theory, no. The price will rise gradually as demand increases, approaching but never reaching zero.
-
-</details>
-
-<details>
-
-<summary><strong>Q9: How can I stabilize the token price?</strong></summary>
-
-Using CLMM (Concentrated Liquidity Market Maker) or adding single-token liquidity can help make the price more stable.
-
-</details>
-
-<details>
-
-<summary><strong>Q10: Does Solana require a Market ID?</strong></summary>
-
-Only in AMM mode is creating a Market ID necessary.
+买入资金进入资金池。要取出收益，可通过“移除流动性”操作。
 
 </details>
 
 ***
 
-## Recommended Tools After Creating a Token
+#### **🧠 资金池知识要点**
 
-Creating a token is just the beginning. To manage it effectively, you need the right tools. CiaoTool offers a complete suite of features:
-
-|        Feature       |                 Use Case                 |                  Description                 |
-| :------------------: | :--------------------------------------: | :------------------------------------------: |
-|    Batch Transfer    | Airdrop to hundreds of addresses at once | Supports uploading spreadsheets or importing |
-|    Snapshot Export   |         Export token holder list         |  Useful for airdrops, governance, or rewards |
-|     Market Making    |  Operate multiple addresses for trading  |         Helps control the price curve        |
-| Batch Create Wallets |  Generate hundreds of addresses at once  |            Supports Solana and BSC           |
-|   Batch Collection   |  Recover assets from multiple addresses  |        Convenient for fund management        |
-
-* **Tutorials:** [https://ciaotool.gitbook.io/ciaotool](https://ciaotool.gitbook.io/ciaotool)
-* **Telegram:** [https://t.me/ciaotool](https://t.me/ciaotool)
+| 项目                | 说明                    |
+| ----------------- | --------------------- |
+| 谁都能创建资金池          | 只要有代币与资产即可            |
+| 投入多少合适？           | 没有固定门槛，几十美金也能建池       |
+| 池子代币会被买完吗？        | 理论上不会，价格会上升直到趋近 0     |
+| 如何稳定价格？           | 采用 CLMM 或单币加池可提升稳定性   |
+| Solana 需要市场 ID 吗？ | 仅 AMM 模式需创建 Market ID |
 
 ***
 
-✅ With CiaoTool, creating a token no longer requires coding or running a node. As long as you have your wallet and assets ready, you can complete the full cycle from **“Idea → Token → Market.”**
+### 🧰 第四部分：发币后的实用工具推荐
 
-> 🚀 The barrier to creating a token is getting lower, but the barrier to managing it is getting higher. The real competition isn’t about “who launches first,” but “who can operate it best.” May your first token on-chain become your key to the Web3 world.
+发币只是起点，想运营得好，还要会用工具。CiaoTool 提供了一整套配套功能：
+
+| 功能     | 用途        | 说明            |
+| ------ | --------- | ------------- |
+| 批量转账   | 一次空投上百个地址 | 可上传表格或导入文件    |
+| 快照导出   | 导出持币名单    | 用于空投、治理、奖励    |
+| 市值管理   | 多地址交易操盘   | 控制价格曲线        |
+| 批量生成钱包 | 一次生成上百个地址 | 支持 Solana、BSC |
+| 批量归集   | 多地址资产回收   | 方便资金管理        |
+
+* 🌐 教程站：[https://ciaotool.gitbook.io/ciaotool](https://ciaotool.gitbook.io/ciaotool)
+* 💬 Telegram：[t.me/ciaotool](https://t.me/ciaotool)
 
 ***
 
-**Need help? Join our community for real-time support:**
+#### ✅ [在 CiaoTool 的加持下，发币不再需要懂代码或部署节点。](https://ciaotool.io/)
 
-<table data-header-hidden><thead><tr><th width="188"></th><th valign="top"></th><th data-hidden></th></tr></thead><tbody><tr><td>Email</td><td valign="top"><a href="mailto:ciaotoolglobal@gmail.com">ciaotoolglobal@gmail.com</a></td><td></td></tr><tr><td>Telegram</td><td valign="top"><a href="https://t.me/ciaotools">https://t.me/ciaotools</a></td><td></td></tr><tr><td>WhatsApp</td><td valign="top"><a href="https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J">https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J</a></td><td></td></tr></tbody></table>
+只需准备好钱包与资产，你就能完成从「想法 → Token → 市场」的闭环。
 
-{% hint style="danger" %}
-CiaoTool is committed to providing convenient tooling services but does not offer any form of investment advice. Platform content may change with product iterations. Users are advised to exercise judgment and stay informed about updates.
-{% endhint %}
+> 🚀 发币的门槛越来越低，但运营的门槛越来越高。真正的竞争，不在“谁先发”，而在“谁能运营好”。愿你在链上的第一枚代币，成为你进入 Web3 世界的钥匙。

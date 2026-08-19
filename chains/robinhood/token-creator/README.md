@@ -2,5 +2,5 @@
 icon: '4'
 ---
 
-# Robinhood Chain Token Creator | Deploy ERC-20 Token
+# Robinhood - 创建代币
 

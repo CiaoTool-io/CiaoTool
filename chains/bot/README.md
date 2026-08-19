@@ -1,8 +1,6 @@
 ---
-description: >-
-  CiaoTool is a complete BOT Chain token toolkit for token creation,
-  multisender, and batch wallet creator. Covers the entire token lifecycle.
+description: CiaoTool 最全 BOT 代币工具站，一键发币 | 批量转账 | 批量创建钱包，一站式解决代币生命全流程 。
 ---
 
-# BOT Chain | All-in-One Token Solution Platform
+# BOT链 - 一站式代币解决方案平台
 

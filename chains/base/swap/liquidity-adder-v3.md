@@ -1,5 +1,5 @@
-# Base - V3 Liquidity Adder Tutorial
+# Base - 添加 V3 流动性教程
 
-Feature coming soon. Contact support for help.
+功能开发中...如需帮助请联系我们
 
 {% embed url="https://t.me/CiaoTools" %}

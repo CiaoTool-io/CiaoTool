@@ -1,129 +1,127 @@
 ---
 description: >-
-  CiaoTool provides a no-code PancakeSwap V3 liquidity adding tool. Supports
-  CLMM pools and single-sided liquidity additions for efficient liquidity
-  management.
+  CiaoTool 提供免代码的 PancakeSwap V3
+  添加流动性池工具。深度适配集中流动性（CLMM）机制，支持智能判定并增加单边流动性。纯前端本地处理机制，助您高效管理 BSC 链上做市资金。
 ---
 
-# BSC - V3 Liquidity Adder Tutorial
+# BSC - 添加 V3 流动性教程
 
 {% hint style="info" %}
-This page covers **PancakeSwap V3 Liquidity Pool Adder**, which adds a V3 liquidity pool with concentrated liquidity and custom price ranges.
+当前&#x662F;**「PancakeSwap 添加 V3 流动性」**&#x6559;程页面，以添加「集中流动性、自定义流动区间」的 V3 流动性池，增加池子深度。
 
-If you want to add a V2 liquidity pool featuring ease of use and full-range coverage, please refer to the [**PancakeSwap V2 Liquidity Pool Adder**](liquidity-adder-v2.md) guide.
+想添加具有「易用、全区间覆盖」的 V2 流动性池，请查阅[**「PancakeSwap 添加 V2 流动性」**](liquidity-adder-v2.md)**。**
 {% endhint %}
 
-## What is PancakeSwap V3 Liquidity Adder?
+## PancakeSwap 添加 V3 流动性是什么？
 
-<figure><picture><source srcset="../../../.gitbook/assets/ScreenShot_2026-06-18_175516_891.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (2).png" alt="CiaoTool BSC Toolkit Page about PancakeSwap V3 Liquidity Pool Adder Feature"></picture><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (583).png" alt=""><figcaption></figcaption></figure>
 
-Adding PancakeSwap V3 Liquidity refers to the operation of appending market-making capital into an already deployed V3 liquidity pool. The V3 protocol adopts a "concentrated liquidity" mechanism, requiring market makers to set a specific price range when adding capital.
+**PancakeSwap V3 添加流动性**是指在已部署的 V3 资金池中追加做市资金的操作。V3 协议采用了“集中流动性”机制，要求做市商在添加资金时设定特定的价格区间。
 
-Common Use Cases:
+核心适用场景：
 
-* **Dynamic Tuning**\
-  Constantly adjusts and adds liquidity during price fluctuations to secure tight trading depth around current market rates.
-* **Single-Sided Walls**\
-  Deploys targeted low-price buy walls or high-price sell pressure using V3’s precise single-sided liquidity mechanics.
+* 动态市值维护： 随着代币价格的波动，项目方需要不断调整并追加流动性，以确保当前市场价格附近有足够的交易深度。
+* 单边做市与托盘： 当项目方希望在特定低价区建立极强的防守买盘，或在高价区布置压制卖盘时，可利用 V3 的单边特性进行精准资金投放。
 
-Start your V3 Liquidity Pool Adder on BNB Smart Chain with CiaoTool now:
+立即在 BSC 上，用 CiaoTool​ 添加流动性池功能进行增加池子深度操作：
 
-{% embed url="https://bsc.ciaotool.io/en/swap/v3/add-liquidity-v3" %}
+{% embed url="https://bsc.ciaotool.io/zh-Hans/swap/v3/add-liquidity-v3" %}
 
 ***
 
-## Why Choose CiaoTool PancakeSwap V3 Liquidity Adder?
+## 为什么选择 CiaoTool 添加 V3 流动性？
 
-For professional teams needing strict control over chip distribution, CiaoTool builds an extremely secure and efficient infrastructure:
+对于需要严密掌控筹码分布的专业团队，CiaoTool 构筑了极致安全与高效的基础设施：
 
-* **No-Code V3 Tool**\
-  Visual web panel replaces complex V3 range calculations for barrier-free, seamless pool updates.
-* **Local Privacy**\
-  Pure client-side local signing ensures total key privacy and multi-wallet safety.
-* **All-in-One Toolkit**\
-  Seamlessly pairs pool creation with native market making or batch swaps for all-in-one on-chain scaling.
+* **零代码高效部署：**\
+  将复杂的 V3 价格区间计算与合约交互，转化为直观的 Web 端可视化操作，任何人都能无门槛使用。
+* **纯前端私钥隔离：**\
+  平台严格采用客户端本地处理机制。您的钱包私钥仅在本地浏览器中用于交易签名，绝不上传、存储或传输至任何云端服务器，从技术底层切断资金风险。
+* **端到端的生态闭环：**\
+  CiaoTool 定位为全栈式代币生命周期管理平台。开盘建仓完成后，您可以无缝联动「市值管理」、「批量交易」等工具，一站式打造繁荣的链上数据表现。
 
 ***
 
-## **Step by Step**
+## **图文指南 |** PancakeSwap 创建 V3 流动性
 
 {% stepper %}
 {% step %}
-### **Connect Wallet**
+### **绑定钱包**
 
-Click the button in the top right corner to connect a wallet that supports the EVM network.
+点击右上角按钮，绑定支持 BSC 链的钱包
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (446).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Enter Payment Wallet Private Key <a href="#enter-payment-wallet-private-key" id="enter-payment-wallet-private-key"></a>
+### 输入添加流动性钱包私钥
 
 {% hint style="danger" %}
-<mark style="color:red;">**Security Tips**</mark>
+<mark style="color:$danger;">**安全须知**</mark>
 
-Currently supports private key import only. Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
+当&#x524D;**「添加流动性」**&#x529F;能仅支持 私钥导入以进行加池操作。请确保在安全环境下输入私钥信息，您的资金安全对我们来说至关重要，[**了解更多 CiaoTool 如何保障您的资金安全：资金安全保障**](../../../security-guide.md)**。**
 {% endhint %}
 
-This wallet address will be used to pay fees and will hold ownership of the pool.
+该钱包地址将用于支付工具手续费，并拥有池子权限。
 
-<figure><img src="../../../.gitbook/assets/image (1016).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (569).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Enter Token Pair Address
+### 输入币对地址
 
-Each V3 liquidity pool for different token pairs / different fee tiers has an independent pair address. Input the pair address into the box, and the system will automatically display the pair information.
+每个不同币对 / 不同税率的 V3 流动性池都有独立的币对地址。将币对地址输入到框内，系统将自动显示币对信息。
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (584).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Set Price Range
+### 设置流动性价格区间
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (585).png" alt=""><figcaption></figcaption></figure>
 
-1. Range size determines the level of yield (applicable to both LP fee yields and CAKE yields):
+1. 区间大小決定收益高低 (LP 手续费收益、CAKE 收益皆适用)
 
-* The narrower it is, the higher the yield, and the greater the impermanent loss;
-* The wider it is, the lower the yield, and the smaller the impermanent loss;
-* A full-range setting operates similarly to V2, and the yield will be very small.
+* 越窄收益越高，无常损失越大；
+* 越宽收益越低，无常损失越小；
+* 全区间设置则类似于 V2 运作，收益将非常少。
 
-2. When out of range:
+2. 超出区间时
 
-* The V3 pool generates no yield;
-* The liquidity position will turn into a single token;
-* You can remove liquidity and add it again, or wait for the price to return to the range;
-* You can add a V2 liquidity pool to ensure base liquidity outside the V3 range.
+* V3 池无收益；
+* 流动性仓位将变为单币；
+* 可以移除流动性并重新添加，或是等待价格重新回到区间内。
+* 可以添加 V2 流动性池，确保 V3 区间外基础流动性。
 
-1. Single-Sided Rule:
+3. 单边添加
 
-* Single-sided deposits on Uniswap/Pancake V3 only apply when the current price is outside your designated range. Full-range mode cannot be single-sided.
+* 对 Uniswap / Pancake V3 来说，纯单边只在“当前价格落在所设价格区间外”时成立；
+* 当前价低于最低价时只能单边添加 WBNB，当前价高于最高价时只能单边添加 USDT。全区间模式下，当前价天然在区间内，所以纯单边不成立。
 {% endstep %}
 
 {% step %}
-### Enter Pool-Adding Token Amount
+### 输入加池代币数量
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (586).png" alt=""><figcaption></figcaption></figure>
 
-The system will automatically calculate the pool-adding amount of the value token / project token based on the current pair price and the price range for adding liquidity.
+系统将根据当前币对价格，以及添加流动性的价格范围，自动计算出 价值代币 / 项目代币的加池数量。
 
-You can freely enter the amount of pool-adding tokens to display the status of the pool-adding pair amounts.
+您可以自由输入加池代币数量，以显示加池币对数量情况。
 {% endstep %}
 
 {% step %}
-### **Confirm** <a href="#confirm" id="confirm"></a>
+### 确认交易
 
-After verifying all details, click the **"Start Swap"** button below and wait for the transaction process to complete.
+确认信息无误后，点击下&#x65B9;**「开始交易」**&#x6309;钮，并等待开盘完成。
 {% endstep %}
 {% endstepper %}
 
 ***
 
-**Need help? Join our community for real-time support:**
+**如遇到问题？**&#x4F60;可以通过以下方即时联系 CiaoTool 团队：
 
 <table data-header-hidden><thead><tr><th width="188"></th><th valign="top"></th><th data-hidden></th></tr></thead><tbody><tr><td>Email</td><td valign="top"><a href="mailto:ciaotoolglobal@gmail.com">ciaotoolglobal@gmail.com</a></td><td></td></tr><tr><td>Telegram</td><td valign="top"><a href="https://t.me/ciaotools">https://t.me/ciaotools</a></td><td></td></tr><tr><td>WhatsApp</td><td valign="top"><a href="https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J">https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J</a></td><td></td></tr></tbody></table>
 
 {% hint style="danger" %}
-CiaoTool is committed to providing convenient tooling services but does not offer any form of investment advice. Platform content may change with product iterations. Users are advised to exercise judgment and stay informed about updates.
+CiaoTool 致力于提供便捷的工具服务，但不构成任何投资建议。平台内容可能根据产品迭代进行调整，敬请用户自行判断并留意更新。
 {% endhint %}

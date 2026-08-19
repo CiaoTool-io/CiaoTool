@@ -1,251 +1,240 @@
 ---
-description: >-
-  Submit multi-wallet buy transactions to Robinhood Chain within a coordinated
-  broadcast window. Reduce sequential delays and queue exposure with best-effort
-  concurrent execution.
+description: 通过统一广播窗口向 Robinhood Chain 提交多个钱包的买入交易，减少逐笔发送产生的排队延迟和插队窗口，实现尽力而为的多地址并发执行。
 ---
 
-# Robinhood - Multi-Address Concurrent Buy Guide
+# Robinhood - 多地址并发买入教程
 
 {% hint style="info" %}
-**CiaoTool Uniswap Multi-Address Concurrent Buy** supports all **V2 and V3** liquidity pool types on Robinhood Chain. Please switch to the corresponding pool page to perform market-making operations based on your needs.
+**CiaoTool Uniswap 多地址并发买入**现已全面支持 **V2 / V3** 全部的流动性池类型，请先切换到指定池子功能页面进行市值管理操作，满足不同场景下的快捷多地址交易服务。
 {% endhint %}
 
-## What is CiaoTool Robinhood Multi-Address Concurrent Buy?
+## CiaoTool Robinhood 多地址并发买入是什么？
 
-<figure><picture><source srcset="../../../.gitbook/assets/ScreenShot_2026-07-21_153825_863.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (1077).png" alt="CiaoTool Robinhood Chain Toolkit about Uniswap Concurrent Buy Tool page"></picture><figcaption></figcaption></figure>
+<figure><picture><source srcset="../../../.gitbook/assets/ScreenShot_2026-07-23_141346_461.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (667).png" alt="CiaoTool Robinhood 链 Uniswap V2 多地址捆绑买入 功能页面"></picture><figcaption></figcaption></figure>
 
-CiaoTool Multi-Address Concurrent Buy is an automated multi-wallet buying tool designed for time-sensitive token purchases on Robinhood Chain.
+CiaoTool 多地址并发买入是一款面向 Robinhood 链时效性买入场景的多钱包自动化工具。
 
-When multiple wallets are operated manually, each transaction must be prepared, signed, and submitted separately. The delay between wallet transactions creates additional queue exposure, during which the pool price may change or unrelated transactions may reach the network first.
+手动操作多个钱包时，每笔交易都需要分别准备、签名和提交。不同钱包之间的操作延迟会产生额外的排队窗口，在此期间，流动性池价格可能发生变化，其他交易也可能更早到达网络。
 
-CiaoTool prepares the buy transactions for all selected wallets before execution. After the user confirms the task, the transactions are signed locally and broadcast concurrently within a narrow time window.
+CiaoTool 会在执行前统一准备所有选中钱包的买入交易。用户确认任务后，交易将在浏览器本地完成签名，并通过一个较短的广播窗口并发提交。
 
-This coordinated broadcast method helps reduce the time difference between wallet submissions, limits the opportunity for other transactions to be inserted between them, and improves execution consistency compared with manual or sequential buying.
+与手动或逐笔顺序买入相比，这种统一并发广播方式可以缩短不同钱包之间的提交时间差，减少其他交易插入中间的机会，并提高多钱包买入的执行一致性。
 
-### Core Advantages
+### 核心优势
 
-<table data-view="cards"><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><strong>Reduce Sequential Submission Delays</strong></td><td>Submitting transactions wallet by wallet creates unnecessary delays. Concurrent Buy prepares transactions in advance and broadcasts them together instead of waiting for the previous wallet transaction to finish before sending the next one.</td></tr><tr><td><strong>Reduce Queue Exposure</strong></td><td>The longer the gap between transaction submissions, the more opportunities there are for unrelated transactions to arrive between them. A coordinated broadcast narrows this window.</td></tr><tr><td><strong>Improve Entry Consistency</strong></td><td>When multiple wallets buy at different times, later wallets may receive less favorable prices because earlier transactions have already changed the pool state. Concurrent submission helps reduce execution variance between wallets.</td></tr><tr><td><strong>Respond Faster During Time-Sensitive Trading</strong></td><td>Concurrent broadcasting is useful when users need to submit multiple buy transactions within a short period, such as during a token launch or other time-sensitive entry.</td></tr><tr><td><strong>Simplify Multi-Wallet Coordination</strong></td><td>Users can configure multiple wallets, buy amounts, slippage, and transaction settings from one interface instead of operating every wallet manually.</td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><strong>减少逐笔提交延迟</strong></td><td>逐个钱包提交交易会产生不必要的时间差。并发买入会预先准备交易并统一广播，无需等待前一个钱包的交易完成后再发送下一个钱包。</td></tr><tr><td><strong>减少排队与插入窗口</strong></td><td>不同钱包交易之间的提交间隔越长，其他交易插入其中的机会就越多。统一并发广播可以缩短这一时间窗口。</td></tr><tr><td><strong>提高买入一致性</strong></td><td>多个钱包在不同时间买入时，前面的交易可能已经改变池子状态，导致后续钱包获得更加不利的价格。并发提交有助于减少不同钱包之间的成交差异。</td></tr><tr><td><strong>简化多钱包协调</strong></td><td>用户可以通过一个页面统一设置多个钱包、买入金额、滑点和交易参数，无需逐个操作钱包。</td></tr><tr><td><strong>提高关键交易阶段的响应速度</strong></td><td>当用户需要在较短时间内提交多个买入交易时，并发广播可以提高整体响应速度，例如代币上线或其他具有时效性的买入场景。</td></tr></tbody></table>
 
-### Common Use Cases
+### 常见用例
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><strong>Token Launch Entry</strong></td><td>Submit buy transactions from multiple wallets within a narrow broadcast window during an authorized token launch.</td></tr><tr><td><strong>Multi-Wallet Position Building</strong></td><td>Build positions through multiple user-controlled wallets without manually switching and submitting every transaction.</td></tr><tr><td><strong>Time-Sensitive Buy Execution</strong></td><td>Reduce delays when multiple wallets need to submit buy transactions around the same time.</td></tr><tr><td><strong>Key Price-Level Entry</strong></td><td>Coordinate multiple wallet submissions when users want to enter around a selected market price, subject to slippage and pool liquidity.</td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><strong>代币上线阶段买入</strong></td><td>在代币上线阶段，通过较短的广播窗口提交多个钱包的买入交易。</td></tr><tr><td><strong>多钱包建立仓位</strong></td><td>通过多个用户控制的钱包建立代币仓位，无需逐个切换钱包和手动提交交易。</td></tr><tr><td><strong>时效性买入执行</strong></td><td>当多个钱包需要在接近的时间提交买入交易时，减少逐笔操作产生的延迟。</td></tr><tr><td><strong>关键价格区间买入</strong></td><td>在滑点和池子流动性允许的情况下，协调多个钱包在用户选择的价格区间附近提交买入交易。</td></tr></tbody></table>
 
-### Quick Start
+### 快速开始
 
-Start your Multi-Address Concurrent Buy on Robinhood Chain with CiaoTool now:
+立即在 Robinhood 上，用 CiaoTool​ 多地址并发买入功能进行一键买入操作：
 
-{% embed url="https://robinhood.ciaotool.io/en/swap/v2/multi-address-buy-v2" %}
+{% embed url="https://robinhood.ciaotool.io/zh-Hans/swap/v2/multi-address-buy-v2" %}
 
-{% embed url="https://robinhood.ciaotool.io/en/swap/v3/multi-address-buy-v3" %}
+{% embed url="https://robinhood.ciaotool.io/zh-Hans/swap/v3/multi-address-buy-v3" %}
 
 ***
 
-## How Does Concurrent Buy Work on Robinhood Chain?
+## 多地址并发买入在 Robinhood 链上如何工作？
 
-### Working Mechanism
+### 交易排序机制
 
-Robinhood Chain uses a **first-come, first-served sequencing model**. Transaction order is determined by the time each transaction reaches the sequencer. According to the official network documentation, a transaction cannot bypass an earlier transaction simply by paying a higher fee.
+Robinhood 链使用**先到先得的排序机制**。交易顺序由每笔交易到达 Sequencer 的时间决定。根据 Robinhood 链官方说明，后到达的交易不能仅通过支付更高的费用绕过先到达的交易。
 
-Robinhood Chain also targets approximately **100-millisecond block times**, allowing transactions to be processed quickly. However, even small differences in network propagation and sequencer arrival time can affect ordering.
+Robinhood 链的目标出块时间约为 **100 毫秒**，可以快速处理交易。但即使是很小的网络传播时间差或 Sequencer 到达时间差，也可能影响最终交易顺序。
 
-[Learn more about Robinhood Chain transaction ordering](https://docs.robinhood.com/chain/) and [network infrastructure](https://robinhood.com/blockchain).
+可以查看 [Robinhood Chain 交易排序说明](https://docs.robinhood.com/chain/) 和 [网络基础设施介绍](https://robinhood.com/blockchain)。
 
-### CiaoTool's Solution
+### CiaoTool 的解决方案
 
-Under Robinhood Chain’s current transaction-submission model, CiaoTool cannot use the same bundle route available on some other networks to group buy transactions from independently controlled wallets and guarantee their inclusion as one ordered unit.
+在 Robinhood 链当前的交易提交模式下，CiaoTool 无法使用部分其他网络提供的捆绑通道，将多个独立钱包的买入交易组合成一个有顺序保证的交易单元。
 
-Each trading wallet is an independent EVM account. Its transaction has a separate private-key signature, nonce, Gas requirement, and transaction hash. These independently signed transactions must be submitted to the Robinhood Chain sequencer separately.
+每个交易钱包都是一个独立的 EVM 账户。每笔交易都有独立的私钥签名、Nonce、Gas 需求和交易哈希。这些独立签名的交易必须分别提交给 Robinhood Chain Sequencer。
 
-Therefore, CiaoTool uses a coordinated concurrent broadcast strategy:
+因此，CiaoTool 采用统一并发广播策略：
 
-1. Prepare the buy transaction for each wallet.
-2. Complete transaction signing locally in the browser.
-3. Hold the prepared transactions until the user confirms execution.
-4. Trigger the transaction broadcasts within a narrow time window.
-5. Submit each signed transaction independently to Robinhood Chain.
-6. Track the result of each transaction separately.
+1. 为每个钱包预先准备买入交易；
+2. 在浏览器本地完成交易签名；
+3. 在用户确认执行前保留已准备的交易；
+4. 在较短时间窗口内统一触发交易广播；
+5. 将每笔已签名交易分别提交到 Robinhood 链；
+6. 分别跟踪每笔交易的执行结果。
 
 {% hint style="warning" %}
-**Best-Effort Execution**
+**尽力执行机制**
 
-Concurrent Buy is a best-effort broadcast strategy. CiaoTool triggers multiple transaction broadcasts within a narrow time window, but it cannot guarantee identical arrival times, predefined ordering, same-block inclusion, or execution before MEV bots.
+**并发买入**采用尽力而为的广播策略。CiaoTool 会在极短的时间窗口内触发多笔交易广播，但无法保证这些交易以完全相同的时间到达、按照预设顺序执行、被打包进同一区块，或先于 MEV 机器人执行。
 
-Transactions broadcast through Concurrent Buy may enter the same block, adjacent blocks, or different blocks. The final arrival time, execution order, and confirmation result depend on multiple factors, including the user’s network speed and latency, device and browser performance, RPC response time and availability, current Robinhood Chain activity, block timing, sequencer load, and pool conditions.
+通过并发买入广播的交易可能进入同一区块、相邻区块或不同区块。交易最终的到达时间、执行顺序和确认结果取决于多种因素，包括用户的网络速度和延迟、设备及浏览器性能、RPC 的响应速度与可用性、Robinhood Chain 当前的链上活跃程度、区块时间、排序器负载以及流动性池状态。
 
-Network or RPC delays may cause some wallet transactions to reach the Robinhood Chain sequencer later than others, even when CiaoTool triggers their broadcasts at nearly the same time.
+即使 CiaoTool 几乎同时触发多笔交易广播，网络或 RPC 延迟仍可能导致部分钱包的交易晚于其他交易到达 Robinhood Chain 排序器。
 {% endhint %}
 
-### Differ in Bundle
+### 与捆绑技术的差异
 
-<table><thead><tr><th width="132">Feature</th><th>Concurrent Buy</th><th>Bundled Buy</th></tr></thead><tbody><tr><td>Submission method</td><td>Multiple independent transactions are broadcast within a narrow time window</td><td>Multiple transactions are packaged and submitted as one bundle</td></tr><tr><td>Transaction ordering</td><td>Not guaranteed; determined by when each transaction reaches the sequencer</td><td>Preserves the predefined internal transaction order</td></tr><tr><td>Same-block execution</td><td>Not guaranteed; transactions may enter the same, adjacent, or different blocks</td><td>Yes; all bundled transactions execute within the same block</td></tr><tr><td>Atomic execution</td><td>No; every wallet transaction is independent</td><td>Yes; the bundle is executed atomically</td></tr><tr><td>Failure handling</td><td>Each transaction may succeed or fail independently</td><td>All transactions must succeed; one failure causes the entire bundle to revert</td></tr><tr><td>MEV protection</td><td>Best effort; MEV bots may occasionally reach the sequencer first</td><td>Bundle execution reduces external insertion between internal transactions</td></tr><tr><td>Execution result</td><td>Depends on network latency, RPC status, sequencer arrival time, and pool conditions</td><td>Executes together according to the predefined bundle order</td></tr></tbody></table>
+<table data-search="false"><thead><tr><th>对比项目</th><th>并发买入</th><th>捆绑买入</th></tr></thead><tbody><tr><td>提交方式</td><td>在较短时间窗口内广播多笔独立交易</td><td>将多笔交易组合成一个捆绑包后统一提交</td></tr><tr><td>交易排序</td><td>不保证，由每笔交易到达 Sequencer 的时间决定</td><td>保留预先设定的内部交易顺序</td></tr><tr><td>同区块执行</td><td>不保证，交易可能进入同一区块、相邻区块或不同区块</td><td>是，所有捆绑包内交易在同一区块执行</td></tr><tr><td>原子执行</td><td>否，每个钱包的交易相互独立</td><td>是，整个捆绑以原子方式执行</td></tr><tr><td>失败处理</td><td>每笔交易可以独立成功或失败</td><td>所有交易必须全部成功，任意一笔失败都会导致整个捆绑回滚</td></tr><tr><td>交易哈希</td><td>每个钱包都有独立的交易哈希</td><td>每笔交易仍可在捆绑包执行中进行追踪</td></tr><tr><td>MEV 防护</td><td>尽力而为，MEV 机器人偶尔可能更早到达 Sequencer</td><td>捆绑包执行可以减少外部交易插入内部交易之间的机会</td></tr><tr><td>执行结果</td><td>取决于网络延迟、RPC 状态、Sequencer 到达时间和池子状态</td><td>按照预先设定的捆绑顺序统一执行</td></tr></tbody></table>
 
 ***
 
-## **Step by Step**
+## **分步式教程**
 
 {% stepper %}
 {% step %}
-### **Connect Wallet** <a href="#connect-wallet" id="connect-wallet"></a>
+### **绑定钱包**
 
-Click the button in the top right corner to connect a wallet that supports the EVM network.
+点击右上角按钮，绑定支持 Robinhood 链的钱包
 
-<figure><img src="../../../.gitbook/assets/image (1058).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (656).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Enter Payment Wallet Private Key
+### 输入支付钱包私钥
 
 {% hint style="danger" %}
-<mark style="color:red;">**Security Tips**</mark>
+<mark style="color:$danger;">**安全须知**</mark>
 
-Currently supports private key import only. Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
+当前功能仅支持 私钥导入以进行支付操作。请确保在安全环境下输入私钥信息，您的资金安全对我们来说至关重要，[**了解更多 CiaoTool 如何保障您的资金安全：资金安全保障**](../../../security-guide.md)**。**
 {% endhint %}
 
-Enter the paying wallet's private key. Enter the private key of the wallet that will be used to pay the service fees for market-making operations.
-
-<figure><img src="../../../.gitbook/assets/image (982).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (668).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Enter Token Pair Address
+### 输入币对地址
 
-For V2, select or enter the market-making token addresses in the token input box; for V3, please enter the pair contract address of the designated pool.
+V2  在代币输入框中选择 /输入做市代币地址，V3 请输入指定池子的币对合约地址。
 
-<figure><img src="../../../.gitbook/assets/image (1078).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (669).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (1079).png" alt=""><figcaption></figcaption></figure>
-
-**Can’t find the V3 Pool Address?**
-
-{% content-ref url="../../../start/find-v3-token-pair-address.md" %}
-[find-v3-token-pair-address.md](../../../start/find-v3-token-pair-address.md)
-{% endcontent-ref %}
+<figure><img src="../../../.gitbook/assets/image (670).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Import Trading Wallet Private Key
+### 导入并发买入私钥地址
 
 {% hint style="danger" %}
-<mark style="color:red;">**Security Tips**</mark>
+<mark style="color:$danger;">**安全须知**</mark>
 
-Currently supports private key import only. Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
+当前功能仅支持 私钥导入以进行多地址买入操作。请确保在安全环境下输入私钥信息，您的资金安全对我们来说至关重要，[**了解更多 CiaoTool 如何保障您的资金安全：资金安全保障**](../../../security-guide.md)**。**
 {% endhint %}
 
-Supports two import types for trading address private keys: "Manual Input" and "Upload File". Up to 20 addresses is supported.
+1. 点&#x51FB;**「导入私钥」**&#x6309;钮，弹出上传弹窗。
 
-1. Click the **"Import Private Key"** button to open the input pop-up.
+<figure><img src="../../../.gitbook/assets/image (671).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (1080).png" alt=""><figcaption></figcaption></figure>
+2. 支&#x6301;**「手动输入」**&#x548C;**「上传文件」**&#x4E24;种导入钱包私钥的类型，最多支持 **20 个地址**捆绑买入。
 
-2. Manually enter or import the private key file, and click confirm once the private key is displayed in the confirmation box.
+<figure><img src="../../../.gitbook/assets/image (672).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (1074).png" alt=""><figcaption></figcaption></figure>
-
-Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.\
-Click to download and view the template:
+使用 CiaoTool 模板文件导入，并保存确定导入并显示在输入框内。\
+点击下载并查看模板：
 
 {% file src="../../../.gitbook/assets/EVM_privateKey_demo.xlsx" %}
 {% endstep %}
 
 {% step %}
-### Enter Buy Amount
+### 输入买入金额
 
-Supports two trading amount types: **"Custom Input"**, and **"All"**.
+支持两种交易金额类型：“自定义输入”和“全部”。
 
-1. **Custom Input**\
-   Enter the transaction amount for each wallet individually.
-   * If an amount is filled in, the transfer will use that specific amount.
-   * If an amount is left blank, the transfer will default to the amount configured in the global settings.
-2. **All**\
-   Swaps the entire wallet balance into the target token.
+1. **自定义输入**\
+   为每个钱包单独输入交易金额。\
+   如果填写了金额，则转账将使用该金额。\
+   如果金额留空，则转账将默认使用全局设置中配置的金额。
+2. **全部**   \
+   将整个钱包余额兑换成目标代币。
 {% endstep %}
 
 {% step %}
-### **Confirm** <a href="#confirm" id="confirm"></a>
+### 确认交易
 
-After verifying all details, all applicable fees are displayed before execution.&#x20;
+提交任务前，请仔细核对所有参数。页面会在执行前显示所有适用费用。
 
-Click the **"Start Swap"** button below and wait for the transaction process to complete.
+确认信息无误后，点击下&#x65B9;**「代币买入」**&#x6309;钮，并等待交易完成。
 
-<figure><img src="../../../.gitbook/assets/image (1075).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (674).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
 ***
 
-## **FAQs**
+## 常见问题
 
 <details>
 
-<summary><strong>What is Multi-Address Concurrent Buy?</strong></summary>
+<summary><strong>什么是多地址并发买入？</strong></summary>
 
-Multi-Address Concurrent Buy prepares buy transactions for multiple wallets and broadcasts them within a narrow time window. It reduces the delays caused by submitting wallet transactions one by one.
+多地址并发买入会预先准备多个钱包的买入交易，并在较短时间窗口内统一广播，从而减少逐个钱包提交交易产生的延迟。
 
 </details>
 
 <details>
 
-<summary><strong>Is Concurrent Buy the same as Bundled Buy?</strong></summary>
+<summary><strong>并发买入和捆绑买入相同吗？</strong></summary>
 
-No. Concurrent Buy broadcasts multiple independent transactions at nearly the same time. Bundled Buy groups transactions through a supported bundle mechanism. Concurrent transactions are not atomic and are not guaranteed to enter the same block.
-
-</details>
-
-<details>
-
-<summary><strong>Why does Robinhood Chain use Concurrent Buy instead of Bundled Buy?</strong></summary>
-
-Under Robinhood Chain’s current transaction-submission model, CiaoTool cannot group independently signed transactions from multiple user-controlled wallets into one guaranteed ordered bundle. Each transaction must be submitted separately to the sequencer.
+不同。并发买入会在接近的时间广播多笔独立交易；捆绑买入则通过网络支持的捆绑机制组合交易。并发交易不是原子交易，也不保证进入同一区块。
 
 </details>
 
 <details>
 
-<summary><strong>Will all transactions enter the same block?</strong></summary>
+<summary><strong>为什么 Robinhood 链使用并发买入而不是捆绑买入？</strong></summary>
 
-Not necessarily. Concurrent broadcasting increases the possibility that transactions are processed close together, but they may enter the same block, adjacent blocks, or different blocks.
-
-</details>
-
-<details>
-
-<summary><strong>Can Concurrent Buy prevent MEV bots?</strong></summary>
-
-No. Concurrent Buy reduces the delay and exposure created by sequential submission, but it cannot guarantee protection against MEV bots. A lower-latency bot may occasionally reach the sequencer first.
+在 Robinhood Chain 当前的交易提交模式下，CiaoTool 无法将多个用户控制钱包的独立签名交易组合成一个具有顺序保证的捆绑包。每笔交易都必须分别提交给 Sequencer。
 
 </details>
 
 <details>
 
-<summary><strong>Why might different wallets receive different prices?</strong></summary>
+<summary><strong>所有交易都会进入同一区块吗？</strong></summary>
 
-Each wallet submits an independent transaction. Pool state may change after every successful buy, and unrelated transactions may execute between CiaoTool transactions. Slippage and liquidity also affect the final price.
-
-</details>
-
-<details>
-
-<summary><strong>What happens if one wallet transaction fails?</strong></summary>
-
-Each wallet transaction is independent. One failed transaction does not automatically reverse the other successful transactions. A failed onchain transaction may still consume Gas.
+不一定。并发广播可以提高交易被集中处理的可能性，但交易可能进入同一区块、相邻区块或不同区块。
 
 </details>
 
 <details>
 
-<summary><strong>How does CiaoTool protect imported private keys?</strong></summary>
+<summary><strong>并发买入可以防止 MEV 机器人吗？</strong></summary>
 
-Private keys are processed locally in the browser and are not uploaded, transmitted, stored, logged, or written to Local Storage. Imported private-key data is cleared when the page is closed or refreshed.
+不能完全防止。并发买入可以减少逐笔提交产生的延迟和暴露窗口，但不能保证防止 MEV 机器人。低延迟机器人偶尔可能更早到达 Sequencer。
 
 </details>
 
-## **Contact Us**
+<details>
 
-**Need help? Join our community for real-time support:**
+<summary><strong>为什么不同钱包的成交价格可能不同？</strong></summary>
+
+每个钱包都会提交一笔独立交易。每次买入成功后，池子状态都可能发生变化，其他交易也可能在 CiaoTool 的交易之间执行。滑点和池子流动性同样会影响最终成交价格。
+
+</details>
+
+<details>
+
+<summary><strong>如果其中一个钱包交易失败会怎样？</strong></summary>
+
+每个钱包的交易都是独立的。某笔交易失败不会自动撤销其他已经成功的交易。链上交易即使失败，也可能消耗 Gas。
+
+</details>
+
+<details>
+
+<summary><strong>CiaoTool 如何保护导入的私钥？</strong></summary>
+
+CiaoTool 采用完全客户端签名机制。私钥只在浏览器本地处理，不会被上传、传输、存储、记录或写入 Local Storage。关闭或刷新页面后，已导入的私钥数据将被清除。
+
+</details>
+
+***
+
+## 联系我们
+
+**如遇到问题？**&#x4F60;可以通过以下方即时联系 CiaoTool 团队：
 
 <table data-header-hidden><thead><tr><th width="188"></th><th valign="top"></th><th data-hidden></th></tr></thead><tbody><tr><td>Email</td><td valign="top"><a href="mailto:ciaotoolglobal@gmail.com">ciaotoolglobal@gmail.com</a></td><td></td></tr><tr><td>Telegram</td><td valign="top"><a href="https://t.me/ciaotools">https://t.me/ciaotools</a></td><td></td></tr><tr><td>WhatsApp</td><td valign="top"><a href="https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J">https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J</a></td><td></td></tr></tbody></table>
 
 {% hint style="danger" %}
-CiaoTool is committed to providing convenient tooling services but does not offer any form of investment advice. Platform content may change with product iterations. Users are advised to exercise judgment and stay informed about updates.
+CiaoTool 致力于提供便捷的工具服务，但不构成任何投资建议。平台内容可能根据产品迭代进行调整，敬请用户自行判断并留意更新。
 {% endhint %}

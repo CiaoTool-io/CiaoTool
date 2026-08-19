@@ -2,5 +2,5 @@
 icon: '3'
 ---
 
-# Base - Wallet Tools
+# Base - 钱包工具
 

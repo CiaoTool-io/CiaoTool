@@ -2,5 +2,5 @@
 icon: '3'
 ---
 
-# X Layer - Wallet Tools
+# X Layer - 钱包工具
 

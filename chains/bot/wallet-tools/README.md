@@ -2,5 +2,5 @@
 icon: '2'
 ---
 
-# BOT Chain - Wallet Tools
+# BOT链 - 钱包工具
 

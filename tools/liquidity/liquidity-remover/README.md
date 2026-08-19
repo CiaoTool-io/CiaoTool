@@ -2,5 +2,5 @@
 icon: '4'
 ---
 
-# Liquidity Remover
+# 移除流动性
 

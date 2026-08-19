@@ -1,2 +1,2 @@
-# Remove Uniswap Liquidity Pool on Robinhood Chain
+# 移除 Robinhood 流动性
 

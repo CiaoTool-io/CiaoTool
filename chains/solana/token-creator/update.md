@@ -1,93 +1,98 @@
 ---
-description: >-
-  CiaoTool supports one-click updates to token information on the Solana
-  blockchain, including metadata edits, mint authority changes, and freeze
-  authority management, helping you adjust your tokenomic.
+description: 支持一键更新 Solana 链上代币信息，包括代币元数据修改、铸币权限调整和冻结权限管理，帮助您及时调整代币经济模型。
 ---
 
-# Solana - Update Token Tutorial
+# Solana - 代币更新教程
 
 {% hint style="success" %}
-**Solana Update Token：**[https://ciaotool.io/zh-CN/token/update](https://ciaotool.io/zh-CN/token/update)
+**Solana 代币更新**：[https://ciaotool.io/zh-CN/token/update](https://ciaotool.io/zh-CN/token/update)
 {% endhint %}
 
-## What is Token Update?
+#### **🎯 什么是代币更新？**
 
-Solana Token Update refers to modifying the on-chain metadata of an already issued token, such as its name, logo, description, official website links, and more. This operation relies on the Metadata Update Authority; only the wallet holding this specific authority can perform updates. Once this authority is renounced, the token information will become permanently immutable.
+Solana 代币更新，是指对已发行 Token 的链上元数据（Metadata）进行修改，如名称、Logo、描述、官网链接等。该操作依赖 **Metadata Update Authority（元数据修改权限）**，只有持有该权限的钱包才能进行更新。一旦放弃该权限，代币信息将永久不可更改。
 
-Common Uses:
+**常见用途：**
 
-* Brand Upgrades: Updating the logo, name, or visual information.
-* Information Completion: Adding links to the official website, social media, whitepaper, etc.
-* Narrative Adjustment: Optimizing the project description based on market changes.
-* Campaign Support: Periodically changing the displayed content to coordinate with events (such as marketing campaigns).
-* Project Iteration: Synchronously updating token information as the project develops.
+* 品牌升级：更新 Logo、名称或视觉信息
+* 信息完善：补充官网、社媒、白皮书等链接
+* 叙事调整：根据市场变化优化项目描述
+* 活动配合：阶段性更换展示内容（如营销活动）
+* 项目迭代：随着发展同步更新代币信息
 
-## How to update token metadate?
+#### 🧩 **Solana 如何更新代币？**
 
-1. **Connect Wallet**
+**1. 绑定钱包**
 
-* Click \[Connect Wallet] in the top right corner, select your wallet address, and approve the authorization.
-* Once the wallet address is displayed in the top right corner of the page, it indicates that the wallet has been successfully connected.
+* 点击右上角【连接钱包】，选择钱包地址并确认授权。
+* 页面右上角显示钱包地址即表示绑定成功。
 
-<figure><img src="../../../.gitbook/assets/image (765).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (300).png" alt=""><figcaption></figcaption></figure>
 
-2. **Select Token**
+**2. 选择代币**
 
-* Paste the token address or select a token within your wallet from the drop-down menu; you can proceed with the update as long as the authority status is "Not Renounced".
-* Fill in the basic token information for the update; the steps are identical to those of token creation.
-* Mint Address: The wallet address that controls the mint authority.
-* Freeze Address: The address that controls the freeze authority.
+* 粘贴代币地址或下拉选择钱包内的代币，权限为“未放弃” 即可进行更新。
+* 更新填写代币基础信息，步骤与创建代币一致。
+* **Mint Address：**&#x5373;权限控制钱包地址
+* **Freeze Address：**&#x5373;冻结地址
 
-<figure><img src="../../../.gitbook/assets/image (771).png" alt=""><figcaption></figcaption></figure>
+![](https://docs.dogtools.meme/~gitbook/image?url=https%3A%2F%2F4028514454-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Ft1j9LpucEChNmzQ1XqQO%252Fuploads%252FCQw3lFK0Ovx1LMhO33l7%252Fimage.png%3Falt%3Dmedia%26token%3D9acc0e11-971e-4b52-8486-82e05b045dae\&width=768\&dpr=4\&quality=100\&sign=b4324eb4\&sv=2)
 
-## Transaction Process
+#### 🔄 **交易流程**
 
-* When the task begins execution, a log pop-up will appear to update you on the transaction progress in real time.
-* If an issue occurs at any stage, we will clearly display it to you. No fees will be charged for failed operations.
+* 任务开始执行时，会出现日志弹框为您实时更新交易进度。（需要一次交易签名）
+* 任何环节出了问题，我们都会为你清晰透出。操作失败不会收取任何费用。
 
-<figure><img src="../../../.gitbook/assets/image (770).png" alt=""><figcaption></figcaption></figure>
+![](https://docs.dogtools.meme/~gitbook/image?url=https%3A%2F%2F4028514454-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Ft1j9LpucEChNmzQ1XqQO%252Fuploads%252FXeeLJe4zNeykTEOviIGz%252Fimage.png%3Falt%3Dmedia%26token%3D70040d64-762e-40d0-a678-df4356c88659\&width=768\&dpr=4\&quality=100\&sign=b391782a\&sv=2)
 
-## Common Failure Cases
+**⚠️ 常见失败案例**
 
-* The Metadata Authority has been renounced; unable to update information.
-* The uploaded logo or link does not meet the formatting requirements.
-* The authority is not held by the currently connected wallet, resulting in an update failure.
-* The information update was not synchronized or displayed in time by the wallet or platform.
-* Frequent modifications have triggered index latency or caching issues.
+* 已放弃 Metadata 权限，无法更新信息
+* 上传的 Logo 或链接不符合格式要求
+* 权限不在当前钱包，导致更新失败
+* 信息更新未被钱包/平台及时同步显示
+* 频繁修改触发索引延迟或缓存问题
 
-## Frequently Asked Questions <a href="#frequently-asked-questions" id="frequently-asked-questions"></a>
+#### ❓ 常见问题 <a href="#chang-jian-wen-ti" id="chang-jian-wen-ti"></a>
 
-**1. What token information can be updated using CiaoTool?**
+**1. 可以通过 CiaoTool 更新哪些代币信息？**
 
-* **Answer:** You can update **token metadata**, as well as adjust **mint** and **freeze authorities**.
+* [x] 答：支持元数据修改、铸币权限和冻结权限的调整。
 
-**2. How much does it cost to update token info?**
+**2. 更新代币信息需要消耗多少手续费？**
 
-* **Answer:** A fee is charged as marked by CiaoTool, currently **0.0375 SOL**.
+* [x] 答：手续费按 CiaoTool 标注收取，目前为**0.0375 sol.**
 
-**3. Do permission updates take effect immediately?**
+**3. 更新权限后是否立即生效？**
 
-* **Answer:** Yes, changes are **instantly synchronized on-chain**.
+* [x] 答：是的，链上数据会即时同步更新。
 
-**4. Can permissions be restored after revocation?**
+**4. 如果权限放弃后还能重新开启吗？**
 
-* **Answer:** **No**, revoking permissions is an **irreversible action**, so proceed with caution.
+* [x] 答：不可以，放弃权限为不可逆操作，请谨慎操作。
 
-**5. Is it safe to update token information?**
+**5. 更新代币信息是否安全？**
 
-* **Answer:** Yes — as long as you're using a **secure wallet for signing**, the process is safe.
+* [x] 答：只要使用安全的钱包签名，操作过程是安全的。
 
-💬 **Need help? Join our community for real-time support:** [https://t.me/ciaotool](https://t.me/ciaotool)
+**6. 哪些信息可以修改？**
 
-* **Email:** [support@ciaotool.io](mailto:support@ciaotool.io)
-* **Website:** [https://ciaotool.io](https://ciaotool.io/)
-* **X (Twitter):** [https://x.com/CiaoTool](https://x.com/CiaoTool)
-* **Blog**: [https://www.ciaoailiquidity.com/blog](https://www.ciaoailiquidity.com/blog)
-* **Medium:** [https://medium.com/@ciaotool](https://medium.com/@ciaotool)
-* **YouTube:** [https://www.youtube.com/@CiaoTool](https://www.youtube.com/@CiaoTool)
-* **WhatsApp：**[https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J](https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J)
+* [x] 答：通常包括名称、符号、Logo、描述及相关链接等元数据。
+
+**🔰 更多快捷工具 & 指南**
+
+《 [Solana 创建代币](https://ciaotool.io/zh-CN/token/create) 》《 [Solana 燃烧代币](https://ciaotool.io/zh-CN/token/burn) 》
+
+**💬 如遇到问题？加入社群实时咨询**：[https://t.me/ciaotool](https://t.me/ciaotool)
+
+* Email：[support@ciaotool.io](mailto:support@ciaotool.io)
+* 官网：[https://ciaotool.io](https://ciaotool.io/)
+* X（Twitter）：[https://x.com/CiaoTool](https://x.com/CiaoTool)
+* Medium： [https://medium.com/@ciaotool](https://medium.com/@ciaotool)
+* Blog：[https://www.ciaoailiquidity.com/zh/blog](https://www.ciaoailiquidity.com/zh/blog)
+* YouTube：[https://www.youtube.com/@CiaoTool](https://www.youtube.com/@CiaoTool)
+* WhatsApp：[https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J](https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J)
 
 {% hint style="danger" %}
-**Note:** CiaoTool is committed to providing convenient tooling services but does not offer any form of investment advice. Platform content may change with product iterations. Users are advised to exercise judgment and stay informed about updates.
+CiaoTool 致力于提供便捷的工具服务，但不构成任何投资建议。平台内容可能根据产品迭代进行调整，敬请用户自行判断并留意更新。
 {% endhint %}

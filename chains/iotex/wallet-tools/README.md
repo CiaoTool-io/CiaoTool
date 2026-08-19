@@ -2,5 +2,5 @@
 icon: '3'
 ---
 
-# IoTeX - Wallet Tools
+# IoTeX - 钱包工具
 

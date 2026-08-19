@@ -1,77 +1,66 @@
 ---
-description: >-
-  Your fund security is our top priority. CiaoTool protects your private keys
-  with transparent, easy-to-verify mechanisms, ensuring a safe Web3 experience
-  for everyone.
+description: 在 CiaoTool，我们将用户资金安全放在首位，所有设计都以 保护私钥与资产安全 为核心。无论是新手还是资深用户，都可以清晰了解、快速核查，安心使用。
 ---
 
-# CiaoTool Fund Security Assurance Guide
+# CiaoTool 资金安全保障指南
 
-## How Does CiaoTool Ensure Your Fund Security?
+## CiaoTool 如何保障你资金安全？
 
-Security is paramount at CiaoTool. Our platform operates on **a client-side signing architecture**, meaning **your private keys are processed locally** in your browser. **We never upload or store your private keys on any server, making it technically impossible for us to access your funds.** Your private keys remain exclusively in your control, with all signatures and transactions processed within your local browser, ensuring maximum security and operational transparency.
+在 CiaoTool，用户资产安全是首要原则。CiaoTool 采用**前端本地签名**机制，**所有私钥操作均在本地执行，**&#x7528;户所提供的私钥**永远不会上传或存储至服务器，平台无法访问或干预您的资金**。您的私钥始终由您掌握，所有签名和交易均由本地浏览器完成，确保资金安全与操作透明。
 
-As a **frontend Web3 SaaS Tool**, we adhere to the "Four No" principle and a stateless operation strategy to comprehensively safeguard your assets.
+作为一款 **纯前端 Web3 SaaS 工具**，我们坚持“四不原则”和无痕运行的安全策略，全面保障您的资产安全。
 
 ***
 
-## Core Security Commitments
+## 核心安全承诺
 
-#### 1. Zero Access Policy
+#### 1. 绝对零触碰
 
-* **No Uploads, No Storage, No Interception**
-* Private keys and seed phrases are used only for local signing within your browser memory
-* Sensitive data is never uploaded to our servers or stored in any cloud service
-* The platform cannot freeze, transfer, or intercept your funds
+* **不上传、不储存、不拦截**
+* 私钥或助记词仅在本地浏览器内存中参与签名运算
+* 绝不会上传至服务器，无任何形式的云端存储
+* 平台无法冻结、转移或拦截您的资金
 
-#### 2. No Storage Mechanism
+#### 2. 无记忆模块
 
-* Sensitive operations support both manual input and local file import
-* All private key data is completely cleared from memory when the page is closed or refreshed
-* **No storage service is provided**, ensuring private keys are never retained long-term
+* 敏感操作提供 **手动输入** 与 **本地文件导入** 两种方式
+* 关闭或刷新页面后，所有私钥数据从内存中彻底清除
+* **不提供任何储存服务**，确保私钥不会被长期保留
 
-#### 3. Transparent Verification
+#### 3. 可视化核查
 
 {% columns %}
-{% column width="50%" %}
-* Any web tool that accesses private keys must send them to a backend server through an HTTPS request
-* Users are encouraged to verify network activity using browser developer tools (**F12 → Network → Fetch/XHR**)
-* After entering a private key and performing an operation, network requests contain only public data such as token prices and routing information
-* No private keys, seed phrases, or signing credentials are transmitted to our servers
+{% column %}
+* 任何前端工具，想要获取私钥，一定会有一个 https 请求，将您的私钥传给后端。
+* 鼓励用户通过浏览器开发者工具 **F12 → Network → Fetch/XHR** 核查
+* 输入私钥并操作后，网络请求仅包含公开数据（如代币价格、基础路由）
+* 无任何敏感签名凭证被发送至服务器
 {% endcolumn %}
 
-{% column width="50%" %}
-<figure><img src=".gitbook/assets/image (670).png" alt=""><figcaption></figcaption></figure>
+{% column %}
+<figure><img src=".gitbook/assets/image (237).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 
 ***
 
-## Industry Comparison
+## 行业对比
 
-<table><thead><tr><th width="139">Security Aspect</th><th width="266">CiaoTool</th><th>Traditional Dev Tools / Telegram Bots</th></tr></thead><tbody><tr><td>Private Keys</td><td>Local only</td><td>Server access required</td></tr><tr><td>Fund Ownership</td><td>100% user-owned</td><td>Platform involvement</td></tr><tr><td>Transparency</td><td>Fully auditable</td><td>Not auditable</td></tr><tr><td>Security Model</td><td>Non-custodial</td><td>Semi-custodial / Custodial</td></tr><tr><td>Verifiability</td><td>✅</td><td>❌</td></tr></tbody></table>
+<table><thead><tr><th width="139">安全维度</th><th width="266">CiaoTool</th><th>传统Dev工具 / Telegram 机器人</th></tr></thead><tbody><tr><td>私钥处理</td><td>本地内存，刷新即焚</td><td>私钥需发送给平台或保存在服务器上</td></tr><tr><td>资金控制权</td><td>100% 用户所有</td><td>平台可冻结或转移资金</td></tr><tr><td>数据透明度</td><td>完全透明，可 F12 核查</td><td>黑盒运行，不可核查</td></tr><tr><td>技术风险</td><td>无资金池，无集中风险</td><td>资金高度集中，易成为攻击目标</td></tr><tr><td>可核查性</td><td>✅</td><td>❌</td></tr></tbody></table>
 
 ***
 
-## User Security Guidelines
+## 用户操作安全指南
 
-**Start with a Small Test**
-
-* Test with a small amount before committing larger funds
-* Verify that the entire process works as expected
-
-**Isolate Operational Funds**
-
-* Avoid using your primary asset wallet
-* Use a dedicated wallet for transactions and transfer only the funds required
-
-**Protect Your Devices**
-
-* Ensure your device is free from malware and malicious extensions
-* Avoid entering private keys on public devices or unsecured networks
-* Disconnect your wallet and clear your clipboard after use
-
-**Rotate Wallets Regularly**
-
-* Avoid relying on the same wallet for extended periods
-* Regular wallet rotation helps reduce potential exposure risks
+* **小额测试，先行验证**
+  * 首次使用时，先用少量资金操作，确认流程无误再投入大额资金
+* **资金隔离原则**
+  * 不使用主力资产钱包操作
+  * 建议创建专用“工作钱包”，只转入操作所需资金
+* **防范设备风险**
+  * 确保电脑未感染恶意软件或插件
+  * 避免在公共设备或不安全网络输入私钥
+  * 操作完成后，及时断开与网站的连接，并清理剪贴板
+* **定期更换钱包**
+  * 避免长期使用同一钱包
+  * 降低潜在信息泄露风险

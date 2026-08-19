@@ -1,16 +1,19 @@
 ---
-description: >-
-  CiaoTool is a complete Robinhood chain token toolkit for token creation,
-  multisender, asset migration, and batch swap. Covers the entire token
-  lifecycle.
+description: CiaoTool 最全 Robinhood 代币工具站，一键发币 | 批量转账 | 市值管理 | 批量交易，一站式解决代币生命全流程 。
 ---
 
-# Robinhood | All-in-One Token Solution Platform
+# Robinhood - 一站式代币解决方案平台
 
-## Quick Start
+## 快速开始 <a href="#tools-guide" id="tools-guide"></a>
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="image">Cover image</th><th data-hidden data-card-cover-dark data-type="image">Cover image (dark)</th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><h4>Deploy Token</h4></td><td>Create a ERC20 Token On Robinhood Chain</td><td></td><td><a href="../../.gitbook/assets/Frame 1321314813 (1).png">Frame 1321314813 (1).png</a></td><td><a href="../../.gitbook/assets/Frame 1321314816.png">Frame 1321314816.png</a></td><td><a href="../../tools/token-creator/contract-token-creator/standard-token-evm.md">standard-token-evm.md</a></td></tr><tr><td><h4>Create Liquidity Pool</h4></td><td>Create a liquidity pool and start trading</td><td></td><td><a href="../../.gitbook/assets/423954206.png">423954206.png</a></td><td><a href="../../.gitbook/assets/Frame 1321314817.png">Frame 1321314817.png</a></td><td><a href="swap/create-liquidity-pool/v2.md">v2.md</a></td></tr><tr><td><h4>Volume Bot</h4></td><td>Boost your token activity and market visibility</td><td></td><td><a href="../../.gitbook/assets/423954206-1.png">423954206-1.png</a></td><td><a href="../../.gitbook/assets/Frame 1321314818.png">Frame 1321314818.png</a></td><td><a href="swap/market-making.md">market-making.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="image">Cover image</th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><h4>部署代币</h4></td><td>在 Robinhood 链上创建 ERC20 代币</td><td><a href="../../.gitbook/assets/Frame 1321314813.png">Frame 1321314813.png</a></td><td><a href="../../tools/token-creator/contract-token-creator/standard-token-evm.md">standard-token-evm.md</a></td></tr><tr><td><h4>创建流动性池</h4></td><td>创建流动性并使代币立刻开启交易</td><td><a href="../../.gitbook/assets/423954206.png">423954206.png</a></td><td><a href="swap/create-liquidity-pool/v2.md">v2.md</a></td></tr><tr><td><h4>交易量机器人</h4></td><td>提升您的代币活跃度及市场可见度</td><td><a href="../../.gitbook/assets/423954206-1.png">423954206-1.png</a></td><td><a href="swap/market-making.md">market-making.md</a></td></tr></tbody></table>
 
-## Network Params
+## 网络参数
 
-<table data-header-hidden data-search="false"><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><strong>Network</strong></td><td>Robinhood Chain</td></tr><tr><td><strong>Chain ID</strong></td><td>4663</td></tr><tr><td><strong>Gas token</strong></td><td>ETH</td></tr><tr><td><strong>Block Explorer</strong></td><td><a href="https://robinhoodchain.blockscout.com/">https://robinhoodchain.blockscout.com/</a></td></tr><tr><td><strong>Docs</strong></td><td><a href="https://docs.robinhood.com/chain">https://docs.robinhood.com/chain</a></td></tr><tr><td><strong>RPC URL</strong></td><td><a href="https://rpc.mainnet.chain.robinhood.com">https://rpc.mainnet.chain.robinhood.com</a></td></tr></tbody></table>
+| **网络**      | Robinhood Chain                                                                      |
+| ----------- | ------------------------------------------------------------------------------------ |
+| **链 ID**    | 4633                                                                                 |
+| **Gas 代币**  | ETH                                                                                  |
+| **区块浏览器**   | [https://robinhoodchain.blockscout.com/](https://robinhoodchain.blockscout.com/)     |
+| **官方文档**    | [https://docs.robinhood.com/chain](https://docs.robinhood.com/chain)                 |
+| **RPC URL** | [https://rpc.mainnet.chain.robinhood.com/](https://rpc.mainnet.chain.robinhood.com/) |

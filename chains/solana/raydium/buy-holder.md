@@ -1,162 +1,163 @@
 ---
 description: >-
-  An automated new-wallet buying tool for Raydium. Creates wallets and executes
-  real purchases automatically. Helps increase holder count and improve token
-  distribution.
+  专为 Raydium
+  平台提供的自动化新地址买入工具。支持全自动生成新地址并执行买入，真实交易助力优化链上数据。稳步提升链上持币人数，全面优化代币分布的数据呈现。
 ---
 
-# Solana - Boost Holders Tutorial
+# Solana - 提升持币人数教程
 
 {% hint style="info" %}
-**CiaoTool Raydium Boost Holders** now fully supports all liquidity pool types, including **AMM, CLMM, and CPMM**. Please switch to the specific pool function page first to perform market making operations.
+**CiaoTool Raydium 提升持币人数功能**现已全面支持 **AMM、CLMM、CPMM** 全部的流动性池类型，请先切换到指定池子功能页面进行机器人操作，满足不同场景下的快捷做市服务。
 {% endhint %}
 
-## What is CiaoTool Solana Boost Holders?
+## CiaoTool Solana 提升持币人数功能是什么？
 
-<figure><img src="../../../.gitbook/assets/image (835).png" alt="CiaoTool Solana Toolkit Page about Raydium Boost Holders Feature"><figcaption></figcaption></figure>
+**CiaoTool Solana 提升持币人数功能**是一款专为 Solana 生态 **Raydium 平台**打造的链上数据与资产分布优化工具。它允许用户通过设定参数，全自动批量生成全新钱包地址，并控制这些地址在盘口独立执行代币买入操作。
 
-**CiaoTool Solana Boost Holders** is an on-chain data and asset distribution optimization tool custom-built for the **Raydium platform** within the Solana ecosystem. It allows users to automatically generate brand-new wallet addresses in batches through configured parameters and control these addresses to independently execute token buy operations on the order book.
+与「提升交易人数」在交易后回集资金并销毁账户的机制截然不同，该功能在完成盘口买入后，会将购买的代币永久保留在这些新生成的独立地址中。这不仅能在盘口产生真实的自然买入记录，更直接增加了代币的链上独立持币地址数，从而有效打散筹码，使代币的整体分布结构更加均匀、健康。
 
-Distinctly different from the mechanism of "Boost Makers," which consolidates funds and destroys accounts after trading, this feature permanently retains the purchased tokens within these newly generated independent addresses upon completion of the order book purchase. This not only generates authentic, natural buy records on the order book, but also directly increases the number of unique on-chain holding addresses for the token, thereby effectively dispersing chips and rendering the overall token distribution structure more even and healthy.
+立即在 Solana 上，用 CiaoTool 进提升持币人数操作：
 
-Start your Boost Holders on Raydium with CiaoTool now:
-
-{% embed url="https://ciaotool.io/en-US/meteora/newaddr-buyers-holders" %}
+{% embed url="https://ciaotool.io/zh-CN/raydium/newaddr-buyers-holders" %}
 
 ***
 
-## Why Choose CiaoTool Solana Boost Holders?
+## 为什么选择 CiaoTool Solana 提升持币人数功能？
 
-CiaoTool provides a professional solution for optimizing holder data on the Raydium platform, balancing authenticity with high execution efficiency. For users who need to perfect early chip distribution or steadily enhance the project's data health, this tool builds a robust automated defense:
+CiaoTool 为 Raydium 平台上的持币数据优化提供了一种兼顾真实性与高效执行的专业解决方案。对于需要完善早期筹码分布或稳步提升项目数据健康度的用户，该工具构建了稳健的自动化防线：
 
-* **Authentically Boost Holders:** Through a large number of new addresses executing genuine capital purchases on the order book and holding tokens independently, it steadily and authentically increases the total number of on-chain holding addresses.
-* **Optimize Chip Distribution Structure:** By rationally dispersing purchased tokens across numerous completely independent wallets, it effectively avoids over-concentration of chips in a single address and beautifies the token distribution bubble map.
-* **Fully Automated Closed-Loop Executio**n: With one click, it automatically completes the entire process of "generating addresses in batches, master wallet distributing SOL, and executing purchases independently," completely eliminating the tedious manual operations of individual creation and transfers.
-* **Local Security and Data Export:** Utilizing a pure front-end local execution mechanism, all newly generated private keys run exclusively locally. The system supports a one-click export of the private key spreadsheet for all new addresses, facilitating convenient and secure management of dispersed assets for users in the future.
-
-***
-
-## What is the difference between "Boost Holders" and "Boost Makers"?
-
-| Feature       | Metric Boosted                        | Optimization Focus                        |
-| ------------- | ------------------------------------- | ----------------------------------------- |
-| Boost Holders | Number of addresses holding the token | Consensus distribution, long-term holders |
-| Boost Makers  | Number of addresses that have traded  | Activity, sense of market participation   |
+* **真实提升持币人数：**&#x901A;过大量新地址在盘口进行真实的资金买入并独立持有代币，稳步且真实地增加链上持币地址总数。
+* **优化筹码分布结构：**&#x5C06;买入的代币合理分散在众多完全独立的钱包中，有效避免单一地址筹码过度集中，美化代币分布气泡图。
+* **全自动执行闭环：**&#x4E00;键自动完成“批量生成地址、主钱包分发 SOL、独立执行买入”的全流程，彻底免去人工逐一创建与转账的繁琐操作。
+* **本地安全与数据导出：**&#x91C7;用纯前端本地执行机制，所有新生成的私钥仅在本地运行。系统支持一键导出所有新地址的私钥表格，方便用户后续对分散资产进行安全管理。
 
 ***
 
-## **Step by Step |** Solana Boost Holders
+## 「**提升持币人数**」**与**「**提升交易人数**」**有什么区别？**
+
+| 功能         | 提升类型     | 提升重点       |
+| ---------- | -------- | ---------- |
+| **提升持币人数** | 持币地址数量   | 共识分布、长期持有人 |
+| **提升交易人数** | 交易过的地址数量 | 活跃度、成交参与感  |
+
+***
+
+## **图文指南 |** Solana **提升持币人数**
 
 {% stepper %}
 {% step %}
-### Connect Wallet
+### **绑定钱包**
 
-Click the button in the top right corner to connect a wallet that supports the Solana network.
+点击右上角按钮，绑定支持 Solana 链的钱包
 
-<figure><img src="../../../.gitbook/assets/image (836).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (308).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Select a Token to trade
+### 选择交易代币
 
-You can choose to enter the token address, or select a token currently owned by your wallet to perform the buy operation.
+可以选择输入代币地址，也可以选择当前钱包拥有的代币进行买入操作。
 
-<figure><img src="../../../.gitbook/assets/image (828).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (368).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Select Number of Buy Addresses
+### 选择买入地址数量
 
-Choose or enter the number of buy addresses to increase the number of makers.
+选择或输入买入地址数量，以增加交易人数。
 
-<figure><img src="../../../.gitbook/assets/image (829).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (369).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Enter Buy Amount
+### 输入买入金额
 
-Set the amount each new wallet will spend on purchases. You can also define a range for randomized buy amounts within the specified limits.
+每个新建钱包买入所花费的金额，可设置特定交易范围，在范围内随机买入代币。
 {% endstep %}
 
 {% step %}
-### Generate Wallets and Download Private Key File
+### 生成钱包并下载私钥文件
 
-Unlike "Boost Makers," all wallets will retain tokens to maintain a token-holding status. To prevent any potential financial loss, please ensure that you download the private key file and safeguard it properly. This will allow you to continue using these wallets for subsequent operations such as market making, transfers, asset recovery, and account closure.
+由于「**提升持币人数**」与「**提升交易人数**」不同，所有钱包内均会保留代币以实现持有代币状态。为避免给您带来资金损失，请务必将私钥文件下载并妥善保管，以便您后续继续使用该钱包进行做市、转账、回收资金、关闭账户等操作。
 {% endstep %}
 
 {% step %}
-### Enter Main Wallet PrivateKey
+### 导入主钱包私钥
 
 {% hint style="danger" %}
-<mark style="color:$danger;">**Security Tips**</mark>
+<mark style="color:$danger;">**安全须知**</mark>
 
-Currently supports private key import only. Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
+当&#x524D;**「提升持币人数功能」**&#x529F;能支持仅支持私钥导入以进行交易操作。请确保在安全环境下输入私钥信息，您的资金安全对我们来说至关重要，[**了解更多 CiaoTool 如何保障您的资金安全：资金安全保障**](../../../security-guide.md)**。**
 {% endhint %}
 
 {% hint style="info" %}
-<mark style="color:$primary;">**Main Wallet Settings**</mark>
+<mark style="color:$primary;">**主钱包设置**</mark>
 
-On-chain fees generated by purchases, SOL account rent (automatically refunded), and platform service fees are all paid uniformly by the master wallet. An estimated required balance will be displayed at the bottom of the page. Please ensure that the master wallet balance is higher than the estimated amount, otherwise, it may result in transaction failure.
+买入所产生的链上费用、SOL账户租金及平台服务费均由**主钱包**统一支付。页面底部会显示所需余额预估，请务必确保主钱包余额**高于预估金额**，否则可能导致交易失败。
 
-Each new address requires a payment of **0.00203928 SOL** for **SOL account rent**, which is automatically refunded to the master wallet once the transaction process is complete.
+每个新地址 **SOL 账户租金** 需支付 **0.00203928 SOL**，将独立存储于每个交易地址中，根据您的策略按需关闭账户并退回租金。
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (830).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (370).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Confirm
+### 确认交易
 
 {% hint style="danger" %}
-Closing / refreshing the page will **immediately stop** the bot strategy. Please ensure that the page remains open and running continuously in the background while the strategy is being executed. To ensure necessary strategy execution, **this feature is not recommended for use on mobile devices.**
+关闭 / 刷新页面，机器人策略亦会**立即停止**。请保持策略执行期间，将网页持续处于后台并运行状态。为保证策略执行之必要，**该功能不推荐于**「**移动电子设备**」**使用。**
 {% endhint %}
 
-After verifying all details, click the **"Start"** button below and wait for the transaction process to complete.
+确认信息无误后，点击下&#x65B9;**「开始」**&#x6309;钮，并等交易程序完成。
 {% endstep %}
 {% endstepper %}
 
 ***
 
-## **FAQs**
+## **常见问题 FAQ**
 
 <details>
 
-<summary><strong>What is the Solana Boost Holders feature?</strong></summary>
+<summary><strong>什么是 Solana 提升持币人数？</strong></summary>
 
-This is an on-chain data optimization tool. The system automatically creates a large number of brand-new wallet addresses, allocates the required funds to them, and executes token buy operations on the order book. The purchased tokens will be retained directly within these new addresses, primarily used to authentically increase the number of token holders and optimize chip distribution.
+这是一款链上数据优化工具。系统会自动创建大量全新的钱包地址，向其分配所需资金并在盘口执行代币买入操作。买入的代币将直接保留在这些新地址中，主要用于真实提升代币的持币人数与优化筹码分布。
 
 </details>
 
 <details>
 
-<summary><strong>What is the difference between this and transferring directly to multiple addresses in multisender (One-to-Multi Transfers)?</strong></summary>
+<summary><strong>这与直接向多个地址批量转账（一对多转账）有什么区别？</strong></summary>
 
-Multisender (One-to-Multi Transfers) only generate simple token transfer records on-chain, which do not affect market prices or increase trading activity. Conversely, a "new address buy" executes authentic DEX transactions through each new wallet on the Raydium order book. This not only increases the number of holders, but also simultaneously boosts the total trading volume and the number of traders on the order book, providing a more comprehensive and natural approach to on-chain data optimization.
-
-</details>
-
-<details>
-
-<summary><strong>Where do the private keys of the massive number of generated new addresses go? How do I manage these tokens in the future?</strong></summary>
-
-Upon completion of the execution process, the system will generate a local spreadsheet file for you containing all the new addresses and their corresponding private keys. You can download this file with one click and safeguard it properly, allowing you to import it into CiaoTool's "MultiSender" or "Batch Consolidation" features at any time in the future for centralized management of these dispersed assets.
+批量转账（一对多转账）仅在链上产生简单的代币转移记录，不会影响市场价格，也不会增加交易热度。而“新地址买入”是通过每个新钱包在 Raydium 盘口执行真实的 DEX 交易。这不仅增加了持币人数，还能同时提升盘口总交易额和交易者数量，是一种更全面、更自然的链上数据优化方式。
 
 </details>
 
 <details>
 
-<summary><strong>Is the operation secure?</strong></summary>
+<summary><strong>生成的大量新地址私钥去哪了？我以后如何管理这些代币？</strong></summary>
 
-CiaoTool uses a fully client-side signing mechanism. Your private key is never uploaded or stored on any server, and all transactions are signed locally in your browser. This ensures, at a technical level, that the platform has no access to your private key.
+在执行流程完毕后，系统会在本地为您生成一份包含所有新地址及其对应私钥的表格文件。您可以一键下载并妥善保管该文件，以便未来随时导入 CiaoTool 的“批量交易”或“批量归集”等功能中，对这些分散的资产进行统一管理。
 
 </details>
 
-***
+<details>
 
-**Need help? Join our community for real-time support:**
+<summary><strong>操作是否安全？</strong></summary>
 
-<table data-header-hidden><thead><tr><th width="188"></th><th valign="top"></th><th data-hidden></th></tr></thead><tbody><tr><td>Email</td><td valign="top"><a href="mailto:ciaotoolglobal@gmail.com">ciaotoolglobal@gmail.com</a></td><td></td></tr><tr><td>Telegram</td><td valign="top"><a href="https://t.me/ciaotools">https://t.me/ciaotools</a></td><td></td></tr><tr><td>WhatsApp</td><td valign="top"><a href="https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J">https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J</a></td><td></td></tr></tbody></table>
+平台采用纯前端签名机制，您的私钥绝不会被上传或储存在任何服务器上，所有交易均在本地浏览器完成签名，从技术层面确保平台无法访问您的私钥。
+
+</details>
+
+**💬 如遇到问题？加入社群实时咨询**：[https://t.me/ciaotool](https://t.me/ciaotool)
+
+* **Email**：[support@ciaotool.io](mailto:support@ciaotool.io)
+* **官网**：[https://ciaotool.io](https://ciaotool.io/)
+* **X（Twitter）**：[https://x.com/CiaoTool](https://x.com/CiaoTool)
+* **Medium**： [https://medium.com/@ciaotool](https://medium.com/@ciaotool)
+* **Blog**：[https://www.ciaoailiquidity.com/zh/blog](https://www.ciaoailiquidity.com/zh/blog)
+* **YouTube**：[https://www.youtube.com/@CiaoTool](https://www.youtube.com/@CiaoTool)
+* **WhatsApp**：[https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J](https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J)
 
 {% hint style="danger" %}
-CiaoTool is committed to providing convenient tooling services but does not offer any form of investment advice. Platform content may change with product iterations. Users are advised to exercise judgment and stay informed about updates.
+CiaoTool 致力于提供便捷的工具服务，但不构成任何投资建议。平台内容可能根据产品迭代进行调整，敬请用户自行判断并留意更新。
 {% endhint %}

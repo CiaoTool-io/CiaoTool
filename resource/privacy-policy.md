@@ -1,77 +1,63 @@
 ---
-description: 'Last Updated: May 2026'
+description: 最后更新日期：2026年5月
 ---
 
-# CiaoTool Privacy Policy
+# CiaoTool 隐私权政策
 
-Welcome to **CiaoTool** (hereinafter referred to as "this Platform," "we," or "us"). We profoundly understand the paramount importance of privacy and asset security to you, and we are steadfastly committed to adopting the highest industry standards of security measures to safeguard your information.
+欢迎使用 **CiaoTool**。我们深知隐私与资产安全对您的重要性，并致力于采取最高标准的安全措施来保护您的信息。本隐私权政策旨在透明地说明当您使用 CiaoTool 的各项 Web3 工具服务（包括但不限批量转账、代币创建、流动性管理、市值管理等功能）时，我们如何处理相关的运行数据。
 
-This Privacy Policy (hereinafter referred to as "this Policy") is designed to transparently explain how we process relevant operational data when you utilize various Web3 tooling services provided by CiaoTool, including but not limited to multisender, token creation, liquidity management, and market-making management functionalities.
+**核心承诺：** CiaoTool 始终坚&#x6301;**「纯前端本地执行」**&#x7684;架构原则。您的私钥及核心资产授权数据仅在您的本地设备环境中运行，我们**绝不会拦截、上传、存储或传输这些敏感信**息至任何外部服务器。
 
-#### CORE COMMITMENT
+## 1. 引言
 
-CiaoTool strictly adheres to the architectural principle of **"purely frontend, local execution"**. Your private keys, mnemonic phrases, and core asset authorization data are processed and executed exclusively within your local device environment. We will **never intercept, upload, store, backup, or transmit any such sensitive information** to any external servers or third parties.
+作为日常业务运营的一部分，**CiaoTool**（以下简称“我们”或“本平台”）会收集用户和潜在用户的必要信息，以便向其提供 Web3 链上工具服务。我们致力于保护您的个人数据与链上资产安全，您的隐私对我们至关重要。
 
-## 1. Introduction
+本隐私权政策（“政策”）适用于您在造访 **\[https://ciaotool.io]** 网站及其附属网站，以及使用 CiaoTool 提供的代币创建、批量转账、流动性管理及市值管理工具时，我们对相关数据的处理方式。请注意，本平台不针对 **18** 岁以下人士，我们不会故意收集未成年人的相关资料。
 
-As part of our daily business operations, **CiaoTool** collects necessary information from users and potential users solely to provide them with on-chain Web3 tooling services. We are dedicated to protecting your personal data and on-chain asset security; your privacy is of critical importance to us.
+## 2. 职责与第三方声明
 
-This Policy applies to our data processing methods when you visit the website \[https://ciaotool.io] and its affiliated sites, as well as when you use the token creation, multisender, liquidity management, and market-making management tools provided by CiaoTool. Please note that this Platform is not directed to individuals under **the age of 18**, and we do not knowingly collect any personal data or information from minors.
+除非另有明确说明，**CiaoTool** 负责本网站的资料保护。
 
-## 2. Allocation of Responsibilities and Third-Party Declarations
+为了执行区块链交易，我们集成或支持第三方电子钱包扩展程序，包括但不限于 **MetaMask、Phantom、WalletConnect** 等。从法律与隐私角度来看，这些钱包及其关联账户并非由我们运营或控制。平台上的所有链上交互均基于区块链（如 Solana、BSC、Ethereum 等）的智能合约执行。
 
-Unless otherwise explicitly stated, **CiaoTool** is responsible for the data protection of this Website.
+## 3. 信息处理原则
 
-In order to execute blockchain transactions, this Platform integrates or supports third-party electronic wallet extensions, including but not limited to MetaMask, Phantom, WalletConnect, etc. From both a legal and privacy perspective, these wallets and their associated accounts are neither operated nor controlled by us. All on-chain interactions executed through this Platform are performed directly via smart contracts on their respective public blockchains (such as Solana, BSC, Ethereum, etc.).
+为了提供高效且安全的区块链开发与资产管理服务，我们在您使用平台时的信息处理机制如下：
 
-## 3. Data Processing Principles
+* **私钥与钱包信息：** 所有涉及钱包私钥的操作（如交易签名、创建流动性、批量买卖、市值管理运行等）均在您浏览器的本地环境中完成。系统不会以任何形式读取或保存您的私钥、助记词或钱包授权密码。
+* **去中心化交互：** 您的多地址交易与智能合约操作皆直接调用官方去中心化协议（如 PancakeSwap, Raydium, Bonk 等）完成，资金流转不经过 CiaoTool 后端，始终由您完全自主控制。
+* **节点与网络通信：** 您的交易指令通过 RPC 节点直接广播至区块链网络（如 Solana, BSC），我们不干预也无法篡改任何上链数据。
 
-To provide efficient and secure blockchain development and asset management services, our data processing mechanisms during your use of the Platform are established as follows:
+## 4. 运行数据与性能分析
 
-* **Private Keys and Wallet Information**\
-  All operations involving wallet private keys (such as transaction signing, liquidity provisioning, batch buying/selling, and market-making management execution) are completed entirely within your browser's local environment. The system is technically incapable of, and strictly prohibited from, reading, extracting, or retaining your private keys, mnemonic phrases, or wallet authorization passwords.
-* **Decentralized Interactions**\
-  Your multi-address transactions and smart contract operations directly invoke official, decentralized protocols (such as PancakeSwap, Raydium, Bonk, etc.). Capital and fund routing do not pass through the CiaoTool backend, ensuring that your funds remain permanently under your autonomous and exclusive control.
-* **Node and Network Communications**\
-  Your transaction instructions are broadcasted directly to the blockchain networks (such as Solana, BSC) via RPC nodes. We do not interfere with, nor do we have the capacity to alter or tamper with, any on-chain data.
+为了持续优化 **CiaoTool** 的用户体验、提升工具链的响应速度，我们可能会收集匿名化、非个人化的基础运行数据：
 
-## 4. Operational Data and Performance Analytics
+* **技术与网络资讯：** 包括您的钱包公钥地址以及有关交易的公开链上网络资讯。您的交易指令透过 RPC 节点直接广播至区块链网络，我们不干预也无法篡改任何上链数据。
+* **运行与浏览数据：** 有关您如何使用服务的资讯（如页面访问量、特定功能的点击频率与报错日志）。这些资讯经过严格的脱敏处理，仅用于分析用户行为与优化工具性能，无法用于识别任何特定用户的真实身份。
+* **沟通与支持资讯：** 当您联系我们的团队（例如获取技术协助或索取《钱包安全指南》）时，我们会记录沟通内容以监控服务品质。
+* **表单资讯：** 当您在表单中输入的参数设定，仅用于在本地生成对应的链上指令。
 
-To continuously optimize the user experience of **CiaoTool** and enhance the responsiveness of our tooling suite, we may collect anonymous, non-personally identifiable basic operational data:
+## 5. 数据安全保障
 
-* **Technical and Network Information**\
-  This includes your wallet public key addresses and publicly accessible on-chain network information regarding transactions. Your transaction instructions are broadcasted directly to the blockchain networks via RPC nodes, and we do not interfere with or tamper with any data broadcasted to the chain
-* **Usage and Browsing Data**\
-  This covers information regarding how you interact with our services, such as page views, click frequencies of specific functionalities, and error logs. Such information undergoes rigorous anonymization and de-identification processing, is utilized solely for analyzing user behavior and optimizing tool performance, and cannot be used to identify the real-world identity of any specific user.\
-  Information about how you use our services (such as page visits, the frequency of specific feature usage, and error logs). This information is strictly anonymized and is only used to analyze user behavior and optimize tool performance. It cannot be used to identify the real identity of any specific user.
-* **Communications and Support Information**\
-  When you contact our support team (e.g., to obtain technical assistance or request the _Fund Security Assurance_), we will record the content of the communication to monitor and improve our service quality.
-* **Form Information**\
-  Parameter configurations and inputs entered by you into the frontend forms are utilized exclusively to generate corresponding on-chain instructions locally on your device.
+我们已实施适当的架构与常规保护措施，以增强资讯的完整性与安全性：
 
-## 5. Data Security Safeguards
+* **无伺服器依赖架构：** CiaoTool 的核心交互逻辑与交易签名完全在前端代码中实现。这种架构从底层切断了敏感数据云端泄露的可能性，确保核心数据不离本地。
+* **合规与风险提示：** 尽管我们采用了去中心化与本地化的架构来最大程度保护您的数据，但请注意，任何网路服务都无法保证绝对的安全。如果发生影响您非敏感运营数据的安全性事件，我们将依法规要求透过网站公告或电子邮件通知您。
 
-We have implemented appropriate structural architectures and routine protective safeguards to enhance the integrity and security of data:
+## 6. 信息共享与披露
 
-* **Serverless Dependency Architecture**\
-  The core interaction logic and transaction signing of CiaoTool are implemented entirely within the frontend code. This architecture fundamentally eliminates the possibility of cloud-based data leaks from the underlying level, ensuring that core sensitive data never leaves your local device.
-* **Compliance and Risk Notifications**\
-  Although we utilize decentralized and localized architectures to protect your data to the maximum extent, please be advised that no network service can guarantee absolute security. In the event of a security incident affecting your non-sensitive operational data, we will notify you through website announcements or emails in accordance with applicable legal and regulatory requirements.
+除适用法律法规要求或维护我们合法商业利益的情况外，我们绝不会将您的任何资讯出售、出租或交易给第三方。我们将仅在「需要知道」的前提下进行此类披露，并要求第三方严格保密。由于 **CiaoTool** 的产品架构本身就不收集您的核心敏感资产数据，因此从根本上杜绝了将您的私钥或资产控制权泄露给第三方的风险。
 
-## 6. Information Sharing and Disclosure
+## 7. COOKIE 政策
 
-Except as required by applicable laws and regulations or to maintain our legitimate business interests, we will never sell, rent, trade, or otherwise disclose your information to third parties. We will only make disclosures on a strict "need-to-know" basis and will require such third parties to maintain strict confidentiality. Because **CiaoTool’s** product architecture inherently refrains from collecting your core sensitive asset data, the risk of exposing your private keys or asset control rights to any third party is mitigated at the root level.
+当您使用我们的网站时，我们可能会采用标准做法，使用 Cookie、像素标签或其他追踪工具来增强您的使用者体验，收集有关您使用网站的资讯，并记住您的偏好设定。
 
-## 7. Cookie Policy
+## 8. 政策更新
 
-When you utilize our Website, we may adopt standard practices by using cookies, pixel tags, or other tracking tools to enhance your user experience, collect information regarding your website usage, and remember your preferences and settings.
+随着 Web3 技术的不断发展以及 CiaoTool 产品功能的持续迭代，我们可能会适时更新本隐私权政策。我们建议您在体验新功能前，定期查阅最新版本的隐私声明。
 
-## 8. Policy Updates
+## 9. 联系方式
 
-In alignment with the continuous evolution of Web3 technologies and the ongoing iterations of CiaoTool's product features, we may update this Privacy Policy from time to time. We strongly recommend that you regularly review the latest version of this Privacy Policy prior to experiencing any new functionalities.
+如果您对本隐私权政策有任何疑问、投诉或想了解更多关于 CiaoTool 的机制，请透过以下方式联系我们：
 
-## 9. Contact Us
-
-If you have any questions, complaints, or require further clarification regarding this Privacy Policy or CiaoTool’s operational mechanisms, please contact us via the following methods:
-
-* Email: [support@ciaotool.io](mailto:support@ciaotool.io)
+* 电子邮箱： [support@ciaotool.io](mailto:support@ciaotool.io)

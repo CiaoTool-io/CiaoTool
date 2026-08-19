@@ -1,199 +1,200 @@
 ---
 description: >-
-  Covering token creation, liquidity management, market operations, asset
-  migration, and Launchpad launches. View the service fees for the Solana
-  network below.
+  以最高的资金利用率执行您的完整项目线路图。我们的服务覆盖了代币创建、流动性池管理、市值管理、换仓及 Launchpad 发射代币等全套链上操作。在此查阅
+  Solana 网络上最具竞争力的服务费用。
 ---
 
-# Solana Service Fees
+# Solana 服务费用
 
-## Token Manage <a href="#dai-bi-guan-li-gong-ju" id="dai-bi-guan-li-gong-ju"></a>
+## 代币管理工具 <a href="#dai-bi-guan-li-gong-ju" id="dai-bi-guan-li-gong-ju"></a>
 
-### Token Creator
+### 创建代币
 
-* [**Standard Token**](https://ciaotool.io/en-US/token/create-token)**:** 0.075 SOL
-* [**Tax Token**](https://ciaotool.io/en-US/token/tax-token)**:** 0.015 SOL
+* [**代币创建**](https://ciaotool.io/zh-CN/token/create-token/)：0.075 SOL
+* [**税费代币创建**](https://ciaotool.io/zh-CN/token/tax-token)：0.015 SOL
 
-### Token Manager
+### 代币管理
 
-* [**Tax Fee Claim**](https://ciaotool.io/en-US/token/tax-fee-claim)**:** 0.075 SOL
-* [**Revoke Permission**](https://ciaotool.io/en-US/token/revoke-permission)**:** 0.075 SOL
-* [**Mint Token**](https://ciaotool.io/en-US/token/mint)**:** 0.075 SOL
-* [**Update Token**](https://ciaotool.io/en-US/token/update)**:** 0.0375 SOL
-* [**Burn Token**](https://ciaotool.io/en-US/token/burn)**:** 0.0375 SOL
-* [**Freeze Account**](https://ciaotool.io/en-US/token/freeze-account)**:** 0.0225 SOL
-* [**Unfreeze Account**](https://ciaotool.io/en-US/token/unfreeze-account)**:** 0.0375 SOL
+* [**提取税费**](https://ciaotool.io/zh-CN/token/taxToken/tax-fee-claim)：0.075 SOL
+* [**放弃权限**](https://ciaotool.io/zh-CN/token/revoke-permission)：0.075 SOL
+* [**代币增发**](https://ciaotool.io/zh-CN/token/mint)：0.075 SOL
+* [**代币更新**](https://ciaotool.io/zh-CN/token/update)：0.0375 SOL
+* [**燃烧代币**](https://ciaotool.io/zh-CN/token/burn)：0.0375 SOL
+* [**冻结账户**](https://ciaotool.io/zh-CN/token/freeze-account)：0.0225 SOL
+* [**解冻账户**](https://ciaotool.io/zh-CN/token/unfreeze-account)：0.0375 SOL
 
-### Token Tool
+### 代币工具
 
-* [**Token Snapshot**](https://ciaotool.io/en-US/token/snapshot)**:** FREE
-
-***
-
-## Multisender
-
-* [**One-to-Multi Transfer**](https://ciaotool.io/en-US/transfer/one-to-many)**:** 0.00075 SOL / address
-* [**Multi-to-One Transfer**](https://ciaotool.io/en-US/transfer/many-to-one)**:** 0.00075 SOL / address
-* [**Multi-to-Multi Transfer**](https://ciaotool.io/en-US/transfer/many-to-many)**:** 0.00075 SOL / address
-* [**SOL Relay Transfer**](https://ciaotool.io/en-US/transfer/relay-transfer)**:** 0.00075 SOL / address
+* [**代币快照**](https://ciaotool.io/zh-CN/token/tax-fee-claim)**：**&#x514D;费
 
 ***
 
-## Wallet Manager
+## 批量转账
 
-* [**Batch Wallet Creator**](https://ciaotool.io/en-US/wallet/wallet-create)**:** Free
-* [**WSOL Exchange**](https://ciaotool.io/en-US/wallet/solana-wrapper)**:** Free
-* [**Rent Recovery**](https://ciaotool.io/en-US/wallet/claim-rent)**:** 4% of the reclaimed amount
-* [**Batch Rent Recovery**](https://ciaotool.io/en-US/wallet/claim-rent-batch)**:** 4% of the reclaimed amount
-* [**Wallet Sweeper**](https://ciaotool.io/en-US/wallet/sweeper)**:** 1% of the sell amount
-
-***
-
-## Asset Migration
-
-* [**Fragmentation**](https://ciaotool.io/en-US/asset-migration/fragmentation)：0.0001875 SOL / address
+* [**一对多转账**](https://ciaotool.io/zh-CN/transfer/one-to-many/)：0.00075 SOL / 每个地址
+* [**多转一转账**](https://ciaotool.io/zh-CN/transfer/many-to-one)：0.00075 SOL / 每个地址
+* [**多对多转账**](https://ciaotool.io/zh-CN/transfer/many-to-many)：0.00075 SOL / 每个地址
+* [**SOL 中转转账**](https://ciaotool.io/zh-CN/transfer/relay-transfer)**：**&#x30;.00075 SOL / 每个地址
 
 ***
 
-## Raydium Zone
+## 钱包管理
+
+* [**批量创建钱包**](https://ciaotool.io/zh-CN/wallet/wallet-create)：免费
+* [**WSOL 转换器**](https://ciaotool.io/zh-CN/wallet/solana-wrapper)：免费
+* [**租金回收**](https://ciaotool.io/zh-CN/wallet/claim-rent)：回收金额的 4%
+* [**批量租金回收**](https://ciaotool.io/zh-CN/wallet/claim-rent-batch)：回收金额的 4%
+* [**一键清仓**](https://ciaotool.io/zh-CN/wallet/sweeper)：卖出金额的 1%
+
+***
+
+## 换仓专区
+
+* [**冷换仓**](https://ciaotool.io/zh-CN/asset-migration/fragmentation)：0.0001875 SOL / 每个地址
+
+***
+
+## Raydium 专区
 
 {% hint style="info" %}
-Available for Raydium AMM, CLMM, and CPMM.
+适用于 Raydium AMM、CLPP 和 CPMM
 {% endhint %}
 
-* [**Multi-Address Bundled Buy**](https://ciaotool.io/en-US/raydium/bundled-buy)**:** 0.0075 SOL / address
-* [**Sell and Bundled Buy**](https://ciaotool.io/zh-CN/raydium/bundled-sell-buy)**:** 0.0075 SOL / address
-* [**Multi-address Bundled Sell**](https://ciaotool.io/zh-CN/raydium/bundled-sell)**:** Volume-based pricing, as low as 0.00375 SOL / address.
+* [**多地址捆绑买入**](https://ciaotool.io/zh-CN/raydium/bundled-buy)：0.0075 SOL / 每个地址
+* [**卖出并捆绑买入**](https://ciaotool.io/zh-CN/raydium/bundled-sell-buy)：0.0075 SOL / 每个地址
+* [**多地址捆绑卖出**](https://ciaotool.io/zh-CN/raydium/bundled-sell)：阶梯定价，低至 0.00375 SOL / 每个地址
 
 ```
- 0 < address ≤ 10，0.0075 SOL per address
- 5 < address ≤ 10，0.00675 SOL per address
-10 < address ≤ 15，0.006 SOL per address
-15 < address ≤ 20，0.00525 SOL per address
-20 < address ≤ 25，0.0045 SOL per address
-25 < address ≤ 29，0.00375 SOL per address
+ 0 <地址数≤  5，每个地址 0.0075 SOL
+ 5 <地址数≤ 10，每个地址 0.00675 SOL
+10 <地址数≤ 15，每个地址 0.006 SOL
+15 <地址数≤ 20，每个地址 0.00525 SOL
+20 <地址数≤ 25，每个地址 0.0045 SOL
+25 <地址数≤ 29，每个地址 0.00375 SOL
 ```
 
-* [**Market Making**](https://ciaotool.io/en-US/raydium/market-making)**:** 0.00075 SOL / trading
-* [**Anti-MEV Volume Bot**](https://ciaotool.io/en-US/raydium/anti-mev)**:** 0.00375 SOL / trading
-* [**Batch Swap**](https://ciaotool.io/en-US/raydium/multi-swap)**:** 0.001875 SOL / trading
-* [**Boost Maker**](https://ciaotool.io/en-US/raydium/newaddr-buyers-markers)**:** 0.00015 SOL / address
-* [**Boost Holder**](https://ciaotool.io/en-US/raydium/newaddr-buyers-holders)**:** 0.00015 SOL / address
+* [**市值管理**](https://ciaotool.io/zh-CN/raydium/market-making)：0.00075 SOL / 每次交易
+* [**防夹交易量提升**](https://ciaotool.io/zh-CN/raydium/anti-mev)：0.00375 SOL / 每次交易
+* [**批量交易**](https://ciaotool.io/zh-CN/raydium/amm/batch-swap)：0.001875 SOL / 每次交易
+* [**新地址买入 ↑Makers**](https://ciaotool.io/zh-CN/raydium/newaddr-buyers-markers)：0.00015 SOL / 每个地址
+* [**新地址买入 ↑Holders**](https://ciaotool.io/zh-CN/raydium/newaddr-buyers-holders)：0.00015 SOL / 每个地址
 
 ***
 
-## Pump Zone
+## Pump 专区
 
-* [**Bundler (Create & Buy)**](https://ciaotool.io/en-US/pump/create-and-buy)**:** Volume-based pricing, as low as 0.03375 SOL / address.
-
-```
- 0 < address ≤  4，0.0375 SOL per address
- 4 < address ≤  8，0.03375 SOL per address
-```
-
-* [**Graduation Sniper (Create & Buy, Graduation Buy)**](https://ciaotool.io/en-US/pump/graduation-sniper)**:** 0.1875 SOL / address
-* [**Bundle & Graduate (Bundled Buy, Graduation Buy)**](https://ciaotool.io/en-US/pump/bundled-graduate)**:** 0.1875 SOL / address
-* [**Multi-address Bundled Buy**](https://ciaotool.io/en-US/pump/multi-address-buy)**:** 0.0075 SOL / address
-* [**Sell & Bundled Buy**](https://ciaotool.io/en-US/pump/sell-buy)**:** 0.0075 SOL / address
-* [**Multi-adress Bundled Sell**](https://ciaotool.io/en-US/pump/multi-address-sell)**:** Volume-based pricing, as low as 0.00375 SOL / address.
+* [**创建并买入**](https://ciaotool.io/zh-CN/pump/launch-and-buy)：阶梯定价，低至 0.02375 SOL / 每个地址
 
 ```
- 0 < address ≤  5，0.0075 SOL per address
- 5 < address ≤ 10，0.00675 SOL per address
-10 < address ≤ 15，0.006 SOL per address
-15 < address ≤ 20，0.00525 SOL per address
-20 < address ≤ 25，0.0045 SOL per address
-25 < address ≤ 29，0.00375 SOL per address
+ 0 <地址数≤  4，每个0.0375 SOL
+ 4 <地址数≤  8，每个0.03375 SOL
 ```
 
-* [**Market Making**](https://ciaotool.io/en-US/pump/market-making)**:** 0.00075 SOL / trading
-* [**Anti-MEV Volume Bot**](https://ciaotool.io/en-US/pump/anti-mev)**:** 0.00375 SOL / trading
-* [**Micro Trading**](https://ciaotool.io/en-US/pump/micro-trading)**:** 0.00075 SOL / trading
-* [**Batch Swap**](https://ciaotool.io/en-US/pump/batch-swap)**:** 0.001875 SOL / trading
-* [**Boost Maker**](https://ciaotool.io/en-US/pump/newaddr-buyers-markers)**:** 0.00015 SOL / trading
-* [**Boost Holder**](https://ciaotool.io/en-US/pump/newaddr-buyers-holders)**:** 0.00015 SOL / trading
+* [**创建并迁移买入**](https://ciaotool.io/zh-CN/pump/graduation-sniper)：0.1875 SOL / 每个地址
+* [**捆绑并迁移买入**](https://ciaotool.io/zh-CN/pump/bundled-graduate)**：**&#x30;.1875 SOL / 每个地址
+* [**多地址捆绑买入**](https://ciaotool.io/zh-CN/pump/multi-address-buy)：0.0075 SOL / 每个地址
+* [**卖出并捆绑买入**](https://ciaotool.io/zh-CN/pump/sell-buy)：0.0075 SOL / 每个地址
+* [**多地址捆绑卖出**](https://ciaotool.io/zh-CN/pump/multi-address-sell)：阶梯定价，低至 0.00375 SOL / 每个地址
+
+```
+ 0 <地址数≤  5，每个地址 0.0075 SOL
+ 5 <地址数≤ 10，每个地址 0.00675 SOL
+10 <地址数≤ 15，每个地址 0.006 SOL
+15 <地址数≤ 20，每个地址 0.00525 SOL
+20 <地址数≤ 25，每个地址 0.0045 SOL
+25 <地址数≤ 29，每个地址 0.00375 SOL
+```
+
+* [**市值管理**](https://ciaotool.io/zh-CN/pump/market-making)：0.00075 SOL / 每次交易
+* [**防夹交易量提升**](https://ciaotool.io/zh-CN/pump/anti-mev)：0.00375 SOL / 每次交易
+* [**微量交易**](https://ciaotool.io/zh-CN/pump/micro-trading)：0.00075 SOL / 每笔交易
+* [**批量交易**](https://ciaotool.io/zh-CN/pump/multi-swap)：0.001875 SOL / 每次交易
+* [**新地址买入 ↑Makers**](https://ciaotool.io/zh-CN/pump/newaddr-buyers-markers)：0.00015 SOL / 每个地址
+* [**新地址买入 ↑Holders**](https://ciaotool.io/zh-CN/pump/newaddr-buyers-holders)：0.00015 SOL / 每个地址
 
 ***
 
-## PumpSwap Zone
+## PumpSwap 专区
 
-* [**Multi-address Bundled Buy**](https://ciaotool.io/en-US/pumpSwap/multi-address-buy)**:** 0.0075 SOL / address
-* [**Sell and Bundled Buy**](https://ciaotool.io/en-US/pumpSwap/sell-buy)**:** 0.0075 SOL / address
-* [**Multi-address Bundled Sell**](https://ciaotool.io/en-US/pumpSwap/multi-address-sell)**:** Volume-based pricing, as low as 0.00375 SOL / address.
+* [**多地址捆绑买入**](https://ciaotool.io/zh-CN/pumpSwap/multi-address-buy)：0.0075 SOL / 每个地址
+* [**卖出并捆绑买入**](https://ciaotool.io/zh-CN/pumpSwap/sell-buy)：0.0075 SOL / 每个地址
+* [**多地址捆绑卖出**](https://ciaotool.io/zh-CN/pumpSwap/multi-address-sell)：阶梯定价，低至 0.00375 SOL / 每个地址
 
 ```
- 0 < address ≤  5，0.0075 SOL per address
- 5 < address ≤ 10，0.00675 SOL per address
-10 < address ≤ 15，0.006 SOL per address
-15 < address ≤ 20，0.00525 SOL per address
-20 < address ≤ 25，0.0045 SOL per address
-25 < address ≤ 29，0.00375 SOL per address
+ 0 <地址数≤  5，每个地址 0.0075 SOL
+ 5 <地址数≤ 10，每个地址 0.00675 SOL
+10 <地址数≤ 15，每个地址 0.006 SOL
+15 <地址数≤ 20，每个地址 0.00525 SOL
+20 <地址数≤ 25，每个地址 0.0045 SOL
+25 <地址数≤ 29，每个地址 0.00375 SOL
 ```
 
-* [**Market Making**](https://ciaotool.io/en-US/pumpswap/market-making)**:** 0.00075 SOL / trading
-* [**Anti-MEV Volume Bot**](https://ciaotool.io/en-US/pumpswap/anti-mev)**:** 0.00375 SOL / trading
-* [**Micro Trading**](https://ciaotool.io/en-US/pumpswap/micro-trading)**:** 0.00075 SOL / trading
-* [**Batch Swap**](https://ciaotool.io/en-US/pumpSwap/batch-swap)**:** 0.001875 SOL / trading
-* [**Boost Maker**](https://ciaotool.io/en-US/pumpswap/newaddr-buyers-markers)**:** 0.00015 SOL / address
-* [**Boost Holder**](https://ciaotool.io/en-US/pumpswap/newaddr-buyers-holders)**:** 0.00015 SOL / address
+* [**市值管理**](https://ciaotool.io/zh-CN/pumpswap/market-making)：0.00075 SOL / 每次交易
+* [**防夹交易量提升**](https://ciaotool.io/zh-CN/pumpswap/anti-mev)：0.00375 SOL / 每次交易
+* [**微量交易**](https://ciaotool.io/zh-CN/pumpswap/micro-trading)：0.00075 SOL / 每笔交易
+* [**批量交易**](https://ciaotool.io/zh-CN/pumpSwap/batch-swap)：0.001875 SOL / 每次交易
+* [**新地址买入 ↑Makers**](https://ciaotool.io/zh-CN/pumpswap/newaddr-buyers-markers)：0.00015 SOL / 每个地址
+* [**新地址买入 ↑Holders**](https://ciaotool.io/zh-CN/pumpswap/newaddr-buyers-holders)：0.00015 SOL / 每个地址
 
 ***
 
-## Bonk Zone
+## Bonk 专区
 
 {% hint style="info" %}
-Supports Bonk tokens quoted in SOL or USD1.
+适用于 SOL 和 USD1 为计价方式的 Bonk 代币
 {% endhint %}
 
-* [**Bundler (Create & Buy)**](https://ciaotool.io/en-US/bonk/create-and-buy)**:** Volume-based pricing, as low as 0.0225 SOL / address.
-* [**Multi-address Bundled Buy**](https://ciaotool.io/en-US/bonk/multi-address-buy)**:** 0.0075 SOL / address
-* [**Sell and Bundled Buy**](https://ciaotool.io/en-US/bonk/sell-buy)**:** 0.0075 SOL / address
-* [**Multi-address Bundled Sell**](https://ciaotool.io/en-US/bonk/multi-address-sell)**:** Volume-based pricing, as low as 0.00375 SOL / address.
+* [**创建并买入**](https://ciaotool.io/zh-CN/bonk/create-and-buy)：阶梯定价，低至 0.0225 SOL / 每个地址
+* [**多地址捆绑买入**](https://ciaotool.io/zh-CN/bonk/multi-address-buy)：0.0075 SOL / 每个地址
+* [**卖出并捆绑买入**](https://ciaotool.io/zh-CN/bonk/sell-buy)：0.0075 SOL / 每个地址
+* [**多地址捆绑卖出**](https://ciaotool.io/zh-CN/bonk/multi-address-sell)：阶梯定价，低至 0.00375 SOL / 每个地址
 
 ```
- 0 < address ≤  5，0.0075 SOL per address
- 5 < address ≤ 10，0.00675 SOL per address
-10 < address ≤ 15，0.006 SOL per address
-15 < address ≤ 20，0.00525 SOL per address
-20 < address ≤ 25，0.0045 SOL per address
-25 < address ≤ 29，0.00375 SOL per address
+ 0 <地址数≤  5，每个地址 0.0075 SOL
+ 5 <地址数≤ 10，每个地址 0.00675 SOL
+10 <地址数≤ 15，每个地址 0.006 SOL
+15 <地址数≤ 20，每个地址 0.00525 SOL
+20 <地址数≤ 25，每个地址 0.0045 SOL
+25 <地址数≤ 29，每个地址 0.00375 SOL
 ```
 
-* [**Market Making**](https://ciaotool.io/en-US/bonk/market-making)**:** 0.00075 SOL / trading
-* [**Anti-MEV Volume Bot**](https://ciaotool.io/zh-CN/bonk/anti-mev)**:** 0.00375 SOL / trading
-* [**Batch Swap**](https://ciaotool.io/en-US/bonk/batch-swap)**:** 0.001875 SOL / trading
-* [**Boost Maker**](https://ciaotool.io/en-US/bonk/volume)**:** 0.00015 SOL / address
-* [**Boost Holder**](https://ciaotool.io/en-US/bonk/newaddr-buyers-holders)**:** 0.00015 SOL / address
+* [**市值管理**](https://ciaotool.io/zh-CN/bonk/market-making)：0.00075 SOL / 每次交易
+* [**防夹交易量提升**](https://ciaotool.io/zh-CN/bonk/anti-mev)：0.00375 SOL / 每次交易
+* [**批量交易**](https://ciaotool.io/zh-CN/bonk/batch-swap)：0.001875 SOL / 每次交易
+* [**新地址买入 ↑Makers**](https://ciaotool.io/zh-CN/bonk/volume)：0.00015 SOL / 每个地址
+* [**新地址买入 ↑Holders**](https://ciaotool.io/zh-CN/bonk/newaddr-buyers-holders)：0.00015 SOL / 每个地址
 
 ***
 
-## Meteora Zone
+## Meteora 专区
 
-* [**Multi-address Bundled Buy**](https://ciaotool.io/en-US/meteora/multi-address-buy)**:** 0.0075 SOL / address
-* [**Sell and Bundled Buy**](https://ciaotool.io/en-US/meteora/sell-buy)**:** 0.0075 SOL / address
-* [**Multi-address Bundled Sell**](https://ciaotool.io/en-US/meteora/multi-address-sell)**:** Volume-based pricing, as low as 0.00375 SOL / address.
+* [**多地址捆绑买入**](https://ciaotool.io/zh-CN/meteora/multi-address-buy)：0.0075 SOL / 每个地址
+* [**卖出并捆绑买入**](https://ciaotool.io/zh-CN/meteora/sell-buy)：0.0075 SOL / 每个地址
+* [**多地址捆绑卖出**](https://ciaotool.io/zh-CN/meteora/multi-address-sell)：阶梯定价，低至 0.00375 SOL / 每个地址
 
 ```
- 0 < address ≤  5，0.0075 SOL per address
- 5 < address ≤ 10，0.00675 SOL per address
-10 < address ≤ 15，0.006 SOL per address
-15 < address ≤ 20，0.00525 SOL per address
-20 < address ≤ 25，0.0045 SOL per address
-25 < address ≤ 29，0.00375 SOL per address
+ 0 <地址数≤  5，每个地址 0.0075 SOL
+ 5 <地址数≤ 10，每个地址 0.00675 SOL
+10 <地址数≤ 15，每个地址 0.006 SOL
+15 <地址数≤ 20，每个地址 0.00525 SOL
+20 <地址数≤ 25，每个地址 0.0045 SOL
+25 <地址数≤ 29，每个地址 0.00375 SOL
 ```
 
-* [**Market Making**](https://ciaotool.io/en-US/meteora/market-making)**:** 0.00075 SOL / trading
-* [**Anti-MEV Volume Bot**](https://ciaotool.io/en-US/meteora/anti-mev)**:** 0.00375 SOL / trading
-* [**Batch Swap**](https://ciaotool.io/en-US/meteora/batch-swap)**:** 0.001875 SOL / trading
-* [**Boost Maker**](https://ciaotool.io/en-US/meteora/volume)**:** 0.00015 SOL / address
-* [**Boost Holder**](https://ciaotool.io/en-US/meteora/newaddr-buyers-holders)**:** 0.00015 SOL / address
+* [**市值管理**](https://ciaotool.io/zh-CN/meteora/market-making)：0.00075 SOL / 每次交易
+* [**防夹交易量提升**](https://ciaotool.io/zh-CN/meteora/anti-mev)：0.00375 SOL / 每次交易
+* [**批量交易**](https://ciaotool.io/zh-CN/meteora/batch-swap)：0.001875 SOL / 每次交易
+* [**新地址买入 ↑Makers**](https://ciaotool.io/zh-CN/meteora/volume)：0.00015 SOL / 每个地址
+* [**新地址买入 ↑Holders**](https://ciaotool.io/zh-CN/meteora/newaddr-buyers-holders/)：0.00015 SOL / 每个地址
 
 ***
 
-**Need help? Join our community for real-time support:**
+**💬 如遇到问题？加入社群实时咨询**：[https://t.me/ciaotool](https://t.me/ciaotool)
 
-<table data-header-hidden><thead><tr><th width="188"></th><th valign="top"></th><th data-hidden></th></tr></thead><tbody><tr><td>Email</td><td valign="top"><a href="mailto:ciaotoolglobal@gmail.com">ciaotoolglobal@gmail.com</a></td><td></td></tr><tr><td>Telegram</td><td valign="top"><a href="https://t.me/ciaotools">https://t.me/ciaotools</a></td><td></td></tr><tr><td>WhatsApp</td><td valign="top"><a href="https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J">https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J</a></td><td></td></tr></tbody></table>
-
-{% hint style="danger" %}
-CiaoTool is committed to providing convenient tooling services but does not offer any form of investment advice. Platform content may change with product iterations. Users are advised to exercise judgment and stay informed about updates.
-{% endhint %}
+* **Email**：[support@ciaotool.io](mailto:support@ciaotool.io)
+* **官网**：[https://ciaotool.io](https://ciaotool.io/)
+* **X（Twitter）**：[https://x.com/CiaoTool](https://x.com/CiaoTool)
+* **Medium**： [https://medium.com/@ciaotool](https://medium.com/@ciaotool)
+* **Blog**：[https://www.ciaoailiquidity.com/zh/blog](https://www.ciaoailiquidity.com/zh/blog)
+* **YouTube**：[https://www.youtube.com/@CiaoTool](https://www.youtube.com/@CiaoTool)
+* **WhatsApp**：[https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J](https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J)

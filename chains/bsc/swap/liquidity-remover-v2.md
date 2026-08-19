@@ -1,114 +1,109 @@
 ---
 description: >-
-  CiaoTool provides a no-code PancakeSwap V2 liquidity removal tool. Reclaim
-  assets from liquidity pools quickly and improve capital efficiency.
+  CiaoTool 提供免代码的 PancakeSwap 移除 V2 流动性池基础组件。一键销毁 LP 代币，安全、极速地从 BSC 链上的 AMM
+  资金池中撤回底层资产。纯前端本地签名，助您高效完成 Web3 项目的资金回笼与策略迁移。
+metaLinks:
+  alternates:
+    - https://app.gitbook.com/s/b56FKZGe1viFi67H1pPQ/swap/remove-liquidity-v2
 ---
 
-# BSC - V2 Liquidity Remover Tutorial
+# BSC - 移除 V2 流动性教程
 
 {% hint style="info" %}
-This page covers **PancakeSwap V2 Liquidity Remover**, which removes V2 liquidity to recover funds.
+当前&#x662F;**「PancakeSwap 移除 V2 流动性」**&#x6559;程页面，以移除 V2 流动性，回收资金。
 
-If you want to remove V3 liquidity and recover funds, please refer to the [**PancakeSwap V3 Liquidity Remover guide**](liquidity-remover-v3.md).
+想移除的 V3 流动性资金，请查阅[**「PancakeSwap 移除 V3 流动性」**](liquidity-remover-v3.md)**。**
 {% endhint %}
 
-## What is PancakeSwap V2 Liquidity Remover？
+## PancakeSwap 移除 V2 流动性池是什么？
 
-<figure><picture><source srcset="../../../.gitbook/assets/ScreenShot_2026-06-18_175516_891 (1).png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (7).png" alt=""></picture><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (589).png" alt="CiaoTool BSC链 移除 V2 流动性 功能页面"><figcaption></figcaption></figure>
 
-Removing V2 liquidity burns your LP tokens to retrieve your paired project tokens and underlying assets (e.g., BNB/USDT) based on current pool ratios.
+**PancakeSwap 移除 V2 流动性**是指流动性提供者（LP）将手中持有的流动性凭证销毁，并从智能合约中按当前池内的恒定乘积比例，赎回对应的底层价值资产（如 BNB/USDT）与项目代币的过程。
 
-Common Use Cases:
+核心适用场景：
 
-* **Claim Trading Fees**: Collect fees earned from providing liquidity.
-* **Recover Capital**: Withdraw underlying assets for better capital efficiency.
-* **Adjust Liquidity Strategy**: Reallocate liquidity to different price ranges.
-* **Reposition Liquidity**: Remove old positions and create new ones at updated ranges.
-* **Manage Risk**: Exit liquidity positions during periods of high market volatility.
+* 做市利润结算与资金回笼： 项目阶段性目标达成后，安全撤回初始注入的底层做市资金（如 BNB）及交易产生的手续费收益。
+* 代币合约升级与资金池迁移： 当需要更新智能合约或将流动性从 V2 全面迁移至 V3 时，必须先将 V2 的底层资产安全撤出。
+* 应对极端市场行情： 在面临不可控的市场剧烈波动时，紧急撤回流动性以保护核心做市资产的安全。
 
-Start your V2 Liquidity Pool Remover on BNB Smart Chain with CiaoTool now:
+立即在 BSC 上，用 CiaoTool​ 移除流动性功能进行一键回收资金操作：
 
-{% embed url="https://bsc.ciaotool.io/en/swap/v2/remove-liquidity-v2" %}
+{% embed url="https://bsc.ciaotool.io/zh-Hans/swap/v2/remove-liquidity-v2" %}
 
 ***
 
-## Why Choose CiaoTool V2 Liquidity Remover?
+## 为什么选择 CiaoTool 移除 V2 流动性？
 
-For professional teams needing strict control over chip distribution, CiaoTool builds an extremely secure and efficient infrastructure:
+对于需要严密掌控筹码分布的专业团队，CiaoTool 构筑了极致安全与高效的基础设施：
 
-* **No-Code Removal**\
-  Visual web panel replaces complex LP burning scripts for secure, precise asset withdrawal.
-* **Local Privacy**\
-  Pure client-side local signing ensures total key privacy and multi-wallet safety.
-* **All-in-One Toolkit**\
-  Seamlessly pairs fund recovery with native batch transfers for dividends or multi-to-one consolidation.
+* **零代码极速撤池：**\
+  &#x20;将复杂的 LP 授权与销毁指令转化为直观的 Web 端可视化操作，无需编写底层调用脚本，任何人都能安全、精准地完成资金撤回。
+* **纯前端私钥隔离：**\
+  平台严格采用客户端本地处理机制。您的钱包私钥仅在本地浏览器中用于交易签名，绝不上传、存储或传输至任何云端服务器，从技术底层切断资金风险。
+* **端到端的生态闭环：**\
+  CiaoTool 定位为全栈式代币生命周期管理平台。资金撤回后，您可以立即联动「批量转账」进行分红发放，或利用「多对一转账」进行资产归集，实现资金调度无缝衔接。
 
 ***
 
-## Step by Step
+## **图文指南 |** PancakeSwap 移除 V2 流动性
 
 {% stepper %}
 {% step %}
-### **Connect Wallet**
+### **绑定钱包**
 
-Click the button in the top right corner to connect a wallet that supports the EVM network.
+点击右上角按钮，绑定支持 BSC 链的钱包
 
-<figure><img src="../../../.gitbook/assets/image (1023).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (446).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Enter Payment Wallet Private Key <a href="#enter-payment-wallet-private-key" id="enter-payment-wallet-private-key"></a>
+### 输入移除流动性钱包私钥
 
 {% hint style="danger" %}
-<mark style="color:red;">**Security Tips**</mark>
+<mark style="color:$danger;">**安全须知**</mark>
 
-Currently supports private key import only. Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
+当&#x524D;**「移除流动性」**&#x529F;能仅支持 私钥导入以进行回收操作。请确保在安全环境下输入私钥信息，您的资金安全对我们来说至关重要，[**了解更多 CiaoTool 如何保障您的资金安全：资金安全保障**](../../../security-guide.md)**。**
 {% endhint %}
 
-Enter the private key of a wallet with pool management authority. The associated operation fees will be paid by this wallet.
+该钱包地址将用于支付工具手续费，并需确保该地址拥有池子权限。
 
-<figure><img src="../../../.gitbook/assets/image (1024).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (651).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Enter Token Addresses
+### 输入移除的代币地址
 
-Enter the token pair address for which you have LP permissions to remove liquidity.
+&#x20;输入拥有权限的币对，准备移除流动性。
 
-<figure><img src="../../../.gitbook/assets/image (1025).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (590).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Set Removal Percentage
+### 设置移除比例
 
-Set the removal percentage: 25%, 50%, 75%, 100%
+设置移除比例：25%、50%、75%、100%
 
 {% hint style="info" %}
-Selected percentage applies directly to your owned LP share, not the total pool liquidity.
-
-If you own 20% of the pool:
-
-• Selecting 100% removes 20% of total pool liquidity.
-
-• Selecting 20% removes 4% of total pool liquidity.
+**关于比例：**&#x5047;设池子都是您一个人加的， 那么这个百分比=池子的百分比。如果池子是多个人加的，就需要另外算的。比如，您本身占有池子份额的20%。那么您即便选择100%，整个池子也只是锁了20%的流动性。如果您选择20%，那么整个池子也就是锁了4%的流动性。
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (1026).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (591).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### **Confirm** <a href="#confirm" id="confirm"></a>
+### 确认交易
 
-After verifying all details, click the **"Start Swap"** button below and wait for the transaction process to complete.
+确认信息无误后，点击下&#x65B9;**「开始交易」**&#x6309;钮，并等待移除程序完成。
 {% endstep %}
 {% endstepper %}
 
 ***
 
-**Need help? Join our community for real-time support:**
+**如遇到问题？**&#x4F60;可以通过以下方即时联系 CiaoTool 团队：
 
 <table data-header-hidden><thead><tr><th width="188"></th><th valign="top"></th><th data-hidden></th></tr></thead><tbody><tr><td>Email</td><td valign="top"><a href="mailto:ciaotoolglobal@gmail.com">ciaotoolglobal@gmail.com</a></td><td></td></tr><tr><td>Telegram</td><td valign="top"><a href="https://t.me/ciaotools">https://t.me/ciaotools</a></td><td></td></tr><tr><td>WhatsApp</td><td valign="top"><a href="https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J">https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J</a></td><td></td></tr></tbody></table>
 
 {% hint style="danger" %}
-CiaoTool is committed to providing convenient tooling services but does not offer any form of investment advice. Platform content may change with product iterations. Users are advised to exercise judgment and stay informed about updates.
+CiaoTool 致力于提供便捷的工具服务，但不构成任何投资建议。平台内容可能根据产品迭代进行调整，敬请用户自行判断并留意更新。
 {% endhint %}

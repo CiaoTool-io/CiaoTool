@@ -1,104 +1,101 @@
 ---
 description: >-
-  CiaoTool provides a no-code PancakeSwap V2 liquidity adding tool. Add
-  liquidity to AMM pools with one click to improve trading depth and reduce
-  slippage.
+  CiaoTool 提供免代码的 PancakeSwap V2 添加流动性池工具。一键为 BSC 链上的 AMM
+  资金池追加做市资金，有效增厚交易深度、降低市场滑点。纯前端本地签名，助您安全高效地维护 Web3 资产市值。
 ---
 
-# BSC - V2 Liquidity Pool Adder Tutorial
+# BSC - 添加 V2 流动性教程
 
 {% hint style="info" %}
-This page covers **PancakeSwap V2 Liquidity Pool Adder**, which adds a full-range V2 liquidity pool without requiring price range configuration.
+当前&#x662F;**「PancakeSwap 添加 V2 流动性」**&#x6559;程页面，以添加「易用、全区间覆盖」的 V2 流动性池，增加池子深度。
 
-If you want concentrated liquidity and custom price ranges, please refer to the [**PancakeSwap V3 Liquidity Pool Adder**](create-liquidity-v3.md) guide.
+想添加具有「集中流动性、自定义流动区间」的 V3 流动性池，请查阅[**「PancakeSwap 添加 V3 流动性」**](liquidity-adder-v3.md)**。**
 {% endhint %}
 
-## What is PancakeSwap V2 Liquidity Pool?
+## PancakeSwap 添加 V2 流动性池是什么？
 
-<figure><picture><source srcset="../../../.gitbook/assets/ScreenShot_2026-06-18_175516_891 (2).png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (1018).png" alt="CiaoTool BSC Toolkit Page about PancakeSwap V2 Liquidity Pool Adder Feature"></picture><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (587).png" alt="CiaoTool BSC链 PancakeSwap 添加 V2 流动性 功能页面"><figcaption></figcaption></figure>
 
-**PancakeSwap V2 Liquidity Adder** refers to the operation of further injecting underlying value assets (such as BNB/USDT) and project tokens into an already initially deployed V2 trading pair according to the current market price ratio.
+**PancakeSwap 添加 V2 流动性**是指在已经完成初始部署的 V2 交易对中，按当前市场价格比例，进一步注入底层价值资产（如 BNB/USDT）与项目代币的操作。
 
-Common Use Cases:
+核心适用场景：
 
-* **Deepen Depth**\
-  Minimizes trade slippage during volume spikes to enhance the entry/exit experience for large capital.
-* **Fund Refill**\
-  Replenishes pool tokens to support quantitative strategies and boost resistance against market dumps.
+* 增厚盘面深度： 当项目进入高速发展期，交易频次与单笔交易额飙升时，追加流动性可以有效降低买卖滑点，优化大资金的进出体验。
+* 做市资金补给： 配合量化团队的做市策略，在特定阶段向池内补充筹码与资金，增强抗砸盘能力，稳固底层价格共识。
 
-Start your V2 Liquidity Pool Adder on BNB Smart Chain with CiaoTool now:
+立即在 BSC 上，用 CiaoTool​ 创建流动性池功能进行一键开盘操作：
 
-{% embed url="https://bsc.ciaotool.io/en/swap/v2/add-liquidity-v2" %}
+{% embed url="https://bsc.ciaotool.io/zh-Hans/swap/v2/add-liquidity-v2" %}
 
 ***
 
-## Why choose CiaoTool to add V2 liquidity?
+## 为什么选择 CiaoTool 添加 V2 流动性？
 
-For professional teams needing strict control over chip distribution, CiaoTool builds an extremely secure and efficient infrastructure:
+对于需要严密掌控筹码分布的专业团队，CiaoTool 构筑了极致安全与高效的基础设施：
 
-* **No-Code**\
-  Visual web panel replaces complex AMM scripts for secure, precise liquidity pool initialization.
-* **Local Privacy**\
-  Pure client-side local signing ensures total key privacy and multi-wallet safety.
-* **All-in-One Toolkit**\
-  Seamlessly pairs pool creation with native market making or batch swaps for all-in-one on-chain scaling.
+* **零代码高效部署：**\
+  将复杂的 AMM 合约交互转化为直观的 Web 端可视化操作，无需编写底层调用脚本，任何人都能安全、精准地完成资金池初始化。
+* **纯前端私钥隔离：**\
+  平台严格采用客户端本地处理机制。您的钱包私钥仅在本地浏览器中用于交易签名，绝不上传、存储或传输至任何云端服务器，从技术底层切断资金风险。
+* **端到端的生态闭环：**\
+  CiaoTool 定位为全栈式代币生命周期管理平台。开盘建仓完成后，您可以无缝联动「市值管理」、「批量交易」等工具，一站式打造繁荣的链上数据表现。
 
 ***
 
-## **Step by Step**
+## **图文指南 |** PancakeSwap 添加 V2 流动性
 
 {% stepper %}
 {% step %}
-### **Connect Wallet**
+### **绑定钱包**
 
-Click the button in the top right corner to connect a wallet that supports the EVM network.
+点击右上角按钮，绑定支持 BSC 链的钱包
 
-<figure><img src="../../../.gitbook/assets/image (1015).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (446).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Enter Payment Wallet Private Key <a href="#enter-payment-wallet-private-key" id="enter-payment-wallet-private-key"></a>
+### 输入添加流动性钱包私钥
 
 {% hint style="danger" %}
-<mark style="color:red;">**Security Tips**</mark>
+<mark style="color:$danger;">**安全须知**</mark>
 
-Currently supports private key import only. Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
+当&#x524D;**「添加流动性」**&#x529F;能仅支持 私钥导入以进行加池操作。请确保在安全环境下输入私钥信息，您的资金安全对我们来说至关重要，[**了解更多 CiaoTool 如何保障您的资金安全：资金安全保障**](../../../security-guide.md)**。**
 {% endhint %}
 
-This wallet address will be used to pay fees and will hold ownership of the pool.
+该钱包地址将用于支付工具手续费，并拥有池子权限。
 
-<figure><img src="../../../.gitbook/assets/image (1016).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (569).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Enter Pool-Adding Token Addresses
+### 输入加池代币地址
 
-Input the token addresses into the boxes as the quote token and project token; there is no specific entry order.
+将代币地址输入到框内，作为计价代币和项目代币，没有填写顺序。
 
-<figure><img src="../../../.gitbook/assets/image (1017).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (570).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Enter Pool-Adding Token Amount
+### 输入加池代币数量
 
-<figure><img src="../../../.gitbook/assets/image (600).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (588).png" alt=""><figcaption></figcaption></figure>
 
-Enter the amount of pool-adding tokens to be placed into the liquidity pool, and the system will fetch the current pair price in real time to automatically fill in the amount of tokens that should be placed into the pool.
+输入加池代币放入流动性资金池的代币数量，系统会实时获取当前币对价格，自动填充应该放入池子的代币数量。
 {% endstep %}
 
 {% step %}
-### **Confirm** <a href="#confirm" id="confirm"></a>
+### 确认交易
 
-After verifying all details, click the **"Start Swap"** button below and wait for the transaction process to complete.
+确认信息无误后，点击下&#x65B9;**「开始交易」**&#x6309;钮，并等待加池完成。
 {% endstep %}
 {% endstepper %}
 
 ***
 
-**Need help? Join our community for real-time support:**
+**如遇到问题？**&#x4F60;可以通过以下方即时联系 CiaoTool 团队：
 
 <table data-header-hidden><thead><tr><th width="188"></th><th valign="top"></th><th data-hidden></th></tr></thead><tbody><tr><td>Email</td><td valign="top"><a href="mailto:ciaotoolglobal@gmail.com">ciaotoolglobal@gmail.com</a></td><td></td></tr><tr><td>Telegram</td><td valign="top"><a href="https://t.me/ciaotools">https://t.me/ciaotools</a></td><td></td></tr><tr><td>WhatsApp</td><td valign="top"><a href="https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J">https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J</a></td><td></td></tr></tbody></table>
 
 {% hint style="danger" %}
-CiaoTool is committed to providing convenient tooling services but does not offer any form of investment advice. Platform content may change with product iterations. Users are advised to exercise judgment and stay informed about updates.
+CiaoTool 致力于提供便捷的工具服务，但不构成任何投资建议。平台内容可能根据产品迭代进行调整，敬请用户自行判断并留意更新。
 {% endhint %}

@@ -1,177 +1,174 @@
 ---
 description: >-
-  A multi-wallet batch swap tool for Pump.fun. Enables multiple wallets to
-  simultaneously swap tokens into a target token, improving trading efficiency
-  and execution speed for large-scale transactions.
+  专为 PumpFun
+  平台提供的多地址批量兑换与交易执行工具。支持快速将多个地址内的代币同步兑换为指定代币，大幅提升交易效率与时效性，特别适用于需要快速执行大量交易的场景。
 ---
 
-# PumpFun - Batch Swap Tutorial
+# PumpFun - 批量交易教程
 
 {% hint style="info" %}
-**CiaoTool PumpFun Batch Swap** now fully supports all quote tokens, including official **SOL and USDC**. Please switch to the specific token page first to perform market management operations, meeting your rapid market-making service needs across various scenarios.
+**CiaoTool PumpFun 批量交易**现已全面支持官方 **SOL** 和 **USDC** 全部的价值代币，请先切换到指定代币页面进行批量交易操作，满足不同场景下的快捷兑换服务。
 {% endhint %}
 
-## What is CiaoTool PumpFun Batch Swap?
+## CiaoTool PumpFun 批量交易什么？&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (810).png" alt="CiaoTool Solana Toolkit Page about Pump.fun Batch Swap Feature"><figcaption></figcaption></figure>
+**CiaoTool PumpFun 批量交易**是一款专为 **PumpFun 平台**打造的多地址自动化交易执行工具。它允许用户通过批量导入多个钱包地址并设置交易参数，全自动且同步地执行代币买卖操作。
 
-**CiaoTool PumpFun Batch Swap** is a multi-address automated trade execution tool custom-built for the **Pump.fun platform** within the Solana ecosystem. It allows users to fully automatically and synchronously execute token buy and sell operations by batch importing multiple wallet addresses and configuring trading parameters.
+该功能的核心机制在于快速将多地址的代币批量兑换成指定的代币。相较于传统单地址的人工逐一操作，系统通过多地址并发执行，大幅提高了交易指令的响应速度与流转效率。它彻底改变了低效的手动执行模式，全面提升了多钱包交互的时效性，特别适用于需要极速完成大规模代币兑换与资产调拨的场景。
 
-The core mechanism of this feature lies in rapidly performing batch swaps of tokens across multiple addresses into a designated token. Compared to traditional manual operations handled one by one via a single address, the system vastly improves the response speed and processing efficiency of trading commands through multi-address concurrent execution. It completely revolutionizes inefficient manual execution models and comprehensively enhances the time-sensitivity of multi-wallet interactions, making it particularly suitable for scenarios that require ultra-fast completion of large-scale token swaps and asset reallocations.
+立即在 PumpFun 上，用 CiaoTool 市值管理进行多地址批量兑换操作：
 
-Start your Batch Swap on PumpFun with CiaoTool now:
-
-{% embed url="https://ciaotool.io/en-US/pump/batch-swap" %}
+{% embed url="https://ciaotool.io/zh-CN/pump/multi-swap" %}
 
 ***
 
-## Why Choose CiaoTool PumpFun Batch Swap?
+## 为什么选择 CiaoTool PumpFun 批量交易？
 
-CiaoTool provides a professional solution for multi-address swapping management on the Pump.fun platform, balancing ultra-fast speed and security. For users who need to rapidly execute large volumes of transactions, this tool can significantly enhance overall execution efficiency:
+CiaoTool 为 PumpFun 平台上的多地址交易管理提供了一种兼顾极速与安全的专业解决方案。对于需要快速执行大量交易的用户而言，该工具能显著提升整体的执行效率：
 
-* **Ultra-Fast Concurrent Execution**\
-  Supports one-click initiation of synchronous swap commands across multiple wallets, completely eliminating the tedious process of manually switching addresses frequently and repeating signatures, vastly improving the time-sensitivity of large-scale transactions.
-* **Efficient Asset Swap**\
-  Capable of rapidly and synchronously swapping tokens across multiple independent addresses into a designated unified token, meeting various high-frequency, large-volume asset circulation needs.
-* **Flexible Parameter Configuration**\
-  Supports customizing trading scales for different wallet addresses, precisely matching various complex multi-address automated trading strategies.
-* **Local Secure Environment**\
-  Utilizes a pure front-end, local execution mechanism where private keys are only used locally for transaction signing, guaranteeing the absolute security of multi-wallet assets while exponentially boosting trading efficiency.
+* **极速并发执行：**&#x652F;持一键启动多钱包同步兑换指令，彻底免去人工频繁切换地址与重复签名的繁琐流程，大幅提升大规模交易的时效性。
+* **高效资产兑换：**&#x80FD;够快速将多个独立地址中的代币同步兑换为指定的统一代币，满足各类高频、大体量的资产流转需求。
+* **灵活参数配置：**&#x652F;持为不同钱包地址自定义交易规模，精准匹配各类复杂的多地址自动化交易策略。
+* **本地安全环境：**&#x91C7;用纯前端本地执行机制，私钥仅在本地环境中用于交易签名，在极速提升交易效率的同时，全方位保障多钱包资产的绝对安全。
 
 ***
 
-## **Step by Step |** PumpFun Batch Swap
+## **图文指南 |** PumpFun 批量交易
 
 {% stepper %}
 {% step %}
-### Connect Wallet
+### **绑定钱包**
 
-Click the button in the top right corner to connect a wallet that supports the Solana network.
+点击右上角按钮，绑定支持 Solana 链的钱包
 
-<figure><img src="../../../.gitbook/assets/image (799).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (308).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Select Swap Token
+### 选择兑换代币
 
-You can choose to enter the token address, or select a token currently owned by your wallet to perform the buy operation. Click the middle arrow to quickly switch the swap direction.
+可以选择输入代币地址，也可以选择当前钱包拥有的代币进行买入操作。点击中间箭头可快速切换兑换目标。
 
-<figure><img src="../../../.gitbook/assets/image (800).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (367).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Input Trading Wallet Private Key
+### 导入交易钱包私钥
 
 {% hint style="danger" %}
-<mark style="color:$danger;">**Security Tips**</mark>
+<mark style="color:$danger;">**安全须知**</mark>
 
-Currently supports private key import only. Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
+当&#x524D;**「批量交易」**&#x529F;能仅支持 私钥导入以进行兑换操作。请确保在安全环境下输入私钥信息，您的资金安全对我们来说至关重要，[**了解更多 CiaoTool 如何保障您的资金安全：资金安全保障**](../../../security-guide.md)**。**
 {% endhint %}
 
 {% hint style="info" %}
-<mark style="color:$primary;">**Trading Wallet Setting**</mark>
+<mark style="color:$primary;">**交易钱包设置**</mark>
 
-There are no quantity limits on importing wallets for **PumpFun Batch Swap**. Transaction fees are paid independently by each wallet.
+**PumpFun 批量交易**导入钱包没有数量限制。交易手续费由每个钱包独立支付。
 {% endhint %}
 
-Supports two methods for importing sending private key: **"Manual Input"** and **"Upload File"**. Select an option to view the detailed tutorial.
+支&#x6301;**「手动输入」**&#x548C;**「上传文件」**&#x4E24;种导入钱包私钥的类型，选择以查看详细教程
 
 {% tabs %}
-{% tab title="Manual Input" %}
-1. Click the **"Manual Input"** button to open the input field.
+{% tab title="手动输入" %}
+1. 点&#x51FB;**「手动输入」**&#x6309;钮，弹出手动输入框。
 
-<figure><img src="../../../.gitbook/assets/image (802).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (358).png" alt=""><figcaption></figcaption></figure>
 
-2. Enter / bulk paste private keys, one private key per line. Press Enter to start a new line.
+<figure><img src="../../../.gitbook/assets/image (310).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (801).png" alt=""><figcaption></figcaption></figure>
+2. 输入 / 批量粘贴**钱包私钥，**&#x4E00;行仅输入一个私钥，按回车键换行
 
-3. Click **"OK"** to import all entered addresses into the operation panel.
+<figure><img src="../../../.gitbook/assets/image (263).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (807).png" alt=""><figcaption></figcaption></figure>
+3. 点&#x51FB;**「确定」**，将所有输入地址导入到操作面板
+
+<figure><img src="../../../.gitbook/assets/image (362).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
-{% tab title="Upload File" %}
-1. Click the **"Upload File"** button to open the file upload window.
+{% tab title="上传文件" %}
+1. 点&#x51FB;**「手动输入」**&#x6309;钮，弹出文件上传窗口。
 
-<figure><img src="../../../.gitbook/assets/image (803).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (359).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (804).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (251).png" alt=""><figcaption></figcaption></figure>
 
-2. Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.   \
-   Click to download and view the template:
+2. 导入钱包私钥信息文件，显示私钥信息。\
+   请通过 CiaoTool 模板文件导入，以确保私钥准确导入。
 
-{% file src="../../../.gitbook/assets/Solana_privateKey_demo.xlsx" %}
+<figure><img src="../../../.gitbook/assets/image (317).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (805).png" alt=""><figcaption></figcaption></figure>
+3. 点&#x51FB;**「确定」**，将所有输入地址导入到操作面板
 
-3. Click **"OK"** to import all entered addresses into the operation panel.
-
-<figure><img src="../../../.gitbook/assets/image (806).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (361).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 {% endstep %}
 
 {% step %}
-### Enter Buy Amount <a href="#enter-transfer-amount" id="enter-transfer-amount"></a>
+### 输入买入金额
 
-<figure><img src="../../../.gitbook/assets/image (712).png" alt=""><figcaption></figcaption></figure>
+支&#x6301;**「逐一输入」「全部金额」「固定金额」「随机金额」「随机百分比」**&#x4E94;种转账金额类型。
 
-Support **Custom Input, All Amount, Fixed Amount, Random Amount and Random Percentage.**
+1. **逐一输入**\
+   在输入框中，逐一输入买入金额数量
 
-1. **Custom Input**\
-   Enter the transfer amount for each wallet individually.
-   * If an amount is filled in, the transfer will use that specific amount.
-   * If an amount is left blank, the transfer will default to the amount configured in the global settings.
-2. **All Amount**\
-   All wallets will swap 100% of their token holdings into the designated token.
-3. **Fixed Amount**\
-   All wallets will swap an identical, specified amount of tokens into the designated token.
-4. **Random Amount**\
-   All wallets will swap a randomized amount of tokens within a preset range into the designated token.
-5. **Random Percentage**\
-   All wallets will swap a randomized percentage of each wallet's remaining balance within a preset range into the designated token.
+* 若填写数量，则按照填写的数量进行交易。
+* 若未填写数量，则按照交易数量中  设置的数量进行交易。
+
+2. **全部金额**\
+   所有钱包将把代币全部兑换为指定代币。
+3. **固定金额**\
+   所有钱包根据同一数量将代币全部兑换为指定代币。
+4. **随机金额**\
+   所有钱包根据设定范围，将随机数量的代币全部兑换为指定代币。
+5. **随机百分比**\
+   所有钱包根据设定范围，将各钱包余额百分比的代币全部兑换为指定代币。
 {% endstep %}
 
 {% step %}
-### Confirm
+### 确认交易
 
-After verifying all details, click the **"Start Batch Transactions"** button below and wait for the transaction process to complete.
+确认信息无误后，点击下&#x65B9;**「开始」**&#x6309;钮，并等交易程序完成。
 {% endstep %}
 {% endstepper %}
 
-## Common Failure Cases
+## **常见失败案例**
 
-* Slippage set too low, causing the pair price to exceed the specified range.
-* Insufficient liquidity, causing severe price volatility.
-* Jito tip set too low, resulting in being front-run by MEV bots.
+* 滑点设置过低，币对价格超出额定范围
+* 流动性不足，价格波动剧烈
+* Jito 小费设置过低，被 MEV 机器人抢跑
 
 ***
 
-## **FAQs**
+## **常见问题 FAQ**
 
 <details>
 
-<summary><strong>What is PumpFun Batch Swap?</strong></summary>
+<summary><strong>什么是 PumpFun 批量交易？</strong></summary>
 
-Batch Swap refers to the automated execution of buy or sell operations across multiple addresses to complete token swaps within a preset slippage range. This feature is primarily used for rapid portfolio rebalancing or asset conversion of large-scale funds, maximizing execution efficiency while minimizing losses caused by slippage.
+批量交易是指通过多地址自动执行买入或卖出操作，在设定的滑点范围内完成代币交换。该功能主要用于大规模资金的快速换仓或资产转换，在保证成交效率的同时尽量降低因滑点带来的损耗。
 
 </details>
 
 <details>
 
-<summary><strong>Is the operation secure?</strong></summary>
+<summary><strong>操作是否安全？</strong></summary>
 
-CiaoTool uses a fully client-side signing mechanism. Your private key is never uploaded or stored on any server, and all transactions are signed locally in your browser. This ensures, at a technical level, that the platform has no access to your private key.
+平台采用纯前端签名机制，您的私钥绝不会被上传或储存在任何服务器上，所有交易均在本地浏览器完成签名，从技术层面确保平台无法访问您的私钥。
 
 </details>
 
-***
+**💬 如遇到问题？加入社群实时咨询**：[https://t.me/ciaotool](https://t.me/ciaotool)
 
-**Need help? Join our community for real-time support:**
-
-<table data-header-hidden><thead><tr><th width="188"></th><th valign="top"></th><th data-hidden></th></tr></thead><tbody><tr><td>Email</td><td valign="top"><a href="mailto:ciaotoolglobal@gmail.com">ciaotoolglobal@gmail.com</a></td><td></td></tr><tr><td>Telegram</td><td valign="top"><a href="https://t.me/ciaotools">https://t.me/ciaotools</a></td><td></td></tr><tr><td>WhatsApp</td><td valign="top"><a href="https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J">https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J</a></td><td></td></tr></tbody></table>
+* **Email**：[support@ciaotool.io](mailto:support@ciaotool.io)
+* **官网**：[https://ciaotool.io](https://ciaotool.io/)
+* **X（Twitter）**：[https://x.com/CiaoTool](https://x.com/CiaoTool)
+* **Medium**： [https://medium.com/@ciaotool](https://medium.com/@ciaotool)
+* **Blog**：[https://www.ciaoailiquidity.com/zh/blog](https://www.ciaoailiquidity.com/zh/blog)
+* **YouTube**：[https://www.youtube.com/@CiaoTool](https://www.youtube.com/@CiaoTool)
+* **WhatsApp**：[https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J](https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J)
 
 {% hint style="danger" %}
-CiaoTool is committed to providing convenient tooling services but does not offer any form of investment advice. Platform content may change with product iterations. Users are advised to exercise judgment and stay informed about updates.
+CiaoTool 致力于提供便捷的工具服务，但不构成任何投资建议。平台内容可能根据产品迭代进行调整，敬请用户自行判断并留意更新。
 {% endhint %}

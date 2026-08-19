@@ -1,82 +1,88 @@
 ---
-description: >-
-  Conveniently and permanently remove tokens from circulation to increase their
-  scarcity or as part of a project commitment, thereby enhancing your project’s
-  economic model.
+description: 便捷的永久移除流通中的代币，以提升代币的稀缺性或作为项目承诺的一部分，从而增强您的项目经济模型。
 ---
 
-# Solana - Burn Token Tutorial
+# Solana - 燃烧代币教程
 
 {% hint style="success" %}
-**Solana Burn Token：**[https://ciaotool.io/en-US/token/burn](https://ciaotool.io/en-US/token/burn)
+**Solana 燃烧代币:** [https://ciaotool.io/zh-CN/token/burn](https://ciaotool.io/zh-CN/token/burn)
 {% endhint %}
 
-## What is Token Burning on Solana?
+#### **🎯 什么是 Solana 燃烧代币？**
 
-Token burning on Solana refers to permanently removing tokens from circulation, making them permanently unavailable for circulation or use, thereby reducing the total supply. This operation is typically achieved by destroying tokens and requires a wallet holding the relevant burn permissions to execute. Burning tokens not only enhances scarcity but also serves as a reflection of project commitment or economic model optimization.
+Solana 燃烧代币是指将流通中的代币永久移除，使其不可再流通或使用，从而降低总供应量。这一操作通常通过销毁代币实现，需要持有 **Burn 权限** 的钱包才能执行。燃烧代币不仅可以提升稀缺性，还能作为项目承诺或经济模型优化的一部分。
 
-**Common Uses:**
+**常见用途：**
 
-* Enhancing Scarcity: Reducing supply to potentially boost token value.
-* Market Signaling: Demonstrating the project team's commitment or fairness.
-* Strategic Market Control: Adjusting market supply distribution in coordination with liquidity management.
-* Airdrop Reclaiming: Destroying unclaimed or reclaimed reward tokens.
-* Project Governance: Achieving periodic inflation control or economic model optimization.
+* 提升稀缺性：减少供应，潜在提升代币价值
+* 市场信号：显示项目方承诺或公平性
+* 策略控盘：配合流动性管理调整市场筹码
+* 空投回收：销毁未领取或回收的奖励代币
+* 项目治理：实现阶段性通胀控制或经济模型优化
 
-## How to Burn Tokens on Solana?
+#### 🔥 **Solana 如何燃烧代币？**
 
-* You can redirect directly from the [Token Management page](https://ciaotool.io/en-US/token/management) (if there is a token balance, the burn button will be displayed).
-* Enter the [Burn Token page](https://ciaotool.io/en-US/token/burn) directly, select the token you need to burn, input the burn amount, and click the operation button below.
+1. 可以从[代币管理](https://ciaotool.io/zh-CN/token/management)页直接跳&#x8F6C;**（若有代币余额，将显示燃烧按钮）**
+2. 直接进入[燃烧代币](https://ciaotool.io/zh-CN/token/burn)页，选择需要燃烧的代币，输入燃烧数量，点击下方操作按钮即可
 
-<figure><img src="../../../.gitbook/assets/image (772).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (301).png" alt=""><figcaption></figcaption></figure>
 
-## Token Burning Transaction Process
+#### ⛓️ **燃烧代币交易流程**
 
-* When the task begins execution, a log pop-up will appear to update you on the transaction progress in real time. (Requires one transaction signature).
-* If an issue occurs at any stage, we will clearly display it to you. No fees will be charged for failed operations.
+* 任务开始执行时，会出现日志弹框为您实时更新交易进度。（需要一次交易签名）
 
-<figure><img src="../../../.gitbook/assets/image (773).png" alt=""><figcaption></figcaption></figure>
+![](https://docs.dogtools.meme/~gitbook/image?url=https%3A%2F%2F4028514454-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Ft1j9LpucEChNmzQ1XqQO%252Fuploads%252FXeeLJe4zNeykTEOviIGz%252Fimage.png%3Falt%3Dmedia%26token%3D70040d64-762e-40d0-a678-df4356c88659\&width=768\&dpr=4\&quality=100\&sign=b391782a\&sv=2)
 
-## Common Failure Cases
+* 任何环节出了问题，我们都会为你清晰透出。操作失败不会收取任何费用。
 
-* The Burn Authority is not held, making it impossible to execute the burn.
-* Incorrect burn amount; attempting to burn too much or too little.
-* Token destruction failed due to an incorrect address or wallet.
-* The transaction failed or was not confirmed on-chain, leading to a false assumption that the burn was successful.
-* The burn operation affected the liquidity pool, causing price anomalies.
+**⚠️ 常见失败案例**
 
-## Frequently Asked Questions <a href="#frequently-asked-questions" id="frequently-asked-questions"></a>
+* 未持有 Burn 权限，无法执行燃烧
+* 燃烧数量错误，操作过多或过少
+* 地址或钱包错误导致代币未被成功销毁
+* 交易失败或未上链，误以为已燃烧
+* 燃烧操作影响流动性池，引发价格异常
 
-**1. What is token burning?**
+#### ❓ 常见问题 <a href="#chang-jian-wen-ti" id="chang-jian-wen-ti"></a>
 
-* **Answer:** Token burning refers to **permanently destroying** a certain amount of tokens to reduce the circulating supply.
+**1. 什么是代币燃烧？**
 
-**2. How does burning tokens impact a project?**
+* [x] 答：代币燃烧是指将一定数量的代币永久销毁，减少流通供应。
 
-* **Answer:** Burning increases **token scarcity**, which can boost market confidence and perceived project value.
+**2. 代币燃烧对项目有何影响？**
 
-**3. Can a burn operation be reversed?**
+* [x] 答：燃烧可以提升代币稀缺性，增强市场信心和项目价值。
 
-* **Answer:** **No**, once burned, tokens are **permanently removed** and cannot be recovered.
+**3. 燃烧操作是否可以撤销？**
 
-**4. How do I burn tokens using CiaoTool?**
+* [x] 答：不可以，燃烧后代币被永久移除，无法恢复。
 
-* **Answer:** Use the **Token Management** feature, enter the burn amount, and **sign the transaction** to complete the process.
+**4. 如何在 CiaoTool 上执行代币燃烧？**
 
-**5. Does burning tokens incur a fee?**
+* [x] 答：通过代币管理功能选择燃烧数量，确认后签名即可完成。
 
-* **Answer:** Yes, burning tokens incurs a **standard on-chain transaction fee**.
+**5. 燃烧代币是否会产生手续费？**
 
-💬 **Need help? Join our community for real-time support:** [https://t.me/ciaotool](https://t.me/ciaotool)
+* [x] 答：是的，燃烧操作会产生正常的链上交易手续费。
 
-* **Email:** [support@ciaotool.io](mailto:support@ciaotool.io)
-* **Website:** [https://ciaotool.io](https://ciaotool.io/)
-* **X (Twitter):** [https://x.com/CiaoTool](https://x.com/CiaoTool)
-* **Blog**: [https://www.ciaoailiquidity.com/blog](https://www.ciaoailiquidity.com/blog)
-* **Medium:** [https://medium.com/@ciaotool](https://medium.com/@ciaotool)
-* **YouTube:** [https://www.youtube.com/@CiaoTool](https://www.youtube.com/@CiaoTool)
-* **WhatsApp：**[https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J](https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J)
+**6. 燃烧是否会直接拉升价格？**
+
+* [x] 答：燃烧本身不保证价格上涨，但减少供应可能产生稀缺效应。
+
+**🔰 更多快捷工具 & 指南**
+
+《 [Solana 代币管理](https://ciaotool.io/zh-CN/token/management) 》《 [Solana 一键清仓](https://ciaotool.io/zh-CN/wallet/manage/one-click-clearance) 》
+
+**💬 如遇到问题？加入社群实时咨询**：[https://t.me/ciaotool](https://t.me/ciaotool)
+
+* **Email**：[support@ciaotool.io](mailto:support@ciaotool.io)
+* **官网**：[https://ciaotool.io](https://ciaotool.io/)
+* **X（Twitter）**：[https://x.com/CiaoTool](https://x.com/CiaoTool)
+* **Medium**： [https://medium.com/@ciaotool](https://medium.com/@ciaotool)
+* **Blog**：[https://www.ciaoailiquidity.com/zh/blog](https://www.ciaoailiquidity.com/zh/blog)
+* **YouTube**：[https://www.youtube.com/@CiaoTool](https://www.youtube.com/@CiaoTool)
+* **WhatsApp**：[https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J](https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J)
 
 {% hint style="danger" %}
-**Note:** CiaoTool is committed to providing convenient tooling services but does not offer any form of investment advice. Platform content may change with product iterations. Users are advised to exercise judgment and stay informed about updates.
+CiaoTool 致力于提供便捷的工具服务，但不构成任何投资建议。平台内容可能根据产品迭代进行调整，敬请用户自行判断并留意更新。
 {% endhint %}

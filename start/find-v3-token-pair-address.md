@@ -1,189 +1,180 @@
 ---
-description: >-
-  Learn how to find and verify the correct V3 Pool Address using DEXTools. Check
-  the network, DEX, token pair, protocol version, fee tier, and liquidity before
-  using CiaoTool V3 tools.
+description: 同一个代币交易对可能存在多个不同手续费等级的 V3 Pool。每个 Pool 都有独立的合约地址、流动性深度、价格和交易活动。
 ---
 
-# How to Find a V3 Pool Address | CiaoTool Guide
+# 如何查找 V3 币对地址教程 | CiaoTool
 
-## What Is a V3 Pool Address?
+## 什么是 V3 Pool Address？
 
-A V3 Pool Address is the smart-contract address of a specific V3 liquidity pool. It is determined by the following information:
+V3 Pool Address 是某个特定 V3 流动性池的智能合约地址，由以下条件共同确定：
 
-* Blockchain network;
-* DEX and protocol version;
-* Token0;
-* Token1;
-* Fee tier.
+* 所属区块链网络；
+* DEX 和协议版本；
+* Token0；
+* Token1；
+* 手续费等级。
 
-Unlike V2, the same two tokens may have multiple V3 pools with different fee tiers. For example, Token A and Token B may have separate V3 pools using 0.01%, 0.05%, 0.30%, or 1.00% fee tiers.
+与 V2 不同，同一组代币可能存在多个不同手续费等级的 V3 Pool。例如，Token A 和 Token B 可能分别存在 0.01%、0.05%、0.30% 或 1.00% 手续费等级的 V3 Pool。
 
-Each of these pools has a different Pool Address, liquidity depth, current price, trading activity, and execution result.
+这些 Pool 分别拥有不同的 Pool Address、流动性深度、当前价格、交易活动和成交结果。
 
-Under the V3 contract architecture, a pool is defined by two tokens and a fee tier. Therefore, the same token pair can have multiple pools with different fee tiers.
-
-[Learn more about the Uniswap V3 architecture](https://developers.uniswap.org/docs/protocols/v3/concepts/architecture).
+根据 V3 的合约架构，一个 Pool 由两种代币和手续费等级共同确定。因此，同一交易对可以存在多个手续费等级不同的 Pool。[查看 Uniswap V3 架构说明](https://developers.uniswap.org/docs/protocols/v3/concepts/architecture)。
 
 ***
 
-## Why Must You Use the Exact Pool Address?
+## 为什么必须使用准确的 Pool Address？
 
-When a V3 tool asks for a Pool Address, entering only the token contract address is not enough.
+当 V3 工具要求输入 Pool Address 时，仅输入代币合约地址是不够的。
 
-The exact Pool Address helps CiaoTool determine which liquidity pool should be used to:
+准确的 Pool Address 可以帮助 CiaoTool 确定需要使用哪个流动性池，从而：
 
-* Read the current pool price;
-* Identify Token0 and Token1;
-* Confirm the fee tier;
-* Estimate liquidity and price impact;
-* Build the Swap route;
-* Submit the transaction to the intended pool.
+* 读取池子当前价格；
+* 识别 Token0 和 Token1；
+* 确认手续费等级；
+* 估算流动性和价格影响；
+* 构建 Swap 路径；
+* 将交易提交至目标 Pool。
 
-If the wrong Pool Address is entered, the page may load the wrong token pair, select an unintended fee tier, display incorrect market information, or fail to submit the transaction.
-
-***
-
-## Before You Start
-
-Prepare the following information:
-
-* Target blockchain network;
-* Base-token contract address;
-* Quote-token contract address;
-* Target DEX;
-* Protocol version, such as V3;
-* Target fee tier.
-
-Always search using the exact **token contract address** instead of only the token name or symbol. Different tokens may use identical names and symbols.
+如果输入错误的 Pool Address，页面可能加载错误的代币交易对、选择非预期的手续费等级、显示错误的市场数据，或者无法正常提交交易。
 
 ***
 
-## Step-by-Step Guide
+## 开始前准备
 
-Many third-party on-chain data tools can quickly display all liquidity pools currently associated with a token.
+请提前准备以下信息：
 
-In this guide, we use **DEXTools** as an example. By searching for the token contract address, users can compare the token’s pools across different blockchain networks, DEXs, protocol versions, quote tokens, and fee tiers.
+* 目标区块链网络；
+* 基础代币合约地址；
+* 报价代币合约地址；
+* 目标 DEX；
+* 协议版本，例如 V3；
+* 目标手续费等级。
+
+请始终使用准确的**代币合约地址**进行搜索，不要只搜索代币名称或符号。不同代币可能使用完全相同的名称和符号。
+
+***
+
+## 分步式教程
+
+许多第三方链上数据工具都可以快速查询某个代币当前存在的全部流动性池。
+
+本教程将以 **DEXTools** 为例，用户只需搜索代币合约地址，即可比较该代币在不同区块链网络、DEX、协议版本、报价代币和手续费等级下的 Pool。
 
 {% stepper %}
 {% step %}
-### Open DEXTools
+### 打开 DEXTools
 
-Visit the official DEXTools website:
+访问 DEXTools 官方网站
 
-<figure><img src="../.gitbook/assets/image (1101).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (689).png" alt=""><figcaption></figcaption></figure>
 
 {% embed url="https://www.dextools.io/app/hot-pairs" %}
 {% endstep %}
 
 {% step %}
-### Select the Correct Network
+### 选择正确的网络
 
-Select the blockchain network where the target V3 Pool is deployed.
+选择目标 V3 Pool 所在的区块链网络。
 
-Tokens with the same name or similar address formats may appear on different networks. Make sure the network selected in DEXTools matches the network currently used by CiaoTool.
+相同的代币名称或相似格式的合约地址可能出现在不同网络中。请确保 DEXTools 当前选择的网络与 CiaoTool 使用的网络一致。
 
-<figure><img src="../.gitbook/assets/image (1102).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (690).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Search the Token Contract Address
+### 搜索代币合约地址
 
-Paste the exact token contract address into the DEXTools search box.
+将准确的代币合约地址粘贴到 DEXTools 搜索框中。
 
-Searching by contract address is more accurate than searching only by token name or symbol and can reduce the risk of selecting an unrelated or counterfeit token.
+与只搜索代币名称或符号相比，通过合约地址搜索更加准确，也可以降低选择仿冒代币的风险。
 
-After the results appear, verify:
+显示搜索结果后，请核对：
 
-* Token name;
-* Token symbol;
-* Token contract address.
+* 代币名称；
+* 代币符号；
+* 代币合约地址。
 {% endstep %}
 
 {% step %}
-### View All Available Pools
+### 查看代币的全部池子
 
-Select the target token and open its corresponding Pair Explorer page.
+选择目标代币，并进入对应的 Pair Explorer 页面。
 
-<figure><img src="../.gitbook/assets/image (1103).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (691).png" alt=""><figcaption></figcaption></figure>
 
-DEXTools may display one active or recommended trading pair first. To view the token’s other pools, open the pool-selection area, select **Other Pairs**, or click the binoculars icon near the pool information.
+DEXTools 可能会优先显示其中一个活跃或推荐交易对。如需查看该代币的其他 Pool，可以打开 Pool 选择区域、**Other Pairs**，或者点击 Pool 信息附近的望远镜图标。
 
-The exact button name or location may change when DEXTools updates its interface.
+DEXTools 更新界面后，按钮的名称或位置可能发生变化。
 
-<figure><img src="../.gitbook/assets/image (1104).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (692).png" alt=""><figcaption></figcaption></figure>
 
-Compare the available pools based on:
+请根据以下信息比较可用 Pool：
 
-* DEX name;
-* Protocol version;
-* Quote token;
-* Liquidity;
-* Trading volume;
-* Pool creation time;
-* Fee tier, if displayed.
+* DEX 名称；
+* 协议版本；
+* 报价代币；
+* 流动性；
+* 交易量；
+* Pool 创建时间；
+* 手续费等级，如页面显示。
 {% endstep %}
 
 {% step %}
-### Copy the Pair Address
+### 复制 Pair Address
 
-Find the Pool that exactly matches the current CiaoTool task.
+找到与 CiaoTool 当前任务完全对应的 Pool。
 
-<figure><img src="../.gitbook/assets/image (1105).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (693).png" alt=""><figcaption></figcaption></figure>
 
-Confirm that:
+请确认：
 
-* The blockchain network is correct;
-* The Pool belongs to the intended DEX;
-* The protocol version is V3;
-* Both token contract addresses are correct;
-* The quote token is correct;
-* The fee tier is correct;
-* The Pool has the expected liquidity.
+* 区块链网络正确；
+* Pool 属于目标 DEX；
+* 协议版本为 V3；
+* 两种代币的合约地址正确；
+* 报价代币正确；
+* 手续费等级正确；
+* Pool 拥有符合预期的流动性。
 
-Do not select a Pool only because it has the highest volume or liquidity. The Pool Address must first match the network, DEX, token pair, protocol version, and fee tier required by the task.
-
-After confirming the correct Pool, locate and copy its **Pair Address** from the Pair Explorer page. For a V3 Pool, this Pair Address is the Pool Address required by CiaoTool.
-
-Do not copy the token contract address displayed on the same page.
+请勿仅因为某个 Pool 的交易量或流动性最高就直接选择。Pool Address 必须首先与任务所需的网络、DEX、代币交易对、协议版本和手续费等级完全一致。
 {% endstep %}
 
 {% step %}
-### Enter the Pool Address in CiaoTool
+### 将币对输入 CiaoTool
 
-Return to the corresponding CiaoTool V3 page and paste the copied Pair Address into the Pool Address field.
+返回对应的 CiaoTool V3 功能页面，将复制的币对地址粘贴到输入框中。
 
-<figure><img src="../.gitbook/assets/image (1106).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (694).png" alt=""><figcaption></figcaption></figure>
 
-After the page loads the Pool, review the information detected by CiaoTool:
+页面加载 Pool 后，请检查 CiaoTool 识别出的信息：
 
-* Token pair;
-* Token symbols;
-* Fee tier;
-* Current price;
-* Pool liquidity;
-* Buy or sell direction.
+* 代币交易对；
+* 代币符号；
+* 手续费等级；
+* 当前价格；
+* Pool 流动性；
+* 买入或卖出方向。
 
-Only continue after the displayed information completely matches the Pool selected in DEXTools.
+只有当页面显示的信息与 DEXTools 中选择的 Pool 完全一致时，才继续下一步操作。
 {% endstep %}
 {% endstepper %}
 
 ***
 
-## Common Mistakes
+## 常见错误
 
-#### Copying the Token Address
+#### 复制了代币地址
 
-A token contract address identifies only one token. It does not identify a specific V3 liquidity pool.
+代币合约地址只代表一种代币，并不能代表具体的 V3 流动性池。
 
-#### Selecting the Wrong Network
+#### 选择了错误的网络
 
-Tokens with the same name may appear on multiple blockchain networks.
+相同名称的代币可能出现在多个区块链网络中。
 
-#### Selecting the Wrong DEX
+#### 选择了错误的 DEX
 
-The same token may have liquidity pools on multiple DEXs. Different DEXs use different Pool contracts.
+同一个代币可能在多个 DEX 上拥有流动性池，不同 DEX 使用不同的 Pool 合约。
 
-#### Selecting a V2 or V4 Pool
+#### 选择了 V2 或 V4 Pool
 
-DEXTools may display pools from multiple protocol versions at the same time. Make sure the selected Pool uses V3.
+DEXTools 可能会同时显示多个协议版本的 Pool。

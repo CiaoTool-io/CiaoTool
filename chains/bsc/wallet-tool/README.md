@@ -2,5 +2,5 @@
 icon: '3'
 ---
 
-# BSC - Wallet Tools
+# BSC - 钱包工具
 

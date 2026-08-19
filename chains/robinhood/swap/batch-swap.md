@@ -1,249 +1,239 @@
 ---
 description: >-
-  A multi-wallet batch swap tool for Uniswap V2 and V3. Enables multiple wallets
-  to swap tokens into a target token simultaneously, improving trading
-  efficiency and execution speed.
+  专为 Uniswap 平台提供的多地址批量兑换与交易执行工具，完美适配 Uniswap V2 与 V3
+  机制。支持快速将多个地址内的代币同步兑换为指定代币，大幅提升交易效率与时效性，特别适用于需要快速执行大量交易的场景。
 ---
 
-# Robinhood - Batch Swap Guide
+# Robinhood - 批量交易教程
 
 {% hint style="info" %}
-**CiaoTool Uniswap Market Making Bot** supports all **V2 and V3** liquidity pool types on Robinhood Chain. Please switch to the corresponding pool page to perform market-making operations based on your needs.
+**CiaoTool Uniswap 批量交易**现已全面支持 **V2 / V3** 全部的流动性池类型，请先切换到指定池子功能页面进行市值管理操作，满足不同场景下的快捷做市服务。
 {% endhint %}
 
-## What is CiaoTool Robinhood Batch Swap? <a href="#what-is-coinfactory-solana-multisender" id="what-is-coinfactory-solana-multisender"></a>
+## CiaoTool Robinhood 批量交易是什么？
 
-<figure><picture><source srcset="../../../.gitbook/assets/屏幕截图 2026-07-21 140848.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/ScreenShot_2026-07-23_141346_461.png" alt="CiaoTool Robinhood Chain Toolkit about Uniswap Batch Swap Tool page"></picture><figcaption></figcaption></figure>
+<figure><picture><source srcset="../../../.gitbook/assets/ScreenShot_2026-07-22_181313_243.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (664).png" alt="CiaoTool Robinhood链 Uniswap 批量交易页面"></picture><figcaption></figcaption></figure>
 
-CiaoTool Robinhood Chain Batch Swap is a multi-wallet trading tool that allows users to execute the same buy or sell task across multiple user-controlled wallets.
+CiaoTool Robinhood Chain Batch Swap 是一款多钱包批量交易工具，支持通过多个由用户控制的钱包执行相同的买入或卖出任务。
 
-Instead of repeatedly switching wallets and submitting transactions manually, users can import up to 20 trading wallets, select a Uniswap V2 or V3 pool, and configure the trade amount, slippage, transaction priority, and timeout from one interface.
+用户无需反复切换钱包和手动提交交易，即可通过一个页面导入最多 20 个交易钱包、选择 Uniswap V2 或 V3 流动性池，并统一设置交易金额、滑点、交易优先级和超时时间。
 
-Batch Swap is designed for efficient, one-time asset conversion. It reduces repetitive operations, applies consistent settings across selected wallets, and makes large-scale buying or selling easier to manage.
+Batch Swap 主要用于一次性批量完成资产兑换。它可以减少重复操作，为多个钱包应用一致的交易参数，让大规模买入或卖出更加高效、便捷。
 
-### Common Use Cases
+### 常见用例
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><strong>Multi-Wallet Batch Buying</strong></td><td>Buy a selected token through multiple wallets without switching and confirming each wallet manually.</td></tr><tr><td><strong>Multi-Wallet Batch Selling</strong></td><td>Sell a selected token from multiple wallets using consistent amount and execution settings.</td></tr><tr><td><strong>Fast Asset Conversion</strong></td><td>Convert assets across multiple wallets through one configurable batch task.</td></tr><tr><td><strong>Wallet Position Adjustment</strong></td><td>Use Fixed Amount, Fixed Retain, or All Balance mode to adjust token positions across selected wallets.</td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><strong>多钱包批量买入</strong></td><td>通过多个钱包批量买入指定代币，无需逐个切换钱包和手动确认交易。</td></tr><tr><td><strong>多钱包批量卖出</strong></td><td>使用统一的金额和执行参数，通过多个钱包批量卖出指定代币。</td></tr><tr><td><strong>快速资产转换</strong></td><td>通过一个批量任务完成多个钱包的资产兑换，提高整体执行效率。</td></tr><tr><td><strong>钱包仓位调整</strong></td><td>使用固定金额、固定保留或全部余额模式，调整多个钱包中的代币仓位。</td></tr><tr><td><strong>代币上线操作</strong></td><td>在获得授权并符合相关规则的情况下，执行代币上线或流动性管理过程中的多钱包批量买入或卖出任务。</td></tr></tbody></table>
 
-### Quick Start
+### 快速使用
 
-Start your Batch Swap on Robinhood Chain with CiaoTool now:
+立即在 Robinhood 链上，用 CiaoTool 进行批量兑换操作：
 
-{% embed url="https://robinhood.ciaotool.io/en/swap/v2/batch-swap-v2" %}
+{% embed url="https://robinhood.ciaotool.io/zh-Hans/swap/v2/batch-swap-v2" %}
 
-{% embed url="https://robinhood.ciaotool.io/en/swap/v3/batch-swap-v3" %}
-
-***
-
-## Why Choose CiaoTool Robinhood Batch Swap? <a href="#why-use-coinfactory-multisender-for-solana" id="why-use-coinfactory-multisender-for-solana"></a>
-
-CiaoTool helps users complete multi-wallet token purchases and sales on Robinhood Chain without repeatedly switching wallets or submitting each transaction manually.
-
-With support for eligible Uniswap V2 and V3 pools, up to 20 trading wallets, flexible amount modes, slippage settings, timeout controls, and secure local browser signing, CiaoTool makes batch trading faster and easier to manage while keeping transaction settings under the user’s control.
-
-* **Multi-Wallet Execution:** Manage buy or sell transactions across up to 20 wallets from one batch task.
-* **Flexible Amount Modes:**  Choose Fixed Amount, Fixed Retain, or All Balance according to your asset-management requirements.
-* **Slippage Control:** Set the maximum acceptable difference between the expected and final execution price.
-* **Timeout Control:** Stop submitting new transactions after the configured execution window expires.
-* **Secure Local Signing:** Private-key processing and transaction signing remain within the user’s local browser environment.
-* **Lower Operational Workload:** Reduce repetitive wallet switching, parameter entry, and manual transaction submission.
+{% embed url="https://robinhood.ciaotool.io/zh-Hans/swap/v3/batch-swap-v3" %}
 
 ***
 
-## **Step by Step**
+## 为什么选择 CiaoTool Robinhood 市值管理？
+
+CiaoTool 帮助用户在 Robinhood Chain 上完成多钱包批量买入或卖出，无需反复切换钱包和逐笔手动提交交易。
+
+CiaoTool 支持符合条件的 Uniswap V2 和 V3 流动性池、最多 20 个交易钱包、多种金额模式、滑点设置、超时控制和浏览器本地安全签名，让批量交易更快速、更容易管理，同时所有交易参数仍由用户自主控制。
+
+* **多钱包批量执行：**&#x901A;过一个批量任务统一管理最多 20 个钱包的买入或卖出交易。
+* **灵活的金额模式：**&#x6839;据资产管理需求选择固定金额、固定保留或全部余额模式。
+* **滑点控制：**&#x8BBE;置预期价格与最终成交价格之间可接受的最大偏差。
+* **超时控制：**&#x8D85;过设定的任务执行时间后，停止提交新的交易。
+* **浏览器本地安全签名：**&#x79C1;钥处理和交易签名始终在用户当前浏览器的本地环境中完成。
+* **降低操作成本：**&#x51CF;少重复切换钱包、输入参数和手动提交交易所需的工作。
+
+***
+
+## **分步式教程**
 
 {% stepper %}
 {% step %}
-### **Connect Wallet**
+### **绑定钱包**
 
-Click the button in the top right corner to connect a wallet that supports the EVM network.
+点击右上角按钮，绑定支持 Robinhood 链的钱包
 
-<figure><img src="../../../.gitbook/assets/image (1058).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (656).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Enter Token Pair Address <a href="#enter-token-addresses" id="enter-token-addresses"></a>
+### 输入币对地址
 
 {% hint style="info" %}
-V2 / V3 layouts vary slightly. Click to switch and view the corresponding tutorial.
+V2 / V3 功能页面略有不同，点击下方按钮切换并显示 V2 / V3 教程。
 {% endhint %}
 
 {% tabs %}
 {% tab title="V2" %}
-Enter a token address or select from your wallet to buy.\
-Click the center arrow to quickly flip the swap direction.
+可以选择输入代币地址，也可以选择当前钱包拥有的代币进行买入操作。\
+点击中间箭头可快速切换兑换目标。
 
-<figure><img src="../../../.gitbook/assets/image (1071).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (657).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="V3" %}
-Unlike V2 liquidity pools, each V3 liquidity pool with a different token pair and fee tier has a unique pool address; please enter the correct pair address to select the swap pair.
+不同于 V2 流动性池，每个不同币对和税费的 V3 流动性池有专属的币对地址，请输入正确的币对地址以选择兑换币对。
 
-Click the center arrow to quickly flip the swap direction.
+点击中间箭头可快速切换兑换目标。
 
-<figure><img src="../../../.gitbook/assets/image (994).png" alt=""><figcaption></figcaption></figure>
-
-**Can’t find the V3 Pool Address?**
-
-{% content-ref url="../../../start/find-v3-token-pair-address.md" %}
-[find-v3-token-pair-address.md](../../../start/find-v3-token-pair-address.md)
-{% endcontent-ref %}
+<figure><img src="../../../.gitbook/assets/image (658).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 {% endstep %}
 
 {% step %}
-### Enter Payment Wallet Private Key
+### 输入支付钱包私钥
 
-Enter the paying wallet's private key. Enter the private key of the wallet that will be used to pay the service fees for swap operations.
+将用于支付市值操作手续费的钱包私钥导入。
 
-<figure><img src="../../../.gitbook/assets/image (1048).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (551).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Import Trading Wallet Private Key
+### 导入交易钱包私钥
 
 {% hint style="danger" %}
-<mark style="color:red;">**Security Tips**</mark>
+<mark style="color:$danger;">**安全须知**</mark>
 
-Currently supports private key import only. Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
+**「批量交易」**&#x529F;能多地址导入仅支持 私钥导入以进行兑换操作。请确保在安全环境下输入私钥信息，您的资金安全对我们来说至关重要，[**了解更多 CiaoTool 如何保障您的资金安全：资金安全保障**](../../../security-guide.md)**。**
 {% endhint %}
 
-Supports two import types for trading address private keys: "Manual Input" and "Upload File". No limit on address count.
+支&#x6301;**「手动输入」**&#x548C;**「上传文件」**&#x4E24;种导入交易地址私钥的类型。最多支持 20 个地址。
 
-1. Click the **"Import Private Key"** button to open the input pop-up.
+1. 点&#x51FB;**「导入私钥」**&#x6309;钮，弹出输入框。
 
-<figure><img src="../../../.gitbook/assets/image (1072).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (665).png" alt=""><figcaption></figcaption></figure>
 
-2. Manually enter or import the private key file, and click confirm once the private key is displayed in the confirmation box.
+2. 手动输入或导入私钥文件，确认框中显示私钥后点击确认。
 
-<figure><img src="../../../.gitbook/assets/image (1074).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (660).png" alt=""><figcaption></figcaption></figure>
 
-Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.\
-Click to download and view the template:
+使用 CiaoTool 模板文件导入，并保存确定导入并显示在输入框内。\
+点击下载并查看模板：
 
 {% file src="../../../.gitbook/assets/EVM_privateKey_demo.xlsx" %}
 {% endstep %}
 
 {% step %}
-### Enter Buy Amount
+### 输入买入金额
 
-Supports three trading amount types: **"Fixed Amount"**, **"Fixed Retain"**, and **"All Balance"**.
+支&#x6301;**「固定数量」「固定留存」「全部数量」三**种交易金额类型。
 
-<figure><img src="../../../.gitbook/assets/image (1051).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (661).png" alt=""><figcaption></figcaption></figure>
 
-1. **Fixed Amount**\
-   Swaps a set number of tokens across all wallets.
-2. **Fixed Retain**\
-   Keeps a set balance in wallets and swaps the rest.
-3. **All Balance**\
-   Swaps the entire wallet balance into the target token.
+1. **固定数量**\
+   所有钱包根据同一数量将代币全部兑换为指定代币。
+2. **固定留存**\
+   所有钱包留存指定数量代币，其余全部兑换为指定代币。
+3. **全部数量**\
+   所有钱包将把价值代币全部兑换为指定代币。
 {% endstep %}
 
 {% step %}
-### Trading Setting
+### 交易参数设置
 
 {% hint style="info" %}
-V2 / V3 layouts vary slightly. (Skip this step for V3).
+V2 / V3 功能页面略有不同，V3 跳过此步骤。
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (1076).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (666).png" alt=""><figcaption></figcaption></figure>
 
-**Slippage**\
-Set max slippage percentage.\
-The gap between execution and expected price. Too low may cause failed trades; too high exposes you to large price fluctuations.
+**滑点：**&#x5728;执行交易时，实际成交价格与预期价格之间的存在差距。如果滑点范围设置过小，可能会错过有利的交易机会；设置过大，则可能会承担较大的价格波动风险。
 
-**Timeout**\
-The maximum duration allowed for a trade to execute before the pending swap is cancelled.
+**超时时间：**&#x6307;交易的最长等待时间，若在此时间内未完成，则交易兑换进程停止。
 {% endstep %}
 
 {% step %}
-### **Confirm** <a href="#confirm" id="confirm"></a>
+### 确认交易
 
-After verifying all details, all applicable fees are displayed before execution.&#x20;
+提交任务前，请仔细核对所有参数。页面会在执行前显示所有适用费用。
 
-Click the **"Start Swap"** button below and wait for the transaction process to complete.
+确认信息无误后，点击下&#x65B9;**「开始交易」**&#x6309;钮，并等交易程序完成。
 
-<figure><img src="../../../.gitbook/assets/image (1075).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (663).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
 ***
 
-## **FAQs**
+## **常见问题 FAQ**
 
 <details>
 
-<summary><strong>What is Robinhood Chain Batch Swap?</strong></summary>
+<summary><strong>什么是 Robinhood Chain 批量交易？</strong></summary>
 
-Robinhood Chain Batch Swap lets users execute a one-time buy or sell task across multiple user-controlled wallets. Users configure the token or pool, trade direction, amount mode, slippage, transaction priority, and timeout before execution.
+Robinhood 链批量交易支持通过多个用户控制的钱包一次性执行批量买入或卖出。执行前，用户可以设置代币或池子、交易方向、金额模式、滑点和超时时间。
 
 </details>
 
 <details>
 
-<summary><strong>What is the difference between Batch Swap and Market Making?</strong></summary>
+<summary><strong>批量交易 和 市值管理 有什么区别？</strong></summary>
 
-Batch Swap is used for one-time bulk buying or selling. Market Making is used for continuous buy and sell execution over time.
-
-</details>
-
-<details>
-
-<summary><strong>Which Uniswap versions are supported?</strong></summary>
-
-CiaoTool supports eligible Uniswap V2 and V3 liquidity pools on Robinhood Chain. Select the page that matches your target pool.
+批量交易用于一次性批量买入或卖出；市值管理用于在一段时间内持续循环执行买入和卖出策略。
 
 </details>
 
 <details>
 
-<summary><strong>How many trading wallets can I import?</strong></summary>
+<summary><strong>支持哪些 Uniswap 池子？</strong></summary>
 
-Up to 20 trading wallets can be imported per task through manual input or a compatible private-key file.
-
-</details>
-
-<details>
-
-<summary><strong>Which token is used to pay Gas?</strong></summary>
-
-Robinhood Chain uses ETH as its native Gas token. Each trading wallet must hold enough ETH to submit and confirm its transactions.
+CiaoTool 支持 Robinhood Chain 上符合条件的 Uniswap V2 和 V3 流动性池。请根据目标池子的版本选择相应页面。
 
 </details>
 
 <details>
 
-<summary><strong>Why do I need to set slippage?</strong></summary>
+<summary><strong>最多可以导入多少个交易钱包？</strong></summary>
 
-Slippage controls the acceptable difference between the expected and final execution price. It helps users balance price protection and transaction-success probability.
-
-</details>
-
-<details>
-
-<summary><strong>What does the timeout setting do?</strong></summary>
-
-The timeout limits how long CiaoTool can continue submitting transactions for the batch task. After the timeout, no new transactions are submitted.
+单个任务最多可以通过手动输入或兼容格式的私钥文件导入 20 个交易钱包。
 
 </details>
 
 <details>
 
-<summary><strong>Is It Secure?</strong></summary>
+<summary><strong>使用什么代币支付 Gas？</strong></summary>
 
-The platform uses a fully client-side signing mechanism. Your private key is never uploaded or stored on any server, and all transactions are signed locally in your browser, ensuring the platform cannot access your private key.
+Robinhood Chain 使用 ETH 作为原生 Gas 代币。每个交易钱包都需要持有足够的 ETH 来提交和确认交易。
+
+</details>
+
+<details>
+
+<summary><strong>为什么需要设置滑点？</strong></summary>
+
+滑点用于控制预期价格与最终成交价格之间可接受的偏差，帮助用户在价格保护和交易成功概率之间取得平衡。
+
+</details>
+
+<details>
+
+<summary><strong>超时设置有什么作用？</strong></summary>
+
+超时设置用于限制 CiaoTool 可以继续为批量任务提交交易的时间。达到超时时间后，系统将不再提交新的交易。
+
+</details>
+
+<details>
+
+<summary><strong>CiaoTool 如何保护导入的私钥？</strong></summary>
+
+CiaoTool 采用完全客户端签名机制。私钥只在浏览器本地处理，不会被上传、传输、存储、记录或写入 Local Storage。关闭或刷新页面后，已导入的私钥数据将被清除。
 
 </details>
 
 ***
 
-## **Contact Us**
+## **联系我们**
 
-**Need help? Join our community for real-time support:**
+**如遇到问题？**&#x4F60;可以通过以下方即时联系 CiaoTool 团队：
 
 <table data-header-hidden><thead><tr><th width="188"></th><th valign="top"></th><th data-hidden></th></tr></thead><tbody><tr><td>Email</td><td valign="top"><a href="mailto:ciaotoolglobal@gmail.com">ciaotoolglobal@gmail.com</a></td><td></td></tr><tr><td>Telegram</td><td valign="top"><a href="https://t.me/ciaotools">https://t.me/ciaotools</a></td><td></td></tr><tr><td>WhatsApp</td><td valign="top"><a href="https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J">https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J</a></td><td></td></tr></tbody></table>
 
 {% hint style="danger" %}
-CiaoTool is committed to providing convenient tooling services but does not offer any form of investment advice. Platform content may change with product iterations. Users are advised to exercise judgment and stay informed about updates.
+CiaoTool 致力于提供便捷的工具服务，但不构成任何投资建议。平台内容可能根据产品迭代进行调整，敬请用户自行判断并留意更新。
 {% endhint %}

@@ -1,206 +1,202 @@
 ---
 description: >-
-  An asset migration tool for Raydium that combines sells and multi-wallet buys
-  within the same block. Creates natural trading activity, reducing MEV risk and
-  optimizing on-chain asset distribution.
+  专为 Raydium 打造的高效交易换仓工具，通过同区块聚合执行卖出与多钱包买入，模拟真实盘口交易形式让换仓行为更自然。在有效降低 MEV
+  夹击风险与资金损耗的同时，安全优化链上资产轨迹。
 ---
 
-# Solana - Sell & Bundled Buy Tutorial
+# Solana - 卖出并多地址捆绑买入教程
 
 {% hint style="info" %}
-**CiaoTool Raydium Sell & Bundled Buy Tutorial** now fully supports all liquidity pool types, including **AMM, CLMM, and CPMM**. Please switch to the specific pool function page first to perform bundled operations.
+**CiaoTool Raydium 卖出并多地址捆绑买入**现已全面支持 **AMM、CLMM、CPMM** 全部的流动性池类型，请先切换到指定池子功能页面进行多地址捆绑买卖操作，满足不同场景下的快捷交易服务。
 {% endhint %}
 
-## What is CiaoTool Solana Sell & Bundled Buy?
+## CiaoTool Solana 卖出并多地址捆绑买入是什么？
 
-<figure><img src="../../../.gitbook/assets/image (866).png" alt="CiaoTool Solana Toolkit Page about Raydium Sell and Bundled Buy Feature"><figcaption></figcaption></figure>
+**CiaoTool Solana 卖出并多地址捆绑买入**是一款专注于交易连贯性与链上流动性管理的高阶工具。它允许您通过底层智能聚合技术，在同一个区块内，自动让指定钱包完成 Raydium 上的代币卖出操作，并同步触发多个独立钱包的批量买入行为。
 
-**CiaoTool Solana Sell & Bundled Buy** is an advanced tool focusing on transaction continuity and on-chain liquidity management. Utilizing underlying smart aggregation technology, it allows you to automatically enable a designated wallet to complete token sell operations on **Raydium** within the exact same block, while synchronously triggering the batch buy actions of multiple independent wallets.
+相较于传统的分步手动交易或直接批量转账，该功能的核心优势在于以真实的盘口交易形式让换仓行为更自然。系统将买卖双向交易聚合于同一区块执行，不仅最大程度减少了交易被 MEV 机器人“夹击”的风险与资金磨损，更免去了您在繁琐流程中频繁切换钱包地址的操作麻烦。这能在成倍节省运营时间的同时，帮助团队安全、稳健地优化代币的持币者分布，是执行进阶做市与流动性平移策略的关键利器。
 
-Compared to manual trading or direct transfers, this feature simulates organic order book patterns to make position-switching look natural. By aggregating bidirectional buy and sell trades into a single block, it maximizes protection against MEV attacks, eliminates tedious manual account-switching, and securely optimizes token holder distribution.
+此工具尤其适用于：
 
-Key Use Cases:
+* 专业做市的流动性平移与资产安全重组
+* 以真实盘口买卖取代直接转账，让筹码转移轨迹更符合市场自然逻辑
+* 降低买卖双向交易时的滑点损耗与 MEV 夹击风险
+* 免除频繁切换钱包的繁琐操作，大幅节省团队运营时间
+* 安全、稳健地促进代币地址的健康分布与链上数据优化
 
-* Liquidity migration and secure asset restructuring in professional market making.
-* Replacing direct transfers with authentic order book buying and selling to make chip transfer trajectories align better with natural market logic.
-* Reducing slippage attrition and MEV sandwich risks during bidirectional buy and sell transactions.
-* Eliminating the tedious operations of frequently switching wallets, drastically saving team operational time.
-* Securely and steadily promoting a healthy distribution of token addresses and on-chain data optimization.Key Use Cases:
+立即在 Solana 上，用 CiaoTool 通过卖出并多地址捆绑买入进行交易换仓操作：
 
-Start your Sell & Bundled Buy on Raydium with CiaoTool now:
-
-{% embed url="https://ciaotool.io/en-US/raydium/bundled-sell-buy" %}
+{% embed url="https://ciaotool.io/zh-CN/pump/sell-buy" %}
 
 ***
 
-## Why Choose CiaoTool Solana Sell & Bundled Buy?
+## 为什么选择 CiaoTool Solana 卖出并捆绑买入？
 
-CiaoTool delivers a secure, low-attrition Solana position-switching solution. Unlike easily traceable direct batch transfers, this feature uses same-block smart aggregation to transform chip movements into authentic order book trades. This ensures multi-wallet rebalancing looks natural, aligns with market logic, and breaks up on-chain data clustering.
-
-* Natural Market Logic: Replaces visible direct batch transfers with organic order book volume to cleanly optimize on-chain data footprints.
-* Bidirectional Protection: The seamless connection of buy and sell trades slashes slippage and completely blocks MEV sandwich risks.
-* Streamlined Operations: Eliminates the hassle of manual account-switching, multiplying time savings while building a robust liquidity defense line.
+CiaoTool 为 Solana 链上的资产调拨与流动性重组提供了一种兼顾安全与低损耗的专业“交易换仓”方案。相较于容易被追踪的直接批量转账，该功能通过同区块智能聚合技术，将筹码转移巧妙转化为真实的盘口买卖，让多钱包的换仓行为更自然、更符合市场逻辑，有效优化链上数据的聚类呈现。\
+​\
+买卖双向交易的无缝衔接，不仅大幅降低了 Solana 网络中的滑点损耗与 MEV 机器人的夹击风险，更免去了您在繁琐流程中频繁切换钱包地址的操作麻烦。在成倍节省运营时间的同时，为 Web3 项目方与专业团队构建了一道坚实的流动性安全防线。
 
 ***
 
-## **Step by Step |** Solana Sell & Bundled Buy
+## **图文指南 |** Solana 卖出并捆绑买入
 
 {% stepper %}
 {% step %}
-### **Connect Wallet**
+### **绑定钱包**
 
-Click the button in the top right corner to connect a wallet that supports the Solana network.
+点击右上角按钮，绑定支持 Solana 链的钱包
 
-<figure><img src="../../../.gitbook/assets/image (836).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (308).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Select a Token to Trade
+### 选择卖出代币
 
-You can choose to enter the token address, or select a token currently owned by your wallet to perform the sell and buyoperation.
+可以选择输入代币地址，也可以选择当前钱包拥有的代币进行卖出操作。
 
-<figure><img src="../../../.gitbook/assets/image (867).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (323).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Input Seller Private Keys & Set Sell Amount
+### 输入卖出钱包私钥 并 设置卖出金额
 
 {% hint style="danger" %}
-<mark style="color:$danger;">**Security Tips**</mark>
+<mark style="color:$danger;">**安全须知**</mark>
 
-Currently supports private key import only. Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
+当&#x524D;**「卖出并捆绑买入」**&#x529F;能仅支持 私钥导入以进行交易操作。请确保在安全环境下输入私钥信息，您的资金安全对我们来说至关重要，[**了解更多 CiaoTool 如何保障您的资金安全：资金安全保障**](../../../security-guide.md)**。**
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (868).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (324).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Input Buyer Wallet Private Key
+### 导入买入钱包私钥
 
 {% hint style="danger" %}
-<mark style="color:$danger;">**Security Tips**</mark>
+<mark style="color:$danger;">**安全须知**</mark>
 
-Currently supports private key import only. Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
+当&#x524D;**「卖出并捆绑买入」**&#x529F;能仅支持 私钥导入以进行交易操作。请确保在安全环境下输入私钥信息，您的资金安全对我们来说至关重要，[**了解更多 CiaoTool 如何保障您的资金安全：资金安全保障**](../../../security-guide.md)**。**
 {% endhint %}
 
 {% hint style="info" %}
-<mark style="color:$primary;">**Bundle Settings**</mark>
+<mark style="color:blue;">**捆绑包设置**</mark>
 
-There is no limit on the number of imported wallets for **Raydium Sell & Bundled Buy**, but each transaction group supports a maximum of **20 addresses** for bundled buying.
+**Raydium 卖出并捆绑买入**导入钱包没有数量限制，每组交易最多支持 20 个地址捆绑买入。
 
-The service fees for the Multi-address Bundled Buy are paid entirely by the first address of each group, and the Jito tip is paid by the last address imported. Please ensure that the first and last addresses imported have sufficient balances.
+多地址捆绑卖出的服务费均由每组第一个地址支付，Jito 小费由导入的最后一个地址支付，调整导入的第一个和最后一个地址中有足够余额。
 {% endhint %}
 
-Supports two methods for importing sending private key: **"Manual Input"** and **"Upload File"**. Select an option to view the detailed tutorial.
+支&#x6301;**「手动输入」**&#x548C;**「上传文件」**&#x4E24;种导入钱包私钥的类型，选择以查看详细教程
 
 {% tabs %}
-{% tab title="Manual Input" %}
-1. Click the **"Manual Input"** button to open the input field.
+{% tab title="手动输入" %}
+1. 点&#x51FB;**「手动输入」**&#x6309;钮，弹出手动输入框。
 
-<figure><img src="../../../.gitbook/assets/image (842).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (326).png" alt=""><figcaption></figcaption></figure>
 
-2. Enter / bulk paste private keys, one private key per line. Press Enter to start a new line.
+<figure><img src="../../../.gitbook/assets/image (310).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (787).png" alt=""><figcaption></figcaption></figure>
+2. 输入 / 批量粘贴**钱包私钥，**&#x4E00;行仅输入一个私钥，按回车键换行
 
-3. Click **"OK"** to import all entered addresses into the operation panel.
+<figure><img src="../../../.gitbook/assets/image (263).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (845).png" alt=""><figcaption></figcaption></figure>
+3. 点&#x51FB;**「确定」**，将所有输入地址导入到操作面板
+
+<figure><img src="../../../.gitbook/assets/image (329).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
-{% tab title="Upload File" %}
-1. Click the **"Upload File"** button to open the file upload window.
+{% tab title="上传文件" %}
+1. 点&#x51FB;**「上传文件」**&#x6309;钮，弹出文件上传窗口。
 
-<figure><img src="../../../.gitbook/assets/image (843).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (327).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (790).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (251).png" alt=""><figcaption></figcaption></figure>
 
-2. Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.   \
-   Click to download and view the template:
+2. 导入钱包私钥信息文件，显示私钥信息。\
+   请通过 CiaoTool 模板文件导入，以确保私钥准确导入。
 
-{% file src="../../../.gitbook/assets/Solana_privateKey_demo.xlsx" %}
+<figure><img src="../../../.gitbook/assets/image (317).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (791).png" alt=""><figcaption></figcaption></figure>
+3. 点&#x51FB;**「确定」**，将所有输入地址导入到操作面板
 
-3. Click **"OK"** to import all entered addresses into the operation panel.
-
-<figure><img src="../../../.gitbook/assets/image (844).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (328).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 {% endstep %}
 
 {% step %}
-### Enter Buy Amount
+### 输入买入金额
 
-Supports three buy amount types: **"Individual Input", "Amount",** and **"Percentage"**.
+支&#x6301;**「逐一输入」盒「统一金额」**&#x4E24;种交易金额类型。
 
-1.  **Individual Input**\
-    In the input fields, enter the buy amount for each address one by one.
+1. **逐一输入**\
+   在输入框中，逐一输入买入金额数量
 
-    <figure><img src="../../../.gitbook/assets/image (846).png" alt=""><figcaption></figcaption></figure>
-2. **Amount:**\
-   Click the **"Batch Input"** button above the buy amount, select the "Amount" option, and enter the amount. All addresses will then have a uniform buy amount applied.
-3. **Percentage:**\
-   Click the **"Batch Input"** button above the buy amount, select the "Percentage" option, and enter the percentage parameter. All addresses will then execute the buy operation based on the specified percentage of their respective balances.
+<figure><img src="../../../.gitbook/assets/image (252).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (847).png" alt=""><figcaption></figcaption></figure>
+2. **统一金额**\
+   点击转账数量上方&#x7684;**「统一输入」**&#x6309;钮，输入金额数量，所有地址将统一买入数量
+
+<figure><img src="../../../.gitbook/assets/image (331).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Confirm
+### 确认交易
 
-After verifying all details, click the **"Bundled Buy"** button below and wait for the transaction process to complete.
+确认信息无误后，点击下&#x65B9;**「卖出并捆绑买入」**&#x6309;钮，并等交易程序完成。
 {% endstep %}
 {% endstepper %}
 
 ***
 
-## **FAQs**
+## **常见问题 FAQ**
 
 <details>
 
-<summary><strong>What Is the Solana Sell &#x26; Bundle Buy Feature?</strong></summary>
+<summary><strong>什么是 Solana 卖出并捆绑买入功能？</strong></summary>
 
-Sell & Bundle Buy is an advanced asset migration tool built for Raydium. It allows a designated wallet to sell tokens while multiple wallets simultaneously execute buy orders within the same block. Using block-level transaction coordination, assets can be redistributed across wallets through real market trades.
+这是 CiaoTool 专为 Raydium 平台打造的高阶「交易换仓」工具。它允许用户在同一个区块内，无缝衔接指定钱包的代币卖出操作与多个子钱包的批量买入行为。透过同区块智能聚合技术，将资产的跨钱包平移巧妙转化为真实的盘口买卖交互。
 
 </details>
 
 <details>
 
-<summary><strong>How Is It Different from Fragmentation?</strong></summary>
+<summary><strong>该功能与「冷换仓」有什么区别？</strong></summary>
 
-The main difference lies in how assets are moved on-chain.
+两者的核心区别在于资产迁移的链上行为形式不同，分别适用于不同的营运场景：
 
-**Fragmentation (Transfer-Based)**\
-Tokens are distributed directly from one wallet to multiple wallets through standard transfers. No market trades occur, making it suitable for simple asset distribution without affecting market activity.
+**冷换仓**（纯转帐形式）：纯粹透过链上转帐将代币从源钱包打散分发到多个新地址，绝不涉及任何盘口交易。其优点是完全不影响市场价格，适合悄无声息地隐匿分仓。
 
-**Sell & Bundle Buy (Trade-Based)**\
-Assets are redistributed through real sell and buy transactions on the market rather than direct transfers. This creates normal trading records on-chain and removes direct transfer links between wallets.
+**卖出并捆绑买入**（交易换仓形式）：筹码转移不通过直接转帐，而是通过盘口卖出 & 多钱包同步买入的真实交易来完成。它会在链上留下正常的市场买卖轨迹，让多钱包的换仓行为显得更加真实自然，完美切断了钱包之间的直接转帐关联。
 
 </details>
 
 <details>
 
-<summary><strong>Does Sell &#x26; Bundle Buy Affect Market Data?</strong></summary>
+<summary><strong>交易换仓会对代币的市场数据产生什么影响？</strong></summary>
 
-Yes. Since the process is completed through actual market transactions on Raydium, it naturally generates trading activity while redistributing assets. This can contribute to trading volume, active wallet participation, and broader token distribution across multiple addresses.
+由于整个换仓过程是通过在 Raydium 盘口进行真实的买卖交互完成的，因此它在自然完成资产平移的同时，还会为代币贡献真实的交易笔数与盘口活跃度，并安全、稳健地优化代币的持币者分布与独立交易地址结构。
 
 </details>
 
 <details>
 
-<summary><strong>Is the operation secure?</strong></summary>
+<summary><strong>操作是否安全？</strong></summary>
 
-CiaoTool uses a fully client-side signing mechanism. Your private key is never uploaded or stored on any server, and all transactions are signed locally in your browser. This ensures, at a technical level, that the platform has no access to your private key.
+平台采用纯前端签名机制，您的私钥绝不会被上传或储存在任何服务器上，所有交易均在本地浏览器完成签名，从技术层面确保平台无法访问您的私钥。
 
 </details>
 
-***
+**💬 如遇到问题？加入社群实时咨询**：[https://t.me/ciaotool](https://t.me/ciaotool)
 
-**Need help? Join our community for real-time support:**
-
-<table data-header-hidden><thead><tr><th width="188"></th><th valign="top"></th><th data-hidden></th></tr></thead><tbody><tr><td>Email</td><td valign="top"><a href="mailto:ciaotoolglobal@gmail.com">ciaotoolglobal@gmail.com</a></td><td></td></tr><tr><td>Telegram</td><td valign="top"><a href="https://t.me/ciaotools">https://t.me/ciaotools</a></td><td></td></tr><tr><td>WhatsApp</td><td valign="top"><a href="https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J">https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J</a></td><td></td></tr></tbody></table>
+* **Email**：[support@ciaotool.io](mailto:support@ciaotool.io)
+* **官网**：[https://ciaotool.io](https://ciaotool.io/)
+* **X（Twitter）**：[https://x.com/CiaoTool](https://x.com/CiaoTool)
+* **Medium**： [https://medium.com/@ciaotool](https://medium.com/@ciaotool)
+* **Blog**：[https://www.ciaoailiquidity.com/zh/blog](https://www.ciaoailiquidity.com/zh/blog)
+* **YouTube**：[https://www.youtube.com/@CiaoTool](https://www.youtube.com/@CiaoTool)
+* **WhatsApp**：[https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J](https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J)
 
 {% hint style="danger" %}
-CiaoTool is committed to providing convenient tooling services but does not offer any form of investment advice. Platform content may change with product iterations. Users are advised to exercise judgment and stay informed about updates.
+CiaoTool 致力于提供便捷的工具服务，但不构成任何投资建议。平台内容可能根据产品迭代进行调整，敬请用户自行判断并留意更新。
 {% endhint %}
