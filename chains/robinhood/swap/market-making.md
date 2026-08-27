@@ -30,9 +30,9 @@ CiaoTool Robinhood Chain 市值管理是一款面向 Uniswap V2 和 V3 流动性
 
 立即在 Robinhood 链上，用 CiaoTool 进行市值管理操作：
 
-{% embed url="https://robinhood.ciaotool.io/zh-Hans/swap/v2/market-making-manage-v2" %}
+{% embed url="https://rb.ciaotool.io/zh-Hans/swap/v2/market-making-manage-v2" %}
 
-{% embed url="https://robinhood.ciaotool.io/zh-Hans/swap/v3/market-making-manage-v3" %}
+{% embed url="https://rb.ciaotool.io/zh-Hans/swap/v3/market-making-manage-v3" %}
 
 ***
 

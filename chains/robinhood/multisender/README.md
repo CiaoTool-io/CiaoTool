@@ -19,7 +19,7 @@ icon: '1'
 {% endcolumn %}
 
 {% column %}
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>一对多转账</td><td><a href="https://robinhood.ciaotool.io/zh-Hans/transfer/one-to-many">https://robinhood.ciaotool.io/zh-Hans/transfer/one-to-many</a></td></tr><tr><td>批量一转多</td><td><a href="https://robinhood.ciaotool.io/zh-Hans/transfer/one-to-many-multi">https://robinhood.ciaotool.io/zh-Hans/transfer/one-to-many-multi</a></td></tr><tr><td>功能教程 - 一转多</td><td><a href="../../../tools/multisender/one-to-multi/one-to-many.md">one-to-many.md</a></td></tr><tr><td>功能教程 - 批量一转多</td><td><a href="../../../tools/multisender/one-to-multi/one-to-many-multi.md">one-to-many-multi.md</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>一对多转账</td><td><a href="https://rb.ciaotool.io/zh-Hans/transfer/one-to-many">https://rb.ciaotool.io/zh-Hans/transfer/one-to-many</a></td></tr><tr><td>批量一转多</td><td><a href="https://rb.ciaotool.io/zh-Hans/transfer/one-to-many-multi">https://rb.ciaotool.io/zh-Hans/transfer/one-to-many-multi</a></td></tr><tr><td>功能教程 - 一转多</td><td><a href="../../../tools/multisender/one-to-multi/one-to-many.md">one-to-many.md</a></td></tr><tr><td>功能教程 - 批量一转多</td><td><a href="../../../tools/multisender/one-to-multi/one-to-many-multi.md">one-to-many-multi.md</a></td></tr></tbody></table>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -35,7 +35,7 @@ icon: '1'
 {% endcolumn %}
 
 {% column %}
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>多对一转账</td><td><a href="https://robinhood.ciaotool.io/zh-Hans/transfer/many-to-one">https://robinhood.ciaotool.io/zh-Hans/transfer/many-to-one</a></td></tr><tr><td>功能教程</td><td><a href="../../../tools/multisender/multi-to-one/many-to-one.md">many-to-one.md</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>多对一转账</td><td><a href="https://rb.ciaotool.io/zh-Hans/transfer/many-to-one">https://rb.ciaotool.io/zh-Hans/transfer/many-to-one</a></td></tr><tr><td>功能教程</td><td><a href="../../../tools/multisender/multi-to-one/many-to-one.md">many-to-one.md</a></td></tr></tbody></table>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -51,7 +51,7 @@ icon: '1'
 {% endcolumn %}
 
 {% column %}
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>多对多转账</td><td><a href="https://robinhood.ciaotool.io/zh-Hans/transfer/many-to-many">https://robinhood.ciaotool.io/zh-Hans/transfer/many-to-many</a></td></tr><tr><td>功能教程</td><td><a href="../../../tools/multisender/multi-to-multi/many-to-many.md">many-to-many.md</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>多对多转账</td><td><a href="https://rb.ciaotool.io/zh-Hans/transfer/many-to-many">https://rb.ciaotool.io/zh-Hans/transfer/many-to-many</a></td></tr><tr><td>功能教程</td><td><a href="../../../tools/multisender/multi-to-multi/many-to-many.md">many-to-many.md</a></td></tr></tbody></table>
 {% endcolumn %}
 {% endcolumns %}
 
