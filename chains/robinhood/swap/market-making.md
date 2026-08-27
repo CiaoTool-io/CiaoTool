@@ -4,7 +4,7 @@ description: >-
   multi-wallet swaps and flexible strategies across Uniswap V2 and V3 pools.
 ---
 
-# Robinhood - Market Making Bot Guide
+# Robinhood Chain - Market Making Bot Guide
 
 {% hint style="info" %}
 **CiaoTool Uniswap Market Making Bot** supports all **V2 and V3** liquidity pool types on Robinhood Chain. Please switch to the corresponding pool page to perform market-making operations based on your needs.
@@ -30,7 +30,9 @@ In this guide, “Market Making” refers to automated trading execution. It doe
 
 Start your Market Making Bot and boost your token on Robinhood Chain with CiaoTool now:
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Uniswap V2 Market Making Bot</td><td><a href="https://robinhood.ciaotool.io/en/swap/v2/market-making-manage-v2">https://robinhood.ciaotool.io/en/swap/v2/market-making-manage-v2</a></td></tr><tr><td>Uniswap V3 Market Making Bot</td><td><a href="https://robinhood.ciaotool.io/en/swap/v3/market-making-manage-v3">https://robinhood.ciaotool.io/en/swap/v3/market-making-manage-v3</a></td></tr></tbody></table>
+{% embed url="https://rb.ciaotool.io/en/swap/v2/market-making-manage-v2" %}
+
+{% embed url="https://rb.ciaotool.io/en/swap/v3/market-making-manage-v3" %}
 
 ***
 

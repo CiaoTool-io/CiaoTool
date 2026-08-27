@@ -5,7 +5,7 @@ description: >-
   concurrent execution.
 ---
 
-# Robinhood - Multi-Address Concurrent Sell Guide
+# Robinhood Chain - Multi-Address Concurrent Sell Guide
 
 {% hint style="info" %}
 **CiaoTool Uniswap Multi-Address Concurrent Sell** supports all **V2 and V3** liquidity pool types on Robinhood Chain. Please switch to the corresponding pool page to perform market-making operations based on your needs.
@@ -35,9 +35,9 @@ This coordinated broadcast method helps reduce the time difference between walle
 
 Start your Multi-Address Concurrent Sell on Robinhood Chain with CiaoTool now:
 
-{% embed url="https://robinhood.ciaotool.io/en/swap/v2/multi-address-sell-v2" %}
+{% embed url="https://rb.ciaotool.io/en/swap/v2/multi-address-sell-v2" %}
 
-{% embed url="https://robinhood.ciaotool.io/en/swap/v3/multi-address-sell-v3" %}
+{% embed url="https://rb.ciaotool.io/en/swap/v3/multi-address-sell-v3" %}
 
 ***
 

@@ -8,28 +8,28 @@ description: >-
 
 ## Token Creator
 
-* [**Standard Token**](https://robinhood.ciaotool.io/en/token/create-token): 0.0052 ETH
+* [**Standard Token**](https://rb.ciaotool.io/en/token/create-token): 0.0052 ETH
 
 ***
 
 ## Multisender
 
-* [**One-to-Multi Transfer**](https://robinhood.ciaotool.io/en/transfer/one-to-many): 0.00002 ETH / address
-* [**Batch One-to-Multi Transfer**](https://robinhood.ciaotool.io/en/transfer/one-to-many-multi): 0.00002 ETH / address
-* [**Multi-to-One Transfer**](https://robinhood.ciaotool.io/transfer/en/many-to-one)**:** 0.00002 ETH / address
-* [**Multi-to-Multi Transfer**](https://robinhood.ciaotool.io/en/transfer/many-to-many)**:** 0.00002 ETH / address
+* [**One-to-Multi Transfer**](https://rb.ciaotool.io/en/transfer/one-to-many): 0.00002 ETH / address
+* [**Batch One-to-Multi Transfer**](https://rb.ciaotool.io/en/transfer/one-to-many-multi): 0.00002 ETH / address
+* [**Multi-to-One Transfer**](https://rb.ciaotool.io/en/transfer/many-to-one)**:** 0.00002 ETH / address
+* [**Multi-to-Multi Transfer**](https://rb.ciaotool.io/en/transfer/many-to-many)**:** 0.00002 ETH / address
 
 ***
 
 ## Wallet Tool
 
-* [**Batch Create Wallet**](https://robinhood.ciaotool.io/en/wallet/wallet-create)**:** Free
+* [**Batch Create Wallet**](https://rb.ciaotool.io/en/wallet/wallet-create)**:** Free
 
 ***
 
 ## Asset Migration
 
-* [**Fragmentation**](https://robinhood.ciaotool.io/en/assert-migration/assert-migration-cold)**:** 0.00002 ETH / address
+* [**Fragmentation**](https://rb.ciaotool.io/en/assert-migration/assert-migration-cold)**:** 0.00002 ETH / address
 
 ***
 
@@ -41,17 +41,17 @@ Available for Uniswap V2 and V3 on Robinhood Chain.
 
 ### **Liquidity Manager**
 
-* [**Create Liquidity Pool and Concorrent Buy**](https://robinhood.ciaotool.io/en/swap/v2/create-liquidity-and-buy-v2)**:** 0.005 ETH + 0.0002 ETH / address
-* [**Create Liquidity Pool**](https://robinhood.ciaotool.io/en/swap/v2/create-liquidity-v2)**:** 0.005 ETH
-* [**Liquidity Adder**](https://robinhood.ciaotool.io/en/swap/v2/add-liquidity-v2)**:** 0.005 ETH
-* [**Liquidity Remover**](https://robinhood.ciaotool.io/en/swap/v2/remove-liquidity-v2)**:** 0.005 ETH
+* [**Create Liquidity Pool and Concorrent Buy**](https://rb.ciaotool.io/en/swap/v2/create-liquidity-and-buy-v2)**:** 0.005 ETH + 0.0002 ETH / address
+* [**Create Liquidity Pool**](https://rb.ciaotool.io/en/swap/v2/create-liquidity-v2)**:** 0.005 ETH
+* [**Liquidity Adder**](https://rb.ciaotool.io/en/swap/v2/add-liquidity-v2)**:** 0.005 ETH
+* [**Liquidity Remover**](https://rb.ciaotool.io/en/swap/v2/remove-liquidity-v2)**:** 0.005 ETH
 
 ### Market Making Bot
 
-* [**Market Making Bot**](https://robinhood.ciaotool.io/en/swap/v2/market-making-manage-v2)**:** 0.0002 ETH / trasaction
-* [**Batch Swap**](https://robinhood.ciaotool.io/en/swap/v3/batch-swap-v3)**:** 0.0002 ETH / address
-* [**Multi-Address Concorrent Buy**](https://robinhood.ciaotool.io/en/swap/v2/multi-address-buy-v2)**:** 0.0002 ETH / address
-* [**Multi-Address Concorrent Sell**](https://robinhood.ciaotool.io/en/swap/v2/multi-address-sell-v2)**:** 0.0002 ETH / address
+* [**Market Making Bot**](https://rb.ciaotool.io/en/swap/v2/market-making-manage-v2)**:** 0.0002 ETH / trasaction
+* [**Batch Swap**](https://rb.ciaotool.io/en/swap/v2/batch-swap-v2)**:** 0.0002 ETH / address
+* [**Multi-Address Concorrent Buy**](https://rb.ciaotool.io/en/swap/v2/multi-address-buy-v2)**:** 0.0002 ETH / address
+* [**Multi-Address Concorrent Sell**](https://rb.ciaotool.io/en/swap/v2/multi-address-sell-v2)**:** 0.0002 ETH / address
 
 ***
 

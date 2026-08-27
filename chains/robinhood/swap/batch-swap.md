@@ -5,7 +5,7 @@ description: >-
   efficiency and execution speed.
 ---
 
-# Robinhood - Batch Swap Guide
+# Robinhood Chain - Batch Swap Guide
 
 {% hint style="info" %}
 **CiaoTool Uniswap Market Making Bot** supports all **V2 and V3** liquidity pool types on Robinhood Chain. Please switch to the corresponding pool page to perform market-making operations based on your needs.
@@ -29,9 +29,9 @@ Batch Swap is designed for efficient, one-time asset conversion. It reduces repe
 
 Start your Batch Swap on Robinhood Chain with CiaoTool now:
 
-{% embed url="https://robinhood.ciaotool.io/en/swap/v2/batch-swap-v2" %}
+{% embed url="https://rb.ciaotool.io/en/swap/v2/batch-swap-v2" %}
 
-{% embed url="https://robinhood.ciaotool.io/en/swap/v3/batch-swap-v3" %}
+{% embed url="https://rb.ciaotool.io/en/swap/v3/batch-swap-v3" %}
 
 ***
 
