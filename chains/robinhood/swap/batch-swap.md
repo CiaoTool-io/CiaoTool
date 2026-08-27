@@ -28,9 +28,9 @@ Batch Swap 主要用于一次性批量完成资产兑换。它可以减少重复
 
 立即在 Robinhood 链上，用 CiaoTool 进行批量兑换操作：
 
-{% embed url="https://robinhood.ciaotool.io/zh-Hans/swap/v2/batch-swap-v2" %}
+{% embed url="https://rb.ciaotool.io/zh-Hans/swap/v2/batch-swap-v2" %}
 
-{% embed url="https://robinhood.ciaotool.io/zh-Hans/swap/v3/batch-swap-v3" %}
+{% embed url="https://rb.ciaotool.io/zh-Hans/swap/v3/batch-swap-v3" %}
 
 ***
 
