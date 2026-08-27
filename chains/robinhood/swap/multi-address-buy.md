@@ -32,9 +32,9 @@ CiaoTool 会在执行前统一准备所有选中钱包的买入交易。用户�
 
 立即在 Robinhood 上，用 CiaoTool​ 多地址并发买入功能进行一键买入操作：
 
-{% embed url="https://robinhood.ciaotool.io/zh-Hans/swap/v2/multi-address-buy-v2" %}
+{% embed url="https://rb.ciaotool.io/zh-Hans/swap/v2/multi-address-buy-v2" %}
 
-{% embed url="https://robinhood.ciaotool.io/zh-Hans/swap/v3/multi-address-buy-v3" %}
+{% embed url="https://rb.ciaotool.io/zh-Hans/swap/v3/multi-address-buy-v3" %}
 
 ***
 
