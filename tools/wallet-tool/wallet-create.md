@@ -10,7 +10,7 @@ metaLinks:
 # EVM - 批量创建钱包教程
 
 {% hint style="info" %}
-当前&#x662F;**「EVM - 批量创建钱包」**&#x6559;程页面以查看 **BSC、opBNB、Base、X Layer、IoTeX、BOT、Robinhood** 等 EVM 网络教程。
+当前&#x662F;**「EVM - 批量创建钱包」**&#x6559;程页面以查看 **BSC、opBNB、Base、X Layer、IoTeX、BOT、Robinhood Chain** 等 EVM 网络教程。
 
 本教程演示基于 BSC（BNB Chain）功能页面，本功能 EVM 网络 CiaoTool 全链通用，请切换至对应公链进行批量创建钱包操作。
 

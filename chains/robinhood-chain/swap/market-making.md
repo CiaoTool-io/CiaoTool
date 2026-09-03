@@ -4,15 +4,15 @@ description: >-
   上的链上活跃度。利用多钱包执行、灵活的交易间隔和智能停止条件，持续保持市场活跃与项目曝光。
 ---
 
-# Robinhood - 市值管理教程
+# Robinhood Chain- 市值管理教程
 
 {% hint style="info" %}
 **CiaoTool Uniswap 市值管理**现已全面支持 **V2 / V3** 全部的流动性池类型，请先切换到指定池子功能页面进行市值管理操作，满足不同场景下的快捷做市服务。
 {% endhint %}
 
-## CiaoTool Robinhood 市值管理是什么？
+## CiaoTool Robinhood Chain 市值管理是什么？
 
-<figure><picture><source srcset="../../../.gitbook/assets/ScreenShot_2026-07-22_173414_953.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (655).png" alt="CiaoTool Robinhood链 Uniswap V2 市值管理页面"></picture><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (697).png" alt="CiaoTool Robinhood链 Uniswap V2 市值管理页面"><figcaption></figcaption></figure>
 
 CiaoTool Robinhood Chain 市值管理是一款面向 Uniswap V2 和 V3 流动性池的自动化交易工具。
 
@@ -30,13 +30,13 @@ CiaoTool Robinhood Chain 市值管理是一款面向 Uniswap V2 和 V3 流动性
 
 立即在 Robinhood 链上，用 CiaoTool 进行市值管理操作：
 
-{% embed url="https://rb.ciaotool.io/zh-Hans/swap/v2/market-making-manage-v2" %}
+{% embed url="https://r.ciaotool.io/zh-Hans/swap/v2/market-making-manage-v2" %}
 
-{% embed url="https://rb.ciaotool.io/zh-Hans/swap/v3/market-making-manage-v3" %}
+{% embed url="https://r.ciaotool.io/zh-Hans/swap/v3/market-making-manage-v3" %}
 
 ***
 
-## 为什么选择 CiaoTool Robinhood 市值管理？
+## 为什么选择 CiaoTool Robinhood Chain 市值管理？
 
 CiaoTool 通过持续、灵活配置的买卖策略，帮助项目团队提升代币在 Robinhood Chain 上的链上活跃度和市场可见度，支持 Uniswap V2 和 V3 流动性池。
 

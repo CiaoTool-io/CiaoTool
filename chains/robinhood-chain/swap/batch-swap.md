@@ -4,17 +4,17 @@ description: >-
   机制。支持快速将多个地址内的代币同步兑换为指定代币，大幅提升交易效率与时效性，特别适用于需要快速执行大量交易的场景。
 ---
 
-# Robinhood - 批量交易教程
+# Robinhood Chain - 批量交易教程
 
 {% hint style="info" %}
 **CiaoTool Uniswap 批量交易**现已全面支持 **V2 / V3** 全部的流动性池类型，请先切换到指定池子功能页面进行市值管理操作，满足不同场景下的快捷做市服务。
 {% endhint %}
 
-## CiaoTool Robinhood 批量交易是什么？
+## CiaoTool Robinhood Chain 批量交易是什么？
 
-<figure><picture><source srcset="../../../.gitbook/assets/ScreenShot_2026-07-22_181313_243.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (664).png" alt="CiaoTool Robinhood链 Uniswap 批量交易页面"></picture><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (698).png" alt="CiaoTool Robinhood链 Uniswap 批量交易页面"><figcaption></figcaption></figure>
 
-CiaoTool Robinhood Chain Batch Swap 是一款多钱包批量交易工具，支持通过多个由用户控制的钱包执行相同的买入或卖出任务。
+CiaoTool Robinhood Chain 批量交易是一款多钱包批量代币兑换工具，支持通过多个由用户控制的钱包执行相同的买入或卖出任务。
 
 用户无需反复切换钱包和手动提交交易，即可通过一个页面导入最多 20 个交易钱包、选择 Uniswap V2 或 V3 流动性池，并统一设置交易金额、滑点、交易优先级和超时时间。
 
@@ -28,13 +28,13 @@ Batch Swap 主要用于一次性批量完成资产兑换。它可以减少重复
 
 立即在 Robinhood 链上，用 CiaoTool 进行批量兑换操作：
 
-{% embed url="https://rb.ciaotool.io/zh-Hans/swap/v2/batch-swap-v2" %}
+{% embed url="https://r.ciaotool.io/zh-Hans/swap/v2/batch-swap-v2" %}
 
-{% embed url="https://rb.ciaotool.io/zh-Hans/swap/v3/batch-swap-v3" %}
+{% embed url="https://r.ciaotool.io/zh-Hans/swap/v3/batch-swap-v3" %}
 
 ***
 
-## 为什么选择 CiaoTool Robinhood 市值管理？
+## 为什么选择 CiaoTool Robinhood Chain 批量交易？
 
 CiaoTool 帮助用户在 Robinhood Chain 上完成多钱包批量买入或卖出，无需反复切换钱包和逐笔手动提交交易。
 

@@ -2,17 +2,17 @@
 description: 通过统一广播窗口向 Robinhood Chain 提交多个钱包的卖出交易，减少逐笔发送产生的排队延迟和插入窗口，实现尽力而为的多地址并发卖出。
 ---
 
-# Robinhood - 多地址并发卖出教程
+# Robinhood Chain - 多地址并发卖出教程
 
 {% hint style="info" %}
 **CiaoTool Uniswap 多地址并发卖出**现已全面支持 **V2 / V3** 全部的流动性池类型，请先切换到指定池子功能页面进行市值管理操作，满足不同场景下的快捷多地址交易服务。
 {% endhint %}
 
-## CiaoTool Robinhood 多地址并发卖出是什么？
+## CiaoTool Robinhood Chain 多地址并发卖出是什么？
 
-<figure><picture><source srcset="../../../.gitbook/assets/屏幕截图 2026-07-23 150333.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/屏幕截图 2026-07-23 150314.png" alt="CiaoTool Robinhood 链 Uniswap V2 多地址捆绑卖出 功能页面"></picture><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (701).png" alt="CiaoTool Robinhood 链 Uniswap V2 多地址捆绑卖出 功能页面"><figcaption></figcaption></figure>
 
-CiaoTool 多地址并发买入是一款面向 Robinhood 链时效性退出场景的多钱包自动化卖出工具。
+CiaoTool 多地址并发买入是一款面向 Robinhood Chain 时效性退出场景的多钱包自动化卖出工具。
 
 手动操作多个钱包时，每笔卖出交易都需要分别准备、签名和提交。前面钱包的卖出可能在后续钱包提交交易前改变池子价格，而不同交易之间的延迟也会增加其他交易抢先到达网络的机会。
 
@@ -30,27 +30,27 @@ CiaoTool 会在执行前统一准备所有选中钱包的卖出交易。用户�
 
 ### 快速开始
 
-立即在 Robinhood 上，用 CiaoTool​ 多地址并发卖出功能进行一键买入操作：
+立即在 Robinhood Chain 上，用 CiaoTool​ 多地址并发卖出功能进行一键买入操作：
 
-{% embed url="https://rb.ciaotool.io/zh-Hans/swap/v2/multi-address-sell-v2" %}
+{% embed url="https://r.ciaotool.io/zh-Hans/swap/v2/multi-address-sell-v2" %}
 
-{% embed url="https://rb.ciaotool.io/zh-Hans/swap/v3/multi-address-sell-v3" %}
+{% embed url="https://r.ciaotool.io/zh-Hans/swap/v3/multi-address-sell-v3" %}
 
 ***
 
-## 多地址并发卖出在 Robinhood 链上如何工作？
+## 多地址并发卖出在 Robinhood Chain 上如何工作？
 
 ### 交易排序机制
 
-Robinhood 链使用**先到先得的排序机制**。交易顺序由每笔交易到达 Sequencer 的时间决定。根据 Robinhood 链官方说明，后到达的交易不能仅通过支付更高的费用绕过先到达的交易。
+Robinhood Chain 使用**先到先得的排序机制**。交易顺序由每笔交易到达 Sequencer 的时间决定。根据 Robinhood Chain 官方说明，后到达的交易不能仅通过支付更高的费用绕过先到达的交易。
 
-Robinhood 链的目标出块时间约为 **100 毫秒**，可以快速处理交易。但即使是很小的网络传播时间差或 Sequencer 到达时间差，也可能影响最终交易顺序。
+Robinhood Chain 的目标出块时间约为 **100 毫秒**，可以快速处理交易。但即使是很小的网络传播时间差或 Sequencer 到达时间差，也可能影响最终交易顺序。
 
 可以查看 [Robinhood Chain 交易排序说明](https://docs.robinhood.com/chain/) 和 [网络基础设施介绍](https://robinhood.com/blockchain)。
 
 ### CiaoTool 的解决方案
 
-在 Robinhood 链当前的交易提交模式下，CiaoTool 无法使用部分其他网络提供的捆绑通道，将多个独立钱包的买入交易组合成一个有顺序保证的交易单元。
+在 Robinhood Chain 当前的交易提交模式下，CiaoTool 无法使用部分其他网络提供的捆绑通道，将多个独立钱包的买入交易组合成一个有顺序保证的交易单元。
 
 每个交易钱包都是一个独立的 EVM 账户。每笔交易都有独立的私钥签名、Nonce、Gas 需求和交易哈希。这些独立签名的交易必须分别提交给 Robinhood Chain Sequencer。
 
