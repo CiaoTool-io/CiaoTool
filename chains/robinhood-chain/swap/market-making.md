@@ -10,9 +10,9 @@ description: >-
 **CiaoTool Uniswap Market Making Bot** supports all **V2 and V3** liquidity pool types on Robinhood Chain. Please switch to the corresponding pool page to perform market-making operations based on your needs.
 {% endhint %}
 
-## What is CiaoTool Robinhood Market Making Bot?
+## What is CiaoTool Robinhood Chain Market Making Bot?
 
-<figure><picture><source srcset="../../../.gitbook/assets/image (1067).png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (1057).png" alt="CiaoTool Robinhood Chain Toolkit about Uniswap Market Making Bot page"></picture><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1108).png" alt="CiaoTool Robinhood Chain Toolkit about Uniswap Market Making Bot page"><figcaption></figcaption></figure>
 
 **CiaoTool Robinhood Chain Market Making Bot** is an automated trading tool designed for supported Uniswap V2 and V3 liquidity pools.
 
@@ -30,13 +30,13 @@ In this guide, “Market Making” refers to automated trading execution. It doe
 
 Start your Market Making Bot and boost your token on Robinhood Chain with CiaoTool now:
 
-{% embed url="https://rb.ciaotool.io/en/swap/v2/market-making-manage-v2" %}
+{% embed url="https://r.ciaotool.io/en/swap/v2/market-making-manage-v2" %}
 
-{% embed url="https://rb.ciaotool.io/en/swap/v3/market-making-manage-v3" %}
+{% embed url="https://r.ciaotool.io/en/swap/v3/market-making-manage-v3" %}
 
 ***
 
-## Why Choose CiaoTool Robinhood Market Making Bot?
+## Why Choose CiaoTool Robinhood Chain Market Making Bot?
 
 CiaoTool helps project teams boost token activity and strengthen market visibility on Robinhood Chain through continuous, configurable buy and sell strategies across supported Uniswap V2 and V3 pools.
 

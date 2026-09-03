@@ -8,12 +8,12 @@ description: >-
 # Robinhood Chain - Batch Swap Guide
 
 {% hint style="info" %}
-**CiaoTool Uniswap Market Making Bot** supports all **V2 and V3** liquidity pool types on Robinhood Chain. Please switch to the corresponding pool page to perform market-making operations based on your needs.
+**CiaoTool Uniswap Batch Swap** supports all **V2 and V3** liquidity pool types on Robinhood Chain. Please switch to the corresponding pool page to perform market-making operations based on your needs.
 {% endhint %}
 
-## What is CiaoTool Robinhood Batch Swap? <a href="#what-is-coinfactory-solana-multisender" id="what-is-coinfactory-solana-multisender"></a>
+## What is CiaoTool Robinhood Chain Batch Swap? <a href="#what-is-coinfactory-solana-multisender" id="what-is-coinfactory-solana-multisender"></a>
 
-<figure><picture><source srcset="../../../.gitbook/assets/屏幕截图 2026-07-21 140848.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/ScreenShot_2026-07-23_141346_461.png" alt="CiaoTool Robinhood Chain Toolkit about Uniswap Batch Swap Tool page"></picture><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1109).png" alt="CiaoTool Robinhood Chain Toolkit about Uniswap Batch Swap Tool page"><figcaption></figcaption></figure>
 
 CiaoTool Robinhood Chain Batch Swap is a multi-wallet trading tool that allows users to execute the same buy or sell task across multiple user-controlled wallets.
 
@@ -29,13 +29,13 @@ Batch Swap is designed for efficient, one-time asset conversion. It reduces repe
 
 Start your Batch Swap on Robinhood Chain with CiaoTool now:
 
-{% embed url="https://rb.ciaotool.io/en/swap/v2/batch-swap-v2" %}
+{% embed url="https://r.ciaotool.io/en/swap/v2/batch-swap-v2" %}
 
-{% embed url="https://rb.ciaotool.io/en/swap/v3/batch-swap-v3" %}
+{% embed url="https://r.ciaotool.io/en/swap/v3/batch-swap-v3" %}
 
 ***
 
-## Why Choose CiaoTool Robinhood Batch Swap? <a href="#why-use-coinfactory-multisender-for-solana" id="why-use-coinfactory-multisender-for-solana"></a>
+## Why Choose CiaoTool Robinhood Chain Batch Swap? <a href="#why-use-coinfactory-multisender-for-solana" id="why-use-coinfactory-multisender-for-solana"></a>
 
 CiaoTool helps users complete multi-wallet token purchases and sales on Robinhood Chain without repeatedly switching wallets or submitting each transaction manually.
 

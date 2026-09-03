@@ -4,7 +4,7 @@ description: 'Last Updated: May 2026'
 
 # CiaoTool Terms of Service
 
-Welcome to and thank you for using **CiaoTool** (hereinafter referred to as "this Website," "this Platform," or "we"). CiaoTool is a platform providing multi-chain Web3 tooling services, offering pathways to access various public blockchains and their smart contract protocols, including but not limited to Solana, BSC, opBNB, Base, X Layer, and IoTeX. It allows users to create and manage digital assets through tools such as token creation, multisender, liquidity management, and market-making management.
+Welcome to and thank you for using **CiaoTool** (hereinafter referred to as "this Website," "this Platform," or "we"). CiaoTool is a platform providing multi-chain Web3 tooling services, offering pathways to access various public blockchains and their smart contract protocols, including but not limited to Solana, BSC, opBNB, Base, X Layer, IoTeX, Robinhood Chain. It allows users to create and manage digital assets through tools such as token creation, multisender, liquidity management, and market-making management.
 
 To use our website, you must utilize non-custodial wallet software (such as MetaMask, Phantom, etc.) to interact with public blockchains. Your relationship with such non-custodial wallet providers is governed by the applicable terms of service of that third party, rather than these Terms of Service (hereinafter referred to as "this Agreement").
 

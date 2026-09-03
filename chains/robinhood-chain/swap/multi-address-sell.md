@@ -11,9 +11,9 @@ description: >-
 **CiaoTool Uniswap Multi-Address Concurrent Sell** supports all **V2 and V3** liquidity pool types on Robinhood Chain. Please switch to the corresponding pool page to perform market-making operations based on your needs.
 {% endhint %}
 
-## What is CiaoTool Robinhood Multi-Address Concurrent Sell?
+## What is CiaoTool Robinhood Chain Multi-Address Concurrent Sell?
 
-<figure><picture><source srcset="../../../.gitbook/assets/ScreenShot_2026-07-21_163359_955.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (1081).png" alt="CiaoTool Robinhood Chain Toolkit about Uniswap Concurrent Sell Tool page"></picture><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1111).png" alt="CiaoTool Robinhood Chain Toolkit about Uniswap Concurrent Sell Tool page"><figcaption></figcaption></figure>
 
 CiaoTool Multi-Address Concurrent Sell is an automated multi-wallet selling tool designed for time-sensitive token exits on Robinhood Chain.
 
@@ -35,9 +35,9 @@ This coordinated broadcast method helps reduce the time difference between walle
 
 Start your Multi-Address Concurrent Sell on Robinhood Chain with CiaoTool now:
 
-{% embed url="https://rb.ciaotool.io/en/swap/v2/multi-address-sell-v2" %}
+{% embed url="https://r.ciaotool.io/en/swap/v2/multi-address-sell-v2" %}
 
-{% embed url="https://rb.ciaotool.io/en/swap/v3/multi-address-sell-v3" %}
+{% embed url="https://r.ciaotool.io/en/swap/v3/multi-address-sell-v3" %}
 
 ***
 

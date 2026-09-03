@@ -1,6 +1,6 @@
 ---
 description: >-
-  CiaoTool is a Robinhood asset transfer toolkit supporting ETH and ERC-20
+  CiaoTool is a Robinhood Chain asset transfer toolkit supporting ETH and ERC-20
   tokens. Features include airdrops, fund consolidation, and multi-wallet
   transfers,for efficient asset management.
 icon: '1'
@@ -14,13 +14,13 @@ icon: '1'
 
 {% columns %}
 {% column %}
-**CiaoTool Robinhood One-to-Multi Transfer** is an automated distribution tool designed for efficient large-scale token transfers. It enables a single wallet to send ETH or ERC-20 tokens to multiple recipient addresses in one operation, eliminating the need for repetitive manual transfers.
+**CiaoTool Robinhood Chain One-to-Multi Transfer** is an automated distribution tool designed for efficient large-scale token transfers. It enables a single wallet to send ETH or ERC-20 tokens to multiple recipient addresses in one operation, eliminating the need for repetitive manual transfers.
 
 The tool supports both custom allocations per address and equal distribution across all recipients, making it ideal for airdrops, community rewards, team payments, and multi-wallet fund allocation. Optimized transaction batching helps improve transfer efficiency while ensuring fast and accurate asset distribution.
 {% endcolumn %}
 
 {% column %}
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>One-to-Multi Transfer</td><td><a href="https://rb.ciaotool.io/en/transfer/one-to-many">https://rb.ciaotool.io/en/transfer/one-to-many</a></td></tr><tr><td>Batch One-to-Multi</td><td><a href="https://rb.ciaotool.io/en/transfer/one-to-many-multi">https://rb.ciaotool.io/en/transfer/one-to-many-multi</a></td></tr><tr><td>Tutorial - One-to-Multi Transfer</td><td><a href="../../../tools/multisender/one-to-multi/one-to-many.md">one-to-many.md</a></td></tr><tr><td>Tutorial - Batch One-to-Multi</td><td><a href="../../../tools/multisender/one-to-multi/one-to-many-multi.md">one-to-many-multi.md</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>One-to-Multi Transfer</td><td><a href="https://r.ciaotool.io/en/transfer/one-to-many">https://r.ciaotool.io/en/transfer/one-to-many</a></td></tr><tr><td>Batch One-to-Multi</td><td><a href="https://r.ciaotool.io/en/transfer/one-to-many-multi">https://r.ciaotool.io/en/transfer/one-to-many-multi</a></td></tr><tr><td>Tutorial - One-to-Multi Transfer</td><td><a href="../../../tools/multisender/one-to-multi/one-to-many.md">one-to-many.md</a></td></tr><tr><td>Tutorial - Batch One-to-Multi</td><td><a href="../../../tools/multisender/one-to-multi/one-to-many-multi.md">one-to-many-multi.md</a></td></tr></tbody></table>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -30,13 +30,13 @@ The tool supports both custom allocations per address and equal distribution acr
 
 {% columns %}
 {% column %}
-**CiaoTool Robinhood Multi-to-One Transfer** is an automated fund consolidation tool designed for efficient asset collection and management. It allows multiple source wallets to transfer their tokens to a single destination wallet in one operation, simplifying the process of managing distributed assets.
+**CiaoTool Robinhood Chain Multi-to-One Transfer** is an automated fund consolidation tool designed for efficient asset collection and management. It allows multiple source wallets to transfer their tokens to a single destination wallet in one operation, simplifying the process of managing distributed assets.
 
 After market-making activities, airdrop campaigns, or multi-wallet operations, assets are often spread across many wallets. This tool eliminates the need to switch between accounts and manually approve repeated transactions. It supports both full balance consolidation and balance retention options, helping users streamline asset recovery and treasury management.
 {% endcolumn %}
 
 {% column %}
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Mutli-to-One Transfer</td><td><a href="https://rb.ciaotool.io/en/transfer/many-to-one">https://rb.ciaotool.io/en/transfer/many-to-one</a></td></tr><tr><td>Tutorial</td><td><a href="../../../tools/multisender/multi-to-one/many-to-one.md">many-to-one.md</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Mutli-to-One Transfer</td><td><a href="https://r.ciaotool.io/en/transfer/many-to-one">https://r.ciaotool.io/en/transfer/many-to-one</a></td></tr><tr><td>Tutorial</td><td><a href="../../../tools/multisender/multi-to-one/many-to-one.md">many-to-one.md</a></td></tr></tbody></table>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -46,31 +46,31 @@ After market-making activities, airdrop campaigns, or multi-wallet operations, a
 
 {% columns %}
 {% column %}
-**CiaoTool Robonhood Multi-to-Multi Transfer** is an advanced asset management tool designed for complex multi-wallet fund distribution. It allows users to import multiple sender wallets and recipient wallets simultaneously, executing multiple independent transfers in a single operation based on custom transfer mappings and amounts.
+**CiaoTool Robonhood Chain Multi-to-Multi Transfer** is an advanced asset management tool designed for complex multi-wallet fund distribution. It allows users to import multiple sender wallets and recipient wallets simultaneously, executing multiple independent transfers in a single operation based on custom transfer mappings and amounts.
 
 Compared to traditional transfer methods, the multi-to-multi model is ideal for complex asset allocation and wallet restructuring. Users can precisely control fund flows and transfer amounts between individual wallets, enabling flexible and efficient asset management.
 {% endcolumn %}
 
 {% column %}
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Multi-to-Multi Transfer</td><td><a href="https://rb.ciaotool.io/en/transfer/many-to-many">https://rb.ciaotool.io/en/transfer/many-to-many</a></td></tr><tr><td>Tutorial</td><td><a href="../../../tools/multisender/multi-to-multi/many-to-many.md">many-to-many.md</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Multi-to-Multi Transfer</td><td><a href="https://r.ciaotool.io/en/transfer/many-to-many">https://r.ciaotool.io/en/transfer/many-to-many</a></td></tr><tr><td>Tutorial</td><td><a href="../../../tools/multisender/multi-to-multi/many-to-many.md">many-to-many.md</a></td></tr></tbody></table>
 {% endcolumn %}
 {% endcolumns %}
 
 ***
 
-## What is CiaoTool Robinhood Multisender? <a href="#definition" id="definition"></a>
+## What is CiaoTool Robinhood Chain Multisender? <a href="#definition" id="definition"></a>
 
-**CiaoTool Robinhood Multisender** is an efficient asset management solution built on the Robinhood ecosystem. It removes the limitation of handling transfers one transaction at a time by enabling users to import multiple wallet addresses and execute automated transfers in parallel.
+**CiaoTool Robinhood Chain Multisender** is an efficient asset management solution built on the Robinhood chain. It removes the limitation of handling transfers one transaction at a time by enabling users to import multiple wallet addresses and execute automated transfers in parallel.
 
 Whether distributing tokens from a single wallet to multiple addresses or consolidating assets from multiple wallets into one destination wallet, the tool streamlines large-scale fund movements through automated on-chain execution.
 
-<figure><img src="../../../.gitbook/assets/image (1054).png" alt="CiaoTool Robinhood chain Toolkit about Multisender Feature"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1107).png" alt="CiaoTool Robinhood chain Toolkit about Multisender Feature"><figcaption></figcaption></figure>
 
 ***
 
-## Why Choose CiaoTool Robinhood Multisender? <a href="#advantage" id="advantage"></a>
+## Why Choose CiaoTool Robinhood Chain Multisender? <a href="#advantage" id="advantage"></a>
 
-CiaoTool provides a professional-grade solution for multi-wallet asset management on Robinhood, combining flexibility, efficiency, and security.
+CiaoTool provides a professional-grade solution for multi-wallet asset management on Robinhood Chain, combining flexibility, efficiency, and security.
 
 * **Complete Transfer Modes**\
   Supports one-to-multi distribution, multi-to-one consolidation, and multi-to-multi transfers to meet different asset management needs.

@@ -20,8 +20,8 @@ We are committed to providing highly cost-effective Web3 tools. If you find a lo
 
 {% columns %}
 {% column width="50%" %}
-{% content-ref url="solana/" %}
-[solana](solana/)
+{% content-ref url="solana-chain/" %}
+[solana-chain](solana-chain/)
 {% endcontent-ref %}
 {% endcolumn %}
 
@@ -34,14 +34,14 @@ We are committed to providing highly cost-effective Web3 tools. If you find a lo
 
 {% columns %}
 {% column %}
-{% content-ref url="opbnb.md" %}
-[opbnb.md](opbnb.md)
+{% content-ref url="opbnb-chain.md" %}
+[opbnb-chain.md](opbnb-chain.md)
 {% endcontent-ref %}
 {% endcolumn %}
 
 {% column %}
-{% content-ref url="base.md" %}
-[base.md](base.md)
+{% content-ref url="base-chain.md" %}
+[base-chain.md](base-chain.md)
 {% endcontent-ref %}
 {% endcolumn %}
 {% endcolumns %}
@@ -54,22 +54,22 @@ We are committed to providing highly cost-effective Web3 tools. If you find a lo
 {% endcolumn %}
 
 {% column %}
-{% content-ref url="iotex.md" %}
-[iotex.md](iotex.md)
+{% content-ref url="iotex-chain.md" %}
+[iotex-chain.md](iotex-chain.md)
 {% endcontent-ref %}
 {% endcolumn %}
 {% endcolumns %}
 
 {% columns %}
 {% column %}
-{% content-ref url="bot.md" %}
-[bot.md](bot.md)
+{% content-ref url="bot-chain.md" %}
+[bot-chain.md](bot-chain.md)
 {% endcontent-ref %}
 {% endcolumn %}
 
 {% column %}
-{% content-ref url="robinhood.md" %}
-[robinhood.md](robinhood.md)
+{% content-ref url="robinhood-chain.md" %}
+[robinhood-chain.md](robinhood-chain.md)
 {% endcontent-ref %}
 {% endcolumn %}
 {% endcolumns %}
