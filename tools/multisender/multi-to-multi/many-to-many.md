@@ -8,7 +8,7 @@ description: >-
 # EVM - Multisender | Multi-to-Multi Transfer Tutorial
 
 {% hint style="info" %}
-You are currently on the **"EVM - Multi-to-Multi Transfer"** tutorial page for EVM networks including **BSC, opBNB, Base, X Layer, IoTeX, BOT, and Robinhood Chian.**
+You are currently on the **"EVM - Multi-to-Multi Transfer"** tutorial page for EVM networks including **BSC, opBNB, Base, X Layer, IoTeX, BOT, and Robinhood Chain.**
 
 Demonstrated on BSC. Universally compatible across all EVM networks, please switch to your target chain to operate.
 
