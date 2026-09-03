@@ -55,7 +55,7 @@ CiaoTool 是一款支持 Solana、BSC、opBNB、Base、IoTeX、X Layer、BOT、R
 
 兼容 Solana 与 EVM 双生态架构。
 
-无缝接入 Raydium、Meteora、PancakeSwap 等主流去中心化交易所，支持流动性创建、交易量管理、防夹执行、微量曝光、多钱包做市与自动化盘口运维。
+无缝接入 Raydium、Meteora、PancakeSwap、Uniswap 等主流去中心化交易所，支持流动性创建、交易量管理、防夹执行、微量曝光、多钱包做市与自动化盘口运维。
 {% endcolumn %}
 {% endcolumns %}
 
