@@ -53,7 +53,7 @@ Manage massive liquidity and fund scheduling effortlessly through one-to-multi a
 
 Compatible with both Solana and EVM ecosystems.
 
-Seamlessly integrate with Raydium, Meteora, and PancakeSwap to execute liquidity provisioning, volume management, anti-MEV execution, and market-making operations.
+Seamlessly integrate with Raydium, Meteora, Uniswap, and PancakeSwap to execute liquidity provisioning, volume management, anti-MEV execution, and market-making operations.
 {% endcolumn %}
 {% endcolumns %}
 
