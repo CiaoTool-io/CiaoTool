@@ -12,7 +12,7 @@ metaLinks:
 
 本教程演示基于 BSC（BNB Chain）功能页面，本功能 EVM 网络 CiaoTool 全链通用，请切换至对应公链进行一对多转账操作。
 
-点击[**「Solana - 一对多转账」**](../../../chains/solana/multisender/one-to-many.md)查看 Solana 网络一对多转账教程。
+点击[**「Solana - 一对多转账」**](../../../chains/solana/multisender/one-to-many-old.md)查看 Solana 网络一对多转账教程。
 {% endhint %}
 
 ## CiaoTool EVM 一对多转账是什么？ <a href="#definition" id="definition"></a>

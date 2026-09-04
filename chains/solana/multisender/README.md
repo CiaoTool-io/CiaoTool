@@ -17,7 +17,7 @@ icon: '1'
 {% endcolumn %}
 
 {% column %}
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>一对多转账</td><td><a href="https://ciaotool.io/zh-CN/transfer/one-to-many/">https://ciaotool.io/zh-CN/transfer/one-to-many/</a></td></tr><tr><td>慢速一转多</td><td><a href="https://ciaotool.io/zh-CN/transfer/one-to-multi-slow">https://ciaotool.io/zh-CN/transfer/one-to-multi-slow</a></td></tr><tr><td>功能教程 - 一转多</td><td><a href="one-to-many.md">one-to-many.md</a></td></tr><tr><td>功能教程 - 慢速一转多</td><td><a href="one-to-many.md">one-to-many.md</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>一对多转账</td><td><a href="https://ciaotool.io/zh-CN/transfer/one-to-many/">https://ciaotool.io/zh-CN/transfer/one-to-many/</a></td></tr><tr><td>慢速一转多</td><td><a href="https://ciaotool.io/zh-CN/transfer/one-to-multi-slow">https://ciaotool.io/zh-CN/transfer/one-to-multi-slow</a></td></tr><tr><td>功能教程 - 一转多</td><td><a href="one-to-many-old.md">one-to-many-old.md</a></td></tr><tr><td>功能教程 - 慢速一转多</td><td><a href="one-to-many-old.md">one-to-many-old.md</a></td></tr></tbody></table>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -33,7 +33,7 @@ icon: '1'
 {% endcolumn %}
 
 {% column %}
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>多对一转账</td><td><a href="https://ciaotool.io/zh-CN/transfer/many-to-one">https://ciaotool.io/zh-CN/transfer/many-to-one</a></td></tr><tr><td>功能教程</td><td><a href="many-to-one.md">many-to-one.md</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>多对一转账</td><td><a href="https://ciaotool.io/zh-CN/transfer/many-to-one">https://ciaotool.io/zh-CN/transfer/many-to-one</a></td></tr><tr><td>功能教程</td><td><a href="many-to-one-old.md">many-to-one-old.md</a></td></tr></tbody></table>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -49,7 +49,7 @@ icon: '1'
 {% endcolumn %}
 
 {% column %}
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>多对多转账</td><td><a href="https://ciaotool.io/zh-CN/transfer/many-to-many">https://ciaotool.io/zh-CN/transfer/many-to-many</a></td></tr><tr><td>功能教程</td><td><a href="many-to-many.md">many-to-many.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>多对多转账</td><td><a href="https://ciaotool.io/zh-CN/transfer/many-to-many">https://ciaotool.io/zh-CN/transfer/many-to-many</a></td></tr><tr><td>功能教程</td><td><a href="many-to-many-old.md">many-to-many-old.md</a></td></tr></tbody></table>
 {% endcolumn %}
 {% endcolumns %}
 

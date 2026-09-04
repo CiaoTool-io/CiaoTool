@@ -141,8 +141,8 @@ description: >-
 {% endcolumn %}
 
 {% column %}
-{% content-ref url="../multisender/one-to-many.md" %}
-[one-to-many.md](../multisender/one-to-many.md)
+{% content-ref url="../multisender/one-to-many-old.md" %}
+[one-to-many-old.md](../multisender/one-to-many-old.md)
 {% endcontent-ref %}
 {% endcolumn %}
 {% endcolumns %}
