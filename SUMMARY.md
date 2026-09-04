@@ -23,6 +23,7 @@
     * [Solana - 批量转账 | 一对多转账教程](chains/solana/multisender/one-to-many-1.md "一对多转账（空投）")
     * [慢速一对多转账](chains/solana/multisender/one-to-many.md)
     * [Solana - 批量转账 | 多对一转账教程](chains/solana/multisender/many-to-one.md "多对一转账（归集）")
+    * [Solana - 批量转账 | 多对一转账教程](chains/solana/multisender/many-to-one-1.md "多对一转账（归集）")
     * [Solana - 批量转账 | 多对多转账教程](chains/solana/multisender/many-to-many.md "多对多转账")
     * [Solana - 批量转账 | 中转转账教程](chains/solana/multisender/sol-relay-transfer.md "SOL 中转转账")
   * [换仓专区](chains/solana/asset-migration/README.md "换仓专区")

@@ -17,7 +17,7 @@ metaLinks:
 
 ## CiaoTool EVM 多对一转账是什么？ <a href="#definition" id="definition"></a>
 
-<figure><img src="../../../.gitbook/assets/image (497).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (497).png" alt="CiaoTool BSC 批量转账 多对一转账页面"><figcaption></figcaption></figure>
 
 **CiaoTool EVM 多对一转账**是一款专为 BSC (BNB Smart Chain) 及 EVM 兼容生态打造的高效链上资产回笼与多钱包资金管理工具。它允许用户在单次可视化操作中，将分散在成百上千个子钱包中的指定代币或原生代币（如 BNB），全自动地集中汇聚至一个主地址中。
 
