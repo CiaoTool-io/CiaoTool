@@ -1,6 +1,5 @@
 ---
 description: 一对多转账是一种高效便捷的代币分发工具，支持将同一钱包中的 SOL 或 SPL 代币批量发送至无限个接收地址，适用于空投、奖励发放和批量结算等场景。
-hidden: true
 ---
 
 # Solana - 批量转账 | 一对多转账教程
@@ -52,7 +51,7 @@ CiaoTool 为 Solana Chain 上的海量资产调拨提供了一种兼顾绝对安
 
 点击右上角【连接钱包】按钮，绑定支持 Solana 链的钱包
 
-<figure><img src="../../../.gitbook/assets/image (712).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (747).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -162,13 +161,16 @@ address, 300
 1. **RPC 发送**\
    通过 RPC 节点统一广播转账交易，无需支付 Jito 小费，各笔交易不保证按提交顺序执行。
 2. **Jito Bundle**\
-   每包最多 25 个收款地址（5 组），通过 Jito 小费提升上链优先级并按顺序执行。
+   每个捆绑包最多 25 个收款地址（5 组），通过 Jito 小费提升上链优先级并按顺序执行。
 {% endstep %}
 
 {% step %}
 ### 核实信息
 
-点&#x51FB;**「下一步」**&#x8FDB;入确认页面，核对收款地址及数量、转账总额和预估费用，确认无误后再提交转账。
+点&#x51FB;**「下一步」**&#x8FDB;入确认页面并核对：
+
+* [x] 收款地址及数量、转账总额
+* [x] 本次转账预估费用
 
 <figure><img src="../../../.gitbook/assets/image (731).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
@@ -176,7 +178,7 @@ address, 300
 {% step %}
 ### 确认交易
 
-确认信息无误后，点击下方「**确认并发送**」按钮，您可以实时查看转账程序完成情况，并等待转账程序完成，。
+确认信息无误后，点击下方「**确认并发送**」按钮，您可以实时查看转账程序完成情况，并等待转账程序完成。
 
 <figure><img src="../../../.gitbook/assets/image (732).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
