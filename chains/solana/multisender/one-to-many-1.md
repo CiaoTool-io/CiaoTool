@@ -1,18 +1,21 @@
 ---
 description: 一对多转账是一种高效便捷的代币分发工具，支持将同一钱包中的 SOL 或 SPL 代币批量发送至无限个接收地址，适用于空投、奖励发放和批量结算等场景。
+hidden: true
 ---
 
 # Solana - 批量转账 | 一对多转账教程
 
 {% hint style="info" %}
-当前&#x662F;**「Solana - 一对多转账」**&#x6559;程页面，点击[**「EVM - 一对多转账」**](../../../tools/multisender/one-to-multi/one-to-many.md)以查看 BSC、opBNB、Base、X Layer、IoTeX、BOT 等 EVM 网络一对多转账教程
+当前&#x662F;**「Solana - 一对多转账」**&#x6559;程页面，点击[**「EVM - 一对多转账」**](../../../tools/multisender/one-to-multi/one-to-many.md)以查看 BSC、opBNB、Base、X Layer、IoTeX、BOT、Robinhood Chain 等 EVM 网络一对多转账教程
 {% endhint %}
 
 ## CiaoTool Solana 一对多转账是什么？ <a href="#definition" id="definition"></a>
 
 <figure><picture><source srcset="../../../.gitbook/assets/屏幕截图 2026-09-04 142205.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (711).png" alt="CiaoTool BSC 批量转账 一对多转账页面"></picture><figcaption></figcaption></figure>
 
-**CiaoTool Solana 一对多转账**是一款简单高效的工具，可让您一次性将 **SOL（原生代币）**&#x6216;**任何 SPL 代币**发送到多个钱包地址。与逐笔发送交易不同，一对多转账可自动执行批量转账，从而节省时间、减少人为错误，并简化空投、支付、奖励或社区活动等代币分发流程。
+**CiaoTool Solana 一对多转账**是一款高效链上资产分发工具。它允许用户突破传统单笔转账的限制，全自动调度将单个主钱包中的 **SOL（原生代币）**&#x6216;**任何 SPL 代币**，在同一次操作中批量发送至数百个不同的接收地址。
+
+相较于「逐笔复制地址、手动签名转账」的传统模式，该功能的核心机制在于「底层批量指令聚合」。系统会将海量的独立转账指令通过智能合约整合为一个不可分割的数据包提交至链上。这种机制不仅将原本需要耗费数小时的机械性工作缩短至一键秒级完成，更通过合并同类项大幅平摊了整体的网络矿工费，是项目方进行空投分发、团队结算或做市前置分仓的核心基建。
 
 此工具尤其适用于：
 
@@ -23,11 +26,21 @@ description: 一对多转账是一种高效便捷的代币分发工具，支持�
 
 立即在 Solana 上，用 CiaoTool​ 批量转账功能进行一对多转账操作：
 
-{% embed url="https://ciaotool.io/zh-CN/transfer/one-to-many/" %}
+{% embed url="https://ciaotool.io/zh-hans/transfer/one-to-many" %}
 
 ***
 
 ## 为什么选择 CiaoTool 代币空投（一对多转账）？ <a href="#advantage" id="advantage"></a>
+
+
+
+**百倍提升效率：** 彻底免去人工频繁切换账号、复制粘贴地址与重复授权签名的繁琐流程，支持一键并发执行成百上千笔转账，实现链上资产的极速流转。 ​
+
+**极致削减成本：** 通过底层智能合约的多重调用与批量打包技术，将多笔转账聚合为单次链上交互，最大程度摊薄网络费用，显著降低大规模分发的资金损耗。 ​
+
+**灵活的矩阵配置：** 支持通过 Excel 电子表格文件一键批量导入目标地址列表与对应的分发额度。支持自定义等额、定额或随机金额分配，完美适配复杂多变的空投策略与持币分布需求。 ​
+
+**本地安全环境：** 采用纯前端本地执行机制，私钥仅在本地环境中用于交易签名，在极速提升交易效率的同时，全方位保障多钱包资产的绝对安全。
 
 **CiaoTool** 提供了一种在 Solana 上分发代币最快捷、最可靠的方式。无论您是发行新代币、进行空投还是管理支付，其批量转账功能都能确保准确性、可扩展性和流畅的用户体验。
 

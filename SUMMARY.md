@@ -20,6 +20,7 @@
 * [Solana - 一站式代币解决方案平台](chains/solana/README.md "Solana 操作指南")
   * [Solana - 批量转账工具集](chains/solana/multisender/README.md "批量转账")
     * [Solana - 批量转账 | 一对多转账教程](chains/solana/multisender/one-to-many.md "一对多转账（空投）")
+    * [Solana - 批量转账 | 一对多转账教程](chains/solana/multisender/one-to-many-1.md "一对多转账（空投）")
     * [慢速一对多转账](chains/solana/multisender/one-to-many.md)
     * [Solana - 批量转账 | 多对一转账教程](chains/solana/multisender/many-to-one.md "多对一转账（归集）")
     * [Solana - 批量转账 | 多对多转账教程](chains/solana/multisender/many-to-many.md "多对多转账")
