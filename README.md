@@ -9,7 +9,7 @@ coverY: 0
 
 # Introduction
 
-<figure><img src=".gitbook/assets/image (668).png" alt="CiaoTool Homepage of BNB Smart Chain Tookit"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1121).png" alt="CiaoTool Homepage of Solana Chain Tookit"><figcaption></figcaption></figure>
 
 CiaoTool is a premier Web3 developer toolkit and asset issuance platform supporting major ecosystems, including Solana, BSC, opBNB, Base, IoTeX, X Layer, BOT, and Robinhood Chain. We deliver fully visualized, no-code, secure, and high-performance solutions engineered for project teams, studios, trading entities, and on-chain operators.
 
