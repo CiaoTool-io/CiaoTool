@@ -18,7 +18,7 @@ description: 批量处理多个钱包地址 SOL 或 SPL 代币的资金转账，
 
 立即在 Solana 上，用 CiaoTool​ 批量转账功能进行多对多转账操作：
 
-
+{% embed url="https://ciaotool.io/zh-Hans/transfer/many-to-many" %}
 
 ***
 
