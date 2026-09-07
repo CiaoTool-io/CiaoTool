@@ -10,7 +10,7 @@ description: 专为 Raydium 平台提供的自动化做市与交易执行工具�
 
 ## CiaoTool Solana 市值管理是什么？
 
-<figure><picture><source srcset="../../../.gitbook/assets/屏幕截图 2026-09-07 165717.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/屏幕截图 2026-09-07 165651.png" alt=""></picture><figcaption></figcaption></figure>
+<figure><picture><source srcset="../../../.gitbook/assets/屏幕截图 2026-09-07 165717.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/屏幕截图 2026-09-07 165651.png" alt="CiaoTool Solana Chain Raydium 市值管理页面"></picture><figcaption></figcaption></figure>
 
 **CiaoTool Solana 市值管理**是一款专为 Solana 生态打造的高阶自动化做市与流动性优化工具。它允许项目方和专业团队通过自定义交易参数，在 **Raydium** 上全自动执行进阶的做市策略，从而安全、稳健地管理代币的盘口深度与市场活跃度。
 
@@ -73,7 +73,7 @@ description: 专为 Raydium 平台提供的自动化做市与交易执行工具�
 {% endstep %}
 
 {% step %}
-### 导入做市钱包私钥
+### 导入钱包私钥
 
 {% hint style="danger" %}
 请确保在安全环境下输入私钥信息，您的资金安全对我们来说至关重要，[**了解更多 CiaoTool 如何保障您的资金安全：资金安全保障**](../../../security-guide.md)**。**
@@ -219,9 +219,9 @@ privateKey, 300
 
 {% tab title="发送设置" %}
 * **RPC 发送**\
-  通过 RPC 节点统一广播转账交易，无需支付 Jito 小费，各笔交易不保证按提交顺序执行。
+  通过 RPC 节点统一广播转账交易，无需支付 Jito 小费。
 * **Jito Bundle**\
-  每个捆绑包最多 25 个收款地址（5 组），通过 Jito 小费提升上链优先级并按顺序执行。
+  通过 Jito 小费提升上链优先级。
 
 <figure><img src="../../../.gitbook/assets/image (857).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
@@ -230,6 +230,8 @@ privateKey, 300
 
 {% step %}
 ### 启动交易
+
+交易费用将由各钱包独立承担。
 
 确认信息无误后，点击下方「**确认并发送**」按钮，即可开启做市程序。
 

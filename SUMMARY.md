@@ -48,7 +48,7 @@
     * [Solana - 冷换仓教程](chains/solana/multisender/fragmentation.md "冷换仓")
   * [Raydium 专区](chains/solana/raydium/README.md "Raydium 专区")
     * [Solana - 市值管理教程](chains/solana/raydium/market-making.md "市值管理")
-    * [Solana - 批量交易教程](chains/solana/raydium/batch-swap.md "批量交易")
+    * [Solana - 批量交易教程](chains/solana/raydium/batch-swap.md "批量买卖")
     * [Solana - 防夹交易量机器人](chains/solana/raydium/anti-mev.md "防夹交易量机器人")
     * [Solana - 提升交易人数教程](chains/solana/raydium/buy-maker.md "提升交易人数")
     * [Solana - 提升持币人数教程](chains/solana/raydium/buy-holder.md "提升持币人数")
