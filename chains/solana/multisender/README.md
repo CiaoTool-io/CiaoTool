@@ -17,7 +17,7 @@ icon: '1'
 {% endcolumn %}
 
 {% column %}
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>一对多转账</td><td><a href="https://ciaotool.io/zh-CN/transfer/one-to-many/">https://ciaotool.io/zh-CN/transfer/one-to-many/</a></td></tr><tr><td>慢速一转多</td><td><a href="https://ciaotool.io/zh-CN/transfer/one-to-multi-slow">https://ciaotool.io/zh-CN/transfer/one-to-multi-slow</a></td></tr><tr><td>功能教程 - 一转多</td><td><a href="one-to-many-old.md">one-to-many-old.md</a></td></tr><tr><td>功能教程 - 慢速一转多</td><td><a href="one-to-many-old.md">one-to-many-old.md</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>一对多转账</td><td><a href="https://ciaotool.io/zh-Hans/transfer/one-to-many">https://ciaotool.io/zh-Hans/transfer/one-to-many</a></td></tr><tr><td>功能教程 - 一转多</td><td><a href="one-to-many-old.md">one-to-many-old.md</a></td></tr></tbody></table>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -33,7 +33,7 @@ icon: '1'
 {% endcolumn %}
 
 {% column %}
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>多对一转账</td><td><a href="https://ciaotool.io/zh-CN/transfer/many-to-one">https://ciaotool.io/zh-CN/transfer/many-to-one</a></td></tr><tr><td>功能教程</td><td><a href="many-to-one-old.md">many-to-one-old.md</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>多对一转账</td><td><a href="https://ciaotool.io/zh-Hans/transfer/many-to-one">https://ciaotool.io/zh-Hans/transfer/many-to-one</a></td></tr><tr><td>功能教程</td><td><a href="many-to-one-old.md">many-to-one-old.md</a></td></tr></tbody></table>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -49,7 +49,7 @@ icon: '1'
 {% endcolumn %}
 
 {% column %}
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>多对多转账</td><td><a href="https://ciaotool.io/zh-CN/transfer/many-to-many">https://ciaotool.io/zh-CN/transfer/many-to-many</a></td></tr><tr><td>功能教程</td><td><a href="many-to-many-old.md">many-to-many-old.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>多对多转账</td><td><a href="https://ciaotool.io/zh-Hans/transfer/many-to-many">https://ciaotool.io/zh-Hans/transfer/many-to-many</a></td></tr><tr><td>功能教程</td><td><a href="many-to-many-old.md">many-to-many-old.md</a></td></tr></tbody></table>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -65,7 +65,7 @@ icon: '1'
 {% endcolumn %}
 
 {% column %}
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>中转转账</td><td><a href="https://ciaotool.io/zh-CN/transfer/relay-transfer">https://ciaotool.io/zh-CN/transfer/relay-transfer</a></td></tr><tr><td>功能教程</td><td><a href="sol-relay-transfer.md">sol-relay-transfer.md</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>中转转账</td><td><a href="https://ciaotool.io/zh-Hans/transfer/relay-transfer">https://ciaotool.io/zh-Hans/transfer/relay-transfer</a></td></tr><tr><td>功能教程</td><td><a href="sol-relay-transfer.md">sol-relay-transfer.md</a></td></tr></tbody></table>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -75,7 +75,7 @@ icon: '1'
 
 Solana 批量转账是基于 Solana 智能合约底层开发的高效资产流转解决方案。它允许用户打破传统钱包一次只能处理单笔转账的限制，通过批量导入地址和自动化脚本，在同一次链上操作或同一个区块内，并行处理数十至数百笔钱包地址之间的代币划转。无论是将单一核心资产钱包的代币打散分发到多个子地址，还是将分散在多仓中的零散代币收拢回集，均可通过该功能实现全自动的链上调度。
 
-<figure><img src="../../../.gitbook/assets/image (441).png" alt="CiaoTool Solana 批量转账页面"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (791).png" alt="CiaoTool Solana 批量转账页面"><figcaption></figcaption></figure>
 
 ***
 

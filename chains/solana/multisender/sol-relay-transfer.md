@@ -10,7 +10,7 @@ description: 通过独立中间地址处理 SOL 的资金转移，切断首尾�
 
 ## CiaoTool Solana 中转转账是什么？
 
-<figure><img src="../../../.gitbook/assets/image (764).png" alt="CiaoTool Solana 中转转账页面"><figcaption></figcaption></figure>
+<figure><picture><source srcset="../../../.gitbook/assets/屏幕截图 2026-09-07 143822.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (764).png" alt="CiaoTool Solana 中转转账页面"></picture><figcaption></figcaption></figure>
 
 **CiaoTool Solana 中转转账**是一款专注于链上隐私保护与资金隐匿的高阶工具。它允许您在转账过程中自动引入独立的中间钱包节点，将 SOL（原生代币） 智能中转并批量分发至目标钱包。
 
@@ -199,14 +199,12 @@ address
 {% step %}
 ### 发送形式
 
-系统将根据收款地址数量自动分组，每组最多 4 个收发地址。
-
 <figure><img src="../../../.gitbook/assets/image (730).png" alt=""><figcaption></figcaption></figure>
 
 1. **RPC 发送**\
-   通过 RPC 节点统一广播转账交易，无需支付 Jito 小费，各笔交易不保证按提交顺序执行。
+   通过 RPC 节点统一广播转账交易，各笔交易不保证按提交顺序执行。
 2. **Jito Bundle**\
-   每个捆绑包最多 20 个转账地址（5 组），通过 Jito 小费提升上链优先级并按顺序执行。
+   通过 Jito 小费提升上链优先级并按顺序执行。
 {% endstep %}
 
 {% step %}

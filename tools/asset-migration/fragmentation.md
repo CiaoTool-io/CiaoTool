@@ -13,7 +13,7 @@ metaLinks:
 
 本教程演示基于 BSC（BNB Chain）功能页面，本功能 EVM 网络 CiaoTool 全链通用，请切换至对应公链进行冷换仓操作。
 
-点击[**「Solana - 冷换仓」**](../../chains/solana/asset-migration/fragmentation.md)查看 Solana 网络冷换仓教程。
+点击[**「Solana - 冷换仓」**](../../chains/solana/multisender/fragmentation.md)查看 Solana 网络冷换仓教程。
 {% endhint %}
 
 ## CiaoTool EVM 冷换仓是什么？ <a href="#definition" id="definition"></a>

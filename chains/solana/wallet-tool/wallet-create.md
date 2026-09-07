@@ -9,12 +9,12 @@ description: >-
 {% hint style="info" %}
 当前&#x662F;**「Solana - 批量创建钱包」**&#x6559;程页面以查看 **Solana** 网络批量创建钱包教程。
 
-点击[**「EVM - 批量创建钱包」**](../../../tools/wallet-tool/wallet-create.md)以查看 **BSC、Base、X Layer、IoTeX、BOT** 等 EVM 网络教程。
+点击[**「EVM - 批量创建钱包」**](../../../tools/wallet-tool/wallet-create.md)以查看 **BSC、Base、X Layer、IoTeX、BOT、Robinhood Chain** 等 EVM 网络教程。
 {% endhint %}
 
 ## CiaoTool Solana 批量创建钱包是什么？ <a href="#definition" id="definition"></a>
 
-<figure><img src="../../../.gitbook/assets/image (637).png" alt="CiaoTool Solana网络 批量创建钱包 功能页面"><figcaption></figcaption></figure>
+<figure><picture><source srcset="../../../.gitbook/assets/屏幕截图 2026-09-07 150710.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (793).png" alt="CiaoTool Solana网络 批量创建钱包 功能页面"></picture><figcaption></figcaption></figure>
 
 如果您需要参与项目空投、进行 DApp 交互测试，或者希望将资产分散存放在不同的地址里，手动去钱包插件里一个个新建地址不仅极其耗时，还容易混淆记录。
 
@@ -31,7 +31,7 @@ description: >-
 
 立即在 Solana 网络上，用 CiaoTool​ 批量创建钱包：
 
-{% embed url="https://ciaotool.io/zh-CN/wallet/wallet-create" %}
+{% embed url="https://ciaotool.io/zh-Hans/wallet/wallet-create" %}
 
 ***
 
@@ -44,13 +44,13 @@ description: >-
 
 ***
 
-## **视频教程 | Solana 批量创建钱包** <a href="#solana-one-to-multi-guide" id="solana-one-to-multi-guide"></a>
+## **视频教程** <a href="#solana-one-to-multi-guide" id="solana-one-to-multi-guide"></a>
 
 {% embed url="https://www.youtube.com/watch?v=0gAKaRH9kh8" %}
 
 ***
 
-## **图文指南 | Solana** 批量创建钱包 <a href="#solana-one-to-multi-guide" id="solana-one-to-multi-guide"></a>
+## **图文指南** <a href="#solana-one-to-multi-guide" id="solana-one-to-multi-guide"></a>
 
 {% stepper %}
 {% step %}
@@ -58,7 +58,7 @@ description: >-
 
 输入创建数量，点击创建即可生成批量钱包。理论上 CiaoTool 支持一键生成最多 **10000 个钱包地址**，可根据需求自定义数量。
 
-<figure><img src="../../../.gitbook/assets/image (639).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (794).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -68,7 +68,7 @@ description: >-
 
 下载表格到本地存储保存，这将大大提高您批量操作私钥的效率。
 
-<figure><img src="../../../.gitbook/assets/image (640).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (795).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -87,6 +87,8 @@ description: >-
 </details>
 
 ***
+
+## **寻求支持**
 
 **如遇到问题？**&#x4F60;可以通过以下方即时联系 CiaoTool 团队：
 
