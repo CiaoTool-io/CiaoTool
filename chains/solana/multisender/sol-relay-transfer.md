@@ -22,7 +22,7 @@ description: 通过独立中间地址处理 SOL 的资金转移，切断首尾�
 
 立即在 Solana 上，用 CiaoTool​ 批量转账功能进行中转转账操作：
 
-{% embed url="https://ciaotool.io/zh-CN/transfer/relay-transfer" %}
+{% embed url="https://ciaotool.io/zh-Hans/transfer/relay-transfer" %}
 
 ***
 

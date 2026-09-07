@@ -18,6 +18,8 @@ description: 方便快捷地将分散在多个账户中的 SOL 或 SPL 代币统
 
 立即在 Solana 上，用 CiaoTool​ 批量转账功能进行多对一转账操作：
 
+{% embed url="https://ciaotool.io/zh-Hans/transfer/many-to-one" %}
+
 ***
 
 ## 为什么选择 CiaoTool 多对一转账？ <a href="#advantage" id="advantage"></a>
