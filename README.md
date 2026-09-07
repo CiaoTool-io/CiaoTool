@@ -11,7 +11,7 @@ metaLinks:
 
 # CiaoTool 一键发币
 
-<figure><img src=".gitbook/assets/image (442).png" alt="CiaoTool BSC 链官网"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (763).png" alt="CiaoTool Solana Chain 官网"><figcaption></figcaption></figure>
 
 CiaoTool 是一款支持 Solana、BSC、opBNB、Base、IoTeX、X Layer、BOT、Robinhood 等多链生态的 Web3 开发者工具与资产发行平台，专注于为项目方、工作室、交易团队与链上运营者提供可视化、无代码、安全、高性能的全生命周期解决方案。
 

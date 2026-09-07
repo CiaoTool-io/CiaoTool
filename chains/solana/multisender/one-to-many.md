@@ -25,7 +25,7 @@ description: 一对多转账是一种高效便捷的代币分发工具，支持�
 
 立即在 Solana 上，用 CiaoTool​ 批量转账功能进行一对多转账操作：
 
-{% embed url="https://ciaotool.io/zh-hans/transfer/one-to-many" %}
+{% embed url="https://ciaotool.io/zh-Hans/transfer/one-to-many" %}
 
 ***
 
