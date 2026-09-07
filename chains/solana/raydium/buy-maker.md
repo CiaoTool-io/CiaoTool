@@ -93,18 +93,30 @@ CiaoTool 为 Raydium 平台上的数据优化提供了一种兼顾极低成本�
 {% step %}
 ### 生成与买入设置
 
+{% hint style="danger" %}
+<mark style="color:$danger;">**钱包下载**</mark>
+
+您必须将生成的新钱包下载，以免网络中断造成财产损失。
+{% endhint %}
+
 {% tabs %}
-{% tab title="交易数量" %}
-设置单次交易循环（买+卖）的交易数量
+{% tab title="生成钱包" %}
+生成指定数量的新钱包，并完成买入操作，提升交易人数。
 
-<figure><img src="../../../.gitbook/assets/image (876).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (883).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
 
-* 固定数量：所有地址按照指定的数量，完成买卖交易循环。
-* 随机数量：每次买卖交易循环均在规定范围内随机完成。
+{% tab title="交易金额" %}
+设置每个新钱包的买入金额
+
+<figure><img src="../../../.gitbook/assets/image (882).png" alt=""><figcaption></figcaption></figure>
+
+* 固定数量：所有新钱包按照指定的数量，完成代币买入。
+* 随机数量：每个新钱包均在规定范围内随机买入完成。
 {% endtab %}
 
 {% tab title="交易间隔" %}
-可自由设置各地址完成一次买卖交易循环的执行间隔时间。
+可自由设置新地址完成交易的执行间隔时间。
 
 <figure><img src="../../../.gitbook/assets/image (855).png" alt=""><figcaption></figcaption></figure>
 
@@ -113,30 +125,16 @@ CiaoTool 为 Raydium 平台上的数据优化提供了一种兼顾极低成本�
 * **随机时间**\
   将会在指定的时间范围内随机提交，模拟真实交易。
 {% endtab %}
-
-{% tab title="循环次数" %}
-{% hint style="danger" %}
-关闭 / 刷新页面，机器人策略亦会**立即停止**。请保持策略执行期间，将网页持续处于后台并运行状态。为保证策略执行之必要，**该功能不推荐于**「**移动电子设备**」**使用。**
-{% endhint %}
-
-每个钱包完成买卖交易循环的次数，完成后将自动停止交易。
-
-<figure><img src="../../../.gitbook/assets/image (877).png" alt=""><figcaption></figcaption></figure>
-{% endtab %}
 {% endtabs %}
-{% endstep %}
-
-{% step %}
-### 交易参数设置
 {% endstep %}
 
 {% step %}
 ### 发送设置
 
 * **RPC 发送**\
-  RPC 发送策略是尽力而为，无需支付 Jito 小费。通过统一买卖交易广播交易，但不保证在同一区块内，可能会被机器人狙击造成损失。
+  通过 RPC 节点统一广播交易，无需支付 Jito 小费。
 * **Jito Bundle**\
-  通过 Jito 小费，将买卖交易打包为一个捆绑包，确保买卖交易不被狙击，并提升上链优先级，但需要消耗更多费用。
+  通过 Jito 小费提升上链优先级。
 
 <figure><img src="../../../.gitbook/assets/image (857).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
@@ -146,11 +144,11 @@ CiaoTool 为 Raydium 平台上的数据优化提供了一种兼顾极低成本�
 
 程序自动运行，查看确认页面并核对：
 
-* [x] 买卖循环次数
-* [x] 协议费消耗
-* [x] 买入卖出所得
+* [x] 新地址数量
+* [x] 买入本金
+* [x] 预计费用消耗
 
-<figure><img src="../../../.gitbook/assets/image (859).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (884).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -160,69 +158,7 @@ CiaoTool 为 Raydium 平台上的数据优化提供了一种兼顾极低成本�
 关闭 / 刷新页面，机器人策略亦会**立即停止**。请保持策略执行期间，将网页持续处于后台并运行状态。为保证策略执行之必要，**该功能不推荐于**「**移动电子设备**」**使用。**
 {% endhint %}
 
-交易费用将由各钱包独立承担。确认信息无误后，点击下方「**开始执行**」按钮，即可开启防夹交易量程序。
-
-<figure><img src="../../../.gitbook/assets/image (879).png" alt=""><figcaption></figcaption></figure>
-{% endstep %}
-
-{% step %}
-### **绑定钱包**
-
-点击右上角按钮，绑定支持 Solana 链的钱包
-
-<figure><img src="../../../.gitbook/assets/image (308).png" alt=""><figcaption></figcaption></figure>
-{% endstep %}
-
-{% step %}
-### 选择交易代币
-
-可以选择输入代币地址，也可以选择当前钱包拥有的代币进行买入操作。
-
-<figure><img src="../../../.gitbook/assets/image (368).png" alt=""><figcaption></figcaption></figure>
-{% endstep %}
-
-{% step %}
-### 选择买入地址数量
-
-选择或输入买入地址数量，以增加交易人数。
-
-<figure><img src="../../../.gitbook/assets/image (369).png" alt=""><figcaption></figcaption></figure>
-{% endstep %}
-
-{% step %}
-### 输入买入金额
-
-每个新建钱包买入所花费的金额，可设置特定交易范围，在范围内随机买入代币。
-{% endstep %}
-
-{% step %}
-### 导入主钱包私钥
-
-{% hint style="danger" %}
-<mark style="color:$danger;">**安全须知**</mark>
-
-当&#x524D;**「提升交易人数功能」**&#x529F;能支持仅支持私钥导入以进行交易操作。请确保在安全环境下输入私钥信息，您的资金安全对我们来说至关重要，[**了解更多 CiaoTool 如何保障您的资金安全：资金安全保障**](../../../security-guide.md)**。**
-{% endhint %}
-
-{% hint style="info" %}
-<mark style="color:$primary;">**主钱包设置**</mark>
-
-买入所产生的链上费用、SOL账户租金（自动退回）及平台服务费均由**主钱包**统一支付。页面底部会显示所需余额预估，请务必确保主钱包余额**高于预估金额**，否则可能导致交易失败。
-
-每个新地址 **SOL 账户租金** 需支付 **0.00203928 SOL**，在交易进程完成后自动退回主钱包。
-{% endhint %}
-
-<figure><img src="../../../.gitbook/assets/image (370).png" alt=""><figcaption></figcaption></figure>
-{% endstep %}
-
-{% step %}
-### 确认交易
-
-{% hint style="danger" %}
-关闭 / 刷新页面，机器人策略亦会**立即停止**。请保持策略执行期间，将网页持续处于后台并运行状态。为保证策略执行之必要，**该功能不推荐于**「**移动电子设备**」**使用。**
-{% endhint %}
-
-确认信息无误后，点击下&#x65B9;**「开始」**&#x6309;钮，并等交易程序完成。
+确认信息无误后，点击下方「**开始**」按钮，即可开启交易程序。
 {% endstep %}
 {% endstepper %}
 
