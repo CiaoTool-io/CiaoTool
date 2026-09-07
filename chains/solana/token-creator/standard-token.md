@@ -9,12 +9,12 @@ description: >-
 {% hint style="info" %}
 当前&#x662F;**「Solana - 标准代币创建」**&#x6559;程页面以查看标准代币创建教程。
 
-点击[**「EVM - 标准代币创建」**](../../../tools/token-creator/contract-token-creator/standard-token-evm.md)查看 **BSC、Base、X Layer、IoTeX、BOT** 等 EVM 网络教程。
+点击[**「EVM - 标准代币创建」**](../../../tools/token-creator/contract-token-creator/standard-token-evm.md)查看 **BSC、Base、X Layer、IoTeX、BOT、Robinhood Chain** 等 EVM 网络教程。
 {% endhint %}
 
 ## CiaoTool Solana 标准代币创建是什么？
 
-<figure><img src="../../../.gitbook/assets/image (641).png" alt=""><figcaption></figcaption></figure>
+<figure><picture><source srcset="../../../.gitbook/assets/屏幕截图 2026-09-07 155712.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (814).png" alt="CiaoTool Solana Chain 创建标准代币页面"></picture><figcaption></figcaption></figure>
 
 Solana 标准代币创建 是指在 Solana 区块链网络上，部署并发行原生数字资产的过程。CiaoTool 提供了完全无代码的代币创建开发工具。通过智能合约的自动化打包与前端可视化部署，并可设置或放弃代币权限（如增发、冻结）。发行方可以一键生成具备 Solana 极高并发处理能力与极低网络手续费特性的专属代币。
 
@@ -28,7 +28,7 @@ Solana 标准代币创建 是指在 Solana 区块链网络上，部署并发行�
 
 立即在 Solana 网络上，用 CiaoTool​ 创建标准代币：
 
-{% embed url="https://ciaotool.io/zh-CN/token/create-token" %}
+{% embed url="https://ciaotool.io/zh-Hans/token/create-token" %}
 
 ***
 
@@ -47,27 +47,27 @@ Solana 标准代币创建 是指在 Solana 区块链网络上，部署并发行�
 
 ***
 
-## **视频教程 | Solana 标准代币创建**
+## **视频教程**
 
 {% embed url="https://www.youtube.com/watch?v=FtfJagh1u2s" %}
 
 ***
 
-## **图文指南 | Solana 标准代币创建**
+## **图文指南**
 
 {% stepper %}
 {% step %}
 ### **绑定钱包**
 
-点击右上角按钮，绑定支持 Solana 网络的钱包
+点击右上角【连接钱包】按钮，绑定支持 Solana 链的钱包
 
-<figure><img src="../../../.gitbook/assets/image (622).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (747).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### 填写代币基础信息
+### 填写代币信息
 
-<figure><img src="../../../.gitbook/assets/image (643).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (815).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **克隆：** 点击克隆按钮，克隆其他代币的信息。
@@ -83,40 +83,67 @@ Solana 标准代币创建 是指在 Solana 区块链网络上，部署并发行�
 {% endstep %}
 
 {% step %}
-### 自定义服务
+### 添加链接<mark style="color:$info;">（可选）</mark>
 
-#### 自定义合约地址
+虽然为可选项，但强烈建议填写，**官网、X / Twitter、Telegram。Discord**，增加项目可信度。
 
-<figure><img src="../../../.gitbook/assets/image (644).png" alt=""><figcaption></figcaption></figure>
-
-打造你的个性化代币地址，设置代币地址，**额外收费 0.01 SOL。**
-
-1. **以「pump」结尾：**
-   * 代币地址以「pump」结尾
-2. **自定义代币地址**
-   * 提前生成您想要的钱包地址，可以是靓号地址。
-   * 将你提前生成的私钥粘贴导入（**地址必须要全新地址且没有付过SOL租金**）；
-   * 系统将使用该地址部署你的代币，确保合约地址与预期一致。
+<figure><img src="../../../.gitbook/assets/image (816).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### 设置权限
+### Mint 地址<mark style="color:$info;">（可选）</mark>
+
+生成自定义代币地址，提升代币辨识度。
+
+{% tabs %}
+{% tab title="靓号地址" %}
+可以设置希望出现在钱包地址开头或结尾的字符，例如以 `soL` 开头、以 `pump` 结尾，工具会持续生成随机密钥对，直到找到符合条件的地址。
+
+<figure><img src="../../../.gitbook/assets/image (817).png" alt=""><figcaption></figcaption></figure>
+
+详细工作原理及教程请查看
+
+{% content-ref url="../wallet-tool/vanity-address.md" %}
+[vanity-address.md](../wallet-tool/vanity-address.md)
+{% endcontent-ref %}
+{% endtab %}
+
+{% tab title="自定义地址" %}
+* 提前生成您想要的钱包地址，可以是靓号地址。
+* 将你提前生成的私钥粘贴导入（**地址必须要全新地址且没有付过SOL租金**）；
+* 系统将使用该地址部署你的代币，确保合约地址与预期一致。
+{% endtab %}
+{% endtabs %}
+{% endstep %}
+
+{% step %}
+### 权限设置
+
+关闭权限意味着您无法再编辑代币数据，但这会大大提升交易者信心。放弃权限不可恢复，请确认所有信息准确无误且无需再调整后关闭。
+
+<figure><img src="../../../.gitbook/assets/image (818).png" alt=""><figcaption></figcaption></figure>
 
 **元数据修改权**：“放弃元数据修改权”，意味着您将无法修改令牌元数据，让投资者感到更安全确实很有用。
 
 **冻结权**：“放弃冻结权”，意味着您无法限制特定帐户执行发送交易等操作，CiaoTool 支持未放弃此权限的代币创建市场。
 
 **铸币权**：“放弃铸币权”对于让投资者感到更加安全和作为代币的成功是必要的。如果您放弃铸币权，则意味着您将无法铸造更多代币供应。
+{% endstep %}
 
-<figure><img src="../../../.gitbook/assets/image (645).png" alt=""><figcaption></figcaption></figure>
+{% step %}
+### Jito 小费
+
+通过 Jito 小费提升上链优先级并按顺序执行。
 {% endstep %}
 
 {% step %}
 ### 确认交易
 
-确认信息无误后，点击下&#x65B9;**「创建代币」**&#x6309;钮，并等待合约创建完成。
+<figure><img src="../../../.gitbook/assets/image (819).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (646).png" alt=""><figcaption></figcaption></figure>
+确认信息无误后，点击下&#x65B9;**「创建 Token」**&#x6309;钮，您可以实时查看程序完成情况，并等待创建程序完成。
+
+<figure><img src="../../../.gitbook/assets/image (820).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -129,6 +156,24 @@ Solana 标准代币创建 是指在 Solana 区块链网络上，部署并发行�
 {% embed url="https://raydium.io/liquidity-pools/" %}
 {% endstep %}
 {% endstepper %}
+
+***
+
+## **更多快捷工具 & 指南**
+
+{% columns %}
+{% column %}
+{% content-ref url="tax-fee-claim.md" %}
+[tax-fee-claim.md](tax-fee-claim.md)
+{% endcontent-ref %}
+{% endcolumn %}
+
+{% column %}
+{% content-ref url="../multisender/one-to-many.md" %}
+[one-to-many.md](../multisender/one-to-many.md)
+{% endcontent-ref %}
+{% endcolumn %}
+{% endcolumns %}
 
 ***
 
@@ -167,6 +212,8 @@ Solana 标准代币创建 是指在 Solana 区块链网络上，部署并发行�
 </details>
 
 ***
+
+## **寻求支持**
 
 **如遇到问题？**&#x4F60;可以通过以下方即时联系 CiaoTool 团队：
 

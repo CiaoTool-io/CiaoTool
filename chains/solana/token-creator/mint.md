@@ -27,21 +27,16 @@ description: Solana 一键增发代币，CiaoTool 代币增发工具让您根据
 * 点击右上&#x89D2;**【连接钱包】**，选择钱包地址并确认授权。
 * 页面右上角显示钱包地址即表示绑定成功。
 
-<figure><img src="../../../.gitbook/assets/image (296).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (747).png" alt=""><figcaption></figcaption></figure>
 
 **2. 选择代币**
 
+*
+
+    <figure><img src="../../../.gitbook/assets/image (824).png" alt=""><figcaption></figcaption></figure>
 * 粘贴代币地址或下拉选择钱包内的代币。
-
-<figure><img src="../../../.gitbook/assets/image (297).png" alt=""><figcaption></figcaption></figure>
-
 * 若有增发权限且未放弃，将显示增发按钮，否则会显示已放弃。
-
-<figure><img src="../../../.gitbook/assets/image (298).png" alt=""><figcaption></figcaption></figure>
-
 * 必须绑定拥有代币所有权的钱包，否则会显示未拥有。
-
-<figure><img src="../../../.gitbook/assets/image (299).png" alt=""><figcaption></figcaption></figure>
 
 **3. 设置增发数量**
 
@@ -52,7 +47,7 @@ description: Solana 一键增发代币，CiaoTool 代币增发工具让您根据
 * 任务开始执行时，会出现日志弹框为您实时更新交易进度。
 * 任何环节出了问题，我们都会为你清晰透出。操作失败不会收取任何费用。
 
-![](https://docs.dogtools.meme/~gitbook/image?url=https%3A%2F%2F4028514454-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Ft1j9LpucEChNmzQ1XqQO%252Fuploads%252FXeeLJe4zNeykTEOviIGz%252Fimage.png%3Falt%3Dmedia%26token%3D70040d64-762e-40d0-a678-df4356c88659\&width=768\&dpr=4\&quality=100\&sign=b391782a\&sv=2)
+<figure><img src="../../../.gitbook/assets/image (825).png" alt=""><figcaption></figcaption></figure>
 
 #### ❓ 常见问题 <a href="#chang-jian-wen-ti" id="chang-jian-wen-ti"></a>
 
@@ -84,15 +79,13 @@ description: Solana 一键增发代币，CiaoTool 代币增发工具让您根据
 
 《 [Solana 创建代币](https://ciaotool.io/zh-CN/token/create) 》《 [Solana 代币管理](https://ciaotool.io/zh-CN/token/management) 》
 
-**💬 如遇到问题？加入社群实时咨询**：[https://t.me/ciaotool](https://t.me/ciaotool)
+***
 
-* **Email**：[support@ciaotool.io](mailto:support@ciaotool.io)
-* **官网**：[https://ciaotool.io](https://ciaotool.io/)
-* **X（Twitter）**：[https://x.com/CiaoTool](https://x.com/CiaoTool)
-* **Medium**： [https://medium.com/@ciaotool](https://medium.com/@ciaotool)
-* **Blog**：[https://www.ciaoailiquidity.com/zh/blog](https://www.ciaoailiquidity.com/zh/blog)
-* **YouTube**：[https://www.youtube.com/@CiaoTool](https://www.youtube.com/@CiaoTool)
-* **WhatsApp**：[https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J](https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J)
+## **寻求支持**
+
+**如遇到问题？**&#x4F60;可以通过以下方即时联系 CiaoTool 团队：
+
+<table data-header-hidden><thead><tr><th width="188"></th><th valign="top"></th><th data-hidden></th></tr></thead><tbody><tr><td>Email</td><td valign="top"><a href="mailto:ciaotoolglobal@gmail.com">ciaotoolglobal@gmail.com</a></td><td></td></tr><tr><td>Telegram</td><td valign="top"><a href="https://t.me/ciaotools">https://t.me/ciaotools</a></td><td></td></tr><tr><td>WhatsApp</td><td valign="top"><a href="https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J">https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J</a></td><td></td></tr></tbody></table>
 
 {% hint style="danger" %}
 CiaoTool 致力于提供便捷的工具服务，但不构成任何投资建议。平台内容可能根据产品迭代进行调整，敬请用户自行判断并留意更新。

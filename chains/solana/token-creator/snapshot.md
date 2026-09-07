@@ -5,7 +5,7 @@ description: CiaoTool 代币快照工具可帮助你在短时间内完成指定�
 # Solana  - 代币快照
 
 {% hint style="success" %}
-**Solana 代币快照：**[https://ciaotool.io/zh-CN/token/tokenTool/snapshot-token-holders](https://ciaotool.io/zh-CN/token/tokenTool/snapshot-token-holders)
+**Solana 代币快照**：[https://ciaotool.io/zh-Hans/token/holder-snapshot](https://ciaotool.io/zh-Hans/token/holder-snapshot)
 {% endhint %}
 
 #### **🎯 什么是 Solana 代币快照？**
@@ -40,7 +40,7 @@ Solana 代币快照是指在某一时间点，对代币持有者地址及其余�
 
 如果你希望筛选掉“尘埃地址”或设置参与门槛，例如只保留持有量 ≥ 1000 的钱包，可以在此设定一个最小持币门槛。
 
-<figure><img src="../../../.gitbook/assets/image (305).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (836).png" alt=""><figcaption></figcaption></figure>
 
 #### 三、生成并导出快照
 
@@ -49,7 +49,7 @@ Solana 代币快照是指在某一时间点，对代币持有者地址及其余�
 
 * CSV 文件（用于导入空投工具）
 
-<figure><img src="../../../.gitbook/assets/image (307).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (837).png" alt=""><figcaption></figcaption></figure>
 
 **⚠️ 常见失败案例**
 

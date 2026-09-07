@@ -14,11 +14,11 @@ description: >-
 
 立即在 Solana 上，用 CiaoTool 进行 WSOL 转换兑换操作：
 
-{% embed url="https://ciaotool.io/zh-CN/wallet/solana-wrapper" %}
+{% embed url="https://ciaotool.io/zh-Hans/wallet/solana-wrapper" %}
 
 ***
 
-## **图文指南 |** Solana WSOL 转换器
+## **图文指南**
 
 {% stepper %}
 {% step %}
@@ -26,7 +26,7 @@ description: >-
 
 点击右上角按钮，绑定支持 Solana 链的钱包
 
-<figure><img src="../../../.gitbook/assets/image (308).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (747).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -37,11 +37,13 @@ description: >-
 * 由于底层代码限制，SOL 包装成 WSOL 可以自定义输入指定包装数量。
 * WSOL 解包为 SOL 时，只能全部解包为 WSOL，不能输入指定数量兑换。
 
-<figure><img src="../../../.gitbook/assets/image (417).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (804).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### 导入钱包私钥
+### 选择转换钱包
+
+<figure><img src="../../../.gitbook/assets/image (805).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="danger" %}
 <mark style="color:$danger;">**安全须知**</mark>
@@ -53,35 +55,32 @@ description: >-
 
 {% tabs %}
 {% tab title="手动输入" %}
-1. 点&#x51FB;**「手动输入」**&#x6309;钮，弹出手动输入框。
+1. 点&#x51FB;**「批量输入」**&#x6309;钮，弹出手动输入框。
 
-<figure><img src="../../../.gitbook/assets/image (418).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (807).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (310).png" alt=""><figcaption></figcaption></figure>
+2. 输入 / 批量粘贴**钱包地址，**&#x6BCF;行仅输入一个钱包私钥，可在私钥后追加数量。
 
-2. 输入 / 批量粘贴**钱包私钥，**&#x4E00;行仅输入一个私钥，按回车键换行
+```
+privateKey, 300
+```
 
-<figure><img src="../../../.gitbook/assets/image (263).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (737).png" alt=""><figcaption></figcaption></figure>
 
-3. 点&#x51FB;**「确定」**，将所有输入地址导入到操作面板
+3. 点&#x51FB;**「确定导入」**，将所有输入地址导入到操作面板
 
-<figure><img src="../../../.gitbook/assets/image (421).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (808).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="上传文件" %}
-1. 点&#x51FB;**「上传文件」**&#x6309;钮，弹出文件上传窗口。
+1. 下载 CiaoTool 模板文件，并将信息导入到文件内。
 
-<figure><img src="../../../.gitbook/assets/image (419).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (810).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (251).png" alt=""><figcaption></figcaption></figure>
+2. 点击![](<../../../.gitbook/assets/image (811).png>)**「导入文件」**&#x6309;钮，弹出文件上传窗口。
+3. 点&#x51FB;**「确定导入」**，将所有地址导入到操作面板
 
-2. 导入钱包私钥信息文件，显示私钥信息
-
-<figure><img src="../../../.gitbook/assets/image (247).png" alt=""><figcaption></figcaption></figure>
-
-3. 点&#x51FB;**「确定」**，将所有输入地址导入到操作面板
-
-<figure><img src="../../../.gitbook/assets/image (420).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (808).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 {% endstep %}
@@ -89,30 +88,62 @@ description: >-
 {% step %}
 ### 输入转账金额
 
-{% hint style="info" %}
-选择 WSOL 兑换为 SOL 时，钱包内所有 SWOL 均会兑换为 SOL，您无需操作此步骤。
-{% endhint %}
+支&#x6301;**「逐一输入」「输入金额」「随机范围」「保留金额」「百分比金额」**&#x548C;**「全部」**&#x516D;种转账金额类型。
 
-支&#x6301;**「逐一输入」「固定金额」两**种转账金额类型。
+<figure><img src="../../../.gitbook/assets/image (809).png" alt=""><figcaption></figcaption></figure>
 
 1. **逐一输入**\
-   在输入框中，逐一输入买入金额数量
+   在输入框中，逐一输入转账金额数量。
 
-* 若填写数量，则按照填写的数量进行交易。
-* 若未填写数量，则按照交易数量中  设置的数量进行交易。
+<figure><img src="../../../.gitbook/assets/image (771).png" alt=""><figcaption></figcaption></figure>
 
-2. **全部金额**\
-   所有钱包将把代币全部兑换为指定代币。
+2. **统一金额**\
+   点击转账数量上方的![](<../../../.gitbook/assets/image (724).png>)按&#x94AE;**，**&#x9009;&#x62E9;**「输入金额」**&#x9009;项，所有地址将统一转账数量。
+3. **随机范围**\
+   点击转账数量上方的![](<../../../.gitbook/assets/image (724).png>)按&#x94AE;**，**&#x9009;&#x62E9;**「随机范围」**&#x9009;项，输入金额范围，所有地址将转账指定范围内数额。
+4. **保留金额**\
+   点击转账数量上方的![](<../../../.gitbook/assets/image (724).png>)按&#x94AE;**，**&#x9009;&#x62E9;**「保留金额」**&#x9009;项，所有发送钱包保留指定数量的目标代币，并将剩余代币全部转账到收款地址。
+5. **保留金额**\
+   点击转账数量上方的![](<../../../.gitbook/assets/image (724).png>)按&#x94AE;**，**&#x9009;&#x62E9;**「百分比金额」**&#x9009;项，所有发送钱包保留指定百分比的目标代币，并将剩余代币全部转账到收款地址。
+6. **全部**\
+   点击转账数量上方的![](<../../../.gitbook/assets/image (724).png>)按&#x94AE;**，**&#x9009;&#x62E9;**「全部」**&#x9009;项，所有发送钱包将目标代币全部转账到收款地址。
+{% endstep %}
+
+{% step %}
+### 发送形式
+
+系统将根据收款地址数量自动分组，每组最多 1 个钱包。
+
+<figure><img src="../../../.gitbook/assets/image (730).png" alt=""><figcaption></figcaption></figure>
+
+1. **RPC 发送**\
+   通过 RPC 节点统一广播转账交易，无需支付 Jito 小费。
+2. **Jito Bundle**\
+   将 5 组交易打包为一个捆绑包，通过 Jito 小费提升上链优先级并按顺序执行。
+{% endstep %}
+
+{% step %}
+### 核实信息
+
+确认页面并核对：
+
+* [x] 转换钱包及转换代币数量
+* [x] 新地址 ATA 租金
+* [x] 本次预估费用
+
+<figure><img src="../../../.gitbook/assets/image (812).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ### 确认交易
 
-确认信息无误后，点击下&#x65B9;**「提交」**&#x6309;钮，并等待程序执行完成。
+确认信息无误后，点击下&#x65B9;**「开始」**&#x6309;钮，并等待程序执行完成。
 {% endstep %}
 {% endstepper %}
 
 ***
+
+## **寻求支持**
 
 **如遇到问题？**&#x4F60;可以通过以下方即时联系 CiaoTool 团队：
 

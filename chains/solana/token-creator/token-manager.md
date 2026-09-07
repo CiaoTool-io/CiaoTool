@@ -5,10 +5,12 @@ description: 对钱包内代币分类整理，便于统一进行权限管理、�
 # Solana - 代币管理教程
 
 {% hint style="success" %}
-**Solana 代币管理**：[https://ciaotool.io/zh-CN/token/management](https://ciaotool.io/zh-CN/token/management)
+**Solana 代币管理**：[https://ciaotool.io/zh-Hans/token/management](https://ciaotool.io/zh-Hans/token/management)
 {% endhint %}
 
 #### **🎯 什么是 Solana 代币管理？**
+
+<figure><img src="../../../.gitbook/assets/image (823).png" alt=""><figcaption></figcaption></figure>
 
 Solana 代币管理，是指对已创建的 Token 进行统一操作与控制，包括权限管理、批量操作等。通过工具可对不同类型代币（标准代币、Pump 代币、NFT、稳定币）进行一站式管理，无需编程即可完成复杂操作，提升资金与策略执行效率。
 
@@ -22,17 +24,11 @@ Solana 代币管理，是指对已创建的 Token 进行统一操作与控制，
 
 💰 **标准代币：**&#x6700;常见的 SPL 代币类型，用于普通交易和转账。
 
-<figure><img src="../../../.gitbook/assets/image (290).png" alt=""><figcaption></figcaption></figure>
-
 🎯 **Pump 代币：**&#x901A;常用于短周期、社区驱动的投机交易，具备高波动性特征。
-
-<figure><img src="../../../.gitbook/assets/image (291).png" alt=""><figcaption></figcaption></figure>
 
 🖼️ **NFT 代币：**&#x57FA;于 Metaplex 标准，代表唯一资产，如图片、游戏道具等。
 
 💵 **稳定币：**&#x951A;定法币（如 USD）的代币，价格相对稳定，常用于支付和清算。
-
-<figure><img src="../../../.gitbook/assets/image (292).png" alt=""><figcaption></figcaption></figure>
 
 #### 🧩 **如何在 Solana 管理代币**
 
@@ -40,8 +36,6 @@ Solana 代币管理，是指对已创建的 Token 进行统一操作与控制，
 
 * 点击右上角【连接钱包】，选择钱包地址并确认授权。
 * 页面右上角显示钱包地址即表示绑定成功。
-
-<figure><img src="../../../.gitbook/assets/image (293).png" alt=""><figcaption></figcaption></figure>
 
 **2.选择代币进行操作**
 
@@ -78,15 +72,13 @@ Solana 代币管理，是指对已创建的 Token 进行统一操作与控制，
 
 《 [Solana 租金回收](https://ciaotool.io/zh-CN/wallet/manage/reclaim-rent) 》《 [Solana 一键清仓](https://ciaotool.io/zh-CN/wallet/manage/one-click-clearance) 》
 
-**💬 如遇到问题？加入社群实时咨询：**[https://t.me/ciaotool](https://t.me/ciaotool)
+***
 
-* Email：[support@ciaotool.io](mailto:support@ciaotool.io)
-* 官网：[https://ciaotool.io](https://ciaotool.io/)
-* X（Twitter）：[https://x.com/CiaoTool](https://x.com/CiaoTool)
-* Medium： [https://medium.com/@ciaotool](https://medium.com/@ciaotool)
-* Blog：[https://www.ciaoailiquidity.com/zh/blog](https://www.ciaoailiquidity.com/zh/blog)
-* YouTube：[https://www.youtube.com/@CiaoTool](https://www.youtube.com/@CiaoTool)
-* WhatsApp：[https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J](https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J)
+## **寻求支持**
+
+**如遇到问题？**&#x4F60;可以通过以下方即时联系 CiaoTool 团队：
+
+<table data-header-hidden><thead><tr><th width="188"></th><th valign="top"></th><th data-hidden></th></tr></thead><tbody><tr><td>Email</td><td valign="top"><a href="mailto:ciaotoolglobal@gmail.com">ciaotoolglobal@gmail.com</a></td><td></td></tr><tr><td>Telegram</td><td valign="top"><a href="https://t.me/ciaotools">https://t.me/ciaotools</a></td><td></td></tr><tr><td>WhatsApp</td><td valign="top"><a href="https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J">https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J</a></td><td></td></tr></tbody></table>
 
 {% hint style="danger" %}
 CiaoTool 致力于提供便捷的工具服务，但不构成任何投资建议。平台内容可能根据产品迭代进行调整，敬请用户自行判断并留意更新。

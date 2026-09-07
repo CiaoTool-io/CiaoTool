@@ -5,7 +5,7 @@ description: 无需代码实现账户权限管理，此功能可恢复特定账�
 # Solana - 解冻账户教程
 
 {% hint style="success" %}
-**Solana 解冻账户：**[https://ciaotool.io/zh-CN/token/unfreeze-account](https://ciaotool.io/zh-CN/token/unfreeze-account)
+**Solana 解冻账户：**[https://ciaotool.io/zh-Hans/token/unfreeze-account](https://ciaotool.io/zh-Hans/token/unfreeze-account)
 {% endhint %}
 
 #### **🎯 什么是 Solana 解冻账户？**
@@ -27,13 +27,13 @@ Solana 解冻账户功能允许项目方恢复已被冻结账户的操作权限�
 * 点击右上&#x89D2;**【连接钱包】**，选择钱包地址并确认授权。
 * 页面右上角显示钱包地址即表示绑定成功。
 
-<figure><img src="../../../.gitbook/assets/image (303).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (747).png" alt=""><figcaption></figcaption></figure>
 
 **2. 选择代币**
 
 * 粘贴代币地址或下拉选择钱包内的代币。
 
-![](https://docs.dogtools.meme/~gitbook/image?url=https%3A%2F%2F4028514454-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Ft1j9LpucEChNmzQ1XqQO%252Fuploads%252F8RU4BhqocBln2Ung1WXc%252Fimage.png%3Falt%3Dmedia%26token%3Db31ab953-c836-4551-8a79-20d36c979599\&width=768\&dpr=4\&quality=100\&sign=970fb0ca\&sv=2)
+<figure><img src="../../../.gitbook/assets/image (832).png" alt=""><figcaption></figcaption></figure>
 
 #### ⛓️ **交易流程**
 
@@ -48,7 +48,7 @@ Solana 解冻账户功能允许项目方恢复已被冻结账户的操作权限�
 * 链上交易未成功，误以为账户已解冻
 * 解冻数量或条件设置不当，影响策略执行
 
-![](https://docs.dogtools.meme/~gitbook/image?url=https%3A%2F%2F4028514454-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Ft1j9LpucEChNmzQ1XqQO%252Fuploads%252FXeeLJe4zNeykTEOviIGz%252Fimage.png%3Falt%3Dmedia%26token%3D70040d64-762e-40d0-a678-df4356c88659\&width=768\&dpr=4\&quality=100\&sign=b391782a\&sv=2)
+<figure><img src="../../../.gitbook/assets/image (833).png" alt=""><figcaption></figcaption></figure>
 
 #### ❓ 常见问题 <a href="#chang-jian-wen-ti" id="chang-jian-wen-ti"></a>
 
@@ -76,15 +76,13 @@ Solana 解冻账户功能允许项目方恢复已被冻结账户的操作权限�
 
 《 [Solana 代币管理](https://ciaotool.io/zh-CN/token/management) 》《[Solana 冻结账户](https://ciaotool.io/zh-CN/token/freeze-account)》
 
-**💬 如遇到问题？加入社群实时咨询**：[https://t.me/ciaotool](https://t.me/ciaotool)
+***
 
-* Email：[support@ciaotool.io](mailto:support@ciaotool.io)
-* 官网：[https://ciaotool.io](https://ciaotool.io/)
-* X（Twitter）：[https://x.com/CiaoTool](https://x.com/CiaoTool)
-* Medium： [https://medium.com/@ciaotool](https://medium.com/@ciaotool)
-* Blog：[https://www.ciaoailiquidity.com/zh/blog](https://www.ciaoailiquidity.com/zh/blog)
-* YouTube：[https://www.youtube.com/@CiaoTool](https://www.youtube.com/@CiaoTool)
-* WhatsApp：[https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J](https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J)
+## **寻求支持**
+
+**如遇到问题？**&#x4F60;可以通过以下方即时联系 CiaoTool 团队：
+
+<table data-header-hidden><thead><tr><th width="188"></th><th valign="top"></th><th data-hidden></th></tr></thead><tbody><tr><td>Email</td><td valign="top"><a href="mailto:ciaotoolglobal@gmail.com">ciaotoolglobal@gmail.com</a></td><td></td></tr><tr><td>Telegram</td><td valign="top"><a href="https://t.me/ciaotools">https://t.me/ciaotools</a></td><td></td></tr><tr><td>WhatsApp</td><td valign="top"><a href="https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J">https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J</a></td><td></td></tr></tbody></table>
 
 {% hint style="danger" %}
 CiaoTool 致力于提供便捷的工具服务，但不构成任何投资建议。平台内容可能根据产品迭代进行调整，敬请用户自行判断并留意更新。

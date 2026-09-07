@@ -5,7 +5,7 @@ description: Solana 冻结账户功能允许持有权限的账户暂时限制指
 # Solana - 冻结账户教程
 
 {% hint style="success" %}
-**Solana 冻结账户：**[https://ciaotool.io/zh-CN/token/freeze-account](https://ciaotool.io/zh-CN/token/freeze-account)
+**Solana 冻结账户：**[https://ciaotool.io/zh-Hans/token/freeze-account](https://ciaotool.io/zh-Hans/token/freeze-account)
 {% endhint %}
 
 #### **🎯 什么是 Solana 冻结账户（黑名单）？**
@@ -27,13 +27,13 @@ Solana 冻结账户功能，也称“黑名单”，允许项目方通过 **Free
 * 点击右上&#x89D2;**【连接钱包】**，选择钱包地址并确认授权。
 * 页面右上角显示钱包地址即表示绑定成功
 
-<figure><img src="../../../.gitbook/assets/image (302).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (747).png" alt=""><figcaption></figcaption></figure>
 
 **2. 选择代币**
 
 * 粘贴代币地址或下拉选择钱包内的代币。
 
-![](https://docs.dogtools.meme/~gitbook/image?url=https%3A%2F%2F4028514454-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Ft1j9LpucEChNmzQ1XqQO%252Fuploads%252F6CMikl9kp2S6kkPGswYs%252Fimage.png%3Falt%3Dmedia%26token%3D3a3d9606-258c-4378-9da9-f163d65d67dd\&width=768\&dpr=4\&quality=100\&sign=f7ccb818\&sv=2)
+<figure><img src="../../../.gitbook/assets/image (830).png" alt=""><figcaption></figcaption></figure>
 
 #### ⛓️ **交易流程**
 
@@ -42,13 +42,14 @@ Solana 冻结账户功能，也称“黑名单”，允许项目方通过 **Free
 
 **⚠️ 常见失败案例**
 
+* 冻结地址未持有目标代币
 * 未持有 Freeze 权限，无法执行冻结操作
 * 冻结错误地址，影响正常用户操作
 * 多签或权限设置错误，导致无法解除冻结
 * 操作未成功上链，但误以为已冻结
 * 频繁冻结/解冻触发链上限制或延迟
 
-![](https://docs.dogtools.meme/~gitbook/image?url=https%3A%2F%2F4028514454-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Ft1j9LpucEChNmzQ1XqQO%252Fuploads%252FXeeLJe4zNeykTEOviIGz%252Fimage.png%3Falt%3Dmedia%26token%3D70040d64-762e-40d0-a678-df4356c88659\&width=768\&dpr=4\&quality=100\&sign=b391782a\&sv=2)
+<figure><img src="../../../.gitbook/assets/image (831).png" alt=""><figcaption></figcaption></figure>
 
 #### ❓ 常见问题 <a href="#chang-jian-wen-ti" id="chang-jian-wen-ti"></a>
 
@@ -76,15 +77,13 @@ Solana 冻结账户功能，也称“黑名单”，允许项目方通过 **Free
 
 《 [Solana 代币管理](https://ciaotool.io/zh-CN/token/management) 》《 [Solana 解冻账户](https://ciaotool.io/zh-CN/token/unfreeze-account) 》《 [Solana 代币快照](https://ciaotool.io/zh-CN/token/tokenTool/snapshot-token-holders) 》
 
-**💬 如遇到问题？加入社群实时咨询**：[https://t.me/ciaotool](https://t.me/ciaotool)
+***
 
-* Email：[support@ciaotool.io](mailto:support@ciaotool.io)
-* 官网：[https://ciaotool.io](https://ciaotool.io/)
-* X（Twitter）：[https://x.com/CiaoTool](https://x.com/CiaoTool)
-* Medium： [https://medium.com/@ciaotool](https://medium.com/@ciaotool)
-* Blog：[https://www.ciaoailiquidity.com/zh/blog](https://www.ciaoailiquidity.com/zh/blog)
-* YouTube：[https://www.youtube.com/@CiaoTool](https://www.youtube.com/@CiaoTool)
-* WhatsApp：[https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J](https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J)
+## **寻求支持**
+
+**如遇到问题？**&#x4F60;可以通过以下方即时联系 CiaoTool 团队：
+
+<table data-header-hidden><thead><tr><th width="188"></th><th valign="top"></th><th data-hidden></th></tr></thead><tbody><tr><td>Email</td><td valign="top"><a href="mailto:ciaotoolglobal@gmail.com">ciaotoolglobal@gmail.com</a></td><td></td></tr><tr><td>Telegram</td><td valign="top"><a href="https://t.me/ciaotools">https://t.me/ciaotools</a></td><td></td></tr><tr><td>WhatsApp</td><td valign="top"><a href="https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J">https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J</a></td><td></td></tr></tbody></table>
 
 {% hint style="danger" %}
 CiaoTool 致力于提供便捷的工具服务，但不构成任何投资建议。平台内容可能根据产品迭代进行调整，敬请用户自行判断并留意更新。

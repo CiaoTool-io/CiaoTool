@@ -5,7 +5,7 @@ description: 一键放弃 Solana 上代币控制权限，CiaoTool 助您增加�
 # Solana - 放弃权限教程
 
 {% hint style="success" %}
-**Solana 放弃权限**：[https://ciaotool.io/zh-CN/token/revoke-permission](https://ciaotool.io/zh-CN/token/revoke-permission)
+**Solana 放弃权限**：[https://ciaotool.io/zh-Hans/token/token-authority](https://ciaotool.io/zh-Hans/token/token-authority)
 {% endhint %}
 
 ## **🎯 什么是 Solana 放弃权限？**
@@ -26,7 +26,7 @@ description: 一键放弃 Solana 上代币控制权限，CiaoTool 助您增加�
 * 点击右上&#x89D2;**【连接钱包】**，选择钱包地址并确认授权。
 * 页面右上角显示钱包地址即表示绑定成功。
 
-<figure><img src="../../../.gitbook/assets/image (294).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (747).png" alt=""><figcaption></figcaption></figure>
 
 **2. 选择代币**
 
@@ -68,15 +68,13 @@ description: 一键放弃 Solana 上代币控制权限，CiaoTool 助您增加�
 
 《 [Solana 代币增发](https://ciaotool.io/zh-CN/token/mint) 》《 [Solana 代币更新](https://ciaotool.io/zh-CN/token/update) 》《 [Solana 燃烧代币](https://ciaotool.io/zh-CN/token/burn) 》《 [Solana 冻结账户](https://ciaotool.io/zh-CN/token/freeze-account) 》
 
-**💬 如遇到问题？加入社群实时咨询**：[https://t.me/ciaotool](https://t.me/ciaotool)
+***
 
-* Email：[support@ciaotool.io](mailto:support@ciaotool.io)
-* 官网：[https://ciaotool.io](https://ciaotool.io/)
-* X（Twitter）：[https://x.com/CiaoTool](https://x.com/CiaoTool)
-* Medium： [https://medium.com/@ciaotool](https://medium.com/@ciaotool)
-* Blog：[https://www.ciaoailiquidity.com/zh/blog](https://www.ciaoailiquidity.com/zh/blog)
-* YouTube：[https://www.youtube.com/@CiaoTool](https://www.youtube.com/@CiaoTool)
-* WhatsApp：[https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J](https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J)
+## **寻求支持**
+
+**如遇到问题？**&#x4F60;可以通过以下方即时联系 CiaoTool 团队：
+
+<table data-header-hidden><thead><tr><th width="188"></th><th valign="top"></th><th data-hidden></th></tr></thead><tbody><tr><td>Email</td><td valign="top"><a href="mailto:ciaotoolglobal@gmail.com">ciaotoolglobal@gmail.com</a></td><td></td></tr><tr><td>Telegram</td><td valign="top"><a href="https://t.me/ciaotools">https://t.me/ciaotools</a></td><td></td></tr><tr><td>WhatsApp</td><td valign="top"><a href="https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J">https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J</a></td><td></td></tr></tbody></table>
 
 {% hint style="danger" %}
 CiaoTool 致力于提供便捷的工具服务，但不构成任何投资建议。平台内容可能根据产品迭代进行调整，敬请用户自行判断并留意更新。

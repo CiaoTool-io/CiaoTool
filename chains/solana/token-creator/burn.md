@@ -5,7 +5,7 @@ description: 便捷的永久移除流通中的代币，以提升代币的稀缺�
 # Solana - 燃烧代币教程
 
 {% hint style="success" %}
-**Solana 燃烧代币:** [https://ciaotool.io/zh-CN/token/burn](https://ciaotool.io/zh-CN/token/burn)
+**Solana 燃烧代币:** [https://ciaotool.io/zh-Hans/token/burn](https://ciaotool.io/zh-Hans/token/burn)
 {% endhint %}
 
 #### **🎯 什么是 Solana 燃烧代币？**
@@ -25,13 +25,13 @@ Solana 燃烧代币是指将流通中的代币永久移除，使其不可再流�
 1. 可以从[代币管理](https://ciaotool.io/zh-CN/token/management)页直接跳&#x8F6C;**（若有代币余额，将显示燃烧按钮）**
 2. 直接进入[燃烧代币](https://ciaotool.io/zh-CN/token/burn)页，选择需要燃烧的代币，输入燃烧数量，点击下方操作按钮即可
 
-<figure><img src="../../../.gitbook/assets/image (301).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (828).png" alt=""><figcaption></figcaption></figure>
 
 #### ⛓️ **燃烧代币交易流程**
 
 * 任务开始执行时，会出现日志弹框为您实时更新交易进度。（需要一次交易签名）
 
-![](https://docs.dogtools.meme/~gitbook/image?url=https%3A%2F%2F4028514454-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252Ft1j9LpucEChNmzQ1XqQO%252Fuploads%252FXeeLJe4zNeykTEOviIGz%252Fimage.png%3Falt%3Dmedia%26token%3D70040d64-762e-40d0-a678-df4356c88659\&width=768\&dpr=4\&quality=100\&sign=b391782a\&sv=2)
+<figure><img src="../../../.gitbook/assets/image (829).png" alt=""><figcaption></figcaption></figure>
 
 * 任何环节出了问题，我们都会为你清晰透出。操作失败不会收取任何费用。
 
@@ -73,15 +73,13 @@ Solana 燃烧代币是指将流通中的代币永久移除，使其不可再流�
 
 《 [Solana 代币管理](https://ciaotool.io/zh-CN/token/management) 》《 [Solana 一键清仓](https://ciaotool.io/zh-CN/wallet/manage/one-click-clearance) 》
 
-**💬 如遇到问题？加入社群实时咨询**：[https://t.me/ciaotool](https://t.me/ciaotool)
+***
 
-* **Email**：[support@ciaotool.io](mailto:support@ciaotool.io)
-* **官网**：[https://ciaotool.io](https://ciaotool.io/)
-* **X（Twitter）**：[https://x.com/CiaoTool](https://x.com/CiaoTool)
-* **Medium**： [https://medium.com/@ciaotool](https://medium.com/@ciaotool)
-* **Blog**：[https://www.ciaoailiquidity.com/zh/blog](https://www.ciaoailiquidity.com/zh/blog)
-* **YouTube**：[https://www.youtube.com/@CiaoTool](https://www.youtube.com/@CiaoTool)
-* **WhatsApp**：[https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J](https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J)
+## **寻求支持**
+
+**如遇到问题？**&#x4F60;可以通过以下方即时联系 CiaoTool 团队：
+
+<table data-header-hidden><thead><tr><th width="188"></th><th valign="top"></th><th data-hidden></th></tr></thead><tbody><tr><td>Email</td><td valign="top"><a href="mailto:ciaotoolglobal@gmail.com">ciaotoolglobal@gmail.com</a></td><td></td></tr><tr><td>Telegram</td><td valign="top"><a href="https://t.me/ciaotools">https://t.me/ciaotools</a></td><td></td></tr><tr><td>WhatsApp</td><td valign="top"><a href="https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J">https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J</a></td><td></td></tr></tbody></table>
 
 {% hint style="danger" %}
 CiaoTool 致力于提供便捷的工具服务，但不构成任何投资建议。平台内容可能根据产品迭代进行调整，敬请用户自行判断并留意更新。

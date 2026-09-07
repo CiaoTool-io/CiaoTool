@@ -12,7 +12,7 @@ description: >-
 
 ## CiaoTool Solana 税费代币创建是什么？
 
-<figure><img src="../../../.gitbook/assets/image (647).png" alt="CiaoTool Solana网络 创建税费代币 功能页面"><figcaption></figcaption></figure>
+<figure><picture><source srcset="../../../.gitbook/assets/屏幕截图 2026-09-07 161859.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (821).png" alt="CiaoTool Solana Chain 创建税费代币页面"></picture><figcaption></figcaption></figure>
 
 传统 Solana 标准代币（SPL Token）主要用于基础的转账与流通，而 Solana 税费代币创建 则是基于 Solana 官方最新的 Token-2022 扩展协议 实现的高阶资产发行功能。
 
@@ -29,7 +29,7 @@ description: >-
 
 立即在 Solana 网络上，用 CiaoTool​ 创建税费代币：
 
-{% embed url="https://ciaotool.io/zh-CN/token/tax-token" %}
+{% embed url="https://ciaotool.io/zh-Hans/token/tax-token" %}
 
 ***
 
@@ -48,7 +48,7 @@ description: >-
 
 ***
 
-## **视频教程 | Solana 税费代币创建**
+## **视频教程**
 
 {% hint style="info" %}
 如果你更偏好视频形式的学习，该功能页面与 税费代币 页面结构类似，参考并观看本教程
@@ -58,21 +58,21 @@ description: >-
 
 ***
 
-## **图文指南 | Solana 税费代币创建**
+## **图文指南**
 
 {% stepper %}
 {% step %}
 ### **绑定钱包**
 
-点击右上角按钮，绑定支持 Solana 网络的钱包
+点击右上角【连接钱包】按钮，绑定支持 Solana 链的钱包
 
-<figure><img src="../../../.gitbook/assets/image (622).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (747).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### 填写代币基础信息
+### 填写代币信息
 
-<figure><img src="../../../.gitbook/assets/image (643).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (815).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **克隆：** 点击克隆按钮，克隆其他代币的信息。
@@ -80,7 +80,7 @@ description: >-
 
 * **代币名称：**&#x60A8;希望展示在钱包或区块浏览器中的完整代币名称（_例如：MyFirstToken_）。
 * **代币简称：**&#x4EE3;币的缩写，通常为 3\~6 个大写字母（_例如：MYT_）。
-* **精度：**&#x6307;的是一种代币最小可以分割到的小数位数。简单来说，它决定了你可以将一枚代币分成多小的单位。常见为 18 位。
+* **精度：**&#x6307;的是一种代币最小可以分割到的小数位数。简单来说，它决定了你可以将一枚代币分成多小的单位。常见为 6 / 9 位。
 * **总供应量：**&#x53D1;行的代币总量。
 * **LOGO：**&#x4E0A;传项目或代币的标志图像，建议尺寸 1000\*1000 像素。
 * **描述：** 简要介绍代币用途、故事或 Meme 背景（选填）。
@@ -88,34 +88,78 @@ description: >-
 {% endstep %}
 
 {% step %}
-### 税费设置
+### 税费配置
 
-<figure><img src="../../../.gitbook/assets/image (648).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (822).png" alt=""><figcaption></figcaption></figure>
 
 * **费率：**&#x6BCF;次交易或转账所需的手续费率，单位为百分比。
 * **最高费用：**&#x5355;笔转账或交易时的最大手续费用上限。
-* **权限钱包地址：**&#x9ED8;认为当前连接的钱包地址，控制此代币的所有权限。
-* **提现钱包地址：**&#x4EE3;币所产生的手续费，有权限进行提现的地址，默认为当前连接的钱包地址。
+* **税费权限地址：**&#x9ED8;认为当前连接的钱包地址，控制此代币的所有权限。
+* **提取税费地址：**&#x4EE3;币所产生的手续费，有权限进行提现的地址，默认为当前连接的钱包地址。
 {% endstep %}
 
 {% step %}
-### 设置权限
+### 添加链接<mark style="color:$info;">（可选）</mark>
+
+虽然为可选项，但强烈建议填写，**官网、X / Twitter、Telegram。Discord**，增加项目可信度。
+
+<figure><img src="../../../.gitbook/assets/image (816).png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Mint 地址<mark style="color:$info;">（可选）</mark>
+
+生成自定义代币地址，提升代币辨识度。
+
+{% tabs %}
+{% tab title="靓号地址" %}
+可以设置希望出现在钱包地址开头或结尾的字符，例如以 `soL` 开头、以 `pump` 结尾，工具会持续生成随机密钥对，直到找到符合条件的地址。
+
+<figure><img src="../../../.gitbook/assets/image (817).png" alt=""><figcaption></figcaption></figure>
+
+详细工作原理及教程请查看
+
+{% content-ref url="../wallet-tool/vanity-address.md" %}
+[vanity-address.md](../wallet-tool/vanity-address.md)
+{% endcontent-ref %}
+{% endtab %}
+
+{% tab title="自定义地址" %}
+* 提前生成您想要的钱包地址，可以是靓号地址。
+* 将你提前生成的私钥粘贴导入（**地址必须要全新地址且没有付过SOL租金**）；
+* 系统将使用该地址部署你的代币，确保合约地址与预期一致。
+{% endtab %}
+{% endtabs %}
+{% endstep %}
+
+{% step %}
+### 权限设置
+
+关闭权限意味着您无法再编辑代币数据，但这会大大提升交易者信心。放弃权限不可恢复，请确认所有信息准确无误且无需再调整后关闭。
+
+<figure><img src="../../../.gitbook/assets/image (818).png" alt=""><figcaption></figcaption></figure>
 
 **元数据修改权**：“放弃元数据修改权”，意味着您将无法修改令牌元数据，让投资者感到更安全确实很有用。
 
 **冻结权**：“放弃冻结权”，意味着您无法限制特定帐户执行发送交易等操作，CiaoTool 支持未放弃此权限的代币创建市场。
 
 **铸币权**：“放弃铸币权”对于让投资者感到更加安全和作为代币的成功是必要的。如果您放弃铸币权，则意味着您将无法铸造更多代币供应。
+{% endstep %}
 
-<figure><img src="../../../.gitbook/assets/image (645).png" alt=""><figcaption></figcaption></figure>
+{% step %}
+### Jito 小费
+
+通过 Jito 小费提升上链优先级并按顺序执行。
 {% endstep %}
 
 {% step %}
 ### 确认交易
 
-确认信息无误后，点击下&#x65B9;**「创建代币」**&#x6309;钮，并等待合约创建完成。
+<figure><img src="../../../.gitbook/assets/image (819).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (646).png" alt=""><figcaption></figcaption></figure>
+确认信息无误后，点击下&#x65B9;**「创建 Token」**&#x6309;钮，您可以实时查看程序完成情况，并等待创建程序完成。
+
+<figure><img src="../../../.gitbook/assets/image (820).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -141,13 +185,13 @@ description: >-
 {% endcolumn %}
 
 {% column %}
-{% content-ref url="../multisender/one-to-many-old.md" %}
-[one-to-many-old.md](../multisender/one-to-many-old.md)
+{% content-ref url="../multisender/one-to-many.md" %}
+[one-to-many.md](../multisender/one-to-many.md)
 {% endcontent-ref %}
 {% endcolumn %}
 {% endcolumns %}
 
-## **常见问题 FAQ**
+## **常见问题**
 
 <details>
 
@@ -206,6 +250,8 @@ Solana 代币没有白名单功能，所有地址转账与交易都会产生手�
 </details>
 
 ***
+
+## **寻求支持**
 
 **如遇到问题？**&#x4F60;可以通过以下方即时联系 CiaoTool 团队：
 

@@ -5,7 +5,7 @@ description: 一键清仓工具可以帮助用户自动卖出钱包中的所有�
 # Solana 一键清仓教程
 
 {% hint style="success" %}
-**Solana 一键清仓：**[https://ciaotool.io/zh-CN/wallet/sweeper](https://ciaotool.io/zh-CN/wallet/sweeper)
+**Solana 一键清仓：**[https://ciaotool.io/zh-Hans/wallet/sweeper](https://ciaotool.io/zh-Hans/wallet/sweeper)
 {% endhint %}
 
 #### 🧩 如何使用一键清仓？
@@ -14,13 +14,13 @@ description: 一键清仓工具可以帮助用户自动卖出钱包中的所有�
 
 * 点击 **连接钱包**，完成钱包授权。
 
-<figure><img src="../../../.gitbook/assets/image (282).png" alt=""><figcaption></figcaption></figure>
+<figure><picture><source srcset="../../../.gitbook/assets/屏幕截图 2026-09-04 142205.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (711).png" alt="CiaoTool BSC 批量转账 一对多转账页面"></picture><figcaption></figcaption></figure>
 
 **2. 选择钱包清仓模式**
 
 * 选择需要进行清仓操作的钱包：
 
-<figure><img src="../../../.gitbook/assets/image (283).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (803).png" alt=""><figcaption></figcaption></figure>
 
 * **当前绑定钱包**：直接清理当前已连接的钱包资产
 * **其他钱包**：通过导入私钥清理其他钱包资产
@@ -61,15 +61,13 @@ description: 一键清仓工具可以帮助用户自动卖出钱包中的所有�
 
 * [x] 答：支持。您可以选择**当前连接钱包**，也可以通过**导入其他钱包私钥**的方式，对不同钱包进行清仓操作。
 
-**💬 如遇到问题？加入社群实时咨询**：[https://t.me/ciaotool](https://t.me/ciaotool)
+***
 
-* **Email**：[support@ciaotool.io](mailto:support@ciaotool.io)
-* **官网**：[https://ciaotool.io](https://ciaotool.io/)
-* **X（Twitter）**：[https://x.com/CiaoTool](https://x.com/CiaoTool)
-* **Medium**： [https://medium.com/@ciaotool](https://medium.com/@ciaotool)
-* **Blog**：[https://www.ciaoailiquidity.com/zh/blog](https://www.ciaoailiquidity.com/zh/blog)
-* **YouTube**：[https://www.youtube.com/@CiaoTool](https://www.youtube.com/@CiaoTool)
-* **WhatsApp**：[https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J](https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J)
+## **寻求支持**
+
+**如遇到问题？**&#x4F60;可以通过以下方即时联系 CiaoTool 团队：
+
+<table data-header-hidden><thead><tr><th width="188"></th><th valign="top"></th><th data-hidden></th></tr></thead><tbody><tr><td>Email</td><td valign="top"><a href="mailto:ciaotoolglobal@gmail.com">ciaotoolglobal@gmail.com</a></td><td></td></tr><tr><td>Telegram</td><td valign="top"><a href="https://t.me/ciaotools">https://t.me/ciaotools</a></td><td></td></tr><tr><td>WhatsApp</td><td valign="top"><a href="https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J">https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J</a></td><td></td></tr></tbody></table>
 
 {% hint style="danger" %}
 CiaoTool 致力于提供便捷的工具服务，但不构成任何投资建议。平台内容可能根据产品迭代进行调整，敬请用户自行判断并留意更新。
