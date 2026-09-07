@@ -26,7 +26,6 @@
     * [Solana - 批量转账 | 多对一转账教程](chains/solana/multisender/many-to-one.md "多对一转账（归集）")
     * [Solana - 批量转账 | 多对多转账教程](chains/solana/multisender/many-to-many.md "多对多转账")
     * [Solana - 批量转账 | 中转转账教程](chains/solana/multisender/sol-relay-transfer.md "SOL 中转转账")
-    * [Solana - 批量转账 | 中转转账教程](chains/solana/multisender/sol-relay-transfer-1.md "SOL 中转转账")
   * [换仓专区](chains/solana/asset-migration/README.md "换仓专区")
     * [Solana - 冷换仓教程](chains/solana/asset-migration/fragmentation.md "冷换仓")
   * [钱包工具](chains/solana/wallet-tool/README.md)

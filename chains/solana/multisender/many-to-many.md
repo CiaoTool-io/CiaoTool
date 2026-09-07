@@ -233,7 +233,7 @@ address
 * [x] 收发地址及数量、转账总额
 * [x] 本次转账预估费用
 
-<figure><img src="../../../.gitbook/assets/image (746).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (779).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -247,7 +247,7 @@ address
 
 ***
 
-## **常见问题 FAQ**
+## **常见问题**
 
 <details>
 
@@ -290,6 +290,8 @@ Solana 多对多批量转账工具是一款可视化服务工具。无需代码�
 </details>
 
 ***
+
+## **寻求支持**
 
 **如遇到问题？**&#x4F60;可以通过以下方即时联系 CiaoTool 团队：
 

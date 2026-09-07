@@ -52,7 +52,27 @@ metaLinks:
 
 ***
 
-## **图文指南 | EVM 批量转账 - 多对多转账**  <a href="#solana-one-to-multi-guide" id="solana-one-to-multi-guide"></a>
+## **技术实现示意**
+
+多对多转账以「转出地址—收款地址—金额」为基本任务单元，通过建立多源地址与多目标地址之间的映射关系。有效分散资金来源，模拟真实转账行为。
+
+{% columns %}
+{% column %}
+<table><thead><tr><th width="76">发送地址</th><th width="76">收款地址</th><th>转账金额</th></tr></thead><tbody><tr><td>A</td><td>1</td><td>A→1 配置金额</td></tr><tr><td>A</td><td>2</td><td>A→2 配置金额</td></tr><tr><td>A</td><td>3</td><td>A→3 配置金额</td></tr><tr><td>B</td><td>1</td><td>B→1 配置金额</td></tr><tr><td>B</td><td>2</td><td>B→2 配置金额</td></tr><tr><td>B</td><td>3</td><td>B→3 配置金额</td></tr></tbody></table>
+
+
+{% endcolumn %}
+
+{% column %}
+<figure><img src="../../../.gitbook/assets/Section 2.png" alt=""><figcaption></figcaption></figure>
+
+
+{% endcolumn %}
+{% endcolumns %}
+
+***
+
+## **图文指南** <a href="#solana-one-to-multi-guide" id="solana-one-to-multi-guide"></a>
 
 {% stepper %}
 {% step %}

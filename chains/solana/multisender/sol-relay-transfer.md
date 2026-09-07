@@ -10,8 +10,10 @@ description: 通过独立中间地址处理 SOL 的资金转移，切断首尾�
 
 ## CiaoTool Solana 中转转账是什么？
 
-**CiaoTool Solana 中转转账**是一款专注于链上隐私保护与资金隐匿的高阶工具。它允许您在转账过程中自动引入独立的中间钱包节点，将 SOL（原生代币） 智能中转并批量分发至目标钱包。\
-​\
+<figure><img src="../../../.gitbook/assets/image (764).png" alt="CiaoTool Solana 中转转账页面"><figcaption></figcaption></figure>
+
+**CiaoTool Solana 中转转账**是一款专注于链上隐私保护与资金隐匿的高阶工具。它允许您在转账过程中自动引入独立的中间钱包节点，将 SOL（原生代币） 智能中转并批量分发至目标钱包。
+
 相较于普通的直接转账，中转转账的核心优势在于切断发送端与接收端之间的直接链上联系。系统通过中间地址自动处理资金流转，完美模拟真实独立交互行为，有效打乱资金流转路径，优化气泡图等链上工具的聚类分析与追踪显示。这不仅能隐藏资金的动向，保护主钱包安全隐私，保障多钱包交互的安全流转。
 
 此工具尤其适用于： ​ ​
@@ -28,78 +30,90 @@ description: 通过独立中间地址处理 SOL 的资金转移，切断首尾�
 
 ## 为什么选择 CiaoTool 中转转账？
 
-**CiaoTool** 提供了一种在 Solana 上高效、安全管理链上资产的专业方案。无论您是需要进行注重隐私的 SOL 资金分发、多钱包的安全换仓，还是执行复杂的节点资金调拨，其中转转账功能都能通过引入中间节点并模拟真实的独立交易，确保操作的准确性，有效分散资金流转路径并优化链上关联显示。
+在完全透明的区块链账本上处理核心筹码的位移，通常伴随着极高的被标记与关联风险。CiaoTool 为 Solana 链上的隐私资金调拨构建了兼顾极简交互与绝对隐匿的执行防线：
 
-专为 **SOL** 资产流转打造，结合一键文件导入与批量处理，它不仅极大解放了运营双手，更是任何在 Solana 上深耕的 Web3 项目和专业团队不可或缺的安全资管利器。
+**智能中转隔离机制**\
+系统自动在发送地址与接收地址之间创建独立中转钱包，将单一路径转账拆分为多段执行流程，优化链上资金流向结构与地址关联关系。
+
+**全自动中转钱包生成**\
+无需手动创建临时钱包或管理复杂地址矩阵。系统根据任务需求自动生成对应数量的中转钱包，并完成全部转账流程，大幅降低操作复杂度。
+
+**批量中转高效执行**\
+支持多个钱包同时执行中转任务，无需频繁切换账户与重复签名。通过批量化执行机制，大幅提升大规模资产迁移效率。
+
+**优化资金分布结构**\
+支持结合多地址迁移与中转机制进行资产重组，使资金流转路径更加灵活，满足筹码分散、仓位调整与多钱包管理等复杂场景需求。​
+
+**本地安全环境**\
+采用纯前端本地执行机制，私钥仅在本地环境中用于交易签名，在极速提升交易效率的同时，全方位保障多钱包资产的绝对安全。
 
 ***
 
-## **图文指南 | Solana 批量转账 - 中转转账**&#x20;
+## **技术实现示意**
+
+中转转账采用“两阶段路由”机制，在源钱包与目标钱包之间创建临时中转钱包，将一次直接转账拆分为两笔独立的链上交易：
+
+**「源钱包 → 中转钱包 → 目标钱包」**
+
+<figure><img src="../../../.gitbook/assets/Frame 1321314893.png" alt=""><figcaption></figcaption></figure>
+
+***
+
+## **图文指南**
 
 {% stepper %}
 {% step %}
 ### **绑定钱包**
 
-点击右上角按钮，绑定支持 Solana 链的钱包
+点击右上角【连接钱包】按钮，绑定支持 Solana 链的钱包
 
-<figure><img src="../../../.gitbook/assets/image (256).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (748).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### 选择转账代币
-
-可以选择 SOL，也可以选择当前钱包拥有的代币进行转账。
-
-<figure><img src="../../../.gitbook/assets/image (243).png" alt=""><figcaption></figcaption></figure>
-{% endstep %}
-
-{% step %}
-### 导入转账钱包私钥
+### 导入发送钱包私钥
 
 {% hint style="danger" %}
 **「中转转账」**&#x529F;能仅支持私钥导入以进行转账操作。请确保在安全环境下输入私钥信息，您的资金安全对我们来说至关重要，[**了解更多 CiaoTool 如何保障您的资金安全：资金安全保障**](../../../security-guide.md)**。**
 {% endhint %}
 
 {% hint style="info" %}
-转出钱包数量需要和接收钱包数量保持一致
+发送钱包数量需要和接收钱包数量保持一致
 {% endhint %}
 
-支&#x6301;**「手动输入」**&#x548C;**「上传文件」**&#x4E24;种导入转账地址私钥的类型，选择以查看详细教程
+导入钱包数量没有限制，支&#x6301;**「手动输入」**&#x548C;**「上传文件」**&#x4E24;种导入来源地址的类型，选择以查看详细教程
 
 {% tabs %}
 {% tab title="手动输入" %}
-1. 点&#x51FB;**「手动输入」**&#x6309;钮，弹出手动输入框。
+1. 点&#x51FB;**「批量输入」**&#x6309;钮，弹出手动输入框。
 
-<figure><img src="../../../.gitbook/assets/image (267).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (765).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (245).png" alt=""><figcaption></figcaption></figure>
+2. 输入 / 批量粘贴**钱包地址，**&#x6BCF;行仅输入一个钱包私钥，可在私钥后追加数量。
 
-2. 输入 / 批量粘贴**钱包私钥，**&#x4E00;行仅输入一个私钥，按回车键换行
+```
+privateKey, 300
+```
 
-<figure><img src="../../../.gitbook/assets/image (263).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (737).png" alt=""><figcaption></figcaption></figure>
 
-3. 点&#x51FB;**「确定」**，将所有输入地址导入到操作面板
+3. 点&#x51FB;**「确定导入」**，将所有输入地址导入到操作面板
 
-<figure><img src="../../../.gitbook/assets/image (270).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (769).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="上传文件" %}
-1. 点&#x51FB;**「上传文件」**&#x6309;钮，弹出文件上传窗口。
+1. 下载 CiaoTool 模板文件，并将信息导入到文件内。
 
-<figure><img src="../../../.gitbook/assets/image (268).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (766).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (251).png" alt=""><figcaption></figcaption></figure>
+2. 点&#x51FB;**「导入文件」**&#x6309;钮，弹出文件上传窗口。
 
-2. 导入钱包私钥信息文件，显示私钥信息\
-   请通过 CiaoTool 模板文件导入，以确保私钥准确导入。
+<figure><img src="../../../.gitbook/assets/image (767).png" alt=""><figcaption></figcaption></figure>
 
-{% file src="../../../.gitbook/assets/Solana_privateKey_demo.xlsx" %}
+3. 点&#x51FB;**「确定导入」**，将所有地址导入到操作面板
 
-<figure><img src="../../../.gitbook/assets/image (318).png" alt=""><figcaption></figcaption></figure>
-
-3. 点&#x51FB;**「确定」**，将所有输入地址导入到操作面板
-
-<figure><img src="../../../.gitbook/assets/image (269).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (768).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 {% endstep %}
@@ -107,81 +121,118 @@ description: 通过独立中间地址处理 SOL 的资金转移，切断首尾�
 {% step %}
 ### 输入转账金额
 
-点击转账数量上方&#x7684;**「统一输入」**&#x6309;&#x94AE;**，**&#x652F;&#x6301;**「金额」「百分比」「保留数量」**&#x548C;**「全部」四**种转账金额类型。
+支&#x6301;**「逐一输入」「输入金额」「随机范围」「保留金额」「百分比金额」**&#x548C;**「全部」**&#x516D;种转账金额类型。
 
-1. **金额**\
-   统一所有钱包指定金额进行转账
-2. **百分比**\
-   统一设定余额百分比，每个钱包根据百分比数量进行转账
-3. **保留数量**\
-   确保每个钱包有固定留存，以便后续继续使用，其余金额转入接收钱包地址
-4. **全部**\
-   无需额外操作，方便快捷将钱包所有该代币转账到接收地址
+<figure><img src="../../../.gitbook/assets/image (770).png" alt=""><figcaption></figcaption></figure>
+
+1. **逐一输入**\
+   在输入框中，逐一输入转账金额数量。
+
+<figure><img src="../../../.gitbook/assets/image (771).png" alt=""><figcaption></figcaption></figure>
+
+2. **统一金额**\
+   点击转账数量上方的![](<../../../.gitbook/assets/image (724).png>)按&#x94AE;**，**&#x9009;&#x62E9;**「输入金额」**&#x9009;项，所有地址将统一转账数量。
+3. **随机范围**\
+   点击转账数量上方的![](<../../../.gitbook/assets/image (724).png>)按&#x94AE;**，**&#x9009;&#x62E9;**「随机范围」**&#x9009;项，输入金额范围，所有地址将转账指定范围内数额。
+4. **保留金额**\
+   点击转账数量上方的![](<../../../.gitbook/assets/image (724).png>)按&#x94AE;**，**&#x9009;&#x62E9;**「保留金额」**&#x9009;项，所有发送钱包保留指定数量的目标代币，并将剩余代币全部转账到收款地址。
+5. **保留金额**\
+   点击转账数量上方的![](<../../../.gitbook/assets/image (724).png>)按&#x94AE;**，**&#x9009;&#x62E9;**「百分比金额」**&#x9009;项，所有发送钱包保留指定百分比的目标代币，并将剩余代币全部转账到收款地址。
+6. **全部**\
+   点击转账数量上方的![](<../../../.gitbook/assets/image (724).png>)按&#x94AE;**，**&#x9009;&#x62E9;**「全部」**&#x9009;项，所有发送钱包将目标代币全部转账到收款地址。
 {% endstep %}
 
 {% step %}
-### 导入接收钱包地址
+### 导入收款地址
 
 {% hint style="info" %}
-接收钱包数量需要和转出钱包数量保持一致
+转出钱包数量需要和接收钱包数量保持一致
 {% endhint %}
 
-支&#x6301;**「手动输入」**&#x548C;**「上传文件」**&#x4E24;种导入接收地址的类型，选择以查看详细教程
+收款钱包数量没有限制，支&#x6301;**「手动输入」**&#x548C;**「上传文件」**&#x4E24;种导入接收地址的类型，选择以查看详细教程
 
 {% tabs %}
 {% tab title="手动输入" %}
-1. 点&#x51FB;**「手动输入」**&#x6309;钮，弹出手动输入框。
+1. 点&#x51FB;**「批量输入」**&#x6309;钮，弹出手动输入框。
 
-<figure><img src="../../../.gitbook/assets/image (312).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (772).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (245).png" alt=""><figcaption></figcaption></figure>
+2. 输入 / 批量粘贴**钱包地址，**&#x6BCF;行仅输入一个钱包地址。
 
-2. 输入 / 批量粘贴**钱包地址，**&#x4E00;行仅输入一个地址，按回车键换行
+```
+address
+```
 
-<figure><img src="../../../.gitbook/assets/image (247).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (719).png" alt=""><figcaption></figcaption></figure>
 
-3. 点&#x51FB;**「确定」**，将所有输入地址导入到操作面板
+3. 点&#x51FB;**「确定导入」**，将所有输入地址导入到操作面板
 
-<figure><img src="../../../.gitbook/assets/image (313).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (776).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="上传文件" %}
-* 点&#x51FB;**「上传文件」**&#x6309;钮，弹出文件上传窗口。
+1. 下载 CiaoTool 模板文件，并将信息导入到文件内。
 
-<figure><img src="../../../.gitbook/assets/image (314).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (773).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (251).png" alt=""><figcaption></figcaption></figure>
+2. 点&#x51FB;**「导入文件」**&#x6309;钮，弹出文件上传窗口。
 
-2. 导入钱包地址信息文件，显示地址信息\
-   请通过 CiaoTool 模板文件导入，以确保钱包地址准确导入。
+<figure><img src="../../../.gitbook/assets/image (774).png" alt=""><figcaption></figcaption></figure>
 
-{% file src="../../../.gitbook/assets/Solana_address_demo.xlsx" %}
+3. 点&#x51FB;**「确定导入」**，将所有地址导入到操作面板
 
-<figure><img src="../../../.gitbook/assets/image (247).png" alt=""><figcaption></figcaption></figure>
-
-3. 点&#x51FB;**「确定」**，将所有输入地址导入到操作面板
-
-<figure><img src="../../../.gitbook/assets/image (313).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (775).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 {% endstep %}
 
 {% step %}
-### 设置中转数量
+### 中继钱包
 
-自定义中转地址数量，所有转账均会经过数个地址到达指定接收钱包
+可自由设置各地址转账到目标钱包的中继钱包数量。
+
+提高中继钱包数量可以提升来源钱包私密性，但费用和损耗会随之上升。
+
+<figure><img src="../../../.gitbook/assets/image (777).png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### 发送形式
+
+系统将根据收款地址数量自动分组，每组最多 4 个收发地址。
+
+<figure><img src="../../../.gitbook/assets/image (730).png" alt=""><figcaption></figcaption></figure>
+
+1. **RPC 发送**\
+   通过 RPC 节点统一广播转账交易，无需支付 Jito 小费，各笔交易不保证按提交顺序执行。
+2. **Jito Bundle**\
+   每个捆绑包最多 20 个转账地址（5 组），通过 Jito 小费提升上链优先级并按顺序执行。
+{% endstep %}
+
+{% step %}
+### 核实信息
+
+点&#x51FB;**「下一步」**&#x8FDB;入确认页面并核对：
+
+* [x] 每个中转任务的收发地址
+* [x] 转账数量、转账总额，预计转入数量
+* [x] 本次转账预估服务费用
+
+<figure><img src="../../../.gitbook/assets/image (778).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ### 确认交易
 
-确认信息无误后，点击下方「**确认转账**」按钮，并等待转账程序完成。
+确认信息无误后，点击下方「**确认并发送**」按钮，您可以实时查看转账程序完成情况，并等待转账程序完成。
+
+<figure><img src="../../../.gitbook/assets/image (732).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
 ***
 
-## **常见问题 FAQ**
+## **常见问题**
 
 <details>
 
@@ -223,15 +274,13 @@ Solana 中转转账是一款专注于链上隐私保护的可视化操作工具�
 
 </details>
 
-**💬 如遇到问题？加入社群实时咨询**：[https://t.me/ciaotool](https://t.me/ciaotool)
+***
 
-* **Email**：[support@ciaotool.io](mailto:support@ciaotool.io)
-* **官网**：[https://ciaotool.io](https://ciaotool.io/)
-* **X（Twitter）**：[https://x.com/CiaoTool](https://x.com/CiaoTool)
-* **Medium**： [https://medium.com/@ciaotool](https://medium.com/@ciaotool)
-* **Blog**：[https://www.ciaoailiquidity.com/zh/blog](https://www.ciaoailiquidity.com/zh/blog)
-* **YouTube**：[https://www.youtube.com/@CiaoTool](https://www.youtube.com/@CiaoTool)
-* **WhatsApp**：[https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J](https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J)
+## **寻求支持**
+
+**如遇到问题？**&#x4F60;可以通过以下方即时联系 CiaoTool 团队：
+
+<table data-header-hidden><thead><tr><th width="188"></th><th valign="top"></th><th data-hidden></th></tr></thead><tbody><tr><td>Email</td><td valign="top"><a href="mailto:ciaotoolglobal@gmail.com">ciaotoolglobal@gmail.com</a></td><td></td></tr><tr><td>Telegram</td><td valign="top"><a href="https://t.me/ciaotools">https://t.me/ciaotools</a></td><td></td></tr><tr><td>WhatsApp</td><td valign="top"><a href="https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J">https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J</a></td><td></td></tr></tbody></table>
 
 {% hint style="danger" %}
 CiaoTool 致力于提供便捷的工具服务，但不构成任何投资建议。平台内容可能根据产品迭代进行调整，敬请用户自行判断并留意更新。
