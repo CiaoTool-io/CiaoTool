@@ -30,7 +30,7 @@
     * [Solana - 放弃权限教程](chains/solana/token-creator/revoke-permission.md "撤销权限")
     * [Solana  - 代币快照](chains/solana/token-creator/snapshot.md "代币快照")
     * [Solana - 代币税费提取](chains/solana/token-creator/tax-fee-claim.md "税费提取")
-  * [钱包工具](chains/solana/wallet-tool/README.md)
+  * [钱包管理](chains/solana/wallet-tool/README.md)
     * [Solana - 批量创建钱包教程](chains/solana/wallet-tool/wallet-create.md "批量创建钱包")
     * [Solana - 靓号地址生成教程](chains/solana/wallet-tool/vanity-address.md "靓号地址生成")
     * [Solana - 租金回收教程](chains/solana/wallet-tool/rent-recovery.md "租金回收")

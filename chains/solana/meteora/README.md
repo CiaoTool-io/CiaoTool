@@ -1,5 +1,5 @@
 ---
-icon: '9'
+icon: '7'
 ---
 
 # Meteora 专区

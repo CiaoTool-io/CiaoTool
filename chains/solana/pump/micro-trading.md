@@ -24,7 +24,7 @@ description: >-
 
 ***
 
-## 为什么选择 CiaoTool PumpFun 微单交易机器人？
+## 为什么选择 CiaoTool Pump 微单交易机器人？
 
 **CiaoTool** 为 **Pump.fun** 和 **PumpSwap  平台**上的项目方提供了一种极低成本获取自然流量的专业解决方案。对于需要快速提升早期曝光度并在海量代币中脱颖而出的项目而言，该工具构建了高效的执行机制：
 
