@@ -1,30 +1,32 @@
 ---
 description: >-
-  专为 Pump.fun
+  专为 Pump.fun 和 PumpSwap
   平台提供的高频微量交易执行工具。通过全自动执行连续的小额买卖交互，持续触发平台的活跃度排序机制，确保代币维持在首页前列，以极低成本最大化项目的市场曝光度与真实流量。
 ---
 
-# PumpFun - 微单交易机器人
+# Pump - 微单交易机器人指南
 
 {% hint style="info" %}
-**CiaoTool PumpFun 微单交易机器人**现已全面支持官方 **SOL** 和 **USDC** 全部的价值代币，请先切换到指定代币页面进行机器人操作，满足不同场景下的快捷做市服务。
+**CiaoTool Pump 微单交易机器人**现已全面支持官方 **SOL** 和 **USDC** 全部的价值代币，输入代币地址将自动切换适配和价值代币。
 {% endhint %}
 
-## CiaoTool PumpFun 微单交易机器人是什么？
+## CiaoTool Pump 微单交易机器人是什么？
 
-**CiaoTool PumpFun 微量交易机器人**是一款专为 Solana 生态 **Pump.fun 平台**打造的自动化高频曝光工具。它允许用户通过设定极小的交易金额与紧凑的时间间隔，在链上全自动执行持续的微额双向买卖操作。
+<figure><picture><source srcset="../../../.gitbook/assets/屏幕截图 2026-09-08 183651.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (908).png" alt="CiaoTool Solana Chain Pump 微单交易机器人页面"></picture><figcaption></figcaption></figure>
+
+**CiaoTool Pump 微量交易机器人**是一款专为 Solana 生态**Pump.fun** 和 **PumpSwap 平台**打造的自动化高频曝光工具。它允许用户通过设定极小的交易金额与紧凑的时间间隔，在链上全自动执行持续的微额双向买卖操作。
 
 相较于常规的交易量工具，该功能的核心目的并非为了拉升代币价格或大幅增加总交易额。它的底层逻辑是精准利用 Pump.fun 平台“按最新交易时间优先展示”的排序算法。通过系统全自动、高频次地发起微小额度的真实交互，能够确保您的代币状态始终保持“刚刚活跃”，从而使项目持续停留在 Pump.fun 的首页或近期活跃榜单顶部。这种机制能有效提升代币在市场中的可见性，吸引更多真实用户的关注与点击。
 
-立即在 PumpFun 上，用 CiaoTool 微单交易机器人进行多地址自动买卖操作：
+立即在 Pump.fun 和 PumpSwap 上，用 CiaoTool 微单交易机器人进行多地址自动买卖操作：
 
-{% embed url="https://ciaotool.io/zh-CN/pump/micro-trading" %}
+{% embed url="https://ciaotool.io/zh-Hans/pump/micro-trading" %}
 
 ***
 
 ## 为什么选择 CiaoTool PumpFun 微单交易机器人？
 
-**CiaoTool** 为 **Pump.fun 平台**上的项目方提供了一种极低成本获取自然流量的专业解决方案。对于需要快速提升早期曝光度并在海量代币中脱颖而出的项目而言，该工具构建了高效的执行机制：
+**CiaoTool** 为 **Pump.fun** 和 **PumpSwap  平台**上的项目方提供了一种极低成本获取自然流量的专业解决方案。对于需要快速提升早期曝光度并在海量代币中脱颖而出的项目而言，该工具构建了高效的执行机制：
 
 * **锁定首页曝光：**&#x901A;过全自动的高频微额交易，持续触发 Pump.fun 的前端排序机制，确保项目始终展现在平台首页，最大化获取自然点击率。
 * **极低资金损耗：**&#x5355;笔交易额度被严格控制在极小的范围内，配合买卖双向抵消逻辑，在维持超高活跃度的同时，将资金占用与摩擦磨损降至最低极限。
@@ -33,107 +35,138 @@ description: >-
 
 ***
 
-## **图文指南 |** PumpFun 微单交易机器人
+## **图文指南**
 
 {% stepper %}
 {% step %}
 ### **绑定钱包**
 
-点击右上角按钮，绑定支持 Solana 链的钱包
+点击右上角【连接钱包】按钮，绑定支持 Solana 链的钱包
 
-<figure><img src="../../../.gitbook/assets/image (308).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (748).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ### 选择交易代币
 
-可以选择输入代币地址，也可以选择当前钱包拥有的代币进行买入操作。
+可以选择输入代币地址，也可以选择当前钱包拥有的代币进行交易。系统将自动识别锚定价值代币并匹配所在池位置。
 
-<figure><img src="../../../.gitbook/assets/image (407).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (896).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### 导入交易钱包私钥
+### 导入钱包私钥
 
 {% hint style="danger" %}
-<mark style="color:$danger;">**安全须知**</mark>
-
-当&#x524D;**「微单交易机器人」**&#x529F;能支持 当前钱包和私钥导入以进行交易操作。请确保在安全环境下输入私钥信息，您的资金安全对我们来说至关重要，[**了解更多 CiaoTool 如何保障您的资金安全：资金安全保障**](../../../security-guide.md)**。**
+请确保在安全环境下输入私钥信息，您的资金安全对我们来说至关重要，[**了解更多 CiaoTool 如何保障您的资金安全：资金安全保障**](../../../security-guide.md)**。**
 {% endhint %}
 
 {% hint style="info" %}
-<mark style="color:$primary;">**交易钱包设置**</mark>
+<mark style="color:$primary;">**操作钱包设置**</mark>
 
-**PumpFun 微单交易机器人**使用私钥导入钱包没有数量限制。交易手续费由每个钱包独立支付，确保每个地址有足够的 SOL 以维持自动交易所需的服务费用。
+导入钱包没有数量限制。交易手续费由每个钱包独立支付。
 {% endhint %}
 
-支&#x6301;**「手动输入」**&#x548C;**「上传文件」**&#x4E24;种导入钱包私钥的类型，选择以查看详细教程
+导入钱包数量没有限制，支&#x6301;**「手动输入」**&#x548C;**「上传文件」**&#x4E24;种导入来源地址的类型，选择以查看详细教程
 
 {% tabs %}
 {% tab title="手动输入" %}
-1. 点&#x51FB;**「手动输入」**&#x6309;钮，弹出手动输入框。
+1. 点&#x51FB;**「批量输入」**&#x6309;钮，弹出手动输入框。
 
-<figure><img src="../../../.gitbook/assets/image (408).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (846).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (310).png" alt=""><figcaption></figcaption></figure>
+2. 输入 / 批量粘贴**钱包地址，**&#x6BCF;行仅输入一个钱包私钥，可在私钥后追加数量。
 
-2. 输入 / 批量粘贴**钱包私钥，**&#x4E00;行仅输入一个私钥，按回车键换行
+```
+privateKey, 300
+```
 
-<figure><img src="../../../.gitbook/assets/image (263).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (737).png" alt=""><figcaption></figcaption></figure>
 
-3. 点&#x51FB;**「确定」**，将所有输入地址导入到操作面板
+3. 点&#x51FB;**「确定导入」**，将所有输入地址导入到操作面板
 
-<figure><img src="../../../.gitbook/assets/image (411).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (850).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="上传文件" %}
-1. 点&#x51FB;**「手动输入」**&#x6309;钮，弹出文件上传窗口。
+1. 下载 CiaoTool 模板文件，并将信息导入到文件内。
 
-<figure><img src="../../../.gitbook/assets/image (409).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (847).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (251).png" alt=""><figcaption></figcaption></figure>
+2. 点击![](<../../../.gitbook/assets/image (848).png>)**「导入文件」**&#x6309;钮，弹出文件上传窗口。
+3. 点&#x51FB;**「确定导入」**，将所有地址导入到操作面板
 
-2. 导入钱包私钥信息文件，显示私钥信息。\
-   请通过 CiaoTool 模板文件导入，以确保私钥准确导入。
-
-<figure><img src="../../../.gitbook/assets/image (317).png" alt=""><figcaption></figcaption></figure>
-
-3. 点&#x51FB;**「确定」**，将所有输入地址导入到操作面板
-
-<figure><img src="../../../.gitbook/assets/image (410).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (849).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 {% endstep %}
 
 {% step %}
-### 交易参数设置
+### 循环设置
+
+设置买入价格范围和钱包交易顺序，每次交易将在预设范围内进行。
+
+<figure><img src="../../../.gitbook/assets/image (910).png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### 钱包间隔
+
+
+
+可自由设置各地址完成一次买卖交易循环的执行间隔时间。
+
+<figure><img src="../../../.gitbook/assets/image (911).png" alt=""><figcaption></figcaption></figure>
+
+* **固定时间**\
+  所有交易按固定时间提交广播。
+* **随机时间**\
+  将会在指定的时间范围内随机提交，模拟真实交易。
+{% endstep %}
+
+{% step %}
+### 发送设置
+
+* **RPC 发送**\
+  RPC 发送策略是尽力而为，无需支付 Jito 小费。通过统一买卖交易广播交易，但不保证在同一区块内，可能会被机器人狙击造成损失。
+* **Jito Bundle**\
+  通过 Jito 小费，将买卖交易打包为一个捆绑包，确保买卖交易不被狙击，并提升上链优先级，但需要消耗更多费用。
+
+<figure><img src="../../../.gitbook/assets/image (857).png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### 启动交易
 
 {% hint style="danger" %}
 关闭 / 刷新页面，机器人策略亦会**立即停止**。请保持策略执行期间，将网页持续处于后台并运行状态。为保证策略执行之必要，**该功能不推荐于**「**移动电子设备**」**使用。**
 {% endhint %}
 
-* **交易金额设置：**&#x6BCF;个钱包单次进行买卖操作的金额范围，可设置指定范围内随机数量进行买卖操作。
-* **任务执行间隔：**&#x6BCF;次买卖操作的交易间隔，可设置指定范围内随机时间进行买卖操作。
-* **钱包执行顺序：**&#x8BBE;置交易执行顺序
-* **Jito MEV 小费：**&#x63D0;升您的交易优先级，降低买卖循环的损失。
+交易费用将由各钱包独立承担。确认信息无误后，点击下方「**确认并开始微量循环交易**」按钮，即可开启交易程序。
 
-<figure><img src="../../../.gitbook/assets/image (412).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (912).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### 确认交易
+### 核实信息
 
-确认信息无误后，点击下&#x65B9;**「开始」**&#x6309;钮，并等交易程序完成。
+程序自动运行，可实时查看交易情况：
+
+* [x] 成功买入次数
+* [x] 成功卖出次数
+* [x] 失败和停止步骤
+
+<figure><img src="../../../.gitbook/assets/image (913).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
 ***
 
-## **常见问题 FAQ**
+## **常见问题**
 
 <details>
 
-<summary><strong>什么是 PumpFun 微单交易机器人？</strong></summary>
+<summary><strong>什么是 Pump 微单交易机器人？</strong></summary>
 
 这是专为维持盘口活跃状态打造的自动化执行工具。系统会持续向 Pump.fun 发起微量资金的双向交互，借助平台的数据更新机制，确保代币的交易状态实时刷新，以此维持项目在首页的可见性。
 
@@ -179,15 +212,13 @@ Pump.fun 平台的前端展示列表默认是按照代币的「最新一笔交�
 
 </details>
 
-**💬 如遇到问题？加入社群实时咨询**：[https://t.me/ciaotool](https://t.me/ciaotool)
+***
 
-* **Email**：[support@ciaotool.io](mailto:support@ciaotool.io)
-* **官网**：[https://ciaotool.io](https://ciaotool.io/)
-* **X（Twitter）**：[https://x.com/CiaoTool](https://x.com/CiaoTool)
-* **Medium**： [https://medium.com/@ciaotool](https://medium.com/@ciaotool)
-* **Blog**：[https://www.ciaoailiquidity.com/zh/blog](https://www.ciaoailiquidity.com/zh/blog)
-* **YouTube**：[https://www.youtube.com/@CiaoTool](https://www.youtube.com/@CiaoTool)
-* **WhatsApp**：[https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J](https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J)
+## **寻求支持**
+
+**如遇到问题？**&#x4F60;可以通过以下方即时联系 CiaoTool 团队：
+
+<table data-header-hidden><thead><tr><th width="188"></th><th valign="top"></th><th data-hidden></th></tr></thead><tbody><tr><td>Email</td><td valign="top"><a href="mailto:ciaotoolglobal@gmail.com">ciaotoolglobal@gmail.com</a></td><td></td></tr><tr><td>Telegram</td><td valign="top"><a href="https://t.me/ciaotools">https://t.me/ciaotools</a></td><td></td></tr><tr><td>WhatsApp</td><td valign="top"><a href="https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J">https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J</a></td><td></td></tr></tbody></table>
 
 {% hint style="danger" %}
 CiaoTool 致力于提供便捷的工具服务，但不构成任何投资建议。平台内容可能根据产品迭代进行调整，敬请用户自行判断并留意更新。

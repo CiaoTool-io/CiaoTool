@@ -72,7 +72,7 @@ CiaoTool 为 Solana 链上的资产调拨与流动性重组提供了一种兼顾
 
 #### 交易币对
 
-可以选择输入代币地址，也可以选择当前钱包拥有的代币进行买入操作。
+可以选择输入代币地址，也可以选择当前钱包拥有的代币进行交易操作。
 
 * **价值代币：**&#x6267;行交易操作时，用以支付币对价格的代币地址
 * **做市代币：**&#x6267;行交易操作时，用以实现市值管理策略目标的代币地址
@@ -162,7 +162,7 @@ privateKey, 300
 * [x] 买入钱包数量、买入本金、预计买回
 * [x] 卖出本金、卖出到账
 
-<figure><img src="../../../.gitbook/assets/image (891).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (907).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}

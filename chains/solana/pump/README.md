@@ -1,6 +1,6 @@
 ---
-icon: '6'
+icon: '4'
 ---
 
-# PumpFun 专区
+# Pump 专区
 
