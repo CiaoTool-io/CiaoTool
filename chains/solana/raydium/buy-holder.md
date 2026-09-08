@@ -12,7 +12,7 @@ description: >-
 
 ## CiaoTool Solana 提升持币人数功能是什么？
 
-<figure><picture><source srcset="../../../.gitbook/assets/屏幕截图 2026-09-08 114616.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (885).png" alt=""></picture><figcaption></figcaption></figure>
+<figure><picture><source srcset="../../../.gitbook/assets/屏幕截图 2026-09-08 114616.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (885).png" alt="CiaoTool Solana Chain Raydium 提升持币人数页面"></picture><figcaption></figcaption></figure>
 
 **CiaoTool Solana 提升持币人数功能**是一款专为 Solana 生态 **Raydium 平台**打造的链上数据与资产分布优化工具。它允许用户通过设定参数，全自动批量生成全新钱包地址，并控制这些地址在盘口独立执行代币买入操作。
 

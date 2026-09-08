@@ -54,7 +54,7 @@ description: >-
 
 可以选择输入代币地址，也可以选择当前钱包拥有的代币进行卖出操作。
 
-<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}

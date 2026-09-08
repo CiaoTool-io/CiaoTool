@@ -12,7 +12,7 @@ description: >-
 
 ## CiaoTool Solana 多地址捆绑买入是什么？
 
-<figure><picture><source srcset="../../../.gitbook/assets/屏幕截图 2026-09-08 134028.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (886).png" alt=""></picture><figcaption></figcaption></figure>
+<figure><picture><source srcset="../../../.gitbook/assets/屏幕截图 2026-09-08 134028.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (886).png" alt="CiaoTool Solana Chain Raydium 多地址捆绑买入页面"></picture><figcaption></figcaption></figure>
 
 **CiaoTool Solana 多地址捆绑买入**是一款专注于交易执行优化与链上流动性管理的高阶工具。它允许您通过底层智能聚合技术，在同一个区块内，自动让多个独立钱包同步完成 Raydium 上的代币批量买入操作。
 
@@ -51,7 +51,7 @@ description: >-
 
 将 10 个钱包的交易将按预设顺序打包到一个 Bundle 捆绑包内提交，并在同一区块内连续执行，减少交易间隙被其他交易插入的风险，提升批量买入的执行一致性，并提升交易优先级。
 
-<figure><img src="../../../.gitbook/assets/Frame 1321314903.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Frame 1321314903 (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -185,7 +185,7 @@ privateKey, 300
 {% hint style="info" %}
 <mark style="color:$primary;">**捆绑包设置**</mark>
 
-多地址捆绑买入的服务费均由每组第一个地址支付，Jito 小费由导入的最后一个地址支付，调整导入的第一个和最后一个地址中有足够余额。
+服务费均由每组第一个地址支付，Jito 小费由导入的最后一个地址支付，调整导入的第一个和最后一个地址中有足够余额。
 {% endhint %}
 
 确认信息无误后，点击下方「**开始 Raydium 捆绑买入**」按钮，即可买入程序。

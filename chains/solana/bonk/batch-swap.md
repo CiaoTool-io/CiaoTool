@@ -49,7 +49,7 @@ CiaoTool 为 BONKfun 平台上的多地址交易管理提供了一种兼顾极�
 
 可以选择输入代币地址，也可以选择当前钱包拥有的代币进行买入操作。点击中间箭头可快速切换兑换目标。
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}

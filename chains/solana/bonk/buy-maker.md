@@ -58,7 +58,7 @@ CiaoTool 为 BONKfun 平台上的数据优化提供了一种兼顾极低成本�
 
 可以选择输入代币地址，也可以选择当前钱包拥有的代币进行买入操作。
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}

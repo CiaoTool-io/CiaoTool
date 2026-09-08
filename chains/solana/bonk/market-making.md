@@ -61,7 +61,7 @@ description: 专为 BONKfun 平台提供的自动化做市与交易执行工具�
 * **价值代币：**&#x6267;行交易操作时，用以支付币对价格的代币地址
 * **做市代币：**&#x6267;行交易操作时，用以实现市值管理策略目标的代币地址
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
