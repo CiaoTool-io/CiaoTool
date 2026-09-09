@@ -4,13 +4,13 @@ description: 专为 Token-2022 税费代币提供的一键提税工具。支持�
 
 # Solana - 代币税费提取
 
-## CiaoTool Solana 代币税费提取是什么？ <a href="#what-is-coinfactory-solana-multisender" id="what-is-coinfactory-solana-multisender"></a>
+## 功能介绍 <a href="#what-is-coinfactory-solana-multisender" id="what-is-coinfactory-solana-multisender"></a>
 
 <figure><picture><source srcset="../../../.gitbook/assets/ScreenShot_2026-09-07_164627_217.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (838).png" alt="CiaoTool Solana Chain 提取税费页面"></picture><figcaption></figcaption></figure>
 
-**CiaoTool Solana 代币税费提取**是一款专为基于 Token-2022 标准构建的税费代币打造的链上资产归集工具。它允许拥有合约「提税权限」的项目方钱包，随时安全地提取积累在代币合约账户中的税费资金。
+CiaoTool Solana 代币税费提取是一款面向 Token-2022 税费代币的链上归集工具。拥有税费提取权限的钱包，可将各 Token 账户中累积的预扣税费统一归集，并提取至指定收款账户。
 
-在 Token-2022 标准下，用户交易或转账时产生的税费并不会实时直接进入项目方的钱包，而是全自动在链上扣除并暂时锁定在代币自身的帐户或相关储存结构中。该工具通过调用 Solana 官方底层的提税指令，支持项目方一键将这些在全网转账中积累的代币税费，安全、完整地提取到代币账户中，实现项目运营资金的集中管理。
+Token-2022 产生的税费不会实时进入项目方钱包，而是暂存在收款方的 Token 账户中。CiaoTool 通过调用 Solana 官方提税指令，帮助项目方快速完成税费查询、归集与提取，方便运营资金统一管理。
 
 立即在 Solana 上，用 CiaoTool 进行代币税费提取操作：
 

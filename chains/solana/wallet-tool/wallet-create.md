@@ -12,22 +12,18 @@ description: >-
 点击[**「EVM - 批量创建钱包」**](../../../tools/wallet-tool/wallet-create.md)以查看 **BSC、Base、X Layer、IoTeX、BOT、Robinhood Chain** 等 EVM 网络教程。
 {% endhint %}
 
-## CiaoTool Solana 批量创建钱包是什么？ <a href="#definition" id="definition"></a>
+## 功能介绍 <a href="#definition" id="definition"></a>
 
 <figure><picture><source srcset="../../../.gitbook/assets/屏幕截图 2026-09-07 150710.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (793).png" alt="CiaoTool Solana网络 批量创建钱包 功能页面"></picture><figcaption></figcaption></figure>
 
-如果您需要参与项目空投、进行 DApp 交互测试，或者希望将资产分散存放在不同的地址里，手动去钱包插件里一个个新建地址不仅极其耗时，还容易混淆记录。
-
-**Solana 批量创建钱包** 是 CiaoTool 提供的一款永久免费的基础工具。它可以让您在几秒钟内，像印钞机一样瞬间生成几百、上千个全新的 Solana钱包地址。更重要的是，系统会自动为您匹配好每个地址的「私钥」，并一键打包成清晰的 Excel 表格供您下载。
+CiaoTool Solana 批量创建钱包是一款免费的地址生成工具，可一次创建多个 Solana 钱包，并自动整理对应的钱包地址与私钥，支持导出为 Excel 文件，方便统一记录和管理。
 
 **适用场景：**
 
-* 空投交互：\
-  零成本快速生成海量干净的“白牌”钱包，用于领取项目空投或进行早期生态交互。
-* 资产安全隔离：\
-  为不同的 Web3 投资项目分配独立的子钱包，避免单一主钱包授权被盗导致全军覆没。
-* 多账户管理与资金路由网络构建：\
-  为复杂的资产分配、持仓结构优化以及做市安排，提供底层的地址库支持。
+* **DApp 测试：** 为开发、交互及自动化测试快速准备多个测试账户
+* **资产隔离：** 为不同项目或用途配置独立钱包，降低集中管理风险
+* **批量运营：** 为资产分配、多账户管理和资金调度建立地址库
+* **合规活动：** 为已获授权的空投测试、社区奖励等活动准备钱包
 
 立即在 Solana 网络上，用 CiaoTool​ 批量创建钱包：
 
@@ -35,12 +31,10 @@ description: >-
 
 ***
 
-## 为什么选择 CiaoTool 执行 Solana 批量创建钱包？ <a href="#advantage" id="advantage"></a>
+## 核心优势 <a href="#advantage" id="advantage"></a>
 
-* 永久 100% 免费： \
-  生成钱包属于本地算法计算，不消耗任何链上 Gas 费，CiaoTool 也不收取任何服务费，您可以随心所欲地无限制生成。
-* 极致的安全黑科技：\
-  &#x20;采用顶级的 纯前端本地生成技术。您的所有地址、私钥和助记词只在您自己的浏览器内存中诞生，绝对不会经过或上传到任何后端服务器。您可选择断网生成，它就是一个绝对安全的「冷钱包工厂」。
+* **免费生成：** 钱包通过本地算法创建，无需提交链上交易，因此不产生网络费，CiaoTool 不额外收取服务费。
+* **本地处理：** 钱包地址、私钥和助记词均在浏览器本地生成，无需上传至服务器，并支持断网操作，减少敏感信息暴露风险。
 
 ***
 

@@ -6,11 +6,11 @@ description: >-
 
 # Solana - WSOL 转换器
 
-## CiaoTool WSOL 转换器是什么？ <a href="#what-is-coinfactory-solana-multisender" id="what-is-coinfactory-solana-multisender"></a>
+## 功能介绍 <a href="#what-is-coinfactory-solana-multisender" id="what-is-coinfactory-solana-multisender"></a>
 
-**CiaoTool WSOL 转换器**是一款专为 Solana 生态用户及项目团队打造的基础资产互换工具。它旨在解决 Solana 链上原生代币 SOL 与包装代币 WSOL（Wrapped SOL）之间频繁转换的效率痛点。
+CiaoTool WSOL 转换器是一款支持 SOL 与 WSOL 双向转换的工具，可批量处理多个钱包，满足 DEX 交易、自动化策略及链上程序交互需求。
 
-在 Solana 网络中，原生的 SOL 属于公链底层燃料，并不直接兼容 SPL 标准代币协议。因此，在进行多钱包批量买卖、自动化做市以及与各类 DEX 的智能合约进行底层交互时，通常强制要求使用符合 SPL 标准的 WSOL。该转换器的核心机制在于提供一个可视化的极速双向通道：用户可以一键将多个钱包中的 SOL 转换为 WSOL，也可以随时将归集回来的 WSOL 解包还原为原生 SOL，确保资金在不同交易场景下的无缝流转。
+SOL 是 Solana 网络的原生资产，用于支付网络费用；WSOL 是符合 SPL Token 标准的 SOL 包装形式，可用于需要 SPL Token 接口的链上操作。用户可将 SOL 一键包装为 WSOL，也可将 WSOL 解包还原为 SOL。
 
 立即在 Solana 上，用 CiaoTool 进行 WSOL 转换兑换操作：
 

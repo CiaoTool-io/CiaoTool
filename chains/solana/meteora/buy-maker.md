@@ -10,13 +10,11 @@ description: >-
 **CiaoTool Meteora 多地址捆绑买入**现已全面支持 **DBC、DLMM、DAMM V2** 全部的流动性池类型
 {% endhint %}
 
-## CiaoTool Meteora 提升交易人数功能是什么？
+## 功能介绍
 
-<figure><picture><source srcset="../../../.gitbook/assets/屏幕截图 2026-09-09 153518.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (927).png" alt="CiaoTool Solana Chain Meteora 提升交易人数页面"></picture><figcaption></figcaption></figure>
+**CiaoTool Meteora 提升交易人数**是一款面向 Meteora 的多地址自动交易工具，可批量生成新钱包并执行指定代币的买入操作。
 
-**CiaoTool Meteora 提升交易人数功能**是一款专为 **Meteora 平台**打造的链上数据优化与自动化执行工具。它旨在帮助用户以极低的资金损耗，快速提升指定代币的独立钱包购买数量。
-
-该功能的核心机制在于完整的“全自动执行闭环”：系统在底层全自动批量创建全新的钱包地址，并控制这些新地址在盘口执行代币的买入操作。在买入交互完成后，系统会自动将所购代币及剩余资金安全转入用户指定的主钱包中，并同步向 Solana 网络发送关闭这些临时账户的指令。这种机制不仅在链上留下了真实的新地址买入记录，更通过销毁账户回收了链上租金，从而以极低的成本使项目的活跃度数据在市场中脱颖而出。
+系统自动完成“创建钱包—分配资金—执行买入—归集资产—清理账户”的完整流程。交易完成后，所购代币及剩余 SOL 将转入指定主钱包；满足关闭条件的临时代币账户也会被关闭，并退回相入其中的账户租金。
 
 立即在 Meteora 上，用 CiaoTool 进提升交易人数操作：
 
