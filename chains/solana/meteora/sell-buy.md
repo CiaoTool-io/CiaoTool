@@ -6,6 +6,10 @@ description: >-
 
 # Meteora - 卖出并多地址捆绑买入教程
 
+{% hint style="info" %}
+**CiaoTool Meteora 多地址捆绑买入**现已全面支持 **DBC、DLMM、DAMM V2** 全部的流动性池类型
+{% endhint %}
+
 ## CiaoTool Meteora 卖出并多地址捆绑买入是什么？
 
 <figure><picture><source srcset="../../../.gitbook/assets/屏幕截图 2026-09-09 155509.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (931).png" alt=""></picture><figcaption></figcaption></figure>

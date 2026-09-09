@@ -12,13 +12,15 @@ description: >-
 
 ## CiaoTool PumpFun 创建并买入是什么？
 
+<figure><img src="../../../.gitbook/assets/image.png" alt="CiaoTool Solana Chain Pump 创建代币并买入页面"><figcaption></figcaption></figure>
+
 **CiaoTool PumpFun 创建并买入**是一款专为 Solana 生态 **Pump.fun 平台**打造的代币发行与自动化建仓工具。它允许用户在发布全新代币的同时，全自动调度多个钱包地址在同一区块内完成首笔批量买入。
 
 相较于“先发币、后手动买入”的传统模式，该功能的核心机制在于“底层捆绑打包”。系统会将代币创建指令与多地址的买入指令聚合为一个不可分割的数据包提交至链上。这种机制确保了用户的买入交易紧跟在代币创建之后瞬间完成，彻底消除了时间差。它从根本上防止了链上狙击机器人的抢跑买入，保障项目方能够以内盘最底端的初始价格完成早期资产配置。
 
 立即在 PumpFun 上，用 CiaoTool​ 创建并买入功能进行一键开盘操作：
 
-{% embed url="https://ciaotool.io/zh-CN/pump/launch-and-buy" %}
+{% embed url="https://ciaotool.io/zh-Hans/pump/create-and-buy" %}
 
 ***
 
@@ -33,13 +35,29 @@ CiaoTool 为 Pump.fun 平台上的代币首发提供了一种兼顾安全性与�
 
 ***
 
-## 视频教程 | PumpFun 创建并买入
+## 视频教程
 
 {% embed url="https://www.youtube.com/watch?v=wg1xE_Grqvs" %}
 
 ***
 
-## **图文指南 |** PumpFun 创建并买入&#x20;
+## **技术实现示意**
+
+### 传统发射代币
+
+多个钱包的交易将分别广播并独立上链，无法保证执行顺序或进入同一区块。期间若有其他交易抢先成交，池内价格可能发生变化，导致后续钱包的买入成本上升、实际获得的代币数量减少，造成损失。
+
+<figure><img src="../../../.gitbook/assets/Frame 1321314899.png" alt=""><figcaption></figcaption></figure>
+
+### 捆绑f
+
+将 10 个钱包的交易将按预设顺序打包到一个 Bundle 捆绑包内提交，并在同一区块内连续执行，减少交易间隙被其他交易插入的风险，提升批量买入的执行一致性，并提升交易优先级。
+
+<figure><img src="../../../.gitbook/assets/Frame 1321314903 (1).png" alt=""><figcaption></figcaption></figure>
+
+***
+
+## **图文指南**
 
 {% stepper %}
 {% step %}
