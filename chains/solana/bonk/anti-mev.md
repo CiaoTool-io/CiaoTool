@@ -1,6 +1,6 @@
 ---
 description: >-
-  专为 BONKfun 平台提供的防夹交易执行工具。在同一区块内完成买卖闭环，有效降低 MEV
+  专为 Bonk.fun 平台提供的防夹交易执行工具。在同一区块内完成买卖闭环，有效降低 MEV
   机器人交易干扰并降低资金磨损。稳步提升代币交易量，全面优化盘口数据的自然度。
 ---
 
@@ -12,7 +12,7 @@ description: >-
 
 ## CiaoTool Bonk 防夹交易量机器人是什么？
 
-<figure><picture><source srcset="../../../.gitbook/assets/屏幕截图 2026-09-09 133811.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image.png" alt="CiaoTool Solana Chain Bonk 防夹交易量机器人页面"></picture><figcaption></figcaption></figure>
+<figure><picture><source srcset="../../../.gitbook/assets/屏幕截图 2026-09-09 133811.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (4).png" alt="CiaoTool Solana Chain Bonk 防夹交易量机器人页面"></picture><figcaption></figcaption></figure>
 
 **CiaoTool Bonk 防夹交易量机器人**是一款专为 Solana 生态 **Bonk.fun 平台**打造的高阶自动化交易执行工具。它允许用户通过自定义参数，在链上全自动执行持续的买卖交互，以安全提升代币的交易活跃度。
 

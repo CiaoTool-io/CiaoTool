@@ -1,6 +1,6 @@
 ---
 description: >-
-  专为 BONKfun
+  专为 Bonk.fun
   平台提供的自动化新地址买入工具。支持全自动生成新地址并执行买入，真实交易助力优化链上数据。稳步提升链上持币人数，全面优化代币分布的数据呈现。
 ---
 
@@ -12,7 +12,7 @@ description: >-
 
 ## CiaoTool Bonk 提升持币人数功能是什么？
 
-<figure><picture><source srcset="../../../.gitbook/assets/屏幕截图 2026-09-09 143030.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (919).png" alt=""></picture><figcaption></figcaption></figure>
+<figure><picture><source srcset="../../../.gitbook/assets/屏幕截图 2026-09-09 143030.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (919).png" alt="CiaoTool Solana Chain Bonk 提升持币人数页面"></picture><figcaption></figcaption></figure>
 
 **CiaoTool Bonk 提升持币人数功能**是一款专为 **Bonk.fun 平台**打造的链上数据优化与自动化执行工具。它旨在帮助用户以极低的资金损耗，快速提升指定代币的独立钱包购买数量。
 

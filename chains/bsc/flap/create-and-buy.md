@@ -189,9 +189,17 @@ Dev 钱包、内盘钱包、外盘钱包不能共用，所有业务私钥必须�
 {% endstep %}
 {% endstepper %}
 
+## 技术案例
+
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+{% embed url="https://gmgn.ai/bsc/token/0x7d5881dff2693d262858c9481f857deee85e8888" %}
+
 ***
 
-## **常见问题 FAQ**
+## **常见问题**
 
 <details>
 

@@ -12,7 +12,7 @@ description: >-
 
 ## CiaoTool Solana 多地址捆绑卖出是什么？
 
-<figure><picture><source srcset="../../../.gitbook/assets/屏幕截图 2026-09-08 145046.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (2).png" alt="CiaoTool Solana Chain Raydium 多地址捆绑卖出页面"></picture><figcaption></figcaption></figure>
+<figure><picture><source srcset="../../../.gitbook/assets/屏幕截图 2026-09-08 145046.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (2) (1).png" alt="CiaoTool Solana Chain Raydium 多地址捆绑卖出页面"></picture><figcaption></figcaption></figure>
 
 **CiaoTool Solana 多地址捆绑卖出**是一款专注于交易执行优化与链上流动性管理的高阶工具。它允许您通过底层智能聚合技术，在同一个区块内，自动让多个独立钱包同步完成 Raydium 上的代币批量卖出操作。&#x20;
 
@@ -102,7 +102,7 @@ description: >-
 {% tab title="手动输入" %}
 1. 点&#x51FB;**「批量输入」**&#x6309;钮，弹出手动输入框。
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 2. 输入 / 批量粘贴**钱包地址，**&#x6BCF;行仅输入一个钱包私钥，可在私钥后追加数量。
 
@@ -114,18 +114,18 @@ privateKey, 300
 
 3. 点&#x51FB;**「确定导入」**，将所有输入地址导入到操作面板
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="上传文件" %}
 1. 下载 CiaoTool 模板文件，并将信息导入到文件内。
 
-<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 2. 点击![](<../../../.gitbook/assets/image (848).png>)**「导入文件」**&#x6309;钮，弹出文件上传窗口。
 3. 点&#x51FB;**「确定导入」**，将所有地址导入到操作面板
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 {% endstep %}
