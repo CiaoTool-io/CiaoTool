@@ -13,12 +13,12 @@ metaLinks:
 
 本教程演示基于 BSC（BNB Chain）功能页面，本功能 EVM 网络 CiaoTool 全链通用，请切换至对应公链进行冷换仓操作。
 
-点击[**「Solana - 冷换仓」**](../../chains/solana/multisender/fragmentation.md)查看 Solana 网络冷换仓教程。
+点击[**「Solana - 冷换仓」**](../../../chains/solana/multisender/fragmentation.md)查看 Solana 网络冷换仓教程。
 {% endhint %}
 
 ## CiaoTool EVM 冷换仓是什么？ <a href="#definition" id="definition"></a>
 
-<figure><img src="../../.gitbook/assets/image (613).png" alt="CiaoTool BSC生态 冷换仓 功能页面"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (613).png" alt="CiaoTool BSC生态 冷换仓 功能页面"><figcaption></figcaption></figure>
 
 **BSC 冷换仓，**&#x5728;区块链基础设施中被称为 Token 持仓打散与碎片化资产迁移，是指项目方或大额流动性持有者，在不通过中心化交易平台或去中心化交易池的前提下，通过智能合约并发转账技术，将原本集中在少数核心地址中的代币，按设定比例或随机均匀地分散分发到数百个完全独立的、全新生成的 BSC 原生钱包地址中的全自动链上行为。
 
@@ -35,7 +35,7 @@ metaLinks:
 
 立即在 EVM 网络上，用 CiaoTool​ 冷换仓功能进行持仓打散与碎片化资产迁移操作：
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><img src="../../.gitbook/assets/BSC.png" alt="" data-size="line">BSC (BNB Chain)</td><td><a href="https://bsc.ciaotool.io/zh-Hans/assert-migration/assert-migration-cold">https://bsc.ciaotool.io/zh-Hans/assert-migration/assert-migration-cold</a></td></tr><tr><td><img src="../../.gitbook/assets/Base3.png" alt="" data-size="line">Base Chain</td><td><a href="https://base.ciaotool.io/zh-Hans/assert-migration/assert-migration-cold">https://base.ciaotool.io/zh-Hans/assert-migration/assert-migration-cold</a></td></tr><tr><td><img src="../../.gitbook/assets/3 (1).png" alt="" data-size="line">X Layer</td><td><a href="https://xlayer.ciaotool.io/zh-Hans/assert-migration/assert-migration-cold">https://xlayer.ciaotool.io/zh-Hans/assert-migration/assert-migration-cold</a></td></tr><tr><td><img src="../../.gitbook/assets/IoTex.png" alt="" data-size="line">IoTeX Chain</td><td><a href="https://iotex.ciaotool.io/zh-Hans/assert-migration/assert-migration-cold">https://iotex.ciaotool.io/zh-Hans/assert-migration/assert-migration-cold</a></td></tr><tr><td><img src="../../.gitbook/assets/Group 1261152954.png" alt="" data-size="line"> Robinhood Chain</td><td><a href="https://r.ciaotool.io/zh-Hans/assert-migration/assert-migration-cold">https://r.ciaotool.io/zh-Hans/assert-migration/assert-migration-cold</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/BSC.png" alt="" data-size="line">BSC (BNB Chain)</td><td><a href="https://bsc.ciaotool.io/zh-Hans/assert-migration/assert-migration-cold">https://bsc.ciaotool.io/zh-Hans/assert-migration/assert-migration-cold</a></td></tr><tr><td><img src="../../../.gitbook/assets/Base3.png" alt="" data-size="line">Base Chain</td><td><a href="https://base.ciaotool.io/zh-Hans/assert-migration/assert-migration-cold">https://base.ciaotool.io/zh-Hans/assert-migration/assert-migration-cold</a></td></tr><tr><td><img src="../../../.gitbook/assets/3 (1).png" alt="" data-size="line">X Layer</td><td><a href="https://xlayer.ciaotool.io/zh-Hans/assert-migration/assert-migration-cold">https://xlayer.ciaotool.io/zh-Hans/assert-migration/assert-migration-cold</a></td></tr><tr><td><img src="../../../.gitbook/assets/IoTex.png" alt="" data-size="line">IoTeX Chain</td><td><a href="https://iotex.ciaotool.io/zh-Hans/assert-migration/assert-migration-cold">https://iotex.ciaotool.io/zh-Hans/assert-migration/assert-migration-cold</a></td></tr><tr><td><img src="../../../.gitbook/assets/Group 1261152954.png" alt="" data-size="line"> Robinhood Chain</td><td><a href="https://r.ciaotool.io/zh-Hans/assert-migration/assert-migration-cold">https://r.ciaotool.io/zh-Hans/assert-migration/assert-migration-cold</a></td></tr></tbody></table>
 
 ***
 
@@ -59,7 +59,7 @@ metaLinks:
 
 点击右上角按钮，绑定支持 EVM 网络的钱包
 
-<figure><img src="../../.gitbook/assets/image (475).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (475).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -67,14 +67,14 @@ metaLinks:
 
 可以输入代币地址，也可以选择代币进行换仓。
 
-<figure><img src="../../.gitbook/assets/image (479).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (479).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ### 导入换仓钱包
 
 {% hint style="danger" %}
-**「冷换仓」**&#x529F;能支持使用当前钱包和私钥导入以进行换仓操作。请确保在安全环境下输入私钥信息，您的资金安全对我们来说至关重要，[**了解更多 CiaoTool 如何保障您的资金安全：资金安全保障**](../../security-guide.md)**。**
+**「冷换仓」**&#x529F;能支持使用当前钱包和私钥导入以进行换仓操作。请确保在安全环境下输入私钥信息，您的资金安全对我们来说至关重要，[**了解更多 CiaoTool 如何保障您的资金安全：资金安全保障**](../../../security-guide.md)**。**
 {% endhint %}
 
 导入需要换仓的钱包地址，支&#x6301;**「手动输入」**&#x548C;**「上传文件」**&#x4E24;种导入接收地址的类型，选择以查看详细教程。
@@ -83,20 +83,20 @@ metaLinks:
 {% tab title="手动输入" %}
 直接在输入框中，输入 / 粘贴钱包私钥。每行仅输入一个钱包私钥
 
-<figure><img src="../../.gitbook/assets/image (616).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (616).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="上传文件" %}
 1. 点&#x51FB;**「上传文件」**&#x6309;钮，弹出文件上传窗口导入换仓钱包私钥。
 
-<figure><img src="../../.gitbook/assets/image (614).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (614).png" alt=""><figcaption></figcaption></figure>
 
 2. 使用 CiaoTool 模板文件导入，并保存确定导入并显示在输入框内。\
    点击下载并查看模板：
 
-{% file src="../../.gitbook/assets/EVM_privateKey_demo.xlsx" %}
+{% file src="../../../.gitbook/assets/EVM_privateKey_demo.xlsx" %}
 
-<figure><img src="../../.gitbook/assets/image (615).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (615).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 {% endstep %}
@@ -108,7 +108,7 @@ metaLinks:
 
 点击「开始创建」，系统会自动下载所有碎片化新地址。若没有自动下载，您也可点击「下载表格」手动下载所有新地址。
 
-<figure><img src="../../.gitbook/assets/image (618).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (618).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -116,7 +116,7 @@ metaLinks:
 
 支&#x6301;**「自定义」「全部数量」「固定数量」「固定留存」**&#x56DB;种转账金额类型。
 
-<figure><img src="../../.gitbook/assets/image (619).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (619).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -137,7 +137,7 @@ metaLinks:
 {% step %}
 ### 确认交易
 
-<figure><img src="../../.gitbook/assets/image (620).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (620).png" alt=""><figcaption></figcaption></figure>
 
 确认信息无误后，点击下&#x65B9;**「发送」**&#x6309;钮，并等待转账程序完成。
 {% endstep %}

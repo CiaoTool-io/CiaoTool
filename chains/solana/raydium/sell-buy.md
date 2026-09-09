@@ -12,7 +12,7 @@ description: >-
 
 ## CiaoTool Solana 卖出并多地址捆绑买入是什么？
 
-<figure><picture><source srcset="../../../.gitbook/assets/屏幕截图 2026-09-08 153455.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (6).png" alt="CiaoTool Solana Chain Raydium 卖出并捆绑买入页面"></picture><figcaption></figcaption></figure>
+<figure><picture><source srcset="../../../.gitbook/assets/屏幕截图 2026-09-08 153455.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (6) (1).png" alt="CiaoTool Solana Chain Raydium 卖出并捆绑买入页面"></picture><figcaption></figcaption></figure>
 
 **CiaoTool Solana 卖出并多地址捆绑买入**是一款专注于交易连贯性与链上流动性管理的高阶工具。它允许您通过底层智能聚合技术，在同一个区块内，自动让指定钱包完成 Raydium 上的代币卖出操作，并同步触发多个独立钱包的批量买入行为。
 

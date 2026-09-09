@@ -12,7 +12,7 @@ description: >-
 
 ## CiaoTool Bonk 提升交易人数功能是什么？
 
-<figure><picture><source srcset="../../../.gitbook/assets/屏幕截图 2026-09-09 141241.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt="CiaoTool Solana Chain Bonk 提升交易人数页面"></picture><figcaption></figcaption></figure>
+<figure><picture><source srcset="../../../.gitbook/assets/屏幕截图 2026-09-09 141241.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (1) (1) (1) (1).png" alt="CiaoTool Solana Chain Bonk 提升交易人数页面"></picture><figcaption></figcaption></figure>
 
 **CiaoTool Bonk 提升交易人数功能**是一款专为 **Bonk.fun 平台**打造的链上数据优化与自动化执行工具。它旨在帮助用户以极低的资金损耗，快速提升指定代币的独立钱包购买数量。
 

@@ -12,6 +12,8 @@ description: >-
 
 ## CiaoTool PumpFun 捆绑并迁移买入是什么？
 
+<figure><picture><source srcset="../../../.gitbook/assets/屏幕截图 2026-09-09 173516.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (934).png" alt="CiaoTool Solana Chain PumpFun 捆绑买入并狙击页面"></picture><figcaption></figcaption></figure>
+
 PumpFun 捆绑并迁移买入是一款针对已在 Pump.fun 平台上线、但尚未完成流动性迁移的代币打造的高阶流动性调度程序。
 
 与 meme 代币部署工具不同，该功能专注于“内盘向外盘跨越”的特定时刻。它允许项目方在代币运行的任意合适阶段，将两个核心动作通过 Jito 捆绑机制强行绑定，并在公链的同一个区块内原子性执行：
@@ -21,7 +23,7 @@ PumpFun 捆绑并迁移买入是一款针对已在 Pump.fun 平台上线、但�
 
 立即在 PumpFun 上，用 CiaoTool​ 捆绑并迁移买入功能进行一键开盘操作：
 
-{% embed url="https://ciaotool.io/zh-CN/pump/bundled-graduate" %}
+{% embed url="https://ciaotool.io/zh-Hans/pump/bundled-graduate" %}
 
 ***
 
@@ -36,119 +38,140 @@ PumpFun 捆绑并迁移买入是一款针对已在 Pump.fun 平台上线、但�
 
 ***
 
-## **图文指南 |** PumpFun 捆绑并迁移买入
+## **技术实现示意**
+
+### 传统发射代币
+
+{% columns %}
+{% column %}
+多地址买入、迁移至 DEX 以及迁移后的买入交易分别广播、独立上链，无法保证执行顺序或进入相邻区块。
+
+执行期间若有其他交易插入，可能改变代币价格，导致后续钱包的买入成本和实际获得数量发生变化。
+
+在迁移时，极容易被机器人狙击抢跑，实际获得的代币数量减少，造成损失。
+{% endcolumn %}
+
+{% column %}
+<figure><img src="../../../.gitbook/assets/Frame 1321314910.png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
+
+### 捆绑发射代币
+
+{% columns %}
+{% column %}
+整体流程分为两个捆绑执行：
+
+* **发射阶段**：将 8 个钱包的买入交易打包，按预设顺序在同一区块内连续执行，直接打满联合曲线，使代币进入迁移程序。
+* **迁移阶段**：将迁移至 DEX 与指定钱包的买入交易再次打包，按预设顺序在同一区块内执行。
+
+完美减少交易间隙及迁移过程中被其他交易插入的风险，提升发射与买入的执行一致性及上链优先级，提升利润空间。
+{% endcolumn %}
+
+{% column %}
+<figure><img src="../../../.gitbook/assets/Frame 1321314911.png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
+
+***
+
+***
+
+## **图文指南**
 
 {% stepper %}
 {% step %}
 ### **绑定钱包**
 
-点击右上角按钮，绑定支持 Solana 链的钱包
+点击右上角【连接钱包】按钮，绑定支持 Solana 链的钱包
 
-<figure><img src="../../../.gitbook/assets/image (396).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (748).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### 输入代币地址
-
-输入或选择您想要进行「捆绑并迁移买入」的代币地址，系统将自动获取该代币的曲线信息
-
-<figure><img src="../../../.gitbook/assets/image (428).png" alt=""><figcaption></figcaption></figure>
-{% endstep %}
-
-{% step %}
-### 导入买入钱包私钥
+### 内盘钱包私钥
 
 {% hint style="danger" %}
 <mark style="color:$danger;">**安全须知**</mark>
 
-**「捆绑并迁移买入」**&#x529F;能仅支持 私钥导入以进行交易操作。请确保在安全环境下输入私钥信息，您的资金安全对我们来说至关重要，[**了解更多 CiaoTool 如何保障您的资金安全：资金安全保障**](../../../security-guide.md)**。**
+请确保在安全环境下输入私钥信息，您的资金安全对我们来说至关重要，[**了解更多 CiaoTool 如何保障您的资金安全：资金安全保障**](../../../security-guide.md)**。**
 {% endhint %}
 
-在 PumpFun 联合曲线买入的钱包地址，最多支持 **12 个地址**捆绑买入。捆绑钱包买入数量需**大于 曲线所需数量显示**，以触发迁移程序。
-
-支&#x6301;**「手动输入」**&#x548C;**「上传文件」**&#x4E24;种导入钱包私钥的类型，选择以查看详细教程。
+支&#x6301;**「手动输入」**&#x548C;**「上传文件」**&#x4E24;种导入接收地址的类型，选择以查看详细教程。最多支持 **8 个地址**在联合曲线阶段捆绑买入。
 
 {% tabs %}
 {% tab title="手动输入" %}
-1. 点&#x51FB;**「手动输入」**&#x6309;钮，弹出手动输入框。
+1. 点&#x51FB;**「批量输入」**&#x6309;钮，弹出手动输入框。
 
-<figure><img src="../../../.gitbook/assets/image (434).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (887).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (401).png" alt=""><figcaption></figcaption></figure>
+2. 输入 / 批量粘贴**钱包地址，**&#x6BCF;行仅输入一个钱包私钥，可在私钥后追加数量。
 
-2. 输入 / 批量粘贴**钱包地址，**&#x4E00;行仅输入一个地址，按回车键换行
+```
+privateKey, 300
+```
 
-<figure><img src="../../../.gitbook/assets/image (402).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (737).png" alt=""><figcaption></figcaption></figure>
 
-3.
+3. 点&#x51FB;**「确定导入」**，将所有输入地址导入到操作面板
 
-    点&#x51FB;**「确定」**，将所有输入地址导入到操作面板
-
-<figure><img src="../../../.gitbook/assets/image (437).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="上传文件" %}
-1. 点&#x51FB;**「上传文件」**&#x6309;钮，弹出文件上传窗口。
+1. 下载 CiaoTool 模板文件，并将信息导入到文件内。
 
-<figure><img src="../../../.gitbook/assets/image (435).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (251).png" alt=""><figcaption></figcaption></figure>
+2. 点击![](<../../../.gitbook/assets/image (848).png>)**「导入文件」**&#x6309;钮，弹出文件上传窗口。
+3. 点&#x51FB;**「确定导入」**，将所有地址导入到操作面板
 
-2. 导入钱包地址信息文件，显示地址信息。\
-   请通过 CiaoTool 模板文件导入，以确保私钥准确导入。
-
-<figure><img src="../../../.gitbook/assets/image (247).png" alt=""><figcaption></figcaption></figure>
-
-3. 点&#x51FB;**「确定」**，将所有输入地址导入到操作面板
-
-<figure><img src="../../../.gitbook/assets/image (436).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 {% endstep %}
 
 {% step %}
-### 输入买入金额
+### 输入交易金额
 
-支&#x6301;**「逐一输入」「统一金额」和「百分比」**&#x4E09;种交易金额类型。
+支&#x6301;**「逐一输入」「输入金额」**&#x4E24;种交易金额类型。系统会实时获取当前联合曲线状态并计算打满所需数量，开发者钱包买入 + 捆绑钱包买入代币数量必须超过显示数。
 
-<figure><img src="../../../.gitbook/assets/image (438).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
-1. **逐一输入**
-
-* 在输入框中，逐一输入买入金额数量
-* 若填写数量，则按照填写的数量进行交易。
-* 若未填写数量，则按照交易数量中  设置的数量进行交易。
-
+1. **逐一输入**\
+   在输入框中，逐一输入交易金额数量。
 2. **统一金额**\
-   击转账数量上方&#x7684;**「统一输入」**&#x6309;钮，选&#x62E9;**「统一金额」，**&#x6240;有选钱包根据同一数量将代币全部兑换为指定代币。
-3. **百分比**\
-   点击转账数量上方&#x7684;**「统一输入」**&#x6309;钮，选&#x62E9;**「百分比」，**&#x6240;有选钱包根据当前余额的百分比，兑换为指定代币。
+   点击交易数量上方的![](<../../../.gitbook/assets/image (724).png>)按&#x94AE;**，**&#x9009;&#x62E9;**「输入金额」**&#x9009;项，所有地址将统一交易数量。
 {% endstep %}
 
 {% step %}
-### 输入外盘买入钱包私钥
+### 迁移狙击钱包
 
-在代币迁移至 PumpSwap 时，狙击买入的钱包地址。并设置买入数量
+当代币迁移至外盘 PumpSwap 时，同步狙击的钱包私钥，获得底部筹码的同时活跃代币。
 
-<figure><img src="../../../.gitbook/assets/image (425).png" alt=""><figcaption></figcaption></figure>
+外盘买入数量没有限制。
+
+<figure><img src="../../../.gitbook/assets/image (932).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ### Jito 小费设置
 
-配置 Jito MEV 小费，用于加速打包交易，提高排序优先级。
-
 {% hint style="danger" %}
 此功能实现依赖于 Jito 的捆绑功能。由于网络环境、Jito节点、RPC节点和区块处理引擎的复杂影响，该功能可能面临较高的失败率。
 
-若操作失败，不会开盘成功也不会产生任何费用，请尝试更换RPC节点，区块处理引擎，增加Jito的小费(建议0.001SOL)，并考虑在链上活跃度较低的时段再次尝试。
+若操作失败，不会开盘成功也不会产生任何费用，请尝试更换RPC节点，区块处理引擎，增加Jito的小费(建议0.01SOL)，并考虑在链上活跃度较低的时段再次尝试。
 {% endhint %}
+
+通过 Jito 小费，将创建代币+多地址交易打包为一个捆绑包，确保交易不被狙击，并提升上链优先级，但需要消耗更多费用。
+
+<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ### 确认交易
 
-确认信息无误后，点击下&#x65B9;**「创建并迁移买入」**&#x6309;钮，并等待开盘完成。
+确认信息无误后，点击下&#x65B9;**「创建并买入」**&#x6309;钮，并等待开盘完成。
 {% endstep %}
 {% endstepper %}
 
@@ -161,7 +184,7 @@ PumpFun 捆绑并迁移买入是一款针对已在 Pump.fun 平台上线、但�
 
 ***
 
-## **常见问题 FAQ**
+## **常见问题**
 
 <details>
 
@@ -196,6 +219,8 @@ PumpFun 捆绑并迁移买入是一款针对已在 Pump.fun 平台上线、但�
 </details>
 
 ***
+
+## **寻求支持**
 
 **如遇到问题？**&#x4F60;可以通过以下方即时联系 CiaoTool 团队：
 

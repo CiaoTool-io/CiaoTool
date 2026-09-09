@@ -12,7 +12,7 @@ description: >-
 
 ## CiaoTool Bonk 多地址捆绑买入是什么？
 
-<figure><picture><source srcset="../../../.gitbook/assets/屏幕截图 2026-09-09 145825.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (2).png" alt="CiaoTool Solana Chain Bonk 多地址捆绑买入页面"></picture><figcaption></figcaption></figure>
+<figure><picture><source srcset="../../../.gitbook/assets/屏幕截图 2026-09-09 145825.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (2) (1).png" alt="CiaoTool Solana Chain Bonk 多地址捆绑买入页面"></picture><figcaption></figcaption></figure>
 
 **CiaoTool Bonk 多地址捆绑买入**是一款专注于交易执行优化与链上流动性管理的高阶工具。它允许您通过底层智能聚合技术，在同一个区块内，自动让多个独立钱包同步完成 **Bonk.fun** 上的代币批量买入操作。
 
@@ -168,7 +168,7 @@ privateKey, 300
 * [x] 协议费消耗
 * [x] 交易本金
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}

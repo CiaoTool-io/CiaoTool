@@ -7,12 +7,14 @@ description: >-
 # Bonk - 创建并买入教程
 
 {% hint style="info" %}
-**CiaoTool Bonk 创建并买入**现已全面支持官方 **SOL** 和 **USD1** 全部的价值代币，请先切换到指定代币页面进行创建代币并捆绑买入操作，满足不同场景下的快捷开盘服务。
+**CiaoTool Bonk 创建并买入**现已全面支持官方 **SOL** 和 **USD1** 全部的价值代币。
 {% endhint %}
 
 ## CiaoTool Bonk 创建并买入是什么？
 
-**CiaoTool Bonk 创建并买入**是一款专为 Solana 生态 **BONKfun 平台**打造的代币发行与自动化建仓工具。它允许用户在发布全新代币的同时，全自动调度多个钱包地址在同一区块内完成首笔批量买入。
+<figure><picture><source srcset="../../../.gitbook/assets/屏幕截图 2026-09-09 173716.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/屏幕截图 2026-09-09 173706.png" alt="CiaoTool Solana Chain Bonk.Fun 创建代币并买入页面"></picture><figcaption></figcaption></figure>
+
+**CiaoTool Bonk 创建并买入**是一款专为 Solana 生态 **Bonk.fun 平台**打造的代币发行与自动化建仓工具。它允许用户在发布全新代币的同时，全自动调度多个钱包地址在同一区块内完成首笔批量买入。
 
 相较于“先发币、后手动买入”的传统模式，该功能的核心机制在于“底层捆绑打包”。系统会将代币创建指令与多地址的买入指令聚合为一个不可分割的数据包提交至链上。这种机制确保了用户的买入交易紧跟在代币创建之后瞬间完成，彻底消除了时间差。它从根本上防止了链上狙击机器人的抢跑买入，保障项目方能够以内盘最底端的初始价格完成早期资产配置。
 
@@ -24,7 +26,7 @@ description: >-
 
 ## 为什么选择 CiaoTool Bonk 创建并买入？
 
-CiaoTool 为 BONKfun 平台上的代币首发提供了一种兼顾安全性与极低成本的专业解决方案。对于需要精确控制早期筹码及防范恶意夹击的用户而言，该工具构建了稳健的执行防线：
+CiaoTool 为 Bonk.fun 平台上的代币首发提供了一种兼顾安全性与极低成本的专业解决方案。对于需要精确控制早期筹码及防范恶意夹击的用户而言，该工具构建了稳健的执行防线：
 
 * **彻底阻断抢跑：**&#x901A;过底层捆绑打包技术，将发币与买入指令在同区块内无缝聚合，有效防止链上狙击机器人提前买入推高价格。
 * **锁定极低成本：**&#x786E;保多钱包买入指令作为创世区块的首批交易执行，使项目方能够以绝对的初始低价完成建仓，最大程度降低资金损耗。
@@ -33,152 +35,180 @@ CiaoTool 为 BONKfun 平台上的代币首发提供了一种兼顾安全性与�
 
 ***
 
-## 视频教程 | Bonk 创建并买入
+## 视频教程
 
 {% embed url="https://www.youtube.com/watch?v=Ir3oB7Li7PM" %}
 
 ***
 
-## **图文指南 |** Bonk 创建并买入&#x20;
+## **技术实现示意**
+
+### 传统发射代币
+
+代币创建与多个钱包的买入交易分别广播、独立上链，无法保证按预设顺序执行或进入同一区块。若其他交易抢先成交，池内价格可能提前变化，导致后续钱包买入成本上升、获得的代币数量减少。
+
+<figure><img src="../../../.gitbook/assets/Frame 1321314906.png" alt=""><figcaption></figcaption></figure>
+
+### 捆绑发射代币
+
+将「代币创建」与「多达 8 个钱包」的买入交易按预设顺序打包至同一 Bundle 捆绑包内，并在同一区块内连续执行，减少交易间隙被其他交易插入的风险，提升发射与买入的执行一致性及上链优先级。
+
+<figure><img src="../../../.gitbook/assets/Frame 1321314907.png" alt=""><figcaption></figcaption></figure>
+
+***
+
+## **图文指南**
 
 {% stepper %}
 {% step %}
 ### **绑定钱包**
 
-点击右上角按钮，绑定支持 Solana 链的钱包
+点击右上角【连接钱包】按钮，绑定支持 Solana 链的钱包
 
-<figure><img src="../../../.gitbook/assets/image (396).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (748).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### 填写代币基础信息
+### 填写代币信息
 
-<figure><img src="../../../.gitbook/assets/image (398).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
-您可以手动填写代币信息，或者点击 **【克隆】** 按钮，克隆其他代币的信息
-
-* **名称：**&#x60A8;希望展示在钱包或区块浏览器中的完整代币名称（_例如：MyFirstToken_）。
-* **简称：**&#x4EE3;币的缩写，通常为 3\~6 个大写字母（_例如：MYT_）。
-* **Logo：**&#x4E0A;传项目或代币的标志图像，建议尺寸 1000\*1000 像素。
-* **描述：**&#x975E;必填项，简要介绍项目的背景、目标和用途。此描述将帮助用户理解您的代币的功能和项目愿景，提高项目真实性。
-* **社交链接：**&#x6DFB;加与项目相关的社交媒体链接（如 官网、X/Twitter、Telegram）,有助于用户关注和加入您的项目社区。
+* **代币名称：**&#x60A8;希望展示在钱包或区块浏览器中的完整代币名称（_例如：MyFirstToken_）。
+* **代币简称：**&#x4EE3;币的缩写，通常为 3\~6 个大写字母（_例如：MYT_）。
+* **LOGO：**&#x4E0A;传项目或代币的标志图像，建议尺寸 1000\*1000 像素。
+* **描述：** 简要介绍代币用途、故事或 Meme 背景（选填）。
 {% endstep %}
 
 {% step %}
-### Dev 钱包买入
+### 添加链接<mark style="color:$info;">（可选）</mark>
 
-即当前绑定钱包进行买入操作，不填默认为 0。
+虽然为可选项，但强烈建议填写，**官网、X / Twitter、Telegram**，增加项目可信度。
 
-<figure><img src="../../../.gitbook/assets/image (399).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### 导入捆绑买入私钥地址
+### Mint 地址<mark style="color:$info;">（可选）</mark>
+
+生成自定义代币地址，提升代币辨识度。
+
+{% tabs %}
+{% tab title="靓号地址" %}
+可以设置希望出现在钱包地址开头或结尾的字符，例如以 `soL` 开头、以 `pump` 结尾，工具会持续生成随机密钥对，直到找到符合条件的地址。
+
+<figure><img src="../../../.gitbook/assets/image (817).png" alt=""><figcaption></figcaption></figure>
+
+详细工作原理及教程请查看
+
+{% content-ref url="../wallet-tool/vanity-address.md" %}
+[vanity-address.md](../wallet-tool/vanity-address.md)
+{% endcontent-ref %}
+{% endtab %}
+
+{% tab title="自定义地址" %}
+* 提前生成您想要的钱包地址，可以是靓号地址。
+* 将你提前生成的私钥粘贴导入（**地址必须要全新地址且没有付过SOL租金**）；
+* 系统将使用该地址部署你的代币，确保合约地址与预期一致。
+{% endtab %}
+{% endtabs %}
+{% endstep %}
+
+{% step %}
+### 创建参数
+
+#### 报价代币
+
+Bonk.fun 现支持 SOL 和 USD1 作为报价代币，点击切换选择。
+
+#### 开发者钱包买入
+
+即当前绑定钱包进行买入操作，不填默认为 0。在 GMGN、DEXScreener 等链上监控平台会被标记为 Dev 钱包。
+{% endstep %}
+
+{% step %}
+### 导入钱包私钥
 
 {% hint style="danger" %}
 <mark style="color:$danger;">**安全须知**</mark>
 
-当&#x524D;**「创建并买入」**&#x529F;能仅支持 私钥导入以进行交易操作。请确保在安全环境下输入私钥信息，您的资金安全对我们来说至关重要，[**了解更多 CiaoTool 如何保障您的资金安全：资金安全保障**](../../../security-guide.md)**。**
+请确保在安全环境下输入私钥信息，您的资金安全对我们来说至关重要，[**了解更多 CiaoTool 如何保障您的资金安全：资金安全保障**](../../../security-guide.md)**。**
 {% endhint %}
 
 支&#x6301;**「手动输入」**&#x548C;**「上传文件」**&#x4E24;种导入接收地址的类型，选择以查看详细教程。最多支持 **8 个地址**捆绑买入。
 
 {% tabs %}
 {% tab title="手动输入" %}
-1. 点&#x51FB;**「手动输入」**&#x6309;钮，弹出手动输入框。
+1. 点&#x51FB;**「批量输入」**&#x6309;钮，弹出手动输入框。
 
-<figure><img src="../../../.gitbook/assets/image (400).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (887).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (401).png" alt=""><figcaption></figcaption></figure>
+2. 输入 / 批量粘贴**钱包地址，**&#x6BCF;行仅输入一个钱包私钥，可在私钥后追加数量。
 
-2. 输入 / 批量粘贴**钱包地址，**&#x4E00;行仅输入一个地址，按回车键换行
+```
+privateKey, 300
+```
 
-<figure><img src="../../../.gitbook/assets/image (402).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (737).png" alt=""><figcaption></figcaption></figure>
 
-3.
+3. 点&#x51FB;**「确定导入」**，将所有输入地址导入到操作面板
 
-    点&#x51FB;**「确定」**，将所有输入地址导入到操作面板
-
-<figure><img src="../../../.gitbook/assets/image (403).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="上传文件" %}
-1. 点&#x51FB;**「上传文件」**&#x6309;钮，弹出文件上传窗口。
+1. 下载 CiaoTool 模板文件，并将信息导入到文件内。
 
-<figure><img src="../../../.gitbook/assets/image (405).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (251).png" alt=""><figcaption></figcaption></figure>
+2. 点击![](<../../../.gitbook/assets/image (848).png>)**「导入文件」**&#x6309;钮，弹出文件上传窗口。
+3. 点&#x51FB;**「确定导入」**，将所有地址导入到操作面板
 
-2. 导入钱包地址信息文件，显示地址信息。\
-   请通过 CiaoTool 模板文件导入，以确保私钥准确导入。
-
-<figure><img src="../../../.gitbook/assets/image (247).png" alt=""><figcaption></figcaption></figure>
-
-3. 点&#x51FB;**「确定」**，将所有输入地址导入到操作面板
-
-<figure><img src="../../../.gitbook/assets/image (404).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 {% endstep %}
 
 {% step %}
-### 输入买入金额
+### 输入交易金额
 
-支&#x6301;**「逐一输入」「统一金额」「百分比」**&#x548C;**「全部」**&#x56DB;种买入金额类型。
+支&#x6301;**「逐一输入」「输入金额」**&#x4E24;种交易金额类型。开发者钱包买入 + 捆绑钱包买入代币数量 不能超过 86 SOL。
 
-<figure><img src="../../../.gitbook/assets/image (252).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
 
-1. **逐一输入**
-
-* 在输入框中，逐一输入买入金额数量
-* 若填写数量，则按照填写的数量进行交易。
-* 若未填写数量，则按照交易数量中  设置的数量进行交易。
-
+1. **逐一输入**\
+   在输入框中，逐一输入交易金额数量。
 2. **统一金额**\
-   击转账数量上方&#x7684;**「统一输入」**&#x6309;钮，选&#x62E9;**「统一金额」，**&#x6240;有选钱包根据同一数量将代币全部兑换为指定代币。
-3. **百分比**\
-   点击转账数量上方&#x7684;**「统一输入」**&#x6309;钮，选&#x62E9;**「百分比」，**&#x6240;有选钱包根据当前余额的百分比，兑换为指定代币。
-
-* **全部**\
-  所有钱包将把价值代币全部购买为指定代币。
+   点击交易数量上方的![](<../../../.gitbook/assets/image (724).png>)按&#x94AE;**，**&#x9009;&#x62E9;**「输入金额」**&#x9009;项，所有地址将统一交易数量。
 {% endstep %}
 
 {% step %}
-### 自定义服务
+### 自动卖出
 
-#### 自定义合约地址
+当代币价格在联合曲线期间，比初始买入金额达到指定目标涨幅时，所有捆绑买入地址将自动卖出，获取收益。
 
-打造你的个性化代币地址，设置代币地址，**额外收费 0.01 SOL。**
-
-<figure><img src="../../../.gitbook/assets/image (406).png" alt=""><figcaption></figcaption></figure>
-
-**自定义代币地址**
-
-* 提前生成您想要的钱包地址，可以是靓号地址。
-* 将你提前生成的私钥粘贴导入（**地址必须要全新地址且没有付过SOL租金**）；
-* 系统将使用该地址部署你的代币，确保合约地址与预期一致。
-
-#### 提前生成代币合约
-
-提前生成代币合约地址，当前编辑的代币信息将全部保留与链上，适用于需要在正式开盘前进行预热或对接的场景。
+<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ### Jito 小费设置
 
-配置 Jito MEV 小费，用于加速打包交易，提高排序优先级。
-
 {% hint style="danger" %}
 此功能实现依赖于 Jito 的捆绑功能。由于网络环境、Jito节点、RPC节点和区块处理引擎的复杂影响，该功能可能面临较高的失败率。
 
-若操作失败，不会开盘成功也不会产生任何费用，请尝试更换RPC节点，区块处理引擎，增加Jito的小费(建议0.001SOL)，并考虑在链上活跃度较低的时段再次尝试。
+若操作失败，不会开盘成功也不会产生任何费用，请尝试更换RPC节点，区块处理引擎，增加Jito的小费(建议0.01SOL)，并考虑在链上活跃度较低的时段再次尝试。
 {% endhint %}
+
+通过 Jito 小费，将创建代币+多地址交易打包为一个捆绑包，确保交易不被狙击，并提升上链优先级，但需要消耗更多费用。
+
+<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ### 确认交易
 
 确认信息无误后，点击下&#x65B9;**「创建并买入」**&#x6309;钮，并等待开盘完成。
+
+
 {% endstep %}
 {% endstepper %}
 
@@ -235,15 +265,13 @@ Bonk 采用联合曲线定价机制，代币价格会随着买入量的增加而
 
 </details>
 
-**💬 如遇到问题？加入社群实时咨询**：[https://t.me/ciaotool](https://t.me/ciaotool)
+***
 
-* **Email**：[support@ciaotool.io](mailto:support@ciaotool.io)
-* **官网**：[https://ciaotool.io](https://ciaotool.io/)
-* **X（Twitter）**：[https://x.com/CiaoTool](https://x.com/CiaoTool)
-* **Medium**： [https://medium.com/@ciaotool](https://medium.com/@ciaotool)
-* **Blog**：[https://www.ciaoailiquidity.com/zh/blog](https://www.ciaoailiquidity.com/zh/blog)
-* **YouTube**：[https://www.youtube.com/@CiaoTool](https://www.youtube.com/@CiaoTool)
-* **WhatsApp**：[https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J](https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J)
+## **寻求支持**
+
+**如遇到问题？**&#x4F60;可以通过以下方即时联系 CiaoTool 团队：
+
+<table data-header-hidden><thead><tr><th width="188"></th><th valign="top"></th><th data-hidden></th></tr></thead><tbody><tr><td>Email</td><td valign="top"><a href="mailto:ciaotoolglobal@gmail.com">ciaotoolglobal@gmail.com</a></td><td></td></tr><tr><td>Telegram</td><td valign="top"><a href="https://t.me/ciaotools">https://t.me/ciaotools</a></td><td></td></tr><tr><td>WhatsApp</td><td valign="top"><a href="https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J">https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J</a></td><td></td></tr></tbody></table>
 
 {% hint style="danger" %}
 CiaoTool 致力于提供便捷的工具服务，但不构成任何投资建议。平台内容可能根据产品迭代进行调整，敬请用户自行判断并留意更新。

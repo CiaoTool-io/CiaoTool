@@ -7,7 +7,7 @@ description: 快速将少量地址中的代币分散至多个全新地址，降�
 {% hint style="info" %}
 当前&#x662F;**「Solana - 冷换仓」**&#x6559;程页面以查看 Solana 网络冷换仓教程。
 
-点击[**「EVM - 冷换仓」**](../../../tools/asset-migration/fragmentation.md)以查看 **BSC、Base、X Layer、IoTeX、Robinhood Chain** 等 EVM 网络教程。
+点击[**「EVM - 冷换仓」**](../../../tools/multisender/leng-huan-cang/fragmentation.md)以查看 **BSC、Base、X Layer、IoTeX、Robinhood Chain** 等 EVM 网络教程。
 {% endhint %}
 
 ## CiaoTool Solana 冷换仓是什么？ <a href="#definition" id="definition"></a>
