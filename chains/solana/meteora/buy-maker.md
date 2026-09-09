@@ -6,7 +6,13 @@ description: >-
 
 # Meteora - 提升交易人数教程
 
+{% hint style="info" %}
+**CiaoTool Meteora 多地址捆绑买入**现已全面支持 **DBC、DLMM、DAMM V2** 全部的流动性池类型
+{% endhint %}
+
 ## CiaoTool Meteora 提升交易人数功能是什么？
+
+<figure><picture><source srcset="../../../.gitbook/assets/屏幕截图 2026-09-09 153518.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (927).png" alt="CiaoTool Solana Chain Meteora 提升交易人数页面"></picture><figcaption></figcaption></figure>
 
 **CiaoTool Meteora 提升交易人数功能**是一款专为 **Meteora 平台**打造的链上数据优化与自动化执行工具。它旨在帮助用户以极低的资金损耗，快速提升指定代币的独立钱包购买数量。
 
@@ -14,7 +20,7 @@ description: >-
 
 立即在 Meteora 上，用 CiaoTool 进提升交易人数操作：
 
-{% embed url="https://ciaotool.io/zh-CN/meteora/volume" %}
+{% embed url="https://ciaotool.io/zh-Hans/meteora/newaddr-buyers-markers" %}
 
 ***
 
@@ -38,73 +44,127 @@ CiaoTool 为 Meteora 平台上的数据优化提供了一种兼顾极低成本�
 
 ***
 
-## **图文指南 | Meteora** **提升交易人数**
+## **图文指南**
 
 {% stepper %}
 {% step %}
 ### **绑定钱包**
 
-点击右上角按钮，绑定支持 Solana 链的钱包
+点击右上角【连接钱包】按钮，绑定支持 Solana 链的钱包
 
-<figure><img src="../../../.gitbook/assets/image (308).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (748).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### 选择交易代币
+### 选择交易对及池模式
 
-可以选择输入代币地址，也可以选择当前钱包拥有的代币进行买入操作。
+#### 交易币对
 
-<figure><img src="../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+可以选择输入代币地址，也可以选择当前钱包拥有的代币进行交易操作。
+
+* **价值代币：**&#x6267;行交易操作时，用以支付币对价格的代币地址
+* **做市代币：**&#x6267;行交易操作时，用以实现市值管理策略目标的代币地址
+
+<figure><img src="../../../.gitbook/assets/image (843).png" alt=""><figcaption></figcaption></figure>
+
+#### 池模式
+
+选择要进行做市的池子，并确保该池子存在所选交易币对。
+
+<figure><img src="../../../.gitbook/assets/image (924).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### 选择买入地址数量
-
-选择或输入买入地址数量，以增加交易人数。
-
-<figure><img src="../../../.gitbook/assets/image (369).png" alt=""><figcaption></figcaption></figure>
-{% endstep %}
-
-{% step %}
-### 输入买入金额
-
-每个新建钱包买入所花费的金额，可设置特定交易范围，在范围内随机买入代币。
-{% endstep %}
-
-{% step %}
-### 导入主钱包私钥
+### 注资钱包
 
 {% hint style="danger" %}
 <mark style="color:$danger;">**安全须知**</mark>
 
-当&#x524D;**「提升交易人数功能」**&#x529F;能仅支持私钥导入以进行交易操作。请确保在安全环境下输入私钥信息，您的资金安全对我们来说至关重要，[**了解更多 CiaoTool 如何保障您的资金安全：资金安全保障**](../../../security-guide.md)**。**
+请确保在安全环境下输入私钥信息，您的资金安全对我们来说至关重要，[**了解更多 CiaoTool 如何保障您的资金安全：资金安全保障**](../../../security-guide.md)**。**
 {% endhint %}
-
-{% hint style="info" %}
-<mark style="color:$primary;">**主钱包设置**</mark>
 
 买入所产生的链上费用、SOL账户租金（自动退回）及平台服务费均由**主钱包**统一支付。页面底部会显示所需余额预估，请务必确保主钱包余额**高于预估金额**，否则可能导致交易失败。
 
 每个新地址 **SOL 账户租金** 需支付 **0.00203928 SOL**，在交易进程完成后自动退回主钱包。
-{% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (370).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (881).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### 确认交易
+### 生成与买入设置
+
+{% hint style="danger" %}
+<mark style="color:$danger;">**钱包下载**</mark>
+
+您必须将生成的新钱包下载，以免网络中断造成财产损失。
+{% endhint %}
+
+{% tabs %}
+{% tab title="生成钱包" %}
+生成指定数量的新钱包，并完成买入操作，提升交易人数。
+
+<figure><img src="../../../.gitbook/assets/image (883).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+
+{% tab title="交易金额" %}
+设置每个新钱包的买入金额
+
+<figure><img src="../../../.gitbook/assets/image (882).png" alt=""><figcaption></figcaption></figure>
+
+* 固定数量：所有新钱包按照指定的数量，完成代币买入。
+* 随机数量：每个新钱包均在规定范围内随机买入完成。
+{% endtab %}
+
+{% tab title="交易间隔" %}
+可自由设置新地址完成交易的执行间隔时间。
+
+<figure><img src="../../../.gitbook/assets/image (855).png" alt=""><figcaption></figcaption></figure>
+
+* **固定时间**\
+  所有交易按固定时间提交广播。
+* **随机时间**\
+  将会在指定的时间范围内随机提交，模拟真实交易。
+{% endtab %}
+{% endtabs %}
+{% endstep %}
+
+{% step %}
+### 发送设置
+
+* **RPC 发送**\
+  通过 RPC 节点统一广播交易，无需支付 Jito 小费。
+* **Jito Bundle**\
+  通过 Jito 小费提升上链优先级。
+
+<figure><img src="../../../.gitbook/assets/image (857).png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### 核实信息
+
+程序自动运行，查看确认页面并核对：
+
+* [x] 新地址数量
+* [x] 买入本金
+* [x] 预计费用消耗
+
+<figure><img src="../../../.gitbook/assets/image (884).png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### 启动交易
 
 {% hint style="danger" %}
 关闭 / 刷新页面，机器人策略亦会**立即停止**。请保持策略执行期间，将网页持续处于后台并运行状态。为保证策略执行之必要，**该功能不推荐于**「**移动电子设备**」**使用。**
 {% endhint %}
 
-确认信息无误后，点击下&#x65B9;**「开始」**&#x6309;钮，并等交易程序完成。
+确认信息无误后，点击下方「**开始**」按钮，即可开启交易程序。
 {% endstep %}
 {% endstepper %}
 
 ***
 
-## **常见问题 FAQ**
+## **常见问题**
 
 <details>
 
@@ -148,15 +208,13 @@ CiaoTool 为 Meteora 平台上的数据优化提供了一种兼顾极低成本�
 
 </details>
 
-**💬 如遇到问题？加入社群实时咨询**：[https://t.me/ciaotool](https://t.me/ciaotool)
+***
 
-* **Email**：[support@ciaotool.io](mailto:support@ciaotool.io)
-* **官网**：[https://ciaotool.io](https://ciaotool.io/)
-* **X（Twitter）**：[https://x.com/CiaoTool](https://x.com/CiaoTool)
-* **Medium**： [https://medium.com/@ciaotool](https://medium.com/@ciaotool)
-* **Blog**：[https://www.ciaoailiquidity.com/zh/blog](https://www.ciaoailiquidity.com/zh/blog)
-* **YouTube**：[https://www.youtube.com/@CiaoTool](https://www.youtube.com/@CiaoTool)
-* **WhatsApp**：[https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J](https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J)
+## **寻求支持**
+
+**如遇到问题？**&#x4F60;可以通过以下方即时联系 CiaoTool 团队：
+
+<table data-header-hidden><thead><tr><th width="188"></th><th valign="top"></th><th data-hidden></th></tr></thead><tbody><tr><td>Email</td><td valign="top"><a href="mailto:ciaotoolglobal@gmail.com">ciaotoolglobal@gmail.com</a></td><td></td></tr><tr><td>Telegram</td><td valign="top"><a href="https://t.me/ciaotools">https://t.me/ciaotools</a></td><td></td></tr><tr><td>WhatsApp</td><td valign="top"><a href="https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J">https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J</a></td><td></td></tr></tbody></table>
 
 {% hint style="danger" %}
 CiaoTool 致力于提供便捷的工具服务，但不构成任何投资建议。平台内容可能根据产品迭代进行调整，敬请用户自行判断并留意更新。

@@ -4,17 +4,23 @@ description: >-
   机器人交易干扰并降低资金磨损。稳步提升代币交易量，全面优化盘口数据的自然度。
 ---
 
-# Meteora - 防夹交易量机器人
+# Meteora - 防夹交易量机器人指南
 
-## CiaoTool Meteora防夹交易量机器人是什么？
+{% hint style="info" %}
+**CiaoTool Meteora 多地址捆绑买入**现已全面支持 **DBC、DLMM、DAMM V2** 全部的流动性池类型
+{% endhint %}
 
-**CiaoTool Bonk 防夹交易量机器人**是一款专为 Solana 生态 **Meteora 平台**打造的高阶自动化交易执行工具。它允许用户通过自定义参数，在链上全自动执行持续的买卖交互，以安全提升代币的交易活跃度。
+## CiaoTool Meteora 防夹交易量机器人是什么？
+
+<figure><picture><source srcset="../../../.gitbook/assets/屏幕截图 2026-09-09 152946.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (926).png" alt="CiaoTool Solana Chain Meteora 防夹交易量机器人页面"></picture><figcaption></figcaption></figure>
+
+**CiaoTool Meteora 防夹交易量机器人**是一款专为 Solana 生态 **Meteora 平台**打造的高阶自动化交易执行工具。它允许用户通过自定义参数，在链上全自动执行持续的买卖交互，以安全提升代币的交易活跃度。
 
 相较于常规的交易量工具，该功能的核心机制在于“同区块聚合执行”。系统会将代币的买入与卖出操作打包在同一个区块内同步完成。这种底层机制能够有效防止交易被链上 MEV 机器人“夹击”，从而避免了高频交互中常见的严重滑点与资金磨损。它能够在极低损耗的前提下，稳步提升代币的交易额、独立交易地址数以及整体数据表现的自然度。
 
 立即在 Meteora 上，用 CiaoTool 进行防夹交易量机器人操作：
 
-{% embed url="https://ciaotool.io/zh-CN/meteora/anti-mev" %}
+{% embed url="https://ciaotool.io/zh-Hans/meteora/anti-mev" %}
 
 ***
 
@@ -29,99 +35,156 @@ description: >-
 
 ***
 
-## **图文指南 |** Meteora 防夹交易量机器人
+## **图文指南**
 
 {% stepper %}
 {% step %}
 ### **绑定钱包**
 
-点击右上角按钮，绑定支持 Solana 链的钱包
+点击右上角【连接钱包】按钮，绑定支持 Solana 链的钱包
 
-<figure><img src="../../../.gitbook/assets/image (308).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (748).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### 选择交易代币
+### 选择交易对及池模式
 
-可以选择输入代币地址，也可以选择当前钱包拥有的代币进行买入操作。
+#### 交易币对
 
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+可以选择输入代币地址，也可以选择当前钱包拥有的代币进行交易操作。
+
+* **价值代币：**&#x6267;行交易操作时，用以支付币对价格的代币地址
+* **做市代币：**&#x6267;行交易操作时，用以实现市值管理策略目标的代币地址
+
+<figure><img src="../../../.gitbook/assets/image (843).png" alt=""><figcaption></figcaption></figure>
+
+#### 池模式
+
+选择要进行做市的池子，并确保该池子存在所选交易币对。
+
+<figure><img src="../../../.gitbook/assets/image (924).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### 导入交易钱包私钥
+### 导入钱包私钥
 
 {% hint style="danger" %}
-<mark style="color:$danger;">**安全须知**</mark>
-
-当&#x524D;**「防夹交易量机器人」**&#x529F;能支持 当前钱包和私钥导入以进行交易操作。请确保在安全环境下输入私钥信息，您的资金安全对我们来说至关重要，[**了解更多 CiaoTool 如何保障您的资金安全：资金安全保障**](../../../security-guide.md)**。**
+请确保在安全环境下输入私钥信息，您的资金安全对我们来说至关重要，[**了解更多 CiaoTool 如何保障您的资金安全：资金安全保障**](../../../security-guide.md)**。**
 {% endhint %}
 
 {% hint style="info" %}
-<mark style="color:$primary;">**交易钱包设置**</mark>
+<mark style="color:$primary;">**操作钱包设置**</mark>
 
-**Meteora 防夹交易量机器人**使用私钥导入钱包没有数量限制。交易手续费由每个钱包独立支付。
+导入钱包没有数量限制。交易手续费由每个钱包独立支付。
 {% endhint %}
 
-支&#x6301;**「当前钱包」**&#x548C;**「私钥导入钱包」**&#x4E24;种模式。
-
-* **当前钱包：**&#x4EC5;能通过当前绑定的钱包进行单一钱包交易操作。
-* **私钥导入钱包：**&#x652F;持多地址同步进行交易操作，分散交易盘口地址。支&#x6301;**「手动输入」**&#x548C;**「上传文件」**&#x4E24;种导入转账地址私钥的类型，选择以查看详细教程
+导入钱包数量没有限制，支&#x6301;**「手动输入」**&#x548C;**「上传文件」**&#x4E24;种导入来源地址的类型，选择以查看详细教程
 
 {% tabs %}
 {% tab title="手动输入" %}
-1. 点&#x51FB;**「手动输入」**&#x6309;钮，弹出手动输入框。
+1. 点&#x51FB;**「批量输入」**&#x6309;钮，弹出手动输入框。
 
-<figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (861).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (310).png" alt=""><figcaption></figcaption></figure>
+2. 输入 / 批量粘贴**钱包地址，**&#x6BCF;行仅输入一个钱包私钥，可在私钥后追加数量。
 
-2. 输入 / 批量粘贴**钱包私钥，**&#x4E00;行仅输入一个私钥，按回车键换行
+```
+privateKey, 300
+```
 
-<figure><img src="../../../.gitbook/assets/image (263).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (737).png" alt=""><figcaption></figcaption></figure>
 
-3. 点&#x51FB;**「确定」**，将所有输入地址导入到操作面板
+3. 点&#x51FB;**「确定导入」**，将所有输入地址导入到操作面板
 
-<figure><img src="../../../.gitbook/assets/image (348).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (864).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="上传文件" %}
-1. 点&#x51FB;**「手动输入」**&#x6309;钮，弹出文件上传窗口。
+1. 下载 CiaoTool 模板文件，并将信息导入到文件内。
 
-<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (862).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (251).png" alt=""><figcaption></figcaption></figure>
+2. 点击![](<../../../.gitbook/assets/image (848).png>)**「导入文件」**&#x6309;钮，弹出文件上传窗口。
+3. 点&#x51FB;**「确定导入」**，将所有地址导入到操作面板
 
-2. 导入钱包私钥信息文件，显示私钥信息。\
-   请通过 CiaoTool 模板文件导入，以确保私钥准确导入。
-
-<figure><img src="../../../.gitbook/assets/image (317).png" alt=""><figcaption></figcaption></figure>
-
-3. 点&#x51FB;**「确定」**，将所有输入地址导入到操作面板
-
-<figure><img src="../../../.gitbook/assets/image (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (863).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 {% endstep %}
 
 {% step %}
+### 输入交易金额
+
+支&#x6301;**「逐一输入」「输入金额」「随机范围」**&#x548C;**「全部」四**种转账金额类型。
+
+<figure><img src="../../../.gitbook/assets/image (865).png" alt=""><figcaption></figcaption></figure>
+
+1. **逐一输入**\
+   在输入框中，逐一输入交易金额数量。
+2. **统一金额**\
+   点击交易数量上方的![](<../../../.gitbook/assets/image (724).png>)按&#x94AE;**，**&#x9009;&#x62E9;**「输入金额」**&#x9009;项，所有地址将统一兑换数量。
+
+<figure><img src="../../../.gitbook/assets/image (866).png" alt=""><figcaption></figcaption></figure>
+
+3. **随机范围**\
+   点击交易数量上方的![](<../../../.gitbook/assets/image (724).png>)按&#x94AE;**，**&#x9009;&#x62E9;**「随机范围」**&#x9009;项，输入金额范围，所有地址将兑换指定范围内数额。
+4. **全部**\
+   点击转账数量上方的![](<../../../.gitbook/assets/image (724).png>)按&#x94AE;**，**&#x9009;&#x62E9;**「全部」**&#x9009;项，所有钱包将所选代币全部兑换为指定代币。
+{% endstep %}
+
+{% step %}
 ### 交易参数设置
+
+{% tabs %}
+{% tab title="交易间隔" %}
+可自由设置各地址交易执行间隔时间。
+
+<figure><img src="../../../.gitbook/assets/image (855).png" alt=""><figcaption></figcaption></figure>
+
+* **固定时间**\
+  所有交易按固定时间提交广播。
+* **随机时间**\
+  将会在指定的时间范围内随机提交，模拟真实交易，但需要保持页面以持续执行。
+{% endtab %}
+
+{% tab title="滑点" %}
+在执行交易时，实际成交价格与预期价格之间的存在差距。如果滑点范围设置过小，可能会错过有利的交易机会；设置过大，则可能会承担较大的价格波动风险。
+
+<figure><img src="../../../.gitbook/assets/image (856).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+{% endtabs %}
+{% endstep %}
+
+{% step %}
+### 发送设置
+
+* **RPC 发送**\
+  通过 RPC 节点统一广播交易，无需支付 Jito 小费。
+* **Jito Bundle**\
+  通过 Jito 小费提升上链优先级。
+
+<figure><img src="../../../.gitbook/assets/image (857).png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### 核实信息
+
+程序自动运行，查看确认页面并核对：
+
+* [x] 当前执行钱包及交易数量
+* [x] 费用预览
+
+交易费用将由各钱包独立承担。
+{% endstep %}
+
+{% step %}
+### 启动交易
 
 {% hint style="danger" %}
 关闭 / 刷新页面，机器人策略亦会**立即停止**。请保持策略执行期间，将网页持续处于后台并运行状态。为保证策略执行之必要，**该功能不推荐于**「**移动电子设备**」**使用。**
 {% endhint %}
 
-* **交易金额设置：**&#x6BCF;个钱包单次进行买卖操作的金额范围，可设置指定范围内随机数量进行买卖操作。
-* **任务执行间隔：**&#x6BCF;次买卖操作的交易间隔，可设置指定范围内随机时间进行买卖操作。
-* **交易次数：**&#x8BBE;置每个钱包的交易循环次数，买卖一笔为一个循环。
-
-<figure><img src="../../../.gitbook/assets/image (356).png" alt=""><figcaption></figcaption></figure>
-{% endstep %}
-
-{% step %}
-### 确认交易
-
-确认信息无误后，点击下&#x65B9;**「开始」**&#x6309;钮，并等交易程序完成。
+确认信息无误后，点击下方「**确认并开始执行**」按钮，即可开启批量兑换程序。
 {% endstep %}
 {% endstepper %}
 
@@ -133,7 +196,7 @@ description: >-
 
 ***
 
-## **常见问题 FAQ**
+## **常见问题**
 
 <details>
 
@@ -183,15 +246,13 @@ Jito 可将关键交易打包发送至优先池，提高链上排序优先级，
 
 </details>
 
-**💬 如遇到问题？加入社群实时咨询**：[https://t.me/ciaotool](https://t.me/ciaotool)
+***
 
-* **Email**：[support@ciaotool.io](mailto:support@ciaotool.io)
-* **官网**：[https://ciaotool.io](https://ciaotool.io/)
-* **X（Twitter）**：[https://x.com/CiaoTool](https://x.com/CiaoTool)
-* **Medium**： [https://medium.com/@ciaotool](https://medium.com/@ciaotool)
-* **Blog**：[https://www.ciaoailiquidity.com/zh/blog](https://www.ciaoailiquidity.com/zh/blog)
-* **YouTube**：[https://www.youtube.com/@CiaoTool](https://www.youtube.com/@CiaoTool)
-* **WhatsApp**：[https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J](https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J)
+## **寻求支持**
+
+**如遇到问题？**&#x4F60;可以通过以下方即时联系 CiaoTool 团队：
+
+<table data-header-hidden><thead><tr><th width="188"></th><th valign="top"></th><th data-hidden></th></tr></thead><tbody><tr><td>Email</td><td valign="top"><a href="mailto:ciaotoolglobal@gmail.com">ciaotoolglobal@gmail.com</a></td><td></td></tr><tr><td>Telegram</td><td valign="top"><a href="https://t.me/ciaotools">https://t.me/ciaotools</a></td><td></td></tr><tr><td>WhatsApp</td><td valign="top"><a href="https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J">https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J</a></td><td></td></tr></tbody></table>
 
 {% hint style="danger" %}
 CiaoTool 致力于提供便捷的工具服务，但不构成任何投资建议。平台内容可能根据产品迭代进行调整，敬请用户自行判断并留意更新。
