@@ -7,7 +7,7 @@ description: >-
 # Bonk - 批量交易教程
 
 {% hint style="info" %}
-**CiaoTool Bonk 批量交易**现已全面支持官方 **SOL** 和 **USD1** 全部的价值代币，请先切换到指定代币页面进行批量交易操作，满足不同场景下的快捷兑换服务。
+**CiaoTool Bonk 批量交易**现已全面支持官方 **SOL** 和 **USD1** 全部的价值代币，输入代币地址并切换价值代币。
 {% endhint %}
 
 ## CiaoTool Bonk 批量交易什么？&#x20;

@@ -7,7 +7,7 @@ description: >-
 # Pump - 多地址捆绑买入教程
 
 {% hint style="info" %}
-**CiaoTool Pump 多地址捆绑买入**现已全面支持官方 **SOL** 和 **USDC** 全部的价值代币，输入代币地址将自动切换适配和价值代币。
+**CiaoTool Pump 多地址捆绑买入**现已全面支持官方 **SOL** 和 **USDC** 全部的价值代币，输入代币地址将自动切换池子适配和价值代币。
 {% endhint %}
 
 ## CiaoTool Pump 多地址捆绑买入是什么？

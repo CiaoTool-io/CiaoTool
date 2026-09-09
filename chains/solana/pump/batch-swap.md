@@ -7,7 +7,7 @@ description: >-
 # Pump - 批量交易教程
 
 {% hint style="info" %}
-**CiaoTool Pump 批量交易**现已全面支持官方 **SOL** 和 **USDC** 全部的价值代币，输入代币地址将自动切换适配和价值代币。
+**CiaoTool Pump 批量交易**现已全面支持官方 **SOL** 和 **USDC** 全部的价值代币，输入代币地址将自动切换池子适配和价值代币。
 {% endhint %}
 
 ## CiaoTool Pump 批量交易什么？&#x20;

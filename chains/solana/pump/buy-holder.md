@@ -7,7 +7,7 @@ description: >-
 # Pump - 提升持币人数教程
 
 {% hint style="info" %}
-**CiaoTool Pump 提升持币人数功能**现已全面支持官方 **SOL** 和 **USDC** 全部的价值代币，输入代币地址将自动切换适配和价值代币。
+**CiaoTool Pump 提升持币人数功能**现已全面支持官方 **SOL** 和 **USDC** 全部的价值代币，输入代币地址将自动切换池子适配和价值代币。
 {% endhint %}
 
 ## CiaoTool Pump 提升持币人数功能是什么？

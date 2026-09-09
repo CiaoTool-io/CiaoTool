@@ -5,7 +5,7 @@ description: 专为 PumpFun 和 PumpSwap 平台提供的自动化做市与交易
 # Pump - 市值管理教程
 
 {% hint style="info" %}
-**CiaoTool Pump 市值管理**现已全面支持官方 **SOL** 和 **USDC** 全部的价值代币，输入代币地址将自动切换适配和价值代币。
+**CiaoTool Pump 市值管理**现已全面支持官方 **SOL** 和 **USDC** 全部的价值代币，输入代币地址将自动切换池子适配和价值代币。
 {% endhint %}
 
 ## CiaoTool Pump 市值管理是什么？

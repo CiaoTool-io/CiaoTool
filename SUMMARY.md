@@ -71,7 +71,7 @@
   * [BonkFun 专区](chains/solana/bonk/README.md "Bonk 专区")
     * [Bonk - 创建并买入教程](chains/solana/bonk/bundler.md "创建并买入")
     * [Bonk - 市值管理教程](chains/solana/bonk/market-making.md "市值管理")
-    * [Bonk - 批量交易教程](chains/solana/bonk/batch-swap.md "批量交易")
+    * [Bonk - 批量交易教程](chains/solana/bonk/batch-swap.md "批量买卖")
     * [Bonk - 防夹交易量机器人](chains/solana/bonk/anti-mev.md "防夹交易量机器人")
     * [Bonk - 提升交易人数教程](chains/solana/bonk/buy-maker.md "提升交易人数")
     * [Bonk - 提升持币人数教程](chains/solana/bonk/buy-holder.md "提升持币人数")
