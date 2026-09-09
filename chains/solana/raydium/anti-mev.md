@@ -109,6 +109,16 @@ description: >-
 * 随机数量：每次买卖交易循环均在规定范围内随机完成。
 {% endtab %}
 
+{% tab title="循环次数" %}
+{% hint style="danger" %}
+关闭 / 刷新页面，机器人策略亦会**立即停止**。请保持策略执行期间，将网页持续处于后台并运行状态。为保证策略执行之必要，**该功能不推荐于**「**移动电子设备**」**使用。**
+{% endhint %}
+
+每个钱包完成买卖交易循环的次数，完成后将自动停止交易。
+
+<figure><img src="../../../.gitbook/assets/image (877).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+
 {% tab title="交易间隔" %}
 可自由设置各地址完成一次买卖交易循环的执行间隔时间。
 
@@ -118,16 +128,6 @@ description: >-
   所有交易按固定时间提交广播。
 * **随机时间**\
   将会在指定的时间范围内随机提交，模拟真实交易。
-{% endtab %}
-
-{% tab title="循环次数" %}
-{% hint style="danger" %}
-关闭 / 刷新页面，机器人策略亦会**立即停止**。请保持策略执行期间，将网页持续处于后台并运行状态。为保证策略执行之必要，**该功能不推荐于**「**移动电子设备**」**使用。**
-{% endhint %}
-
-每个钱包完成买卖交易循环的次数，完成后将自动停止交易。
-
-<figure><img src="../../../.gitbook/assets/image (877).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 {% endstep %}
