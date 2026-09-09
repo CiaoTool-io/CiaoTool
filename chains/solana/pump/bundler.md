@@ -47,13 +47,13 @@ CiaoTool 为 Pump.fun 平台上的代币首发提供了一种兼顾安全性与�
 
 多个钱包的交易将分别广播并独立上链，无法保证执行顺序或进入同一区块。期间若有其他交易抢先成交，池内价格可能发生变化，导致后续钱包的买入成本上升、实际获得的代币数量减少，造成损失。
 
-<figure><img src="../../../.gitbook/assets/Frame 1321314899.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/broken/files/lyg7cjnMlgF0uYI8Iejz" alt=""><figcaption></figcaption></figure>
 
-### 捆绑f
+### 捆绑发射代币
 
 将 10 个钱包的交易将按预设顺序打包到一个 Bundle 捆绑包内提交，并在同一区块内连续执行，减少交易间隙被其他交易插入的风险，提升批量买入的执行一致性，并提升交易优先级。
 
-<figure><img src="../../../.gitbook/assets/Frame 1321314903 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Frame 1321314907.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
