@@ -5,7 +5,7 @@ description: 专为 BONKfun 平台提供的自动化做市与交易执行工具�
 # Bonk - 市值管理教程
 
 {% hint style="info" %}
-**CiaoTool Bonk 多地址捆绑卖出**现已全面支持官方 **SOL** 和 **USD1** 全部的价值代币，请先切换到指定代币页面进行市值管理操作，满足不同场景下的快捷做市服务。
+**CiaoTool Bonk 多地址捆绑卖出**现已全面支持官方 **SOL** 和 **USD1** 全部的价值代币，输入代币地址并切换价值代币。
 {% endhint %}
 
 ## CiaoTool Bonk 市值管理是什么？
@@ -58,22 +58,14 @@ description: 专为 BONKfun 平台提供的自动化做市与交易执行工具�
 {% endstep %}
 
 {% step %}
-### 选择交易对及池模式
-
-#### 交易币对
+### 选择交易对
 
 可以选择输入代币地址，也可以选择当前钱包拥有的代币进行交易操作。
 
 * **价值代币：**&#x6267;行交易操作时，用以支付币对价格的代币地址
 * **做市代币：**&#x6267;行交易操作时，用以实现市值管理策略目标的代币地址
 
-<figure><img src="../../../.gitbook/assets/image (843).png" alt=""><figcaption></figcaption></figure>
-
-#### 池模式
-
-选择要进行做市的池子，并确保该池子存在所选交易币对。
-
-<figure><img src="../../../.gitbook/assets/image (845).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (917).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -269,7 +261,7 @@ privateKey, 300
 
 ***
 
-## **常见问题 FAQ**
+## **常见问题**
 
 <details>
 
