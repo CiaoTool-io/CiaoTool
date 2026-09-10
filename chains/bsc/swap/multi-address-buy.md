@@ -53,7 +53,7 @@ In fierce on-chain execution, capital efficiency and concealment determine the s
 
 Click the button in the top right corner to connect a wallet that supports the EVM network.
 
-<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -75,9 +75,9 @@ Enter the paying wallet's private key. Enter the private key of the wallet that 
 
 For V2, select or enter the market-making token addresses in the token input box; for V3, please enter the pair contract address of the designated pool.
 
-<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Can’t find the V3 Pool Address?**
 

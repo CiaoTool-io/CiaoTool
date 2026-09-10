@@ -13,7 +13,7 @@ description: >-
 
 ## What is CiaoTool PancakeSwap Multi-Address Bundled Sell?
 
-<figure><picture><source srcset="../../../.gitbook/assets/屏幕截图 2026-06-18 153048.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (8).png" alt="CiaoTool BSC Toolkit Page about PancakeSwap Multi-Address Bundled Sell Feature"></picture><figcaption></figcaption></figure>
+<figure><picture><source srcset="../../../.gitbook/assets/屏幕截图 2026-06-18 153048.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (8) (1).png" alt="CiaoTool BSC Toolkit Page about PancakeSwap Multi-Address Bundled Sell Feature"></picture><figcaption></figcaption></figure>
 
 **PancakeSwap Multi-Address Bundled Sell** is an advanced strategy for V2 / V3 pools. It deploys numbers of sub-wallets to execute concurrent sell orders within a single block, achieving instant multi-address fund reclamation.
 
@@ -51,7 +51,7 @@ In fierce on-chain execution, capital efficiency and concealment determine the s
 
 Click the button in the top right corner to connect a wallet that supports the EVM network.
 
-<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -73,9 +73,9 @@ Enter the paying wallet's private key. Enter the private key of the wallet that 
 
 For V2, select or enter the market-making token addresses in the token input box; for V3, please enter the pair contract address of the designated pool.
 
-<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Can’t find the V3 Pool Address?**
 

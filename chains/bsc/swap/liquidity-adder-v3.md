@@ -15,7 +15,7 @@ If you want to add a V2 liquidity pool featuring ease of use and full-range cove
 
 ## What is PancakeSwap V3 Liquidity Adder?
 
-<figure><picture><source srcset="../../../.gitbook/assets/ScreenShot_2026-06-18_175516_891.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (2).png" alt="CiaoTool BSC Toolkit Page about PancakeSwap V3 Liquidity Pool Adder Feature"></picture><figcaption></figcaption></figure>
+<figure><picture><source srcset="../../../.gitbook/assets/ScreenShot_2026-06-18_175516_891.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (2) (1).png" alt="CiaoTool BSC Toolkit Page about PancakeSwap V3 Liquidity Pool Adder Feature"></picture><figcaption></figcaption></figure>
 
 Adding PancakeSwap V3 Liquidity refers to the operation of appending market-making capital into an already deployed V3 liquidity pool. The V3 protocol adopts a "concentrated liquidity" mechanism, requiring market makers to set a specific price range when adding capital.
 
@@ -53,7 +53,7 @@ For professional teams needing strict control over chip distribution, CiaoTool b
 
 Click the button in the top right corner to connect a wallet that supports the EVM network.
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -75,13 +75,13 @@ This wallet address will be used to pay fees and will hold ownership of the pool
 
 Each V3 liquidity pool for different token pairs / different fee tiers has an independent pair address. Input the pair address into the box, and the system will automatically display the pair information.
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ### Set Price Range
 
-<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 1. Range size determines the level of yield (applicable to both LP fee yields and CAKE yields):
 
@@ -104,7 +104,7 @@ Each V3 liquidity pool for different token pairs / different fee tiers has an in
 {% step %}
 ### Enter Pool-Adding Token Amount
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 The system will automatically calculate the pool-adding amount of the value token / project token based on the current pair price and the price range for adding liquidity.
 

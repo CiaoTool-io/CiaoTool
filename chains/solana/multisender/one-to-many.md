@@ -10,63 +10,66 @@ description: >-
 {% hint style="info" %}
 You are currently on the **"Solana - One-to-Multi Transfer"** tutorial page.
 
-Click [**"EVM - One-to-Multi Transfer"**](../../../tools/multisender/one-to-multi/one-to-many.md) to view multisender tutorials for EVM networks such as BSC, opBNB, Base, X Layer, IoTeX, and BOT Chain.
+Click [**"EVM - One-to-Multi Transfer"**](../../../tools/multisender/one-to-multi/one-to-many.md) to view multisender tutorials for EVM networks such as BSC, opBNB, Base, X Layer, IoTeX, BOT, and Robinhood Chain.
 {% endhint %}
 
-## What is CiaoTool Solana One-to-Multi Transfer？ <a href="#definition" id="definition"></a>
+## Overview <a href="#definition" id="definition"></a>
 
-<figure><img src="../../../.gitbook/assets/image (672).png" alt="CiaoTool Solana Toolkit Page about One-to-Multi Transfer Feature"><figcaption></figcaption></figure>
+CiaoTool Solana One-to-Many Transfer is a batch asset distribution tool that allows users to send SOL or supported SPL tokens from one wallet to multiple recipient addresses in a single operation.
 
-**CiaoTool Solana One-to-Multi Transfer** is a simple and efficient tool that allows you to **send SOL (native token)** or **any SPL token** to multiple wallet addresses simultaneously. Unlike sending transactions one by one, the One-to-Multi Transfer automates bulk transfers, saving time, reducing human error, and streamlining token distribution processes such as airdrops, payments, rewards, or community events.
+The system automatically creates and groups transfer tasks based on the number of recipients. Each transaction supports up to five recipient addresses and is broadcast using the selected sending method, reducing repetitive address entry and individual signing.
 
-Key Use Cases:
+**Use Cases:**
 
-* Airdrops & Token Distributions
-* DAO Revenue & Rewards
-* Bulk Payments to Users
-* Marketing Campaigns & Web3 Growth Strategies
+* Token airdrops and community rewards
+* DAO distributions and contributor incentives
+* Team payments and bulk user payouts
+* Multi-wallet fund allocation and operational management
 
 Start your One-to-Multi Transfer on Solana with CiaoTool now:
 
-{% embed url="https://ciaotool.io/en-US/transfer/one-to-many" %}
+{% embed url="https://ciaotool.io/en/transfer/one-to-many" %}
 
 ***
 
-## Why Choose CiaoTool One-to-Multi Transfer?
+## Advatage
 
-CiaoTool offers the fastest and most reliable way to distribute tokens on Solana. Whether you are launching a new token, conducting an airdrop, or managing payments, its bulk transfer feature ensures accuracy, scalability, and a smooth user experience.
-
-**Supporting SOL and SPL tokens**, file imports, and automatic batching, it is an essential tool for any Web3 project operating on Solana.
+* **Efficient Batch Processing:** Configure multiple recipient addresses and transfer amounts at once, and let the system automatically group and execute the transactions.
+* **Flexible Configuration:** Enter details manually or import them in bulk from Excel, with support for equal, fixed, or randomized amounts.
+* **Multiple Sending Options:** Choose between RPC broadcasting and Jito bundle submission to suit different execution requirements.
+* **Pre-Submission Review:** Verify the number of recipients, total transfer amount, and estimated fees before submitting.
+* **Local Signing:** Transactions are authorized by the wallet without uploading private keys.
 
 ***
 
-## Tutorial Video | Solana Multisender - One-to-Multi Transfer <a href="#video-guide" id="video-guide"></a>
+## Tutorial Video <a href="#video-guide" id="video-guide"></a>
 
 {% embed url="https://www.youtube.com/watch?v=u0QQwYpX7WM" %}
 
 ***
 
-## **Step by Step |** Solana Multisender - One-to-Multi Transfer <a href="#solana-one-to-multi-guide" id="solana-one-to-multi-guide"></a>
+## Step by Step <a href="#solana-one-to-multi-guide" id="solana-one-to-multi-guide"></a>
 
 {% stepper %}
 {% step %}
 ### Connect Wallet
 
-Click the button in the top right corner to connect a wallet that supports the Solana network.
+Click the button in the top right corner, and connect a wallet that supports the Solana network.
 
-<figure><img src="../../../.gitbook/assets/image (673).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Enter Sending Wallet Private Key
+### Choose Sender Wallet
 
 {% hint style="danger" %}
-Currently supports private key import only. Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
+Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
 {% endhint %}
 
-Enter your private key, and the system will automatically refresh your SOL and token balances. Please ensure your wallet has sufficient SOL.
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (674).png" alt=""><figcaption></figcaption></figure>
+* **Connected Wallet:** Transfer directly with the currently connected wallet. Transactions are authorized through the wallet without entering the private key.
+* **Other Private-Key Wallet:** Enter private key to quickly use additional wallet for transfers without switching the connected wallet.
 {% endstep %}
 
 {% step %}
@@ -74,42 +77,40 @@ Enter your private key, and the system will automatically refresh your SOL and t
 
 You can choose SOL or any SPL token currently held in your wallet for transfer.
 
-<figure><img src="../../../.gitbook/assets/image (675).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ### **Import Recipient Addresses**
 
-Supports two methods for importing recipient addresses: **"Manual Input"** and **"Upload File"**. Select an option to view the detailed tutorial.
+Unlimited recipient addresses. Add them **Manually Input** or **Upload File**. Click to view the guide.
 
 {% tabs %}
 {% tab title="Manual Input" %}
-1. Click the "Manual Input" button to open the input field.
+1. Click the "Bulk Input" button to open the input field.
 
-<figure><img src="../../../.gitbook/assets/image (676).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-2. Enter / bulk paste wallet addresses, one address per line. Press Enter to start a new line.
+2. Enter / paste wallet addresses, one per line. Optionally add the transfer amount after each address.
 
-<figure><img src="../../../.gitbook/assets/image (677).png" alt=""><figcaption></figcaption></figure>
+```
+address, 300
+```
 
-3. Click "OK" to import all entered addresses into the operation panel.
+<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (682).png" alt=""><figcaption></figcaption></figure>
+3. Click "Import" to import all entered addresses into the operation panel.
+
+<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Upload File" %}
-1. Click the "Upload File" button to open the file upload window.
+1. Download the CiaoTool template and fill in the transfer details.
 
-<figure><img src="../../../.gitbook/assets/image (679).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
-2. Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.\
-   Click to download and view the template:
-
-{% file src="../../../.gitbook/assets/Solana_address_demo.xlsx" %}
-
-<figure><img src="../../../.gitbook/assets/image (677).png" alt=""><figcaption></figcaption></figure>
-
-3. Click "OK" to import all entered addresses into the operation panel.
+2. Click ![](<../../../.gitbook/assets/image (7).png>)"Import File" button to open the input field.
+3. Click "Import" to import all entered addresses into the operation panel.
 
 <figure><img src="../../../.gitbook/assets/image (681).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
@@ -119,38 +120,59 @@ Supports two methods for importing recipient addresses: **"Manual Input"** and *
 {% step %}
 ### Enter Transfer Amount
 
-Supports three transfer amount types: individual amounts, uniform amount, and random range.
+Choose from 3 amount options: **Individual, Fixed, or Random Range**.
 
-1. **Individual Amounts**\
-   Enter the transfer amount for each entry in the input field.
-
-<figure><img src="../../../.gitbook/assets/image (683).png" alt=""><figcaption></figcaption></figure>
-
-2. **Uniform Amount**\
-   Click the "Batch Input" button above the transfer amount section, select "Amount", then enter the value. All addresses will use the same transfer amount.
-
-<figure><img src="../../../.gitbook/assets/image (684).png" alt=""><figcaption></figcaption></figure>
-
+1. **Individual**\
+   Enter a different amount for each address.
+2. **Fixed Amount**\
+   Click ![](<../../../.gitbook/assets/image (8).png>) above “Amount”, and select “Fixed Amount” to apply the same amount to all addresses.
 3. **Random Range**\
-   Click the "Batch Input" button above the transfer amount section, select the "Range" option and enter the amount range. Each address will receive an amount within the specified range.
-
-<figure><img src="../../../.gitbook/assets/image (685).png" alt=""><figcaption></figcaption></figure>
+   Click ![](<../../../.gitbook/assets/image (8).png>) above “Amount”, and select “Random Range” and set the minimum and maximum. The system will generate an amount within that range for each address.
 {% endstep %}
 
 {% step %}
-### Task Execution Interval
+### Send Interval
 
-{% hint style="warning" %}
-Only supported in **"One-to-Multi Slow"** mode. You can set the execution interval between tasks.
-{% endhint %}
+Set the submission interval between transactions.
 
-<figure><img src="../../../.gitbook/assets/image (686).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+
+* **Fixed Interval**\
+  Set to `0` to broadcast all transactions immediately.
+* **Random Interval**\
+  Transactions are submitted randomly within the selected time range. Keep the page open during execution.
+{% endstep %}
+
+{% step %}
+### Send method
+
+The system automatically groups recipients, with up to 5 addresses per group.
+
+<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+
+* **RPC**\
+  Broadcasts transactions through an RPC node without a Jito tip. Execution order is not guaranteed.
+* **Jito Bundle**\
+  Each Bundle supports up to 5 groups, totaling 25 recipients. A Jito tip increases landing priority, and transactions execute in the specified order.
+{% endstep %}
+
+{% step %}
+### Review Details
+
+Click **“Next”** to review:
+
+* [x] Recipient addresses, total recipients, and transfer amount
+* [x] Estimated fees
+
+<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ### **Confirm**
 
-After verifying all details, click the **"Confirm Transfer"** button below and wait for the transaction process to complete.
+After confirming the details, click **“Confirm and Send”** to track the transfer progress and results in real time.
+
+<figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -208,7 +230,9 @@ The current version supports selecting a single SPL token or SOL for multisender
 
 ***
 
-**Need help? Join our community for real-time support:**
+## Service Support
+
+Need help? Join our community for real-time support:
 
 <table data-header-hidden><thead><tr><th width="188"></th><th valign="top"></th><th data-hidden></th></tr></thead><tbody><tr><td>Email</td><td valign="top"><a href="mailto:ciaotoolglobal@gmail.com">ciaotoolglobal@gmail.com</a></td><td></td></tr><tr><td>Telegram</td><td valign="top"><a href="https://t.me/ciaotools">https://t.me/ciaotools</a></td><td></td></tr><tr><td>WhatsApp</td><td valign="top"><a href="https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J">https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J</a></td><td></td></tr></tbody></table>
 

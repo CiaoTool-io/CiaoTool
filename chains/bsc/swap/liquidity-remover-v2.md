@@ -14,7 +14,7 @@ If you want to remove V3 liquidity and recover funds, please refer to the [**Pan
 
 ## What is PancakeSwap V2 Liquidity Remover？
 
-<figure><picture><source srcset="../../../.gitbook/assets/ScreenShot_2026-06-18_175516_891 (1).png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (7).png" alt=""></picture><figcaption></figcaption></figure>
+<figure><picture><source srcset="../../../.gitbook/assets/ScreenShot_2026-06-18_175516_891 (1).png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (7) (1).png" alt=""></picture><figcaption></figcaption></figure>
 
 Removing V2 liquidity burns your LP tokens to retrieve your paired project tokens and underlying assets (e.g., BNB/USDT) based on current pool ratios.
 

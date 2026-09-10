@@ -51,7 +51,7 @@ In fierce on-chain execution, capital efficiency and concealment determine the s
 
 Click the button in the top right corner to connect a wallet that supports the EVM network.
 
-<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}

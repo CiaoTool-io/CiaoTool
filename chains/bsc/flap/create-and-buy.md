@@ -78,7 +78,7 @@ Enter the private key of the control address used for token issuance. This addre
 {% step %}
 ### Enter Token Information
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * **Token Name:** Full token name displayed in wallets and explorers (e.g., MyFirstToken).
 * **Symbol:** Token abbreviation, usually 3–6 uppercase letters (e.g., MYT).

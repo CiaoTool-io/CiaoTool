@@ -17,7 +17,7 @@ Click [**"Solana - Multi-to-One Transfer"**](../../../chains/solana/multisender/
 
 ## What is CiaoTool EVM Multi-to-One Transfer?
 
-<figure><img src="../../../.gitbook/assets/image (13).png" alt="CiaoTool BSC Toolkit Page about BSC Batch Multi-to-One Transfer Feature"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (13) (1).png" alt="CiaoTool BSC Toolkit Page about BSC Batch Multi-to-One Transfer Feature"><figcaption></figcaption></figure>
 
 **CiaoTool EVM Multi-to-One Transfer** is a highly efficient on-chain asset reclamation and multi-wallet fund management tool specially designed for the BSC (BNB Smart Chain) and EVM-compatible ecosystems.
 

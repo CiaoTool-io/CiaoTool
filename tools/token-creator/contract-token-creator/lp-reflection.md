@@ -15,7 +15,7 @@ This token type contains custom logic that **may be flagged** by certain audit p
 
 ## What is CiaoTool BSC LP Reflection Token Creator?
 
-<figure><picture><source srcset="../../../.gitbook/assets/屏幕截图 2026-06-16 172014.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (12).png" alt="CiaoTool BSC Toolkit Page about BSC LP Reflection Token Creator Feature"></picture><figcaption></figcaption></figure>
+<figure><picture><source srcset="../../../.gitbook/assets/屏幕截图 2026-06-16 172014.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (12) (1).png" alt="CiaoTool BSC Toolkit Page about BSC LP Reflection Token Creator Feature"></picture><figcaption></figcaption></figure>
 
 **CiaoTool BSC LP Reflection Token Creator** is an advanced smart contract deployment workbench specifically engineered to resolve the pain point of a "liquidity crunch" for Web3 projects. Breaking through the bottlenecks of complex contract development, it empowers project founders to ultra-fast launch BEP-20 protocol tokens equipped with an exclusive LP reward pool on the BNB Chain.
 
