@@ -12,7 +12,7 @@ You are currently on the **"EVM - Fragmentation"** tutorial page for EVM network
 
 Demonstrated on BSC. Universally compatible across all EVM networks, please switch to your target chain to operate.
 
-Click [**"Solana - Fragmentation"**](../../chains/solana/asset-migration/fragmentation.md) to view the Solana network tutorial.
+Click [**"Solana - Fragmentation"**](../../chains/solana/multisender/fragmentation.md) to view the Solana network tutorial.
 {% endhint %}
 
 ## What is CiaoTool EVM Fragmentation?

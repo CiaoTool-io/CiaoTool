@@ -5,186 +5,233 @@ description: >-
   your asset strategy discreet.
 ---
 
-# Solana - Multisender | Relay Transfer Tutorial
+# Solana - Multisender | SOL Relay Transfer Guide
 
 {% hint style="info" %}
-You are currently on the **"Solana - Relay Transfe Transfer"** tutorial page.
+You are currently on the **"Solana - SOL Relay Transfe Transfer"** tutorial page.
 
 Click [**"EVM - Relay Transfer"**](../../bsc/multisender/relay-transfer.md) to view multisender tutorials for BNB Smart Chain.
 {% endhint %}
 
-## What is CiaoTool Solana Relay Transfer?
+## Overview
 
-<figure><img src="../../../.gitbook/assets/image (720).png" alt="CiaoTool Solana Toolkit Page about Relay Transfer Feature"><figcaption></figcaption></figure>
+CiaoTool Solana Relay Transfer is an automated asset-routing tool. It creates an independent relay wallet between the sending wallet and the recipient, splitting a direct transfer into:
 
-**CiaoTool Solana Relay Transfer** is an advanced tool dedicated to on-chain privacy protection and asset obfuscation. It allows you to automatically introduce independent intermediary wallet nodes during the transfer process, intelligently routing and distributing SOL (native token) to target wallets in batches.
+**Sending Wallet → Relay Wallet → Recipient Address**
 
-Compared to standard direct transfers, the core advantage of a Relay Transfer lies in severing the direct on-chain link between the sender and recipient. By automatically routing funds through intermediary addresses, the system perfectly mimics real, independent interactions. This effectively breaks up fund flow paths and optimizes how on-chain tools display cluster analysis and bubble charts. It not only hides capital movements and protects the privacy of master wallets, but also secures flows across multi-wallet interactions.
+The system generates relay addresses, builds transactions, and tracks execution status based on the task settings, eliminating the need to create or manage relay wallets manually.
 
-This tool is particularly suitable for:
+**Use Cases:**
 
-* SOL Capital Allocation & Portfolio Splitting under Privacy Protection
-* Optimizing On-Chain Bubble Charts & Cluster Analysis Displays
-* Secure Asset Distribution Management Across Multiple Addresses
+* Batch SOL distribution and consolidation
+* Multi-wallet asset migration and allocation
+* Project treasury and operational fund management
+* Test-account funding and balance recovery
 
 Start your SOL Relay Transfer on Solana with CiaoTool now:
 
-{% embed url="https://ciaotool.io/en-US/transfer/relay-transfer" %}
+{% embed url="https://ciaotool.io/en/transfer/relay-transfer" %}
 
 ***
 
-## Why Choose CiaoTool Relay Transfer?
+## Advantage
 
-CiaoTool provides a professional solution for managing on-chain assets efficiently and securely on Solana. Whether you need privacy-focused SOL distributions, secure rebalancing across multiple wallets, or complex fund allocations between nodes, the Relay Transfer feature ensures operational accuracy, effectively diversifies fund flow paths, and optimizes on-chain linkage displays by introducing intermediary nodes to mimic real, independent transactions.
-
-Purpose-built for **SOL** asset flows and combined with one-click file imports and bulk processing, it drastically reduces operational overhead. It stands as an indispensable secure asset management tool for any Web3 project or professional team dedicated to building on Solana.
+* **Automatic Relay Wallet Creation:** Creates relay addresses based on the number of tasks, with no manual setup required.
+* **Automated Two-Stage Execution:** Completes the incoming and outgoing transfers in sequence and records the status of each each stage.
+* **Batch Task Support:** Manages multiple relay routes at once to reduce repetitive operations.
+* **Clear Fund Flow:** Displays the mapping between sending, relay, and recipient wallets for easy verification.
+* **Local Signing:** Transactions are authorized locally, and private keys do not need to be uploaded to the server.
 
 ***
 
-## **Step by Step | Solana Multisender - Relay Transfer**
+## Workflow
+
+Relay transfers use a two-stage routing mechanism. A temporary relay wallet is created between the source and destination wallets, splitting one direct transfer into two independent on-chain transactions:
+
+**Source Wallet → Relay Wallet → Destination Wallet**
+
+<figure><img src="../../../.gitbook/assets/image (1133).png" alt=""><figcaption></figcaption></figure>
+
+***
+
+## **Step by Step**
 
 {% stepper %}
 {% step %}
-### Connect Wallet <a href="#connect-wallet" id="connect-wallet"></a>
+### Connect Wallet
 
-Click the button in the top right corner to connect a wallet that supports the Solana network.
+Click the button in the top right corner, and connect a wallet that supports the Solana network.
 
-<figure><img src="../../../.gitbook/assets/image (721).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ### Select a Token to Send
 
-You can choose SOL or any SPL token currently held in your wallet for transfer.
+You can choose SOL or any SPL token to transfer.
 
-<figure><img src="../../../.gitbook/assets/image (722).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Input Sending Wallet Private Key
+### **Import Private Keys**
 
 {% hint style="danger" %}
-Currently supports private key import only. Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
+Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
 {% endhint %}
 
 {% hint style="info" %}
 The number of sender wallets must match the number of recipient wallets.
 {% endhint %}
 
-Supports two methods for importing sending private key: **"Manual Input"** and **"Upload File"**. Select an option to view the detailed tutorial.
+Unlimited sender addresses. Add them **Manually Input** or **Upload File**. Click to view the guide.
 
 {% tabs %}
 {% tab title="Manual Input" %}
-1. Click the "Manual Input" button to open the input field.
+1. Click the "Bulk Input" button to open the input field.
 
-<figure><img src="../../../.gitbook/assets/image (705).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1122).png" alt=""><figcaption></figcaption></figure>
 
-2. Enter / bulk paste private keys, one private key per line. Press Enter to start a new line.
+2. Enter / paste wallet private keys, one per line. Optionally add the transfer amount after each wallet.
 
-<figure><img src="../../../.gitbook/assets/image (707).png" alt=""><figcaption></figcaption></figure>
+```
+privateKey, 300
+```
 
-3. Click **"OK"** to import all entered addresses into the operation panel.
+<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (708).png" alt=""><figcaption></figcaption></figure>
+3. Click "Import" to import all entered wallets into the operation panel.
+
+<figure><img src="../../../.gitbook/assets/image (1123).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Upload File" %}
-1. Click the **"Upload File"** button to open the file upload window.
+1. Download the CiaoTool template and fill in the transfer details.
 
-<figure><img src="../../../.gitbook/assets/image (706).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1125).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (710).png" alt=""><figcaption></figcaption></figure>
+2. Click ![](<../../../.gitbook/assets/image (7).png>)"Import File" button to open the input field.
+3. Click "Import" to import all entered wallets into the operation panel.
 
-2. Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.   \
-   Click to download and view the template:
-
-{% file src="../../../.gitbook/assets/Solana_privateKey_demo.xlsx" %}
-
-<figure><img src="../../../.gitbook/assets/image (711).png" alt=""><figcaption></figcaption></figure>
-
-3. Click **"OK"** to import all entered addresses into the operation panel.
-
-<figure><img src="../../../.gitbook/assets/image (709).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1124).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 {% endstep %}
 
 {% step %}
-### Enter Transfer Amount <a href="#enter-transfer-amount" id="enter-transfer-amount"></a>
+### Enter Transfer Amount
 
-<figure><img src="../../../.gitbook/assets/image (712).png" alt=""><figcaption></figcaption></figure>
+Choose from 6 amount options: **Individual, Fixed, Random Range, Retain, Percent, or All.**
 
-Click the **"Batch Input"** button above the transfer amount to choose from four transfer modes: **"Amount"**, **"Percentage"**, **"Retain Amount"**, and **"All"**. Custom Input is also supported.
-
-1. **Custom Input**\
-   Enter the transfer amount for each wallet individually.
-   * If an amount is filled in, the transfer will use that specific amount.
-   * If an amount is left blank, the transfer will default to the amount configured in the global settings.
-2. **Amount**\
-   Apply a uniform, designated amount across all wallets for the transfer.
-3. **Percentage**\
-   Set a uniform balance percentage; each wallet will transfer funds according to its specific percentage.
+1. **Individual**\
+   Enter a different amount for each address.
+2. **Fixed Amount**\
+   Click ![](<../../../.gitbook/assets/image (8).png>) above “Amount”, and select “Fixed Amount” to apply the same amount to all addresses.
+3. **Random Range**\
+   Click ![](<../../../.gitbook/assets/image (8).png>) above “Amount”, and select “Random Range” and set the minimum and maximum. The system will generate an amount within that range for each address.
 4. **Retain Amount**\
-   Ensure a fixed amount remains in each wallet for future use, transferring the remaining balance to the recipient address.
-5. **All**\
-   Quickly transfer all of a specific token from the wallets from the sending addresses with no extra steps.
+   Click ![](<../../../.gitbook/assets/image (8).png>) above “Amount”, and select “Retain Amount” to retain the specified amount in each sending wallet and transfer the remaining balance.
+5. **Percent Amount**\
+   Click ![](<../../../.gitbook/assets/image (8).png>) above “Amount”, Select “Percent Amount” to calculate the transfer amount based on a specified percentage of each wallet’s balance.
+6. **All**\
+   Click ![](<../../../.gitbook/assets/image (8).png>) above “Amount”, and select “All” to transfer the full available balance.
 {% endstep %}
 
 {% step %}
-### Input Recipient Wallet Address
+### **Import Recipient Addresses**
 
 {% hint style="info" %}
 The number of sender wallets must match the number of recipient wallets.
 {% endhint %}
 
-Supports two methods for importing recipient addresses: **"Manual Input"** and **"Upload File"**. Select an option to view the detailed tutorial.
+Unlimited recipient addresses. Add them **Manually Input** or **Upload File**. Click to view the guide.
 
 {% tabs %}
 {% tab title="Manual Input" %}
-1. Click the "Manual Input" button to open the input field.
+1. Click the "Bulk Input" button to open the input field.
 
-<figure><img src="../../../.gitbook/assets/image (713).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1129).png" alt=""><figcaption></figcaption></figure>
 
-2. Enter / bulk paste wallet addresses, one address per line. Press Enter to start a new line.
+2. Enter / paste wallet addresses, one per line. Optionally add the transfer amount after each address.
 
-<figure><img src="../../../.gitbook/assets/image (715).png" alt=""><figcaption></figcaption></figure>
+```
+address, 300
+```
 
-3. Click "OK" to import all entered addresses into the operation panel.
+<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (716).png" alt=""><figcaption></figcaption></figure>
+3. Click "Import" to import all entered addresses into the operation panel.
+
+<figure><img src="../../../.gitbook/assets/image (1130).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Upload File" %}
-1. Click the "Upload File" button to open the file upload window.
+1. Download the CiaoTool template and fill in the transfer details.
 
-<figure><img src="../../../.gitbook/assets/image (714).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1132).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (718).png" alt=""><figcaption></figcaption></figure>
+2. Click ![](<../../../.gitbook/assets/image (7).png>)"Import File" button to open the input field.
+3. Click "Import" to import all entered addresses into the operation panel.
 
-2. Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.   \
-   Click to download and view the template:
-
-{% file src="../../../.gitbook/assets/Solana_address_demo.xlsx" %}
-
-<figure><img src="../../../.gitbook/assets/image (719).png" alt=""><figcaption></figcaption></figure>
-
-3. Click **"OK"** to import all entered addresses into the operation panel.
-
-<figure><img src="../../../.gitbook/assets/image (717).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1131).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 {% endstep %}
 
 {% step %}
-### Set Relay Count
+### Relay Amont
 
-Customize the number of relay addresses. All transfers will pass through the specified number of intermediary addresses before reaching the destination wallet.
+Set the number of relay wallets used for each transfer route.
+
+Additional relay layers can reduce the direct connection between source and destination wallets but will increase the number of transactions, network fees, and execution time.
+
+<figure><img src="../../../.gitbook/assets/image (1134).png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Send Interval
+
+Set the submission interval between transactions.
+
+<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+
+* **Fixed Interval**\
+  Set to `0` to broadcast all transactions immediately.
+* **Random Interval**\
+  Transactions are submitted randomly within the selected time range. Keep the page open during execution.
+{% endstep %}
+
+{% step %}
+### Send method
+
+The system automatically groups recipients, with up to 4 addresses per group.
+
+<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+
+* **RPC**\
+  Broadcasts transactions through an RPC node without a Jito tip. Execution order is not guaranteed.
+* **Jito Bundle**\
+  Each Bundle supports up to 5 groups, totaling 20 recipients. A Jito tip increases landing priority, and transactions execute in the specified order.
+{% endstep %}
+
+{% step %}
+### Review Details
+
+Click **“Next”** to review:
+
+* [x] Recipient address for each relay task
+* [x] Number of transfers, total transfer amount, and estimated amount received
+* [x] Estimated fees
+
+<figure><img src="../../../.gitbook/assets/image (1128).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ### **Confirm**
 
-After verifying all details, click the **"Confirm Transfer"** button below and wait for the transaction process to complete.
+After confirming the details, click **“Confirm and Send”** to track the transfer progress and results in real time.
+
+<figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -234,7 +281,9 @@ The current version only supports SOL for bulk transfers.
 
 ***
 
-**Need help? Join our community for real-time support:**
+## Service Support
+
+Need help? Join our community for real-time support:
 
 <table data-header-hidden><thead><tr><th width="188"></th><th valign="top"></th><th data-hidden></th></tr></thead><tbody><tr><td>Email</td><td valign="top"><a href="mailto:ciaotoolglobal@gmail.com">ciaotoolglobal@gmail.com</a></td><td></td></tr><tr><td>Telegram</td><td valign="top"><a href="https://t.me/ciaotools">https://t.me/ciaotools</a></td><td></td></tr><tr><td>WhatsApp</td><td valign="top"><a href="https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J">https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J</a></td><td></td></tr></tbody></table>
 

@@ -3,7 +3,7 @@ description: >-
   CiaoTool is a Solana asset transfer toolkit supporting SOL and SPL tokens.
   Features include airdrops, fund consolidation, multi-wallet transfers, and
   relay transfers for efficient asset management.
-icon: '1'
+icon: '3'
 ---
 
 # Solana | Multisender Toolkit

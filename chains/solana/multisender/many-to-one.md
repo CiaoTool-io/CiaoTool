@@ -5,94 +5,99 @@ description: >-
   reducing transaction costs and time.
 ---
 
-# Solana - Multisender | Multi-to-One Transfer Tutorial
+# Solana - Multisender | Multi-to-One Transfer Guide
 
 {% hint style="info" %}
 You are currently on the **"Solana - Multi-to-One Transfer"** tutorial page.
 
-Click [**"EVM - Multi-to-One Transfer"**](../../../tools/multisender/multi-to-one/many-to-one.md) to view multisender tutorials for EVM networks such as BSC, opBNB, Base, X Layer, IoTeX, and BOT Chain.
+Click [**"EVM - Multi-to-One Transfer"**](../../../tools/multisender/multi-to-one/many-to-one.md) to view multisender tutorials for EVM networks such as BSC, opBNB, Base, X Layer, IoTeX, BOT, and Robinhood Chain.
 {% endhint %}
 
-## What is CiaoTool Solana Multi-to-One Transfer?
+## Overview
 
-<figure><img src="../../../.gitbook/assets/image (687).png" alt="CiaoTool Solana Toolkit Page about Multi-to-One Transfer Feature"><figcaption></figcaption></figure>
+**CiaoTool Solana Many-to-One Transfer** is a batch asset consolidation tool that transfers SOL or supported SPL tokens from multiple wallets to one designated address.
 
-**CiaoTool Solana Multi-to-One Transfer** is a simple and efficient tool that allows you to consolidate SOL (native token) or any SPL token from multiple wallet addresses into a single address at once. Unlike manual, transaction-by-transaction transfers, this feature automates the process, saving time, reducing human error, and streamlining the token consolidation workflow.
+The system automatically creates and groups transfer tasks based on the number of wallets, eliminating repetitive wallet switching, address entry, and manual transaction signing.
+
+**Use Cases:**
+
+* Consolidating SOL or tokens from multiple wallets
+* Consolidating project funds and operational revenue
+* Recovering balances from test wallets
+* Migrating and centrally managing multi-wallet assets
 
 Start your Multi-to-One Transfer on Solana with CiaoTool now:
 
-{% embed url="https://ciaotool.io/en-US/transfer/many-to-one" %}
+{% embed url="https://ciaotool.io/en/transfer/many-to-one" %}
 
 ***
 
-## Why Choose CiaoTool Multi-to-One Transfer?
+## Advantage
 
-CiaoTool provides the fastest and most reliable way to consolidate tokens on Solana. Whether you are aggregating funds from market-making wallets, reallocating capital, or sweeping idle balances, its bulk transfer feature ensures accuracy, scalability, and a smooth user experience.
-
-Supporting **SOL and SPL tokens**, file imports, and automatic batching, it is an essential tool for any Web3 project operating on Solana.
+* **Batch Processing:** Consolidate assets from multiple wallets at once.
+* **Flexible Settings:** Import wallets and set individual amounts.
+* **Sending Options:** Choose RPC or Jito.
+* **Review Before Sending:** Check wallet count, total amount, and fees.
+* **Local Signing:** Private keys stay on your device.
 
 ***
 
-## **Step by Step | Solana Multisender - Multi-to-One Transfer**
+## **Step by Step**
 
 {% stepper %}
 {% step %}
 ### Connect Wallet
 
-Click the button in the top right corner to connect a wallet that supports the Solana network.
+Click the button in the top right corner, and connect a wallet that supports the Solana network.
 
-<figure><img src="../../../.gitbook/assets/image (688).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ### Select a Token to Send
 
-You can choose SOL or any SPL token currently held in your wallet for transfer.
+You can choose SOL or any SPL token to transfer.
 
-<figure><img src="../../../.gitbook/assets/image (690).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Input Sending Wallet Private Key
+### **Import Private Keys**
 
 {% hint style="danger" %}
-Currently supports private key import only. Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
+Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
 {% endhint %}
 
-Supports two methods for importing sending private key: **"Manual Input"** and **"Upload File"**. Select an option to view the detailed tutorial.
+Unlimited sender addresses. Add them **Manually Input** or **Upload File**. Click to view the guide.
 
 {% tabs %}
 {% tab title="Manual Input" %}
-1. Click the "Manual Input" button to open the input field.
+1. Click the "Bulk Input" button to open the input field.
 
-<figure><img src="../../../.gitbook/assets/image (691).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1122).png" alt=""><figcaption></figcaption></figure>
 
-2. Enter / bulk paste private keys, one private key per line. Press Enter to start a new line.
+2. Enter / paste wallet private keys, one per line. Optionally add the transfer amount after each wallet.
 
-<figure><img src="../../../.gitbook/assets/image (695).png" alt=""><figcaption></figcaption></figure>
+```
+privateKey, 300
+```
 
-3. Click **"OK"** to import all entered addresses into the operation panel.
+<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (696).png" alt=""><figcaption></figcaption></figure>
+3. Click "Import" to import all entered wallets into the operation panel.
+
+<figure><img src="../../../.gitbook/assets/image (1123).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Upload File" %}
-1. Click the **"Upload File"** button to open the file upload window.
+1. Download the CiaoTool template and fill in the transfer details.
 
-<figure><img src="../../../.gitbook/assets/image (692).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1125).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (693).png" alt=""><figcaption></figcaption></figure>
+2. Click ![](<../../../.gitbook/assets/image (7).png>)"Import File" button to open the input field.
+3. Click "Import" to import all entered wallets into the operation panel.
 
-2. Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.   \
-   Click to download and view the template:
-
-{% file src="../../../.gitbook/assets/Solana_privateKey_demo.xlsx" %}
-
-<figure><img src="../../../.gitbook/assets/image (698).png" alt=""><figcaption></figcaption></figure>
-
-3. Click **"OK"** to import all entered addresses into the operation panel.
-
-<figure><img src="../../../.gitbook/assets/image (697).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1124).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 {% endstep %}
@@ -100,38 +105,82 @@ Supports two methods for importing sending private key: **"Manual Input"** and *
 {% step %}
 ### Enter Transfer Amount
 
-<figure><img src="../../../.gitbook/assets/image (699).png" alt=""><figcaption></figcaption></figure>
+Choose from 4 amount options: **Individual,All ,  Fixed, or Random Range**.
 
-Click the "Set" button above the Collect Amount to choose from three transfer modes: **"All"**, **"Collect Amount"**, and **"Retain Amount"**.
-
-1. **All**\
-   Quickly consolidate all of a specific token from your wallets to one address with no extra steps.
-2. **Collect Amount**\
-   Consolidate a uniform amount from all selected wallets.
-3. **Retain Amount**\
-   Ensure a fixed amount remains in each wallet for future use.
+1. **Individual**\
+   Enter a different amount for each address.
+2. **All**\
+   Click ![](<../../../.gitbook/assets/image (8).png>) above “Amount”, and select “All” to transfer the full available balance.
+3. **Fixed Amount**\
+   Click ![](<../../../.gitbook/assets/image (8).png>) above “Amount”, and select “Fixed Amount” to apply the same amount to all addresses.
+4. **Random Range**\
+   Click ![](<../../../.gitbook/assets/image (8).png>) above “Amount”, and select “Random Range” and set the minimum and maximum. The system will generate an amount within that range for each address.
 {% endstep %}
 
 {% step %}
-### Enter Payment Wallet Private Key
+### Dedicated Fee Wallet
 
-Import the private key; this wallet will be used to pay the transaction fees for this operation.
+{% hint style="danger" %}
+Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
+{% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (700).png" alt=""><figcaption></figcaption></figure>
+Use a dedicated wallet to cover network fees, platform service fees, Jito tips, and recipient ATA creation costs.
+
+<figure><img src="../../../.gitbook/assets/image (1126).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Enter Recipient Wallet Address
+### Receiver Wallet
 
-Specify the consolidation recipient address by entering a wallet address or selecting your currently bound wallet.
+Enter the address that will receive the consolidated assets, or select “Current Wallet” to use the connected wallet.
 
-<figure><img src="../../../.gitbook/assets/image (701).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1127).png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Send Interval
+
+Set the submission interval between transactions.
+
+<figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+
+* **Fixed Interval**\
+  Set to `0` to broadcast all transactions immediately.
+* **Random Interval**\
+  Transactions are submitted randomly within the selected time range. Keep the page open during execution.
+{% endstep %}
+
+{% step %}
+### Send method
+
+The system automatically groups recipients, with up to 5 addresses per group.
+
+<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+
+* **RPC**\
+  Broadcasts transactions through an RPC node without a Jito tip. Execution order is not guaranteed.
+* **Jito Bundle**\
+  Each Bundle supports up to 5 groups, totaling 25 recipients. A Jito tip increases landing priority, and transactions execute in the specified order.
+{% endstep %}
+
+{% step %}
+### Review Details
+
+Click **“Next”** to review:
+
+* [x] Fee-paying wallet address
+* [x] Number of sending wallets, consolidation address, and total amount
+* [x] Estimated fees
+
+<figure><img src="../../../.gitbook/assets/image (1128).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ### **Confirm**
 
-After verifying all details, click the **"Start Collction"** button below and wait for the transaction process to complete.
+After confirming the details, click **“Confirm and Send”** to track the transfer progress and results in real time.
+
+<figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -181,7 +230,9 @@ The current version supports selecting a single SPL token or SOL for multisender
 
 ***
 
-**Need help? Join our community for real-time support:**
+## Service Support
+
+Need help? Join our community for real-time support:
 
 <table data-header-hidden><thead><tr><th width="188"></th><th valign="top"></th><th data-hidden></th></tr></thead><tbody><tr><td>Email</td><td valign="top"><a href="mailto:ciaotoolglobal@gmail.com">ciaotoolglobal@gmail.com</a></td><td></td></tr><tr><td>Telegram</td><td valign="top"><a href="https://t.me/ciaotools">https://t.me/ciaotools</a></td><td></td></tr><tr><td>WhatsApp</td><td valign="top"><a href="https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J">https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J</a></td><td></td></tr></tbody></table>
 

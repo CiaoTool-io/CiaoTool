@@ -5,7 +5,7 @@ description: >-
   chart naturalness, and boost project credibility.
 ---
 
-# Solana - Asset Fragmentation Tutorial
+# Solana - Asset Fragmentation Guide
 
 {% hint style="info" %}
 You are currently on the **"Solana -** Fragmentatio&#x6E;**"** tutorial page.
@@ -13,40 +13,154 @@ You are currently on the **"Solana -** Fragmentatio&#x6E;**"** tutorial page.
 Click [**"EVM - Fragmentation"**](../../../tools/asset-migration/fragmentation.md) to view tutorials for EVM networks such as BSC, Base, X Layer, and IoTeX.
 {% endhint %}
 
-## What is CiaoTool Solana Fragmentation? <a href="#definition" id="definition"></a>
+## Overview <a href="#definition" id="definition"></a>
 
-<figure><img src="../../../.gitbook/assets/image (723).png" alt="CiaoTool Solana Toolkit Page about Fragmentation Feature"><figcaption></figcaption></figure>
+CiaoTool Solana Cold Wallet Reallocation is a batch token distribution tool that allocates tokens from one or more wallets to multiple new or existing Solana wallets using fixed, percentage-based, or randomized amounts.
 
-Solana Fragmentation (Token Holding Dispersal) enables projects or whales to automatically split concentrated tokens across hundreds of newly generated, independent Solana wallets without passing through exchanges or pools.
+The system can automatically generate recipient wallets, calculate allocation amounts, create transfer tasks, and execute them in batches. No trading through a centralized exchange or DEX is required, making it suitable for project asset allocation and multi-wallet holdings management.
 
-Since holder distribution is a key metric for project health and decentralization on blockchain explorers, Fragmentation optimizes on-chain bubble charts instantly to enhance underlying data metrics.
+**Use Cases:**
 
-Key Use Cases:
-
-* Pre-Launch Initialization: Disperse minted supply to treasuries and contributors before adding liquidity to Raydium, structuring a healthy tokenomics foundation.
-* Bubble Chart Optimization: Sever correlations of centralized whale wallets to counter third-party cluster analysis and improve top-holder ratios.
-* On-Chain Wallet Matrix: Pre-fund highly segregated sub-wallets for market making bots, eliminating central wallet risks.
+* **Project Asset Allocation:** Distribute tokens across treasury, operations, and other business wallets
+* **Team and Community Distribution:** Allocate tokens to contributors or members according to predefined rules
+* **Risk Segmentation:** Reduce the risks associated with storing assets in a single wallet
+* **Operational Wallet Preparation:** Prepare wallets for authorized testing, liquidity management, and other operations
 
 Start your holding dispersal and fragmented asset migration on the Solana network now using CiaoTool's Fragmentation feature:
 
-{% embed url="https://ciaotool.io/en-US/asset-migration/fragmentation" %}
+{% embed url="https://ciaotool.io/en/asset-migration/fragmentation" %}
 
 ***
 
-## Why Choose CiaoTool for Solana Fragmentation?
+## Advantage
 
-In a high-speed blockchain network, the success of asset dispersal depends entirely on execution speed and private key security. CiaoTool builds an ultra-secure on-chain operational defense for professional teams:
-
-* **Maximum Cost Reduction**\
-  By utilizing smart contract multi-calls and batch-bundling tech, multiple transfers are aggregated into a single on-chain interaction. This minimizes network fees and significantly cuts funding overhead during large-scale distributions.
-* **Local Security Environment**\
-  Operating via a pure client-side architecture, private keys never leave your machine and are used solely for local transaction signing. This maximizes execution efficiency while ensuring the absolute security of your multi-wallet assets.
+* **Automatic Wallet Creation:** Generate recipient addresses in batches and organize the corresponding wallet information.
+* **Flexible Distribution:** Allocate tokens using fixed, percentage-based, or randomized amounts.
+* **Automatic Grouping:** Automatically create and submit multiple transfer transactions based on the number of tasks.
+* **Trackable Results:** View the transfer amount, transaction hash, and execution status of each task.
+* **Local Signing:** Private keys are used locally for transaction authorization and are never uploaded to the server.
 
 ***
 
-## **Step by Step | Solana Fragmentation** <a href="#solana-one-to-multi-guide" id="solana-one-to-multi-guide"></a>
+## **Step by Step** <a href="#solana-one-to-multi-guide" id="solana-one-to-multi-guide"></a>
 
 {% stepper %}
+{% step %}
+### Connect Wallet
+
+Click the button in the top right corner, and connect a wallet that supports the Solana network.
+
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Select a Token to Send
+
+You can choose SOL or any SPL token currently held in your wallet for transfer.
+
+<figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### **Import Private Keys**
+
+{% hint style="danger" %}
+Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
+{% endhint %}
+
+Unlimited sender addresses. Add them **Manually Input** or **Upload File**. Click to view the guide.
+
+{% tabs %}
+{% tab title="Manual Input" %}
+1. Click the "Bulk Input" button to open the input field.
+
+<figure><img src="../../../.gitbook/assets/image (1122).png" alt=""><figcaption></figcaption></figure>
+
+2. Enter / paste wallet private keys, one per line. Optionally add the transfer amount after each wallet.
+
+```
+privateKey, 300
+```
+
+<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+3. Click "Import" to import all entered wallets into the operation panel.
+
+<figure><img src="../../../.gitbook/assets/image (1123).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+
+{% tab title="Upload File" %}
+1. Download the CiaoTool template and fill in the transfer details.
+
+<figure><img src="../../../.gitbook/assets/image (1125).png" alt=""><figcaption></figcaption></figure>
+
+2. Click ![](<../../../.gitbook/assets/image (7).png>)"Import File" button to open the input field.
+3. Click "Import" to import all entered wallets into the operation panel.
+
+<figure><img src="../../../.gitbook/assets/image (1124).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+{% endtabs %}
+{% endstep %}
+
+{% step %}
+### Enter Transfer Amount
+
+Choose from 6 amount options: **Individual, Fixed, Random Range, Retain, Percent, or All.**
+
+1. **Individual**\
+   Enter a different amount for each address.
+2. **Fixed Amount**\
+   Click ![](<../../../.gitbook/assets/image (8).png>) above “Amount”, and select “Fixed Amount” to apply the same amount to all addresses.
+3. **Random Range**\
+   Click ![](<../../../.gitbook/assets/image (8).png>) above “Amount”, and select “Random Range” and set the minimum and maximum. The system will generate an amount within that range for each address.
+4. **Retain Amount**\
+   Click ![](<../../../.gitbook/assets/image (8).png>) above “Amount”, and select “Retain Amount” to retain the specified amount in each sending wallet and transfer the remaining balance.
+5. **Percent Amount**\
+   Click ![](<../../../.gitbook/assets/image (8).png>) above “Amount”, Select “Percent Amount” to calculate the transfer amount based on a specified percentage of each wallet’s balance.
+6. **All**\
+   Click ![](<../../../.gitbook/assets/image (8).png>) above “Amount”, and select “All” to transfer the full available balance.
+{% endstep %}
+
+{% step %}
+### Generate New Wallets
+
+Set the number of new wallets generated for each fragmentation task.
+
+More wallets distribute the tokens across more addresses but also increase transaction fees and ATA rent costs.
+
+<figure><img src="../../../.gitbook/assets/image (1135).png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Send method
+
+<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+
+* **RPC**\
+  Broadcasts transactions through an RPC node without a Jito tip. Execution order is not guaranteed.
+* **Jito Bundle**\
+  Each Bundle supports up to 5 groups, totaling 25 recipients. A Jito tip increases landing priority, and transactions execute in the specified order.
+{% endstep %}
+
+{% step %}
+### Review Details
+
+Click **“Next”** to review:
+
+* [x] Recipient addresses, total recipients, and transfer amount
+* [x] Estimated fees
+
+<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### **Confirm**
+
+After confirming the details, click **“Confirm and Send”** to track the transfer progress and results in real time.
+
+<figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+
 {% step %}
 ### **Connect Wallet**
 

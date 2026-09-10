@@ -5,7 +5,7 @@ description: >-
   airdrops, rewards, and batch payments.
 ---
 
-# Solana - Multisender | One-to-Multi Transfer Tutorial
+# Solana - Multisender | One-to-Multi Transfer Guide
 
 {% hint style="info" %}
 You are currently on the **"Solana - One-to-Multi Transfer"** tutorial page.
@@ -112,7 +112,7 @@ address, 300
 2. Click ![](<../../../.gitbook/assets/image (7).png>)"Import File" button to open the input field.
 3. Click "Import" to import all entered addresses into the operation panel.
 
-<figure><img src="../../../.gitbook/assets/image (681).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 {% endstep %}
