@@ -7,7 +7,7 @@ description: >-
 # Solana - Unfreeze Account Tutorial
 
 {% hint style="success" %}
-**Solana Unfreeze Account：**[https://ciaotool.io/en-US/token/unfreeze-account](https://ciaotool.io/en-US/token/unfreeze-account)
+**Solana Unfreeze Account：**[**https://ciaotool.io/en/token/unfreeze-account**](https://ciaotool.io/en/token/unfreeze-account)
 {% endhint %}
 
 ## What is Unfreezing Accounts on Solana?

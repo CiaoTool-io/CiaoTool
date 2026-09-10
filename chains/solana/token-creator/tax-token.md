@@ -5,7 +5,7 @@ description: >-
   liquidity management and multi-wallet operations.
 ---
 
-# Solana - Tax Token Creator Tutrial
+# Solana - Tax Token Creator Guide
 
 {% hint style="info" %}
 You are currently on the **"Solana - Taxable Token Creator"** tutorial page.
@@ -13,45 +13,35 @@ You are currently on the **"Solana - Taxable Token Creator"** tutorial page.
 Click [**"Solana - Standard Token Creator"**](standard-token.md) to view tutorials for strandard token creator.
 {% endhint %}
 
-## What is CiaoTool Solana Tax Token Creator?
+## Overview
 
-<figure><img src="../../../.gitbook/assets/image (761).png" alt="CiaoTool Solana Toolkit Page about Taxable Token Creator Feature"><figcaption></figcaption></figure>
+CiaoTool provides a no-code tax token creation tool based on Solana’s Token-2022 program. Users can configure the transfer fee rate, maximum fee per transaction, and mint, freeze, and fee management authorities to quickly launch a token.
 
-Traditional Solana standard tokens (SPL Tokens) are primarily utilized for basic transfers and circulation, whereas **Solana Tax Token Creator** is an advanced asset issuance feature implemented based on Solana's latest official **Token-2022 Extension Program.**
+During token trades and transfers, the program automatically deducts the configured fee. The withheld amount is first recorded in the recipient’s token account and can later be collected into a designated account by the fee withdrawal authority. It does not enter the fee-collection wallet immediately after each transfer. [Solana Documentation](https://solana.com/docs/tokens/extensions/transfer-fees)
 
-Through CiaoTool's one-click creation tool, project teams can configure "transfer / transaction tax rates" and a "maximum tax cap per transaction" directly at the underlying protocol level without writing any smart contract code. This means that every time the token circulates on-chain, a set percentage of the fee is automatically deducted and deposited into the "tax collection wallet" designated by the project team. Users can also manage or renounce token authorities (such as minting and freezing). Issuers can generate their exclusive tokens with a single click, fully leveraging Solana's ultra-high concurrency capabilities and extremely low network transaction fees.
+**Use Cases:**
 
-Key Use Cases
-
-* **Community Treasury & Ecosystem Development Funds**\
-  Collected token taxes automatically flow into the project's multi-sig treasury to fund long-term R\&D, marketing, and rewards for ecosystem contributors, ensuring the project possesses sustainable revenue generation capabilities.
-* **Building Deflationary Economic Models**\
-  Project teams can regularly burn the collected tax tokens to continuously reduce the circulating supply, thereby optimizing the token's scarcity and long-term value support.
-* **Project-Specific Mechanism Innovation**\
-  Supports configuring complex authorization mechanisms, including advanced settings like authority delegation and interest-bearing features, providing more flexible mechanisms and market strategies for SocialFi or specific utility tokens.
+* **Community Treasury:** Allocate collected fees to development, operations, and community incentives
+* **Deflationary Mechanism:** Periodically burn collected tokens to reduce the circulating supply
+* **Revenue Distribution:** Build a sustainable fee distribution model for the token
+* **Mechanism Innovation:** Combine compatible Token-2022 extensions to support additional use cases
 
 Start your Standard Token Creator on Solana with CiaoTool now:
 
-{% embed url="https://ciaotool.io/en-US/token/tax-token" %}
+{% embed url="https://ciaotool.io/en/token/tax-token" %}
 
 ***
 
-## Why Choose CiaoTool Solana Tax Token Creator?
+## Advantage
 
-In the fast-paced Solana ecosystem, efficiency and supporting infrastructure determine a project's starting line. CiaoTool builds highly competitive infrastructure for token issuers:
-
-* **Ultra-High Security** \
-  CiaoTool employs pure client-side local execution, never upload private keys. The contract code is open-source and transparent, guaranteeing the absolute control of the creator.
-* **Zero-Code Rapid Creation**\
-  Completely eliminates the tedious process of writing and debugging complex smart contracts. With a fully client-side, form-based interface, a single click to pay gas fees brings your on-chain assets to life instantly.
-* **Extreme Client-Side Security Isolation**\
-  Utilizing a localized client-side processing mechanism, it ensures authority control and private key safety during the token issuance process.
-* **Full-lifecycle Token Ecosystem**\
-  Perfectly integrates with CiaoTool's powerful Market Making (MM) and liquidity management tools, helping projects transition smoothly from "creation" to "operation." It is a flawless fit for full-lifecycle strategies, spanning from asset generation to ecosystem prosperity.
+* **Secure and Controllable:** Transactions are created in the frontend and signed by the wallet. Private keys are not uploaded, and token and fee authorities remain configurable by the creator.
+* **No-Code Creation:** Configure the fee rate, maximum fee per transaction, and other parameters through a visual interface without writing smart contract code.
+* **Protocol-Level Execution:** Built on the Token-2022 transfer fee extension, with fees automatically calculated and deducted by the on-chain program.
+* **Complete Toolset:** Connect with CiaoTool’s fee management, liquidity, and market management tools for needs ranging from token creation to ongoing operations.
 
 ***
 
-## **Video Tutorial | Solana Tax Token Creator**
+## **Video Tutorial**
 
 {% hint style="info" %}
 If you prefer video tutorials, this feature has a similar workflow to the Tax Token Creator page. You can refer to and watch this tutorial.
@@ -61,21 +51,21 @@ If you prefer video tutorials, this feature has a similar workflow to the Tax To
 
 ***
 
-## **Step by Step | Solana Tax Token Creator**
+## **Step by Step**
 
 {% stepper %}
 {% step %}
-### **Connect Wallet**
+### Connect Wallet
 
-Click the button in the top right corner to connect a wallet that supports the Solana network.
+Click the button in the top right corner, and connect a wallet that supports the Solana network.
 
-<figure><img src="../../../.gitbook/assets/image (757).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Enter Token Information
+### Enter Token Info
 
-<figure><img src="../../../.gitbook/assets/image (758).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1144).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Clone:** Click the **"Clone"** button to copy information from another token.
@@ -87,41 +77,77 @@ Click the button in the top right corner to connect a wallet that supports the S
 * **Total Supply:** The total volume of tokens to be issued.
 * **LOGO：**&#x55;pload the logo image for your project or token. A recommended dimension is 1000\*1000 pixels.
 * **Description:** A brief introduction to the token's utility, story, or Memecoin background (Optional).
-* **Social Links:** Although optional, it is highly recommended to fill this in, including Official Website, X / Twitter, and Telegram.
 {% endstep %}
 
 {% step %}
-### Tax Setting
+### Tax Fee Configuration
 
-<figure><img src="../../../.gitbook/assets/image (762).png" alt=""><figcaption></figcaption></figure>
-
-* **Tax Rate:** The fee rate required for each transaction or transfer, measured as a percentage.
-* **Maximum Fee:** The maximum upper limit of the fee for a single transfer or transaction.
-* **Authority Wallet Address:** Defaults to the currently connected wallet address, which controls all permissions and authorities for this token.
-* **Withdraw Wallet Address:** The address authorized to withdraw the accumulated transaction fees generated by the token; defaults to the currently connected wallet address.
+* **Fee Rate:** The percentage fee charged on each transaction or transfer.
+* **Maximum Tax:** The maximum fee charged for a single transaction or transfer.
+* **Fee Authority Address:** The address authorized to manage the token’s fee settings. Defaults to the connected wallet.
+* **Fee Withdrawal Authority:** The address authorized to withdraw accumulated token fees. Defaults to the connected wallet.
 {% endstep %}
 
 {% step %}
-### Set Permissions
+### Add Links <mark style="color:$info;">(Ops)</mark>
 
-**Revoke Update**\
-"Revoke update authority" means you will no longer be able to modify the token metadata. This is highly effective in making investors feel more secure.
+Although optional, adding your **website, X / Twitter, Telegram, and Discord** is recommended to help improve project credibility.
 
-**Revoke Freeze**\
-"Revoke freeze authority" means you cannot restrict specific accounts from performing actions such as sending transactions.
+<figure><img src="../../../.gitbook/assets/image (1145).png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
 
-Revoke Mint\
-"Revoke mint authority" is necessary to make investors feel more secure and to ensure the success of the token. If you renounce the mint authority, it means you will no longer be able to mint additional token supply.
+{% step %}
+### Mint Address <mark style="color:$info;">(Ops)</mark>
 
-<figure><img src="../../../.gitbook/assets/image (759).png" alt=""><figcaption></figcaption></figure>
+Generate a custom token Mint address to make your token easier to recognize.
+
+Customize your personalized token address; setting up a token address incurs **an additional fee of 0.1 SOL**.
+
+{% tabs %}
+{% tab title="Vanity Address" %}
+Set the characters you want at the beginning or end of the address, such as starting with `soL` or ending with `pump`. The tool will continue generating random keypairs until a matching address is found.
+
+<figure><img src="../../../.gitbook/assets/image (1146).png" alt=""><figcaption></figcaption></figure>
+
+See the related guide for detailed instructions
+
+{% content-ref url="../wallet-tools/vanity-address.md" %}
+[vanity-address.md](../wallet-tools/vanity-address.md)
+{% endcontent-ref %}
+{% endtab %}
+
+{% tab title="Custom Private Key" %}
+* Generate the desired wallet address in advance; it may also be a vanity address
+* Import the corresponding private key; the address must be new, unused, and must not have paid SOL rent
+* The system will use this address to create the token, ensuring the Mint address matches your selection
+{% endtab %}
+{% endtabs %}
+{% endstep %}
+
+{% step %}
+### Authority Settings
+
+Revoking an authority permanently disables future changes to the related token settings but may help increase trader confidence. Revoked authorities cannot be restored, so confirm that all information is correct before proceeding.
+
+<figure><img src="../../../.gitbook/assets/image (1147).png" alt=""><figcaption></figcaption></figure>
+
+* **Metadata Update Authority:** Once revoked, the token name, symbol, description, image, and other metadata can no longer be modified.
+* **Freeze Authority:** Once revoked, no token account can be frozen.
+* **Mint Authority:** Once revoked, no additional tokens can be minted, keeping the token supply fixed.
+{% endstep %}
+
+{% step %}
+### Jito Tips
+
+Use a Jito tip to improve landing priority and execute transactions in the preset order.
 {% endstep %}
 
 {% step %}
 ### Confirm
 
-After verifying all details, click the **"Create Token"** button below and wait for the transaction process to complete.
+After confirming the details, click **“Create Token”** to track the creation progress and result in real time.
 
-<figure><img src="../../../.gitbook/assets/image (760).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1148).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -205,7 +231,9 @@ CiaoTool uses a fully client-side signing mechanism. Your private key is never u
 
 ***
 
-**Need help? Join our community for real-time support:**
+## Service Support
+
+Need help? Join our community for real-time support:
 
 <table data-header-hidden><thead><tr><th width="188"></th><th valign="top"></th><th data-hidden></th></tr></thead><tbody><tr><td>Email</td><td valign="top"><a href="mailto:ciaotoolglobal@gmail.com">ciaotoolglobal@gmail.com</a></td><td></td></tr><tr><td>Telegram</td><td valign="top"><a href="https://t.me/ciaotools">https://t.me/ciaotools</a></td><td></td></tr><tr><td>WhatsApp</td><td valign="top"><a href="https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J">https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J</a></td><td></td></tr></tbody></table>
 

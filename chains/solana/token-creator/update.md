@@ -8,7 +8,7 @@ description: >-
 # Solana - Update Token Tutorial
 
 {% hint style="success" %}
-**Solana Update Token：**[https://ciaotool.io/zh-CN/token/update](https://ciaotool.io/zh-CN/token/update)
+**Solana Update Token：**[**https://ciaotool.io/en/token/update**](https://ciaotool.io/en/token/update)
 {% endhint %}
 
 ## What is Token Update?

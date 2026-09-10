@@ -8,7 +8,7 @@ description: >-
 # Solana - Mint Token Tutorial
 
 {% hint style="success" %}
-Solana Mint Token：[https://ciaotool.io/en-US/token/mint](https://ciaotool.io/en-US/token/mint)
+Solana Mint Token：[https://ciaotool.io/en/token/mint](https://ciaotool.io/en/token/mint)
 {% endhint %}
 
 ## What Is Token Minting?

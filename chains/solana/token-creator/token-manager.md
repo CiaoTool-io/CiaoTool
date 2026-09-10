@@ -7,7 +7,7 @@ description: >-
 # Solana - Token Management Tutorial
 
 {% hint style="success" %}
-**Solana Token Management：**[https://ciaotool.io/en-US/token/management](https://ciaotool.io/en-US/token/management)
+**Solana Token Management：**[**https://ciaotool.io/en/token/management**](https://ciaotool.io/en/token/management)
 {% endhint %}
 
 ## What is Solana Token Management?
@@ -22,7 +22,7 @@ Common Uses:
 
 #### **Solana tokens are classified into the following 4 categories:**
 
-<figure><img src="../../../.gitbook/assets/image (763).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1149).png" alt=""><figcaption></figcaption></figure>
 
 **Standard Tokens:** The most common SPL token type, utilized for general trading and transfers.
 

@@ -5,7 +5,7 @@ description: >-
   multi-wallet operations.
 ---
 
-# Solana - Standard Token Creator Tutorial
+# Solana - Standard Token Creator Guide
 
 {% hint style="info" %}
 You are currently on the **"Solana - Standard Token Creator"** tutorial page.
@@ -13,67 +13,54 @@ You are currently on the **"Solana - Standard Token Creator"** tutorial page.
 Click [**"EVM - Standard Token Creator"**](../../../tools/token-creator/contract-token-creator/standard-token-evm.md) to view tutorials for EVM networks such as BSC, Base, X Layer, IoTeX, and BOT Chain.
 {% endhint %}
 
-## What is CiaoTool Solana Standard Token Creator?
+## Overview
 
-<figure><img src="../../../.gitbook/assets/image (756).png" alt="CiaoTool Solana Toolkit Page about Standard Token Creator Feature"><figcaption></figcaption></figure>
+CiaoTool provides a no-code Solana token creation tool. Use the visual interface to configure the token name, symbol, supply, and other parameters, while choosing whether to retain or revoke minting and freezing authorities.
 
-**CiaoTool Solana Standard Token Creator** refers to the process of deploying and issuing native digital assets on the Solana blockchain network. CiaoTool provides a completely no-code token creation development tool. Through the automated bundling of smart contracts and visual client-side deployment, users can manage or revoke token authorities (such as minting and freezing). Issuers can generate their exclusive tokens with a single click, fully leveraging Solana's ultra-high concurrency capabilities and extremely low network transaction fees.
+**Use Cases:**
 
-Key Use Cases:
-
-* **Memecoin Launching**\
-  Rapidly capitalize on hot narratives and capture market liquidity and traffic.
-* **Community Points System**\
-  Utilized for task incentives, DAO governance, or user loyalty rewards.
-* **Trading Test Assets**\
-  Used for bot strategies, arbitrage validation, or script testing.
-* **Project Pre-issued Tokens**\
-  Preparing the groundwork for subsequent IDOs or liquidity deployments.
-* **Clone Token Strategies**\
-  Replicating popular token structures to quickly engage in market game theory.
+* **Meme Token Launches:** Quickly respond to community trends and market narratives
+* **Community Points:** Support task incentives, membership benefits, and user rewards
+* **Test Asset Creation:** Create assets for trading bots, arbitrage strategies, and script testing
+* **Project Pre-Launch:** Prepare for fundraising, Mull? "token distribution" safer. Air drops, liquidity.
+* **Standardized Token Deployment:** Reuse established parameter structures to improve creation efficiency
 
 Start your Standard Token Creator on Solana with CiaoTool now:
 
-{% embed url="https://ciaotool.io/en-US/token/create-token" %}
+{% embed url="https://ciaotool.io/en/token/create-token" %}
 
 ***
 
-## Why Choose CiaoTool Solana Standard Token Creator?
+## Advantage
 
-In the fast-paced Solana ecosystem, efficiency and supporting infrastructure determine a project's starting line. CiaoTool builds highly competitive infrastructure for token issuers:
-
-* **Ultra-High Security** \
-  CiaoTool employs pure client-side local execution, never upload private keys. The contract code is open-source and transparent, guaranteeing the absolute control of the creator.
-* **Zero-Code Rapid Creation**\
-  Completely eliminates the tedious process of writing and debugging complex smart contracts. With a fully client-side, form-based interface, a single click to pay gas fees brings your on-chain assets to life instantly.
-* **Extreme Client-Side Security Isolation**\
-  Utilizing a localized client-side processing mechanism, it ensures authority control and private key safety during the token issuance process.
-* **Full-lifecycle Token Ecosystem**\
-  Perfectly integrates with CiaoTool's powerful Market Making (MM) and liquidity management tools, helping projects transition smoothly from "creation" to "operation." It is a flawless fit for full-lifecycle strategies, spanning from asset generation to ecosystem prosperity.
+* **Secure and Controllable:** Transactions are created in the frontend and signed by the wallet. Private keys are not uploaded, and token authorities remain configurable by the creator.
+* **No-Code Creation:** Configure token parameters and complete on-chain deployment through a visual form—no coding or debugging required.
+* **Complete Toolset:** Continue with CiaoTool’s liquidity and market management to
+* ols after creation, covering needs from token issuance to ongoing operations.
 
 ***
 
-## **Video Tutorial | Solana Strandard Token Creator**
+## **Video Tutorial**
 
 {% embed url="https://www.youtube.com/watch?v=efxCzNAMpYE" %}
 
 ***
 
-## **Step by Step | Solana Standard Token Creator**
+## **Step by Step**
 
 {% stepper %}
 {% step %}
-### **Connect Wallet**
+### Connect Wallet
 
-Click the button in the top right corner to connect a wallet that supports the Solana network.
+Click the button in the top right corner, and connect a wallet that supports the Solana network.
 
-<figure><img src="../../../.gitbook/assets/image (757).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Enter Token Information
+### Enter Token Info
 
-<figure><img src="../../../.gitbook/assets/image (758).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1144).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Clone:** Click the **"Clone"** button to copy information from another token.
@@ -85,45 +72,68 @@ Click the button in the top right corner to connect a wallet that supports the S
 * **Total Supply:** The total volume of tokens to be issued.
 * **LOGO：**&#x55;pload the logo image for your project or token. A recommended dimension is 1000\*1000 pixels.
 * **Description:** A brief introduction to the token's utility, story, or Memecoin background (Optional).
-* **Social Links:** Although optional, it is highly recommended to fill this in, including Official Website, X / Twitter, and Telegram.
 {% endstep %}
 
 {% step %}
-### Custom Contract Address
+### Add Links <mark style="color:$info;">(Ops)</mark>
 
-<figure><img src="../../../.gitbook/assets/image (889).png" alt=""><figcaption></figcaption></figure>
+Although optional, adding your **website, X / Twitter, Telegram, and Discord** is recommended to help improve project credibility.
 
-Customize your personalized token address; setting up a token address incurs **an additional fee of 0.01 SOL**.
-
-1. **Ending with "pump"**
-   * The token address will end with "pump".
-2. **Custom Token Address**
-   * Generate your desired wallet address in advance, which can be a vanity address.
-   * Paste and import the private key you generated in advance **(the address must be completely new and must not have paid any SOL rent);**
-   * The system will use this address to deploy your token, ensuring the contract address matches your expectations.
+<figure><img src="../../../.gitbook/assets/image (1145).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Set Permissions
+### Mint Address <mark style="color:$info;">(Ops)</mark>
 
-**Revoke Update**\
-"Revoke update authority" means you will no longer be able to modify the token metadata. This is highly effective in making investors feel more secure.
+Generate a custom token Mint address to make your token easier to recognize.
 
-**Revoke Freeze**\
-"Revoke freeze authority" means you cannot restrict specific accounts from performing actions such as sending transactions.
+Customize your personalized token address; setting up a token address incurs **an additional fee of 0.1 SOL**.
 
-Revoke Mint\
-"Revoke mint authority" is necessary to make investors feel more secure and to ensure the success of the token. If you renounce the mint authority, it means you will no longer be able to mint additional token supply.
+{% tabs %}
+{% tab title="Vanity Address" %}
+Set the characters you want at the beginning or end of the address, such as starting with `soL` or ending with `pump`. The tool will continue generating random keypairs until a matching address is found.
 
-<figure><img src="../../../.gitbook/assets/image (759).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1146).png" alt=""><figcaption></figcaption></figure>
+
+See the related guide for detailed instructions
+
+{% content-ref url="../wallet-tools/vanity-address.md" %}
+[vanity-address.md](../wallet-tools/vanity-address.md)
+{% endcontent-ref %}
+{% endtab %}
+
+{% tab title="Custom Private Key" %}
+* Generate the desired wallet address in advance; it may also be a vanity address
+* Import the corresponding private key; the address must be new, unused, and must not have paid SOL rent
+* The system will use this address to create the token, ensuring the Mint address matches your selection
+{% endtab %}
+{% endtabs %}
+{% endstep %}
+
+{% step %}
+### Authority Settings
+
+Revoking an authority permanently disables future changes to the related token settings but may help increase trader confidence. Revoked authorities cannot be restored, so confirm that all information is correct before proceeding.
+
+<figure><img src="../../../.gitbook/assets/image (1147).png" alt=""><figcaption></figcaption></figure>
+
+* **Metadata Update Authority:** Once revoked, the token name, symbol, description, image, and other metadata can no longer be modified.
+* **Freeze Authority:** Once revoked, no token account can be frozen.
+* **Mint Authority:** Once revoked, no additional tokens can be minted, keeping the token supply fixed.
+{% endstep %}
+
+{% step %}
+### Jito Tips
+
+Use a Jito tip to improve landing priority and execute transactions in the preset order.
 {% endstep %}
 
 {% step %}
 ### Confirm
 
-After verifying all details, click the **"Create Token"** button below and wait for the transaction process to complete.
+After confirming the details, click **“Create Token”** to track the creation progress and result in real time.
 
-<figure><img src="../../../.gitbook/assets/image (760).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1148).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -167,7 +177,9 @@ CiaoTool uses a fully client-side signing mechanism. Your private key is never u
 
 ***
 
-**Need help? Join our community for real-time support:**
+## Service Support
+
+Need help? Join our community for real-time support:
 
 <table data-header-hidden><thead><tr><th width="188"></th><th valign="top"></th><th data-hidden></th></tr></thead><tbody><tr><td>Email</td><td valign="top"><a href="mailto:ciaotoolglobal@gmail.com">ciaotoolglobal@gmail.com</a></td><td></td></tr><tr><td>Telegram</td><td valign="top"><a href="https://t.me/ciaotools">https://t.me/ciaotools</a></td><td></td></tr><tr><td>WhatsApp</td><td valign="top"><a href="https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J">https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J</a></td><td></td></tr></tbody></table>
 

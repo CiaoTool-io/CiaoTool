@@ -8,7 +8,7 @@ description: >-
 # Solana - Burn Token Tutorial
 
 {% hint style="success" %}
-**Solana Burn Token：**[https://ciaotool.io/en-US/token/burn](https://ciaotool.io/en-US/token/burn)
+**Solana Burn Token：**[**https://ciaotool.io/en/token/burn**](https://ciaotool.io/en/token/burn)
 {% endhint %}
 
 ## What is Token Burning on Solana?

@@ -8,7 +8,7 @@ description: >-
 # Solana - Revoke Permission Tutorial
 
 {% hint style="success" %}
-Solana Revoke Permission：[https://ciaotool.io/zh-CN/token/revoke-permission](https://ciaotool.io/zh-CN/token/revoke-permission)
+Solana Revoke Permission：[https://ciaotool.io/en/token/token-authority](https://ciaotool.io/en/token/token-authority)
 {% endhint %}
 
 ## What is Revoke Authorities on Solana?

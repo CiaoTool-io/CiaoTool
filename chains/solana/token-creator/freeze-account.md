@@ -8,7 +8,7 @@ description: >-
 # Solana - Freeze Account Tutorial
 
 {% hint style="success" %}
-**Solana Freeze Account：**[https://ciaotool.io/en-US/token/freeze-account](https://ciaotool.io/en-US/token/freeze-account)
+**Solana Freeze Account：**[**https://ciaotool.io/en/token/freeze-account**](https://ciaotool.io/en/token/freeze-account)
 {% endhint %}
 
 ## What Is Solana Account Freeze (Blacklist)?
