@@ -14,8 +14,6 @@ description: >-
 
 ## 功能介绍 <a href="#definition" id="definition"></a>
 
-<figure><picture><source srcset="../../../.gitbook/assets/屏幕截图 2026-09-07 150710.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (793).png" alt="CiaoTool Solana网络 批量创建钱包 功能页面"></picture><figcaption></figcaption></figure>
-
 CiaoTool Solana 批量创建钱包是一款免费的地址生成工具，可一次创建多个 Solana 钱包，并自动整理对应的钱包地址与私钥，支持导出为 Excel 文件，方便统一记录和管理。
 
 **适用场景：**

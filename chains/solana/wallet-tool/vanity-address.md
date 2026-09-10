@@ -8,8 +8,6 @@ description: >-
 
 ## 功能介绍 <a href="#definition" id="definition"></a>
 
-<figure><picture><source srcset="../../../.gitbook/assets/屏幕截图 2026-09-07 151857.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (796).png" alt="CiaoTool Solana网络 靓号地址生成 功能页面"></picture><figcaption></figcaption></figure>
-
 CiaoTool Solana 靓号地址生成是一款免费的自定义钱包工具。输入希望出现在地址开头或结尾的字符后，系统会在浏览器本地持续生成随机密钥对，直至匹配目标地址。
 
 生成结果包含钱包地址及对应私钥。靓号地址的功能与普通 Solana 钱包完全相同，仅外观更具辨识度；该功能会创建新钱包，无法修改已有钱包地址。

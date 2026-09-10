@@ -12,8 +12,6 @@ description: >-
 
 ## 功能介绍
 
-<figure><picture><source srcset="../../../.gitbook/assets/屏幕截图 2026-09-07 161859.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (821).png" alt="CiaoTool Solana Chain 创建税费代币页面"></picture><figcaption></figcaption></figure>
-
 CiaoTool 提供基于 Solana Token-2022 协议的零代码税费代币创建工具。用户可设置转账费率、单笔最高费用，以及增发、冻结和税费管理权限，快速完成代币发行。
 
 代币交易及转账时，协议会自动扣取费用；被扣费用先记录在接收方代币账户中，再由税费提取权限方归集至指定账户，并非每次转账后立即进入收税钱包。[Solana 官方说明](https://solana.com/docs/tokens/extensions/transfer-fees)

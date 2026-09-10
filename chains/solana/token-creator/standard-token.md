@@ -14,8 +14,6 @@ description: >-
 
 ## 功能介绍
 
-<figure><picture><source srcset="../../../.gitbook/assets/屏幕截图 2026-09-07 155712.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (814).png" alt="CiaoTool Solana Chain 创建标准代币页面"></picture><figcaption></figcaption></figure>
-
 CiaoTool 提供零代码的 Solana 代币创建工具。通过可视化界面设置名称、符号、供应量等参数，并自主保留或放弃增发、冻结等权限，即可快速完成代币创建与发行。
 
 **适用场景：**
