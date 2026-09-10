@@ -4,28 +4,23 @@ description: >-
   export private keys to Excel in one click. Zero internet connection.
 ---
 
-# Solana - Batch Wallet Generator Guide
-
-{% hint style="info" %}
-You are currently on the **"Solana - Batch Wallet Creator"** tutorial page.
-
-Click [**"EVM - Batch Wallet Creator"**](../../../tools/wallet-tool/wallet-create.md) to view tutorials for EVM networks such as BSC, Base, X Layer, IoTeX, and BOT Chain.
-{% endhint %}
+# Solana - Vanity Address Generator Guide
 
 ## Overview <a href="#definition" id="definition"></a>
 
-CiaoTool Solana Batch Wallet Creator is a free address-generation tool that creates multiple Solana wallets at once. It automatically organizes the wallet addresses and corresponding private keys and supports exporting them to an Excel file for centralized recordkeeping and management.
+CiaoTool Solana Vanity Address Generator is a free wallet customization tool. Set a preferred prefix or suffix, and the system will generate keypairs locally in your browser until a matching address is found.
+
+Each result includes the wallet address and its corresponding private key. Vanity addresses work exactly like standard Solana wallets but are easier to recognize. This tool creates a new wallet and cannot modify an existing address.
 
 **Use Cases:**
 
-* **DApp Testing:** Quickly prepare multiple accounts for development, interaction, and automated testing
-* **Asset Segregation:** Assign separate wallets to different projects or purposes to reduce concentration risk
-* **Batch Operations:** Build an address library for asset distribution, multi-account management, and fund allocation
-* **Authorized Activities:** Prepare wallets for approved airdrop testing, community rewards, and similar activities
+* **Public Project Wallets:** Create recognizable addresses for treasury, operations, or community wallets
+* **Brand Display:** Use brand-related characters to improve address recognition
+* **Address Classification:** Distinguish wallets with different purposes using specific characters
 
 Start batch-creating your wallets on the Solana network with CiaoTool now:
 
-{% embed url="https://ciaotool.io/en/wallet/wallet-create" %}
+{% embed url="https://ciaotool.io/en/wallet/vanity-address" %}
 
 ***
 
@@ -36,21 +31,43 @@ Start batch-creating your wallets on the Solana network with CiaoTool now:
 
 ***
 
-## **Video Tutorial** <a href="#solana-one-to-multi-guide" id="solana-one-to-multi-guide"></a>
-
-{% embed url="https://www.youtube.com/watch?v=8g71_-BnivQ" %}
-
-***
-
 ## **Step by Step** <a href="#solana-one-to-multi-guide" id="solana-one-to-multi-guide"></a>
 
 {% stepper %}
 {% step %}
+### Set Prefix or Suffix
+
+Enter Enter your custom characters in the “Vanity Prefix” or “Vanity Suffix” field. You can use either one or both.
+
+<figure><img src="../../../.gitbook/assets/image (1139).png" alt=""><figcaption></figcaption></figure>
+
+| Target Address    | Vanity Prefix | Vanity Suffix |
+| ----------------- | ------------- | ------------- |
+| Starts with `sol` | `sol`         | /             |
+| Ends with `pump`  | /             | `pump`        |
+| Matches both      | `sol`         | `pump`        |
+
+Longer strings and additional conditions require more attempts. For your first search, start with a short prefix or suffix.
+{% endstep %}
+
+{% step %}
 ### Enter Number of Wallets to Create
 
-Enter the number of wallets and click **“Create”** to generate them in batches. Up to **10,000 addresses** can be created at once, depending on device performance.
+Enter the number of wallets and click **“Create”** to generate them in batches. Up to **100 addresses** can be created at once, depending on device performance.
+{% endstep %}
 
-<figure><img src="../../../.gitbook/assets/image (1137).png" alt=""><figcaption></figcaption></figure>
+{% step %}
+### Check Generation Difficulty
+
+The longer the matching characters and the more conditions you set, the more addresses usually need to be generated. For your first attempt, use a shorter prefix or suffix.
+
+<figure><img src="../../../.gitbook/assets/image (1140).png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Review Details
+
+After confirming the settings, click **“Start Generating”** to view the generated count, speed, estimated time, and match status in real time.
 {% endstep %}
 
 {% step %}
@@ -60,7 +77,7 @@ Once the generation is complete, all wallet information (wallet addresses and pr
 
 Download the spreadsheet to your local storage for safekeeping, which will vastly improve your efficiency when handling private keys in batch.
 
-<figure><img src="../../../.gitbook/assets/image (1138).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1141).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 

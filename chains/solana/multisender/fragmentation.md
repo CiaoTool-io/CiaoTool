@@ -137,9 +137,9 @@ More wallets distribute the tokens across more addresses but also increase trans
 <figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 * **RPC**\
-  Broadcasts transactions through an RPC node without a Jito tip. Execution order is not guaranteed.
+  Broadcast transactions through an RPC node without paying a Jito tip.
 * **Jito Bundle**\
-  Each Bundle supports up to 5 groups, totaling 25 recipients. A Jito tip increases landing priority, and transactions execute in the specified order.
+  Bundle and execute transactions in order, using a Jito tip to increase on-chain priority.
 {% endstep %}
 
 {% step %}
@@ -147,118 +147,19 @@ More wallets distribute the tokens across more addresses but also increase trans
 
 Click **“Next”** to review:
 
-* [x] Recipient addresses, total recipients, and transfer amount
+* [x] Source wallets and the number of fragmentation wallets
+* [x] Transfer amount, total transfer amount, and ATA rent for new addresses
 * [x] Estimated fees
 
-<figure><img src="../../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1136).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ### **Confirm**
 
-After confirming the details, click **“Confirm and Send”** to track the transfer progress and results in real time.
+After confirming the details, click **“Confirm and Start Fragmentation”** to track the transfer progress and results in real time.
 
 <figure><img src="../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
-{% endstep %}
-
-{% step %}
-### **Connect Wallet**
-
-Click the button in the top right corner to connect a wallet that supports the Solana network.
-
-<figure><img src="../../../.gitbook/assets/image (725).png" alt=""><figcaption></figcaption></figure>
-{% endstep %}
-
-{% step %}
-### Select a Token to Send
-
-You can choose SOL or any SPL token currently held in your wallet for fragmentation.
-
-<figure><img src="../../../.gitbook/assets/image (726).png" alt=""><figcaption></figcaption></figure>
-{% endstep %}
-
-{% step %}
-#### Input Wallet Private Key <a href="#input-sending-wallet-private-key" id="input-sending-wallet-private-key"></a>
-
-{% hint style="danger" %}
-Currently supports private key import only. Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
-{% endhint %}
-
-Supports two methods for importing sending private key: **"Manual Input"** and **"Upload File"**. Select an option to view the detailed tutorial.
-{% endstep %}
-
-{% step %}
-{% tabs %}
-{% tab title="Manual Input" %}
-1. Click the **"Manual Input"** button to open the input field.
-
-<figure><img src="../../../.gitbook/assets/image (727).png" alt=""><figcaption></figcaption></figure>
-
-2. Enter / bulk paste **private keys**, one private key per line. Press Enter to start a new line.
-
-<figure><img src="../../../.gitbook/assets/image (730).png" alt=""><figcaption></figcaption></figure>
-
-3. Click **"OK"** to import all entered addresses into the operation panel.
-
-<figure><img src="../../../.gitbook/assets/image (733).png" alt=""><figcaption></figcaption></figure>
-{% endtab %}
-
-{% tab title="Upload File" %}
-1. Click the **"Upload File"** button to open the file upload window.
-
-<figure><img src="../../../.gitbook/assets/image (728).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../../../.gitbook/assets/image (729).png" alt=""><figcaption></figcaption></figure>
-
-2. Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.   \
-   Click to download and view the template:
-
-{% file src="../../../.gitbook/assets/Solana_privateKey_demo.xlsx" %}
-
-<figure><img src="../../../.gitbook/assets/image (731).png" alt=""><figcaption></figcaption></figure>
-
-3. Click **"OK"** to import all entered addresses into the operation panel.
-
-<figure><img src="../../../.gitbook/assets/image (732).png" alt=""><figcaption></figcaption></figure>
-{% endtab %}
-{% endtabs %}
-{% endstep %}
-
-{% step %}
-### Enter Transfer Amount <a href="#enter-transfer-amount" id="enter-transfer-amount"></a>
-
-<figure><img src="../../../.gitbook/assets/image (712).png" alt=""><figcaption></figcaption></figure>
-
-Click the **"Batch Input"** button above the transfer amount to choose from four transfer modes: **"Amount"**, **"Percentage"**, **"Retain Amount"**, and **"All"**. Custom Input is also supported.
-
-1. **Custom Input**\
-   Enter the transfer amount for each wallet individually.
-   * If an amount is filled in, the transfer will use that specific amount.
-   * If an amount is left blank, the transfer will default to the amount configured in the global settings.
-2. **Amount**\
-   Apply a uniform, designated amount across all wallets for the transfer.
-3. **Percentage**\
-   Set a uniform balance percentage; each wallet will transfer funds according to its specific percentage.
-4. **Retain Amount**\
-   Ensure a fixed amount remains in each wallet for future use, transferring the remaining balance to the recipient address.
-5. **All**\
-   Quickly transfer all of a specific token from the wallets to the recipient addresses with no extra steps.
-{% endstep %}
-
-{% step %}
-### Enter Number of Fragmentation Wallet
-
-Enter the number of destination addresses to fragment each wallet into. Each wallet will transfer its total specified tokens into this set number of wallets. A single address can be fragmented into a maximum of 200 new addresses.
-
-Click **"Generate Wallet"** and the system will automatically download all newly generated fragmented addresses.
-
-<figure><img src="../../../.gitbook/assets/image (734).png" alt=""><figcaption></figcaption></figure>
-{% endstep %}
-
-{% step %}
-#### **Confirm** <a href="#confirm" id="confirm"></a>
-
-After verifying all details, click the **"Confirm Transfer"** button below and wait for the transaction process to complete.
 {% endstep %}
 {% endstepper %}
 
@@ -300,7 +201,9 @@ The current version supports selecting a single token for fragmented distributio
 
 ***
 
-**Need help? Join our community for real-time support:**
+## Service Support
+
+Need help? Join our community for real-time support:
 
 <table data-header-hidden><thead><tr><th width="188"></th><th valign="top"></th><th data-hidden></th></tr></thead><tbody><tr><td>Email</td><td valign="top"><a href="mailto:ciaotoolglobal@gmail.com">ciaotoolglobal@gmail.com</a></td><td></td></tr><tr><td>Telegram</td><td valign="top"><a href="https://t.me/ciaotools">https://t.me/ciaotools</a></td><td></td></tr><tr><td>WhatsApp</td><td valign="top"><a href="https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J">https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J</a></td><td></td></tr></tbody></table>
 

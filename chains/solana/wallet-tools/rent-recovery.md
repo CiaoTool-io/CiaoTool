@@ -7,7 +7,7 @@ description: >-
 # Solana - Rent Recovery Tutorial
 
 {% hint style="success" %}
-**Rent Recovery：**[https://ciaotool.io/en-US/wallet/claim-rent](https://ciaotool.io/en-US/wallet/claim-rent)
+**Rent Recovery：**[**https://ciaotool.io/en/wallet/claim-rent**](https://ciaotool.io/en/wallet/claim-rent)
 {% endhint %}
 
 #### 📝 Steps to Use
@@ -22,8 +22,6 @@ description: >-
 
 4. **Click \[One-Click Reclaim] and sign to confirm the transaction.**
 5. **After success, view the amount of SOL released.**
-
-<figure><img src="../../../.gitbook/assets/image (738).png" alt=""><figcaption></figcaption></figure>
 
 #### ❓ Frequently Asked Questions <a href="#frequently-asked-questions" id="frequently-asked-questions"></a>
 

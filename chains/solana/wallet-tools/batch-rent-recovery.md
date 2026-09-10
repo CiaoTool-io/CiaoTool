@@ -7,7 +7,7 @@ description: >-
 # Solana - Batch Rent Recovery Tutorial
 
 {% hint style="success" %}
-**Solana Batch Rent Recovery：**[https://ciaotool.io/en-US/wallet/claim-rent-batch](https://ciaotool.io/en-US/wallet/claim-rent-batch)
+**Solana Batch Rent Recovery：**[**https://ciaotool.io/en/wallet/claim-rent-batch**](https://ciaotool.io/en/wallet/claim-rent-batch)
 {% endhint %}
 
 #### 🔗 Steps to Operate
@@ -22,8 +22,6 @@ description: >-
 * ✅ Reclaim Empty Accounts Only: Automatically identifies and closes accounts with zero balance.
 * 🔁 Reclaim All Accounts: Includes burnable token and NFT accounts; assets are burned before closing the accounts.
 
-<figure><img src="../../../.gitbook/assets/image (739).png" alt=""><figcaption></figcaption></figure>
-
 **Step 3: Configure SOL Reclamation Address**
 
 * By default, the released SOL is returned to the original accounts.
@@ -32,8 +30,6 @@ description: >-
 **Step 4: Payer Settings (Optional)**
 
 * Supports one wallet paying GAS (fees) on behalf of other addresses, useful for airdrop addresses or accounts without leftover SOL.
-
-<figure><img src="../../../.gitbook/assets/image (740).png" alt=""><figcaption></figcaption></figure>
 
 #### ❓Frequently Asked Questions <a href="#frequently-asked-questions" id="frequently-asked-questions"></a>
 
