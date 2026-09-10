@@ -5,65 +5,61 @@ description: >-
   network below.
 ---
 
-# Solana Service Fees
+# Solana Chain Service Fees
 
 ## Token Manage <a href="#dai-bi-guan-li-gong-ju" id="dai-bi-guan-li-gong-ju"></a>
 
 ### Token Creator
 
-* [**Standard Token**](https://ciaotool.io/en-US/token/create-token)**:** 0.075 SOL
-* [**Tax Token**](https://ciaotool.io/en-US/token/tax-token)**:** 0.015 SOL
+* [**Standard Token**](https://ciaotool.io/en/token/create-token)**:** 0.075 SOL
+* [**Tax Token**](https://ciaotool.io/en-US/token/tax-token)**:** 0.075 SOL
 
 ### Token Manager
 
-* [**Tax Fee Claim**](https://ciaotool.io/en-US/token/tax-fee-claim)**:** 0.075 SOL
+* [**Tax Fee Claim**](https://ciaotool.io/en/token/tax-fee-claim)**:** 0.075 SOL
+* [**Mint Token**](https://ciaotool.io/en/token/mint)**:** 0.075 SOL
+* [**Update Token**](https://ciaotool.io/en/token/update)**:** 0.0375 SOL
+* [**Freeze Account**](https://ciaotool.io/en/token/freeze-account)**:** 0.0225 SOL
+* [**Unfreeze Account**](https://ciaotool.io/en/token/unfreeze-account)**:** 0.0375 SOL
 * [**Revoke Permission**](https://ciaotool.io/en-US/token/revoke-permission)**:** 0.075 SOL
-* [**Mint Token**](https://ciaotool.io/en-US/token/mint)**:** 0.075 SOL
-* [**Update Token**](https://ciaotool.io/en-US/token/update)**:** 0.0375 SOL
-* [**Burn Token**](https://ciaotool.io/en-US/token/burn)**:** 0.0375 SOL
-* [**Freeze Account**](https://ciaotool.io/en-US/token/freeze-account)**:** 0.0225 SOL
-* [**Unfreeze Account**](https://ciaotool.io/en-US/token/unfreeze-account)**:** 0.0375 SOL
+* [**Burn Token**](https://ciaotool.io/en/token/burn)**:** 0.0375 SOL
 
 ### Token Tool
 
-* [**Token Snapshot**](https://ciaotool.io/en-US/token/snapshot)**:** FREE
+* [**Token Snapshot**](https://ciaotool.io/en/token/holder-snapshot)**:** FREE
 
 ***
 
 ## Multisender
 
-* [**One-to-Multi Transfer**](https://ciaotool.io/en-US/transfer/one-to-many)**:** 0.00075 SOL / address
-* [**Multi-to-One Transfer**](https://ciaotool.io/en-US/transfer/many-to-one)**:** 0.00075 SOL / address
-* [**Multi-to-Multi Transfer**](https://ciaotool.io/en-US/transfer/many-to-many)**:** 0.00075 SOL / address
-* [**SOL Relay Transfer**](https://ciaotool.io/en-US/transfer/relay-transfer)**:** 0.00075 SOL / address
+* [**One-to-Multi Transfer**](https://ciaotool.io/en/transfer/one-to-many)**:** 0.00075 SOL / address
+* [**Multi-to-One Transfer**](https://ciaotool.io/en/transfer/many-to-one)**:** 0.00075 SOL / address
+* [**Multi-to-Multi Transfer**](https://ciaotool.io/en/transfer/many-to-many)**:** 0.00075 SOL / address
+* [**SOL Relay Transfer**](https://ciaotool.io/en/transfer/relay-transfer)**:** 0.00075 SOL / address
+* [**Fragmentation**](https://ciaotool.io/en/asset-migration/fragmentation)**:** 0.0001875 SOL / address
 
 ***
 
 ## Wallet Manager
 
-* [**Batch Wallet Creator**](https://ciaotool.io/en-US/wallet/wallet-create)**:** Free
-* [**WSOL Exchange**](https://ciaotool.io/en-US/wallet/solana-wrapper)**:** Free
-* [**Rent Recovery**](https://ciaotool.io/en-US/wallet/claim-rent)**:** 4% of the reclaimed amount
-* [**Batch Rent Recovery**](https://ciaotool.io/en-US/wallet/claim-rent-batch)**:** 4% of the reclaimed amount
-* [**Wallet Sweeper**](https://ciaotool.io/en-US/wallet/sweeper)**:** 1% of the sell amount
-
-***
-
-## Asset Migration
-
-* [**Fragmentation**](https://ciaotool.io/en-US/asset-migration/fragmentation)：0.0001875 SOL / address
+* [**Batch Wallet Generator**](https://ciaotool.io/en/wallet/wallet-create)**:** Free
+* [**Vanity Address Generator**](https://ciaotool.io/en/wallet/vanity-address): Free
+* [**Rent Recovery**](https://ciaotool.io/en/wallet/claim-rent)**:** 2% of the reclaimed amount
+* [**Batch Rent Recovery**](https://ciaotool.io/en/wallet/claim-rent-batch)**:** 2% of the reclaimed amount
+* [**WSOL Exchange**](https://ciaotool.io/en/wallet/solana-wrapper)**:** Free
+* [**Wallet Sweeper**](https://ciaotool.io/en/wallet/sweeper)**:** 1% of the sell amount
 
 ***
 
 ## Raydium Zone
 
 {% hint style="info" %}
-Available for Raydium AMM, CLMM, and CPMM.
+Available for Raydium AMM V4, CLMM, and CPMM.
 {% endhint %}
 
-* [**Multi-Address Bundled Buy**](https://ciaotool.io/en-US/raydium/bundled-buy)**:** 0.0075 SOL / address
-* [**Sell and Bundled Buy**](https://ciaotool.io/zh-CN/raydium/bundled-sell-buy)**:** 0.0075 SOL / address
-* [**Multi-address Bundled Sell**](https://ciaotool.io/zh-CN/raydium/bundled-sell)**:** Volume-based pricing, as low as 0.00375 SOL / address.
+* [**Multi-Address Bundled Buy**](https://ciaotool.io/en/raydium/multi-address-buy)**:** 0.0075 SOL / address
+* [**Sell and Bundled Buy**](https://ciaotool.io/en/raydium/sell-buy)**:** 0.0075 SOL / address
+* [**Multi-address Bundled Sell**](https://ciaotool.io/en/raydium/multi-address-sell)**:** Volume-based pricing, as low as 0.00375 SOL / address.
 
 ```
  0 < address ≤ 10，0.0075 SOL per address
@@ -71,20 +67,24 @@ Available for Raydium AMM, CLMM, and CPMM.
 10 < address ≤ 15，0.006 SOL per address
 15 < address ≤ 20，0.00525 SOL per address
 20 < address ≤ 25，0.0045 SOL per address
-25 < address ≤ 29，0.00375 SOL per address
+address > 25，0.00375 SOL per address
 ```
 
-* [**Market Making**](https://ciaotool.io/en-US/raydium/market-making)**:** 0.00075 SOL / trading
-* [**Anti-MEV Volume Bot**](https://ciaotool.io/en-US/raydium/anti-mev)**:** 0.00375 SOL / trading
-* [**Batch Swap**](https://ciaotool.io/en-US/raydium/multi-swap)**:** 0.001875 SOL / trading
-* [**Boost Maker**](https://ciaotool.io/en-US/raydium/newaddr-buyers-markers)**:** 0.00015 SOL / address
-* [**Boost Holder**](https://ciaotool.io/en-US/raydium/newaddr-buyers-holders)**:** 0.00015 SOL / address
+* [**Market Making**](https://ciaotool.io/en/raydium/market-making)**:** 0.00075 SOL / trading
+* [**Batch Swap**](https://ciaotool.io/en/raydium/batch-swap)**:** 0.001875 SOL / trading
+* [**Anti-MEV Volume Bot**](https://ciaotool.io/en/raydium/anti-mev)**:** 0.00375 SOL / trading
+* [**Boost Maker**](https://ciaotool.io/en/raydium/newaddr-buyers-markers)**:** 0.00015 SOL / address
+* [**Boost Holder**](https://ciaotool.io/en/raydium/new-address-holders)**:** 0.00015 SOL / address
 
 ***
 
 ## Pump Zone
 
-* [**Bundler (Create & Buy)**](https://ciaotool.io/en-US/pump/create-and-buy)**:** Volume-based pricing, as low as 0.03375 SOL / address.
+{% hint style="info" %}
+Supports Bonk tokens quoted in SOL or USDC.
+{% endhint %}
+
+* [**Bundler (Create & Buy)**](https://ciaotool.io/en/pump/create-and-buy)**:** Volume-based pricing, as low as 0.03375 SOL / address.
 
 ```
  0 < address ≤  4，0.0375 SOL per address
