@@ -50,15 +50,29 @@ metaLinks:
 {% endcolumns %}
 
 {% columns %}
-{% column %}
+{% column width="50%" %}
 {% content-ref url="xlayer.md" %}
 [xlayer.md](xlayer.md)
 {% endcontent-ref %}
 {% endcolumn %}
 
-{% column %}
+{% column width="50%" %}
 {% content-ref url="iotex.md" %}
 [iotex.md](iotex.md)
+{% endcontent-ref %}
+{% endcolumn %}
+{% endcolumns %}
+
+{% columns %}
+{% column width="50%" %}
+{% content-ref url="bot.md" %}
+[bot.md](bot.md)
+{% endcontent-ref %}
+{% endcolumn %}
+
+{% column width="50%" %}
+{% content-ref url="robinhood-chain.md" %}
+[robinhood-chain.md](robinhood-chain.md)
 {% endcontent-ref %}
 {% endcolumn %}
 {% endcolumns %}
