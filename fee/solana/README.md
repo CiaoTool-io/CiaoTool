@@ -92,8 +92,8 @@ description: >-
  4 <地址数≤  8，每个0.03375 SOL
 ```
 
-* [**创建并迁移买入**](https://ciaotool.io/zh-Hans/pump/graduation-sniper)：0.1875 SOL / 每个地址
-* [**捆绑并迁移买入**](https://ciaotool.io/zh-Hans/pump/bundled-graduate)**：**&#x30;.1875 SOL / 每个地址
+* [**创建并迁移买入**](https://ciaotool.io/zh-Hans/pump/graduation-sniper)：0.075 SOL / 每个地址
+* [**捆绑并迁移买入**](https://ciaotool.io/zh-Hans/pump/bundled-graduate)**：**&#x30;.0075 SOL / 每个地址
 
 ### 市值管理
 
