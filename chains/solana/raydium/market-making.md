@@ -8,12 +8,10 @@ description: >-
 # Solana - Market Making Tutorial
 
 {% hint style="info" %}
-**CiaoTool Raydium Market Making** now fully supports all liquidity pool types, including **AMM, CLMM, and CPMM**. Please switch to the specific pool function page first to perform market making operations.
+**CiaoTool Raydium Market Making** now fully supports all liquidity pool types, including **AMM V4, CLMM, and CPMM**.
 {% endhint %}
 
-## What is CiaoTool Solana Market Making?
-
-<figure><img src="../../../.gitbook/assets/image (779).png" alt="CiaoTool Solana Toolkit Page about Raydium Market Making Feature"><figcaption></figcaption></figure>
+## Overview
 
 **CiaoTool Solana Market Marking** is an advanced automated market-making and liquidity optimization tool custom-built for the Solana ecosystem. It allows project teams and professional groups to fully automate the execution of advanced market-making strategies on **Raydium** by customizing trading parameters, thereby safely and robustly managing token order book depth and market activity.
 
