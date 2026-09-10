@@ -13,11 +13,11 @@ metaLinks:
 
 <figure><img src=".gitbook/assets/image (763).png" alt="CiaoTool Solana Chain 官网"><figcaption></figcaption></figure>
 
-CiaoTool 是一款支持 Solana、BSC、opBNB、Base、IoTeX、X Layer、BOT、Robinhood 等多链生态的 Web3 开发者工具与资产发行平台，专注于为项目方、工作室、交易团队与链上运营者提供可视化、无代码、安全、高性能的全生命周期解决方案。
+CiaoTool 是一站式多链 Web3 资产发行与运营平台，支持 Solana、BSC、opBNB、Base、IoTeX、X Layer、BOT、Robinhood 等生态，为项目方、工作室、交易团队及链上运营者提供可视化、零代码的专业工具。
 
-平台将复杂的链上逻辑转化为直观的前端交互，无需编写智能合约代码，即可完成代币创建、权限管理、流动性搭建、资产分发、多钱包调度、Launchpad 首发、自动化做市与市值运营等核心操作。
+平台将复杂的链上操作转化为直观的前端流程，无需编写智能合约代码，即可完成代币创建、权限管理、流动性部署、资产分发、多钱包调度、Launchpad 发射及自动化交易等操作。
 
-无论是 Meme 项目启动、标准资产发行，还是复杂的多地址链上运营，CiaoTool 都能够通过统一的可视化控制台，实现从创建到运营的一站式闭环管理。
+从 Meme 项目启动、标准资产发行到多地址资产管理，CiaoTool 通过统一控制台，提供覆盖“创建—发行—交易—运营”的全流程解决方案。
 
 ***
 
@@ -27,17 +27,13 @@ CiaoTool 是一款支持 Solana、BSC、opBNB、Base、IoTeX、X Layer、BOT、R
 {% column %}
 #### 资产发行中枢
 
-将复杂的智能合约部署流程标准化与可视化。
-
-支持 SPL、ERC-20、BEP-20 等主流标准协议的一键部署，并兼容税费、分红、黑洞、流动性销毁、314 协议等复杂代币模型，实现真正的无代码链上资产发行。
+将复杂的代币创建流程标准化、可视化，支持 SPL、ERC-20、BEP-20 等主流标准，以及税费、分红、黑洞、流动性销毁和 314 协议等代币模型，无需代码即可完成链上发行。
 {% endcolumn %}
 
 {% column %}
 #### Meme 发射枢纽
 
-深度适配当前 Meme 市场的高频启动需求。
-
-原生支持 Pump.fun、Bonk、Bonk-USD1、Four.meme、Flap 等主流 Launchpad 协议，覆盖从内盘创建、捆绑建仓到外盘迁移狙击的完整生命周期。
+适配 Pump.fun、Bonk、Four.meme、Flap 等主流 Launchpad，覆盖代币创建、多地址捆绑买入、内盘交易、流动性迁移及外盘买入等完整流程。
 {% endcolumn %}
 {% endcolumns %}
 
@@ -45,17 +41,13 @@ CiaoTool 是一款支持 Solana、BSC、opBNB、Base、IoTeX、X Layer、BOT、R
 {% column %}
 #### 多账户资产调度网络
 
-专为高频、多钱包运营场景设计。
-
-支持一对多分发、多对一归集、多对多转账、批量钱包创建、批量换仓与资产重组，可高效完成海量地址的资金管理与链上调度。
+面向多钱包与批量运营场景，支持一对多分发、多对一归集、多对多转账、批量创建钱包、资产换仓及资金重组，提升大规模链上资产管理效率。
 {% endcolumn %}
 
 {% column %}
 #### 流动性与做市引擎
 
-兼容 Solana 与 EVM 双生态架构。
-
-无缝接入 Raydium、Meteora、PancakeSwap、Uniswap 等主流去中心化交易所，支持流动性创建、交易量管理、防夹执行、微量曝光、多钱包做市与自动化盘口运维。
+兼容 Solana 与 EVM 生态，对接 Raydium、Meteora、PancakeSwap、Uniswap 等主流 DEX，提供流动性创建、批量交易、防夹执行、微单交易、多钱包做市及自动化策略管理。
 {% endcolumn %}
 {% endcolumns %}
 
