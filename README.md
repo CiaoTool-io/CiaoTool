@@ -25,17 +25,13 @@ Whether you are orchestrating a meme coin launch, issuing standard tokens, or ru
 {% column %}
 #### Asset Issuance Core
 
-Standardize and visualize complex smart contract deployments.
-
-Support one-click deployment of standard protocols (SPL, ERC-20, BEP-20) and complex models, including tax, dividend, black-hole, liquidity burning, and ERC-314, enabling true no-code asset issuance.
+Standardizes and visualizes complex token creation workflows. Supports major standards such as SPL, ERC-20, and BEP-20, along with token models featuring transfer fees, rewards, burn addresses, liquidity burning, and the 314 protocol—all without coding.
 {% endcolumn %}
 
 {% column %}
 #### Meme Launchpad Hub
 
-Tailored for high-frequency Meme market launches.
-
-Fully support for major launchpad protocols like Pump.fun, Bonk, Four.meme, and Flap.sh, covering the entire lifecycle from bonding curve creation and bundled accumulation to DEX migration and sniping.
+Integrates with leading launchpads, including Pump.fun, Bonk, Four.meme, and Flap. Covers the complete workflow from token creation and bundled multi-wallet purchases to bonding-curve trading, liquidity migration, and post-migration purchases.
 {% endcolumn %}
 {% endcolumns %}
 
@@ -43,17 +39,13 @@ Fully support for major launchpad protocols like Pump.fun, Bonk, Four.meme, and 
 {% column %}
 #### Multi-Wallet Asset Orchestration
 
-Built for high-frequency, multi-wallet operations.
-
-Manage massive liquidity and fund scheduling effortlessly through one-to-multi airdrop, multi-to-one consolidation, multi-to-multi transfers, batch wallet creator, and asset restructuring.
+Built for multi-wallet and batch operations, supporting one-to-many distribution, many-to-one consolidation, many-to-many transfers, batch wallet creation, position migration, and asset restructuring.
 {% endcolumn %}
 
 {% column %}
 #### Liquidity & Market-Making Engine
 
-Compatible with both Solana and EVM ecosystems.
-
-Seamlessly integrate with Raydium, Meteora, Uniswap, and PancakeSwap to execute liquidity provisioning, volume management, anti-MEV execution, and market-making operations.
+Supports both Solana and EVM ecosystems, with integrations for major DEXs such as Raydium, Meteora, PancakeSwap, and Uniswap. Features liquidity creation, batch trading, anti-MEV execution, micro-trading, multi-wallet market making, and automated strategy management.
 {% endcolumn %}
 {% endcolumns %}
 
