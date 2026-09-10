@@ -136,8 +136,6 @@ privateKey, 300
 {% step %}
 ### 发送形式
 
-系统将根据收款地址数量自动分组，每组最多 4 个收发地址。
-
 <figure><img src="../../../.gitbook/assets/image (730).png" alt=""><figcaption></figcaption></figure>
 
 1. **RPC 发送**\
