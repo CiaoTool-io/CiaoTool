@@ -12,13 +12,11 @@ icon: '1'
 
 {% columns %}
 {% column %}
-**CiaoTool Solana One-to-Multi Transfer** is an automated distribution tool designed for efficient large-scale token transfers. It enables a single wallet to send SOL or SPL tokens to multiple recipient addresses in one operation, eliminating the need for repetitive manual transfers.
-
-The tool supports both custom allocations per address and equal distribution across all recipients, making it ideal for airdrops, community rewards, team payments, and multi-wallet fund allocation. Optimized transaction batching helps improve transfer efficiency while ensuring fast and accurate asset distribution.
+CiaoTool Solana One-to-Many Transfer enables users to send SOL or SPL tokens from a single wallet to multiple addresses in batches. Transactions are automatically grouped and executed, significantly reducing repetitive manual transfers. It supports equal distribution or custom amounts for each recipient, making it ideal for token airdrops, community rewards, team payments, and multi-wallet asset allocation.
 {% endcolumn %}
 
 {% column %}
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>One-to-Multi Transfer</td><td><a href="https://ciaotool.io/en-US/transfer/one-to-many/">https://ciaotool.io/en-US/transfer/one-to-many/</a></td></tr><tr><td>One-to-Multi (Slow)</td><td><a href="https://ciaotool.io/en-US/transfer/one-to-multi-slow">https://ciaotool.io/en-US/transfer/one-to-multi-slow</a></td></tr><tr><td>Tutorial - One-to-Multi Transfer</td><td><a href="one-to-many.md">one-to-many.md</a></td></tr><tr><td>Tutorial - One-to-Multi (Slow)</td><td><a href="one-to-many.md">one-to-many.md</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>One-to-Multi Transfer</td><td><a href="https://ciaotool.io/en-US/transfer/one-to-many/">https://ciaotool.io/en-US/transfer/one-to-many/</a></td></tr><tr><td>Tutorial</td><td><a href="one-to-many.md">one-to-many.md</a></td></tr></tbody></table>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -28,9 +26,7 @@ The tool supports both custom allocations per address and equal distribution acr
 
 {% columns %}
 {% column %}
-**CiaoTool Solana Multi-to-One Transfer** is an automated fund consolidation tool designed for efficient asset collection and management. It allows multiple source wallets to transfer their tokens to a single destination wallet in one operation, simplifying the process of managing distributed assets.
-
-After market-making activities, airdrop campaigns, or multi-wallet operations, assets are often spread across many wallets. This tool eliminates the need to switch between accounts and manually approve repeated transactions. It supports both full balance consolidation and balance retention options, helping users streamline asset recovery and treasury management.
+CiaoTool Solana Many-to-One Transfer enables users to consolidate SOL or SPL tokens from multiple wallets into one designated address. It eliminates repeated wallet switching and manual transfers, with support for full-balance consolidation or retaining a minimum balance in each wallet. Ideal for multi-wallet asset recovery, project fund consolidation, and account settlement.
 {% endcolumn %}
 
 {% column %}
@@ -44,9 +40,7 @@ After market-making activities, airdrop campaigns, or multi-wallet operations, a
 
 {% columns %}
 {% column %}
-**CiaoTool Solana Multi-to-Multi Transfer** is an advanced asset management tool designed for complex multi-wallet fund distribution. It allows users to import multiple sender wallets and recipient wallets simultaneously, executing multiple independent transfers in a single operation based on custom transfer mappings and amounts.
-
-Compared to traditional transfer methods, the multi-to-multi model is ideal for complex asset allocation and wallet restructuring. Users can precisely control fund flows and transfer amounts between individual wallets, enabling flexible and efficient asset management.
+Many-to-many transfers use “Sender Address–Recipient Address–Amount” as the basic task unit. By mapping multiple source addresses to multiple destination addresses, they enable flexible allocation of funding sources and transfer routes.
 {% endcolumn %}
 
 {% column %}
@@ -60,9 +54,7 @@ Compared to traditional transfer methods, the multi-to-multi model is ideal for 
 
 {% columns %}
 {% column %}
-**CiaoTool SOL Relay Transfer** is a privacy-focused asset transfer tool designed to enhance on-chain fund migration and reduce direct wallet linkage. Instead of sending assets directly from the source wallet to the destination wallet, the transfer is routed through a newly created intermediary wallet with no prior transaction history.
-
-Its key advantage is breaking the direct on-chain connection between sender and recipient addresses. Combined with customizable transfer delays and multi-path distribution options, the relay process helps reduce address traceability and improve token distribution structures.
+CiaoTool SOL Relay Transfer automatically generates intermediary wallets and divides a direct transfer into two stages: “Source Wallet → Relay Wallet → Destination Wallet.” It supports randomized intervals and multi-route splitting, making it suitable for SOL asset migration, fund distribution, and multi-wallet coordination. It reduces the direct connection between source and destination addresses, but all transactions remain publicly visible on-chain.
 {% endcolumn %}
 
 {% column %}
@@ -77,8 +69,6 @@ Its key advantage is breaking the direct on-chain connection between sender and 
 CiaoTool Solana Multisender is an efficient asset management solution built on the Solana ecosystem. It removes the limitation of handling transfers one transaction at a time by enabling users to import multiple wallet addresses and execute automated transfers in parallel.
 
 Whether distributing tokens from a single wallet to multiple addresses or consolidating assets from multiple wallets into one destination wallet, the tool streamlines large-scale fund movements through automated on-chain execution.
-
-<figure><img src="../../../.gitbook/assets/image (671).png" alt=""><figcaption></figcaption></figure>
 
 ***
 

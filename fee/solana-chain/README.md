@@ -84,6 +84,8 @@ address > 25，0.00375 SOL per address
 Supports Bonk tokens quoted in SOL or USDC.
 {% endhint %}
 
+### Launch Token
+
 * [**Bundler (Create & Buy)**](https://ciaotool.io/en/pump/create-and-buy)**:** Volume-based pricing, as low as 0.03375 SOL / address.
 
 ```
@@ -91,11 +93,14 @@ Supports Bonk tokens quoted in SOL or USDC.
  4 < address ≤  8，0.03375 SOL per address
 ```
 
-* [**Graduation Sniper (Create & Buy, Graduation Buy)**](https://ciaotool.io/en-US/pump/graduation-sniper)**:** 0.1875 SOL / address
-* [**Bundle & Graduate (Bundled Buy, Graduation Buy)**](https://ciaotool.io/en-US/pump/bundled-graduate)**:** 0.1875 SOL / address
-* [**Multi-address Bundled Buy**](https://ciaotool.io/en-US/pump/multi-address-buy)**:** 0.0075 SOL / address
-* [**Sell & Bundled Buy**](https://ciaotool.io/en-US/pump/sell-buy)**:** 0.0075 SOL / address
-* [**Multi-adress Bundled Sell**](https://ciaotool.io/en-US/pump/multi-address-sell)**:** Volume-based pricing, as low as 0.00375 SOL / address.
+* [**Create & Graduation Buy (Create & Buy, Graduation Buy)**](https://ciaotool.io/en/pump/graduation-sniper)**:** 0.075 SOL / address
+* [**Bundle & Graduate (Bundled Buy, Graduation Buy)**](https://ciaotool.io/en/pump/bundled-graduate)**:** 0.0075 SOL / address
+
+### Market Making
+
+* [**Multi-address Bundled Buy**](https://ciaotool.io/en/pump/multi-address-buy)**:** 0.0075 SOL / address
+* [**Sell & Bundled Buy**](https://ciaotool.io/en/pump/sell-buy)**:** 0.0075 SOL / address
+* [**Multi-adress Bundled Sell**](https://ciaotool.io/en/pump/multi-address-sell)**:** Volume-based pricing, as low as 0.00375 SOL / address.
 
 ```
  0 < address ≤  5，0.0075 SOL per address
@@ -103,39 +108,15 @@ Supports Bonk tokens quoted in SOL or USDC.
 10 < address ≤ 15，0.006 SOL per address
 15 < address ≤ 20，0.00525 SOL per address
 20 < address ≤ 25，0.0045 SOL per address
-25 < address ≤ 29，0.00375 SOL per address
+address > 25，0.00375 SOL per address
 ```
 
-* [**Market Making**](https://ciaotool.io/en-US/pump/market-making)**:** 0.00075 SOL / trading
-* [**Anti-MEV Volume Bot**](https://ciaotool.io/en-US/pump/anti-mev)**:** 0.00375 SOL / trading
-* [**Micro Trading**](https://ciaotool.io/en-US/pump/micro-trading)**:** 0.00075 SOL / trading
+* [**Market Making**](https://ciaotool.io/en/pump/market-making)**:** 0.00075 SOL / trading
+* [**Anti-MEV Volume Bot**](https://ciaotool.io/en/pump/anti-mev)**:** 0.00375 SOL / trading
+* [**Micro Trading**](https://ciaotool.io/en/pump/micro-trading)**:** 0.00075 SOL / trading
 * [**Batch Swap**](https://ciaotool.io/en-US/pump/batch-swap)**:** 0.001875 SOL / trading
-* [**Boost Maker**](https://ciaotool.io/en-US/pump/newaddr-buyers-markers)**:** 0.00015 SOL / trading
-* [**Boost Holder**](https://ciaotool.io/en-US/pump/newaddr-buyers-holders)**:** 0.00015 SOL / trading
-
-***
-
-## PumpSwap Zone
-
-* [**Multi-address Bundled Buy**](https://ciaotool.io/en-US/pumpSwap/multi-address-buy)**:** 0.0075 SOL / address
-* [**Sell and Bundled Buy**](https://ciaotool.io/en-US/pumpSwap/sell-buy)**:** 0.0075 SOL / address
-* [**Multi-address Bundled Sell**](https://ciaotool.io/en-US/pumpSwap/multi-address-sell)**:** Volume-based pricing, as low as 0.00375 SOL / address.
-
-```
- 0 < address ≤  5，0.0075 SOL per address
- 5 < address ≤ 10，0.00675 SOL per address
-10 < address ≤ 15，0.006 SOL per address
-15 < address ≤ 20，0.00525 SOL per address
-20 < address ≤ 25，0.0045 SOL per address
-25 < address ≤ 29，0.00375 SOL per address
-```
-
-* [**Market Making**](https://ciaotool.io/en-US/pumpswap/market-making)**:** 0.00075 SOL / trading
-* [**Anti-MEV Volume Bot**](https://ciaotool.io/en-US/pumpswap/anti-mev)**:** 0.00375 SOL / trading
-* [**Micro Trading**](https://ciaotool.io/en-US/pumpswap/micro-trading)**:** 0.00075 SOL / trading
-* [**Batch Swap**](https://ciaotool.io/en-US/pumpSwap/batch-swap)**:** 0.001875 SOL / trading
-* [**Boost Maker**](https://ciaotool.io/en-US/pumpswap/newaddr-buyers-markers)**:** 0.00015 SOL / address
-* [**Boost Holder**](https://ciaotool.io/en-US/pumpswap/newaddr-buyers-holders)**:** 0.00015 SOL / address
+* [**Boost Maker**](https://ciaotool.io/en/pump/newaddr-buyers-markers)**:** 0.00015 SOL / trading
+* [**Boost Holder**](https://ciaotool.io/en/pump/new-address-holders)**:** 0.00015 SOL / trading
 
 ***
 
@@ -145,10 +126,10 @@ Supports Bonk tokens quoted in SOL or USDC.
 Supports Bonk tokens quoted in SOL or USD1.
 {% endhint %}
 
-* [**Bundler (Create & Buy)**](https://ciaotool.io/en-US/bonk/create-and-buy)**:** Volume-based pricing, as low as 0.0225 SOL / address.
-* [**Multi-address Bundled Buy**](https://ciaotool.io/en-US/bonk/multi-address-buy)**:** 0.0075 SOL / address
-* [**Sell and Bundled Buy**](https://ciaotool.io/en-US/bonk/sell-buy)**:** 0.0075 SOL / address
-* [**Multi-address Bundled Sell**](https://ciaotool.io/en-US/bonk/multi-address-sell)**:** Volume-based pricing, as low as 0.00375 SOL / address.
+* [**Bundler (Create & Buy)**](https://ciaotool.io/en/bonk/create-and-buy)**:** 0.0225 SOL / address.
+* [**Multi-address Bundled Buy**](https://ciaotool.io/en/bonk/multi-address-buy)**:** 0.0075 SOL / address
+* [**Sell and Bundled Buy**](https://ciaotool.io/en/bonk/sell-buy)**:** 0.0075 SOL / address
+* [**Multi-address Bundled Sell**](https://ciaotool.io/en/bonk/multi-address-sell)**:** Volume-based pricing, as low as 0.00375 SOL / address.
 
 ```
  0 < address ≤  5，0.0075 SOL per address
@@ -156,21 +137,25 @@ Supports Bonk tokens quoted in SOL or USD1.
 10 < address ≤ 15，0.006 SOL per address
 15 < address ≤ 20，0.00525 SOL per address
 20 < address ≤ 25，0.0045 SOL per address
-25 < address ≤ 29，0.00375 SOL per address
+address > 25，0.00375 SOL per address
 ```
 
-* [**Market Making**](https://ciaotool.io/en-US/bonk/market-making)**:** 0.00075 SOL / trading
-* [**Anti-MEV Volume Bot**](https://ciaotool.io/zh-CN/bonk/anti-mev)**:** 0.00375 SOL / trading
-* [**Batch Swap**](https://ciaotool.io/en-US/bonk/batch-swap)**:** 0.001875 SOL / trading
-* [**Boost Maker**](https://ciaotool.io/en-US/bonk/volume)**:** 0.00015 SOL / address
-* [**Boost Holder**](https://ciaotool.io/en-US/bonk/newaddr-buyers-holders)**:** 0.00015 SOL / address
+* [**Market Making**](https://ciaotool.io/en/bonk/market-making)**:** 0.00075 SOL / trading
+* [**Anti-MEV Volume Bot**](https://ciaotool.io/en/bonk/anti-mev)**:** 0.00375 SOL / trading
+* [**Batch Swap**](https://ciaotool.io/en/bonk/batch-swap)**:** 0.001875 SOL / trading
+* [**Boost Maker**](https://ciaotool.io/en/bonk/newaddr-buyers-markers)**:** 0.00015 SOL / address
+* [**Boost Holder**](https://ciaotool.io/en/bonk/new-address-holders)**:** 0.00015 SOL / address
 
 ***
 
 ## Meteora Zone
 
-* [**Multi-address Bundled Buy**](https://ciaotool.io/en-US/meteora/multi-address-buy)**:** 0.0075 SOL / address
-* [**Sell and Bundled Buy**](https://ciaotool.io/en-US/meteora/sell-buy)**:** 0.0075 SOL / address
+{% hint style="info" %}
+Available for Meteora DBC, DLMM, and DAMM V2.
+{% endhint %}
+
+* [**Multi-address Bundled Buy**](https://ciaotool.io/en/meteora/multi-address-sell)**:** 0.0075 SOL / address
+* [**Sell and Bundled Buy**](https://ciaotool.io/en/meteora/sell-buy)**:** 0.0075 SOL / address
 * [**Multi-address Bundled Sell**](https://ciaotool.io/en-US/meteora/multi-address-sell)**:** Volume-based pricing, as low as 0.00375 SOL / address.
 
 ```
@@ -179,14 +164,14 @@ Supports Bonk tokens quoted in SOL or USD1.
 10 < address ≤ 15，0.006 SOL per address
 15 < address ≤ 20，0.00525 SOL per address
 20 < address ≤ 25，0.0045 SOL per address
-25 < address ≤ 29，0.00375 SOL per address
+address > 25，0.00375 SOL per address
 ```
 
-* [**Market Making**](https://ciaotool.io/en-US/meteora/market-making)**:** 0.00075 SOL / trading
-* [**Anti-MEV Volume Bot**](https://ciaotool.io/en-US/meteora/anti-mev)**:** 0.00375 SOL / trading
-* [**Batch Swap**](https://ciaotool.io/en-US/meteora/batch-swap)**:** 0.001875 SOL / trading
-* [**Boost Maker**](https://ciaotool.io/en-US/meteora/volume)**:** 0.00015 SOL / address
-* [**Boost Holder**](https://ciaotool.io/en-US/meteora/newaddr-buyers-holders)**:** 0.00015 SOL / address
+* [**Market Making**](https://ciaotool.io/en/meteora/market-making)**:** 0.00075 SOL / trading
+* [**Anti-MEV Volume Bot**](https://ciaotool.io/en/meteora/anti-mev)**:** 0.00375 SOL / trading
+* [**Batch Swap**](https://ciaotool.io/en/meteora/batch-swap)**:** 0.001875 SOL / trading
+* [**Boost Maker**](https://ciaotool.io/en/meteora/newaddr-buyers-markers)**:** 0.00015 SOL / address
+* [**Boost Holder**](https://ciaotool.io/en/meteora/new-address-holders)**:** 0.00015 SOL / address
 
 ***
 

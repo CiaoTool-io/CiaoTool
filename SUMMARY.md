@@ -20,7 +20,6 @@
 * [Solana | All-in-One Token Solution Platform](chains/solana/README.md "Solana Chain Guide")
   * [Solana | Multisender Toolkit](chains/solana/multisender/README.md "Multisender")
     * [Solana - Multisender | One-to-Multi Transfer Tutorial](chains/solana/multisender/one-to-many.md "One-to-Multi")
-    * [One-to-Multi Slow](chains/solana/multisender/one-to-many.md)
     * [Solana - Multisender | Multi-to-One Transfer Tutorial](chains/solana/multisender/many-to-one.md "Multi-to-One")
     * [Solana - Multisender | Multi-to-Multi Transfer Tutorial](chains/solana/multisender/many-to-many.md "Multi-to-Multi")
     * [Solana - Multisender | Relay Transfer Tutorial](chains/solana/multisender/sol-relay-transfer.md " Relay Transfer")
