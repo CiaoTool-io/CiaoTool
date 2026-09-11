@@ -48,7 +48,7 @@
     * [PumpFun - PumpFun Create, Graduate and Snipe Bot Guide](chains/solana/pump/graduation-sniper.md "Create & Graduation Buy")
     * [PumpFun - Bundled Buy, Graduate and Snipe Bot Guide](chains/solana/pump/bundled-graduate.md "Bundled & Graduate Buy")
     * [PumpFun - Market Making Guide](chains/solana/pump/market-making.md "Market Making")
-    * [PumpFun - Batch Swap Tutorial](chains/solana/pump/batch-swap.md "Batch Swap")
+    * [PumpFun - Batch Swap Guide](chains/solana/pump/batch-swap.md "Batch Swap")
     * [PumpFun - Anti-MEV Volume Bot](chains/solana/pump/anti-mev.md "Anti-MEV Volume Bot")
     * [PumpFun - Micro Trading Tutorial](chains/solana/pump/micro-trading.md "Micro Trading")
     * [PumpFun - Boost Makers Tutorial](chains/solana/pump/buy-maker.md "Boost Makers")

@@ -115,197 +115,134 @@ privateKey
 {% endstep %}
 
 {% step %}
-### Enter  Amount
+### Trading Mode
 
-Choose from 2 amount options: **Individual, or Fixed**. Dev and bundled wallets purchases are limited to **86 SOL** in total.
+Choose a bot type based on your market-making strategy, then switch to the corresponding strategy page.
 
-1. **Individual**\
-   Enter a different amount for each address.
-2. **Fixed Amount**\
-   Click ![](<../../../.gitbook/assets/image (8).png>) above “Amount”, and select “Fixed Amount” to apply the same amount to all addresses.
+<figure><img src="../../../.gitbook/assets/image (1167).png" alt=""><figcaption></figcaption></figure>
+
+* **Upward Trend:** Trading wallets continuously buy based on your settings, gradually building positions and increasing buying activity to support an upward trend.
+* **Upward Trend:** Trading wallets continuously sell for gradual position reduction or fund recovery, helping form a downward trend.
+* **Volume:** Randomly alternates between buys and sells to generate two-way trading activity and keep market data updated.
 {% endstep %}
 
 {% step %}
-### Auto Sell
-
-During the bonding curve phase, all bundled wallets automatically sell when the token reaches the target gain from the initial purchase price.
-{% endstep %}
-
-{% step %}
-### Jito Tips
+### Trading Setting
 
 {% hint style="danger" %}
-This feature uses Jito Bundles and may fail due to network, RPC, or Block Engine conditions. If the Bundle does not land, the token will not be created and no on-chain fees will be charged. Try another RPC or Block Engine, increase the Jito tip, or retry later.
+Closing or refreshing the page will **stop the bot immediately**. Keep the page open and running in the background while the strategy is active. This feature is **not recommended for mobile devices**.
 {% endhint %}
 
-Use a Jito tip to bundle token creation and multi-wallet transactions, reducing sniping risk and improving landing priority at an additional cost.
+Click a market-making strategy below to view its complete setup guide.
 
-<figure><img src="../../../.gitbook/assets/image (1158).png" alt=""><figcaption></figcaption></figure>
+{% tabs %}
+{% tab title="Upward Trend" %}
+#### Per-trade amount
+
+The amount purchased in each transaction, denominated in the selected **Quote Token**.
+
+If the minimum and maximum values are the same, a fixed amount is used. If they differ, each trade uses a random amount within the range.
+
+#### Stop conditions
+
+Three optional stop conditions are available: **Target Price, Maximum Cumulative Volume**, and **Run Time**. If no condition is set, trading will continue. The task stops automatically when any configured condition is reached.
+
+* **Target Price:** Stops when the **Project Token** reaches the specified price.
+* **Maximum cumulative volume:** Stops when the cumulative volume reaches the specified amount, denominated in the **Quote Token**.
+* **Maximum duration:** Stops after the specified number of minutes.
+
+<figure><img src="../../../.gitbook/assets/image (1168).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+
+{% tab title="Upward Trend" %}
+#### Per-trade amount
+
+The amount of **Project Tokens** sold in each transaction.
+
+If the minimum and maximum values are the same, a fixed amount is used. If they differ, each trade uses a random amount within the selected range.
+
+#### Stop conditions
+
+Three optional stop conditions are available: **Target Price, Maximum Cumulative Volume**, and **Run Time**. If no condition is set, trading will continue. The task stops automatically when any configured condition is reached.
+
+* **Target Price:** Stops when the exchange price reaches the specified **Quote Token** value.
+* **Maximum cumulative volume:** Stops when the cumulative amount of **Project Tokens** sold reaches the specified value.
+* **Run Time:** Stops after the specified number of minutes.
+
+<figure><img src="../../../.gitbook/assets/image (1169).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+
+{% tab title="Volume" %}
+#### Per-trade amount
+
+The sell amount for each transaction, denominated in the selected **Quote Token**.
+
+If the minimum and maximum values are the same, a fixed amount is used. If they differ, each trade uses a random amount within the selected range.
+
+#### Stop conditions
+
+Two optional stop conditions are available: **Maximum cumulative volume** and **Run Time**. If neither is set, trading will continue. The task stops automatically when either configured condition is reached.
+
+* **Maximum cumulative volume:** Stops when the cumulative trading volume reaches the specified **Quote Token** amount.
+* **Run Time:** Stops after the specified number of minutes.
+
+<figure><img src="../../../.gitbook/assets/image (1170).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+{% endtabs %}
+{% endstep %}
+
+{% step %}
+### General Settings
+
+{% tabs %}
+{% tab title="Interval" %}
+Set the execution interval between transactions.
+
+<figure><img src="../../../.gitbook/assets/image (1171).png" alt=""><figcaption></figcaption></figure>
+
+* **Fixed:** Transactions are broadcast at fixed intervals.
+* **Random:**&#x54;ransactions are submitted randomly within the specified time range to simulate natural trading activity. Keep the page open during execution.
+{% endtab %}
+
+{% tab title="Slippage" %}
+Slippage is the difference between the expected price and the actual execution price. Setting the tolerance too low may cause transactions to fail, while setting it too high may expose you to greater price movement.
+
+<figure><img src="../../../.gitbook/assets/image (1172).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+
+{% tab title="Send Method" %}
+* **RPC:** Broadcast transactions through an RPC node without paying a Jito tip.
+* **Jito Bundle:** Use a Jito tip to improve landing priority.
+
+<figure><img src="../../../.gitbook/assets/image (1173).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+{% endtabs %}
+{% endstep %}
+
+{% step %}
+### Start Trade
+
+Each wallet pays its own transaction fees.
+
+After confirming the details, click **“Start Market Making”** to start the market-making program.
+
+<figure><img src="../../../.gitbook/assets/image (1174).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ### Confirm
 
-After confirming the details, click **“Create and Buy”** to track the creation progress and result in real time.
-
-<figure><img src="../../../.gitbook/assets/image (1148).png" alt=""><figcaption></figcaption></figure>
-{% endstep %}
-
-{% step %}
-### Connect Wallet
-
-Click the button in the top right corner to connect a wallet that supports the Solana network.
-
-<figure><img src="../../../.gitbook/assets/image (757).png" alt=""><figcaption></figcaption></figure>
-{% endstep %}
-
-{% step %}
-### Select Value Token and MM Token
-
-You can choose to input the token address, or select a token currently owned by your wallet to perform the buy operation.
-
-* **Value Token:** The token address used to pay the pair's price when executing trading operations.
-* **MM Token:** The token address used to achieve the market management strategy goals when executing trading operations.
-
-<figure><img src="../../../.gitbook/assets/image (794).png" alt=""><figcaption></figcaption></figure>
-{% endstep %}
-
-{% step %}
-### Select Market-Making Strategy
-
-Based on different market-making strategy requirements, select the appropriate bot type and switch to the corresponding strategy bot page.
-
-* **Pull Up:** The operating wallet continuously performs buy operations to steadily build positions and drive up the trading pair's price.
-* **Drop:** The operating wallet continuously performs sell operations to steadily liquidate positions and drive down the trading pair's price.
-* **Trading Bot:** The operating wallet continuously performs both buy and sell operations to keep the order book constantly flashing.
-
-<figure><img src="../../../.gitbook/assets/image (781).png" alt=""><figcaption></figcaption></figure>
-{% endstep %}
-
-{% step %}
-### MM Bot Setting
-
 {% hint style="danger" %}
-Closing / refreshing the page will **immediately stop** the bot strategy. Please ensure that the page remains open and running continuously in the background while the strategy is being executed. To ensure necessary strategy execution, **this feature is not recommended for use on mobile devices.**
+Closing or refreshing the page will **stop the bot immediately**. Keep the page open and running in the background while the strategy is active. This feature is **not recommended for mobile devices**.
 {% endhint %}
 
-Click the market-making strategies below to display the full bot setup tutorial.
+While the program is running, monitor:
 
-{% tabs %}
-{% tab title="Pull Up" %}
-#### Single Transaction Volume
+* [x] Current trading pair price
+* [x] Number of successful transactions
+* [x] Cumulative trading volume and other details
 
-The buy volume for each transaction, anchored to the settings of the **"Value Token".**
-
-If the left and right range limits are identical, it will be a fixed amount; if the range amounts differ, each transaction will use a randomized amount within that specified range.
-
-#### Condition Parameters
-
-Three conditional parameters are provided: **Target Price, Total Maximum Transaction Amount, and Duration**. If left blank, transactions will proceed continuously. If any parameter is filled, the task will automatically stop once that condition is met.
-
-* **Target Price:** When the trading pair price reaches the set **"USDT"** value, the strategy execution stops immediately.
-* **Total Maximum Transaction Amount:** Anchored to the settings of the **"Value Token",** when the cumulative total reaches the set value, the strategy execution stops immediately.
-* **Duration:** Measured in minutes, when the duration reaches the set value, the strategy execution stops immediately.
-
-<figure><img src="../../../.gitbook/assets/image (782).png" alt=""><figcaption></figcaption></figure>
-{% endtab %}
-
-{% tab title="Drop" %}
-#### Single Transaction Volume
-
-The buy volume for each transaction, anchored to the settings of the **"MM Token".**
-
-If the left and right range limits are identical, it will be a fixed amount; if the range amounts differ, each transaction will use a randomized amount within that specified range.
-
-#### Condition Parameters
-
-Three conditional parameters are provided: **Target Price, Total Maximum Transaction Amount, and Duration**. If left blank, transactions will proceed continuously. If any parameter is filled, the task will automatically stop once that condition is met.
-
-* **Target Price:** When the trading pair price reaches the set **"USDT"** value, the strategy execution stops immediately.
-* **Total Maximum Transaction Amount:** Anchored to the settings of the **"MM Token",** when the cumulative total reaches the set value, the strategy execution stops immediately.
-* **Duration:** Measured in minutes, when the duration reaches the set value, the strategy execution stops immediately.
-
-<figure><img src="../../../.gitbook/assets/image (783).png" alt=""><figcaption></figcaption></figure>
-{% endtab %}
-
-{% tab title="Traffic Bot" %}
-#### Single Transaction Volume
-
-The buy volume for each transaction, anchored to the settings of the **"Value Token".**
-
-If the left and right range limits are identical, it will be a fixed amount; if the range amounts differ, each transaction will use a randomized amount within that specified range.
-
-#### Condition Parameters
-
-Three conditional parameters are provided: **Total Maximum Transaction Amount, and Duration**. If left blank, transactions will proceed continuously. If any parameter is filled, the task will automatically stop once that condition is met.
-
-* **Total Maximum Transaction Amount:** Anchored to the settings of the **"Value Token",** when the cumulative total reaches the set value, the strategy execution stops immediately.
-* **Duration:** Measured in minutes, when the duration reaches the set value, the strategy execution stops immediately.
-
-<figure><img src="../../../.gitbook/assets/image (784).png" alt=""><figcaption></figcaption></figure>
-{% endtab %}
-{% endtabs %}
-{% endstep %}
-
-{% step %}
-### Input Trading Wallet Private Key
-
-{% hint style="danger" %}
-<mark style="color:$danger;">**Security Tips**</mark>
-
-Currently supports private key import only. Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
-{% endhint %}
-
-{% hint style="info" %}
-<mark style="color:$primary;">**Trading Wallet Setting**</mark>
-
-There are no quantity limits on importing wallets for **PumpFun Market Making**. Transaction fees are paid independently by each wallet.
-{% endhint %}
-
-Supports two methods for importing sending private key: **"Manual Input"** and **"Upload File"**. Select an option to view the detailed tutorial.
-
-{% tabs %}
-{% tab title="Manual Input" %}
-1. Click the **"Manual Input"** button to open the input field.
-
-<figure><img src="../../../.gitbook/assets/image (785).png" alt=""><figcaption></figcaption></figure>
-
-2. Enter / bulk paste private keys, one private key per line. Press Enter to start a new line.
-
-<figure><img src="../../../.gitbook/assets/image (787).png" alt=""><figcaption></figcaption></figure>
-
-3. Click **"OK"** to import all entered addresses into the operation panel.
-
-<figure><img src="../../../.gitbook/assets/image (788).png" alt=""><figcaption></figcaption></figure>
-{% endtab %}
-
-{% tab title="Upload File" %}
-1. Click the **"Upload File"** button to open the file upload window.
-
-<figure><img src="../../../.gitbook/assets/image (786).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../../../.gitbook/assets/image (790).png" alt=""><figcaption></figcaption></figure>
-
-2. Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.   \
-   Click to download and view the template:
-
-{% file src="../../../.gitbook/assets/Solana_privateKey_demo.xlsx" %}
-
-<figure><img src="../../../.gitbook/assets/image (791).png" alt=""><figcaption></figcaption></figure>
-
-3. Click **"OK"** to import all entered addresses into the operation panel.
-
-<figure><img src="../../../.gitbook/assets/image (789).png" alt=""><figcaption></figcaption></figure>
-{% endtab %}
-{% endtabs %}
-{% endstep %}
-
-{% step %}
-#### **Confirm** <a href="#confirm" id="confirm"></a>
-
-After verifying all details, click the **"Activate"** button below and wait for the transaction process to complete.
-
-<figure><img src="../../../.gitbook/assets/image (792).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1175).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -339,7 +276,9 @@ CiaoTool uses a fully client-side signing mechanism. Your private key is never u
 
 ***
 
-**Need help? Join our community for real-time support:**
+## Service Support
+
+Need help? Join our community for real-time support:
 
 <table data-header-hidden><thead><tr><th width="188"></th><th valign="top"></th><th data-hidden></th></tr></thead><tbody><tr><td>Email</td><td valign="top"><a href="mailto:ciaotoolglobal@gmail.com">ciaotoolglobal@gmail.com</a></td><td></td></tr><tr><td>Telegram</td><td valign="top"><a href="https://t.me/ciaotools">https://t.me/ciaotools</a></td><td></td></tr><tr><td>WhatsApp</td><td valign="top"><a href="https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J">https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J</a></td><td></td></tr></tbody></table>
 

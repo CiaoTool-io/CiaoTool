@@ -5,138 +5,190 @@ description: >-
   and execution speed for large-scale transactions.
 ---
 
-# PumpFun - Batch Swap Tutorial
+# PumpFun - Batch Swap Guide
 
 {% hint style="info" %}
-**CiaoTool PumpFun Batch Swap** now fully supports all quote tokens, including official **SOL and USDC**. Please switch to the specific token page first to perform market management operations, meeting your rapid market-making service needs across various scenarios.
+**CiaoTool PumpFun Batch Swap** now fully supports all quote tokens, including official **SOL and USDC**.
 {% endhint %}
 
-## What is CiaoTool PumpFun Batch Swap?
+## Overview
 
-<figure><img src="../../../.gitbook/assets/image (810).png" alt="CiaoTool Solana Toolkit Page about Pump.fun Batch Swap Feature"><figcaption></figcaption></figure>
+**CiaoTool Pump Batch Trading** is a multi-wallet automated trading tool for Pump.fun and PumpSwap. Users can import or select multiple wallets, configure the trade direction and amount for each wallet, and execute token purchases or sales in one batch.
 
-**CiaoTool PumpFun Batch Swap** is a multi-address automated trade execution tool custom-built for the **Pump.fun platform** within the Solana ecosystem. It allows users to fully automatically and synchronously execute token buy and sell operations by batch importing multiple wallet addresses and configuring trading parameters.
-
-The core mechanism of this feature lies in rapidly performing batch swaps of tokens across multiple addresses into a designated token. Compared to traditional manual operations handled one by one via a single address, the system vastly improves the response speed and processing efficiency of trading commands through multi-address concurrent execution. It completely revolutionizes inefficient manual execution models and comprehensively enhances the time-sensitivity of multi-wallet interactions, making it particularly suitable for scenarios that require ultra-fast completion of large-scale token swaps and asset reallocations.
+The system converts these settings into independent trading tasks and submits them concurrently, reducing repetitive wallet switching, parameter entry, and transaction signing.
 
 Start your Batch Swap on PumpFun with CiaoTool now:
 
-{% embed url="https://ciaotool.io/en-US/pump/batch-swap" %}
+{% embed url="https://ciaotool.io/en/pump/batch-swap" %}
 
 ***
 
-## Why Choose CiaoTool PumpFun Batch Swap?
+## Advantage
 
-CiaoTool provides a professional solution for multi-address swapping management on the Pump.fun platform, balancing ultra-fast speed and security. For users who need to rapidly execute large volumes of transactions, this tool can significantly enhance overall execution efficiency:
-
-* **Ultra-Fast Concurrent Execution**\
-  Supports one-click initiation of synchronous swap commands across multiple wallets, completely eliminating the tedious process of manually switching addresses frequently and repeating signatures, vastly improving the time-sensitivity of large-scale transactions.
-* **Efficient Asset Swap**\
-  Capable of rapidly and synchronously swapping tokens across multiple independent addresses into a designated unified token, meeting various high-frequency, large-volume asset circulation needs.
-* **Flexible Parameter Configuration**\
-  Supports customizing trading scales for different wallet addresses, precisely matching various complex multi-address automated trading strategies.
-* **Local Secure Environment**\
-  Utilizes a pure front-end, local execution mechanism where private keys are only used locally for transaction signing, guaranteeing the absolute security of multi-wallet assets while exponentially boosting trading efficiency.
+* **Batch Execution:** Run buy or sell tasks across multiple wallets at once
+* **Concurrent Submission:** Broadcast multiple transactions within a short period
+* **Flexible Settings:** Configure the trade direction and amount for each wallet
+* **Centralized Management:** View wallet balances, transaction statuses, and results in one place
+* **Fast Swaps:** Convert assets across multiple wallets into a target asset
+* **Local Signing:** Private keys are used locally and are not uploaded
 
 ***
 
-## **Step by Step |** PumpFun Batch Swap
+## Step by Step
 
 {% stepper %}
 {% step %}
 ### Connect Wallet
 
-Click the button in the top right corner to connect a wallet that supports the Solana network.
+Click the button in the top right corner, and connect a wallet that supports the Solana network.
 
-<figure><img src="../../../.gitbook/assets/image (799).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Select Swap Token
+### Select Token
 
-You can choose to enter the token address, or select a token currently owned by your wallet to perform the buy operation. Click the middle arrow to quickly switch the swap direction.
+Enter a token address or select a token held in the connected wallet. The system will automatically identify the quote token and locate the corresponding liquidity pool.
 
-<figure><img src="../../../.gitbook/assets/image (800).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1163).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Input Trading Wallet Private Key
+### Import Private Keys
 
 {% hint style="danger" %}
-<mark style="color:$danger;">**Security Tips**</mark>
-
-Currently supports private key import only. Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
+Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
 {% endhint %}
 
 {% hint style="info" %}
 <mark style="color:$primary;">**Trading Wallet Setting**</mark>
 
-There are no quantity limits on importing wallets for **PumpFun Batch Swap**. Transaction fees are paid independently by each wallet.
+There are no quantity limits on importing wallets for **PumpFun Market Making**. Transaction fees are paid independently by each wallet.
 {% endhint %}
 
-Supports two methods for importing sending private key: **"Manual Input"** and **"Upload File"**. Select an option to view the detailed tutorial.
+Add them **Manually Input** or **Upload File**. Click to view the guide.
 
 {% tabs %}
 {% tab title="Manual Input" %}
-1. Click the **"Manual Input"** button to open the input field.
+1. Click the "Bulk Input" button to open the input field.
 
-<figure><img src="../../../.gitbook/assets/image (802).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1155).png" alt=""><figcaption></figcaption></figure>
 
-2. Enter / bulk paste private keys, one private key per line. Press Enter to start a new line.
+2. Enter / paste wallet private keys, one per line.
 
-<figure><img src="../../../.gitbook/assets/image (801).png" alt=""><figcaption></figcaption></figure>
+```
+privateKey
+```
 
-3. Click **"OK"** to import all entered addresses into the operation panel.
+<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (807).png" alt=""><figcaption></figcaption></figure>
+3. Click "Import" to import all entered wallets into the operation panel.
+
+<figure><img src="../../../.gitbook/assets/image (1176).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Upload File" %}
-1. Click the **"Upload File"** button to open the file upload window.
+1. Download the CiaoTool template and fill in the transfer details.
 
-<figure><img src="../../../.gitbook/assets/image (803).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1164).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (804).png" alt=""><figcaption></figcaption></figure>
+2. Click ![](<../../../.gitbook/assets/image (7).png>)"Import File" button to open the input field.
+3. Click "Import" to import all entered wallets into the operation panel.
 
-2. Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.   \
-   Click to download and view the template:
-
-{% file src="../../../.gitbook/assets/Solana_privateKey_demo.xlsx" %}
-
-<figure><img src="../../../.gitbook/assets/image (805).png" alt=""><figcaption></figcaption></figure>
-
-3. Click **"OK"** to import all entered addresses into the operation panel.
-
-<figure><img src="../../../.gitbook/assets/image (806).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1177).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 {% endstep %}
 
 {% step %}
-### Enter Buy Amount <a href="#enter-transfer-amount" id="enter-transfer-amount"></a>
+### Enter Amount
 
-<figure><img src="../../../.gitbook/assets/image (712).png" alt=""><figcaption></figcaption></figure>
+Choose from 4 amount options: **Individual, Fixed, Random Range, or All.**
 
-Support **Custom Input, All Amount, Fixed Amount, Random Amount and Random Percentage.**
+1. **Individual**\
+   Enter a different amount for each address.
+2. **Fixed Amount**\
+   Click ![](<../../../.gitbook/assets/image (8).png>) above “Amount”, and select “Fixed Amount” to apply the same amount to all addresses.
+3. **Random Range**\
+   Click ![](<../../../.gitbook/assets/image (8).png>) above “Amount”, and select “Random Range” and set the minimum and maximum. The system will generate an amount within that range for each address.
+4. **All**\
+   Click ![](<../../../.gitbook/assets/image (8).png>) above “Amount”, and select “All” to transfer the full available balance.
+{% endstep %}
 
-1. **Custom Input**\
-   Enter the transfer amount for each wallet individually.
-   * If an amount is filled in, the transfer will use that specific amount.
-   * If an amount is left blank, the transfer will default to the amount configured in the global settings.
-2. **All Amount**\
-   All wallets will swap 100% of their token holdings into the designated token.
-3. **Fixed Amount**\
-   All wallets will swap an identical, specified amount of tokens into the designated token.
-4. **Random Amount**\
-   All wallets will swap a randomized amount of tokens within a preset range into the designated token.
-5. **Random Percentage**\
-   All wallets will swap a randomized percentage of each wallet's remaining balance within a preset range into the designated token.
+{% step %}
+### General Settings
+
+{% tabs %}
+{% tab title="Interval" %}
+Set the execution interval between transactions.
+
+<figure><img src="../../../.gitbook/assets/image (1171).png" alt=""><figcaption></figcaption></figure>
+
+* **Fixed:** Transactions are broadcast at fixed intervals.
+* **Random:**&#x54;ransactions are submitted randomly within the specified time range to simulate natural trading activity. Keep the page open during execution.
+{% endtab %}
+
+{% tab title="Slippage" %}
+Slippage is the difference between the expected price and the actual execution price. Setting the tolerance too low may cause transactions to fail, while setting it too high may expose you to greater price movement.
+
+<figure><img src="../../../.gitbook/assets/image (1172).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+{% endtabs %}
+{% endstep %}
+
+{% step %}
+### General Settings
+
+{% tabs %}
+{% tab title="Interval" %}
+Set the execution interval between transactions.
+
+<figure><img src="../../../.gitbook/assets/image (1171).png" alt=""><figcaption></figcaption></figure>
+
+* **Fixed:** Transactions are broadcast at fixed intervals.
+* **Random:**&#x54;ransactions are submitted randomly within the specified time range to simulate natural trading activity. Keep the page open during execution.
+{% endtab %}
+
+{% tab title="Slippage" %}
+Slippage is the difference between the expected price and the actual execution price. Setting the tolerance too low may cause transactions to fail, while setting it too high may expose you to greater price movement.
+
+<figure><img src="../../../.gitbook/assets/image (1172).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+{% endtabs %}
+{% endstep %}
+
+{% step %}
+### Send Method
+
+* **RPC:** Broadcast transactions through an RPC node without paying a Jito tip.
+* **Jito Bundle:** Use a Jito tip to improve landing priority.
+
+<figure><img src="../../../.gitbook/assets/image (1173).png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Start Swap
+
+The program runs automatically. On the confirmation page, review:
+
+* [x] Active wallets and number of transactions
+* [x] Estimated fees
+
+Each wallet pays its own transaction fees.
+
+<figure><img src="../../../.gitbook/assets/image (1178).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ### Confirm
 
-After verifying all details, click the **"Start Batch Transactions"** button below and wait for the transaction process to complete.
+{% hint style="danger" %}
+Closing or refreshing the page will **stop the bot immediately**. Keep the page open and running in the background while the strategy is active. This feature is **not recommended for mobile devices**.
+{% endhint %}
+
+After confirming the details, click **“Confirm and Start Batch Swap”** to begin the batch swap process.
+
+<figure><img src="../../../.gitbook/assets/image (1175).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -168,7 +220,9 @@ CiaoTool uses a fully client-side signing mechanism. Your private key is never u
 
 ***
 
-**Need help? Join our community for real-time support:**
+## Service Support
+
+Need help? Join our community for real-time support:
 
 <table data-header-hidden><thead><tr><th width="188"></th><th valign="top"></th><th data-hidden></th></tr></thead><tbody><tr><td>Email</td><td valign="top"><a href="mailto:ciaotoolglobal@gmail.com">ciaotoolglobal@gmail.com</a></td><td></td></tr><tr><td>Telegram</td><td valign="top"><a href="https://t.me/ciaotools">https://t.me/ciaotools</a></td><td></td></tr><tr><td>WhatsApp</td><td valign="top"><a href="https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J">https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J</a></td><td></td></tr></tbody></table>
 
