@@ -92,10 +92,10 @@ description: 专为 Raydium 平台提供的自动化做市与交易执行工具�
 
 <figure><img src="../../../.gitbook/assets/image (846).png" alt=""><figcaption></figcaption></figure>
 
-2. 输入 / 批量粘贴**钱包地址，**&#x6BCF;行仅输入一个钱包私钥，可在私钥后追加数量。
+2. 输入 / 批量粘贴**钱包地址，**&#x6BCF;行仅输入一个钱包私钥
 
 ```
-privateKey, 300
+privateKey
 ```
 
 <figure><img src="../../../.gitbook/assets/image (737).png" alt=""><figcaption></figcaption></figure>
