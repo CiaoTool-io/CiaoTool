@@ -1,137 +1,140 @@
 ---
 description: >-
-  A micro trading tool for Pump.fun. Automatically executes small buy and sell
-  transactions to maintain activity, increase visibility, and maximize exposure
-  at minimal cost.
+  A micro trading tool for Pump.fun and PumpSwap. Automatically executes small
+  buy and sell transactions to maintain activity, increase visibility, and
+  maximize exposure at minimal cost.
 ---
 
-# PumpFun - Micro Trading Tutorial
+# Pump - Micro Trading Guide
 
 {% hint style="info" %}
-**CiaoTool PumpFun Micro Trading** now fully supports all quote tokens, including official **SOL and USDC**. Please switch to the specific token page first to perform market management operations, meeting your rapid market-making service needs across various scenarios.
+**CiaoTool Pump Micro Trading** now fully supports all quote tokens, including official **SOL and USDC**.&#x20;
 {% endhint %}
 
-## What is CiaoTool PumpFun Micro Trading?
+## Overview
 
-<figure><img src="../../../.gitbook/assets/image (873).png" alt="CiaoTool Solana Toolkit Page about Pump.fun Micro Trading Feature"><figcaption></figcaption></figure>
+**CiaoTool Pump Micro-Trading Bot** is an automated exposure tool for Pump.fun and PumpSwap. Users can customize micro-trade amounts and execution intervals, while the system continuously executes small buy and sell transactions across multiple wallets.
 
-**CiaoTool PumpFun Micro Trading** is an automated, high-frequency exposure engine custom-built for Solana's **Pump.fun platform**. By deploying hyper-low transaction parameters and tight execution windows, it fully automates continuous, micro-volume bidirectional trading directly on-chain.
+The tool uses Pump.fun’s recent trading activity display mechanism to keep tokens active through continuous micro-transactions. This increases their chances of appearing on the homepage and recent activity lists, helping projects gain more exposure and attract user attention.
 
-Unlike generic volume bots, this feature isn’t designed to pump token prices or artificial trading volumes. Instead, it systematically cracks Pump.fun’s sorting algorithm—which favors tokens with the most recent transaction timestamps. By generating relentless, high-frequency micro-trades, the bot permanently sustains your token's "Just Active" status. This locks your project onto the Pump.fun homepage and pins it to the peak of the active leaderboards, drastically maximizing market exposure to capture massive organic clicks and trader engagement.
+Start your Micro Trading on PumpFun and PumpSwap with CiaoTool now:
 
-Start your Micro Trading on PumpFun with CiaoTool now:
-
-{% embed url="https://ciaotool.io/en-US/pump/micro-trading" %}
+{% embed url="https://ciaotool.io/en/pump/micro-trading" %}
 
 ***
 
-## Why Choose CiaoTool PumpFun Micro Trading?
+## Advantage
 
-CiaoTool delivers an elite, ultra-low-cost solution for Pump.fun project parties to capture massive organic traffic. For projects aiming to spark early exposure and instantly stand out from the token flood, this bot establishes a hyper-efficient growth engine:
-
-* **Homepage Domination**\
-  High-frequency micro-trades systematically trigger Pump.fun’s front-end sorting, pinning your project to the homepage to extract maximum organic CTR.
-*   **Zero-Attrition Capital Efficiency**
-
-    By capping trade sizes and deploying a bidirectional offset logic, the bot sustains peak activity while compressing capital friction to near-zero.
-* **24/7 Autopilot Loop**\
-  Set your ultra-short execution intervals and launch with one click. The bot runs non-stop, completely eliminating manual operations and chart-watching.
-* **Spark Market Momentum**\
-  Permanent visibility broadcasts a strong signal of organic token health, effectively triggering market FOMO and driving real traders into your order book.
+* **Increased Exposure:** Keeps token activity updated to increase visibility on the homepage and active lists
+* **Low-Cost Micro-Trades:** Uses small transactions to control execution costs and price impact
+* **Multi-Wallet Trading:** Automatically coordinates multiple wallets for buy and sell operations
+* **Flexible Settings:** Customize trade amounts, execution intervals, and run count
+* **Automated Cycles:** Start continuous trading with one click and reduce manual operation
+* **Local Signing:** Private keys are used locally for transaction authorization and are not uploaded
 
 ***
 
-## **Step by Step |** PumpFun Micro Trading
+## Step by Step
 
 {% stepper %}
 {% step %}
 ### Connect Wallet
 
-Click the button in the top right corner to connect a wallet that supports the Solana network.
+Click the button in the top right corner, and connect a wallet that supports the Solana network.
 
-<figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Select a Token to trade
+### Select Token
 
-You can choose to enter the token address, or select a token currently owned by your wallet to perform the buy operation.
+Enter a token address or select a token held in the connected wallet. The system will automatically identify the quote token and locate the corresponding liquidity pool.
 
-<figure><img src="../../../.gitbook/assets/image (815).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1163).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Input Trading Wallet Private Key
+### Import Private Keys
 
 {% hint style="danger" %}
-<mark style="color:$danger;">**Security Tips**</mark>
-
-Currently supports private key import only. Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
+Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
 {% endhint %}
 
 {% hint style="info" %}
 <mark style="color:$primary;">**Trading Wallet Setting**</mark>
 
-There are no quantity limits on importing wallets using private keys for **PumpFun Micro Trading**. Transaction fees are paid independently by each wallet.
+There are no quantity limits on importing wallets. Transaction fees are paid independently by each wallet.
 {% endhint %}
 
-Supports two methods for importing sending private key: **"Manual Input"** and **"Upload File"**. Select an option to view the detailed tutorial.
+Add them **Manually Input** or **Upload File**. Click to view the guide.
 
 {% tabs %}
 {% tab title="Manual Input" %}
-1. Click the **"Manual Input"** button to open the input field.
+1. Click the "Bulk Input" button to open the input field.
 
-<figure><img src="../../../.gitbook/assets/image (874).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1184).png" alt=""><figcaption></figcaption></figure>
 
-2. Enter / bulk paste private keys, one private key per line. Press Enter to start a new line.
+2. Enter / paste wallet private keys, one per line.
 
-<figure><img src="../../../.gitbook/assets/image (801).png" alt=""><figcaption></figcaption></figure>
+```
+privateKey
+```
 
-3. Click **"OK"** to import all entered addresses into the operation panel.
+<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (877).png" alt=""><figcaption></figcaption></figure>
+3. Click "Import" to import all entered wallets into the operation panel.
+
+<figure><img src="../../../.gitbook/assets/image (1166).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Upload File" %}
-1. Click the **"Upload File"** button to open the file upload window.
+1. Download the CiaoTool template and fill in the transfer details.
 
-<figure><img src="../../../.gitbook/assets/image (875).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1185).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (804).png" alt=""><figcaption></figcaption></figure>
+2. Click ![](<../../../.gitbook/assets/image (7).png>)"Import File" button to open the input field.
+3. Click "Import" to import all entered wallets into the operation panel.
 
-2. Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.   \
-   Click to download and view the template:
-
-{% file src="../../../.gitbook/assets/Solana_privateKey_demo.xlsx" %}
-
-<figure><img src="../../../.gitbook/assets/image (805).png" alt=""><figcaption></figcaption></figure>
-
-3. Click **"OK"** to import all entered addresses into the operation panel.
-
-<figure><img src="../../../.gitbook/assets/image (876).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1165).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 {% endstep %}
 
 {% step %}
-### Trading Setting
+### Loop Setting
+
+Set the buy price range and wallet execution order. Each transaction will be executed within the specified range.
+{% endstep %}
+
+{% step %}
+### Trade Interval
+
+Set the execution interval between transactions.
+
+* **Fixed:** Transactions are broadcast at fixed intervals.
+* **Random:**&#x54;ransactions are submitted randomly within the specified time range to simulate natural trading activity. Keep the page open during execution.
+{% endstep %}
+
+{% step %}
+### Start Trade
 
 {% hint style="danger" %}
-Closing / refreshing the page will **immediately stop** the bot strategy. Please ensure that the page remains open and running continuously in the background while the strategy is being executed. To ensure necessary strategy execution, **this feature is not recommended for use on mobile devices.**
+Closing or refreshing the page will **stop the bot immediately**. Keep the page open and running in the background while the strategy is active. This feature is **not recommended for mobile devices**.
 {% endhint %}
 
-* **Trading Amount Settings:** The amount range for a single buy and sell operation for each wallet. It can be configured to execute buy and sell operations with a randomized amount within a specified range.
-* **Task Execution Interval:** The transaction interval between each buy and sell operation. It can be configured to execute buy and sell operations at randomized time intervals within a specified range.
-* **Wallet Execution Order:** Configure the sequential execution matrix of your wallets.
-* **Jito MEV Tip:** Maximize your transaction priority and secure your positioning via MEV-resilient packaging, drastically reducing capital slippage and execution failures during rapid trading loops.
-
-<figure><img src="../../../.gitbook/assets/image (878).png" alt=""><figcaption></figcaption></figure>
+Each wallet pays its own transaction fees. After confirming the details, click **“Confirm and Start Micro-Trading”** to launch the trading program.
 {% endstep %}
 
 {% step %}
 ### Confirm
 
-After verifying all details, click the **"Start"** button below and wait for the transaction process to complete.
+The program runs automatically and displays trading activity in real time:
+
+* [x] Successful purchases
+* [x] Successful sales
+* [x] Failed and stopped steps
+
+<figure><img src="../../../.gitbook/assets/image (1186).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -189,7 +192,9 @@ CiaoTool uses a fully client-side signing mechanism. Your private key is never u
 
 ***
 
-**Need help? Join our community for real-time support:**
+## Service Support
+
+Need help? Join our community for real-time support:
 
 <table data-header-hidden><thead><tr><th width="188"></th><th valign="top"></th><th data-hidden></th></tr></thead><tbody><tr><td>Email</td><td valign="top"><a href="mailto:ciaotoolglobal@gmail.com">ciaotoolglobal@gmail.com</a></td><td></td></tr><tr><td>Telegram</td><td valign="top"><a href="https://t.me/ciaotools">https://t.me/ciaotools</a></td><td></td></tr><tr><td>WhatsApp</td><td valign="top"><a href="https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J">https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J</a></td><td></td></tr></tbody></table>
 

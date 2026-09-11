@@ -1,14 +1,13 @@
 ---
 description: >-
-  A multi-wallet batch swap tool for Pump.fun. Enables multiple wallets to
-  simultaneously swap tokens into a target token, improving trading efficiency
-  and execution speed for large-scale transactions.
+  A multi-wallet batch swap tool for Pump.fun and PumpSwap, enabling fast token
+  swaps across multiple wallets.
 ---
 
-# PumpFun - Batch Swap Guide
+# Pump - Batch Swap Guide
 
 {% hint style="info" %}
-**CiaoTool PumpFun Batch Swap** now fully supports all quote tokens, including official **SOL and USDC**.
+**CiaoTool Pump Batch Swap** now fully supports all quote tokens, including official **SOL and USDC**.
 {% endhint %}
 
 ## Overview
@@ -17,7 +16,7 @@ description: >-
 
 The system converts these settings into independent trading tasks and submits them concurrently, reducing repetitive wallet switching, parameter entry, and transaction signing.
 
-Start your Batch Swap on PumpFun with CiaoTool now:
+Start your Batch Swap on PumpFun and PumpSwap with CiaoTool now:
 
 {% embed url="https://ciaotool.io/en/pump/batch-swap" %}
 
@@ -63,7 +62,7 @@ Please ensure a secure environment. Your fund security is our top priority. [Lea
 {% hint style="info" %}
 <mark style="color:$primary;">**Trading Wallet Setting**</mark>
 
-There are no quantity limits on importing wallets for **PumpFun Market Making**. Transaction fees are paid independently by each wallet.
+There are no quantity limits on importing wallets. Transaction fees are paid independently by each wallet.
 {% endhint %}
 
 Add them **Manually Input** or **Upload File**. Click to view the guide.

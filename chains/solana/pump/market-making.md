@@ -1,14 +1,13 @@
 ---
 description: >-
-  An automated market-making and trading tool built for Pump.fun. Increasing
-  token trading activity, simulate real on-chain trading, and improve the
-  natural appearance of market activity and order flow.
+  An automated market-making tool for Pump.fun and PumpSwap that increases
+  trading activity and creates more natural on-chain order flow.
 ---
 
-# PumpFun - Market Making Guide
+# Pump - Market Making Guide
 
 {% hint style="info" %}
-**CiaoTool PumpFun Market Making** now fully supports all quote tokens, including official **SOL and USDC**.
+**CiaoTool Pump Market Making** now fully supports all quote tokens, including official **SOL and USDC**.
 {% endhint %}
 
 ## Overview
@@ -22,7 +21,7 @@ description: >-
 * **Volume Growth:** Use multiple wallets and randomized intervals to increase trading volume and active address count
 * **Automated Market-Making:** Run recurring buy-and-sell cycles with less manual work
 
-Start your Market Making on PumpFun with CiaoTool now:
+Start your Market Making on PumpFun and PumpSwap with CiaoTool now:
 
 {% embed url="https://ciaotool.io/en/pump/market-making" %}
 
@@ -77,7 +76,7 @@ Please ensure a secure environment. Your fund security is our top priority. [Lea
 {% hint style="info" %}
 <mark style="color:$primary;">**Trading Wallet Setting**</mark>
 
-There are no quantity limits on importing wallets for **PumpFun Market Making**. Transaction fees are paid independently by each wallet.
+There are no quantity limits on importing wallets. Transaction fees are paid independently by each wallet.
 {% endhint %}
 
 Add them **Manually Input** or **Upload File**. Click to view the guide.

@@ -1,38 +1,36 @@
 ---
 description: >-
-  An automated new-wallet buying tool for Pump.fun. Creates wallets, executes
-  purchases, and recovers assets automatically. Helps increase unique buyers and
-  improve market activity.
+  An automated new-wallet buying tool for Pump.fun and PumpSwap. Creates
+  wallets, executes purchases, and recovers assets automatically. Helps increase
+  unique buyers and improve market activity.
 ---
 
-# PumpFun - Boost Makers Tutorial
+# Pump - Boost Makers Guide
 
 {% hint style="info" %}
-**CiaoTool PumpFun Boost Makers** now fully supports all quote tokens, including official **SOL and USDC**. Please switch to the specific token page first to perform market management operations, meeting your rapid market-making service needs across various scenarios.
+**CiaoTool Pump Boost Makers** now fully supports all quote tokens, including official **SOL and USDC**.
 {% endhint %}
 
-## Waht is CiaoTool PumpFun Boost Makers?
+## Overview
 
-<figure><img src="../../../.gitbook/assets/image (831).png" alt="CiaoTool Solana Toolkit Page about Pump.fun Boost Makers Feature"><figcaption></figcaption></figure>
+**CiaoTool Pump Trader Booster** is a multi-address automated trading tool for Pump.fun and PumpSwap. It generates new wallets in batches and uses them to purchase a specified token.
 
-**CiaoTool PumpFun Boost Makers** is an on-chain data optimization and automated execution tool custom-built for the **Pump.fun platform** within the Solana ecosystem. It is designed to help users rapidly increase the number of unique purchasing wallets for a designated token with ultra-low capital attrition.
+The system automatically completes the entire process: wallet creation, fund distribution, token purchase, asset consolidation, and account cleanup. After trading, the purchased tokens and remaining SOL are transferred to a designated main wallet. Eligible temporary Token Accounts are then closed, and their recoverable account rent is refunded.
 
-The core mechanism of this feature lies in a complete "fully automated execution closed-loop": the system automatically creates brand-new wallet addresses in batches at the underlying level, and controls these new addresses to execute token buy operations on the order book. Upon completion of the purchase interaction, the system automatically and securely transfers the purchased tokens along with the remaining funds into a master wallet specified by the user, while synchronously sending commands to the Solana network to close these temporary accounts. This mechanism not only leaves authentic new address purchase records on-chain, but also reclaims on-chain rent by destroying the accounts, thereby making the project's activity data stand out in the market at an ultra-low cost.
+Start your Boost Makers on PumpFun and PumpSwap with CiaoTool now:
 
-Start your Boost Makers on PumpFun with CiaoTool now:
-
-{% embed url="https://ciaotool.io/en-US/pump/newaddr-buyers-markers" %}
+{% embed url="https://ciaotool.io/en/pump/newaddr-buyers-markers" %}
 
 ***
 
-## Why Choose CiaoTool PumpFun Boost Makers?
+## Advantage
 
-CiaoTool provides a professional solution for data optimization on the Pump.fun platform, balancing ultra-low costs with high execution efficiency. For users who need to rapidly increase active buyer metrics on the order book, this tool builds a robust automated defense:
-
-* **Fully Automated Closed-Loop Execution:** With one click, it automatically completes the entire process of "generating new addresses, executing purchases, consolidating assets, and closing accounts," completely eliminating tedious manual address management and funds collection operations.
-* **Ultra-Low Cost to Boost Makers:** Through the underlying mechanism of closing temporary accounts immediately after execution, it effectively reclaims account rent on the Solana chain, rapidly increasing the number of unique buyers with ultra-low capital consumption.
-* **Optimize Market Data Performance:** Through massive authentic new address purchase interactions, it significantly boosts the active trader metrics of tokens on various market tracking platforms, improving market data presentation.
-* **Secure Local Environment:** Utilizing a pure front-end local execution mechanism, all temporarily generated private keys and the master wallet private key are used exclusively within the local environment for transaction signing, comprehensively guaranteeing the absolute security of consolidated assets.
+* **End-to-End Automation:** Completes wallet creation, fund distribution, purchasing, consolidation, and account cleanup in one workflow
+* **Batch Address Interaction:** Enables multiple new wallets to complete on-chain purchases
+* **Lower Account Costs:** Closes zero-balance temporary Token Accounts and recovers refundable rent
+* **Centralized Asset Consolidation:** Transfers purchased tokens and remaining funds to a designated wallet
+* **Trackable Process:** Displays transaction status, purchase results, and consolidation records for each address
+* **Local Signing:** Temporary and main wallet private keys are used only for transaction authorization within the browser
 
 ***
 
@@ -45,67 +43,85 @@ CiaoTool provides a professional solution for data optimization on the Pump.fun 
 
 ***
 
-## **Step by Step | PumpFun** **Boost Makers**
+## Step by Step
 
 {% stepper %}
 {% step %}
 ### Connect Wallet
 
-Click the button in the top right corner to connect a wallet that supports the Solana network.
+Click the button in the top right corner, and connect a wallet that supports the Solana network.
 
-<figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Select a Token to trade
+### Select Token
 
-You can choose to enter the token address, or select a token currently owned by your wallet to perform the buy operation.
+Enter a token address or select a token held in the connected wallet. The system will automatically identify the quote token and locate the corresponding liquidity pool.
 
-<figure><img src="../../../.gitbook/assets/image (828).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1163).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Select Number of Buy Addresses
-
-Choose or enter the number of buy addresses to increase the number of makers.
-
-<figure><img src="../../../.gitbook/assets/image (829).png" alt=""><figcaption></figcaption></figure>
-{% endstep %}
-
-{% step %}
-### Enter Buy Amount
-
-Set the amount each new wallet will spend on purchases. You can also define a range for randomized buy amounts within the specified limits.
-{% endstep %}
-
-{% step %}
-### Enter Main Wallet PrivateKey
+### Buy Funding Wallet
 
 {% hint style="danger" %}
-<mark style="color:$danger;">**Security Tips**</mark>
-
-Currently supports private key import only. Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
+Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
 {% endhint %}
 
-{% hint style="info" %}
-<mark style="color:$primary;">**Main Wallet Settings**</mark>
+The **Main Wallet** pays all on-chain fees, refundable SOL account rent, and platform service fees. Ensure its balance exceeds the estimated fee shown on the page to avoid execution failure.
 
-On-chain fees generated by purchases, SOL account rent (automatically refunded), and platform service fees are all paid uniformly by the master wallet. An estimated required balance will be displayed at the bottom of the page. Please ensure that the master wallet balance is higher than the estimated amount, otherwise, it may result in transaction failure.
+Each new address requires **0.00203928 SOL** in account rent, which will be automatically returned to the Main Wallet after completion.
+{% endstep %}
 
-Each new address requires a payment of **0.00203928 SOL** for **SOL account rent**, which is automatically refunded to the master wallet once the transaction process is complete.
+{% step %}
+### Generate and Buy Amount
+
+{% hint style="danger" %}
+**Download Wallets**
+
+Please download and securely save the newly generated wallet information to prevent asset loss if the network disconnects or the page closes.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (830).png" alt=""><figcaption></figcaption></figure>
+#### Number of New Addresses
+
+Generate the specified number of new wallets and execute purchases to increase the number of traders.
+
+#### Trade Amount
+
+Set the purchase amount for each new wallet:
+
+* **Fixed Amount:** All new wallets buy the token with the specified amount.
+* **Random Amount:** Each new wallet buys the token with a random amount within the specified range.
+
+#### Trade Interval
+
+Set the transaction interval for new addresses:
+
+* **Fixed Interval:** Transactions are submitted at a fixed interval.
+* **Random Interval:** Transactions are submitted randomly within the specified time range.
 {% endstep %}
 
 {% step %}
 ### Confirm
 
+The program runs automatically. Review the following on the confirmation page:
+
+* [x] Number of new addresses
+* [x] Purchase amount
+* [x] Estimated fees
+
+<figure><img src="../../../.gitbook/assets/image (1187).png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Start Trade
+
 {% hint style="danger" %}
-Closing / refreshing the page will **immediately stop** the bot strategy. Please ensure that the page remains open and running continuously in the background while the strategy is being executed. To ensure necessary strategy execution, **this feature is not recommended for use on mobile devices.**
+Closing or refreshing the page will **stop the bot immediately**. Keep the page open and running in the background while the strategy is active. This feature is **not recommended for mobile devices**.
 {% endhint %}
 
-After verifying all details, click the **"Start"** button below and wait for the transaction process to complete.
+Each wallet pays its own transaction fees. After confirming the details, click **“Confirm”** to launch the trading program.
 {% endstep %}
 {% endstepper %}
 
@@ -157,7 +173,9 @@ CiaoTool uses a fully client-side signing mechanism. Your private key is never u
 
 ***
 
-**Need help? Join our community for real-time support:**
+## Service Support
+
+Need help? Join our community for real-time support:
 
 <table data-header-hidden><thead><tr><th width="188"></th><th valign="top"></th><th data-hidden></th></tr></thead><tbody><tr><td>Email</td><td valign="top"><a href="mailto:ciaotoolglobal@gmail.com">ciaotoolglobal@gmail.com</a></td><td></td></tr><tr><td>Telegram</td><td valign="top"><a href="https://t.me/ciaotools">https://t.me/ciaotools</a></td><td></td></tr><tr><td>WhatsApp</td><td valign="top"><a href="https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J">https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J</a></td><td></td></tr></tbody></table>
 

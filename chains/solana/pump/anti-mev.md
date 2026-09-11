@@ -1,14 +1,13 @@
 ---
 description: >-
-  An anti-MEV trading tool for Pump.fun. Executes buy and sell transactions
-  within the same block to reduce MEV interference and capital loss. Helps
-  increase trading volume and improve market activity.
+  An anti-MEV tool for Pump.fun and PumpSwap that bundles buys and sells in one
+  block, reducing interference and trading costs while boosting market activity.
 ---
 
-# PumpFun - Anti-MEV Volume Bot Guide
+# Pump - Anti-MEV Volume Bot Guide
 
 {% hint style="info" %}
-**CiaoTool PumpFun Anti-MEV Volume Bot** now fully supports all quote tokens, including official **SOL and USDC**Please switch to the specific token page first to perform market management operations, meeting your rapid market-making service needs across various scenarios.
+**CiaoTool Pump Anti-MEV Volume Bot** now fully supports all quote tokens, including official **SOL and USDC**
 {% endhint %}
 
 ## Overview
@@ -17,7 +16,7 @@ description: >-
 
 The tool uses same-block transaction bundling, combining related buy and sell transactions into a Bundle and executing them consecutively in a predefined order. This reduces the opportunity for MEV bots to insert transactions between trades, helping limit slippage and capital loss during high-frequency execution.
 
-Start your Anti-EVM Volume Bot on PumpFun with CiaoTool now:
+Start your Anti-EVM Volume Bot on PumpFun and PumpSwap with CiaoTool now:
 
 {% embed url="https://ciaotool.io/en/pump/anti-mev" %}
 
@@ -125,21 +124,8 @@ Set the execution interval between transactions.
 {% step %}
 ### Send Method
 
-* **RPC:** Uses best-effort execution without a Jito tip. Buy and\_nf sell transactions are broadcast together but may not land in the same block, creating a risk of bot interference and potential losses.
+* **RPC:** Uses best-effort execution without a Jito tip. Buy and sell transactions are broadcast together but may not land in the same block, creating a risk of bot interference and potential losses.
 * **Jito Bundle:** Uses a Jito tip to bundle the buy and sell transactions together, reducing sniping risk and improving and improving improving landing priority at an additional cost.
-{% endstep %}
-
-{% step %}
-### Start Swap
-
-The program runs automatically. On the confirmation page, review:
-
-* [x] Active wallets and number of transactions
-* [x] Estimated fees
-
-Each wallet pays its own transaction fees.
-
-<figure><img src="../../../.gitbook/assets/image (1178).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
