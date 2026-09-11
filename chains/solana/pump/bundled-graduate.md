@@ -149,7 +149,7 @@ privateKey, 300
 
 当代币迁移至外盘 PumpSwap 时，同步狙击的钱包私钥，获得底部筹码的同时活跃代币。
 
-外盘买入数量没有限制。
+外盘买入代币数量没有限制。
 
 <figure><img src="../../../.gitbook/assets/image (932).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
