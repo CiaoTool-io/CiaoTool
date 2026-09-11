@@ -5,147 +5,170 @@ description: >-
   migration.
 ---
 
-# PumpFun - Bundled Graduate Tutorial
+# PumpFun - Bundled Buy, Graduate and Snipe Bot Guide
 
 {% hint style="info" %}
-**CiaoTool PumpFun Bundled Graduate** now fully supports all quote tokens, including official **SOL and USDC**. Please switch to the specific token page first to perform market management operations, meeting your rapid market-making service needs across various scenarios.
+**CiaoTool PumpFun Bundled Graduate** now fully supports all quote tokens, including official **SOL and USDC**.&#x20;
 {% endhint %}
 
-## What is CiaoTool PumpFun Bundled Graduate?
+## Overview
 
-<figure><img src="../../../.gitbook/assets/屏幕截图 2026-06-12 155727.png" alt="CiaoTool Solana Toolkit Page about PumpFun Bundled Graduate Feature"><figcaption></figcaption></figure>
+CiaoTool PumpFun Bundled Buy & Migration is an automated tool for tokens that are **already live on Pump.fun but have not yet migrated**. The token does not need to be recreated.
 
-**PumpFun Bundled Graduate (Bundled & Migrated Buy)** is an elite liquidity orchestration protocol designed specifically for tokens already active on Pump.fun but yet to migrate their liquidity.
+The system calculates the remaining Bonding Curve progress and bundles the following operations in order:
 
-Unlike standard meme deployment utilities, this feature sharpens its focus entirely on the precise cross-market transition from the internal bonding curve to the external DEX. It empowers teams at any viable stage of a token’s lifecycle to forcibly bind two mission-critical operations via Jito's bundling matrix, executing them with absolute atomicity inside the exact same block:
+1. **Bundled Bonding Curve Buys:** Multiple wallets purchase the remaining amount required to reach the platform’s migration threshold.
+2. **Migration and PumpSwap Buy:** After liquidity is migrated, a designated wallet buys the token on PumpSwap.
 
-1. **Multi-Address Curve Exhaustion:** Automatically calculates remaining curve quota and deploys multiple wallets to snap it up, instantly hitting the 85 SOL threshold to trigger automated migration.
-2. **Synchronized DEX Snipe:** Executes your sniper buy orders at the tail end of the exact same migration block, capturing the absolute opening DEX supply before external bots can parse it.
+When successfully executed, all transactions in the Bundle are completed in the predefined order within the same block. If any critical transaction fails, the entire Bundle is not executed.
 
 Start your Bundled Graduate on PumpFun with CiaoTool now:
 
-{% embed url="https://ciaotool.io/en-US/pump/bundled-graduate" %}
+{% embed url="https://ciaotool.io/en/pump/bundled-graduate" %}
 
 ***
 
-## Why Choose CiaoTool PumpFun Bundled Graduate
+## Advantage
 
-**An industry-first launch optimization tool on Solana.** It breaks the limitation of traditional tools by allowing teams to flexibly intervene at any stage of an active bonding curve, bundling curve finality and external listing sniping into a single on-chain block.
-
-*   **Universal Compatibility**
-
-    Not restricted to tokens deployed via CiaoTool. As long as the token is still on the bonding curve, you can deploy this sniping strategy at any moment.
-* **Single-Block Atomic Linkage**\
-  Bridges the gap between curve finality and external opening. Combined in one block, it bars external bots from injecting orders, eliminating front-running.
-* **Decoupled Campaign Freedom**\
-  Fully independent of token creation. Focus on early community warming and holder accumulation first, then execute graduation-and-snipe whenever ready.
-* **Client-Side Security**\
-  Absolute local isolation. Private keys and signatures execute solely within your browser—zero server uploads, guaranteeing total capital safety.
+* **Supports Existing Tokens:** Works with compatible tokens still in the Bonding Curve stage
+* **Automatic Amount Calculation:** Estimates the amount required to reach the migration threshold using real-time on-chain data
+* **Multi-Wallet Execution:** Configure multiple Bonding Curve buying wallets and individual purchase amounts
+* **Connected Migration Flow:** Bundles Bonding Curve purchases, liquidity migration, and the PumpSwap purchase in order
+* **Impro Finder? Landing Priority:** Uses a Jito tip to improve Bundle landing priority
+* **Local Signing:** Transactions are signed locally in the browser, and private keys are not uploaded
 
 ***
 
-## **Step by Step |** PumpFun Bundled Graduate
+## Technology Workflow
+
+#### Traditional Token Launch
+
+{% columns %}
+{% column %}
+Multi-wallet purchases, DEX migration, and post-migration purchases are broadcast separately and confirmed independently. Their execution order and inclusion in adjacent blocks cannot be guaranteed.
+
+If other transactions are inserted during execution, the token price may change, increasing purchase costs and reducing the number of tokens received by later wallets.
+
+During migration, bots may front-run transactions, resulting in fewer tokens received and potential losses.
+{% endcolumn %}
+
+{% column %}
+<figure><img src="../../../.gitbook/assets/image (1161).png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
+
+#### Bundled Token Launch
+
+{% columns %}
+{% column %}
+The process is executed in two bundled stages:
+
+* **Launch Stage:** Purchases from eight wallets are bundled and executed consecutively within the same block in a predefined order, filling the Bonding Curve and triggering migration.
+* **Migration Stage:** The DEX migration and designated wallet purchase are bundled and executed in sequence within the same block.
+
+This reduces transaction gaps and the risk of other transactions being inserted during migration, improving execution consistency, landing priority, and profit potential.
+{% endcolumn %}
+
+{% column %}
+<figure><img src="../../../.gitbook/assets/image (1162).png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
+
+***
+
+## Step by Step
 
 {% stepper %}
 {% step %}
-### **Connect Wallet**
+### Connect Wallet
 
-Click the button in the top right corner to connect a wallet that supports the Solana network.
+Click the button in the top right corner, and connect a wallet that supports the Solana network.
 
-<figure><img src="../../../.gitbook/assets/image (757).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Input Bonding Curve Buyer Wallet Private Key
+### Bonding Curve Private Keys
 
 {% hint style="danger" %}
-<mark style="color:$danger;">**Security Tips**</mark>
-
-Currently supports private key import only. Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
+Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
 {% endhint %}
 
-Supports a maximum of **12 bundled wallets** for purchasing on the Pump.fun bonding curve. The combined buy volume of  bundled wallets must exceed **85 SOL** to systematically trigger the graduation/migration protocol.
-
-Supports two methods for importing sending private key: **"Manual Input"** and **"Upload File"**. Select an option to view the detailed tutorial.
+Up to **8 wallets** to bundled buy. Add them **Manually Input** or **Upload File**. Click to view the guide.
 
 {% tabs %}
 {% tab title="Manual Input" %}
-1. Click the **"Manual Input"** button to open the input field.
+1. Click the "Bulk Input" button to open the input field.
 
-<figure><img src="../../../.gitbook/assets/image (896).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1155).png" alt=""><figcaption></figcaption></figure>
 
-2. Enter / bulk paste private keys, one private key per line. Press Enter to start a new line.
+2. Enter / paste wallet private keys, one per line. Optionally add the transfer amount after each wallet.
 
-<figure><img src="../../../.gitbook/assets/image (787).png" alt=""><figcaption></figcaption></figure>
+```
+privateKey, 300
+```
 
-3. Click **"OK"** to import all entered addresses into the operation panel.
+<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (887).png" alt=""><figcaption></figcaption></figure>
+3. Click "Import" to import all entered wallets into the operation panel.
+
+<figure><img src="../../../.gitbook/assets/image (1123).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Upload File" %}
-1. Click the **"Upload File"** button to open the file upload window.
+1. Download the CiaoTool template and fill in the transfer details.
 
-<figure><img src="../../../.gitbook/assets/image (897).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1156).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (790).png" alt=""><figcaption></figcaption></figure>
+2. Click ![](<../../../.gitbook/assets/image (7).png>)"Import File" button to open the input field.
+3. Click "Import" to import all entered wallets into the operation panel.
 
-2. Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.   \
-   Click to download and view the template:
-
-{% file src="../../../.gitbook/assets/Solana_privateKey_demo.xlsx" %}
-
-<figure><img src="../../../.gitbook/assets/image (791).png" alt=""><figcaption></figcaption></figure>
-
-3. Click **"OK"** to import all entered addresses into the operation panel.
-
-<figure><img src="../../../.gitbook/assets/image (886).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1124).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 {% endstep %}
 
 {% step %}
-### Enter Buy Amount
+### Enter  Amount
 
-Supports three buy amount types: **"Individual Input", "Amount",** **"Percentage"** and **"All"**.
+The system checks the current Bonding Curve status in real time and calculates the amount required to complete it. The total purchase amount across bundled wallets must exceed the displayed amount.
 
-1.  **Individual Input**\
-    In the input fields, enter the buy amount for each address one by one.
+Choose from 2 amount options: **Individual, or Fixed**.
 
-    <figure><img src="../../../.gitbook/assets/image (846).png" alt=""><figcaption></figcaption></figure>
-2. **Amount:**\
-   Click the **"Batch Input"** button above the buy amount, select the "Amount" option, and enter the amount. All addresses will then have a uniform buy amount applied.
-3. **Percentage:**\
-   Click the **"Batch Input"** button above the buy amount, select the "Percentage" option, and enter the percentage parameter. All addresses will then execute the buy operation based on the specified percentage of their respective balances.
-4. **All Amount**\
-   All wallets will buy 100% of their token holdings into the designated token.
+1. **Individual**\
+   Enter a different amount for each address.
+2. **Fixed Amount**\
+   Click ![](<../../../.gitbook/assets/image (8).png>) above “Amount”, and select “Fixed Amount” to apply the same amount to all addresses.
 {% endstep %}
 
 {% step %}
-### Input DEX Buyer Wallet Private Key
+### Migration Snipe Wallet
 
-* **Wallet Addresses for Migration Snipe:** Configure the sniper wallet addresses to execute buy orders the exact moment the token migrates to Raydium/PumpSwap.
-* **Snipe Amount Setting:** Specify the exact purchase amount (in SOL) for each sniper walle
+Enter the private keys of the wallets that will snipe the token when it migrates to PumpSwap, securing early positions while boosting initial activity.
 
-<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+No limit on the token purchase amount on PumpSwap.
+
+<figure><img src="../../../.gitbook/assets/image (1160).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Set Jito Tip
-
-Configure Jito MEV tips to accelerate transaction packaging and maximize sequence priority.
+### Jito Tips
 
 {% hint style="danger" %}
-This feature relies entirely on Jito’s bundling capabilities. Due to the complex interplay of network volatility, Jito nodes, RPC providers, and block engines, bundled transactions may experience a higher failure rate.
-
-If the execution fails, the token will NOT be launched and zero fees will be incurred (atomic reversion). To resolve this, please try switching your RPC node or block engine, increasing the Jito tip (0.001 SOL recommended), or re-executing during periods of lower network congestion.
+This feature uses Jito Bundles and may fail due to network, RPC, or Block Engine conditions. If the Bundle does not land, the token will not be created and no on-chain fees will be charged. Try another RPC or Block Engine, increase the Jito tip, or retry later.
 {% endhint %}
+
+Use a Jito tip to bundle token creation and multi-wallet transactions, reducing sniping risk and improving landing priority at an additional cost.
+
+<figure><img src="../../../.gitbook/assets/image (1158).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ### Confirm
 
-After verifying all details, click the **"Pump Bundled Buy and Snipe"** button below and wait for the transaction process to complete.
+After confirming the details, click **“Create and Buy”** to track the creation progress and result in real time.
+
+<figure><img src="../../../.gitbook/assets/image (1148).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 

@@ -5,44 +5,40 @@ description: >-
   natural appearance of market activity and order flow.
 ---
 
-# PumpFun - Market Making Tutorial
+# PumpFun - Market Making Guide
 
 {% hint style="info" %}
-**CiaoTool PumpFun Market Making** now fully supports all quote tokens, including official **SOL and USDC**. Please switch to the specific token page first to perform market management operations, meeting your rapid market-making service needs across various scenarios.
+**CiaoTool PumpFun Market Making** now fully supports all quote tokens, including official **SOL and USDC**.
 {% endhint %}
 
-## What is CiaoTool PumpFun Market Making?
+## Overview
 
-<figure><img src="../../../.gitbook/assets/image (793).png" alt="CiaoTool Solana Toolkit Page about PumpFun Market Making Feature"><figcaption></figcaption></figure>
+**CiaoTool Pump Market Making** is an automated market-making and liquidity management tool for Pump.fun and PumpSwap. Users can customize trade amounts, execution frequency, wallet count, and buy/sell strategies, while the system coordinates multiple wallets to execute trades continuously, increase market activity, and optimize overall data performance.
 
-**CiaoTool PumpFun Market Marking** is an advanced automated market-making and liquidity optimization tool custom-built for the Solana ecosystem. It allows project teams and professional groups to fully automate the execution of advanced market-making strategies on **Pump.fun** by customizing trading parameters, thereby safely and robustly managing token order book depth and market activity.
+**Use Cases:**
 
-Compared to manual trading, which is cumbersome and difficult to control precisely, the core advantage of this feature lies in its fully automated strategy execution engine. The system can intelligently schedule multiple wallet addresses to conduct continuous, natural, two-way buy and sell interactions based on a set frequency and scale. This not only effectively optimizes the token's holder distribution and unique trading address structure, but also makes on-chain trading behaviors closer to authentic, natural market participation, comprehensively enhancing the naturalness of overall data performance.
-
-Key Use Cases:
-
-* **Smart Price Boosting**\
-  Steadily optimizing the token's price presentation through reasonable order book interaction parameters.
-* **Smooth and Orderly Retracement**\
-  Smoothly managing the price retracement trajectory to prevent drastic market volatility.
-* **Continuous Activity Enhancement**\
-  Executing buy and sell operations through multi-address and randomized interval mechanisms to steadily increase trading volume and comprehensively optimize the naturalness of order book data performance.
+* **Price Boosting:** Use continuous, staged purchases to strengthen buying pressure and support steady price growth
+* **Controlled Pullback:** Execute sales at predefined intervals to manage the scale of price corrections
+* **Volume Growth:** Use multiple wallets and randomized intervals to increase trading volume and active address count
+* **Automated Market-Making:** Run recurring buy-and-sell cycles with less manual work
 
 Start your Market Making on PumpFun with CiaoTool now:
 
-{% embed url="https://ciaotool.io/en-US/pump/market-making" %}
+{% embed url="https://ciaotool.io/en/pump/market-making" %}
 
 ***
 
-## Why Choose CiaoTool PumpFun Market Making?
+## Advantage
 
-**CiaoTool** provides a professional market-making solution for asset management and long-term growth on the Solana chain, balancing intelligence and security. Whether you need to optimize early-stage liquidity presentation, steadily boost daily on-chain activity, or execute complex multi-address trading strategies, its market management feature guarantees precise and efficient strategy execution through fully automated parameter configurations.
-
-Custom-built for the Pump.fun trading environment, it transforms complex market-making logic into a one-click, intelligent workflow. Combined with a pure front-end, local private-key signing mechanism for security, it exponentially saves team operational time and eliminates tedious manual operations, while constructing a secure, compliant, and highly cost-effective liquidity management defense line for Web3 project teams.
+* **Multiple Strategies:** Supports price boosting, controlled pullbacks, and trading volume strategies
+* **Flexible Settings:** Customize amounts, frequency, intervals, execution count, and participating wallets
+* **Multi-Wallet Coordination:** Manage multiple addresses and execute predefined trading strategies
+* **Automated Operation:** Start tasks with one click and continuously track their status and results
+* **Local Signing:** Private keys are used only for transaction authorization within the browser and are not uploaded
 
 ***
 
-## **Video Tutorial |** PumpFun Market Making
+## Video Tutorial
 
 {% hint style="info" %}
 The Market Making function pages for all platforms on the Solana chain are identical. You can watch the "Solana Market Management" video tutorial below to learn more about the detailed steps of the market management feature.
@@ -52,9 +48,109 @@ The Market Making function pages for all platforms on the Solana chain are ident
 
 ***
 
-## **Step by Step |** PumpFun Market Making
+## Step by Step
 
 {% stepper %}
+{% step %}
+### Connect Wallet
+
+Click the button in the top right corner, and connect a wallet that supports the Solana network.
+
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Select Token
+
+Enter a token address or select a token held in the connected wallet. The system will automatically identify the quote token and locate the corresponding liquidity pool.
+
+<figure><img src="../../../.gitbook/assets/image (1163).png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Import Private Keys
+
+{% hint style="danger" %}
+Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
+{% endhint %}
+
+{% hint style="info" %}
+<mark style="color:$primary;">**Trading Wallet Setting**</mark>
+
+There are no quantity limits on importing wallets for **PumpFun Market Making**. Transaction fees are paid independently by each wallet.
+{% endhint %}
+
+Add them **Manually Input** or **Upload File**. Click to view the guide.
+
+{% tabs %}
+{% tab title="Manual Input" %}
+1. Click the "Bulk Input" button to open the input field.
+
+<figure><img src="../../../.gitbook/assets/image (1155).png" alt=""><figcaption></figcaption></figure>
+
+2. Enter / paste wallet private keys, one per line.
+
+```
+privateKey
+```
+
+<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+3. Click "Import" to import all entered wallets into the operation panel.
+
+<figure><img src="../../../.gitbook/assets/image (1166).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+
+{% tab title="Upload File" %}
+1. Download the CiaoTool template and fill in the transfer details.
+
+<figure><img src="../../../.gitbook/assets/image (1164).png" alt=""><figcaption></figcaption></figure>
+
+2. Click ![](<../../../.gitbook/assets/image (7).png>)"Import File" button to open the input field.
+3. Click "Import" to import all entered wallets into the operation panel.
+
+<figure><img src="../../../.gitbook/assets/image (1165).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+{% endtabs %}
+{% endstep %}
+
+{% step %}
+### Enter  Amount
+
+Choose from 2 amount options: **Individual, or Fixed**. Dev and bundled wallets purchases are limited to **86 SOL** in total.
+
+1. **Individual**\
+   Enter a different amount for each address.
+2. **Fixed Amount**\
+   Click ![](<../../../.gitbook/assets/image (8).png>) above “Amount”, and select “Fixed Amount” to apply the same amount to all addresses.
+{% endstep %}
+
+{% step %}
+### Auto Sell
+
+During the bonding curve phase, all bundled wallets automatically sell when the token reaches the target gain from the initial purchase price.
+{% endstep %}
+
+{% step %}
+### Jito Tips
+
+{% hint style="danger" %}
+This feature uses Jito Bundles and may fail due to network, RPC, or Block Engine conditions. If the Bundle does not land, the token will not be created and no on-chain fees will be charged. Try another RPC or Block Engine, increase the Jito tip, or retry later.
+{% endhint %}
+
+Use a Jito tip to bundle token creation and multi-wallet transactions, reducing sniping risk and improving landing priority at an additional cost.
+
+<figure><img src="../../../.gitbook/assets/image (1158).png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Confirm
+
+After confirming the details, click **“Create and Buy”** to track the creation progress and result in real time.
+
+<figure><img src="../../../.gitbook/assets/image (1148).png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+
 {% step %}
 ### Connect Wallet
 

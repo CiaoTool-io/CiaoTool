@@ -5,10 +5,10 @@ description: >-
   optimize token distribution.
 ---
 
-# PumpFun - Bundler Tutorial
+# PumpFun - Bundler Guide
 
 {% hint style="info" %}
-**CiaoTool PumpFun Bundler** now fully supports all quote tokens, including official **SOL and USDC**. Please switch to the specific token page first to perform market management operations, meeting your rapid market-making service needs across various scenarios.
+**CiaoTool PumpFun Bundler** now fully supports all quote tokens, including official **SOL and USDC**.
 {% endhint %}
 
 ## Overview

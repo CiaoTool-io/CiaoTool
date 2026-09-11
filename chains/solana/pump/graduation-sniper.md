@@ -4,67 +4,93 @@ description: >-
   multi-wallet purchases, and PumpSwap sniping to help secure early positions.
 ---
 
-# PumpFun - Graduation Sniper Tutorial
+# PumpFun - PumpFun Create, Graduate and Snipe Bot Guide
 
 {% hint style="info" %}
-**CiaoTool PumpFun Graduation Sniper** now fully supports all quote tokens, including official **SOL and USDC**. Please switch to the specific token page first to perform market management operations, meeting your rapid market-making service needs across various scenarios.
+**CiaoTool PumpFun Create, Graduate and Snipe Bot** now fully supports all quote tokens, including official **SOL and USDC**.
 {% endhint %}
 
-## What is CiaoTool PumpFun Graduation Sniper?
+## Overview
 
-<figure><img src="../../../.gitbook/assets/image (898).png" alt="CiaoTool Solana Toolkit Page about PumpFun Graduation Sniper Feature"><figcaption></figcaption></figure>
+**CiaoTool PumpFun Create, Graduate & Buy Bot** is a two-stage automation tool covering token creation, Bonding Curve purchases, and post-migration purchases. It reduces manual operations and waiting between stages.
 
-The CiaoTool PumpFun Graduation Sniper is an elite launch and position-building engine that deeply integrates token deployment with multi-stage automated buying. Breaking the limitations of traditional siloed tools, it compresses the entire execution span—from internal market genesis to external market migration—into a single, indivisible blockchain block. This tool builds an ironclad, automated defense line that guarantees front-running protection and optimal holder distribution at the absolute birth of a token.
+The process consists of two independent Bundles:
 
-Core Execution Stages
-
-1.  **Bonding Curve Bundle**
-
-    Utilizing Jito's bundling protocols at the infrastructure layer, the system seamlessly packages the token deployment command and the primary batch of independent buying wallets into the exact same block. This ensures that the moment the token is born, the team’s pre-configured wallets execute instantly to fill the bonding curve and trigger migration, locking in the absolute initial floor price.
-2. **PumpSwap Migration Snipe**\
-   The exact microsecond the platform migrates liquidity to PumpSwap, the pre-configured sniper wallet transactions are already tightly locked at the tail end of that very same block. This means that while the external liquidity pool is freshly deployed—and before public sniper bots can even parse the chain data—the team's capital has already snipped the initial external supply, flawlessly executing a full-lifecycle token allocation loop.
+1. **Creation and Bonding Curve Buys:** Token creation and multi-wallet Bonding Curve purchases are bundled in a predefined order and normally execute consecutively within the same block.
+2. **Migration and Post-Migration Buy:** Once the token meets the graduation requirements, the PumpSwap migration and designated wallet purchase are submitted as a new Bundle and normally execute in sequence within the same block.
 
 Start your Graduation Sniper on PumpFun with CiaoTool now:
 
-{% embed url="https://ciaotool.io/en-US/pump/graduation-sniper" %}
+{% embed url="https://ciaotool.io/en/pump/graduation-sniper" %}
 
 ***
 
-## Why Choose CiaoTool PumpFun Graduation Sniper？
+## Advantage
 
-An industry-first, pinnacle launch engine on Solana. Graduation Sniper compresses the entire lifecycle—from token creation and filling the bonding curve to protocol migration and the first external DEX snipe—into a single on-chain block, erecting an unbreachable fortress against snipers.
-
-*   **Single-Block Aggregation**
-
-    Unified execution of deployment, migration, and sniping within one block. No external bot can insert transactions—front-running is completely neutralized.
-* **Zero Bonding Time**
-* Instantly max out the curve to bypass malicious swing bots, locking in the absolute floor price internally and the pristine opening price externally.
-* **Automated Matrix Orchestration**\
-  Automated asset routing, quota calculation, and cross-market sniping with zero broken strategies or latency gaps.
-* **Client-Side Security**\
-  Strict local isolation. All private keys and signatures execute solely within your browser—zero server uploads, guaranteeing source-level safety.
+* **Two-Stage Automation:** Connects token creation, Bonding Curve purchases, migration, and post-migration purchases
+* **Ordered Execution:** Submits transactions within each Bundle in a predefined order to reduce execution gaps
+* **Multi-Wallet Configuration:** Set participating wallets and purchase amounts for each stage
+* **Improved Landing Priority:** Uses Jito tips to compete for higher Bundle landing priority
+* **Local Signing:** Transactions are signed locally in the browser, and private keys are not uploaded to the server
 
 ***
 
-## Video Tutorial | PumpFun Graduation Sniper
+## Video Tutorial
 
 {% embed url="https://www.youtube.com/watch?v=MtfL8ynNKmc" %}
 
 ***
 
-## **Step by Step |** PumpFun Graduation Sniper
+## Technology Workflow
+
+#### Traditional Token Launch
+
+{% columns %}
+{% column %}
+Token creation, multi-wallet purchases, DEX migration, and post-migration purchases are broadcast separately and confirmed independently. Their execution order and inclusion in consecutive blocks cannot be guaranteed.
+
+If other transactions are inserted during the process, the token price may change, affecting purchase costs and the number of tokens received by later wallets.
+
+During migration, bots may front-run the purchase, reducing the number of tokens received and causing additional losses.
+{% endcolumn %}
+
+{% column %}
+<figure><img src="../../../.gitbook/assets/image (2).avif" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
+
+#### Bundled Token Launch
+
+{% columns %}
+{% column %}
+The complete process is divided into two Bundles:
+
+* **Launch Stage:** Token creation and purchases from six wallets are bundled and executed consecutively within the same block in a predefined order. These purchases fill the Bonding Curve and trigger the migration process.
+* **Migration Stage:** The DEX migration and designated wallet purchase are bundled again and executed in sequence within the same block.
+
+This significantly reduces transaction gaps and the risk of other transactions being inserted during migration, improving execution consistency, landing priority, and profit potential.
+{% endcolumn %}
+
+{% column %}
+<figure><img src="../../../.gitbook/assets/image (1159).png" alt=""><figcaption></figcaption></figure>
+{% endcolumn %}
+{% endcolumns %}
+
+## Step by Step
 
 {% stepper %}
 {% step %}
-### **Connect Wallet**
+### Connect Wallet
 
-Click the button in the top right corner to connect a wallet that supports the Solana network.
+Click the button in the top right corner, and connect a wallet that supports the Solana network.
 
-<figure><img src="../../../.gitbook/assets/image (757).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Enter Token Information
+### Enter Token Info
+
+<figure><img src="../../../.gitbook/assets/image (1153).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Clone:** Click the **"Clone"** button to copy information from another token.
@@ -74,134 +100,150 @@ Click the button in the top right corner to connect a wallet that supports the S
 * **Token Symbol:** The abbreviation of the token, typically 3 to 6 uppercase letters (e.g., MYT).
 * **LOGO：**&#x55;pload the logo image for your project or token. A recommended dimension is 1000\*1000 pixels.
 * **Description:** A brief introduction to the token's utility, story, or Memecoin background (Optional).
-
-<figure><img src="../../../.gitbook/assets/image (882).png" alt=""><figcaption></figcaption></figure>
-
-* **Social Links:** Although optional, it is highly recommended to fill this in, including Official Website, X / Twitter, and Telegram.
 {% endstep %}
 
 {% step %}
-### Dev Wallet Buy
+### Add Links <mark style="color:$info;">(Ops)</mark>
 
-Uses the currently connected wallet to execute the buy order. Defaults to 0 if left blank.
+Although optional, adding your **website, X / Twitter, and Telegram** is recommended to help improve project credibility.
 
-<figure><img src="../../../.gitbook/assets/image (883).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1154).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Input Bonding Curve Buyer Wallet Private Key
+### Mint Address <mark style="color:$info;">(Ops)</mark>
 
-{% hint style="danger" %}
-<mark style="color:$danger;">**Security Tips**</mark>
+Generate a custom token Mint address to make your token easier to recognize.
 
-Currently supports private key import only. Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
-{% endhint %}
-
-Supports a maximum of **9 bundled wallets** for purchasing on the Pump.fun bonding curve. The combined buy volume of the Dev wallet and bundled wallets must exceed **85 SOL** to systematically trigger the graduation/migration protocol.
-
-Supports two methods for importing sending private key: **"Manual Input"** and **"Upload File"**. Select an option to view the detailed tutorial.
+Customize your personalized token address; setting up a token address incurs **an additional fee of 0.1 SOL**.
 
 {% tabs %}
-{% tab title="Manual Input" %}
-1. Click the **"Manual Input"** button to open the input field.
+{% tab title="Vanity Address" %}
+Set the characters you want at the beginning or end of the address, such as starting with `soL` or ending with `pump`. The tool will continue generating random keypairs until a matching address is found.
 
-<figure><img src="../../../.gitbook/assets/image (896).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1146).png" alt=""><figcaption></figcaption></figure>
 
-2. Enter / bulk paste private keys, one private key per line. Press Enter to start a new line.
+See the related guide for detailed instructions
 
-<figure><img src="../../../.gitbook/assets/image (787).png" alt=""><figcaption></figcaption></figure>
-
-3. Click **"OK"** to import all entered addresses into the operation panel.
-
-<figure><img src="../../../.gitbook/assets/image (887).png" alt=""><figcaption></figcaption></figure>
+{% content-ref url="../wallet-tools/vanity-address.md" %}
+[vanity-address.md](../wallet-tools/vanity-address.md)
+{% endcontent-ref %}
 {% endtab %}
 
-{% tab title="Upload File" %}
-1. Click the **"Upload File"** button to open the file upload window.
-
-<figure><img src="../../../.gitbook/assets/image (897).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../../../.gitbook/assets/image (790).png" alt=""><figcaption></figcaption></figure>
-
-2. Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.   \
-   Click to download and view the template:
-
-{% file src="../../../.gitbook/assets/Solana_privateKey_demo.xlsx" %}
-
-<figure><img src="../../../.gitbook/assets/image (791).png" alt=""><figcaption></figcaption></figure>
-
-3. Click **"OK"** to import all entered addresses into the operation panel.
-
-<figure><img src="../../../.gitbook/assets/image (886).png" alt=""><figcaption></figcaption></figure>
+{% tab title="Custom Private Key" %}
+* Generate the desired wallet address in advance; it may also be a vanity address
+* Import the corresponding private key; the address must be new, unused, and must not have paid SOL rent
+* The system will use this address to create the token, ensuring the Mint address matches your selection
 {% endtab %}
 {% endtabs %}
 {% endstep %}
 
 {% step %}
-### Enter Buy Amount
+### Launch Settings
 
-Supports three buy amount types: **"Individual Input", "Amount",** **"Percentage"** and **"All"**.
+#### **Quote Token**
 
-1.  **Individual Input**\
-    In the input fields, enter the buy amount for each address one by one.
+Pump.fun currently supports SOL and USDC as quote tokens. Click to switch between them.
 
-    <figure><img src="../../../.gitbook/assets/image (846).png" alt=""><figcaption></figcaption></figure>
-2. **Amount:**\
-   Click the **"Batch Input"** button above the buy amount, select the "Amount" option, and enter the amount. All addresses will then have a uniform buy amount applied.
-3. **Percentage:**\
-   Click the **"Batch Input"** button above the buy amount, select the "Percentage" option, and enter the percentage parameter. All addresses will then execute the buy operation based on the specified percentage of their respective balances.
-4. **All Amount**\
-   All wallets will buy 100% of their token holdings into the designated token.
+#### Mayhem Mode
+
+For 24 hours after launch, bots execute randomized buys and sells to increase trading activity and price volatility. Price increases are not guaranteed. An additional 1 billion tokens will be issued for bot activity, and any remaining tokens will be burned when the mode ends.
+
+View the [**PumpFun Mayhem Mode Rules**](https://pump.fun/docs/mayhem-mode-disclaimer).
+
+#### Cashback Reward
+
+When enabled, creator fees that would normally go to the token creator are returned to traders and accumulated according to their trading volume. Simply holding the token does not generate cashback.
+
+View the [**PumpFun Creator Fee Rates**](https://pump.fun/docs/fees).
 {% endstep %}
 
 {% step %}
-### Input DEX Buyer Wallet Private Key
+### Dev Wallet Purchase
 
-* **Wallet Addresses for Migration Snipe:** Configure the sniper wallet addresses to execute buy orders the exact moment the token migrates to Raydium/PumpSwap.
-* **Snipe Amount Setting:** Specify the exact purchase amount (in SOL) for each sniper walle
-
-<figure><img src="../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+Uses the currently connected wallet to purchase the token. If left blank, the amount defaults to `0`. The wallet may be labeled as the **Dev Wallet** on on-chain analytics platforms such as GMGN and DEXScreener.
 {% endstep %}
 
 {% step %}
-### Custom Service
-
-#### Custom Contract Address
-
-<figure><img src="../../../.gitbook/assets/image (890).png" alt=""><figcaption></figcaption></figure>
-
-Customize your personalized token address; setting up a token address incurs **an additional fee of 0.01 SOL**.
-
-1. **Ending with "pump"**
-   * The token address will end with "pump".
-2. **Custom Token Address**
-   * Generate your desired wallet address in advance, which can be a vanity address.
-   * Paste and import the private key you generated in advance **(the address must be completely new and must not have paid any SOL rent);**
-   * The system will use this address to deploy your token, ensuring the contract address matches your expectations.
-
-#### Pre-generate Token Contract
-
-Pre-generate your token contract address while preserving all currently edited token metadata securely on-chain. This feature is ideal for scenarios requiring pre-launch marketing, community warming, or early third-party integrations before trading officially opens.
-{% endstep %}
-
-{% step %}
-### Set Jito Tip
-
-Configure Jito MEV tips to accelerate transaction packaging and maximize sequence priority.
+### Bonding Curve Private Keys
 
 {% hint style="danger" %}
-This feature relies entirely on Jito’s bundling capabilities. Due to the complex interplay of network volatility, Jito nodes, RPC providers, and block engines, bundled transactions may experience a higher failure rate.
-
-If the execution fails, the token will NOT be launched and zero fees will be incurred (atomic reversion). To resolve this, please try switching your RPC node or block engine, increasing the Jito tip (0.001 SOL recommended), or re-executing during periods of lower network congestion.
+Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
 {% endhint %}
+
+Up to **6 wallets** to bundled buy. Add them **Manually Input** or **Upload File**. Click to view the guide.
+
+{% tabs %}
+{% tab title="Manual Input" %}
+1. Click the "Bulk Input" button to open the input field.
+
+<figure><img src="../../../.gitbook/assets/image (1155).png" alt=""><figcaption></figcaption></figure>
+
+2. Enter / paste wallet private keys, one per line. Optionally add the transfer amount after each wallet.
+
+```
+privateKey, 300
+```
+
+<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+3. Click "Import" to import all entered wallets into the operation panel.
+
+<figure><img src="../../../.gitbook/assets/image (1123).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+
+{% tab title="Upload File" %}
+1. Download the CiaoTool template and fill in the transfer details.
+
+<figure><img src="../../../.gitbook/assets/image (1156).png" alt=""><figcaption></figcaption></figure>
+
+2. Click ![](<../../../.gitbook/assets/image (7).png>)"Import File" button to open the input field.
+3. Click "Import" to import all entered wallets into the operation panel.
+
+<figure><img src="../../../.gitbook/assets/image (1124).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+{% endtabs %}
+{% endstep %}
+
+{% step %}
+### Enter  Amount
+
+Choose from 2 amount options: **Individual, or Fixed**. Dev and bundled wallet purchases must exceed **86 SOL** in total.
+
+1. **Individual**\
+   Enter a different amount for each address.
+2. **Fixed Amount**\
+   Click ![](<../../../.gitbook/assets/image (8).png>) above “Amount”, and select “Fixed Amount” to apply the same amount to all addresses.
+{% endstep %}
+
+{% step %}
+### Migration Snipe Wallet
+
+Enter the private keys of the wallets that will snipe the token when it migrates to PumpSwap, securing early positions while boosting initial activity.
+
+No limit on the token purchase amount on PumpSwap.
+
+<figure><img src="../../../.gitbook/assets/image (1160).png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Jito Tips
+
+{% hint style="danger" %}
+This feature uses Jito Bundles and may fail due to network, RPC, or Block Engine conditions. If the Bundle does not land, the token will not be created and no on-chain fees will be charged. Try another RPC or Block Engine, increase the Jito tip, or retry later.
+{% endhint %}
+
+Use a Jito tip to bundle token creation and multi-wallet transactions, reducing sniping risk and improving landing priority at an additional cost.
+
+<figure><img src="../../../.gitbook/assets/image (1158).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ### Confirm
 
-After verifying all details, click the **"Pump Launch and Buy Sniper"** button below and wait for the transaction process to complete.
+After confirming the details, click **“Create and Buy”** to track the creation progress and result in real time.
 
-<figure><img src="../../../.gitbook/assets/image (760).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1148).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
