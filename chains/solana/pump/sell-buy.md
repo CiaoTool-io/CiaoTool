@@ -1,45 +1,43 @@
 ---
 description: >-
-  An asset migration tool for Pump.fun that combines sells and multi-wallet buys
-  within the same block. Creates natural trading activity, reducing MEV risk and
-  optimizing on-chain asset distribution.
+  A Pump.fun and PumpSwap migration tool that bundles sells and multi-wallet
+  buys in the same block, reducing MEV risk and improving asset distribution.
 ---
 
-# PumpFun - Sell & Bundled Buy Tutorial
+# Pump - Sell & Bundled Buy Guide
 
 {% hint style="info" %}
-**CiaoTool PumpFun Sell & Bundled Buy** now fully supports all quote tokens, including official **SOL and USDC**. Please switch to the specific pool function page first to perform bundled operations.
+**CiaoTool Pump Sell & Bundled Buy** now fully supports all quote tokens, including official **SOL and USDC**.
 {% endhint %}
 
-## What is CiaoTool PumpFun Sell & Bundled Buy?
+## Overview
 
-<figure><img src="../../../.gitbook/assets/image (869).png" alt="CiaoTool Solana Toolkit Page about Pump.fun Sell and Bundled Buy Feature"><figcaption></figcaption></figure>
+**CiaoTool Pump Sell and Multi-Wallet Bundled Buy** is a combined trading tool for Pump.fun and PumpSwap. Users can configure the selling wallet, sell amount, buying wallets, and purchase amount for each wallet. The system automatically builds a “sell first, buy next” transaction sequence and submits it as a Bundle.
 
-**CiaoTool PumpFun Sell & Bundled Buy** is an advanced tool focusing on transaction continuity and on-chain liquidity management. Utilizing underlying smart aggregation technology, it allows you to automatically enable a designated wallet to complete token sell operations on **Pump.fun** within the exact same block, while synchronously triggering the batch buy actions of multiple independent wallets.
+When executed successfully, the sell and multiple buy transactions are completed consecutively within the same block in the preset order. This reduces transaction gaps and repeated wallet switching while improving execution consistency.
 
-Compared to manual trading or direct transfers, this feature simulates organic order book patterns to make position-switching look natural. By aggregating bidirectional buy and sell trades into a single block, it maximizes protection against MEV attacks, eliminates tedious manual account-switching, and securely optimizes token holder distribution.
+**Use Cases:**
 
-Key Use Cases:
+* Multi-wallet asset allocation and position adjustments
+* Project treasury and operational wallet reconfiguration
+* Liquidity management strategy execution
+* Combined buy-and-sell strategies and DApp transaction testing
+* Batch management of multi-wallet transactions
 
-* Liquidity migration and secure asset restructuring in professional market making.
-* Replacing direct transfers with authentic order book buying and selling to make chip transfer trajectories align better with natural market logic.
-* Reducing slippage attrition and MEV sandwich risks during bidirectional buy and sell transactions.
-* Eliminating the tedious operations of frequently switching wallets, drastically saving team operational time.
-* Securely and steadily promoting a healthy distribution of token addresses and on-chain data optimization.Key Use Cases:
+Start your Sell & Bundled Buy on PumpFun and PumpSwap with CiaoTool now:
 
-Start your Sell & Bundled Buy on PumpFun with CiaoTool now:
-
-{% embed url="https://ciaotool.io/en-US/pump/sell-buy" %}
+{% embed url="https://ciaotool.io/en/pump/sell-buy" %}
 
 ***
 
-## Why Choose CiaoTool PumpFun Sell & Bundled Buy?
+## Advantage
 
-CiaoTool delivers a secure, low-attrition PumpFun position-switching solution. Unlike easily traceable direct batch transfers, this feature uses same-block smart aggregation to transform chip movements into authentic order book trades. This ensures multi-wallet rebalancing looks natural, aligns with market logic, and breaks up on-chain data clustering.
-
-* Natural Market Logic: Replaces visible direct batch transfers with organic order book volume to cleanly optimize on-chain data footprints.
-* Bidirectional Protection: The seamless connection of buy and sell trades slashes slippage and completely blocks MEV sandwich risks.
-* Streamlined Operations: Eliminates the hassle of manual account-switching, multiplying time savings while building a robust liquidity defense line.
+* **Combined Buy and Sell Execution:** Combines a sell from the specified wallet with purchases from multiple wallets in a complete transaction sequence
+* **Same-Block Sequential Execution:** Transactions within the Bundle are completed in the preset order after landing on-chain
+* **Reduced Transaction Gaps:** Reduces the risk of other transactions being inserted between the sell and buy transactions
+* **Multi-Wallet Configuration:** Configure each buying wallet and its purchase amount separately
+* **Automated Execution:** Automatically builds, signs, and submits the Bundle
+* **Local Signing:** Private keys are used only for transaction authorization in the browser and are never uploaded
 
 ***
 
@@ -49,113 +47,145 @@ CiaoTool delivers a secure, low-attrition PumpFun position-switching solution. U
 
 ***
 
-## **Step by Step |** PumpFun Sell & Bundled Buy
+## Technology Workflow
+
+#### Traditional Trade
+
+Transactions from multiple wallets are broadcast separately and confirmed independently, with no guarantee of execution order or inclusion in the same block. If other transactions execute first, the trading-pair price may fluctuate, increasing the cost for subsequent buying wallets and reducing the number of tokens received.
+
+<figure><img src="../../../.gitbook/assets/image (1191).png" alt=""><figcaption></figcaption></figure>
+
+#### Bundled Trade
+
+The sell transaction and multi-wallet buy transactions are packaged into a Bundle in the preset order and executed consecutively within the same block. This reduces the risk of other transactions being inserted between them while improving execution consistency and transaction priority.
+
+<figure><img src="../../../.gitbook/assets/image (1193).png" alt=""><figcaption></figcaption></figure>
+
+***
+
+## Step by Step
 
 {% stepper %}
 {% step %}
 ### Connect Wallet
 
-Click the button in the top right corner to connect a wallet that supports the Solana network.
+Click the button in the top right corner, and connect a wallet that supports the Solana network.
 
-<figure><img src="../../../.gitbook/assets/image (836).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Select a Token to Trade
+### Select Token
 
-You can choose to enter the token address, or select a token currently owned by your wallet to perform the sell and buyoperation.
+Enter a token address or select a token held in the connected wallet. The system will automatically identify the quote token and locate the corresponding liquidity pool.
 
-<figure><img src="../../../.gitbook/assets/image (867).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1163).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Input Seller Private Keys & Set Sell Amount
+### Seller Wallet
 
 {% hint style="danger" %}
-<mark style="color:$danger;">**Security Tips**</mark>
-
-Currently supports private key import only. Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
+Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (868).png" alt=""><figcaption></figcaption></figure>
+Enter the selling wallet’s private key and the amount of the target token to sell.
 {% endstep %}
 
 {% step %}
-### Input Buyer Wallet Private Key
+### Buyer Private Keys
 
 {% hint style="danger" %}
-<mark style="color:$danger;">**Security Tips**</mark>
-
-Currently supports private key import only. Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
+Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
 {% endhint %}
 
 {% hint style="info" %}
-<mark style="color:$primary;">**Bundle Settings**</mark>
+<mark style="color:$primary;">**Trading Wallet Setting**</mark>
 
-There is no limit on the number of imported wallets for **PumpFun Sell & Bundled Buy**, but each transaction group supports a maximum of **20 addresses** for bundled buying.
-
-The service fees for the Multi-address Bundled Buy are paid entirely by the first address of each group, and the Jito tip is paid by the last address imported. Please ensure that the first and last addresses imported have sufficient balances.
+There are no quantity limits on importing wallets. Transaction fees are paid independently by each wallet.
 {% endhint %}
 
-Supports two methods for importing sending private key: **"Manual Input"** and **"Upload File"**. Select an option to view the detailed tutorial.
+Add them **Manually Input** or **Upload File**. Click to view the guide.
 
 {% tabs %}
 {% tab title="Manual Input" %}
-1. Click the **"Manual Input"** button to open the input field.
+1. Click the "Bulk Input" button to open the input field.
 
-<figure><img src="../../../.gitbook/assets/image (842).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1196).png" alt=""><figcaption></figcaption></figure>
 
-2. Enter / bulk paste private keys, one private key per line. Press Enter to start a new line.
+2. Enter / paste wallet private keys, one per line. Optionally add the transfer amount after each wallet.
 
-<figure><img src="../../../.gitbook/assets/image (787).png" alt=""><figcaption></figcaption></figure>
+```
+privateKey, 300
+```
 
-3. Click **"OK"** to import all entered addresses into the operation panel.
+<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (845).png" alt=""><figcaption></figcaption></figure>
+3. Click "Import" to import all entered wallets into the operation panel.
+
+<figure><img src="../../../.gitbook/assets/image (1123).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Upload File" %}
-1. Click the **"Upload File"** button to open the file upload window.
+1. Download the CiaoTool template and fill in the transfer details.
 
-<figure><img src="../../../.gitbook/assets/image (843).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1164).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (790).png" alt=""><figcaption></figcaption></figure>
+2. Click ![](<../../../.gitbook/assets/image (7).png>)"Import File" button to open the input field.
+3. Click "Import" to import all entered wallets into the operation panel.
 
-2. Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.   \
-   Click to download and view the template:
-
-{% file src="../../../.gitbook/assets/Solana_privateKey_demo.xlsx" %}
-
-<figure><img src="../../../.gitbook/assets/image (791).png" alt=""><figcaption></figcaption></figure>
-
-3. Click **"OK"** to import all entered addresses into the operation panel.
-
-<figure><img src="../../../.gitbook/assets/image (844).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1195).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 {% endstep %}
 
 {% step %}
-### Enter Buy Amount
+### Enter Amount
 
-Supports three buy amount types: **"Individual Input", "Amount",** and **"Percentage"**.
+Choose from 6 amount options: **Individual, Fixed, Random Range, Retain, Percent, or All.**
 
-1.  **Individual Input**\
-    In the input fields, enter the buy amount for each address one by one.
+1. **Individual**\
+   Enter a different amount for each address.
+2. **Fixed Amount**\
+   Click ![](<../../../.gitbook/assets/image (8).png>) above “Amount”, and select “Fixed Amount” to apply the same amount to all addresses.
+3. **Random Range**\
+   Click ![](<../../../.gitbook/assets/image (8).png>) above “Amount”, and select “Random Range” and set the minimum and maximum. The system will generate an amount within that range for each address.
+4. **Retain Amount**\
+   Click ![](<../../../.gitbook/assets/image (8).png>) above “Amount”, and select “Retain Amount” to retain the specified amount in each sending wallet and transfer the remaining balance.
+5. **Percent Amount**\
+   Click ![](<../../../.gitbook/assets/image (8).png>) above “Amount”, Select “Percent Amount” to calculate the transfer amount based on a specified percentage of each wallet’s balance.
+6. **All**\
+   Click ![](<../../../.gitbook/assets/image (8).png>) above “Amount”, and select “All” to transfer the full available balance.
+{% endstep %}
 
-    <figure><img src="../../../.gitbook/assets/image (846).png" alt=""><figcaption></figcaption></figure>
-2. **Amount:**\
-   Click the **"Batch Input"** button above the buy amount, select the "Amount" option, and enter the amount. All addresses will then have a uniform buy amount applied.
-3. **Percentage:**\
-   Click the **"Batch Input"** button above the buy amount, select the "Percentage" option, and enter the percentage parameter. All addresses will then execute the buy operation based on the specified percentage of their respective balances.
+{% step %}
+### Send Method
 
-<figure><img src="../../../.gitbook/assets/image (847).png" alt=""><figcaption></figcaption></figure>
+* **RPC:** Broadcasts transactions without a Jito tip. Execution is best-effort and transactions may not land in the same block, creating a risk of bot interference and potential losses.
+* **Jito Bundle:** Uses a Jito tip to package multiple transactions into one Bundle, preventing transaction insertion and improving landing priority, but incurs additional fees.
 {% endstep %}
 
 {% step %}
 ### Confirm
 
-After verifying all details, click the **"Bundled Buy"** button below and wait for the transaction process to complete.
+The program runs automatically. Review the following information on the confirmation page:
+
+* [x] Number of buying wallets, purchase amount, and estimated tokens received
+* [x] Sell amount and estimated proceeds
+
+<figure><img src="../../../.gitbook/assets/image (1198).png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Start Trade
+
+{% hint style="info" %}
+**Bundle Settings**
+
+The first address in each group pays the service fee, while the last imported address pays the Jito tip. Ensure both addresses have sufficient balances.
+{% endhint %}
+
+After confirming the details, click **“Sell and Bundled Buy”** to track the trade progress and result in real time.
 {% endstep %}
 {% endstepper %}
 
@@ -203,7 +233,9 @@ CiaoTool uses a fully client-side signing mechanism. Your private key is never u
 
 ***
 
-**Need help? Join our community for real-time support:**
+## Service Support
+
+Need help? Join our community for real-time support:
 
 <table data-header-hidden><thead><tr><th width="188"></th><th valign="top"></th><th data-hidden></th></tr></thead><tbody><tr><td>Email</td><td valign="top"><a href="mailto:ciaotoolglobal@gmail.com">ciaotoolglobal@gmail.com</a></td><td></td></tr><tr><td>Telegram</td><td valign="top"><a href="https://t.me/ciaotools">https://t.me/ciaotools</a></td><td></td></tr><tr><td>WhatsApp</td><td valign="top"><a href="https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J">https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J</a></td><td></td></tr></tbody></table>
 

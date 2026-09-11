@@ -96,7 +96,7 @@ Add them **Manually Input** or **Upload File**. Click to view the guide.
 {% tab title="Manual Input" %}
 1. Click the "Bulk Input" button to open the input field.
 
-<figure><img src="../../../.gitbook/assets/image (1155).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1197).png" alt=""><figcaption></figcaption></figure>
 
 2. Enter / paste wallet private keys, one per line.
 

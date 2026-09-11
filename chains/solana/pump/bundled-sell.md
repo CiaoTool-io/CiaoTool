@@ -1,44 +1,46 @@
 ---
 description: >-
-  Custom-built for Pump.fun, this bundled sell tool aggregates multi-address
-  sales within the same block—securely minimizing MEV sandwich risks and
-  optimizing team asset exit efficiency.
+  Built for Pump.fun and PumpSwap, this tool bundles multi-wallet sell
+  transactions within the same block to reduce MEV sandwich risks and improve
+  exit efficiency.
 ---
 
-# PumpFun - Multi-address Bundled Sell Tutorial
+# Pump - Multi-address Bundled Sell Guide
 
 {% hint style="info" %}
-**CiaoTool PumpFun Multi-Address Bundled Sell** now fully supports all quote tokens, including official **SOL and USDC**. Please switch to the specific pool function page first to perform bundled operations.
+**CiaoTool Pump Multi-Address Bundled Sell** now fully supports all quote tokens, including official **SOL and USDC**.
 {% endhint %}
 
-## What is CiaoTool PumpFun Multi-Address Bundled Sell?
+## Overview
 
-<figure><img src="../../../.gitbook/assets/image (862).png" alt="CiaoTool Solana Toolkit Page about Pump.fun Multi-address Bundled Sell Feature"><figcaption></figcaption></figure>
+**CiaoTool Pump Multi-Wallet Bundled Sell** is a batch-selling tool for Pump.fun and PumpSwap. Users can configure multiple seller wallets and token amounts, while the system automatically builds the transactions and submits them in a Bundle according to the preset order.
 
-**CiaoTool PumpFun Multi-address Bundled Sell** is an advanced tool focusing on trade execution optimization and on-chain market making. Utilizing underlying smart aggregation technology, it allows you to automatically enable multiple independent wallets to synchronously complete batch token sell operations on **Pump.fun** within the exact same block.
+When executed successfully, the sell transactions within the Bundle are completed consecutively in the same block. This reduces the risk of other transactions being inserted between them and improves execution consistency and management efficiency.
 
-Compared to conventional batch manual trading, the core advantage of Multi-address Bundled Sell lies in effectively reducing MEV bot interference and capital attrition. By aggregating multiple transactions into the same block for execution, the system minimizes the risk of transactions being "sandwiched" to the greatest extent, ensuring the cost-effectiveness of the trades. This not only significantly enhances the execution efficiency of batch position exits, but also helps teams securely and steadily manage token on-chain liquidity, serving as a critical tool for executing advanced market making and liquidity adjustment strategies.
+**Use Cases:**
 
-Key Use Cases:
+* Batch position reduction or exit across multiple wallets
+* Project treasury and operational fund recovery
+* Market-making and liquidity position adjustments
+* Coordinated selling before multi-wallet asset consolidation
+* Automated trading and execution testing
 
-* Asset liquidation and secure position closing in professional market making.
-* Reducing slippage and MEV sandwich risks during multi-wallet batch selling.
-* Securely and steadily managing and adjusting the on-chain distribution status of tokens.
-* Enhancing the overall efficiency of multi-address on-chain asset allocation and capital repatriation.
+Start your Multi-address Bundled Sell on PumpFun and PumpSwap with CiaoTool now:
 
-Start your Multi-address Bundled Sell on PumpFun with CiaoTool now:
-
-{% embed url="https://ciaotool.io/en-US/pump/multi-address-sell" %}
+{% embed url="https://ciaotool.io/en/pump/multi-address-sell" %}
 
 ***
 
-## Why Choose CiaoTool PumpFun Multi-Address Bundled Sell?
+## Advantage
 
-CiaoTool offers a professional PumpFun liquidity solution, balancing execution efficiency with cost protection. Whether for asset liquidation, evading MEV sandwich attacks, or managing on-chain liquidity, its Multi-address Bundled Sell leverages same-block smart aggregation to eliminate manual account-switching, saving valuable operational time.
+* **Multi-Wallet Configuration:** Configure each seller wallet and its token amount separately
+* **Same-Block Execution:** Transactions are completed consecutively in the preset order after the Bundle lands on-chain
+* **Reduced Transaction Gaps:** Reduces the risk of other transactions being inserted during batch selling
+* **Automated Processing:** Automatically builds, signs, and submits the Bundle
+* **Improved Landing Priority:** Uses a Jito tip to improve the Bundle’s landing priority
+* **Local Signing:** Private keys are used only for transaction authorization in the browser and are never uploaded
 
-* Anti-MEV & Low Slippage: Custom-built for Solana to minimize slippage attrition and completely block interference from predatory on-chain bots.
-* Automated Batching: Powering efficient multi-wallet asset liquidation and fast exiting without tedious manual address management.
-* Elite Tooling: Serving as an indispensable liquidity management weapon for Web3 project parties and professional teams.
+##
 
 ***
 
