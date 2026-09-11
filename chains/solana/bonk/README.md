@@ -1,5 +1,5 @@
 ---
-icon: '8'
+icon: '6'
 ---
 
 # BonkFun 专区

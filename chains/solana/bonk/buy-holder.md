@@ -5,34 +5,30 @@ description: >-
   distribution.
 ---
 
-# Bonk - Boost Holders Tutorial
+# Bonk - Boost Holders Guide
 
 {% hint style="info" %}
-**CiaoTool Bonk Boost Makers** now fully supports all quote tokens, including official **SOL and USD1**. Please switch to the specific token page first to perform market management operations, meeting your rapid market-making service needs across various scenarios.
+**CiaoTool Bonk Boost Makers** now fully supports all quote tokens, including official **SOL and USD1**.
 {% endhint %}
 
-## What is CiaoTool Bonk Boost Holders?
+## What is CiaoTool PumpFun Boost Holders?
 
-<figure><img src="../../../.gitbook/assets/image (839).png" alt="CiaoTool Solana Toolkit Page about Bonk.fun Boost Holders Feature"><figcaption></figcaption></figure>
-
-**CiaoTool Bonk Boost Holders** is an on-chain data and asset distribution optimization tool custom-built for the **Bonk.fun platform** within the Solana ecosystem. It allows users to automatically generate brand-new wallet addresses in batches through configured parameters and control these addresses to independently execute token buy operations on the order book.
-
-Distinctly different from the mechanism of "Boost Makers," which consolidates funds and destroys accounts after trading, this feature permanently retains the purchased tokens within these newly generated independent addresses upon completion of the order book purchase. This not only generates authentic, natural buy records on the order book, but also directly increases the number of unique on-chain holding addresses for the token, thereby effectively dispersing chips and rendering the overall token distribution structure more even and healthy.
+**CiaoTool Bonk Holder Booster** is a multi-address token distribution tool for Bonk.fun. It generates new wallets in batches, distributes trading funds, and uses each wallet to purchase the selected token. The purchased tokens remain in their respective wallets, creating active token-holding accounts.
 
 Start your Boost Holders on Bonk with CiaoTool now:
 
-{% embed url="https://ciaotool.io/en-US/letsbonkZone/newaddr-buyers-holders" %}
+{% embed url="https://ciaotool.io/en/bonk/new-address-holders" %}
 
 ***
 
-## Why Choose CiaoTool Bonk Boost Holders?
+## Advantage
 
-CiaoTool provides a professional solution for optimizing holder data on the Bonk.fun platform, balancing authenticity with high execution efficiency. For users who need to perfect early chip distribution or steadily enhance the project's data health, this tool builds a robust automated defense:
-
-* **Authentically Boost Holders:** Through a large number of new addresses executing genuine capital purchases on the order book and holding tokens independently, it steadily and authentically increases the total number of on-chain holding addresses.
-* **Optimize Chip Distribution Structure:** By rationally dispersing purchased tokens across numerous completely independent wallets, it effectively avoids over-concentration of chips in a single address and beautifies the token distribution bubble map.
-* **Fully Automated Closed-Loop Executio**n: With one click, it automatically completes the entire process of "generating addresses in batches, master wallet distributing SOL, and executing purchases independently," completely eliminating the tedious manual operations of individual creation and transfers.
-* **Local Security and Data Export:** Utilizing a pure front-end local execution mechanism, all newly generated private keys run exclusively locally. The system supports a one-click export of the private key spreadsheet for all new addresses, facilitating convenient and secure management of dispersed assets for users in the future.
+* **Batch Wallet Creation:** Automatically generates and manages multiple independent addresses
+* **Automatic Fund Distribution:** Allocates the required SOL to each wallet
+* **Multi-Address Purchases:** Executes token purchases based on preset amounts
+* **Token Balance Retention:** Keeps purchased tokens in their respective wallets
+* **Unified Results Export:** Exports wallet details, token balances, and transaction records
+* **Local Signing:** Private keys are used only in the browser for transaction authorization
 
 ***
 
@@ -45,73 +41,87 @@ CiaoTool provides a professional solution for optimizing holder data on the Bonk
 
 ***
 
-## **Step by Step |** Bonk Boost Holders
+## Step by Step
 
 {% stepper %}
 {% step %}
 ### Connect Wallet
 
-Click the button in the top right corner to connect a wallet that supports the Solana network.
+Click the button in the top right corner, and connect a wallet that supports the Solana network.
 
-<figure><img src="../../../.gitbook/assets/image (836).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Select a Token to trade
+### Select Token Pair
 
-You can choose to enter the token address, or select a token currently owned by your wallet to perform the buy operation.
+Enter a token address or select a token held by the connected wallet.
 
-<figure><img src="../../../.gitbook/assets/image (828).png" alt=""><figcaption></figcaption></figure>
+* **Project Token:** The token used to execute the market-making strategy.
+* **Quote Token:** The token used to pay for transactions and quote the trading pair price.
+
+<figure><img src="../../../.gitbook/assets/image (1202).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Select Number of Buy Addresses
-
-Choose or enter the number of buy addresses to increase the number of makers.
-
-<figure><img src="../../../.gitbook/assets/image (829).png" alt=""><figcaption></figcaption></figure>
-{% endstep %}
-
-{% step %}
-### Enter Buy Amount
-
-Set the amount each new wallet will spend on purchases. You can also define a range for randomized buy amounts within the specified limits.
-{% endstep %}
-
-{% step %}
-### Generate Wallets and Download Private Key File
-
-Unlike "Boost Makers," all wallets will retain tokens to maintain a token-holding status. To prevent any potential financial loss, please ensure that you download the private key file and safeguard it properly. This will allow you to continue using these wallets for subsequent operations such as market making, transfers, asset recovery, and account closure.
-{% endstep %}
-
-{% step %}
-### Enter Main Wallet PrivateKey
+### Buy Funding Wallet
 
 {% hint style="danger" %}
-<mark style="color:$danger;">**Security Tips**</mark>
-
-Currently supports private key import only. Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
+Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
 {% endhint %}
 
-{% hint style="info" %}
-<mark style="color:$primary;">**Main Wallet Settings**</mark>
+The **Main Wallet** pays all on-chain fees generated by purchases, refundable SOL account rent, and platform service fees. The estimated required balance is displayed at the bottom of the page. Ensure the Main Wallet balance is **higher than the estimated amount** to avoid transaction failure.\
+Each new address also requires **0.00203928 SOL** in **SOL account rent**.
+{% endstep %}
 
-On-chain fees generated by purchases, SOL account rent (automatically refunded), and platform service fees are all paid uniformly by the master wallet. An estimated required balance will be displayed at the bottom of the page. Please ensure that the master wallet balance is higher than the estimated amount, otherwise, it may result in transaction failure.
+{% step %}
+### Generate and Buy Amount
 
-Each new address requires a payment of **0.00203928 SOL** for **SOL account rent**, which is automatically refunded to the master wallet once the transaction process is complete.
+{% hint style="danger" %}
+**Download Wallets**
+
+Please download and securely save the newly generated wallet information to prevent asset loss if the network disconnects or the page closes.
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (830).png" alt=""><figcaption></figcaption></figure>
+#### Number of New Addresses
+
+Generate the specified number of new wallets and execute purchases to increase the number of traders.
+
+#### Trade Amount
+
+Set the purchase amount for each new wallet:
+
+* **Fixed Amount:** All new wallets buy the token with the specified amount.
+* **Random Amount:** Each new wallet buys the token with a random amount within the specified range.
+
+#### Trade Interval
+
+Set the transaction interval for new addresses:
+
+* **Fixed Interval:** Transactions are submitted at a fixed interval.
+* **Random Interval:** Transactions are submitted randomly within the specified time range.
 {% endstep %}
 
 {% step %}
 ### Confirm
 
+The program runs automatically. Review the following on the confirmation page:
+
+* [x] Number of new addresses
+* [x] Purchase amount
+* [x] Estimated fees
+
+<figure><img src="../../../.gitbook/assets/image (1187).png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Start Trade
+
 {% hint style="danger" %}
-Closing / refreshing the page will **immediately stop** the bot strategy. Please ensure that the page remains open and running continuously in the background while the strategy is being executed. To ensure necessary strategy execution, **this feature is not recommended for use on mobile devices.**
+Closing or refreshing the page will **stop the bot immediately**. Keep the page open and running in the background while the strategy is active. This feature is **not recommended for mobile devices**.
 {% endhint %}
 
-After verifying all details, click the **"Start"** button below and wait for the transaction process to complete.
+Each wallet pays its own transaction fees. After confirming the details, click **“Confirm”** to launch the trading program.
 {% endstep %}
 {% endstepper %}
 
@@ -153,7 +163,9 @@ CiaoTool uses a fully client-side signing mechanism. Your private key is never u
 
 ***
 
-**Need help? Join our community for real-time support:**
+## Service Support
+
+Need help? Join our community for real-time support:
 
 <table data-header-hidden><thead><tr><th width="188"></th><th valign="top"></th><th data-hidden></th></tr></thead><tbody><tr><td>Email</td><td valign="top"><a href="mailto:ciaotoolglobal@gmail.com">ciaotoolglobal@gmail.com</a></td><td></td></tr><tr><td>Telegram</td><td valign="top"><a href="https://t.me/ciaotools">https://t.me/ciaotools</a></td><td></td></tr><tr><td>WhatsApp</td><td valign="top"><a href="https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J">https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J</a></td><td></td></tr></tbody></table>
 

@@ -13,7 +13,7 @@ description: >-
 
 ## Overview
 
-CiaoTool Pump Multi-Wallet Bundle Buy is a multi-wallet trading tool for Pump.fun and PumpSwap. Users can configure multiple wallets and purchase amounts, while the system automatically builds the transactions and submits them in a Bundle according to the preset order.
+CiaoTool Bonk Multi-Wallet Bundle Buy is a multi-wallet trading tool for Bonk.fun. Users can configure multiple wallets and purchase amounts, while the system automatically builds the transactions and submits them in a Bundle according to the preset order.
 
 When executed successfully, all transactions in the Bundle are completed sequentially within the same block. This reduces the risk of other transactions being inserted between them and improves execution consistency for batch purchases.
 

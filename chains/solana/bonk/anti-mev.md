@@ -5,19 +5,17 @@ description: >-
   increase trading volume and improve market activity.
 ---
 
-# Bonk - Anti-MEV Volume Bot
+# Bonk - Anti-MEV Volume Bot Guide
 
 {% hint style="info" %}
-**CiaoTool Bonk Anti-MEV Volume Bot** now fully supports all quote tokens, including official **SOL and USD1**. Please switch to the specific token page first to perform market management operations, meeting your rapid market-making service needs across various scenarios.
+**CiaoTool Bonk Anti-MEV Volume Bot** now fully supports all quote tokens, including official **SOL and USD1**.
 {% endhint %}
 
-## What is CiaoTool Bonk Anti-MEV Volume Bot?
+## Overview
 
-<figure><img src="../../../.gitbook/assets/image (824).png" alt="CiaoTool Solana Toolkit Page about Bonk.fun Anti-MEV Volume Bot Feature"><figcaption></figcaption></figure>
+**CiaoTool Bonk Anti-MEV Volume Bot** is an automated trading tool for Bonk.fun. Users can customize trade amounts, execution frequency, and participating wallets, while the system continuously executes multi-wallet buy and sell operations to increase trading volume and on-chain activity.
 
-**CiaoTool Bonk Anti-EVM Volume Bot** is an advanced automated trade execution tool custom-built for the Bonk.fun platform within the Solana ecosystem. It allows users to execute fully automated, continuous buy and sell interactions on-chain through customized parameters, safely boosting token trading activity.
-
-Compared to conventional volume tools, the core mechanism of this feature lies in "same-block aggregated execution." The system bundles both the buy and sell operations of a token to be completed synchronously within the very same block. This underlying mechanism effectively prevents transactions from being "sandwiched" by on-chain MEV bots, thereby avoiding the severe slippage and capital attrition commonly seen in high-frequency interactions. It steadily enhances the token's trading volume, the number of unique trading addresses, and the overall naturalness of data performance under the prerequisite of ultra-low slippage loss.
+The tool uses same-block transaction bundling, combining related buy and sell transactions into a Bundle and executing them consecutively in a predefined order. This reduces the opportunity for MEV bots to insert transactions between trades, helping limit slippage and capital loss during high-frequency execution.
 
 Start your Anti-EVM Volume Bot on BonkFun with CiaoTool now:
 
@@ -25,114 +23,135 @@ Start your Anti-EVM Volume Bot on BonkFun with CiaoTool now:
 
 ***
 
-## Why Choose CiaoTool Bonk Anti-MEV Volume Bot?
+## Advantage
 
-**CiaoTool** provides a professional solution for boosting trading volume on the **Bonk platform**, balancing high security with ultra-low costs. Whether you need to maintain daily order book activity or optimize on-chain data presentation, this tool builds a robust execution defense for you:
-
-* **Secure Anti-MEV Protection**\
-  Two-way buy and sell operations are seamlessly aggregated and executed within the same block, effectively blocking sandwich attack interference from MEV bots and ensuring a secure transaction process.
-* **Ultra-Low Capital Attrition**\
-  By evading MEV bot risks and locking execution into the same block, the impact of slippage and capital attrition is minimized to the greatest extent, achieving your trading volume goals at an ultra-low cost.
-* **Optimize On-Chain Data**\
-  Through automated and continuous multi-address interactions, it steadily enhances token trading volume and activity, making on-chain behaviors closely align with authentic market participation.
-* **Fully Automated Efficient Execution**\
-  Supports customized transaction scales and frequencies. With a one-click initiation for automated cyclic execution, it completely eliminates tedious manual operations, vastly improving operational efficiency.
+* **Reduced Sandwich Risk:** Executes buy and sell transactions consecutively within the same block, reducing opportunities for other transactions to be inserted
+* **Controlled Trading Costs:** Shortens the interval between buys and sells to limit losses caused by price changes, slippage, and MEV interference
+* **Improved Trading Metrics:** Uses continuous multi-wallet interactions to increase trading volume, activity, and the number of unique trading addresses
+* **Flexible Settings:** Customize trade amounts, execution intervals, run count, and participating wallets
+* **Automated Trading Cycles:** Start recurring buy and sell tasks with one click
+* **Local Signing:** Private keys are used locally for transaction authorization and are not uploaded
 
 ***
 
-## **Step by Step |** Bonk Anti-MEV Volume Bot
+## Step by Step
 
 {% stepper %}
 {% step %}
 ### Connect Wallet
 
-Click the button in the top right corner to connect a wallet that supports the Solana network.
+Click the button in the top right corner, and connect a wallet that supports the Solana network.
 
-<figure><img src="../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Select a Token to trade
+### Select Token Pair
 
-You can choose to enter the token address, or select a token currently owned by your wallet to perform the buy operation.
+Enter a token address or select a token held by the connected wallet.
 
-<figure><img src="../../../.gitbook/assets/image (815).png" alt=""><figcaption></figcaption></figure>
+* **Project Token:** The token used to execute the market-making strategy.
+* **Quote Token:** The token used to pay for transactions and quote the trading pair price.
+
+<figure><img src="../../../.gitbook/assets/image (1202).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Input Trading Wallet Private Key
+### Choose Trade Wallet
 
-{% hint style="danger" %}
-<mark style="color:$danger;">**Security Tips**</mark>
+There is no limit on the number of imported wallets. Each wallet pays its own transaction fees.
 
-When use private key import. Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
-{% endhint %}
+#### Connected Wallet
 
-{% hint style="info" %}
-<mark style="color:$primary;">**Trading Wallet Setting**</mark>
+Use the connected wallet for continuous trading without importing a private key.
 
-There are no quantity limits on importing wallets using private keys for **BonkFun Anti-MEV Volume Bot**. Transaction fees are paid independently by each wallet.
-{% endhint %}
+<figure><img src="../../../.gitbook/assets/image (1179).png" alt=""><figcaption></figcaption></figure>
 
-Supports two modes: **"Current Wallet"** and **"Private Keys".**
+#### Private Key Wallets
 
-* **Current Wallet:** Allows single-wallet transaction operations exclusively through the currently connect wallet.
-* **Private Keys:** Supports multi-address synchronous transaction operations to decentralize holders. It supports two import types for transfer address private keys: **"Manual Input"** and **"Upload File".** Select an option to view the detailed tutorial.
+Import multiple wallets in batches for continuous trading that, simulating natural buying and selling activity.
 
 {% tabs %}
 {% tab title="Manual Input" %}
-1. Click the **"Manual Input"** button to open the input field.
+1. Click the "Bulk Input" button to open the input field.
 
-<figure><img src="../../../.gitbook/assets/image (816).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1155).png" alt=""><figcaption></figcaption></figure>
 
-2. Enter / bulk paste private keys, one private key per line. Press Enter to start a new line.
+2. Enter / paste wallet private keys, one per line.
 
-<figure><img src="../../../.gitbook/assets/image (801).png" alt=""><figcaption></figcaption></figure>
+```
+privateKey
+```
 
-3. Click **"OK"** to import all entered addresses into the operation panel.
+3. Click "Import" to import all entered wallets into the operation panel.
 
-<figure><img src="../../../.gitbook/assets/image (819).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1181).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Upload File" %}
-1. Click the **"Upload File"** button to open the file upload window.
+1. Download the CiaoTool template and fill in the transfer details.
 
-<figure><img src="../../../.gitbook/assets/image (817).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1164).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (804).png" alt=""><figcaption></figcaption></figure>
+2. Click ![](<../../../.gitbook/assets/image (7).png>)"Import File" button to open the input field.
+3. Click "Import" to import all entered wallets into the operation panel.
 
-2. Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.   \
-   Click to download and view the template:
-
-{% file src="../../../.gitbook/assets/Solana_privateKey_demo.xlsx" %}
-
-<figure><img src="../../../.gitbook/assets/image (805).png" alt=""><figcaption></figcaption></figure>
-
-3. Click **"OK"** to import all entered addresses into the operation panel.
-
-<figure><img src="../../../.gitbook/assets/image (818).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1180).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 {% endstep %}
 
 {% step %}
-### Trading Setting
+### Configure the Strategy
 
-{% hint style="danger" %}
-Closing / refreshing the page will **immediately stop** the bot strategy. Please ensure that the page remains open and running continuously in the background while the strategy is being executed. To ensure necessary strategy execution, **this feature is not recommended for use on mobile devices.**
-{% endhint %}
+#### Trade Amount
 
-* **Trading Amount Settings:** The amount range for a single buy and sell operation for each wallet. It can be configured to execute buy and sell operations with a randomized amount within a specified range.
-* **Task Execution Interval:** The transaction interval between each buy and sell operation. It can be configured to execute buy and sell operations at randomized time intervals within a specified range.
-* **Transaction Times:** Sets the number of transaction cycles for each wallet. One buy and one sell for a single cycle.
+Set the amount for each trading cycle (**Buy + Sell**).
 
-<figure><img src="../../../.gitbook/assets/image (820).png" alt=""><figcaption></figcaption></figure>
+* **Fixed Amount:** Every wallet completes the trading cycle using the specified amount.
+* **Random Amount:** Each trading cycle uses a random amount within the specified range.
+
+<figure><img src="../../../.gitbook/assets/image (1182).png" alt=""><figcaption></figcaption></figure>
+
+#### Loop Amount
+
+Set the number of buy-and-sell cycles for each wallet. Trading stops automatically once all cycles are completed.
+
+#### Trade Interval
+
+Set the execution interval between transactions.
+
+* **Fixed:** Transactions are broadcast at fixed intervals.
+* **Random:**&#x54;ransactions are submitted randomly within the specified time range to simulate natural trading activity. Keep the page open during execution.
+{% endstep %}
+
+{% step %}
+### Send Method
+
+* **RPC:** Uses best-effort execution without a Jito tip. Buy and sell transactions are broadcast together but may not land in the same block, creating a risk of bot interference and potential losses.
+* **Jito Bundle:** Uses a Jito tip to bundle the buy and sell transactions together, reducing sniping risk and improving and improving improving landing priority at an additional cost.
 {% endstep %}
 
 {% step %}
 ### Confirm
 
-After verifying all details, click the **"Start"** button below and wait for the transaction process to complete.
+The program runs automatically. On the confirmation page, review:
+
+* [x] Number of buy-and-sell cycles
+* [x] Protocol fees incurred
+* [x] Buy and sell results
+
+<figure><img src="../../../.gitbook/assets/image (1183).png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Start Trade
+
+{% hint style="danger" %}
+Closing or refreshing the page will **stop the bot immediately**. Keep the page open and running in the background while the strategy is active. This feature is **not recommended for mobile devices**.
+{% endhint %}
+
+After confirming the details, click **“Start Execution”** to begin the Volume Bot process.
 {% endstep %}
 {% endstepper %}
 
@@ -196,7 +215,9 @@ CiaoTool uses a fully client-side signing mechanism. Your private key is never u
 
 ***
 
-**Need help? Join our community for real-time support:**
+## Service Support
+
+Need help? Join our community for real-time support:
 
 <table data-header-hidden><thead><tr><th width="188"></th><th valign="top"></th><th data-hidden></th></tr></thead><tbody><tr><td>Email</td><td valign="top"><a href="mailto:ciaotoolglobal@gmail.com">ciaotoolglobal@gmail.com</a></td><td></td></tr><tr><td>Telegram</td><td valign="top"><a href="https://t.me/ciaotools">https://t.me/ciaotools</a></td><td></td></tr><tr><td>WhatsApp</td><td valign="top"><a href="https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J">https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J</a></td><td></td></tr></tbody></table>
 

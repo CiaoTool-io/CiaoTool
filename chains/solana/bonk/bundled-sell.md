@@ -5,26 +5,25 @@ description: >-
   optimizing team asset exit efficiency.
 ---
 
-# Bonk - Multi-Address Bundled Sell Tutorial
+# Bonk - Multi-Address Bundled Sell Guide
 
 {% hint style="info" %}
-**CiaoTool Bonk Multi-Address Bundled Sell** now fully supports all quote tokens, including official **SOL and USD1**. Please switch to the specific pool function page first to perform bundled operations.
+**CiaoTool Bonk Multi-Address Bundled Sell** now fully supports all quote tokens, including official **SOL and USD1**.
 {% endhint %}
 
-## What is CiaoTool Bonk Multi-Address Bundled Sell?
+## Overview
 
-<figure><img src="../../../.gitbook/assets/image (864).png" alt="CiaoTool Solana Toolkit Page about Bonk Multi-address Bundled Sell Feature"><figcaption></figcaption></figure>
+**CiaoTool Bonk Multi-Wallet Bundled Sell** is a batch-selling tool for Bonk.fun. Users can configure multiple seller wallets and token amounts, while the system automatically builds the transactions and submits them in a Bundle according to the preset order.
 
-**CiaoTool Bonk Multi-Address Bundled Sell** is an advanced tool focusing on trade execution optimization and on-chain market making. Utilizing underlying smart aggregation technology, it allows you to automatically enable multiple independent wallets to synchronously complete batch token sell operations on **Bonk.fun** within the exact same block.
+When executed successfully, the sell transactions within the Bundle are completed consecutively in the same block. This reduces the risk of other transactions being inserted between them and improves execution consistency and management efficiency.
 
-Compared to conventional batch manual trading, the core advantage of Multi-address Bundled Sell lies in effectively reducing MEV bot interference and capital attrition. By aggregating multiple transactions into the same block for execution, the system minimizes the risk of transactions being "sandwiched" to the greatest extent, ensuring the cost-effectiveness of the trades. This not only significantly enhances the execution efficiency of batch position exits, but also helps teams securely and steadily manage token on-chain liquidity, serving as a critical tool for executing advanced market making and liquidity adjustment strategies.
+**Use Cases:**
 
-Key Use Cases:
-
-* Asset liquidation and secure position closing in professional market making.
-* Reducing slippage and MEV sandwich risks during multi-wallet batch selling.
-* Securely and steadily managing and adjusting the on-chain distribution status of tokens.
-* Enhancing the overall efficiency of multi-address on-chain asset allocation and capital repatriation.
+* Batch position reduction or exit across multiple wallets
+* Project treasury and operational fund recovery
+* Market-making and liquidity position adjustments
+* Coordinated selling before multi-wallet asset consolidation
+* Automated trading and execution testing
 
 Start your Multi-address Bundled Sell on Bonk.fun with CiaoTool now:
 
@@ -32,94 +31,119 @@ Start your Multi-address Bundled Sell on Bonk.fun with CiaoTool now:
 
 ***
 
-## Why Choose CiaoTool Bonk Multi-Address Bundled Sell?
+## Advantage
 
-CiaoTool offers a professional Bonk.fun liquidity solution, balancing execution efficiency with cost protection. Whether for asset liquidation, evading MEV sandwich attacks, or managing on-chain liquidity, its Multi-address Bundled Sell leverages same-block smart aggregation to eliminate manual account-switching, saving valuable operational time.
-
-* Anti-MEV & Low Slippage: Custom-built for Solana to minimize slippage attrition and completely block interference from predatory on-chain bots.
-* Automated Batching: Powering efficient multi-wallet asset liquidation and fast exiting without tedious manual address management.
-* Elite Tooling: Serving as an indispensable liquidity management weapon for Web3 project parties and professional teams.
+* **Multi-Wallet Configuration:** Configure each seller wallet and its token amount separately
+* **Same-Block Execution:** Transactions are completed consecutively in the preset order after the Bundle lands on-chain
+* **Reduced Transaction Gaps:** Reduces the risk of other transactions being inserted during batch selling
+* **Automated Processing:** Automatically builds, signs, and submits the Bundle
+* **Improved Landing Priority:** Uses a Jito tip to improve the Bundle’s landing priority
+* **Local Signing:** Private keys are used only for transaction authorization in the browser and are never uploaded
 
 ***
 
-## **Step by Step |** Bonk Multi-Address Bundled Sell
+## Technology Workflow
+
+#### Traditional Trade
+
+Transactions from multiple wallets are broadcast separately and confirmed independently, with no guarantee of execution order or inclusion in the same block. If other transactions execute first, the trading pair price may decline, resulting in lower execution prices and fewer assets received by subsequent wallets.
+
+<figure><img src="../../../.gitbook/assets/image (1199).png" alt=""><figcaption></figcaption></figure>
+
+#### Bundled Trade
+
+Tokens from up to 20 wallets are consolidated into one wallet and sold through that wallet. The token transfers and sell transaction are packaged into a single Bundle and executed in the preset order. This reduces the risk of other transactions being inserted between them while improving batch-selling consistency and transaction priority.
+
+<figure><img src="../../../.gitbook/assets/image (1200).png" alt=""><figcaption></figcaption></figure>
+
+***
+
+## Step by Step
 
 {% stepper %}
 {% step %}
-### **Connect Wallet**
+### Connect Wallet
 
-Click the button in the top right corner to connect a wallet that supports the Solana network.
+Click the button in the top right corner, and connect a wallet that supports the Solana network.
 
-<figure><img src="../../../.gitbook/assets/image (836).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Select a Token to Sell
+### Select Token Pair
 
-You can choose to enter the token address, or select a token currently owned by your wallet to perform the sell operation.
+Enter a token address or select a token held by the connected wallet.
 
-<figure><img src="../../../.gitbook/assets/image (856).png" alt=""><figcaption></figcaption></figure>
+* **Project Token:** The token used to execute the market-making strategy.
+* **Quote Token:** The token used to pay for transactions and quote the trading pair price.
+
+<figure><img src="../../../.gitbook/assets/image (1202).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Input Trading Wallet Private Key
+### Seller Private Keys
 
 {% hint style="danger" %}
-<mark style="color:$danger;">**Security Tips**</mark>
-
-Currently supports private key import only. Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
+Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
 {% endhint %}
 
 {% hint style="info" %}
-<mark style="color:$primary;">**Bundle Settings**</mark>
+<mark style="color:$primary;">**Trading Wallet Setting**</mark>
 
-There is no limit on the number of imported wallets for **Bonk Multi-address Bundled Sell**, but each transaction group supports a maximum of **20 addresses** for bundled buying.
-
-The service fees for the Multi-address Bundled Buy are paid entirely by the first address of each group, and the Jito tip is paid by the last address imported. Please ensure that the first and last addresses imported have sufficient balances.
+There are no quantity limits on importing wallets. Transaction fees are paid independently by each wallet.
 {% endhint %}
 
-Supports two methods for importing sending private key: **"Manual Input"** and **"Upload File"**. Select an option to view the detailed tutorial.
+Add them **Manually Input** or **Upload File**. Click to view the guide.
 
 {% tabs %}
 {% tab title="Manual Input" %}
-1. Click the **"Manual Input"** button to open the input field.
+1. Click the "Bulk Input" button to open the input field.
 
-<figure><img src="../../../.gitbook/assets/image (857).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1196).png" alt=""><figcaption></figcaption></figure>
 
-2. Enter / bulk paste private keys, one private key per line. Press Enter to start a new line.
+2. Enter / paste wallet private keys, one per line. Optionally add the transfer amount after each wallet.
 
-<figure><img src="../../../.gitbook/assets/image (787).png" alt=""><figcaption></figcaption></figure>
+```
+privateKey, 300
+```
 
-3. Click **"OK"** to import all entered addresses into the operation panel.
+<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (860).png" alt=""><figcaption></figcaption></figure>
+3. Click "Import" to import all entered wallets into the operation panel.
+
+<figure><img src="../../../.gitbook/assets/image (1123).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Upload File" %}
-1. Click the **"Upload File"** button to open the file upload window.
+1. Download the CiaoTool template and fill in the transfer details.
 
-<figure><img src="../../../.gitbook/assets/image (858).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1164).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (790).png" alt=""><figcaption></figcaption></figure>
+2. Click ![](<../../../.gitbook/assets/image (7).png>)"Import File" button to open the input field.
+3. Click "Import" to import all entered wallets into the operation panel.
 
-2. Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.   \
-   Click to download and view the template:
-
-{% file src="../../../.gitbook/assets/Solana_privateKey_demo.xlsx" %}
-
-<figure><img src="../../../.gitbook/assets/image (791).png" alt=""><figcaption></figcaption></figure>
-
-3. Click **"OK"** to import all entered addresses into the operation panel.
-
-<figure><img src="../../../.gitbook/assets/image (859).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1195).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 {% endstep %}
 
 {% step %}
-### Confirm
+### Send Method
 
-After verifying all details, click the **"Bundled Sell"** button below and wait for the transaction process to complete.
+* **RPC:** Broadcasts transactions without a Jito tip. Execution is best-effort and transactions may not land in the same block, creating a risk of bot interference and potential losses.
+* **Jito Bundle:** Uses a Jito tip to package multiple transactions into one Bundle, preventing transaction insertion and improving landing priority, but incurs additional fees.
+{% endstep %}
+
+{% step %}
+### Start Trade
+
+{% hint style="info" %}
+**Bundle Settings**
+
+The first address in each group pays the service fee, while the last imported address pays the Jito tip. Ensure both addresses have sufficient balances.
+{% endhint %}
+
+After confirming the details, click **“Bundled Sell”** to track the trade progress and result in real time.
 {% endstep %}
 {% endstepper %}
 
@@ -145,7 +169,9 @@ CiaoTool uses a fully client-side signing mechanism. Your private key is never u
 
 ***
 
-**Need help? Join our community for real-time support:**
+## Service Support
+
+Need help? Join our community for real-time support:
 
 <table data-header-hidden><thead><tr><th width="188"></th><th valign="top"></th><th data-hidden></th></tr></thead><tbody><tr><td>Email</td><td valign="top"><a href="mailto:ciaotoolglobal@gmail.com">ciaotoolglobal@gmail.com</a></td><td></td></tr><tr><td>Telegram</td><td valign="top"><a href="https://t.me/ciaotools">https://t.me/ciaotools</a></td><td></td></tr><tr><td>WhatsApp</td><td valign="top"><a href="https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J">https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J</a></td><td></td></tr></tbody></table>
 

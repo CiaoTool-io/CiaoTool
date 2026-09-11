@@ -13,197 +13,241 @@ description: >-
 
 ## Overview
 
-**CiaoTool Solana Market Marking** is an advanced automated market-making and liquidity optimization tool custom-built for the Solana ecosystem. It allows project teams and professional groups to fully automate the execution of advanced market-making strategies on **Raydium** by customizing trading parameters, thereby safely and robustly managing token order book depth and market activity.
+**CiaoTool Solana Market Making** is an automated market-making and liquidity management tool for Raydium. Users can customize trade amounts, execution frequency, wallet count, and buy/sell strategies, while the system coordinates multiple wallets to execute trades continuously, increase market activity, and optimize overall data performance.
 
-Compared to manual trading, which is cumbersome and difficult to control precisely, the core advantage of this feature lies in its fully automated strategy execution engine. The system can intelligently schedule multiple wallet addresses to conduct continuous, natural, two-way buy and sell interactions based on a set frequency and scale. This not only effectively optimizes the token's holder distribution and unique trading address structure, but also makes on-chain trading behaviors closer to authentic, natural market participation, comprehensively enhancing the naturalness of overall data performance.
+**Use Cases:**
 
-Key Use Cases:
-
-* **Smart Price Boosting**\
-  Steadily optimizing the token's price presentation through reasonable order book interaction parameters.
-* **Smooth and Orderly Retracement**\
-  Smoothly managing the price retracement trajectory to prevent drastic market volatility.
-* **Continuous Activity Enhancement**\
-  Executing buy and sell operations through multi-address and randomized interval mechanisms to steadily increase trading volume and comprehensively optimize the naturalness of order book data performance.
+* **Price Boosting:** Use continuous, staged purchases to strengthen buying pressure and support steady price growth
+* **Controlled Pullback:** Execute sales at predefined intervals to manage the scale of price corrections
+* **Volume Growth:** Use multiple wallets and randomized intervals to increase trading volume and active address count
+* **Automated Market-Making:** Run recurring buy-and-sell cycles with less manual work
 
 Start your Market Making on Solana with CiaoTool now:
 
-{% embed url="https://ciaotool.io/en-US/raydium/market-making" %}
+{% embed url="https://ciaotool.io/en/raydium/market-making" %}
 
 ***
 
-## Why Choose CiaoTool Solana Market Making?
+## Advantage
 
-**CiaoTool** provides a professional market-making solution for asset management and long-term growth on the Solana chain, balancing intelligence and security. Whether you need to optimize early-stage liquidity presentation, steadily boost daily on-chain activity, or execute complex multi-address trading strategies, its market management feature guarantees precise and efficient strategy execution through fully automated parameter configurations.
-
-Custom-built for the Raydium trading environment, it transforms complex market-making logic into a one-click, intelligent workflow. Combined with a pure front-end, local private-key signing mechanism for security, it exponentially saves team operational time and eliminates tedious manual operations, while constructing a secure, compliant, and highly cost-effective liquidity management defense line for Web3 project teams.
+* **Multiple Strategies:** Supports price boosting, controlled pullbacks, and trading volume strategies
+* **Flexible Settings:** Customize amounts, frequency, intervals, execution count, and participating wallets
+* **Multi-Wallet Coordination:** Manage multiple addresses and execute predefined trading strategies
+* **Automated Operation:** Start tasks with one click and continuously track their status and results
+* **Local Signing:** Private keys are used only for transaction authorization within the browser and are not uploaded
 
 ***
 
-## **Video Tutorial |** Solana Market Making
+## Video Tutorial
 
 {% embed url="https://www.youtube.com/watch?v=WEwHuWE34WM" %}
 
 ***
 
-## **Step by Step |** Solana Market Making
+## Step by Step
 
 {% stepper %}
 {% step %}
-### **Connect Wallet**
+### Connect Wallet
 
-Click the button in the top right corner to connect a wallet that supports the Solana network.
+Click the button in the top right corner, and connect a wallet that supports the Solana network.
 
-<figure><img src="../../../.gitbook/assets/image (757).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### Select Value Token and MM Token
+### Select Pair and Pool
 
-You can choose to input the token address, or select a token currently owned by your wallet to perform the buy operation.
+#### Token Pair
 
-* **Value Token:** The token address used to pay the pair's price when executing trading operations.
-* **MM Token:** The token address used to achieve the market management strategy goals when executing trading operations.
+Enter a token address or select a token held by the connected wallet.
 
-<figure><img src="../../../.gitbook/assets/image (780).png" alt=""><figcaption></figcaption></figure>
+* **Project Token:** The token used to execute the market-making strategy.
+* **Quote Token:** The token used to pay for transactions and quote the trading pair price.
+
+<figure><img src="../../../.gitbook/assets/image (1163).png" alt=""><figcaption></figcaption></figure>
+
+#### Pool
+
+Select the pool for market making and ensure it supports the selected trading pair.
 {% endstep %}
 
 {% step %}
-### Select Market-Making Strategy
-
-Based on different market-making strategy requirements, select the appropriate bot type and switch to the corresponding strategy bot page.
-
-* **Pull Up:** The operating wallet continuously performs buy operations to steadily build positions and drive up the trading pair's price.
-* **Drop:** The operating wallet continuously performs sell operations to steadily liquidate positions and drive down the trading pair's price.
-* **Trading Bot:** The operating wallet continuously performs both buy and sell operations to keep the order book constantly flashing.
-
-<figure><img src="../../../.gitbook/assets/image (781).png" alt=""><figcaption></figcaption></figure>
-{% endstep %}
-
-{% step %}
-### MM Bot Setting
+### Import Private Keys
 
 {% hint style="danger" %}
-Closing / refreshing the page will **immediately stop** the bot strategy. Please ensure that the page remains open and running continuously in the background while the strategy is being executed. To ensure necessary strategy execution, **this feature is not recommended for use on mobile devices.**
-{% endhint %}
-
-Click the market-making strategies below to display the full bot setup tutorial.
-
-{% tabs %}
-{% tab title="Pull Up" %}
-#### Single Transaction Volume
-
-The buy volume for each transaction, anchored to the settings of the **"Value Token".**
-
-If the left and right range limits are identical, it will be a fixed amount; if the range amounts differ, each transaction will use a randomized amount within that specified range.
-
-#### Condition Parameters
-
-Three conditional parameters are provided: **Target Price, Total Maximum Transaction Amount, and Duration**. If left blank, transactions will proceed continuously. If any parameter is filled, the task will automatically stop once that condition is met.
-
-* **Target Price:** When the trading pair price reaches the set **"USDT"** value, the strategy execution stops immediately.
-* **Total Maximum Transaction Amount:** Anchored to the settings of the **"Value Token",** when the cumulative total reaches the set value, the strategy execution stops immediately.
-* **Duration:** Measured in minutes, when the duration reaches the set value, the strategy execution stops immediately.
-
-<figure><img src="../../../.gitbook/assets/image (782).png" alt=""><figcaption></figcaption></figure>
-{% endtab %}
-
-{% tab title="Drop" %}
-#### Single Transaction Volume
-
-The buy volume for each transaction, anchored to the settings of the **"MM Token".**
-
-If the left and right range limits are identical, it will be a fixed amount; if the range amounts differ, each transaction will use a randomized amount within that specified range.
-
-#### Condition Parameters
-
-Three conditional parameters are provided: **Target Price, Total Maximum Transaction Amount, and Duration**. If left blank, transactions will proceed continuously. If any parameter is filled, the task will automatically stop once that condition is met.
-
-* **Target Price:** When the trading pair price reaches the set **"USDT"** value, the strategy execution stops immediately.
-* **Total Maximum Transaction Amount:** Anchored to the settings of the **"MM Token",** when the cumulative total reaches the set value, the strategy execution stops immediately.
-* **Duration:** Measured in minutes, when the duration reaches the set value, the strategy execution stops immediately.
-
-<figure><img src="../../../.gitbook/assets/image (783).png" alt=""><figcaption></figcaption></figure>
-{% endtab %}
-
-{% tab title="Traffic Bot" %}
-#### Single Transaction Volume
-
-The buy volume for each transaction, anchored to the settings of the **"Value Token".**
-
-If the left and right range limits are identical, it will be a fixed amount; if the range amounts differ, each transaction will use a randomized amount within that specified range.
-
-#### Condition Parameters
-
-Three conditional parameters are provided: **Total Maximum Transaction Amount, and Duration**. If left blank, transactions will proceed continuously. If any parameter is filled, the task will automatically stop once that condition is met.
-
-* **Total Maximum Transaction Amount:** Anchored to the settings of the **"Value Token",** when the cumulative total reaches the set value, the strategy execution stops immediately.
-* **Duration:** Measured in minutes, when the duration reaches the set value, the strategy execution stops immediately.
-
-<figure><img src="../../../.gitbook/assets/image (784).png" alt=""><figcaption></figcaption></figure>
-{% endtab %}
-{% endtabs %}
-{% endstep %}
-
-{% step %}
-### Input Trading Wallet Private Key
-
-{% hint style="danger" %}
-<mark style="color:$danger;">**Security Tips**</mark>
-
-Currently supports private key import only. Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
+Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
 {% endhint %}
 
 {% hint style="info" %}
 <mark style="color:$primary;">**Trading Wallet Setting**</mark>
 
-There are no quantity limits on importing wallets for Raydium Market Making. Transaction fees are paid independently by each wallet.
+There are no quantity limits on importing wallets. Transaction fees are paid independently by each wallet.
 {% endhint %}
 
-Supports two methods for importing sending private key: **"Manual Input"** and **"Upload File"**. Select an option to view the detailed tutorial.
+Add them **Manually Input** or **Upload File**. Click to view the guide.
 
 {% tabs %}
 {% tab title="Manual Input" %}
-1. Click the **"Manual Input"** button to open the input field.
+1. Click the "Bulk Input" button to open the input field.
 
-<figure><img src="../../../.gitbook/assets/image (785).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1155).png" alt=""><figcaption></figcaption></figure>
 
-2. Enter / bulk paste private keys, one private key per line. Press Enter to start a new line.
+2. Enter / paste wallet private keys, one per line.
 
-<figure><img src="../../../.gitbook/assets/image (787).png" alt=""><figcaption></figcaption></figure>
+```
+privateKey
+```
 
-3. Click **"OK"** to import all entered addresses into the operation panel.
+<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (788).png" alt=""><figcaption></figcaption></figure>
+3. Click "Import" to import all entered wallets into the operation panel.
+
+<figure><img src="../../../.gitbook/assets/image (1166).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Upload File" %}
-1. Click the **"Upload File"** button to open the file upload window.
+1. Download the CiaoTool template and fill in the transfer details.
 
-<figure><img src="../../../.gitbook/assets/image (786).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1164).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (790).png" alt=""><figcaption></figcaption></figure>
+2. Click ![](<../../../.gitbook/assets/image (7).png>)"Import File" button to open the input field.
+3. Click "Import" to import all entered wallets into the operation panel.
 
-2. Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.   \
-   Click to download and view the template:
-
-{% file src="../../../.gitbook/assets/Solana_privateKey_demo.xlsx" %}
-
-<figure><img src="../../../.gitbook/assets/image (791).png" alt=""><figcaption></figcaption></figure>
-
-3. Click **"OK"** to import all entered addresses into the operation panel.
-
-<figure><img src="../../../.gitbook/assets/image (789).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1165).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 {% endstep %}
 
 {% step %}
-### **Confirm** <a href="#confirm" id="confirm"></a>
+### Trading Mode
 
-After verifying all details, click the **"Activate"** button below and wait for the transaction process to complete.
+Choose a bot type based on your market-making strategy, then switch to the corresponding strategy page.
 
-<figure><img src="../../../.gitbook/assets/image (792).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1167).png" alt=""><figcaption></figcaption></figure>
+
+* **Upward Trend:** Trading wallets continuously buy based on your settings, gradually building positions and increasing buying activity to support an upward trend.
+* **Upward Trend:** Trading wallets continuously sell for gradual position reduction or fund recovery, helping form a downward trend.
+* **Volume:** Randomly alternates between buys and sells to generate two-way trading activity and keep market data updated.
+{% endstep %}
+
+{% step %}
+### Trading Setting
+
+{% hint style="danger" %}
+Closing or refreshing the page will **stop the bot immediately**. Keep the page open and running in the background while the strategy is active. This feature is **not recommended for mobile devices**.
+{% endhint %}
+
+Click a market-making strategy below to view its complete setup guide.
+
+{% tabs %}
+{% tab title="Upward Trend" %}
+#### Per-trade amount
+
+The amount purchased in each transaction, denominated in the selected **Quote Token**.
+
+If the minimum and maximum values are the same, a fixed amount is used. If they differ, each trade uses a random amount within the range.
+
+#### Stop conditions
+
+Three optional stop conditions are available: **Target Price, Maximum Cumulative Volume**, and **Run Time**. If no condition is set, trading will continue. The task stops automatically when any configured condition is reached.
+
+* **Target Price:** Stops when the **Project Token** reaches the specified price.
+* **Maximum cumulative volume:** Stops when the cumulative volume reaches the specified amount, denominated in the **Quote Token**.
+* **Maximum duration:** Stops after the specified number of minutes.
+
+<figure><img src="../../../.gitbook/assets/image (1168).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+
+{% tab title="Upward Trend" %}
+#### Per-trade amount
+
+The amount of **Project Tokens** sold in each transaction.
+
+If the minimum and maximum values are the same, a fixed amount is used. If they differ, each trade uses a random amount within the selected range.
+
+#### Stop conditions
+
+Three optional stop conditions are available: **Target Price, Maximum Cumulative Volume**, and **Run Time**. If no condition is set, trading will continue. The task stops automatically when any configured condition is reached.
+
+* **Target Price:** Stops when the exchange price reaches the specified **Quote Token** value.
+* **Maximum cumulative volume:** Stops when the cumulative amount of **Project Tokens** sold reaches the specified value.
+* **Run Time:** Stops after the specified number of minutes.
+
+<figure><img src="../../../.gitbook/assets/image (1169).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+
+{% tab title="Volume" %}
+#### Per-trade amount
+
+The sell amount for each transaction, denominated in the selected **Quote Token**.
+
+If the minimum and maximum values are the same, a fixed amount is used. If they differ, each trade uses a random amount within the selected range.
+
+#### Stop conditions
+
+Two optional stop conditions are available: **Maximum cumulative volume** and **Run Time**. If neither is set, trading will continue. The task stops automatically when either configured condition is reached.
+
+* **Maximum cumulative volume:** Stops when the cumulative trading volume reaches the specified **Quote Token** amount.
+* **Run Time:** Stops after the specified number of minutes.
+
+<figure><img src="../../../.gitbook/assets/image (1170).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+{% endtabs %}
+{% endstep %}
+
+{% step %}
+### General Settings
+
+{% tabs %}
+{% tab title="Interval" %}
+Set the execution interval between transactions.
+
+<figure><img src="../../../.gitbook/assets/image (1171).png" alt=""><figcaption></figcaption></figure>
+
+* **Fixed:** Transactions are broadcast at fixed intervals.
+* **Random:**&#x54;ransactions are submitted randomly within the specified time range to simulate natural trading activity. Keep the page open during execution.
+{% endtab %}
+
+{% tab title="Slippage" %}
+Slippage is the difference between the expected price and the actual execution price. Setting the tolerance too low may cause transactions to fail, while setting it too high may expose you to greater price movement.
+
+<figure><img src="../../../.gitbook/assets/image (1172).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+
+{% tab title="Send Method" %}
+* **RPC:** Broadcast transactions through an RPC node without paying a Jito tip.
+* **Jito Bundle:** Use a Jito tip to improve landing priority.
+
+<figure><img src="../../../.gitbook/assets/image (1173).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+{% endtabs %}
+{% endstep %}
+
+{% step %}
+### Start Trade
+
+Each wallet pays its own transaction fees.
+
+After confirming the details, click **“Start Market Making”** to start the market-making program.
+
+<figure><img src="../../../.gitbook/assets/image (1174).png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### Confirm
+
+{% hint style="danger" %}
+Closing or refreshing the page will **stop the bot immediately**. Keep the page open and running in the background while the strategy is active. This feature is **not recommended for mobile devices**.
+{% endhint %}
+
+While the program is running, monitor:
+
+* [x] Current trading pair price
+* [x] Number of successful transactions
+* [x] Cumulative trading volume and other details
+
+<figure><img src="../../../.gitbook/assets/image (1175).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
@@ -237,7 +281,9 @@ CiaoTool uses a fully client-side signing mechanism. Your private key is never u
 
 ***
 
-**Need help? Join our community for real-time support:**
+## Service Support
+
+Need help? Join our community for real-time support:
 
 <table data-header-hidden><thead><tr><th width="188"></th><th valign="top"></th><th data-hidden></th></tr></thead><tbody><tr><td>Email</td><td valign="top"><a href="mailto:ciaotoolglobal@gmail.com">ciaotoolglobal@gmail.com</a></td><td></td></tr><tr><td>Telegram</td><td valign="top"><a href="https://t.me/ciaotools">https://t.me/ciaotools</a></td><td></td></tr><tr><td>WhatsApp</td><td valign="top"><a href="https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J">https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J</a></td><td></td></tr></tbody></table>
 
