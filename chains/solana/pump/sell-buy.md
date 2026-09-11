@@ -43,6 +43,12 @@ CiaoTool delivers a secure, low-attrition PumpFun position-switching solution. U
 
 ***
 
+## Video Tutorial
+
+{% embed url="https://www.youtube.com/watch?t=12s&v=j381k3jjEyU" %}
+
+***
+
 ## **Step by Step |** PumpFun Sell & Bundled Buy
 
 {% stepper %}

@@ -1,5 +1,5 @@
 ---
-icon: '6'
+icon: '4'
 ---
 
 # PumpFun Zone

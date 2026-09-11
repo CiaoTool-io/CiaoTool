@@ -42,6 +42,8 @@ Start your Multi-to-Multi Transfer on Solana with CiaoTool now:
 * **Pre-Submission Review:** Verify transfer mappings, total amounts, and estimated fees before submitting.
 * **Local Signing:** Private keys are used locally for transaction signing and are never uploaded to the server.
 
+***
+
 ## Technical Workflow
 
 Each many-to-many transfer is defined by a sender, recipient, and transfer amount. The system maps multiple sending wallets to multiple recipient addresses, then automatically creates, groups, and executes the transfer tasks for flexible batch asset distribution.
