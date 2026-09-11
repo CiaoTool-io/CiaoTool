@@ -41,6 +41,12 @@ description: >-
 
 ***
 
+## 视频教程
+
+{% embed url="https://www.youtube.com/watch?v=wg1xE_Grqvs" %}
+
+***
+
 ## **技术实现示意**
 
 ### 传统交易

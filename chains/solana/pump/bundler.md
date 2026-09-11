@@ -32,12 +32,6 @@ CiaoTool PumpFun 创建并买入是一款代币发行与多钱包买入工具，
 
 ***
 
-## 视频教程
-
-{% embed url="https://www.youtube.com/watch?v=wg1xE_Grqvs" %}
-
-***
-
 ## **技术实现示意**
 
 ### 传统发射代币
