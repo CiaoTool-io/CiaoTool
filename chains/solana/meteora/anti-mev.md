@@ -7,13 +7,15 @@ description: >-
 
 # Meteora - Anti-MEV Volume Bot
 
-## What is CiaoTool Meteora Anti-MEV Volume Bot?
+{% hint style="info" %}
+**CiaoTool Raydium Anti-MEV Volume Bot** now fully supports all liquidity pool types, including **DBC, DLMM, and DAMM V2**.
+{% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (826).png" alt="CiaoTool Solana Toolkit Page about Meteora Anti-MEV Volume Bot Feature"><figcaption></figcaption></figure>
+## Overview
 
-**CiaoTool Meteora Anti-EVM Volume Bot** is an advanced automated trade execution tool custom-built for the Meteora platform within the Solana ecosystem. It allows users to execute fully automated, continuous buy and sell interactions on-chain through customized parameters, safely boosting token trading activity.
+**CiaoTool  eAnti-MEV Volume Bot** is an automated trading tool for Raydium. Users can customize trade amounts, execution frequency, and participating wallets, while the system continuously executes multi-wallet buy and sell operations to increase trading volume and on-chain activity.
 
-Compared to conventional volume tools, the core mechanism of this feature lies in "same-block aggregated execution." The system bundles both the buy and sell operations of a token to be completed synchronously within the very same block. This underlying mechanism effectively prevents transactions from being "sandwiched" by on-chain MEV bots, thereby avoiding the severe slippage and capital attrition commonly seen in high-frequency interactions. It steadily enhances the token's trading volume, the number of unique trading addresses, and the overall naturalness of data performance under the prerequisite of ultra-low slippage loss.
+The tool uses same-block transaction bundling, combining related buy and sell transactions into a Bundle and executing them consecutively in a predefined order. This reduces the opportunity for MEV bots to insert transactions between trades, helping limit slippage and capital loss during high-frequency execution.
 
 Start your Anti-EVM Volume Bot on Meteora with CiaoTool now:
 

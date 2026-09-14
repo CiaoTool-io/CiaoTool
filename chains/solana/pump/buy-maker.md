@@ -13,7 +13,7 @@ description: >-
 
 ## Overview
 
-**CiaoTool Pump Trader Booster** is a multi-address automated trading tool for Pump.fun and PumpSwap. It generates new wallets in batches and uses them to purchase a specified token.
+**CiaoTool Pump Boost Makers** is a multi-address automated trading tool for Pump.fun and PumpSwap. It generates new wallets in batches and uses them to purchase a specified token.
 
 The system automatically completes the entire process: wallet creation, fund distribution, token purchase, asset consolidation, and account cleanup. After trading, the purchased tokens and remaining SOL are transferred to a designated main wallet. Eligible temporary Token Accounts are then closed, and their recoverable account rent is refunded.
 

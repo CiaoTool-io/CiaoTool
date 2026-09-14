@@ -11,7 +11,7 @@ description: >-
 **CiaoTool Pump Boost Makers** now fully supports all quote tokens, including official **SOL and USDC**.
 {% endhint %}
 
-## What is CiaoTool PumpFun Boost Holders?
+## Overview
 
 **CiaoTool Pump Holder Booster** is a multi-address token distribution tool for Pump.fun and PumpSwap. It generates new wallets in batches, distributes trading funds, and uses each wallet to purchase the selected token. The purchased tokens remain in their respective wallets, creating active token-holding accounts.
 
