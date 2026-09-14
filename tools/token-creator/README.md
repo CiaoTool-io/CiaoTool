@@ -1,6 +1,6 @@
 ---
 description: >-
-  CiaoTool supports token creator on Solana, BSC, Base, Robinhood, X Layer, and
+  CiaoTool supports token creator on Solana, BSC, Base, Robinhood Chain, and
   more. Also supports launches and buys on Pump, Bonk, Fourmeme, Flap, and other
   platforms. Launch your token with ease.
 ---
