@@ -5,7 +5,7 @@ description: >-
   increase trading volume and improve market activity.
 ---
 
-# Bonk - Anti-MEV Volume Bot Guide
+# BonkFun - Anti-MEV Volume Bot Guide
 
 {% hint style="info" %}
 **CiaoTool Bonk Anti-MEV Volume Bot** now fully supports all quote tokens, including official **SOL and USD1**.
@@ -19,7 +19,7 @@ The tool uses same-block transaction bundling, combining related buy and sell tr
 
 Start your Anti-EVM Volume Bot on BonkFun with CiaoTool now:
 
-{% embed url="https://ciaotool.io/en-US/letsbonkZone/anti-mev" %}
+{% embed url="https://ciaotool.io/en/bonk/anti-mev" %}
 
 ***
 
