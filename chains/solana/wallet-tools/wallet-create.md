@@ -32,7 +32,7 @@ Start batch-creating your wallets on the Solana network with CiaoTool now:
 ## Advantage
 
 * **Free Generation:** Wallets are created locally without submitting on-chain transactions, so no network fees or additional CiaoTool service fees are charged.
-* **Local Processing:** Wallet addresses, private keys, and seed phrases are generated locally in the browser and do not need to be uploaded to a server. Offline generation is also supported to reduce the exposure of sensitive information.
+* **Local Processing:** Wallet addresses, and private keys are generated locally in the browser and do not need to be uploaded to a server. Offline generation is also supported to reduce the exposure of sensitive information.
 
 ***
 
