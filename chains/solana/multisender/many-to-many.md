@@ -1,8 +1,8 @@
 ---
 description: >-
-  Process batch SOL or SPL transfers. Mimic natural transactions to obfuscate
-  linkages, avoid cluster detection, and streamline multi-wallet management and
-  asset strategy.
+  Batch-transfer SOL or supported tokens from multiple wallets to their
+  corresponding recipient addresses. Configure transfer amounts and fixed or
+  randomized intervals through a no-code interface.
 ---
 
 # Solana - Multisender | Multi-to-Multi Transfer Guide
@@ -15,16 +15,17 @@ Click [**"EVM - Multi-to-Multi Transfer"**](../../../tools/multisender/multi-to-
 
 ## Overview
 
-**CiaoTool Solana Multi-to-Multi Transfer** is an advanced tool tailored for efficient Web3 asset management. It allows you to automatically execute batch transfers of SOL or any SPL token from multiple sender wallets to multiple recipient wallets in a single operation.
+**CiaoTool Solana Multi-to-Multi Transfer** lets you send assets from multiple wallets to their paired recipients in one workflow.
 
-Compared to traditional single-address distributions, the core advantage of Multi-to-Multi Transfer lies in its ability to completely mimic independent transaction patterns of real users. The system automatically splits and executes peer-to-peer independent transactions, effectively obfuscating fund flow paths and breaking correlation analysis by on-chain tracking tools. This not only significantly saves time on bulk operations and reduces manual error rates, but also effectively prevents wallet addresses from being tracked.
+Import your sending wallets and recipient addresses, configure amounts and submission settings, then review and execute the task. The system handles transaction grouping and local browser signing, with fee estimates, live progress, and available failure details.
 
-Key Use Cases:
+**Use Cases:**
 
-* Untraceable Airdrops & Token Distributions
-* Discreet On-Chain Fund Transfers & Diversified Rebalancing
-* Efficient Bulk Community Payments Across Multiple Addresses
-* Complex Capital Management for Web3 Growth Campaigns
+* **Wallet migration:** Move assets from multiple old wallets to their corresponding new wallets.
+* **Operational funding:** Transfer funds between designated operational accounts.
+* **Team and partner payments:** Pay assigned recipients from separate sending wallets.
+* **Test-wallet management:** Fund, refund, or transfer balances between paired test accounts.
+* **Multi-account balance management:** Use retained-balance or percentage settings to adjust wallet allocations.
 
 Start your Multi-to-Multi Transfer on Solana with CiaoTool now:
 
@@ -34,29 +35,10 @@ Start your Multi-to-Multi Transfer on Solana with CiaoTool now:
 
 ## Advantage
 
-* **Flexible Mapping:** Freely connect multiple sending wallets with multiple recipient addresses.
-* **Batch Execution:** Automatically create, group, and submit transfer tasks to reduce repetitive operations.
-* **Easy Import:** Import addresses, amounts, and transfer mappings from Excel.
-* **Flexible Amounts:** Distribute equal, fixed, or randomized amounts.
-* **Multiple Sending Options:** Choose between RPC broadcasting and Jito bundle submission.
-* **Pre-Submission Review:** Verify transfer mappings, total amounts, and estimated fees before submitting.
-* **Local Signing:** Private keys are used locally for transaction signing and are never uploaded to the server.
-
-***
-
-## Technical Workflow
-
-Each many-to-many transfer is defined by a sender, recipient, and transfer amount. The system maps multiple sending wallets to multiple recipient addresses, then automatically creates, groups, and executes the transfer tasks for flexible batch asset distribution.
-
-{% columns %}
-{% column %}
-<table><thead><tr><th width="95">Sender</th><th width="109">Recipient</th><th>Transfer Amount</th></tr></thead><tbody><tr><td>A</td><td>1</td><td>A→1</td></tr><tr><td>A</td><td>2</td><td>A→2</td></tr><tr><td>A</td><td>3</td><td>A→3</td></tr><tr><td>B</td><td>1</td><td>B→1</td></tr><tr><td>B</td><td>2</td><td>B→2</td></tr><tr><td>B</td><td>3</td><td>B→3</td></tr></tbody></table>
-{% endcolumn %}
-
-{% column %}
-<figure><img src="../../../.gitbook/assets/image.avif" alt=""><figcaption></figcaption></figure>
-{% endcolumn %}
-{% endcolumns %}
+* **Bulk processing:** Import multiple wallet pairs without repeatedly switching wallets.
+* **Flexible amounts:** Choose individual, fixed, random-range, retain, percentage, or all-balance settings.
+* **Beginner-friendly:** Complete configuration, review, and execution without coding.
+* **Non-custodial:** Retain control of your wallets. Imported keys are used for local browser signing and are not uploaded to or stored on CiaoTool servers.
 
 ***
 
@@ -239,7 +221,7 @@ After confirming the details, click **“Confirm and Send”** to track the tran
 
 <summary><strong>What is Multi-to-Multi Bulk Transfer?</strong></summary>
 
-Solana Multi-to-Multi Batch Transfer tool is a visual service utility. It allows you to concurrently distribute tokens from multiple sender wallets to multiple target addresses simultaneously, without requiring any code. Through a mesh-cross transfer pattern, it breaks up singular funding tracks, offering greater precision and stealth than manual operations.
+It is a batch-transfer tool for sending SOL or supported tokens from multiple wallets to their paired recipient addresses, with shared configuration, fee review, and progress tracking.
 
 </details>
 

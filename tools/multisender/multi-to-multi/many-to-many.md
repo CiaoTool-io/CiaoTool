@@ -1,8 +1,8 @@
 ---
 description: >-
-  Batch transfer native or ERC-20 tokens across multiple wallets. Helps reduce
-  wallet linkage, improve distribution, and simplify multi-wallet asset
-  management.
+  Batch-transfer Native or supported tokens from multiple wallets to their
+  corresponding recipient addresses. Configure transfer amounts and fixed or
+  randomized intervals through a no-code interface.
 ---
 
 # EVM - Multisender | Multi-to-Multi Transfer Tutorial
@@ -19,11 +19,17 @@ Click [**"Solana - Multi-to-Multi Transfer"**](../../../chains/solana/multisende
 
 <figure><img src="../../../.gitbook/assets/image (927).png" alt="CiaoTool BSC Toolkit Page about BSC Batch Multi-to-Multi Transfer Feature"><figcaption></figcaption></figure>
 
-**CiaoTool EVM Multi-to-Multi Transfer** is an advanced parallel asset flow and financial distribution tool specifically crafted for the BSC (BNB Smart Chain) and EVM-compatible ecosystems.
+CiaoTool EVM Multi-to-Multi Transfer lets you send assets from multiple wallets to their paired recipients in one workflow.
 
-It allows users to cross-transfer and batch-send native tokens (such as BNB) or any BEP-20 / ERC-20 standard tokens from multiple independent source wallets (senders) to multiple target receiving wallets within a single operation.
+Import your sending wallets and recipient addresses, configure amounts and submission settings, then review and execute the task. The system handles transaction grouping and local browser signing, with fee estimates, live progress, and available failure details.
 
-Compared to traditional unidirectional "One-to-Multi" or "Multi-to-One" models, the core mechanism of this feature lies in "Comprehensive Cross-Matrix Flow." The system breaks the limitations of single address mapping, automatically establishing a cross-network matrix from multiple sources to multiple targets at the underlying layer. This means: Source A and Source B can send funds to Target A simultaneously; likewise, Source A and Source B can also distribute to Target B at the same time.
+Use Cases:
+
+* **Wallet migration:** Move assets from multiple old wallets to their corresponding new wallets.
+* **Operational funding:** Transfer funds between designated operational accounts.
+* **Team and partner payments:** Pay assigned recipients from separate sending wallets.
+* **Test-wallet management:** Fund, refund, or transfer balances between paired test accounts.
+* **Multi-account balance management:** Use retained-balance or percentage settings to adjust wallet allocations.
 
 Start your Multi-to-Multi Transfer on EVM Network with CiaoTool now:
 
@@ -31,16 +37,13 @@ Start your Multi-to-Multi Transfer on EVM Network with CiaoTool now:
 
 ***
 
-## Why Choose CiaoTool EVM Multi-to-Multi Transfer?
+## Advantage
 
-Cross-distributing funds across numerous addresses carries high risks of operational errors and private key exposure. CiaoTool delivers an efficient and secure solution for complex matrix allocations:
-
-* **Efficiency Boost**\
-  Eliminate tedious manual account switching, address copying, and repetitive signing. Execute hundreds of transfers concurrently with one click for ultra-fast asset aggregation.
-* **Flexible Configuration**\
-  Import addresses and amounts instantly via Excel. Supports equal, fixed, or random allocations, perfectly adapting to complex airdrop strategies.
-* **Optimize Fund Distribution**\
-  Break up large, uniform fund flows using cross-transfers and random amounts, ensuring more organic asset migration and optimized on-chain links.<br>
+* **Bulk processing:** Import multiple wallet pairs without repeatedly switching wallets.
+* **Flexible amounts:** Choose individual, fixed, random-range, retain, percentage, or all-balance settings.
+* **Configurable timing:** Apply fixed or randomized submission intervals.
+* **Beginner-friendly:** Complete configuration, review, and execution without coding.
+* **Non-custodial:** Retain control of your wallets. Imported keys are used for local browser signing and are not uploaded to or stored on CiaoTool servers.
 
 ***
 

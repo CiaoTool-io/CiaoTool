@@ -46,9 +46,7 @@ After market-making activities, airdrop campaigns, or multi-wallet operations, a
 
 {% columns %}
 {% column %}
-**CiaoTool BSC Multi-to-Multi Transfer** is an advanced asset management tool designed for complex multi-wallet fund distribution. It allows users to import multiple sender wallets and recipient wallets simultaneously, executing multiple independent transfers in a single operation based on custom transfer mappings and amounts.
-
-Compared to traditional transfer methods, the multi-to-multi model is ideal for complex asset allocation and wallet restructuring. Users can precisely control fund flows and transfer amounts between individual wallets, enabling flexible and efficient asset management.
+**CiaoTool BSC Multi-to-Multi Transfer** lets you send assets from multiple wallets to their paired recipients in one workflow.
 {% endcolumn %}
 
 {% column %}
