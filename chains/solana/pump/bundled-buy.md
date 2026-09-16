@@ -84,13 +84,7 @@ Enter a token address or select a token held in the connected wallet. The system
 Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
 {% endhint %}
 
-{% hint style="info" %}
-<mark style="color:$primary;">**Trading Wallet Setting**</mark>
-
-There are no quantity limits on importing wallets. Transaction fees are paid independently by each wallet.
-{% endhint %}
-
-Add them **Manually Input** or **Upload File**. Click to view the guide.
+There are no quantity limits on importing wallets. Add them **Manually Input** or **Upload File**. Click to view the guide.
 
 {% tabs %}
 {% tab title="Manual Input" %}
@@ -166,7 +160,8 @@ The program runs automatically. Review the confirmation page and verify:
 {% hint style="info" %}
 **Bundle Settings**
 
-The first address in each group pays the service fee, while the last imported address pays the Jito tip. Ensure both addresses have sufficient balances.
+* **Jito**: The first wallet in each bundle pays the tip, while the last wallet pays the total service fee for that bundle.
+* **RPC**: The first wallet in each transaction group pays the service fee for that group.
 {% endhint %}
 
 After confirming the details, click **“Confirm and Start Bundled Buy”** to track the trade progress and result in real time.
