@@ -33,12 +33,6 @@ Start your Bundler on PumpFun with CiaoTool now:
 
 ***
 
-## Video Tutorial
-
-{% embed url="https://www.youtube.com/watch?t=12s&v=j381k3jjEyU" %}
-
-***
-
 ## Technology Workflow
 
 #### Traditional Token Launch
@@ -189,7 +183,7 @@ privateKey, 300
 {% endstep %}
 
 {% step %}
-### Enter  Amount
+### Enter Amount
 
 Choose from 2 amount options: **Individual, or Fixed**. Dev and bundled wallets purchases are limited to **86 SOL** in total.
 
