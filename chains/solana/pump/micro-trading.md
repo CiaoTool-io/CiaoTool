@@ -1,11 +1,11 @@
 ---
 description: >-
-  A micro trading tool for Pump.fun and PumpSwap. Automatically executes small
-  buy and sell transactions to maintain activity, increase visibility, and
-  maximize exposure at minimal cost.
+  A micro trading tool for Pump.fun. Automatically executes small buy and sell
+  transactions to maintain activity, increase visibility, and maximize exposure
+  at minimal cost.
 ---
 
-# Pump - Micro Trading Guide
+# PumpFun - Micro Trading Guide
 
 {% hint style="info" %}
 **CiaoTool Pump Micro Trading** now fully supports all quote tokens, including official **SOL and USDC**.&#x20;
@@ -13,11 +13,11 @@ description: >-
 
 ## Overview
 
-**CiaoTool Pump Micro-Trading Bot** is an automated exposure tool for Pump.fun and PumpSwap. Users can customize micro-trade amounts and execution intervals, while the system continuously executes small buy and sell transactions across multiple wallets.
+**CiaoTool PumpFun Micro-Trading Bot** is an automated exposure tool for Pump.fun. Users can customize micro-trade amounts and execution intervals, while the system continuously executes small buy and sell transactions across multiple wallets.
 
 The tool uses Pump.fun’s recent trading activity display mechanism to keep tokens active through continuous micro-transactions. This increases their chances of appearing on the homepage and recent activity lists, helping projects gain more exposure and attract user attention.
 
-Start your Micro Trading on PumpFun and PumpSwap with CiaoTool now:
+Start your Micro Trading on PumpFun with CiaoTool now:
 
 {% embed url="https://ciaotool.io/en/pump/micro-trading" %}
 

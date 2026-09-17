@@ -51,7 +51,7 @@
     * [Pump - Sell & Bundled Buy Guide](chains/solana/pump/sell-buy.md "Sell & Bundled Buy")
     * [Pump - Multi-address Bundled Sell Guide](chains/solana/pump/bundled-sell.md "Multi-address Bundled Sell")
     * [Pump - Market Making Guide](chains/solana/pump/market-making.md "Market Making")
-    * [Pump - Micro Trading Guide](chains/solana/pump/micro-trading.md "Micro Trading")
+    * [PumpFun - Micro Trading Guide](chains/solana/pump/micro-trading.md "Micro Trading")
     * [Pump - Anti-MEV Volume Bot Guide](chains/solana/pump/anti-mev.md "Anti-MEV Volume Bot")
     * [Pump - Batch Swap Guide](chains/solana/pump/batch-swap.md "Batch Swap")
     * [Pump - Boost Makers Guide](chains/solana/pump/buy-maker.md "Boost Makers")
