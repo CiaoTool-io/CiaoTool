@@ -93,8 +93,8 @@ Supports Bonk tokens quoted in SOL or USDC.
  4 < address ≤  8，0.03375 SOL per address
 ```
 
-* [**Create & Graduation Buy (Create & Buy, Graduation Buy)**](https://ciaotool.io/en/pump/graduation-sniper)**:** 0.075 SOL / address
-* [**Bundle & Graduate (Bundled Buy, Graduation Buy)**](https://ciaotool.io/en/pump/bundled-graduate)**:** 0.0075 SOL / address
+* [**Create & Graduation Buy (Create & Buy, Graduation Buy)**](https://ciaotool.io/en/pump/graduation-sniper)**:** 0.75 SOL
+* [**Bundle & Graduate (Bundled Buy, Graduation Buy)**](https://ciaotool.io/en/pump/bundled-graduate)**:** 0.75 SOL / address
 
 ### Market Making
 
