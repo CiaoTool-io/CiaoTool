@@ -54,7 +54,7 @@
     * [Pump - 多地址捆绑卖出指南](chains/solana/pump/bundled-sell.md "多地址捆绑卖出")
     * [Pump - 卖出并多地址捆绑买入指南](chains/solana/pump/sell-buy.md "卖出并捆绑买入")
     * [Pump - 市值管理教程](chains/solana/pump/market-making.md "市值管理")
-    * [Pump - 微单交易机器人指南](chains/solana/pump/micro-trading.md "微单交易机器人")
+    * [PumpFun - 微单交易机器人指南](chains/solana/pump/micro-trading.md "微单交易机器人")
     * [Pump - 防夹交易量机器人教程](chains/solana/pump/anti-mev.md "防夹交易量机器人")
     * [Pump - 批量交易教程](chains/solana/pump/batch-swap.md "批量买卖")
     * [Pump - 提升交易人数教程](chains/solana/pump/buy-maker.md "提升交易人数")
