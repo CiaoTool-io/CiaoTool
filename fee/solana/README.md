@@ -92,8 +92,8 @@ description: >-
  4 <地址数≤  8，每个0.03375 SOL
 ```
 
-* [**创建并迁移买入**](https://ciaotool.io/zh-Hans/pump/graduation-sniper)：0.075 SOL / 每个地址
-* [**捆绑并迁移买入**](https://ciaotool.io/zh-Hans/pump/bundled-graduate)**：**&#x30;.0075 SOL / 每个地址
+* [**创建并迁移买入**](https://ciaotool.io/zh-Hans/pump/graduation-sniper)：0.75 SOL
+* [**捆绑并迁移买入**](https://ciaotool.io/zh-Hans/pump/bundled-graduate)**：**&#x30;.75 SOL
 
 ### 市值管理
 
@@ -116,7 +116,7 @@ description: >-
 
 * [**市值管理**](https://ciaotool.io/zh-Hans/pump/market-making)：0.00075 SOL / 每次交易
 * [**防夹交易量机器人**](https://ciaotool.io/zh-Hans/pump/anti-mev)：0.00375 SOL / 每次交易
-* [**微量交易**](https://ciaotool.io/zh-Hans/pump/micro-trading)：0.00075 SOL / 每笔交易
+* [**PumpFun 微量交易**](https://ciaotool.io/zh-Hans/pump/micro-trading)：0.00075 SOL / 每笔交易
 * [**批量交易**](https://ciaotool.io/zh-CN/pump/multi-swap)：0.001875 SOL / 每次交易
 * [**提升交易人数**](https://ciaotool.io/zh-Hans/pump/newaddr-buyers-markers)：0.00015 SOL / 每个地址
 * [**提升持币人数**](https://ciaotool.io/zh-Hans/pump/new-address-holders)：0.00015 SOL / 每个地址
