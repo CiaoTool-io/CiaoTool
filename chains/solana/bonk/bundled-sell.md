@@ -5,7 +5,7 @@ description: >-
   optimizing team asset exit efficiency.
 ---
 
-# Bonk - Multi-Address Bundled Sell Guide
+# BonkFun - Multi-Address Bundled Sell Guide
 
 {% hint style="info" %}
 **CiaoTool Bonk Multi-Address Bundled Sell** now fully supports all quote tokens, including official **SOL and USD1**.
@@ -13,7 +13,7 @@ description: >-
 
 ## Overview
 
-**CiaoTool Bonk Multi-Wallet Bundled Sell** is a batch-selling tool for Bonk.fun. Users can configure multiple seller wallets and token amounts, while the system automatically builds the transactions and submits them in a Bundle according to the preset order.
+**CiaoTool Bonk Multi-Wallet Bundled Sell** is a batch-selling tool for Bonk.fun. Users can configure multiple seller wallets, while the system automatically builds the transactions and submits them in a Bundle according to the preset order.
 
 When executed successfully, the sell transactions within the Bundle are completed consecutively in the same block. This reduces the risk of other transactions being inserted between them and improves execution consistency and management efficiency.
 
@@ -33,7 +33,6 @@ Start your Multi-address Bundled Sell on Bonk.fun with CiaoTool now:
 
 ## Advantage
 
-* **Multi-Wallet Configuration:** Configure each seller wallet and its token amount separately
 * **Same-Block Execution:** Transactions are completed consecutively in the preset order after the Bundle lands on-chain
 * **Reduced Transaction Gaps:** Reduces the risk of other transactions being inserted during batch selling
 * **Automated Processing:** Automatically builds, signs, and submits the Bundle
@@ -87,13 +86,7 @@ Enter a token address or select a token held by the connected wallet.
 Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
 {% endhint %}
 
-{% hint style="info" %}
-<mark style="color:$primary;">**Trading Wallet Setting**</mark>
-
-There are no quantity limits on importing wallets. Transaction fees are paid independently by each wallet.
-{% endhint %}
-
-Add them **Manually Input** or **Upload File**. Click to view the guide.
+There are no quantity limits on importing wallets. Add them **Manually Input** or **Upload File**. Click to view the guide.
 
 {% tabs %}
 {% tab title="Manual Input" %}
@@ -101,7 +94,7 @@ Add them **Manually Input** or **Upload File**. Click to view the guide.
 
 <figure><img src="../../../.gitbook/assets/image (1196).png" alt=""><figcaption></figcaption></figure>
 
-2. Enter / paste wallet private keys, one per line. Optionally add the transfer amount after each wallet.
+2. Enter / paste wallet private keys, one per line.
 
 ```
 privateKey, 300
@@ -140,7 +133,7 @@ privateKey, 300
 {% hint style="info" %}
 **Bundle Settings**
 
-The first address in each group pays the service fee, while the last imported address pays the Jito tip. Ensure both addresses have sufficient balances.
+The first address in each group pays the service fee and Jito tip. Ensure the first address have sufficient balances.
 {% endhint %}
 
 After confirming the details, click **“Bundled Sell”** to track the trade progress and result in real time.
