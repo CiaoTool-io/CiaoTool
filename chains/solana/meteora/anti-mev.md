@@ -157,9 +157,9 @@ privateKey
 ### 发送设置
 
 * **RPC 发送**\
-  通过 RPC 节点统一广播交易，无需支付 Jito 小费。
+  将买入与卖出组合在同一笔原子交易中执行，避免外部交易插入，有效降低夹子与 MEV 干扰。
 * **Jito Bundle**\
-  通过 Jito 小费提升上链优先级。
+  通过设置 Jito 小费提高交易处理优先级和上链成功率，但会产生额外费用。
 
 <figure><img src="../../../.gitbook/assets/image (857).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
