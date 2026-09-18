@@ -79,7 +79,7 @@
     * [Meteora - Multi-Address Bundled Buy Guide](chains/solana/meteora/bundled-buy.md "Multi-Address Bundled Buy")
     * [Meteora - Sell & Bundled Buy Tutorial](chains/solana/meteora/sell-buy.md "Sell & Bundled Buy")
     * [Meteora - Multi-Address Bundled Sell Guide](chains/solana/meteora/bundled-sell.md "Multi-Address Bundled Sell")
-    * [Meteora - Market Making Tutorial](chains/solana/meteora/market-making.md "Market Making")
+    * [Meteora - Market Making Guide](chains/solana/meteora/market-making.md "Market Making")
     * [Meteora - Batch Swap Guide](chains/solana/meteora/batch-swap.md "Batch Swap")
     * [Meteora - Anti-MEV Volume Bot](chains/solana/meteora/anti-mev.md "Anti-MEV Volume Bot")
     * [Meteora - Boost Makers Guide](chains/solana/meteora/buy-maker.md "Boost Makers")
