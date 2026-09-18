@@ -8,7 +8,7 @@ description: >-
 # Meteora - Market Making Tutorial
 
 {% hint style="info" %}
-**CiaoTool Meteora Market Making** now fully supports all liquidity pool types, including **AMM V4, CLMM, and CPMM**.
+**CiaoTool Meteora Market Making** now fully supports all liquidity pool types, including **DBC, DLMM, and DAMM V2**.
 {% endhint %}
 
 ## Overview
