@@ -88,6 +88,34 @@ Although optional, adding your **website, X / Twitter, and Telegram** is recomme
 {% endstep %}
 
 {% step %}
+### Mint Address <mark style="color:$info;">(Ops)</mark>
+
+Generate a custom token Mint address to make your token easier to recognize.
+
+Customize your personalized token address; setting up a token address incurs **an additional fee of 0.1 SOL**.
+
+{% tabs %}
+{% tab title="Vanity Address" %}
+Set the characters you want at the beginning or end of the address, such as starting with `soL` or ending with `pump`. The tool will continue generating random keypairs until a matching address is found.
+
+<figure><img src="../../../.gitbook/assets/image (1146).png" alt=""><figcaption></figcaption></figure>
+
+See the related guide for detailed instructions
+
+{% content-ref url="../wallet-tools/vanity-address.md" %}
+[vanity-address.md](../wallet-tools/vanity-address.md)
+{% endcontent-ref %}
+{% endtab %}
+
+{% tab title="Custom Private Key" %}
+* Generate the desired wallet address in advance; it may also be a vanity address
+* Import the corresponding private key; the address must be new, unused, and must not have paid SOL rent
+* The system will use this address to create the token, ensuring the Mint address matches your selection
+{% endtab %}
+{% endtabs %}
+{% endstep %}
+
+{% step %}
 ### Launch Settings
 
 #### **Quote Token**
