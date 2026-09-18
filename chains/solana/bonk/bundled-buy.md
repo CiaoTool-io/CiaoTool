@@ -21,7 +21,7 @@ When executed successfully, all transactions in the Bundle are completed sequent
 
 * Multi-wallet batch purchases and asset allocation
 * Position building for project treasury and operational wallets
-* Buying tokens on the Pump.fun Bonding Curve
+* Buying tokens on the Bonk.fun Bonding Curve
 * Buying tokens on PumpSwap after migration
 * Automated trading and liquidity strategy execution
 
