@@ -134,9 +134,9 @@ description: >-
 ### 发送设置
 
 * **RPC 发送**\
-  RPC 发送策略是尽力而为，无需支付 Jito 小费。通过统一买卖交易广播交易，但不保证在同一区块内，可能会被机器人狙击造成损失。
+  RPC 模式将买入与卖出组合在同一笔原子交易中执行，避免外部交易插入，有效降低夹子与 MEV 干扰。
 * **Jito Bundle**\
-  通过 Jito 小费，将买卖交易打包为一个捆绑包，确保买卖交易不被狙击，并提升上链优先级，但需要消耗更多费用。
+  通过设置 Jito 小费提高交易处理优先级和上链成功率，但会产生额外费用。
 
 <figure><img src="../../../.gitbook/assets/image (857).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
