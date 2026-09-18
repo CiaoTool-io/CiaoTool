@@ -85,32 +85,6 @@ CiaoTool Bonk 创建并买入是一款代币发行与多钱包买入工具，可
 {% endstep %}
 
 {% step %}
-### Mint 地址<mark style="color:$info;">（可选）</mark>
-
-生成自定义代币地址，提升代币辨识度。
-
-{% tabs %}
-{% tab title="靓号地址" %}
-可以设置希望出现在钱包地址开头或结尾的字符，例如以 `soL` 开头、以 `pump` 结尾，工具会持续生成随机密钥对，直到找到符合条件的地址。
-
-<figure><img src="../../../.gitbook/assets/image (817).png" alt=""><figcaption></figcaption></figure>
-
-详细工作原理及教程请查看
-
-{% content-ref url="../wallet-tool/vanity-address.md" %}
-[vanity-address.md](../wallet-tool/vanity-address.md)
-{% endcontent-ref %}
-{% endtab %}
-
-{% tab title="自定义地址" %}
-* 提前生成您想要的钱包地址，可以是靓号地址。
-* 将你提前生成的私钥粘贴导入（**地址必须要全新地址且没有付过SOL租金**）；
-* 系统将使用该地址部署你的代币，确保合约地址与预期一致。
-{% endtab %}
-{% endtabs %}
-{% endstep %}
-
-{% step %}
 ### 创建参数
 
 #### 报价代币
