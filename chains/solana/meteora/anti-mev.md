@@ -134,8 +134,8 @@ Set the execution interval between transactions.
 {% step %}
 ### Send Method
 
-* **RPC:** Uses best-effort execution without a Jito tip. Buy and sell transactions are broadcast together but may not land in the same block, creating a risk of bot interference and potential losses.
-* **Jito Bundle:** Uses a Jito tip to bundle the buy and sell transactions together, reducing sniping risk and improving and improving improving landing priority at an additional cost.
+* **RPC Mode:** ombines the buy and sell into a single atomic transaction, preventing external trades from being inserted and reducing sandwich and MEV interference.
+* **Jito Bundle:** **U**ses a Jito tip to increase transaction priority and the likelihood of on-chain inclusion, but incurs an additional cost.
 {% endstep %}
 
 {% step %}
