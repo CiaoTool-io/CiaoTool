@@ -9,7 +9,7 @@ metaLinks:
 # Fourmeme - 市值管理教程
 
 {% hint style="info" %}
-**CiaoTool Fourmeme 市值管理**现已全面支持官方 **BNB、USD1** 和 **UUSD** 全部的价值代币，满足不同场景下的快捷做市服务。
+**CiaoTool Fourmeme 市值管理**现已全面支持官方 **BNB、USD1、UUSD** 和 **RWA** 全部的价值代币，满足不同场景下的快捷做市服务。
 {% endhint %}
 
 ## Fourmeme 市值管理是什么？
@@ -80,7 +80,7 @@ metaLinks:
 {% hint style="danger" %}
 <mark style="color:$danger;">**安全须知**</mark>
 
-**「批量交易」**&#x529F;能多地址导入仅支持 私钥导入以进行兑换操作。请确保在安全环境下输入私钥信息，您的资金安全对我们来说至关重要，[**了解更多 CiaoTool 如何保障您的资金安全：资金安全保障**](../../../security-guide.md)**。**
+多地址导入仅支持 私钥导入以进行兑换操作。请确保在安全环境下输入私钥信息，您的资金安全对我们来说至关重要，[**了解更多 CiaoTool 如何保障您的资金安全：资金安全保障**](../../../security-guide.md)**。**
 {% endhint %}
 
 支&#x6301;**「手动输入」**&#x548C;**「上传文件」**&#x4E24;种导入交易地址私钥的类型。最多支持 20 个地址。

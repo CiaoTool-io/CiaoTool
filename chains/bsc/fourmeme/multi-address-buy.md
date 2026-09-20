@@ -11,7 +11,7 @@ metaLinks:
 # Fourmeme - 多地址捆绑买入
 
 {% hint style="info" %}
-**CiaoTool Fourmeme 多地址捆绑买入**现已全面支持官方 **BNB、USD1 和 UUSD** 全部的价值代币，请先切换到指定代币页面进行多地址捆绑买入操作，满足不同场景下的快捷捆绑服务。
+**CiaoTool Fourmeme 多地址捆绑买入**现已全面支持官方 **BNB、USD1、UUSD** 和 **RWA** 全部的价值代币，请先切换到指定代币页面进行多地址捆绑买入操作，满足不同场景下的快捷捆绑服务。
 {% endhint %}
 
 ## CiaoTool Fourmeme 多地址捆绑买入？

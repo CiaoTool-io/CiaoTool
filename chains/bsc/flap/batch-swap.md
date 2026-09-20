@@ -7,7 +7,7 @@ description: >-
 # Flap - 批量交易教程
 
 {% hint style="info" %}
-**CiaoTool Flap 批量交易**现已全面支持官方 **BNB、USD1、UUSD** 和 **USDT** 全部的价值代币，满足不同场景下的批量兑换服务。
+**CiaoTool Flap 批量交易**现已全面支持官方 **BNB、USD1、UUSD、USDT**  和 **RWA** 全部的价值代币，满足不同场景下的批量兑换服务。
 {% endhint %}
 
 ## CiaoTool Flap 批量交易什么？  <a href="#what-is-coinfactory-solana-multisender" id="what-is-coinfactory-solana-multisender"></a>

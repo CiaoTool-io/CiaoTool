@@ -10,7 +10,7 @@ metaLinks:
 # Flap - 多地址捆绑买入教程
 
 {% hint style="info" %}
-**CiaoTool Flap 多地址捆绑买入**现已全面支持官方 **BNB、USD1、USDT 和 UUSD** 全部的价值代币，请先切换到指定代币页面进行多地址捆绑买入操作，满足不同场景下的快捷捆绑服务。
+**CiaoTool Flap 多地址捆绑买入**现已全面支持官方 **BNB、USD1、UUSD、USDT**  和 **RWA** 全部的价值代币，请先切换到指定代币页面进行多地址捆绑买入操作，满足不同场景下的快捷捆绑服务。
 {% endhint %}
 
 ## CiaoTool Flap 多地址捆绑买入？
