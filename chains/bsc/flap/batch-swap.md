@@ -8,7 +8,7 @@ description: >-
 # Flap - Batch Swap Tutorial
 
 {% hint style="info" %}
-**CiaoTool Flap Batch Swap** fully supports all quote tokens, including **BNB, USD1, UUSD and USDT**. Please switch to the specific token page to perform market-making operations based on your needs.&#x20;
+**CiaoTool Flap Batch Swap** fully supports all quote tokens, including **BNB, USD1, UUSD, USDT, and all RWA Token**. Please switch to the specific token page to perform market-making operations based on your needs.&#x20;
 {% endhint %}
 
 ## What is CiaoTool Flap Batch Swap? <a href="#what-is-coinfactory-solana-multisender" id="what-is-coinfactory-solana-multisender"></a>

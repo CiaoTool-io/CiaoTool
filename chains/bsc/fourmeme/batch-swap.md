@@ -8,7 +8,7 @@ description: >-
 # Fourmeme - Batch Swap Tutorial
 
 {% hint style="info" %}
-**CiaoTool Fourmeme Batch Swap** fully supports all quote tokens, including **BNB, USD1 and UUSD**. Please switch to the specific token page to perform market-making operations based on your needs.&#x20;
+**CiaoTool Fourmeme Batch Swap** fully supports all quote tokens, including **BNB, USD1, UUSD and all RWA tokens**. Please switch to the specific token page to perform market-making operations based on your needs.&#x20;
 {% endhint %}
 
 ## What is CiaoTool Fourmeme Batch Swap? <a href="#what-is-coinfactory-solana-multisender" id="what-is-coinfactory-solana-multisender"></a>

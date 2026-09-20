@@ -8,7 +8,7 @@ description: >-
 # Flap - Multi-Address Bundled Sell Tutorial
 
 {% hint style="info" %}
-**CiaoTool Flap Multi-Address Bundled Sell** fully supports all quote tokens, including  **BNB, USD1, UUSD and USDT**. Please switch to the specific token page to perform bundled trading operations based on your needs.&#x20;
+**CiaoTool Flap Multi-Address Bundled Sell** fully supports all quote tokens, including **BNB, USD1, UUSD, USDT, and all RWA Token**. Please switch to the specific token page to perform bundled trading operations based on your needs.&#x20;
 {% endhint %}
 
 ## What is CiaoTool Flap Multi-Address Bundled Sell?

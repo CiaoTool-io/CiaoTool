@@ -8,7 +8,7 @@ description: >-
 # Fourmeme - Multi-Address Bundled Sell Tutorial
 
 {% hint style="info" %}
-**CiaoTool Fourmeme Multi-Address Bundled Sell** fully supports all quote tokens, including **BNB, USD1 and UUSD**. Please switch to the specific token page to perform bundled trading operations based on your needs.&#x20;
+**CiaoTool Fourmeme Multi-Address Bundled Sell** fully supports all quote tokens, including **BNB, USD1, UUSD and all RWA tokens**. Please switch to the specific token page to perform bundled trading operations based on your needs.&#x20;
 {% endhint %}
 
 ## What is CiaoTool Fourmeme Multi-Address Bundled Sell?
