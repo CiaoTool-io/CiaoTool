@@ -10,7 +10,7 @@ metaLinks:
 # Fourmeme - 创建并买入教程
 
 {% hint style="info" %}
-**CiaoTool Fourmeme 创建并买入**现已全面支持官方 **BNB、USD1、UUSD 和 NVDAb** 全部的价值代币，请先切换到指定代币页面进行创建代币并捆绑买入操作，满足不同场景下的快捷开盘服务。
+**CiaoTool Fourmeme 创建并买入**现已全面支持官方 **BNB、USD1、UUSD 和** 全WR部的价值代币，请先切换到指定代币页面进行创建代币并捆绑买入操作，满足不同场景下的快捷开盘服务。
 {% endhint %}
 
 ## CiaoTool Fourmeme 创建并买入是什么？
