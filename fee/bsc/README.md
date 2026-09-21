@@ -78,12 +78,20 @@ Available for PancakeSwap V2 and V3.
 ## FourMeme Zone
 
 {% hint style="info" %}
-Supports Four.meme tokens quoted in BNB / USD1 / UUSD.
+Supports Four.meme tokens quoted in BNB / USD1 / UUSD / All RWA Tokens.
 {% endhint %}
 
+* [**Bundler (Create & Buy)**](https://bsc.ciaotool.io/en/fourmeme/bnb/create-and-buy)**:** Volume-based pricing, as low as 0.01 BNB / address
+
+```
+ 0 < address ≤  5，0.02 BNB per address
+ 5 < address ≤ 20，0.016 BNB per address
+20 < address ≤ 25，0.01 BNB per address
+```
+
+* [**Divident Claim**](https://bsc.ciaotool.io/en/fourmeme/batch-claim-dividend): 0.00008 BNB / address
 * [**Market Making**](https://bsc.ciaotool.io/en/fourmeme/market-making-manage)**:** 0.0008 BNB / trading
 * [**Batch Swap**](https://bsc.ciaotool.io/en/fourmeme/batch-swap-fourmeme)**:** 0.0008 BNB / trading
-* [**Bundler (Create & Buy)**](https://bsc.ciaotool.io/en/fourmeme/bnb/create-and-buy)**:** 0.02 BNB / address
 * [**Multi-address Bundled Buy**](https://bsc.ciaotool.io/en/fourmeme/bnb/multi-address-buy)**:** 0.008 BNB / address
 * [**Multi-address Bundled Sell**](https://bsc.ciaotool.io/en/fourmeme/bnb/multi-address-sell)**:** 0.008 BNB / address
 
@@ -92,12 +100,20 @@ Supports Four.meme tokens quoted in BNB / USD1 / UUSD.
 ## Flap Zone
 
 {% hint style="info" %}
-Supports Flap.sh tokens quoted in BNB / USD1 / UUSD / USDT.
+Supports Flap.sh tokens quoted in BNB / USD1 / UUSD / USDT / All RWA Tokens.
 {% endhint %}
 
+* [**Bundler (Create & Buy)**](https://bsc.ciaotool.io/en/flap/usd1/create-and-buy)**:** Volume-based pricing, as low as 0.01 BNB / address
+
+```
+ 0 < address ≤  5，0.02 BNB per address
+ 5 < address ≤ 20，0.016 BNB per address
+20 < address ≤ 25，0.01 BNB per address
+```
+
+* [**Divident Claim**](https://bsc.ciaotool.io/en/flap/batch-claim-dividend): 0.00008 BNB / address
 * [**Market Making**](https://bsc.ciaotool.io/en/flap/market-making-manage)**:** 0.0008 BNB / trading
 * [**Batch Swap**](https://bsc.ciaotool.io/en/flap/batch-swap-flap)**:** 0.0008 BNB / trading
-* [**Bundler (Create & Buy)**](https://bsc.ciaotool.io/en/flap/usd1/create-and-buy)**:** 0.02 BNB / address
 * [**Multi-address Bundled Buy**](https://bsc.ciaotool.io/en/flap/bnb/multi-address-buy)**:** 0.008 BNB / address
 * [**Multi-address Bundled Sell**](https://bsc.ciaotool.io/en/flap/bnb/multi-address-sell)**:** 0.008 BNB / address
 
