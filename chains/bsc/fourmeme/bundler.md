@@ -1,25 +1,26 @@
 ---
 description: >-
   专为 Four.meme
-  平台提供的代币发行与多地址捆绑买入工具。支持在同区块内同步完成代币创建与首笔批量买入，有效阻断机器人抢跑，支持税费经济。确保以极低初始成本安全建仓并优化早期持币分布。
+  平台提供的代币发行与多地址捆绑买入工具。支持在同区块内同步完成代币创建、首笔批量买入与迁移外盘狙击，有效阻断机器人抢跑，支持税费经济。确保以极低成本建仓并优化早期持币分布。
 metaLinks:
   alternates:
     - https://app.gitbook.com/s/b56FKZGe1viFi67H1pPQ/fourmeme/bnb-create-and-buy
 ---
 
-# Fourmeme - 创建并买入教程
+# Fourmeme - 创建并买入指南
 
 {% hint style="info" %}
 **CiaoTool Fourmeme 创建并买入**现已全面支持官方 **BNB、USD1、UUSD 和 RWA** 全部的价值代币，请先切换到指定代币页面进行创建代币并捆绑买入操作，满足不同场景下的快捷开盘服务。
 {% endhint %}
 
-## CiaoTool Fourmeme 创建并买入是什么？
+## 功能介绍
 
-<figure><img src="../../../.gitbook/assets/image (445).png" alt="CiaoTool Fourmeme 创建并买入功能页面"><figcaption></figcaption></figure>
+**CiaoTool PumpFun 创建并迁移买入**是一款专为 BSC 生态 **Four.meme 平台**打造的代币发行与自动化建仓工具。覆盖代币创建、联合曲线买入及迁移后买入的两阶段自动化工具，可减少跨阶段手动操作与交易等待。
 
-**CiaoTool Fourmeme 创建并买入**是一款专为 BSC 生态 **Four.meme 平台**打造的代币发行与自动化建仓工具。它允许用户在发布全新代币的同时，全自动调度多个钱包地址在同一区块内完成首笔批量买入。
+整个流程由两个独立捆绑包组成：
 
-相较于「先发币、后手动买入」的传统模式，该功能的核心机制在于「底层捆绑打包」。系统会将代币创建指令与多地址的买入指令聚合为一个不可分割的数据包提交至链上。这种机制确保了用户的买入交易紧跟在代币创建之后瞬间完成，彻底消除了时间差。它从根本上防止了链上狙击机器人的抢跑买入，保障项目方能够以内盘最底端的初始价格完成早期资产配置。
+1. **创建与内盘买入：** 将代币创建和多个钱包的捆绑包买入交易按预设顺序打包，正常情况下在同一区块内连续执行。
+2. **迁移与外盘买入：** 达到毕业条件后，将迁移至 PancakeSwap 和多个钱包的买入交易组成新的捆绑，正常情况下在同一区块内依次执行。
 
 立即在 Fourmeme 上，用 CiaoTool​ 创建并买入功能进行一键开盘操作：
 
@@ -27,28 +28,24 @@ metaLinks:
 
 ***
 
-## 为什么选择 CiaoTool Fourmeme 创建并买入？
+## 核心优势
 
-CiaoTool 为 Fourmeme 平台上的代币首发提供了一种兼顾安全性与极低成本的专业解决方案。对于需要精确控制早期筹码及防范恶意夹击的用户而言，该工具构建了稳健的执行防线：
-
-* **彻底阻断抢跑：**\
-  通过底层捆绑打包技术，将发币与买入指令在同区块内无缝聚合，有效防止链上狙击机器人提前买入推高价格。
-* **锁定极低成本：**\
-  确保多钱包买入指令作为创世区块的首批交易执行，使项目方能够以绝对的初始低价完成建仓，最大程度降低资金损耗。
-* **优化早期分布：**\
-  支持自定义配置多个独立地址同步买入，在代币发射的瞬间即完成基础的持币者结构分散，美化早期链上数据。
-* **全自动极速部署：**\
-  一键自动完成代币信息上传、参数配置与多地址资产分发，彻底免去繁琐的人工切换与手动抢筹操作。
+* **创建买入一体化：** 一次配置代币信息和各钱包买入金额
+* **支持 Open 模式：** 独家支持最新 OpenFour，启用不同模板。
+* **税费支持：**&#x652F;持最新税费代币，打造专属代币经济学。
+* **外盘狙击：**&#x72EC;家外盘狙击，可选开盘即打满内盘，并在迁移时多地址狙击外盘。
+* **多钱包配置：** 支持分别设置参与钱包及买入金额
+* **自动化执行：** 完成资料上传、交易构建、钱包签名和 Bundle 提交
 
 ***
 
-## 视频教程 | Fourmeme 创建并买入
+## 视频教程
 
 {% embed url="https://www.youtube.com/watch?v=0w2oKTzzyoQ" %}
 
 ***
 
-## **图文指南 | Fourmeme** 创建并买入&#x20;
+## **图文指南**
 
 {% stepper %}
 {% step %}
@@ -60,29 +57,17 @@ CiaoTool 为 Fourmeme 平台上的代币首发提供了一种兼顾安全性与�
 {% endstep %}
 
 {% step %}
-### 输入支付钱包私钥
-
-输入用于发币的控制地址私钥，该地址将会作为 Four 创建代币的代币开发者地址，以及支付功能服务费用。
-
-<figure><img src="../../../.gitbook/assets/image (653).png" alt=""><figcaption></figcaption></figure>
-{% endstep %}
-
-{% step %}
-### 填写代币基础信息
+### 支付钱包私钥
 
 {% hint style="danger" %}
 <mark style="color:$danger;">**安全须知**</mark>
 
-当&#x524D;**「创建并买入」**&#x529F;能仅支持 私钥导入以进行开盘操作。请确保在安全环境下输入私钥信息，您的资金安全对我们来说至关重要，[**了解更多 CiaoTool 如何保障您的资金安全：资金安全保障**](../../../security-guide.md)**。**
+请确保在安全环境下输入私钥信息，您的资金安全对我们来说至关重要，[**了解更多 CiaoTool 如何保障您的资金安全：资金安全保障**](../../../security-guide.md)**。**
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (598).png" alt=""><figcaption></figcaption></figure>
+输入用于发币的控制地址私钥，该地址将会作为 Four 创建代币的代币开发者地址，以及支付功能服务费用。
 
-* **代币名称：**&#x60A8;希望展示在钱包或区块浏览器中的完整代币名称（_例如：MyFirstToken_）。
-* **简称：**&#x4EE3;币的缩写，通常为 3\~6 个大写字母（_例如：MYT_）。
-* **LOGO：**&#x4E0A;传项目或代币的标志图像，建议尺寸 1000\*1000 像素。
-* **描述：**&#x975E;必填项，简要介绍项目的背景、目标和用途。此描述将帮助用户理解您的代币的功能和项目愿景，提高项目真实性。
-* **社交链接：**&#x867D;为可选项但强烈建议填写，**官网、X / Twitter、Telegram**，有助于用户关注和加入您的项目社区。
+<figure><img src="../../../.gitbook/assets/image (653).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -100,15 +85,91 @@ Dev 钱包、捆绑钱包不能共用，所有业务私钥必须唯一
 {% endstep %}
 
 {% step %}
-### 选择项目标签
+### 填写代币信息
 
-* 从以下标签中选择适合你项目的定位，让其他用户更容易理解项目的方向和应用场景，系统不支持多选：
+<figure><img src="../../../.gitbook/assets/image (598).png" alt=""><figcaption></figcaption></figure>
 
-`Meme / AI / DeFi / Game / Infra / DeSci / Social / DePin / Charity / Others`
+* **代币名称：**&#x60A8;希望展示在钱包或区块浏览器中的完整代币名称（_例如：MyFirstToken_）。
+* **简称：**&#x4EE3;币的缩写，通常为 3\~6 个大写字母（_例如：MYT_）。
+* **LOGO：**&#x4E0A;传项目或代币的标志图像，建议尺寸 1000\*1000 像素。
+* **描述：**&#x975E;必填项，简要介绍项目的背景、目标和用途。此描述将帮助用户理解您的代币的功能和项目愿景，提高项目真实性。
+{% endstep %}
 
-<figure><img src="../../../.gitbook/assets/image (599).png" alt=""><figcaption></figcaption></figure>
+{% step %}
+### Open 模式
 
-**示例用法：**&#x4F60;发的是狗狗币类 Meme，可选「Meme」；如果未来要做 NFT 或 Game 叙事，也可同步选「Game」。
+全面支持 OpenFour 模板，让代币采用不同的发行、交易、分红、流动性或激励机制。
+
+点击切换查看详情：
+
+{% tabs %}
+{% tab title="Royalty" %}
+从交易税费中向创作者、社区或指定金库分配版税。
+
+支持以下功能：
+
+* [x] 募集代币支持：BNB / NVDAB / SPCXB / QQQB / GMEB / FLNCB / DJTB / MRNAB / HOODB
+* [x] 代币税费
+* [x] 反狙击
+* [x] 内盘捆绑买入
+
+该板块下，代币税费中，接收钱包分配比例必须 ＞10%，分红最低持币数量为 1。
+{% endtab %}
+
+{% tab title="Creator Incentives" %}
+根据规则奖励代币创建者。创作者手续费随市值变化，在 **0.02%～1%** 的范围内动态调整，初期较低，随着市值增长逐渐提高。
+
+支持以下功能：
+
+* [x] 募集代币支持：BNB
+* [x] 反狙击
+* [x] 内盘捆绑买入
+{% endtab %}
+
+{% tab title="Likwid DEX" %}
+代币毕业后迁移至 Likwid DEX，通过其统一流动性体系支持兑换、借贷，以及杠杆做多、做空等功能。
+
+支持以下功能：
+
+* [x] 募集代币支持：BNB
+* [x] 反狙击
+* [x] 内盘捆绑买入
+{% endtab %}
+
+{% tab title="Cubepeg" %}
+Cubepeg 将可交易代币和 NFT 权益关联起来。每持有 100,000 枚代币对应 1 个 NFT，卖出代币时相关 NFT 也会按机制销毁。
+
+* 用 NFT 展示持币身份。
+* 将社区角色、收藏形象与持仓关联。
+* 围绕持仓构建游戏或会员玩法。
+
+支持以下功能：
+
+* [x] 募集代币支持：BNB
+* [x] 反狙击
+* [x] 内盘捆绑买入
+{% endtab %}
+
+{% tab title="ListaYield" %}
+ListaYield 将交易税费分配与 Lista 质押金库结合。符合条件的持有人获得的是**金库份额代币**，毕业后迁移至 ListaDEX。
+
+* [x] 募集代币支持：BNB
+* [x] 代币税费
+* [x] 反狙击
+* [x] 内盘捆绑买入
+{% endtab %}
+
+{% tab title="4STOCK" %}
+将真实股票以 1:1 资产支持引入 BNB Chain，用于链上交易及作为股票主题 Meme 币的底池资产。
+
+支持以下功能：
+
+* [x] 募集代币支持：BNC4
+* [x] 代币税费
+* [x] 反狙击
+* [x] 内盘捆绑买入
+{% endtab %}
+{% endtabs %}
 {% endstep %}
 
 {% step %}
@@ -126,13 +187,31 @@ CiaoTool 现已支持 Fourmeme 最新税费功能，方便快捷打造专属代�
 {% endstep %}
 
 {% step %}
-### 导入捆绑买入私钥地址
+### 添加社交链接
+
+虽为可选项但强烈建议填写，**官网、X / Twitter、Telegram**，有助于用户关注和加入您的项目社区。
+{% endstep %}
+
+{% step %}
+### 选择项目标签
+
+* 从以下标签中选择适合你项目的定位，让其他用户更容易理解项目的方向和应用场景，系统不支持多选：
+
+`Meme / AI / DeFi / Game / Infra / DeSci / Social / DePin / Charity / Others`
+
+**示例用法：**&#x4F60;发的是狗狗币类 Meme，可选「Meme」；如果未来要做 NFT 或 Game 叙事，也可同步选「Game」。
+{% endstep %}
+
+{% step %}
+### 内盘钱包私钥
 
 {% hint style="danger" %}
 <mark style="color:$danger;">**安全须知**</mark>
 
-当&#x524D;**「创建并买入」**&#x529F;能仅支持 私钥导入以进行多地址交易操作。请确保在安全环境下输入私钥信息，您的资金安全对我们来说至关重要，[**了解更多 CiaoTool 如何保障您的资金安全：资金安全保障**](../../../security-guide.md)**。**
+请确保在安全环境下输入私钥信息，您的资金安全对我们来说至关重要，[**了解更多 CiaoTool 如何保障您的资金安全：资金安全保障**](../../../security-guide.md)**。**
 {% endhint %}
+
+在联合曲线阶段捆绑买入的钱包，最多支持 20 个钱包捆绑买入。
 
 1. 点&#x51FB;**「导入私钥」**&#x6309;钮，弹出上传弹窗。
 
@@ -146,30 +225,34 @@ CiaoTool 现已支持 Fourmeme 最新税费功能，方便快捷打造专属代�
 点击下载并查看模板：
 
 {% file src="../../../.gitbook/assets/EVM_privateKey_demo.xlsx" %}
-
-3. 系统将自动读取每个私钥的 **BNB 余额，**&#x5E76;输入买入金额
-
-{% hint style="danger" %}
-买入地址的 BNB 余额必须大于 0.0008，以预留支付 Gas 等网络费用；
-
-当选择 MAX 时，系统将自动预留 0.001 BNB 左右的余额于钱包内，您可手动调整范围。
-{% endhint %}
-
-<figure><img src="../../../.gitbook/assets/image (461).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
-### 输入买入金额
+### 内盘买入金额
 
-为每个地址设置**买入金额**，所有地址总买入数量不得超过 18 BNB。
+为每个地址设置**买入金额**，如只需捆绑买入联合曲线，所有地址总买入数量不得超过 18.18 BNB 或对应价值代币数额。
 
-{% hint style="warning" %}
-买入地址的 BNB 余额必须大于 0.0008，以预留支付 Gas 等网络费用；
+买入地址的 BNB 余额必须大于 0.0011，以预留支付 Gas 等网络费用；
 
-当选择 MAX 时，系统将自动预留 0.001 BNB 左右的余额于钱包内，您可手动调整范围。
+当选择 MAX 时，系统将自动预留 0.0011 BNB 左右的余额于钱包内。
+{% endstep %}
+
+{% step %}
+### 外盘钱包私钥<mark style="color:$info;">（可选）</mark>
+
+在迁移阶段捆绑买入的钱包，最多支持 5 个钱包捆绑买入。
+
+{% hint style="info" %}
+启动外盘迁移并多钱包狙击，需保证内盘（Dev 钱包 + 内盘钱包）买入数量大于规定值。
 {% endhint %}
 
-<figure><img src="../../../.gitbook/assets/image (600).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (937).png" alt=""><figcaption></figcaption></figure>
+{% endstep %}
+
+{% step %}
+### 外盘买入金额
+
+为迁移阶段的每个地址设置**买入金额**，金额数量没有限制。
 {% endstep %}
 
 {% step %}
