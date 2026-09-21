@@ -10,7 +10,7 @@ description: >-
 {% hint style="info" %}
 You are currently on the **"Solana -** Fragmentatio&#x6E;**"** tutorial page.
 
-Click [**"EVM - Fragmentation"**](../../../tools/asset-migration/fragmentation.md) to view tutorials for EVM networks such as BSC, Base, X Layer, and IoTeX.
+Click [**"EVM - Fragmentation"**](../../../tools/multisender/asset-migration/fragmentation.md) to view tutorials for EVM networks such as BSC, Base, X Layer, and IoTeX.
 {% endhint %}
 
 ## Overview <a href="#definition" id="definition"></a>

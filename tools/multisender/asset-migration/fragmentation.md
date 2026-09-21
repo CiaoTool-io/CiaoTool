@@ -12,12 +12,12 @@ You are currently on the **"EVM - Fragmentation"** tutorial page for EVM network
 
 Demonstrated on BSC. Universally compatible across all EVM networks, please switch to your target chain to operate.
 
-Click [**"Solana - Fragmentation"**](../../chains/solana/multisender/fragmentation.md) to view the Solana network tutorial.
+Click [**"Solana - Fragmentation"**](../../../chains/solana/multisender/fragmentation.md) to view the Solana network tutorial.
 {% endhint %}
 
 ## What is CiaoTool EVM Fragmentation?
 
-<figure><img src="../../.gitbook/assets/image (937).png" alt="CiaoTool BSC Toolkit Page about Asset Fragmentation Feature"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (937).png" alt="CiaoTool BSC Toolkit Page about Asset Fragmentation Feature"><figcaption></figcaption></figure>
 
 EVM Asset Fragmentation (Token Holding Dispersal) enables projects or whales to automatically split concentrated tokens across hundreds of newly generated, independent Solana wallets without passing through exchanges or pools.
 
@@ -31,7 +31,7 @@ Key Use Cases:
 
 Start your Asset Fragmentation on EVM Network with CiaoTool now:
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><img src="../../.gitbook/assets/BSC.png" alt="" data-size="line">BSC (BNB Chain)</td><td><a href="https://bsc.ciaotool.io/en/assert-migration/assert-migration-cold">https://bsc.ciaotool.io/en/assert-migration/assert-migration-cold</a></td></tr><tr><td><img src="../../.gitbook/assets/Base3.png" alt="" data-size="line">Base Chain</td><td><a href="https://base.ciaotool.io/en/assert-migration/assert-migration-cold">https://base.ciaotool.io/en/assert-migration/assert-migration-cold</a></td></tr><tr><td><img src="../../.gitbook/assets/3 (1).png" alt="" data-size="line">X Layer</td><td><a href="https://xlayer.ciaotool.io/en/assert-migration/assert-migration-cold">https://xlayer.ciaotool.io/en/assert-migration/assert-migration-cold</a></td></tr><tr><td><img src="../../.gitbook/assets/IoTex.png" alt="" data-size="line">IoTeX Chain</td><td><a href="https://iotex.ciaotool.io/en/assert-migration/assert-migration-cold">https://iotex.ciaotool.io/en/assert-migration/assert-migration-cold</a></td></tr><tr><td><img src="../../.gitbook/assets/Group 1261152954.png" alt="" data-size="line"> Robinhood Chain</td><td><a href="https://r.ciaotool.io/en/assert-migration/assert-migration-cold">https://r.ciaotool.io/en/assert-migration/assert-migration-cold</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/BSC.png" alt="" data-size="line">BSC (BNB Chain)</td><td><a href="https://bsc.ciaotool.io/en/assert-migration/assert-migration-cold">https://bsc.ciaotool.io/en/assert-migration/assert-migration-cold</a></td></tr><tr><td><img src="../../../.gitbook/assets/Base3.png" alt="" data-size="line">Base Chain</td><td><a href="https://base.ciaotool.io/en/assert-migration/assert-migration-cold">https://base.ciaotool.io/en/assert-migration/assert-migration-cold</a></td></tr><tr><td><img src="../../../.gitbook/assets/3 (1).png" alt="" data-size="line">X Layer</td><td><a href="https://xlayer.ciaotool.io/en/assert-migration/assert-migration-cold">https://xlayer.ciaotool.io/en/assert-migration/assert-migration-cold</a></td></tr><tr><td><img src="../../../.gitbook/assets/IoTex.png" alt="" data-size="line">IoTeX Chain</td><td><a href="https://iotex.ciaotool.io/en/assert-migration/assert-migration-cold">https://iotex.ciaotool.io/en/assert-migration/assert-migration-cold</a></td></tr><tr><td><img src="../../../.gitbook/assets/Group 1261152954.png" alt="" data-size="line"> Robinhood Chain</td><td><a href="https://r.ciaotool.io/en/assert-migration/assert-migration-cold">https://r.ciaotool.io/en/assert-migration/assert-migration-cold</a></td></tr></tbody></table>
 
 ***
 
@@ -52,7 +52,7 @@ In a high-speed blockchain network, the success of asset dispersal depends entir
 
 Select your target blockchain and connect an EVM-compatible wallet.
 
-<figure><img src="../../.gitbook/assets/image (938).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (938).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -60,14 +60,14 @@ Select your target blockchain and connect an EVM-compatible wallet.
 
 You can select BNB or choose any token currently held in your wallet to execute the multi-transfer.
 
-<figure><img src="../../.gitbook/assets/image (939).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (939).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ### Input Sender Wallet Private Key
 
 {% hint style="danger" %}
-Currently supports private key import only. Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../security-guide.md).
+Currently supports private key import only. Please ensure a secure environment. Your fund security is our top priority. [Learn more about how CiaoTool protects your assets: \[Fund Security Assurance\]](../../../security-guide.md).
 {% endhint %}
 
 Supports two methods for importing sending private key: **"Manual Input"** and **"Upload File"**. Select an option to view the detailed tutorial.
@@ -76,20 +76,20 @@ Supports two methods for importing sending private key: **"Manual Input"** and *
 {% tab title="Manual Input" %}
 Enter / batch paste wallet private keys, one address per line. Press Enter to start a new line.
 
-<figure><img src="../../.gitbook/assets/image (922).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (922).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Upload File" %}
 1. Click the "Upload File" button to open the file upload window.
 
-<figure><img src="../../.gitbook/assets/image (920).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (920).png" alt=""><figcaption></figcaption></figure>
 
 2. Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.   \
    Click to download and view the template:
 
-{% file src="../../.gitbook/assets/EVM_privateKey_demo.xlsx" %}
+{% file src="../../../.gitbook/assets/EVM_privateKey_demo.xlsx" %}
 
-<figure><img src="../../.gitbook/assets/image (921).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (921).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 {% endstep %}
@@ -101,13 +101,13 @@ Enter the number of destination addresses to fragment each wallet into. Each wal
 
 Click **"Generate Wallet"** and the system will automatically download all newly generated fragmented addresses.
 
-<figure><img src="../../.gitbook/assets/image (940).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (940).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ### Enter Transfer Amount
 
-<figure><img src="../../.gitbook/assets/image (925).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (925).png" alt=""><figcaption></figcaption></figure>
 
 Supports four transfer amount types: **"Custom"**, **"All Balance"**, **"Fixed Amount"**, and **"Fixed Retain"**.
 
@@ -130,7 +130,7 @@ Review transfer info and check status.
 
 After verifying all details, click the **"Send"** button below and wait for the transaction process to complete.
 
-<figure><img src="../../.gitbook/assets/image (926).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (926).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 {% endstepper %}
 
