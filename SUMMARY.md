@@ -125,6 +125,7 @@
     * [币安 Alpha - 批量交易教程](chains/bsc/bsc-alpha/batch-swap.md "批量交易")
   * [Fourmeme 工具集｜创建并买入 · 市值管理](chains/bsc/fourmeme/README.md "Fourmeme 专区")
     * [Fourmeme - 创建并买入指南](chains/bsc/fourmeme/bundler.md "创建并买入")
+    * [Fourmeme - 分红提取指南](chains/bsc/fourmeme/dividend-claim.md "分红提取")
     * [Fourmeme - 市值管理教程](chains/bsc/fourmeme/market-making.md "市值管理")
     * [Fourmeme - 批量交易教程](chains/bsc/fourmeme/batch-swap.md "批量交易")
     * [Fourmeme - 多地址捆绑买入](chains/bsc/fourmeme/multi-address-buy.md "多地址捆绑买入")
