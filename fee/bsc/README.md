@@ -99,7 +99,7 @@ description: >-
 ## Flap 专区
 
 {% hint style="info" %}
-适用于 SOL、USDT、UUSD、USD1 和所有 RWA 代币为计价方式的 Flap.sh 代币
+适用于 BNB、USDT、UUSD、USD1 和所有 RWA 代币为计价方式的 Flap.sh 代币
 {% endhint %}
 
 * [**创建并捆绑买入**](https://bsc.ciaotool.io/zh-Hans/flap/usd1/create-and-buy)**：**&#x9636;梯计费，低至 0.01 BNB / 每个地址
