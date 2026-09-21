@@ -77,11 +77,9 @@ description: >-
 ## FourMeme 专区
 
 {% hint style="info" %}
-适用于 BNB、UUSD 和 USD1 为计价方式的 Four.meme 代币
+适用于 BNB、UUSD、USD1 和所有 RWA 代币为计价方式的 Four.meme 代币
 {% endhint %}
 
-* [**市值管理**](https://bsc.ciaotool.io/zh-Hans/fourmeme/market-making-manage)**：**&#x30;.0008 BNB / 每次交易
-* [**批量交易**](https://bsc.ciaotool.io/zh-Hans/fourmeme/batch-swap-fourmeme)**：**&#x30;.0008 BNB / 每次交易
 * [**创建并捆绑买入**](https://bsc.ciaotool.io/zh-Hans/fourmeme/bnb/create-and-buy)**：**&#x30;.02 BNB / 每个地址
 
 ```
@@ -90,6 +88,9 @@ description: >-
 20 <地址数≤ 25，每个地址 0.01 BNB
 ```
 
+* [**分红提取**](https://bsc.ciaotool.io/zh-Hans/fourmeme/batch-claim-dividend)：0.00008 BNB / 每个地址
+* [**市值管理**](https://bsc.ciaotool.io/zh-Hans/fourmeme/market-making-manage)**：**&#x30;.0008 BNB / 每次交易
+* [**批量交易**](https://bsc.ciaotool.io/zh-Hans/fourmeme/batch-swap-fourmeme)**：**&#x30;.0008 BNB / 每次交易
 * [**多地址捆绑买入**](https://bsc.ciaotool.io/zh-Hans/fourmeme/bnb/multi-address-buy)**：**&#x30;.008 BNB / 每个地址
 * [**多地址捆绑卖出**](https://bsc.ciaotool.io/zh-Hans/fourmeme/bnb/multi-address-sell)**：**&#x30;.008 BNB / 每个地址
 
@@ -98,11 +99,9 @@ description: >-
 ## Flap 专区
 
 {% hint style="info" %}
-适用于 SOL、USDT、UUSD 和 USD1 为计价方式的 Flap.sh 代币
+适用于 SOL、USDT、UUSD、USD1 和所有 RWA 代币为计价方式的 Flap.sh 代币
 {% endhint %}
 
-* [**市值管理**](https://bsc.ciaotool.io/zh-Hans/flap/market-making-manage)：0.0008 BNB / 每次交易
-* [**批量交易**](https://bsc.ciaotool.io/zh-Hans/flap/batch-swap-flap)：0.0008 BNB / 每次交易
 * [**创建并捆绑买入**](https://bsc.ciaotool.io/zh-Hans/flap/usd1/create-and-buy)**：**&#x9636;梯计费，低至 0.01 BNB / 每个地址
 
 ```
@@ -111,6 +110,9 @@ description: >-
 20 <地址数≤ 25，每个地址 0.01 BNB
 ```
 
+* [**分红提取**](https://bsc.ciaotool.io/zh-Hans/flap/batch-claim-dividend)：0.00008 BNB / 每个地址
+* [**市值管理**](https://bsc.ciaotool.io/zh-Hans/flap/market-making-manage)：0.0008 BNB / 每次交易
+* [**批量交易**](https://bsc.ciaotool.io/zh-Hans/flap/batch-swap-flap)：0.0008 BNB / 每次交易
 * [**多地址捆绑买入**](https://bsc.ciaotool.io/zh-Hans/flap/bnb/multi-address-buy)**：**&#x30;.008 BNB / 每个地址
 * [**多地址捆绑卖出**](https://bsc.ciaotool.io/zh-Hans/flap/bnb/multi-address-sell)**：**&#x30;.008 BNB / 每个地址
 
