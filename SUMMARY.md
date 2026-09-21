@@ -132,6 +132,7 @@
     * [Fourmeme - 多地址捆绑卖出](chains/bsc/fourmeme/multi-address-sell.md "多地址捆绑卖出")
   * [Flap 工具集｜创建并买入 · 市值管理](chains/bsc/flap/README.md "Flap 专区")
     * [Flap - 创建并买入教程](chains/bsc/flap/create-and-buy.md "创建并买入")
+    * [Flap - 分红提取指南](chains/bsc/flap/dividend-claim.md "分红提取")
     * [Flap - 市值管理教程](chains/bsc/flap/market-making.md "市值管理")
     * [Flap - 批量交易教程](chains/bsc/flap/batch-swap.md "批量交易")
     * [Flap - 多地址捆绑买入教程](chains/bsc/flap/multi-address-buy.md "多地址捆绑买入")
