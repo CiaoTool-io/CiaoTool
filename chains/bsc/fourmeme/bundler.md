@@ -76,7 +76,7 @@ metaLinks:
 {% hint style="warning" %}
 <mark style="color:$warning;">**钱包设置**</mark>
 
-Dev 钱包、捆绑钱包不能共用，所有业务私钥必须唯一
+Dev 钱包、内盘钱包、外盘钱包不能共用，所有业务私钥必须唯一
 {% endhint %}
 
 用代币开发者钱包买入的代币数量，链上监控平台会显示为开发者买入。不填默认为 0。
@@ -211,6 +211,12 @@ CiaoTool 现已支持 Fourmeme 最新税费功能，方便快捷打造专属代�
 请确保在安全环境下输入私钥信息，您的资金安全对我们来说至关重要，[**了解更多 CiaoTool 如何保障您的资金安全：资金安全保障**](../../../security-guide.md)**。**
 {% endhint %}
 
+{% hint style="warning" %}
+<mark style="color:$warning;">**钱包设置**</mark>
+
+Dev 钱包、内盘钱包、外盘钱包不能共用，所有业务私钥必须唯一
+{% endhint %}
+
 在联合曲线阶段捆绑买入的钱包，最多支持 20 个钱包捆绑买入。
 
 1. 点&#x51FB;**「导入私钥」**&#x6309;钮，弹出上传弹窗。
@@ -239,6 +245,12 @@ CiaoTool 现已支持 Fourmeme 最新税费功能，方便快捷打造专属代�
 
 {% step %}
 ### 外盘钱包私钥<mark style="color:$info;">（可选）</mark>
+
+{% hint style="warning" %}
+<mark style="color:$warning;">**钱包设置**</mark>
+
+Dev 钱包、内盘钱包、外盘钱包不能共用，所有业务私钥必须唯一
+{% endhint %}
 
 在迁移阶段捆绑买入的钱包，最多支持 5 个钱包捆绑买入。
 
