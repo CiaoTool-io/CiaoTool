@@ -5,21 +5,17 @@ description: >-
   distribution and establish positions efficiently.
 ---
 
-# Fourmeme - Bundler Tutorial (Create & Buy)
+# Fourmeme - Bundler Guide (Create & Buy)
 
 {% hint style="info" %}
 **CiaoTool Fourmeme Bundler** fully supports all quote tokens, including **BNB, USD1, UUSD and all RWA tokens**. Please switch to the specific token page to perform token launch operations based on your needs.&#x20;
 {% endhint %}
 
-## What is CiaoTool Fourmeme Bundler?
+## Overview
 
-<figure><picture><source srcset="../../../.gitbook/assets/ScreenShot_2026-06-22_165108_209.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (1035).png" alt="CiaoTool BSC Toolkit Page about Four.meme Bundler Feature"></picture><figcaption></figcaption></figure>
+**CiaoTool Four.meme Bundler** supports token creation, multi-address bundled buys, and post-migration buys from one interface. It helps users complete token creation, initial bonding-curve purchases, and post-migration PancakeSwap purchases through two independently configured transaction bundles.
 
-**CiaoTool Fourmeme Bundler** is an automated token deployment and position-building tool built for the BSC **Four.meme platform**, enabling multi-wallet batch purchases alongside token creation in the same block.
-
-Instead of traditional manual buying, it aggregates the creation and multi-address purchase instructions into an indivisible data package, executing buy orders instantly after deployment to wipe out time gaps.
-
-This atomic execution completely blocks on-chain front-running bots, safeguarding your early asset configuration at the absolute lowest internal floor price.
+Supported quote assets and available features may vary depending on the selected Four.meme launch mode and current platform configuration.
 
 Start Create and Buy Token on Fourmeme with CiaoTool now:
 
@@ -27,7 +23,7 @@ Start Create and Buy Token on Fourmeme with CiaoTool now:
 
 ***
 
-## Why Choose CiaoTool Fourmeme Bundler
+## Advantage
 
 CiaoTool provides a secure and efficient launch solution for Four.meme tokens, helping users optimize early token distribution and streamline the launch process.
 
@@ -44,7 +40,7 @@ CiaoTool provides a secure and efficient launch solution for Four.meme tokens, h
 
 ***
 
-## Video Tutorial
+## Tutorial Video
 
 {% embed url="https://www.youtube.com/watch?v=qupM7HDdaxY" %}
 

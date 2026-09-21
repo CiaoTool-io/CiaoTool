@@ -121,7 +121,7 @@
   * [BSC - BSC Alpha Toolkit](chains/bsc/bsc-alpha/README.md "BSC Alpha Zone")
     * [BSC Alpha - Batch Swap Tutorial](chains/bsc/bsc-alpha/batch-swap.md "Batch Swap")
   * [Fourmeme Tools｜Bundler · Market Making](chains/bsc/fourmeme/README.md "Fourmeme Zone")
-    * [Fourmeme - Bundler Tutorial (Create & Buy)](chains/bsc/fourmeme/bundler.md "Bundler")
+    * [Fourmeme - Bundler Guide (Create & Buy)](chains/bsc/fourmeme/bundler.md "Bundler")
     * [Fourmeme - Market Making Tutorial](chains/bsc/fourmeme/market-making.md "Market Making")
     * [Fourmeme - Batch Swap Tutorial](chains/bsc/fourmeme/batch-swap.md "Batch Swap")
     * [Fourmeme - Multi-Address Bundled Buy Tutorial](chains/bsc/fourmeme/multi-address-buy.md "Multi-Address Bundled Buy")
