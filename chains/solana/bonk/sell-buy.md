@@ -152,7 +152,7 @@ privateKey, 300
 
 * [x] 买入钱包数量、买入本金、预计买回
 * [x] 卖出本金、卖出到账
-* [x] Jito 钱包![](<../../../.gitbook/assets/image (935).png>)及服务费钱包![](<../../../.gitbook/assets/image (936).png>)费用
+* [x] 每组 Jito 钱包![](<../../../.gitbook/assets/image (935).png>)及服务费钱包![](<../../../.gitbook/assets/image (936).png>)费用
 
 <figure><img src="../../../.gitbook/assets/image (907).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
