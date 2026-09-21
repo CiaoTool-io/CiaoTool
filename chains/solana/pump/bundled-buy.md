@@ -169,6 +169,7 @@ privateKey, 300
 * [x] 交易钱包数量
 * [x] 协议费消耗
 * [x] 交易本金
+* [x] Jito 钱包![](<../../../.gitbook/assets/image (935).png>)及服务费钱包![](<../../../.gitbook/assets/image (936).png>)费用
 
 <figure><img src="../../../.gitbook/assets/image (902).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
