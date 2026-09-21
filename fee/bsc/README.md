@@ -83,6 +83,13 @@ description: >-
 * [**市值管理**](https://bsc.ciaotool.io/zh-Hans/fourmeme/market-making-manage)**：**&#x30;.0008 BNB / 每次交易
 * [**批量交易**](https://bsc.ciaotool.io/zh-Hans/fourmeme/batch-swap-fourmeme)**：**&#x30;.0008 BNB / 每次交易
 * [**创建并捆绑买入**](https://bsc.ciaotool.io/zh-Hans/fourmeme/bnb/create-and-buy)**：**&#x30;.02 BNB / 每个地址
+
+```
+ 0 <地址数≤  5，每个地址 0.02 BNB
+ 5 <地址数≤ 20，每个地址 0.016 BNB
+20 <地址数≤ 25，每个地址 0.01 BNB
+```
+
 * [**多地址捆绑买入**](https://bsc.ciaotool.io/zh-Hans/fourmeme/bnb/multi-address-buy)**：**&#x30;.008 BNB / 每个地址
 * [**多地址捆绑卖出**](https://bsc.ciaotool.io/zh-Hans/fourmeme/bnb/multi-address-sell)**：**&#x30;.008 BNB / 每个地址
 
@@ -96,18 +103,25 @@ description: >-
 
 * [**市值管理**](https://bsc.ciaotool.io/zh-Hans/flap/market-making-manage)：0.0008 BNB / 每次交易
 * [**批量交易**](https://bsc.ciaotool.io/zh-Hans/flap/batch-swap-flap)：0.0008 BNB / 每次交易
-* [**创建并捆绑买入**](https://bsc.ciaotool.io/zh-Hans/flap/usd1/create-and-buy)**：**&#x30;.02 BNB / 每个地址
+* [**创建并捆绑买入**](https://bsc.ciaotool.io/zh-Hans/flap/usd1/create-and-buy)**：**&#x9636;梯计费，低至 0.01 BNB / 每个地址
+
+```
+ 0 <地址数≤  5，每个地址 0.02 BNB
+ 5 <地址数≤ 20，每个地址 0.016 BNB
+20 <地址数≤ 25，每个地址 0.01 BNB
+```
+
 * [**多地址捆绑买入**](https://bsc.ciaotool.io/zh-Hans/flap/bnb/multi-address-buy)**：**&#x30;.008 BNB / 每个地址
 * [**多地址捆绑卖出**](https://bsc.ciaotool.io/zh-Hans/flap/bnb/multi-address-sell)**：**&#x30;.008 BNB / 每个地址
 
 ***
 
-**💬 如遇到问题？加入社群实时咨询**：[https://t.me/ciaotool](https://t.me/ciaotool)
+## **寻求支持**
 
-* **Email**：[support@ciaotool.io](mailto:support@ciaotool.io)
-* **官网**：[https://ciaotool.io](https://ciaotool.io/)
-* **X（Twitter）**：[https://x.com/CiaoTool](https://x.com/CiaoTool)
-* **Medium**： [https://medium.com/@ciaotool](https://medium.com/@ciaotool)
-* **Blog**：[https://www.ciaoailiquidity.com/zh/blog](https://www.ciaoailiquidity.com/zh/blog)
-* **YouTube**：[https://www.youtube.com/@CiaoTool](https://www.youtube.com/@CiaoTool)
-* **WhatsApp**：[https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J](https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J)
+**如遇到问题？**&#x4F60;可以通过以下方即时联系 CiaoTool 团队：
+
+<table data-header-hidden><thead><tr><th width="188"></th><th valign="top"></th><th data-hidden></th></tr></thead><tbody><tr><td>Email</td><td valign="top"><a href="mailto:ciaotoolglobal@gmail.com">ciaotoolglobal@gmail.com</a></td><td></td></tr><tr><td>Telegram</td><td valign="top"><a href="https://t.me/ciaotools">https://t.me/ciaotools</a></td><td></td></tr><tr><td>WhatsApp</td><td valign="top"><a href="https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J">https://whatsapp.com/channel/0029VbAuLrVAojYxRNw95W1J</a></td><td></td></tr></tbody></table>
+
+{% hint style="danger" %}
+CiaoTool 致力于提供便捷的工具服务，但不构成任何投资建议。平台内容可能根据产品迭代进行调整，敬请用户自行判断并留意更新。
+{% endhint %}
