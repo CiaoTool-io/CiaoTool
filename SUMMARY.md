@@ -129,6 +129,7 @@
     * [Fourmeme - Multi-Address Bundled Sell Tutorial](chains/bsc/fourmeme/multi-address-sell.md "Multi-Address Bundled Sell")
   * [Flap Tools｜Bundler · Market Making](chains/bsc/flap/README.md "Flap Zone")
     * [Flap - Bundler Tutorial (Create & Buy)](chains/bsc/flap/create-and-buy.md "Bundler")
+    * [Flap - Dividend Claim Guide](chains/bsc/flap/dividend-claim.md "Dividend Claim")
     * [Flap - Market Making Tutroial](chains/bsc/flap/market-making.md "Market Making")
     * [Flap - Batch Swap Tutorial](chains/bsc/flap/batch-swap.md "Batch Swap")
     * [Flap - Multi-Address Bundled Buy Tutorial](chains/bsc/flap/multi-address-buy.md "Multi-Address Bundled Buy")
