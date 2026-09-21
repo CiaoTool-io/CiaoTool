@@ -176,6 +176,7 @@ The program runs automatically. Review the following information on the confirma
 
 * [x] Number of buying wallets, purchase amount, and estimated tokens received
 * [x] Sell amount and estimated proceeds
+* [x] ![](<../../../.gitbook/assets/image (1203).png>)Jito Wallet and ![](<../../../.gitbook/assets/image (1204).png>)Service Fee Wallet costs per group
 
 <figure><img src="../../../.gitbook/assets/image (1198).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}

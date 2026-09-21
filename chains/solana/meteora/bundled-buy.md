@@ -161,6 +161,7 @@ The program runs automatically. Review the confirmation page and verify:
 * [x] Number of trading wallets
 * [x] Protocol fees
 * [x] Trading principal
+* [x] ![](<../../../.gitbook/assets/image (1203).png>)Jito Wallet and ![](<../../../.gitbook/assets/image (1204).png>)Service Fee Wallet costs per group
 {% endstep %}
 
 {% step %}
