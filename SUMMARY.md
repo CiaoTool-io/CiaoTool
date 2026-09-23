@@ -224,6 +224,18 @@
     * [移除 Robinhood Chain 流动性](chains/robinhood-chain/swap/liquidity-remover/README.md "移除流动性")
       * [Robinhood Chain - 移除 V2 流动性教程](chains/robinhood-chain/swap/liquidity-remover/v2.md "V2")
       * [Robinhood Chain - 移除 V3 流动性教程](chains/robinhood-chain/swap/liquidity-remover/v3.md "V3")
+* [Monad Chain - 一站式代币解决方案平台](chains/monad-chain/README.md "Monad Chain 指南")
+  * [Robinhood Chain - 批量转账工具集](chains/monad-chain/multisender/README.md "批量转账")
+    * [一对多转账](tools/multisender/one-to-multi/one-to-many.md)
+    * [批量一转多](tools/multisender/one-to-multi/one-to-many-multi.md)
+    * [多对一转账](tools/multisender/multi-to-one/many-to-one.md)
+    * [多对多转账](tools/multisender/multi-to-multi/many-to-many.md)
+  * [Robinhood Chain - 换仓专区](chains/monad-chain/asset-migration/README.md "换仓专区")
+    * [冷换仓](tools/multisender/leng-huan-cang/fragmentation.md)
+  * [Robinhood Chain - 钱包工具](chains/monad-chain/wallet-tools/README.md "钱包工具")
+    * [批量创建钱包](tools/wallet-tool/wallet-create.md)
+  * [Robinhood Chain - 创建代币](chains/monad-chain/token-creator/README.md "创建代币")
+    * [标准代币](tools/token-creator/contract-token-creator/standard-token-evm.md)
 
 ## 工具 <a href="#tools" id="tools"></a>
 
