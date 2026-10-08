@@ -13,7 +13,7 @@ metaLinks:
 
 <figure><img src=".gitbook/assets/image (763).png" alt="CiaoTool Solana Chain 官网"><figcaption></figcaption></figure>
 
-CiaoTool 是一站式多链 Web3 资产发行与运营平台，支持 Solana、BSC、opBNB、Base、IoTeX、X Layer、BOT、Robinhood 等生态，为项目方、工作室、交易团队及链上运营者提供可视化、零代码的专业工具。
+CiaoTool 是一站式多链 Web3 资产发行与运营平台，支持 Solana、BSC、opBNB、Base、IoTeX、X Layer、BOT、Monad 和 Robinhood Chain 等生态，为项目方、工作室、交易团队及链上运营者提供可视化、零代码的专业工具。
 
 平台将复杂的链上操作转化为直观的前端流程，无需编写智能合约代码，即可完成代币创建、权限管理、流动性部署、资产分发、多钱包调度、Launchpad 发射及自动化交易等操作。
 
