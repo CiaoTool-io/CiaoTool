@@ -8,7 +8,7 @@ metaLinks:
 # EVM - 批量转账 | 多对多转账教程
 
 {% hint style="info" %}
-当前&#x662F;**「EVM - 多对多转账」**&#x6559;程页面以查看 **BSC、opBNB、Base、X Layer、IoTeX、Robinhood Chain** 等 EVM 网络教程。
+当前&#x662F;**「EVM - 多对多转账」**&#x6559;程页面以查看 **BSC、opBNB、Base、X Layer、IoTeX、Monad 和 Robinhood Chain** 等 EVM 网络教程。
 
 本教程演示基于 BSC（BNB Chain）功能页面，本功能 EVM 网络 CiaoTool 全链通用，请切换至对应公链进行一对多转账操作。
 

@@ -2,6 +2,7 @@
 description: >-
   CiaoTool 专为 Robinhood Chain 打造的高性能资产转账工具。完美适配 ETH 及各类 ERC-20
   代币，集成一对多空投、多对一归集以及矩阵转账等核心模块，全面优化多钱包资产配置的时效性与隐私安全性。
+hidden: true
 icon: '1'
 ---
 
@@ -19,7 +20,7 @@ icon: '1'
 {% endcolumn %}
 
 {% column %}
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>一对多转账</td><td><a href="https://r.ciaotool.io/zh-Hans/transfer/one-to-many">https://r.ciaotool.io/zh-Hans/transfer/one-to-many</a></td></tr><tr><td>批量一转多</td><td><a href="https://r.ciaotool.io/zh-Hans/transfer/one-to-many-multi">https://r.ciaotool.io/zh-Hans/transfer/one-to-many-multi</a></td></tr><tr><td>功能教程 - 一转多</td><td><a href="../../../tools/multisender/one-to-multi/one-to-many.md">one-to-many.md</a></td></tr><tr><td>功能教程 - 批量一转多</td><td><a href="../../../tools/multisender/one-to-multi/one-to-many-multi.md">one-to-many-multi.md</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>一对多转账</td><td><a href="https://r.ciaotool.io/zh-Hans/transfer/one-to-many">https://r.ciaotool.io/zh-Hans/transfer/one-to-many</a></td></tr><tr><td>批量一转多</td><td><a href="https://r.ciaotool.io/zh-Hans/transfer/one-to-many-multi">https://r.ciaotool.io/zh-Hans/transfer/one-to-many-multi</a></td></tr><tr><td>功能教程 - 一转多</td><td><a href="../../tools/multisender/one-to-multi/one-to-many.md">one-to-many.md</a></td></tr><tr><td>功能教程 - 批量一转多</td><td><a href="../../tools/multisender/one-to-multi/one-to-many-multi.md">one-to-many-multi.md</a></td></tr></tbody></table>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -35,7 +36,7 @@ icon: '1'
 {% endcolumn %}
 
 {% column %}
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>多对一转账</td><td><a href="https://r.ciaotool.io/zh-Hans/transfer/many-to-one">https://r.ciaotool.io/zh-Hans/transfer/many-to-one</a></td></tr><tr><td>功能教程</td><td><a href="../../../tools/multisender/multi-to-one/many-to-one.md">many-to-one.md</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>多对一转账</td><td><a href="https://r.ciaotool.io/zh-Hans/transfer/many-to-one">https://r.ciaotool.io/zh-Hans/transfer/many-to-one</a></td></tr><tr><td>功能教程</td><td><a href="../../tools/multisender/multi-to-one/many-to-one.md">many-to-one.md</a></td></tr></tbody></table>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -51,7 +52,7 @@ icon: '1'
 {% endcolumn %}
 
 {% column %}
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>多对多转账</td><td><a href="https://r.ciaotool.io/zh-Hans/transfer/many-to-many">https://r.ciaotool.io/zh-Hans/transfer/many-to-many</a></td></tr><tr><td>功能教程</td><td><a href="../../../tools/multisender/multi-to-multi/many-to-many.md">many-to-many.md</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>多对多转账</td><td><a href="https://r.ciaotool.io/zh-Hans/transfer/many-to-many">https://r.ciaotool.io/zh-Hans/transfer/many-to-many</a></td></tr><tr><td>功能教程</td><td><a href="../../tools/multisender/multi-to-multi/many-to-many.md">many-to-many.md</a></td></tr></tbody></table>
 {% endcolumn %}
 {% endcolumns %}
 
@@ -61,7 +62,7 @@ icon: '1'
 
 Robinhood Chain 批量转账是基于 Robinhood Chian 智能合约底层开发的高效资产流转解决方案。它允许用户打破传统钱包一次只能处理单笔转账的限制，通过批量导入地址和自动化脚本，在同一次链上操作或同一个区块内，并行处理数十至数百笔钱包地址之间的代币划转。无论是将单一核心资产钱包的代币打散分发到多个子地址，还是将分散在多仓中的零散代币收拢回集，均可通过该功能实现全自动的链上调度。
 
-<figure><img src="../../../.gitbook/assets/image (696).png" alt="CiaoTool Robinhood 链批量转账页面"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (696).png" alt="CiaoTool Robinhood 链批量转账页面"><figcaption></figcaption></figure>
 
 ***
 
