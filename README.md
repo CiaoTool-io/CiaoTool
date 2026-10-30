@@ -10,7 +10,7 @@ metaLinks:
 ---
 
 # Other Language
-[English](https://github.com/CiaoTool-io/CiaoTool/README.md)
+[English](https://github.com/CiaoTool-io/CiaoTool/main/README.md)
 # CiaoTool 一键发币
 
 <figure><img src=".gitbook/assets/image (763).png" alt="CiaoTool Solana Chain 官网"><figcaption></figcaption></figure>
