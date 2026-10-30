@@ -1,5 +1,3 @@
-🌐 [简体中文][(https://github.com/CiaoTool/CiaoTool/blob/zh-CN/README.md)](https://github.com/CiaoTool-io/CiaoTool/blob/Chinese/README.md)
-
 ---
 description: >-
   CiaoTool is the leading all-in-one multi-chain token lifecycle management
@@ -9,6 +7,7 @@ cover: .gitbook/assets/423954199 (1).png
 coverY: 0
 ---
 
+🌐 [简体中文][(https://github.com/CiaoTool-io/CiaoTool/blob/Chinese/README.md)]
 # Introduction
 
 <figure><img src=".gitbook/assets/image (1121).png" alt="CiaoTool Homepage of Solana Chain Tookit"><figcaption></figcaption></figure>
