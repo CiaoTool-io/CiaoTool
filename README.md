@@ -1,3 +1,5 @@
+🌐 [简体中文][(https://github.com/CiaoTool/CiaoTool/blob/zh-CN/README.md)](https://github.com/CiaoTool-io/CiaoTool/blob/Chinese/README.md)
+
 ---
 description: >-
   CiaoTool is the leading all-in-one multi-chain token lifecycle management
