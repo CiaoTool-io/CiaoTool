@@ -6,8 +6,9 @@ description: >-
 cover: .gitbook/assets/423954199 (1).png
 coverY: 0
 ---
-
+# Other Language
 🌐 [简体中文](https://github.com/CiaoTool-io/CiaoTool/blob/Chinese/README.md)
+
 # Introduction
 
 <figure><img src=".gitbook/assets/image (1121).png" alt="CiaoTool Homepage of Solana Chain Tookit"><figcaption></figcaption></figure>
