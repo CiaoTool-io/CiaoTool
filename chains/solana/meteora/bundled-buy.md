@@ -63,7 +63,7 @@ CiaoTool Meteora 多地址捆绑买入是一款面向 Meteora 的多钱包交易
 
 点击右上角【连接钱包】按钮，绑定支持 Solana 链的钱包
 
-<figure><img src="../../../.gitbook/assets/image (748).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (747).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -82,7 +82,7 @@ CiaoTool Meteora 多地址捆绑买入是一款面向 Meteora 的多钱包交易
 
 选择要进行做市的池子，并确保该池子存在所选交易币对。
 
-<figure><img src="../../../.gitbook/assets/image (924).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (923).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -116,7 +116,7 @@ privateKey, 300
 
 3. 点&#x51FB;**「确定导入」**，将所有输入地址导入到操作面板
 
-<figure><img src="../../../.gitbook/assets/image (890).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (889).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="上传文件" %}

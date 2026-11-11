@@ -45,7 +45,7 @@ CiaoTool Solana 多对一转账是一款批量资产归集工具，可将多个�
 
 点击右上角【连接钱包】按钮，绑定支持 Solana 链的钱包
 
-<figure><img src="../../../.gitbook/assets/image (748).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (747).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}

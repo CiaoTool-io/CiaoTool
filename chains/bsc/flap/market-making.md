@@ -5,7 +5,7 @@ description: 专为 BSC 生态 Flap.sh 平台提供的自动化做市与交易�
 # Flap - 市值管理教程
 
 {% hint style="info" %}
-**CiaoTool Flap 市值管理**现已全面支持官方 **BNB、USD1、UUSD、USDT**  和 **RWA** 全部的价值代币，满足不同场景下的快捷做市服务。
+**CiaoTool Flap 市值管理**现已全面支持官方 **BNB、USD1、UUSD、USDT** 和 **RWA** 全部的价值代币，满足不同场景下的快捷做市服务。
 {% endhint %}
 
 ## Flap 市值管理是什么？
@@ -96,7 +96,7 @@ description: 专为 BSC 生态 Flap.sh 平台提供的自动化做市与交易�
 使用 CiaoTool 模板文件导入，并保存确定导入并显示在输入框内。\
 点击下载并查看模板：
 
-{% file src="../../../.gitbook/assets/EVM_privateKey_demo.xlsx" %}
+{% file src="../../../.gitbook/assets/EVM_Demo.xlsx" %}
 {% endstep %}
 
 {% step %}
@@ -113,7 +113,7 @@ description: 专为 BSC 生态 Flap.sh 平台提供的自动化做市与交易�
 1. **逐一输入**\
    在输入框中，逐一输入买入金额数量
    * 若填写数量，则按照填写的数量进行交易。
-   * 若未填写数量，则按照交易数量中     设置的数量进行交易。
+   * 若未填写数量，则按照交易数量中 设置的数量进行交易。
 2. **固定数量**\
    所有钱包根据同一数量将代币全部兑换为指定代币。
 3. **固定留存**\

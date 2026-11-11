@@ -9,7 +9,7 @@ metaLinks:
 
 # 币安 Alpha - 批量交易教程
 
-## CiaoTool 币安 Alpha 批量交易什么？  <a href="#what-is-coinfactory-solana-multisender" id="what-is-coinfactory-solana-multisender"></a>
+## CiaoTool 币安 Alpha 批量交易什么？ <a href="#what-is-coinfactory-solana-multisender" id="what-is-coinfactory-solana-multisender"></a>
 
 <figure><img src="../../../.gitbook/assets/image (466).png" alt="CiaoTool 币安Alpha 批量交易页面"><figcaption></figcaption></figure>
 
@@ -75,7 +75,7 @@ CiaoTool 为 币安 Alpha 平台上的多地址交易管理提供了一种兼顾
 使用 CiaoTool 模板文件导入，并保存确定导入并显示在输入框内。\
 点击下载并查看模板：
 
-{% file src="../../../.gitbook/assets/EVM_privateKey_demo.xlsx" %}
+{% file src="../../../.gitbook/assets/EVM_Demo.xlsx" %}
 {% endstep %}
 
 {% step %}

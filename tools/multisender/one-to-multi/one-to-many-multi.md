@@ -5,10 +5,10 @@ metaLinks:
     - https://app.gitbook.com/s/b56FKZGe1viFi67H1pPQ/transfer/one-to-many-multi
 ---
 
-# EVM - 批量转账 | 批量一转多教程
+# EVM 批量转账 | 批量一对多转账指南
 
 {% hint style="info" %}
-当前&#x662F;**「EVM - 批量一转多」**&#x6559;程页面以查看 **BSC、opBNB、Base、X Layer、IoTeX、Monad 和 Robinhood Chain** 等 EVM 网络教程。
+当前&#x662F;**「EVM - 批量一转多」**&#x6559;程页面以查看 **BSC、opBNB、Base、X Layer、IoTeX、Monad、0G 和 Robinhood Chain** 等 EVM 网络教程。
 
 本教程演示基于 BSC（BNB Chain）功能页面，本功能 EVM 网络 CiaoTool 全链通用，请切换至对应公链进行一对多转账操作。
 {% endhint %}
@@ -17,7 +17,7 @@ metaLinks:
 
 <figure><img src="../../../.gitbook/assets/image (490).png" alt="CiaoTool EVM 批量一转多页面"><figcaption></figcaption></figure>
 
-CiaoTool BSC 批量一转多（Batch One-to-Multi Transfer）是一款专为 BSC (BNB Smart Chain) 及 EVM 兼容生态深度定制的高效链上资产分发与空投工具。它允许用户在单次可视化操作中，将原生代币（如 BNB）或各类标准合约代币精准地批量发送至成百上千个独立的接收地址。
+CiaoTool BSC 批量一转多是一款专为 BSC (BNB Smart Chain) 及 EVM 兼容生态深度定制的高效链上资产分发与空投工具。它允许用户在单次可视化操作中，将原生代币（如 BNB）或各类标准合约代币精准地批量发送至成百上千个独立的接收地址。
 
 相较于「逐个复制地址、单笔连续转账」的传统模式，该功能的核心机制在于「底层批量指令聚合」。系统会将海量的独立转账指令通过智能合约整合为一个不可分割的数据包提交至链上。这种机制不仅将原本需要耗费数小时的机械性工作缩短至一键秒级完成，更通过合并同类项大幅平摊了整体的网络矿工费，是项目方进行空投分发、团队结算或做市前置分仓的核心基建。
 
@@ -30,7 +30,15 @@ CiaoTool BSC 批量一转多（Batch One-to-Multi Transfer）是一款专为 BSC
 
 立即在 EVM 网络上，用 CiaoTool​ 批量转账功能进行批量一转多操作：
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/BSC.png" alt="" data-size="line">BSC (BNB Chain)</td><td><a href="https://bsc.ciaotool.io/zh-Hans/transfer/one-to-many-multi">https://bsc.ciaotool.io/zh-Hans/transfer/one-to-many-multi</a></td></tr><tr><td><img src="../../../.gitbook/assets/BSC.png" alt="" data-size="line">opBNB Chain</td><td><a href="https://opbnb.ciaotool.io/zh-Hans/transfer/one-to-many-multi">https://opbnb.ciaotool.io/zh-Hans/transfer/one-to-many-multi</a></td></tr><tr><td><img src="../../../.gitbook/assets/Base3.png" alt="" data-size="line">Base Chain</td><td><a href="https://base.ciaotool.io/zh-Hans/transfer/one-to-many-multi">https://base.ciaotool.io/zh-Hans/transfer/one-to-many-multi</a></td></tr><tr><td><img src="../../../.gitbook/assets/3 (1).png" alt="" data-size="line">X Layer</td><td><a href="https://xlayer.ciaotool.io/zh-Hans/transfer/one-to-many-multi">https://xlayer.ciaotool.io/zh-Hans/transfer/one-to-many-multi</a></td></tr><tr><td><img src="../../../.gitbook/assets/IoTex.png" alt="" data-size="line">IoTeX Chain</td><td><a href="https://iotex.ciaotool.io/zh-Hans/transfer/one-to-many-multi">https://iotex.ciaotool.io/zh-Hans/transfer/one-to-many-multi</a></td></tr><tr><td><img src="../../../.gitbook/assets/BOT-2.png" alt="" data-size="line"> BOT Chain</td><td><a href="https://bot.ciaotool.io/zh-Hans/transfer/one-to-many-multi">https://bot.ciaotool.io/zh-Hans/transfer/one-to-many-multi</a></td></tr><tr><td><img src="../../../.gitbook/assets/Group 1261152954.png" alt="" data-size="line"> Robinhood Chain</td><td><a href="https://r.ciaotool.io/zh-Hans/transfer/one-to-many-multi">https://r.ciaotool.io/zh-Hans/transfer/one-to-many-multi</a></td></tr><tr><td><img src="../../../.gitbook/assets/Group 1261153198.png" alt="" data-size="line"> Monad Chain</td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/BSC.png" alt="" data-size="line">BSC (BNB Chain)</td><td><a href="https://bsc.ciaotool.io/zh-Hans/transfer/one-to-many-multi">https://bsc.ciaotool.io/zh-Hans/transfer/one-to-many-multi</a></td></tr><tr><td><img src="../../../.gitbook/assets/Base3.png" alt="" data-size="line">Base Chain</td><td><a href="https://base.ciaotool.io/zh-Hans/transfer/one-to-many-multi">https://base.ciaotool.io/zh-Hans/transfer/one-to-many-multi</a></td></tr><tr><td><img src="../../../.gitbook/assets/Group 1261152954.png" alt="" data-size="line"> Robinhood Chain</td><td><a href="https://r.ciaotool.io/zh-Hans/transfer/one-to-many-multi">https://r.ciaotool.io/zh-Hans/transfer/one-to-many-multi</a></td></tr></tbody></table>
+
+<details>
+
+<summary>查看更多支持网络</summary>
+
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/BSC.png" alt="" data-size="line">opBNB Chain</td><td><a href="https://opbnb.ciaotool.io/zh-Hans/transfer/one-to-many-multi">https://opbnb.ciaotool.io/zh-Hans/transfer/one-to-many-multi</a></td></tr><tr><td><img src="../../../.gitbook/assets/3 (1).png" alt="" data-size="line">X Layer</td><td><a href="https://xlayer.ciaotool.io/zh-Hans/transfer/one-to-many-multi">https://xlayer.ciaotool.io/zh-Hans/transfer/one-to-many-multi</a></td></tr><tr><td><img src="../../../.gitbook/assets/IoTex.png" alt="" data-size="line">IoTeX Chain</td><td><a href="https://iotex.ciaotool.io/zh-Hans/transfer/one-to-many-multi">https://iotex.ciaotool.io/zh-Hans/transfer/one-to-many-multi</a></td></tr><tr><td><img src="../../../.gitbook/assets/BOT-2.png" alt="" data-size="line"> BOT Chain</td><td><a href="https://bot.ciaotool.io/zh-Hans/transfer/one-to-many-multi">https://bot.ciaotool.io/zh-Hans/transfer/one-to-many-multi</a></td></tr><tr><td><img src="../../../.gitbook/assets/Group 1261153198.png" alt="" data-size="line"> Monad Chain</td><td><a href="https://monad.ciaotool.io/zh-Hans/transfer/one-to-many-multi">https://monad.ciaotool.io/zh-Hans/transfer/one-to-many-multi</a></td></tr><tr><td><img src="../../../.gitbook/assets/Group 1261153200.png" alt="" data-size="line"> 0G</td><td><a href="https://0g.ciaotool.io/zh-Hans/transfer/one-to-many-multi">https://0g.ciaotool.io/zh-Hans/transfer/one-to-many-multi</a></td></tr></tbody></table>
+
+</details>
 
 ***
 
@@ -52,7 +60,7 @@ CiaoTool 为 EVM 网络上的海量资产调拨提供了一种兼顾绝对安全
 
 ***
 
-## **图文指南 | EVM 批量转账 - 一对多转账**  <a href="#solana-one-to-multi-guide" id="solana-one-to-multi-guide"></a>
+## **图文指南 | EVM 批量转账 - 一对多转账** <a href="#solana-one-to-multi-guide" id="solana-one-to-multi-guide"></a>
 
 {% stepper %}
 {% step %}

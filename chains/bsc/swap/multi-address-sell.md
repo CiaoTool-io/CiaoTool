@@ -72,7 +72,7 @@ metaLinks:
 {% step %}
 ### 输入币对地址
 
-V2  在代币输入框中选择 /输入做市代币地址，V3 请输入指定池子的币对合约地址。
+V2 在代币输入框中选择 /输入做市代币地址，V3 请输入指定池子的币对合约地址。
 
 <figure><img src="../../../.gitbook/assets/image (605).png" alt=""><figcaption></figcaption></figure>
 
@@ -97,14 +97,14 @@ V2  在代币输入框中选择 /输入做市代币地址，V3 请输入指定�
 1. 点&#x51FB;**「导入私钥」**&#x6309;钮，弹出上传弹窗。
 2. 支&#x6301;**「手动输入」**&#x548C;**「上传文件」**&#x4E24;种导入钱包私钥的类型，最多支持 **20 个地址**捆绑买入。
 
-<figure><img src="../../../.gitbook/assets/image (612).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (610).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (453).png" alt=""><figcaption></figcaption></figure>
 
 使用 CiaoTool 模板文件导入，并保存确定导入并显示在输入框内。\
 点击下载并查看模板：
 
-{% file src="../../../.gitbook/assets/EVM_privateKey_demo.xlsx" %}
+{% file src="../../../.gitbook/assets/EVM_Demo.xlsx" %}
 {% endstep %}
 
 {% step %}

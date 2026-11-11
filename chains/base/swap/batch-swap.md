@@ -10,7 +10,7 @@ description: >-
 **CiaoTool SushiSwap 批量交易**现已全面支持 **V3 流动性池**类型。
 {% endhint %}
 
-## CiaoTool Base 批量交易什么？  <a href="#what-is-coinfactory-solana-multisender" id="what-is-coinfactory-solana-multisender"></a>
+## CiaoTool Base 批量交易什么？ <a href="#what-is-coinfactory-solana-multisender" id="what-is-coinfactory-solana-multisender"></a>
 
 **CiaoTool Base 批量交易**是一款专为 Base 生态 **SushiSwap V3 流动性池**打造的多地址自动化交易执行工具。它允许用户通过批量导入多个钱包地址并设置交易参数，全自动且同步地执行代币买卖操作。
 
@@ -49,7 +49,7 @@ CiaoTool 为 SushiSwap 平台上的多地址交易管理提供了一种兼顾极
 
 不同于 V2 流动性池，每个不同币对和税费的 V3 流动性池有专属的币对地址，请输入正确的币对地址以选择兑换币对。
 
-<figure><img src="../../../.gitbook/assets/image (391).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (388).png" alt=""><figcaption></figcaption></figure>
 
 **不知道如何查找 V3 币对地址？**
 
@@ -88,7 +88,7 @@ CiaoTool 为 SushiSwap 平台上的多地址交易管理提供了一种兼顾极
 使用 CiaoTool 模板文件导入，并保存确定导入并显示在输入框内。\
 点击下载并查看模板：
 
-{% file src="../../../.gitbook/assets/EVM_privateKey_demo.xlsx" %}
+{% file src="../../../.gitbook/assets/EVM_Demo.xlsx" %}
 {% endstep %}
 
 {% step %}
@@ -100,7 +100,7 @@ CiaoTool 为 SushiSwap 平台上的多地址交易管理提供了一种兼顾极
    在输入框中，逐一输入买入金额数量
 
 * 若填写数量，则按照填写的数量进行交易。
-* 若未填写数量，则按照交易数量中  设置的数量进行交易。
+* 若未填写数量，则按照交易数量中 设置的数量进行交易。
 
 2. **固定数量**\
    所有钱包根据同一数量将代币全部兑换为指定代币。

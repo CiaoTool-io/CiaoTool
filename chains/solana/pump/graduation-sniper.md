@@ -86,7 +86,7 @@ description: >-
 
 点击右上角【连接钱包】按钮，绑定支持 Solana 链的钱包
 
-<figure><img src="../../../.gitbook/assets/image (748).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (747).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -204,7 +204,7 @@ privateKey, 300
 2. 点击![](<../../../.gitbook/assets/image (848).png>)**「导入文件」**&#x6309;钮，弹出文件上传窗口。
 3. 点&#x51FB;**「确定导入」**，将所有地址导入到操作面板
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 {% endstep %}

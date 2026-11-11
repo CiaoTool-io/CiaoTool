@@ -47,7 +47,7 @@ CiaoTool Solana 冷换仓是一款批量代币分仓工具，可将集中在一�
 
 点击右上角【连接钱包】按钮，绑定支持 Solana 链的钱包
 
-<figure><img src="../../../.gitbook/assets/image (748).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (747).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -83,7 +83,7 @@ privateKey, 300
 
 3. 点&#x51FB;**「确定导入」**，将所有输入地址导入到操作面板
 
-<figure><img src="../../../.gitbook/assets/image (787).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (786).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="上传文件" %}

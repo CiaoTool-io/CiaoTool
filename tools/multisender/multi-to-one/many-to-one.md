@@ -5,10 +5,10 @@ metaLinks:
     - https://app.gitbook.com/s/b56FKZGe1viFi67H1pPQ/transfer/many-to-one
 ---
 
-# EVM - 批量转账 | 多对一转账教程
+# EVM 批量转账 | 多对一转账指南
 
 {% hint style="info" %}
-当前&#x662F;**「EVM - 多对一转账」**&#x6559;程页面以查看 **BSC、opBNB、Base、X Layer、IoTeX、Monad 和 Robinhood Chain** 等 EVM 网络教程。
+当前&#x662F;**「EVM - 多对一转账」**&#x6559;程页面以查看 **BSC、opBNB、Base、X Layer、IoTeX、Monad、0G 和 Robinhood Chain** 等 EVM 网络教程。
 
 本教程演示基于 BSC（BNB Chain）功能页面，本功能 EVM 网络 CiaoTool 全链通用，请切换至对应公链进行一对多转账操作。
 
@@ -17,7 +17,7 @@ metaLinks:
 
 ## CiaoTool EVM 多对一转账是什么？ <a href="#definition" id="definition"></a>
 
-<figure><img src="../../../.gitbook/assets/image (497).png" alt="CiaoTool BSC 批量转账 多对一转账页面"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (496).png" alt="CiaoTool BSC 批量转账 多对一转账页面"><figcaption></figcaption></figure>
 
 **CiaoTool EVM 多对一转账**是一款专为 BSC (BNB Smart Chain) 及 EVM 兼容生态打造的高效链上资产回笼与多钱包资金管理工具。它允许用户在单次可视化操作中，将分散在成百上千个子钱包中的指定代币或原生代币（如 BNB），全自动地集中汇聚至一个主地址中。
 
@@ -25,7 +25,15 @@ metaLinks:
 
 立即在 EVM 网络上，用 CiaoTool​ 批量转账功能进行多对一转账操作：
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/BSC.png" alt="" data-size="line">BSC (BNB Chain)</td><td><a href="https://bsc.ciaotool.io/zh-Hans/transfer/many-to-one">https://bsc.ciaotool.io/zh-Hans/transfer/many-to-one</a></td></tr><tr><td><img src="../../../.gitbook/assets/BSC.png" alt="" data-size="line">opBNB Chain</td><td><a href="https://opbnb.ciaotool.io/zh-Hans/transfer/many-to-one">https://opbnb.ciaotool.io/zh-Hans/transfer/many-to-one</a></td></tr><tr><td><img src="../../../.gitbook/assets/Base3.png" alt="" data-size="line">Base Chain</td><td><a href="https://base.ciaotool.io/zh-Hans/transfer/many-to-one">https://base.ciaotool.io/zh-Hans/transfer/many-to-one</a></td></tr><tr><td><img src="../../../.gitbook/assets/3 (1).png" alt="" data-size="line">X Layer</td><td><a href="https://xlayer.ciaotool.io/zh-Hans/transfer/many-to-one">https://xlayer.ciaotool.io/zh-Hans/transfer/many-to-one</a></td></tr><tr><td><img src="../../../.gitbook/assets/IoTex.png" alt="" data-size="line">IoTeX Chain</td><td><a href="https://iotex.ciaotool.io/zh-Hans/transfer/many-to-one">https://iotex.ciaotool.io/zh-Hans/transfer/many-to-one</a></td></tr><tr><td><img src="../../../.gitbook/assets/BOT-2.png" alt="" data-size="line"> BOT Chain</td><td><a href="https://iotex.ciaotool.io/zh-Hans/transfer/many-to-one">https://iotex.ciaotool.io/zh-Hans/transfer/many-to-one</a></td></tr><tr><td><img src="../../../.gitbook/assets/Group 1261152954.png" alt="" data-size="line"> Robinhood Chain</td><td><a href="https://r.ciaotool.io/zh-Hans/transfer/many-to-one">https://r.ciaotool.io/zh-Hans/transfer/many-to-one</a></td></tr><tr><td><img src="../../../.gitbook/assets/Group 1261153198.png" alt="" data-size="line"> Monad Chain</td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/BSC.png" alt="" data-size="line">BSC (BNB Chain)</td><td><a href="https://bsc.ciaotool.io/zh-Hans/transfer/many-to-one">https://bsc.ciaotool.io/zh-Hans/transfer/many-to-one</a></td></tr><tr><td><img src="../../../.gitbook/assets/Base3.png" alt="" data-size="line">Base Chain</td><td><a href="https://base.ciaotool.io/zh-Hans/transfer/many-to-one">https://base.ciaotool.io/zh-Hans/transfer/many-to-one</a></td></tr><tr><td><img src="../../../.gitbook/assets/Group 1261152954.png" alt="" data-size="line"> Robinhood Chain</td><td><a href="https://r.ciaotool.io/zh-Hans/transfer/many-to-one">https://r.ciaotool.io/zh-Hans/transfer/many-to-one</a></td></tr></tbody></table>
+
+<details>
+
+<summary>查看更多支持网络</summary>
+
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/BSC.png" alt="" data-size="line">opBNB Chain</td><td><a href="https://opbnb.ciaotool.io/zh-Hans/transfer/many-to-one">https://opbnb.ciaotool.io/zh-Hans/transfer/many-to-one</a></td></tr><tr><td><img src="../../../.gitbook/assets/3 (1).png" alt="" data-size="line">X Layer</td><td><a href="https://xlayer.ciaotool.io/zh-Hans/transfer/many-to-one">https://xlayer.ciaotool.io/zh-Hans/transfer/many-to-one</a></td></tr><tr><td><img src="../../../.gitbook/assets/IoTex.png" alt="" data-size="line">IoTeX Chain</td><td><a href="https://iotex.ciaotool.io/zh-Hans/transfer/many-to-one">https://iotex.ciaotool.io/zh-Hans/transfer/many-to-one</a></td></tr><tr><td><img src="../../../.gitbook/assets/BOT-2.png" alt="" data-size="line"> BOT Chain</td><td><a href="https://iotex.ciaotool.io/zh-Hans/transfer/many-to-one">https://iotex.ciaotool.io/zh-Hans/transfer/many-to-one</a></td></tr><tr><td><img src="../../../.gitbook/assets/Group 1261153198.png" alt="" data-size="line"> Monad Chain</td><td><a href="https://monad.ciaotool.io/zh-Hans/transfer/many-to-one">https://monad.ciaotool.io/zh-Hans/transfer/many-to-one</a></td></tr><tr><td><img src="../../../.gitbook/assets/Group 1261153200.png" alt="" data-size="line"> 0G Chain</td><td><a href="https://0g.ciaotool.io/zh-Hans/transfer/many-to-one">https://0g.ciaotool.io/zh-Hans/transfer/many-to-one</a></td></tr></tbody></table>
+
+</details>
 
 ***
 
@@ -50,7 +58,7 @@ CiaoTool 为 EVM 网络上的海量资产调拨提供了一种兼顾绝对安全
 
 ***
 
-## **图文指南 | EVM 批量转账 - 多对一转账**  <a href="#solana-one-to-multi-guide" id="solana-one-to-multi-guide"></a>
+## **图文指南 | EVM 批量转账 - 多对一转账** <a href="#solana-one-to-multi-guide" id="solana-one-to-multi-guide"></a>
 
 {% stepper %}
 {% step %}
@@ -101,9 +109,9 @@ CiaoTool 为 EVM 网络上的海量资产调拨提供了一种兼顾绝对安全
 2. 使用 CiaoTool 模板文件导入，并保存确定导入并显示在输入框内。\
    点击下载并查看模板：
 
-{% file src="../../../.gitbook/assets/EVM_privateKey_demo.xlsx" %}
+{% file src="../../../.gitbook/assets/EVM_Demo.xlsx" %}
 
-<figure><img src="../../../.gitbook/assets/image (500).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (499).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 {% endstep %}
@@ -127,7 +135,7 @@ CiaoTool 为 EVM 网络上的海量资产调拨提供了一种兼顾绝对安全
    在输入框中，逐一输入转账金额数量
 
 * 若填写数量，则按照填写的数量进行转账。
-* 若未填写数量，则按照发送数量中  设置的数量进行转账。
+* 若未填写数量，则按照发送数量中 设置的数量进行转账。
 
 2. **全部数量**\
    所有钱包将余额内指定的代币全部发送到归集地址。

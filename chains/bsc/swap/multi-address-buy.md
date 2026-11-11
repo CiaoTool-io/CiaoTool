@@ -16,7 +16,7 @@ metaLinks:
 
 ## CiaoTool PancakeSwap 多地址捆绑买入是什么？
 
-<figure><img src="../../../.gitbook/assets/image (603).png" alt="CiaoTool BSC生态 PancakeSwap V2 多地址捆绑买入 功能页面"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (602).png" alt="CiaoTool BSC生态 PancakeSwap V2 多地址捆绑买入 功能页面"><figcaption></figcaption></figure>
 
 **PancakeSwap 多地址捆绑买入** 是一种针对去中心化流动性池的高级资金调度与建仓策略，全面适配 V2 与 V3 资金池。该功能允许项目方或交易者在单次操作中，调度数十个个独立子钱包，在同一个区块链区块内进行并发买入。
 
@@ -38,7 +38,7 @@ metaLinks:
 
 在激烈的链上博弈中，资金效率与隐蔽性决定了策略的成败。CiaoTool 为专业团队构筑了极致的链上防线：
 
-* **零代码双协议兼容：** \
+* **零代码双协议兼容：**\
   无需编写复杂的 RPC 节点多线程并发脚本，直观的可视化界面同时兼容 PancakeSwap V2 与 V3 协议，一键即可实现高难度并发建仓。
 * **纯前端私钥隔离：**\
   平台严格采用客户端本地处理机制。您的钱包私钥仅在本地浏览器中用于交易签名，绝不上传、存储或传输至任何云端服务器，从技术底层切断资金风险。
@@ -73,7 +73,7 @@ metaLinks:
 {% step %}
 ### 输入币对地址
 
-V2  在代币输入框中选择 /输入做市代币地址，V3 请输入指定池子的币对合约地址。
+V2 在代币输入框中选择 /输入做市代币地址，V3 请输入指定池子的币对合约地址。
 
 <figure><img src="../../../.gitbook/assets/image (605).png" alt=""><figcaption></figcaption></figure>
 
@@ -106,7 +106,7 @@ V2  在代币输入框中选择 /输入做市代币地址，V3 请输入指定�
 使用 CiaoTool 模板文件导入，并保存确定导入并显示在输入框内。\
 点击下载并查看模板：
 
-{% file src="../../../.gitbook/assets/EVM_privateKey_demo.xlsx" %}
+{% file src="../../../.gitbook/assets/EVM_Demo.xlsx" %}
 {% endstep %}
 
 {% step %}

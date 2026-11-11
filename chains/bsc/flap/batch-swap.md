@@ -7,10 +7,10 @@ description: >-
 # Flap - 批量交易教程
 
 {% hint style="info" %}
-**CiaoTool Flap 批量交易**现已全面支持官方 **BNB、USD1、UUSD、USDT**  和 **RWA** 全部的价值代币，满足不同场景下的批量兑换服务。
+**CiaoTool Flap 批量交易**现已全面支持官方 **BNB、USD1、UUSD、USDT** 和 **RWA** 全部的价值代币，满足不同场景下的批量兑换服务。
 {% endhint %}
 
-## CiaoTool Flap 批量交易什么？  <a href="#what-is-coinfactory-solana-multisender" id="what-is-coinfactory-solana-multisender"></a>
+## CiaoTool Flap 批量交易什么？ <a href="#what-is-coinfactory-solana-multisender" id="what-is-coinfactory-solana-multisender"></a>
 
 <figure><img src="../../../.gitbook/assets/image (559).png" alt=""><figcaption></figcaption></figure>
 
@@ -85,7 +85,7 @@ CiaoTool 为 Flap.sh 平台上的多地址交易管理提供了一种兼顾极�
 使用 CiaoTool 模板文件导入，并保存确定导入并显示在输入框内。\
 点击下载并查看模板：
 
-{% file src="../../../.gitbook/assets/EVM_privateKey_demo.xlsx" %}
+{% file src="../../../.gitbook/assets/EVM_Demo.xlsx" %}
 {% endstep %}
 
 {% step %}
@@ -103,7 +103,7 @@ CiaoTool 为 Flap.sh 平台上的多地址交易管理提供了一种兼顾极�
    在输入框中，逐一输入买入金额数量
 
 * 若填写数量，则按照填写的数量进行交易。
-* 若未填写数量，则按照交易数量中  设置的数量进行交易。
+* 若未填写数量，则按照交易数量中 设置的数量进行交易。
 
 2. **全部数量**\
    所有钱包将把价值代币全部兑换为指定代币。

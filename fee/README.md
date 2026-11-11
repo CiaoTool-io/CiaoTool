@@ -76,3 +76,17 @@ metaLinks:
 {% endcontent-ref %}
 {% endcolumn %}
 {% endcolumns %}
+
+{% columns %}
+{% column width="50%" %}
+{% content-ref url="monad.md" %}
+[monad.md](monad.md)
+{% endcontent-ref %}
+{% endcolumn %}
+
+{% column width="50%" %}
+{% content-ref url="0g.md" %}
+[0g.md](0g.md)
+{% endcontent-ref %}
+{% endcolumn %}
+{% endcolumns %}

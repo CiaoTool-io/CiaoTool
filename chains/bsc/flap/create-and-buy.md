@@ -10,7 +10,7 @@ metaLinks:
 # Flap - 创建并买入教程
 
 {% hint style="info" %}
-**CiaoTool Flap 创建并买入**现已全面支持官方 **BNB、USD1、UUSD、USDT**  和 **RWA** 全部的价值代币，请先切换到指定代币页面进行创建代币并捆绑买入操作，满足不同场景下的快捷开盘服务。
+**CiaoTool Flap 创建并买入**现已全面支持官方 **BNB、USD1、UUSD、USDT** 和 **RWA** 全部的价值代币，请先切换到指定代币页面进行创建代币并捆绑买入操作，满足不同场景下的快捷开盘服务。
 {% endhint %}
 
 ## CiaoTool Flap 创建并买入是什么？
@@ -49,7 +49,7 @@ metaLinks:
 
 ***
 
-## **图文指南 | Flap** 创建并买入&#x20;
+## **图文指南 | Flap** 创建并买入
 
 {% stepper %}
 {% step %}
@@ -147,7 +147,7 @@ Dev 钱包、内盘钱包、外盘钱包不能共用，所有业务私钥必须�
 使用 CiaoTool 模板文件导入，并保存确定导入并显示在输入框内。\
 点击下载并查看模板：
 
-{% file src="../../../.gitbook/assets/EVM_privateKey_demo.xlsx" %}
+{% file src="../../../.gitbook/assets/EVM_Demo.xlsx" %}
 
 3. 系统将自动读取每个私钥的 **BNB 余额，**&#x5E76;输入买入金额
 

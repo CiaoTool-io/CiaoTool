@@ -87,7 +87,7 @@ Dev 钱包、内盘钱包、外盘钱包不能共用，所有业务私钥必须�
 {% step %}
 ### 填写代币信息
 
-<figure><img src="../../../.gitbook/assets/image (598).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (449).png" alt=""><figcaption></figcaption></figure>
 
 * **代币名称：**&#x60A8;希望展示在钱包或区块浏览器中的完整代币名称（_例如：MyFirstToken_）。
 * **简称：**&#x4EE3;币的缩写，通常为 3\~6 个大写字母（_例如：MYT_）。
@@ -230,7 +230,7 @@ Dev 钱包、内盘钱包、外盘钱包不能共用，所有业务私钥必须�
 使用 CiaoTool 模板文件导入，并保存确定导入并显示在输入框内。\
 点击下载并查看模板：
 
-{% file src="../../../.gitbook/assets/EVM_privateKey_demo.xlsx" %}
+{% file src="../../../.gitbook/assets/EVM_Demo.xlsx" %}
 {% endstep %}
 
 {% step %}

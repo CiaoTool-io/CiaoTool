@@ -82,7 +82,7 @@ V2 / V3 功能页面略有不同，点击下方按钮切换并显示 V2 / V3 教
 
 点击中间箭头可快速切换兑换目标。
 
-<figure><img src="../../../.gitbook/assets/image (550).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (548).png" alt=""><figcaption></figcaption></figure>
 
 **不知道如何查找 V3 币对地址？**
 
@@ -114,7 +114,7 @@ V2 / V3 功能页面略有不同，点击下方按钮切换并显示 V2 / V3 教
 
 1. 点&#x51FB;**「导入私钥」**&#x6309;钮，弹出输入框。
 
-<figure><img src="../../../.gitbook/assets/image (554).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (553).png" alt=""><figcaption></figcaption></figure>
 
 2. 手动输入或导入私钥文件，确认框中显示私钥后点击确认。
 
@@ -123,7 +123,7 @@ V2 / V3 功能页面略有不同，点击下方按钮切换并显示 V2 / V3 教
 使用 CiaoTool 模板文件导入，并保存确定导入并显示在输入框内。\
 点击下载并查看模板：
 
-{% file src="../../../.gitbook/assets/EVM_privateKey_demo.xlsx" %}
+{% file src="../../../.gitbook/assets/EVM_Demo.xlsx" %}
 {% endstep %}
 
 {% step %}

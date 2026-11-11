@@ -10,7 +10,7 @@ description: 通过统一广播窗口向 Robinhood Chain 提交多个钱包的�
 
 ## CiaoTool Robinhood Chain 多地址并发买入是什么？
 
-<figure><img src="../../../.gitbook/assets/image (700).png" alt="CiaoTool Robinhood 链 Uniswap V2 多地址捆绑买入 功能页面"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (699).png" alt="CiaoTool Robinhood 链 Uniswap V2 多地址捆绑买入 功能页面"><figcaption></figcaption></figure>
 
 CiaoTool 多地址并发买入是一款面向 Robinhood Chain 时效性买入场景的多钱包自动化工具。
 
@@ -105,7 +105,7 @@ Robinhood Chain 的目标出块时间约为 **100 毫秒**，可以快速处理�
 {% step %}
 ### 输入币对地址
 
-V2  在代币输入框中选择 /输入做市代币地址，V3 请输入指定池子的币对合约地址。
+V2 在代币输入框中选择 /输入做市代币地址，V3 请输入指定池子的币对合约地址。
 
 <figure><img src="../../../.gitbook/assets/image (669).png" alt=""><figcaption></figcaption></figure>
 
@@ -132,7 +132,7 @@ V2  在代币输入框中选择 /输入做市代币地址，V3 请输入指定�
 使用 CiaoTool 模板文件导入，并保存确定导入并显示在输入框内。\
 点击下载并查看模板：
 
-{% file src="../../../.gitbook/assets/EVM_privateKey_demo.xlsx" %}
+{% file src="../../../.gitbook/assets/EVM_Demo.xlsx" %}
 {% endstep %}
 
 {% step %}
@@ -144,7 +144,7 @@ V2  在代币输入框中选择 /输入做市代币地址，V3 请输入指定�
    为每个钱包单独输入交易金额。\
    如果填写了金额，则转账将使用该金额。\
    如果金额留空，则转账将默认使用全局设置中配置的金额。
-2. **全部**   \
+2. **全部**\
    将整个钱包余额兑换成目标代币。
 {% endstep %}
 

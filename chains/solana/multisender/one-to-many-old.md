@@ -42,7 +42,7 @@ hidden: true
 
 ***
 
-## **图文指南 | Solana 批量转账 - 一对多转账**  <a href="#solana-one-to-multi-guide" id="solana-one-to-multi-guide"></a>
+## **图文指南 | Solana 批量转账 - 一对多转账** <a href="#solana-one-to-multi-guide" id="solana-one-to-multi-guide"></a>
 
 {% stepper %}
 {% step %}
@@ -50,7 +50,7 @@ hidden: true
 
 点击右上角按钮，绑定支持 Solana 链的钱包
 
-<figure><img src="../../../.gitbook/assets/image (240).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (239).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -62,7 +62,7 @@ hidden: true
 
 导入私钥，系统自动刷新 SOL 余额与 Token 余额，请保证钱包中有充足的 SOL。
 
-<figure><img src="../../../.gitbook/assets/image (242).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (241).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -88,7 +88,7 @@ hidden: true
 
 2. 输入 / 批量粘贴**钱包地址，**&#x4E00;行仅输入一个地址，按回车键换行
 
-<figure><img src="../../../.gitbook/assets/image (247).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (246).png" alt=""><figcaption></figcaption></figure>
 
 3. 点&#x51FB;**「确定」**，将所有输入地址导入到操作面板
 
@@ -107,7 +107,7 @@ hidden: true
 
 {% file src="../../../.gitbook/assets/Solana_address_demo.xlsx" %}
 
-<figure><img src="../../../.gitbook/assets/image (247).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (246).png" alt=""><figcaption></figcaption></figure>
 
 3. 点&#x51FB;**「确定」**，将所有输入地址导入到操作面板
 

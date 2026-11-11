@@ -61,7 +61,7 @@ icon: '1'
 
 CiaoTool BOT 批量转账是基于 BOT 智能合约底层开发的高效资产流转解决方案。它允许用户打破传统钱包一次只能处理单笔转账的限制，通过批量导入地址和自动化脚本，在同一次链上操作或同一个区块内，并行处理数十至数百笔钱包地址之间的代币划转。无论是将单一核心资产钱包的代币打散分发到多个子地址，还是将分散在多仓中的零散代币收拢回集，均可通过该功能实现全自动的链上调度。
 
-<figure><img src="../../../.gitbook/assets/image (650).png" alt="CiaoTool BOT Chain 批量转账页面"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (649).png" alt="CiaoTool BOT Chain 批量转账页面"><figcaption></figcaption></figure>
 
 ***
 

@@ -27,7 +27,7 @@ hidden: true
 
 ***
 
-## **图文指南 | Solana 批量转账 - 多对一转账**&#x20;
+## **图文指南 | Solana 批量转账 - 多对一转账**
 
 {% stepper %}
 {% step %}
@@ -43,7 +43,7 @@ hidden: true
 
 可以选择 SOL，也可以选择当前钱包拥有的代币进行转账。
 
-<figure><img src="../../../.gitbook/assets/image (258).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (257).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -75,16 +75,16 @@ hidden: true
 {% tab title="上传文件" %}
 1. 点&#x51FB;**「上传文件」**&#x6309;钮，弹出文件上传窗口。
 
-<figure><img src="../../../.gitbook/assets/image (262).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (261).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../../.gitbook/assets/image (251).png" alt=""><figcaption></figcaption></figure>
 
 2. 导入钱包私钥信息文件，显示私钥信息。\
    请通过 CiaoTool 模板文件导入，以确保私钥准确导入。
 
-{% file src="../../../.gitbook/assets/Solana_privateKey_demo.xlsx" %}
+{% file src="../../../.gitbook/assets/Solana_Demo.xlsx" %}
 
-<figure><img src="../../../.gitbook/assets/image (247).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (246).png" alt=""><figcaption></figcaption></figure>
 
 3. 点&#x51FB;**「确定」**，将所有输入地址导入到操作面板
 

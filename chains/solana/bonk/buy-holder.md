@@ -48,7 +48,7 @@ description: >-
 
 点击右上角【连接钱包】按钮，绑定支持 Solana 链的钱包
 
-<figure><img src="../../../.gitbook/assets/image (748).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (747).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -59,7 +59,7 @@ description: >-
 * **价值代币：**&#x6267;行交易操作时，用以支付币对价格的代币地址
 * **做市代币：**&#x6267;行交易操作时，用以实现市值管理策略目标的代币地址
 
-<figure><img src="../../../.gitbook/assets/image (918).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (917).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}

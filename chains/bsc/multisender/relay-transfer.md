@@ -56,7 +56,7 @@ metaLinks:
 
 ***
 
-## **图文指南 | BSC 批量转账 - 中转转账**  <a href="#solana-one-to-multi-guide" id="solana-one-to-multi-guide"></a>
+## **图文指南 | BSC 批量转账 - 中转转账** <a href="#solana-one-to-multi-guide" id="solana-one-to-multi-guide"></a>
 
 {% stepper %}
 {% step %}
@@ -103,7 +103,7 @@ metaLinks:
 2. 使用 CiaoTool 模板文件导入，并保存确定导入并显示在输入框内。\
    点击下载并查看模板：
 
-{% file src="../../../.gitbook/assets/EVM_privateKey_demo.xlsx" %}
+{% file src="../../../.gitbook/assets/EVM_Demo.xlsx" %}
 
 <figure><img src="../../../.gitbook/assets/image (507).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
@@ -129,14 +129,14 @@ metaLinks:
 {% tab title="上传文件" %}
 1. 点&#x51FB;**「上传文件」**&#x6309;钮，弹出文件上传窗口导入接收钱包地址。
 
-<figure><img src="../../../.gitbook/assets/image (512).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (511).png" alt=""><figcaption></figcaption></figure>
 
 2. 使用 CiaoTool 模板文件导入，并保存确定导入并显示在输入框内。\
    点击下载并查看模板：
 
 {% file src="../../../.gitbook/assets/EVM_address_demo.xlsx" %}
 
-<figure><img src="../../../.gitbook/assets/image (509).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (482).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 {% endstep %}
@@ -152,7 +152,7 @@ metaLinks:
    1. **自定义输入**\
       在输入框中，逐一输入转账金额数量
    * 若填写数量，则按照填写的数量进行转账。
-   * 若未填写数量，则按照发送数量中     设置的数量进行转账。
+   * 若未填写数量，则按照发送数量中 设置的数量进行转账。
    2. **全部数量**\
       所有钱包将余额内指定的代币全部发送到接收地址。
    3. **固定数量**\

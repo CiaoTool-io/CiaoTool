@@ -62,7 +62,7 @@ CiaoTool Bonk 创建并买入是一款代币发行与多钱包买入工具，可
 
 点击右上角【连接钱包】按钮，绑定支持 Solana 链的钱包
 
-<figure><img src="../../../.gitbook/assets/image (748).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (747).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -81,7 +81,7 @@ CiaoTool Bonk 创建并买入是一款代币发行与多钱包买入工具，可
 
 虽然为可选项，但强烈建议填写，**官网、X / Twitter、Telegram**，增加项目可信度。
 
-<figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -160,7 +160,7 @@ privateKey, 300
 2. 点击![](<../../../.gitbook/assets/image (848).png>)**「导入文件」**&#x6309;钮，弹出文件上传窗口。
 3. 点&#x51FB;**「确定导入」**，将所有地址导入到操作面板
 
-<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 {% endstep %}
@@ -204,8 +204,6 @@ privateKey, 300
 ### 确认交易
 
 确认信息无误后，点击下&#x65B9;**「创建并买入」**&#x6309;钮，并等待开盘完成。
-
-
 {% endstep %}
 {% endstepper %}
 

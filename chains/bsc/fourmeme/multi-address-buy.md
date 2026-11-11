@@ -98,7 +98,7 @@ CiaoTool 为 Fourmeme 平台上的代币首发提供了一种兼顾安全性与�
 使用 CiaoTool 模板文件导入，并保存确定导入并显示在输入框内。\
 点击下载并查看模板：
 
-{% file src="../../../.gitbook/assets/EVM_privateKey_demo.xlsx" %}
+{% file src="../../../.gitbook/assets/EVM_Demo.xlsx" %}
 
 3. 系统将自动读取每个私钥的 **BNB 余额**
 

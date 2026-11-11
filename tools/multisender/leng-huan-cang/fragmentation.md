@@ -6,7 +6,7 @@ metaLinks:
       https://app.gitbook.com/s/b56FKZGe1viFi67H1pPQ/migration/assert-migration-cold
 ---
 
-# EVM - 冷换仓教程
+# EVM | 冷换仓指南
 
 {% hint style="info" %}
 当前&#x662F;**「EVM - 冷换仓」**&#x6559;程页面以查看 **BSC、Base、X Layer、IoTeX、Robinhood Chain** 等 EVM 网络教程。
@@ -28,9 +28,9 @@ metaLinks:
 
 * Token 上线前的生态初始化：\
   在代币发行后、正式注入 PancakeSwap 流动性池之前，将初始发行的代币合理分散至不同梯队的项目库房与早期贡献者账户，构建健康的代币经济学持仓结构。
-* 筹码气泡图优化： \
+* 筹码气泡图优化：\
   针对第三方链上聚类分析工具，切断中心化巨鲸地址的强关联特征，美化前排持币占比。
-* 大规模链上分仓建仓储备： \
+* 大规模链上分仓建仓储备：\
   提前为自动市值管理或长线流动性引导机器人储备好足额、高隔离性的分散子钱包账户基础，避免单一核心钱包暴露带来的财务集中风险。
 
 立即在 EVM 网络上，用 CiaoTool​ 冷换仓功能进行持仓打散与碎片化资产迁移操作：
@@ -83,7 +83,7 @@ metaLinks:
 {% tab title="手动输入" %}
 直接在输入框中，输入 / 粘贴钱包私钥。每行仅输入一个钱包私钥
 
-<figure><img src="../../../.gitbook/assets/image (616).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (615).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="上传文件" %}
@@ -94,7 +94,7 @@ metaLinks:
 2. 使用 CiaoTool 模板文件导入，并保存确定导入并显示在输入框内。\
    点击下载并查看模板：
 
-{% file src="../../../.gitbook/assets/EVM_privateKey_demo.xlsx" %}
+{% file src="../../../.gitbook/assets/EVM_Demo.xlsx" %}
 
 <figure><img src="../../../.gitbook/assets/image (615).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
@@ -117,8 +117,6 @@ metaLinks:
 支&#x6301;**「自定义」「全部数量」「固定数量」「固定留存」**&#x56DB;种转账金额类型。
 
 <figure><img src="../../../.gitbook/assets/image (619).png" alt=""><figcaption></figcaption></figure>
-
-
 
 1. **自定义输入**\
    在输入框中，逐一输入转账金额数量

@@ -4,6 +4,8 @@ description: CiaoTool 最全 Monad Chain 代币工具站，批量转账，一站
 
 # Monad Chain - 一站式代币解决方案平台
 
+{% embed url="https://monad.ciaotool.io/zh-Hans" %}
+
 ## 网络参数
 
 | **网络**      | Monad Chain                                          |

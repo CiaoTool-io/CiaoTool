@@ -37,7 +37,7 @@ hidden: true
 
 点击右上角【连接钱包】按钮，绑定支持 Solana 链的钱包
 
-<figure><img src="../../../.gitbook/assets/image (748).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (747).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -235,7 +235,7 @@ privateKey, 300
 
 3. 点&#x51FB;**「确定」**，将所有输入地址导入到操作面板
 
-<figure><img src="../../../.gitbook/assets/image (270).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (269).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="上传文件" %}
@@ -248,9 +248,9 @@ privateKey, 300
 2. 导入钱包私钥信息文件，显示私钥信息\
    请通过 CiaoTool 模板文件导入，以确保私钥准确导入。
 
-{% file src="../../../.gitbook/assets/Solana_privateKey_demo.xlsx" %}
+{% file src="../../../.gitbook/assets/Solana_Demo.xlsx" %}
 
-<figure><img src="../../../.gitbook/assets/image (247).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (246).png" alt=""><figcaption></figcaption></figure>
 
 3. 点&#x51FB;**「确定」**，将所有输入地址导入到操作面板
 
@@ -293,7 +293,7 @@ privateKey, 300
 
 2. 输入 / 批量粘贴**钱包地址，**&#x4E00;行仅输入一个地址，按回车键换行
 
-<figure><img src="../../../.gitbook/assets/image (247).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (246).png" alt=""><figcaption></figcaption></figure>
 
 3. 点&#x51FB;**「确定」**，将所有输入地址导入到操作面板
 
@@ -312,7 +312,7 @@ privateKey, 300
 
 {% file src="../../../.gitbook/assets/Solana_address_demo.xlsx" %}
 
-<figure><img src="../../../.gitbook/assets/image (247).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (246).png" alt=""><figcaption></figcaption></figure>
 
 3. 点&#x51FB;**「确定」**，将所有输入地址导入到操作面板
 
