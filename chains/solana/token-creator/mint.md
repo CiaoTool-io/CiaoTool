@@ -30,7 +30,7 @@ Token minting relies on the **Mint Authority**. Only the wallet holding this aut
 * Click \[Connect Wallet] in the top right corner, select your wallet address, and approve the authorization.
 * Once the wallet address is displayed in the top right corner of the page, it indicates that the wallet has been successfully connected.
 
-<figure><img src="../../../.gitbook/assets/image (765).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (764).png" alt=""><figcaption></figcaption></figure>
 
 2. **Select Token**
 
@@ -49,7 +49,7 @@ Token minting relies on the **Mint Authority**. Only the wallet holding this aut
 * When the task begins execution, a log pop-up will appear to update you on the transaction progress in real time.
 * If an issue occurs at any stage, we will clearly display it to you. No fees will be charged for failed operations.
 
-<figure><img src="../../../.gitbook/assets/image (770).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (767).png" alt=""><figcaption></figcaption></figure>
 
 #### ❓ Frequently Asked Questions <a href="#frequently-asked-questions" id="frequently-asked-questions"></a>
 

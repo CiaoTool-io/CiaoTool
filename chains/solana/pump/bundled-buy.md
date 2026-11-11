@@ -8,7 +8,7 @@ description: >-
 # Pump - Multi-Address Bundled Buy Guide
 
 {% hint style="info" %}
-**CiaoTool Pump Multi-Address Bundled Buy** now fully supports all quote tokens, including official **SOL and USDC**.&#x20;
+**CiaoTool Pump Multi-Address Bundled Buy** now fully supports all quote tokens, including official **SOL and USDC**.
 {% endhint %}
 
 ## Overview
@@ -54,7 +54,7 @@ Transactions from multiple wallets are broadcast separately and confirmed indepe
 
 Transactions from 10 wallets are packaged into a Bundle in the preset order and executed consecutively within the same block. This reduces the risk of other transactions being inserted between them, improves batch-buy execution consistency, and increases transaction priority.
 
-<figure><img src="../../../.gitbook/assets/image (1190).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1189).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -90,7 +90,7 @@ There are no quantity limits on importing wallets. Add them **Manually Input** o
 {% tab title="Manual Input" %}
 1. Click the "Bulk Input" button to open the input field.
 
-<figure><img src="../../../.gitbook/assets/image (1197).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1196).png" alt=""><figcaption></figcaption></figure>
 
 2. Enter / paste wallet private keys, one per line.
 

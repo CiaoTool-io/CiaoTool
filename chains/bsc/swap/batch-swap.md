@@ -54,7 +54,7 @@ CiaoTool delivers a fast, secure multi-address solution on PancakeSwap, signific
 
 Click the button in the top right corner to connect a wallet that supports the EVM network.
 
-<figure><img src="../../../.gitbook/assets/image (992).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (972).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -66,10 +66,10 @@ V2 / V3 layouts vary slightly. Click to switch and view the corresponding tutori
 
 {% tabs %}
 {% tab title="V2" %}
-Enter a token address or select from your wallet to buy.\
+Enter a token address or select from your wallet to buy.\
 Click the center arrow to quickly flip the swap direction.
 
-<figure><img src="../../../.gitbook/assets/image (993).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (980).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="V3" %}
@@ -77,7 +77,7 @@ Unlike V2 liquidity pools, each V3 liquidity pool with a different token pair an
 
 Click the center arrow to quickly flip the swap direction.
 
-<figure><img src="../../../.gitbook/assets/image (994).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (981).png" alt=""><figcaption></figcaption></figure>
 
 **Can’t find the V3 Pool Address?**
 
@@ -93,7 +93,7 @@ Click the center arrow to quickly flip the swap direction.
 
 Enter the paying wallet's private key. Enter the private key of the wallet that will be used to pay the service fees for market-making operations.
 
-<figure><img src="../../../.gitbook/assets/image (995).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (982).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -115,10 +115,10 @@ Supports two import types for trading address private keys: "Manual Input" and "
 
 <figure><img src="../../../.gitbook/assets/image (984).png" alt=""><figcaption></figcaption></figure>
 
-Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.\
+Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.\
 Click to download and view the template:
 
-{% file src="../../../.gitbook/assets/EVM_privateKey_demo.xlsx" %}
+{% file src="../../../.gitbook/assets/EVM_Demo.xlsx" %}
 {% endstep %}
 
 {% step %}

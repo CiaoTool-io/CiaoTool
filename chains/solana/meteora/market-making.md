@@ -5,7 +5,7 @@ description: >-
   natural appearance of market activity and order flow.
 ---
 
-# Meteora - Market Making Tutorial
+# Meteora - Market Making Guide
 
 {% hint style="info" %}
 **CiaoTool Meteora Market Making** now fully supports all liquidity pool types, including **DBC, DLMM, and DAMM V2**.
@@ -107,7 +107,7 @@ privateKey
 
 3. Click "Import" to import all entered wallets into the operation panel.
 
-<figure><img src="../../../.gitbook/assets/image (1166).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1165).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Upload File" %}

@@ -6,12 +6,16 @@ description: >-
 cover: .gitbook/assets/423954199 (1).png
 coverY: 0
 ---
-# Other Language
-🌐 [简体中文](https://github.com/CiaoTool-io/CiaoTool/blob/Chinese/README.md)
 
 # Introduction
 
-<figure><img src=".gitbook/assets/image (1121).png" alt="CiaoTool Homepage of Solana Chain Tookit"><figcaption></figcaption></figure>
+## Other Language
+
+🌐 [简体中文](https://github.com/CiaoTool-io/CiaoTool/blob/Chinese/README.md)
+
+## Introduction
+
+<figure><img src=".gitbook/assets/image (1120).png" alt="CiaoTool Homepage of Solana Chain Tookit"><figcaption></figcaption></figure>
 
 CiaoTool is a premier Web3 developer toolkit and asset issuance platform supporting major ecosystems, including Solana, BSC, opBNB, Base, IoTeX, X Layer, BOT, Monad, and Robinhood Chain. We deliver fully visualized, no-code, secure, and high-performance solutions engineered for project teams, studios, trading entities, and on-chain operators.
 
@@ -21,17 +25,17 @@ Whether you are orchestrating a meme coin launch, issuing standard tokens, or ru
 
 ***
 
-## CiaoTool Product Positioning
+### CiaoTool Product Positioning
 
 {% columns %}
 {% column %}
-#### Asset Issuance Core
+**Asset Issuance Core**
 
 Standardizes and visualizes complex token creation workflows. Supports major standards such as SPL, ERC-20, and BEP-20, along with token models featuring transfer fees, rewards, burn addresses, liquidity burning, and the 314 protocol—all without coding.
 {% endcolumn %}
 
 {% column %}
-#### Meme Launchpad Hub
+**Meme Launchpad Hub**
 
 Integrates with leading launchpads, including Pump.fun, Bonk, Four.meme, and Flap. Covers the complete workflow from token creation and bundled multi-wallet purchases to bonding-curve trading, liquidity migration, and post-migration purchases.
 {% endcolumn %}
@@ -39,13 +43,13 @@ Integrates with leading launchpads, including Pump.fun, Bonk, Four.meme, and Fla
 
 {% columns %}
 {% column %}
-#### Multi-Wallet Asset Orchestration
+**Multi-Wallet Asset Orchestration**
 
 Built for multi-wallet and batch operations, supporting one-to-many distribution, many-to-one consolidation, many-to-many transfers, batch wallet creation, position migration, and asset restructuring.
 {% endcolumn %}
 
 {% column %}
-#### Liquidity & Market-Making Engine
+**Liquidity & Market-Making Engine**
 
 Supports both Solana and EVM ecosystems, with integrations for major DEXs such as Raydium, Meteora, PancakeSwap, and Uniswap. Features liquidity creation, batch trading, anti-MEV execution, micro-trading, multi-wallet market making, and automated strategy management.
 {% endcolumn %}
@@ -53,26 +57,26 @@ Supports both Solana and EVM ecosystems, with integrations for major DEXs such a
 
 ***
 
-## CiaoTool Functional Modules
+### CiaoTool Functional Modules
 
-#### 1. Asset Issuance & Permission Management
+**1. Asset Issuance & Permission Management**
 
-* **Multi-chain Deployment:** \
+* **Multi-chain Deployment:**\
   Support for Solana, BSC, Base, IoTeX, opBNB, X Layer, BOT, and Ronbinhood Chain, with full compatibility for SPL, ERC-20, and BEP-20 protocols.
-* **Advanced Tokenomics Integration:** \
+* **Advanced Tokenomics Integration:**\
   Fully compatible with the Solana Token-2022 extension protocol. On EVM networks like BSC, we support complex smart contract logic including dividend reflections, liquidity burning, 314 Protocol tokens, and blackhole mechanisms to satisfy diverse tokenomic requirements.
 * **Contract Lifecycle Control:**\
   Comprehensive on-chain interface for state management, authority revocation, and parameter updates.
 
-#### 2. Meme Launchpad & Sniping Strategy
+**2. Meme Launchpad & Sniping Strategy**
 
 * **Multi-Platform Launch:**\
   Fully integration with major protocols like Pump.fun, Bonk, Four.meme, and Flap.sh.
 * **Bundler：**&#x53;ynchronized multi-wallet buy strategies for instant deployment and optimized entry costs at launch.
-* **Graduation Sniper:** \
+* **Graduation Sniper:**\
   Seamless bridging from initial bonding curve completion to DEX liquidity pool deployment.
 
-#### 3. Batch Asset Orchestration
+**3. Batch Asset Orchestration**
 
 * **Dynamic Multisender:**\
   Flexible modes including One-to-Multi, Multi-to-One, and Multi-to-Multi transfers with customizable distribution ratios.
@@ -81,7 +85,7 @@ Supports both Solana and EVM ecosystems, with integrations for major DEXs such a
 * **Wallet Management:**\
   Streamlined mass wallet generation, asset consolidation, and SOL rent recovery for high-scale operations.
 
-#### 4. Market Making & OrderBook Maintenance
+**4. Market Making & OrderBook Maintenance**
 
 * **Parametric MM Strategies:**\
   Customizable price ranges, runtime, volume targets, and execution logic.
@@ -94,35 +98,35 @@ Supports both Solana and EVM ecosystems, with integrations for major DEXs such a
 
 ***
 
-## CiaoTool Advantages
+### CiaoTool Advantages
 
-#### **1.** All-in-One Lifecycle Management
+**1. All-in-One Lifecycle Management**
 
 CiaoTool integrates the entire token lifecycle, from creation and Launchpad deployment to liquidity management and automated market making, into a unified platform, eliminating the inefficiencies of multi-tool fragmentation.
 
-#### **2.** Security & Execution Transparency
+**2. Security & Execution Transparency**
 
 Built on a client-side local execution architecture; private keys are never uploaded or stored.
 
 Every on-chain authorization is transparent and verifiable via browser dev tools, ensuring 100% asset control by the user.
 
-#### **3.** High-Concurrency Stability
+**3. High-Concurrency Stability**
 
 Deeply optimized for both Solana and EVM chains.
 
 We leverage Jito Bundles for Solana and advanced Gas optimization logic for EVM networks to ensure stable execution.
 
-#### **4.** Cost Optimization & Transparent Pricing
+**4. Cost Optimization & Transparent Pricing**
 
 Features real-time on-chain dynamic calculations to minimize Gas consumption, reducing overhead through optimized batch instruction aggregation.
 
-#### **5.** Visualized No-Code Interaction
+**5. Visualized No-Code Interaction**
 
 Intuitive modular interfaces lower the barrier to entry for Web3 operations, allowing users to execute complex multi-wallet strategies without programming knowledge.
 
 ***
 
-## Why Choose CiaoTool?
+### Why Choose CiaoTool?
 
 * Multi-Chain Ecosystem & Launchpad Integration
 * Zero-Code On-Chain Operations
@@ -134,9 +138,9 @@ Intuitive modular interfaces lower the barrier to entry for Web3 operations, all
 
 ***
 
-## CiaoTool Listed Platforms
+### CiaoTool Listed Platforms
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-type="rating" data-max="5"></th><th></th><th data-type="content-ref"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><h4>Trustpolit</h4></td><td>4</td><td>Global Consumer Review Platform</td><td><a href="https://www.trustpilot.com/review/ciaotool.io">https://www.trustpilot.com/review/ciaotool.io</a></td><td><a href="https://www.trustpilot.com/review/ciaotool.io">https://www.trustpilot.com/review/ciaotool.io</a></td></tr><tr><td><h4>Magic Square</h4></td><td>5</td><td>The AI Powered Web3 App Store</td><td><a href="https://magicsquare.io/store/projects/ciaotool">https://magicsquare.io/store/projects/ciaotool</a></td><td><a href="https://magicsquare.io/store/projects/ciaotool">https://magicsquare.io/store/projects/ciaotool</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-type="rating" data-max="5"></th><th></th><th data-type="content-ref"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Trustpolit</strong></td><td>4</td><td>Global Consumer Review Platform</td><td><a href="https://www.trustpilot.com/review/ciaotool.io">https://www.trustpilot.com/review/ciaotool.io</a></td><td><a href="https://www.trustpilot.com/review/ciaotool.io">https://www.trustpilot.com/review/ciaotool.io</a></td></tr><tr><td><strong>Magic Square</strong></td><td>5</td><td>The AI Powered Web3 App Store</td><td><a href="https://magicsquare.io/store/projects/ciaotool">https://magicsquare.io/store/projects/ciaotool</a></td><td><a href="https://magicsquare.io/store/projects/ciaotool">https://magicsquare.io/store/projects/ciaotool</a></td></tr></tbody></table>
 
 <table data-view="cards"><thead><tr><th></th><th data-type="content-ref"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>OKX Wallet</strong></td><td><a href="https://web3.okx.com/zh-hans">https://web3.okx.com/zh-hans</a></td><td><a href="https://web3.okx.com/zh-hans">https://web3.okx.com/zh-hans</a></td></tr><tr><td><strong>Producthunt</strong></td><td><a href="https://www.producthunt.com/products/ciaotool">https://www.producthunt.com/products/ciaotool</a></td><td><a href="https://www.producthunt.com/products/ciaotool">https://www.producthunt.com/products/ciaotool</a></td></tr><tr><td><strong>Hackers</strong></td><td><a href="https://hackers.tools/d/ciao-tool">https://hackers.tools/d/ciao-tool</a></td><td><a href="https://hackers.tools/d/ciao-tool">https://hackers.tools/d/ciao-tool</a></td></tr><tr><td><strong>Rayo</strong></td><td><a href="https://rayo.gg/project/ciaotool">https://rayo.gg/project/ciaotool</a></td><td><a href="https://rayo.gg/project/ciaotool">https://rayo.gg/project/ciaotool</a></td></tr><tr><td><strong>Brandfetch</strong></td><td><a href="https://brandfetch.com/ciaotool.io">https://brandfetch.com/ciaotool.io</a></td><td><a href="https://brandfetch.com/ciaotool.io">https://brandfetch.com/ciaotool.io</a></td></tr><tr><td><strong>Preelist</strong></td><td><a href="https://peerlist.io/ciaotool/project/ciaotool">https://peerlist.io/ciaotool/project/ciaotool</a></td><td></td></tr></tbody></table>
 

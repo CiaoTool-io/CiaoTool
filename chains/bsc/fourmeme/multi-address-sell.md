@@ -8,7 +8,7 @@ description: >-
 # Fourmeme - Multi-Address Bundled Sell Tutorial
 
 {% hint style="info" %}
-**CiaoTool Fourmeme Multi-Address Bundled Sell** fully supports all quote tokens, including **BNB, USD1, UUSD and all RWA tokens**. Please switch to the specific token page to perform bundled trading operations based on your needs.&#x20;
+**CiaoTool Fourmeme Multi-Address Bundled Sell** fully supports all quote tokens, including **BNB, USD1, UUSD and all RWA tokens**. Please switch to the specific token page to perform bundled trading operations based on your needs.
 {% endhint %}
 
 ## What is CiaoTool Fourmeme Multi-Address Bundled Sell?
@@ -51,7 +51,7 @@ In fierce on-chain execution, capital efficiency and concealment determine the s
 
 Click the button in the top right corner to connect a wallet that supports the EVM network.
 
-<figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (972).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -95,10 +95,10 @@ Supports two import types for trading address private keys: "Manual Input" and "
 
 <figure><img src="../../../.gitbook/assets/image (984).png" alt=""><figcaption></figcaption></figure>
 
-Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.\
+Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.\
 Click to download and view the template:
 
-{% file src="../../../.gitbook/assets/EVM_privateKey_demo.xlsx" %}
+{% file src="../../../.gitbook/assets/EVM_Demo.xlsx" %}
 {% endstep %}
 
 {% step %}
@@ -138,7 +138,7 @@ CiaoTool is committed to providing convenient tooling services but does not offe
 {% endhint %}
 
 {% hint style="info" %}
-**CiaoTool Fourmeme Multi-Address Bundled Sell** fully supports all quote tokens, including **BNB, USD1 and UUSD**. Please switch to the specific token page to perform bundled trading operations based on your needs.&#x20;
+**CiaoTool Fourmeme Multi-Address Bundled Sell** fully supports all quote tokens, including **BNB, USD1 and UUSD**. Please switch to the specific token page to perform bundled trading operations based on your needs.
 {% endhint %}
 
 ## What is CiaoTool Fourmeme Multi-Address Bundled Sell?
@@ -181,7 +181,7 @@ In fierce on-chain execution, capital efficiency and concealment determine the s
 
 Click the button in the top right corner to connect a wallet that supports the EVM network.
 
-<figure><img src="../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (972).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -225,10 +225,10 @@ Supports two import types for trading address private keys: "Manual Input" and "
 
 <figure><img src="../../../.gitbook/assets/image (984).png" alt=""><figcaption></figcaption></figure>
 
-Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.\
+Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.\
 Click to download and view the template:
 
-{% file src="../../../.gitbook/assets/EVM_privateKey_demo.xlsx" %}
+{% file src="../../../.gitbook/assets/EVM_Demo.xlsx" %}
 {% endstep %}
 
 {% step %}

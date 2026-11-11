@@ -8,7 +8,7 @@ description: >-
 # Fourmeme - Bundler Guide (Create & Buy)
 
 {% hint style="info" %}
-**CiaoTool Fourmeme Bundler** fully supports all quote tokens, including **BNB, USD1, UUSD and all RWA tokens**. Please switch to the specific token page to perform token launch operations based on your needs.&#x20;
+**CiaoTool Fourmeme Bundler** fully supports all quote tokens, including **BNB, USD1, UUSD and all RWA tokens**. Please switch to the specific token page to perform token launch operations based on your needs.
 {% endhint %}
 
 ## Overview
@@ -53,7 +53,7 @@ CiaoTool provides a secure and efficient launch solution for Four.meme tokens, h
 
 Click the button in the top right corner to connect a wallet that supports the EVM network.
 
-<figure><img src="../../../.gitbook/assets/image (1036).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (972).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -66,8 +66,6 @@ Currently supports private key import only. Please ensure a secure environment. 
 {% endhint %}
 
 Enter the private key of the control address used for token issuance. This address will serve as the token developer address for creating tokens on Four.meme, as well as for paying functional service fees.
-
-
 
 <figure><img src="../../../.gitbook/assets/image (1037).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
@@ -83,7 +81,7 @@ The Dev wallet, Bonding Curve wallets, and DEX wallets cannot be shared; all bus
 
 The amount of tokens purchased using the token developer's wallet; on-chain monitoring platforms will display this as a developer purchase. Leaving it blank defaults to 0.
 
-<figure><img src="../../../.gitbook/assets/image (1039).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1038).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -225,10 +223,10 @@ These wallets will participate in bundled buys during the bonding-curve stage. U
 
 <figure><img src="../../../.gitbook/assets/image (984).png" alt=""><figcaption></figcaption></figure>
 
-Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.\
+Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.\
 Click to download and view the template:
 
-{% file src="../../../.gitbook/assets/EVM_privateKey_demo.xlsx" %}
+{% file src="../../../.gitbook/assets/EVM_Demo.xlsx" %}
 {% endstep %}
 
 {% step %}

@@ -42,7 +42,7 @@ CiaoTool helps users complete multi-wallet token purchases and sales on Robinhoo
 With support for eligible Uniswap V2 and V3 pools, up to 20 trading wallets, flexible amount modes, slippage settings, timeout controls, and secure local browser signing, CiaoTool makes batch trading faster and easier to manage while keeping transaction settings under the user’s control.
 
 * **Multi-Wallet Execution:** Manage buy or sell transactions across up to 20 wallets from one batch task.
-* **Flexible Amount Modes:**  Choose Fixed Amount, Fixed Retain, or All Balance according to your asset-management requirements.
+* **Flexible Amount Modes:** Choose Fixed Amount, Fixed Retain, or All Balance according to your asset-management requirements.
 * **Slippage Control:** Set the maximum acceptable difference between the expected and final execution price.
 * **Timeout Control:** Stop submitting new transactions after the configured execution window expires.
 * **Secure Local Signing:** Private-key processing and transaction signing remain within the user’s local browser environment.
@@ -70,7 +70,7 @@ V2 / V3 layouts vary slightly. Click to switch and view the corresponding tutori
 
 {% tabs %}
 {% tab title="V2" %}
-Enter a token address or select from your wallet to buy.\
+Enter a token address or select from your wallet to buy.\
 Click the center arrow to quickly flip the swap direction.
 
 <figure><img src="../../../.gitbook/assets/image (1071).png" alt=""><figcaption></figcaption></figure>
@@ -81,7 +81,7 @@ Unlike V2 liquidity pools, each V3 liquidity pool with a different token pair an
 
 Click the center arrow to quickly flip the swap direction.
 
-<figure><img src="../../../.gitbook/assets/image (994).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (981).png" alt=""><figcaption></figcaption></figure>
 
 **Can’t find the V3 Pool Address?**
 
@@ -119,10 +119,10 @@ Supports two import types for trading address private keys: "Manual Input" and "
 
 <figure><img src="../../../.gitbook/assets/image (1074).png" alt=""><figcaption></figcaption></figure>
 
-Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.\
+Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.\
 Click to download and view the template:
 
-{% file src="../../../.gitbook/assets/EVM_privateKey_demo.xlsx" %}
+{% file src="../../../.gitbook/assets/EVM_Demo.xlsx" %}
 {% endstep %}
 
 {% step %}
@@ -160,7 +160,7 @@ The maximum duration allowed for a trade to execute before the pending swap is c
 {% step %}
 ### **Confirm** <a href="#confirm" id="confirm"></a>
 
-After verifying all details, all applicable fees are displayed before execution.&#x20;
+After verifying all details, all applicable fees are displayed before execution.
 
 Click the **"Start Swap"** button below and wait for the transaction process to complete.
 

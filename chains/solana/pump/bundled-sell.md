@@ -47,15 +47,13 @@ Start your Multi-address Bundled Sell on PumpFun and PumpSwap with CiaoTool now:
 
 Transactions from multiple wallets are broadcast separately and confirmed independently, with no guarantee of execution order or inclusion in the same block. If other transactions execute first, the trading pair price may decline, resulting in lower execution prices and fewer assets received by subsequent wallets.
 
-<figure><img src="../../../.gitbook/assets/image (1199).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1188).png" alt=""><figcaption></figcaption></figure>
 
 #### Bundled Trade
 
 Tokens from up to 20 wallets are consolidated into one wallet and sold through that wallet. The token transfers and sell transaction are packaged into a single Bundle and executed in the preset order. This reduces the risk of other transactions being inserted between them while improving batch-selling consistency and transaction priority.
 
 <figure><img src="../../../.gitbook/assets/image (1200).png" alt=""><figcaption></figcaption></figure>
-
-
 
 ***
 
@@ -114,7 +112,7 @@ privateKey, 300
 2. Click ![](<../../../.gitbook/assets/image (7).png>)"Import File" button to open the input field.
 3. Click "Import" to import all entered wallets into the operation panel.
 
-<figure><img src="../../../.gitbook/assets/image (1195).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1194).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 {% endstep %}

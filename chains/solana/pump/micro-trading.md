@@ -8,7 +8,7 @@ description: >-
 # PumpFun - Micro Trading Guide
 
 {% hint style="info" %}
-**CiaoTool Pump Micro Trading** now fully supports all quote tokens, including official **SOL and USDC**.&#x20;
+**CiaoTool Pump Micro Trading** now fully supports all quote tokens, including official **SOL and USDC**.
 {% endhint %}
 
 ## Overview
@@ -84,7 +84,7 @@ privateKey
 
 3. Click "Import" to import all entered wallets into the operation panel.
 
-<figure><img src="../../../.gitbook/assets/image (1166).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1165).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Upload File" %}

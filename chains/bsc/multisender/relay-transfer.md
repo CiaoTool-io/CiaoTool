@@ -60,7 +60,7 @@ Cross-distributing funds across numerous addresses carries high risks of operati
 
 Select your target blockchain and connect an EVM-compatible wallet.
 
-<figure><img src="../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -88,7 +88,7 @@ Supports two methods for importing sending private key: **"Manual Input"** and *
 {% tab title="Manual Input" %}
 Enter / batch paste wallet private keys, one address per line. Press Enter to start a new line.
 
-<figure><img src="../../../.gitbook/assets/image (931).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (929).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Upload File" %}
@@ -96,12 +96,12 @@ Enter / batch paste wallet private keys, one address per line. Press Enter to st
 
 <figure><img src="../../../.gitbook/assets/image (928).png" alt=""><figcaption></figcaption></figure>
 
-2. Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.   \
+2. Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.\
    Click to download and view the template:
 
-{% file src="../../../.gitbook/assets/EVM_privateKey_demo.xlsx" %}
+{% file src="../../../.gitbook/assets/EVM_Demo.xlsx" %}
 
-<figure><img src="../../../.gitbook/assets/image (930).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (929).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 {% endstep %}
@@ -123,7 +123,7 @@ Supports two methods for importing sending private key: **"Manual Input"** and *
 {% tab title="Manual Input" %}
 Enter / bulk paste wallet addresses, one address per line. Press Enter to start a new line.
 
-<figure><img src="../../../.gitbook/assets/image (935).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (934).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Upload File" %}
@@ -131,7 +131,7 @@ Enter / bulk paste wallet addresses, one address per line. Press Enter to start 
 
 <figure><img src="../../../.gitbook/assets/image (933).png" alt=""><figcaption></figcaption></figure>
 
-2. Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.   \
+2. Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.\
    Click to download and view the template:
 
 {% file src="../../../.gitbook/assets/EVM_address_demo.xlsx" %}
@@ -144,7 +144,7 @@ Enter / bulk paste wallet addresses, one address per line. Press Enter to start 
 {% step %}
 ### Enter Transfer Amount
 
-<figure><img src="../../../.gitbook/assets/image (925).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (924).png" alt=""><figcaption></figcaption></figure>
 
 Supports four transfer amount types: **"Custom"**, **"All Balance"**, **"Fixed Amount"**, and **"Fixed Retain"**.
 

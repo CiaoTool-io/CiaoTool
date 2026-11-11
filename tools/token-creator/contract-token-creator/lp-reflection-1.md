@@ -4,7 +4,7 @@ description: >-
   burn liquidity pool tokens, helping build a deflationary token economy.
 ---
 
-# BSC - Reserve Burn Token Creator Tutorial
+# BSC - Reserve Burn Token Creator Guide
 
 {% hint style="danger" %}
 <mark style="color:red;">**Security Alert**</mark>
@@ -55,7 +55,7 @@ CiaoTool delivers a professional asset issuance solution on the BNB Chain that p
 
 Click the button in the top right corner to connect a wallet that supports the EVM network.
 
-<figure><img src="../../../.gitbook/assets/image (963).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (953).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -206,7 +206,7 @@ Click here to view the Liquidity Pool Creation Tutorial:
 
 <summary><strong>Why are there still no reflections after making multiple purchases?</strong></summary>
 
-1. Avoid trading with tax-exempt whitelisted wallets (deployer/marketing).&#x20;
+1. Avoid trading with tax-exempt whitelisted wallets (deployer/marketing).
 2. The contract relies on a "buy-and-sell" tax cycle; a market sell order must occur to trigger the reflection payout.
 
 </details>

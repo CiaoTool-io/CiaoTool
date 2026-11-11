@@ -5,7 +5,7 @@ description: >-
   seamless token launch experience.
 ---
 
-# BSC - ERC-314 Token Creator Tutorial
+# BSC - ERC-314 Token Creator Guide
 
 {% hint style="danger" %}
 <mark style="color:red;">**Security Alert**</mark>
@@ -52,7 +52,7 @@ For project teams pursuing technological innovation and paramount security, Ciao
 
 Click the button in the top right corner to connect a wallet that supports the EVM network.
 
-<figure><img src="../../../.gitbook/assets/image (963).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (953).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}

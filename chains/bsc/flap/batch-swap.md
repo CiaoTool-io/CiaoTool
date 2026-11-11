@@ -8,7 +8,7 @@ description: >-
 # Flap - Batch Swap Tutorial
 
 {% hint style="info" %}
-**CiaoTool Flap Batch Swap** fully supports all quote tokens, including **BNB, USD1, UUSD, USDT, and all RWA Token**. Please switch to the specific token page to perform market-making operations based on your needs.&#x20;
+**CiaoTool Flap Batch Swap** fully supports all quote tokens, including **BNB, USD1, UUSD, USDT, and all RWA Token**. Please switch to the specific token page to perform market-making operations based on your needs.
 {% endhint %}
 
 ## What is CiaoTool Flap Batch Swap? <a href="#what-is-coinfactory-solana-multisender" id="what-is-coinfactory-solana-multisender"></a>
@@ -48,16 +48,16 @@ CiaoTool delivers a fast, secure multi-address solution on Flap.sh, significantl
 
 Click the button in the top right corner to connect a wallet that supports the EVM network.
 
-<figure><img src="../../../.gitbook/assets/image (992).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (972).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ### Enter Token Addresses
 
-Enter a token address or select from your wallet to buy.\
+Enter a token address or select from your wallet to buy.\
 Click the center arrow to quickly flip the swap direction.
 
-<figure><img src="../../../.gitbook/assets/image (993).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (980).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -65,7 +65,7 @@ Click the center arrow to quickly flip the swap direction.
 
 Enter the paying wallet's private key. Enter the private key of the wallet that will be used to pay the service fees for market-making operations.
 
-<figure><img src="../../../.gitbook/assets/image (995).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (982).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -87,10 +87,10 @@ Supports two import types for trading address private keys: "Manual Input" and "
 
 <figure><img src="../../../.gitbook/assets/image (984).png" alt=""><figcaption></figcaption></figure>
 
-Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.\
+Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.\
 Click to download and view the template:
 
-{% file src="../../../.gitbook/assets/EVM_privateKey_demo.xlsx" %}
+{% file src="../../../.gitbook/assets/EVM_Demo.xlsx" %}
 {% endstep %}
 
 {% step %}

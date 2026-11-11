@@ -54,7 +54,7 @@ Transactions from multiple wallets are broadcast separately and confirmed indepe
 
 The sell transaction and multi-wallet buy transactions are packaged into a Bundle in the preset order and executed consecutively within the same block. This reduces the risk of other transactions being inserted between them while improving execution consistency and transaction priority.
 
-<figure><img src="../../../.gitbook/assets/image (1193).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1192).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -132,7 +132,7 @@ privateKey, 300
 2. Click ![](<../../../.gitbook/assets/image (7).png>)"Import File" button to open the input field.
 3. Click "Import" to import all entered wallets into the operation panel.
 
-<figure><img src="../../../.gitbook/assets/image (1195).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1194).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 {% endstep %}

@@ -5,7 +5,7 @@ description: >-
   chart naturalness, and boost project credibility.
 ---
 
-# EVM - Asset Fragmentation Tutorial
+# EVM | Fragmentation Guide
 
 {% hint style="info" %}
 You are currently on the **"EVM - Fragmentation"** tutorial page for EVM networks including **BSC, Base, X Layer, IoTeX, and Robinhood Chain.**
@@ -60,7 +60,7 @@ Select your target blockchain and connect an EVM-compatible wallet.
 
 You can select BNB or choose any token currently held in your wallet to execute the multi-transfer.
 
-<figure><img src="../../../.gitbook/assets/image (939).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (915).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -76,7 +76,7 @@ Supports two methods for importing sending private key: **"Manual Input"** and *
 {% tab title="Manual Input" %}
 Enter / batch paste wallet private keys, one address per line. Press Enter to start a new line.
 
-<figure><img src="../../../.gitbook/assets/image (922).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (921).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Upload File" %}
@@ -84,10 +84,10 @@ Enter / batch paste wallet private keys, one address per line. Press Enter to st
 
 <figure><img src="../../../.gitbook/assets/image (920).png" alt=""><figcaption></figcaption></figure>
 
-2. Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.   \
+2. Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.\
    Click to download and view the template:
 
-{% file src="../../../.gitbook/assets/EVM_privateKey_demo.xlsx" %}
+{% file src="../../../.gitbook/assets/EVM_Demo.xlsx" %}
 
 <figure><img src="../../../.gitbook/assets/image (921).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
@@ -107,7 +107,7 @@ Click **"Generate Wallet"** and the system will automatically download all newly
 {% step %}
 ### Enter Transfer Amount
 
-<figure><img src="../../../.gitbook/assets/image (925).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (924).png" alt=""><figcaption></figcaption></figure>
 
 Supports four transfer amount types: **"Custom"**, **"All Balance"**, **"Fixed Amount"**, and **"Fixed Retain"**.
 

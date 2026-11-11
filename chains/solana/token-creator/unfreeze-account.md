@@ -42,7 +42,7 @@ Once connected, your wallet address will be displayed in the top-right corner.
 * When the task begins execution, a log pop-up will appear to update you on the transaction progress in real time.
 * If an issue occurs at any stage, we will clearly display it to you. No fees will be charged for failed operations.
 
-<figure><img src="../../../.gitbook/assets/image (770).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (767).png" alt=""><figcaption></figcaption></figure>
 
 ## Common Failure Cases
 

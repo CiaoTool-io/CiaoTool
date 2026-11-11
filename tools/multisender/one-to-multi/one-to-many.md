@@ -5,10 +5,10 @@ description: >-
   airdrops, rewards, and batch settlements.
 ---
 
-# EVM - Multisender | One-to-Multi Transfer Tutorial
+# EVM Multisender | One-to-Multi Transfer Guide
 
 {% hint style="info" %}
-You are currently on the **"EVM - One-to-Multi Transfer"** tutorial page for EVM networks including **BSC, opBNB, Base, X Layer, IoTeX, BOT, Monad, and Robinhood Chain.**
+You are currently on the **"EVM - One-to-Multi Transfer"** tutorial page for EVM networks including **BSC, opBNB, Base, X Layer, IoTeX, BOT, Monad, 0G, and Robinhood Chain.**
 
 Demonstrated on BSC. Universally compatible across all EVM networks, please switch to your target chain to operate.
 
@@ -17,7 +17,7 @@ Click [**"Solana - One-to-Multi Transfer"**](../../../chains/solana/multisender/
 
 ## What is CiaoTool EVM One-to-Multi Transfer? <a href="#definition" id="definition"></a>
 
-<figure><img src="../../../.gitbook/assets/image (901).png" alt="CiaoTool BSC Toolkit Page about BSC One-to-Multi Transfer Feature"><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (900).png" alt="CiaoTool BSC Toolkit Page about BSC One-to-Multi Transfer Feature"><figcaption></figcaption></figure>
 
 CiaoTool EVM One-to-Multi Transfer is a batch asset distribution tool designed for BSC and EVM-compatible networks. It enables users to send native tokens (BNB, ETH, etc.) or BEP-20 / ERC-20 tokens from a single wallet to hundreds of recipient addresses in one operation.
 
@@ -32,7 +32,15 @@ By automating large-scale transfers, it eliminates repetitive manual transaction
 
 Start your One-to-Multi Transfer on EVM Network with CiaoTool now:
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/BSC.png" alt="" data-size="line">BSC (BNB Chain)</td><td><a href="https://bsc.ciaotool.io/en/transfer/one-to-many">https://bsc.ciaotool.io/en/transfer/one-to-many</a></td></tr><tr><td><img src="../../../.gitbook/assets/BSC.png" alt="" data-size="line">opBNB Chain</td><td><a href="https://opbnb.ciaotool.io/en/transfer/one-to-many">https://opbnb.ciaotool.io/en/transfer/one-to-many</a></td></tr><tr><td><img src="../../../.gitbook/assets/Base3.png" alt="" data-size="line">Base Chain</td><td><a href="https://base.ciaotool.io/en/transfer/one-to-many">https://base.ciaotool.io/en/transfer/one-to-many</a></td></tr><tr><td><img src="../../../.gitbook/assets/3 (1).png" alt="" data-size="line">X Layer</td><td><a href="https://xlayer.ciaotool.io/en/transfer/one-to-many">https://xlayer.ciaotool.io/en/transfer/one-to-many</a></td></tr><tr><td><img src="../../../.gitbook/assets/IoTex.png" alt="" data-size="line">IoTeX Chain</td><td><a href="https://iotex.ciaotool.io/en/transfer/one-to-many">https://iotex.ciaotool.io/en/transfer/one-to-many</a></td></tr><tr><td><img src="../../../.gitbook/assets/BOT-2.png" alt="" data-size="line"> BOT Chain</td><td><a href="https://bot.ciaotool.io/en/transfer/one-to-many">https://bot.ciaotool.io/en/transfer/one-to-many</a></td></tr><tr><td><img src="../../../.gitbook/assets/Group 1261152954.png" alt="" data-size="line"> Robinhood Chain</td><td><a href="https://r.ciaotool.io/en/transfer/one-to-many">https://r.ciaotool.io/en/transfer/one-to-many</a></td></tr><tr><td><img src="../../../.gitbook/assets/Group 1261153198.png" alt="" data-size="line"> Monad Chain</td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/BSC.png" alt="" data-size="line">BSC (BNB Chain)</td><td><a href="https://bsc.ciaotool.io/en/transfer/one-to-many">https://bsc.ciaotool.io/en/transfer/one-to-many</a></td></tr><tr><td><img src="../../../.gitbook/assets/Base3.png" alt="" data-size="line">Base Chain</td><td><a href="https://base.ciaotool.io/en/transfer/one-to-many">https://base.ciaotool.io/en/transfer/one-to-many</a></td></tr><tr><td><img src="../../../.gitbook/assets/Group 1261152954.png" alt="" data-size="line"> Robinhood Chain</td><td><a href="https://r.ciaotool.io/en/transfer/one-to-many">https://r.ciaotool.io/en/transfer/one-to-many</a></td></tr></tbody></table>
+
+<details>
+
+<summary>More Supportd Networks</summary>
+
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/BSC.png" alt="" data-size="line">opBNB Chain</td><td><a href="https://opbnb.ciaotool.io/en/transfer/one-to-many">https://opbnb.ciaotool.io/en/transfer/one-to-many</a></td></tr><tr><td><img src="../../../.gitbook/assets/3 (1).png" alt="" data-size="line">X Layer</td><td><a href="https://xlayer.ciaotool.io/en/transfer/one-to-many">https://xlayer.ciaotool.io/en/transfer/one-to-many</a></td></tr><tr><td><img src="../../../.gitbook/assets/IoTex.png" alt="" data-size="line">IoTeX Chain</td><td><a href="https://iotex.ciaotool.io/en/transfer/one-to-many">https://iotex.ciaotool.io/en/transfer/one-to-many</a></td></tr><tr><td><img src="../../../.gitbook/assets/BOT-2.png" alt="" data-size="line"> BOT Chain</td><td><a href="https://bot.ciaotool.io/en/transfer/one-to-many">https://bot.ciaotool.io/en/transfer/one-to-many</a></td></tr><tr><td><img src="../../../.gitbook/assets/Group 1261153198.png" alt="" data-size="line"> Monad Chain</td><td><a href="https://monad.ciaotool.io/en/transfer/one-to-many">https://monad.ciaotool.io/en/transfer/one-to-many</a></td></tr><tr><td><img src="../../../.gitbook/assets/Group 1261153200.png" alt="" data-size="line"> 0G Chain</td><td><a href="https://0g.ciaotool.io/en/transfer/one-to-many">https://0g.ciaotool.io/en/transfer/one-to-many</a></td></tr></tbody></table>
+
+</details>
 
 ***
 
@@ -112,7 +120,7 @@ Enter / bulk paste wallet addresses, one address per line. Press Enter to start 
 
 <figure><img src="../../../.gitbook/assets/image (904).png" alt=""><figcaption></figcaption></figure>
 
-2. Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.   \
+2. Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.\
    Click to download and view the template:
 
 {% file src="../../../.gitbook/assets/EVM_address_demo.xlsx" %}

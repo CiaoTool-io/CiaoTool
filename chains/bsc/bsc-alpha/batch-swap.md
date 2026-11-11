@@ -9,7 +9,7 @@ description: >-
 
 ## What is CiaoTool BSC Batch Swap? <a href="#what-is-coinfactory-solana-multisender" id="what-is-coinfactory-solana-multisender"></a>
 
-<figure><picture><source srcset="../../../.gitbook/assets/屏幕截图 2026-06-18 135727 (1).png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (997).png" alt="CiaoTool BSC Toolkit Page about BSC Alpha Batch Swap Feature"></picture><figcaption></figcaption></figure>
+<figure><picture><source srcset="../../../.gitbook/assets/屏幕截图 2026-06-18 135727.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (997).png" alt="CiaoTool BSC Toolkit Page about BSC Alpha Batch Swap Feature"></picture><figcaption></figcaption></figure>
 
 **CiaoTool BSC Alpha Batch Swap** is a multi-address automated trading execution tool purpose-built for the BSC ecosystem. It allows users to execute token buying and selling operations fully automatically and synchronously by importing multiple wallet addresses in batches and configuring trading parameters.
 
@@ -44,16 +44,16 @@ CiaoTool delivers a fast, secure multi-address solution on BSC Alpha, significan
 
 Click the button in the top right corner to connect a wallet that supports the EVM network.
 
-<figure><img src="../../../.gitbook/assets/image (992).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (972).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
 ### Enter Token Addresses
 
-Enter a token address or select from your wallet to buy.\
+Enter a token address or select from your wallet to buy.\
 Click the center arrow to quickly flip the swap direction.
 
-<figure><img src="../../../.gitbook/assets/image (993).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (980).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -75,10 +75,10 @@ Supports two import types for trading address private keys: "Manual Input" and "
 
 <figure><img src="../../../.gitbook/assets/image (984).png" alt=""><figcaption></figcaption></figure>
 
-Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.\
+Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.\
 Click to download and view the template:
 
-{% file src="../../../.gitbook/assets/EVM_privateKey_demo.xlsx" %}
+{% file src="../../../.gitbook/assets/EVM_Demo.xlsx" %}
 {% endstep %}
 
 {% step %}

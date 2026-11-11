@@ -5,7 +5,7 @@ description: >-
   flawless security audit scores.
 ---
 
-# EVM - Standard Token Creator Tutorial
+# EVM - Standard Token Creator Guide
 
 {% hint style="info" %}
 You are currently on the **"EVM - Standard Token Creator"** tutorial page for EVM networks including **BSC, Base, X Layer, IoTeX, BOT, and Robinhood Chain.**
@@ -61,7 +61,7 @@ CiaoTool delivers a professional asset issuance solution on the BNB Smart Chain 
 
 Select your target blockchain and connect an EVM-compatible wallet.
 
-<figure><img src="../../../.gitbook/assets/image (946).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (912).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}

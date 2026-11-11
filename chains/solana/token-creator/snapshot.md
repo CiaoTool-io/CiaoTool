@@ -5,7 +5,7 @@ description: >-
   planning, and community analysis.
 ---
 
-# Solana  - Token Snapshot Tutorial
+# Solana - Token Snapshot Tutorial
 
 {% hint style="success" %}
 **Solana Token Snapshot:** [https://ciaotool.io/en/token/holder-snapshot](https://ciaotool.io/en/token/holder-snapshot)
@@ -51,7 +51,7 @@ Click \[Token Snapshot], and the system will connect to Solana on-chain data to 
 
 * CSV File (Used for importing into airdrop tools)
 
-<figure><img src="../../../.gitbook/assets/image (326).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (325).png" alt=""><figcaption></figcaption></figure>
 
 ## Common Failure Cases
 

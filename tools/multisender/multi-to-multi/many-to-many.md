@@ -5,10 +5,10 @@ description: >-
   randomized intervals through a no-code interface.
 ---
 
-# EVM - Multisender | Multi-to-Multi Transfer Tutorial
+# EVM Multisender | Multi-to-Multi Transfer Guide
 
 {% hint style="info" %}
-You are currently on the **"EVM - Multi-to-Multi Transfer"** tutorial page for EVM networks including **BSC, opBNB, Base, X Layer, IoTeX, BOT, Monad, and Robinhood Chain.**
+You are currently on the **"EVM - Multi-to-Multi Transfer"** tutorial page for EVM networks including **BSC, opBNB, Base, X Layer, IoTeX, BOT, Monad, 0G, and Robinhood Chain.**
 
 Demonstrated on BSC. Universally compatible across all EVM networks, please switch to your target chain to operate.
 
@@ -33,7 +33,15 @@ Use Cases:
 
 Start your Multi-to-Multi Transfer on EVM Network with CiaoTool now:
 
-<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/BSC.png" alt="" data-size="line">BSC (BNB Chain)</td><td><a href="https://bsc.ciaotool.io/en/transfer/many-to-many">https://bsc.ciaotool.io/en/transfer/many-to-many</a></td></tr><tr><td><img src="../../../.gitbook/assets/BSC.png" alt="" data-size="line">opBNB Chain</td><td><a href="https://opbnb.ciaotool.io/en/transfer/many-to-many">https://opbnb.ciaotool.io/en/transfer/many-to-many</a></td></tr><tr><td><img src="../../../.gitbook/assets/Base3.png" alt="" data-size="line">Base Chain</td><td><a href="https://base.ciaotool.io/en/transfer/many-to-many">https://base.ciaotool.io/en/transfer/many-to-many</a></td></tr><tr><td><img src="../../../.gitbook/assets/3 (1).png" alt="" data-size="line">X Layer</td><td><a href="https://xlayer.ciaotool.io/en/transfer/many-to-many">https://xlayer.ciaotool.io/en/transfer/many-to-many</a></td></tr><tr><td><img src="../../../.gitbook/assets/IoTex.png" alt="" data-size="line">IoTeX Chain</td><td><a href="https://iotex.ciaotool.io/en/transfer/many-to-many">https://iotex.ciaotool.io/en/transfer/many-to-many</a></td></tr><tr><td><img src="../../../.gitbook/assets/BOT-2.png" alt="" data-size="line"> BOT Chain</td><td><a href="https://bot.ciaotool.io/en/transfer/many-to-many">https://bot.ciaotool.io/en/transfer/many-to-many</a></td></tr><tr><td><img src="../../../.gitbook/assets/Group 1261152954.png" alt="" data-size="line"> Robinhood Chain</td><td><a href="https://r.ciaotool.io/en/transfer/many-to-many">https://r.ciaotool.io/en/transfer/many-to-many</a></td></tr><tr><td><img src="../../../.gitbook/assets/Group 1261153198.png" alt="" data-size="line"> Monad Chain</td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/BSC.png" alt="" data-size="line">BSC (BNB Chain)</td><td><a href="https://bsc.ciaotool.io/en/transfer/many-to-many">https://bsc.ciaotool.io/en/transfer/many-to-many</a></td></tr><tr><td><img src="../../../.gitbook/assets/Base3.png" alt="" data-size="line">Base Chain</td><td><a href="https://base.ciaotool.io/en/transfer/many-to-many">https://base.ciaotool.io/en/transfer/many-to-many</a></td></tr><tr><td><img src="../../../.gitbook/assets/Group 1261152954.png" alt="" data-size="line"> Robinhood Chain</td><td><a href="https://r.ciaotool.io/en/transfer/many-to-many">https://r.ciaotool.io/en/transfer/many-to-many</a></td></tr></tbody></table>
+
+<details>
+
+<summary>More Supported Networks</summary>
+
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/BSC.png" alt="" data-size="line">opBNB Chain</td><td><a href="https://opbnb.ciaotool.io/en/transfer/many-to-many">https://opbnb.ciaotool.io/en/transfer/many-to-many</a></td></tr><tr><td><img src="../../../.gitbook/assets/3 (1).png" alt="" data-size="line">X Layer</td><td><a href="https://xlayer.ciaotool.io/en/transfer/many-to-many">https://xlayer.ciaotool.io/en/transfer/many-to-many</a></td></tr><tr><td><img src="../../../.gitbook/assets/IoTex.png" alt="" data-size="line">IoTeX Chain</td><td><a href="https://iotex.ciaotool.io/en/transfer/many-to-many">https://iotex.ciaotool.io/en/transfer/many-to-many</a></td></tr><tr><td><img src="../../../.gitbook/assets/BOT-2.png" alt="" data-size="line"> BOT Chain</td><td><a href="https://bot.ciaotool.io/en/transfer/many-to-many">https://bot.ciaotool.io/en/transfer/many-to-many</a></td></tr><tr><td><img src="../../../.gitbook/assets/Group 1261153198.png" alt="" data-size="line"> Monad Chain</td><td><a href="https://monad.ciaotool.io/en/transfer/many-to-many">https://monad.ciaotool.io/en/transfer/many-to-many</a></td></tr><tr><td><img src="../../../.gitbook/assets/Group 1261153200.png" alt="" data-size="line"> 0G Chain</td><td><a href="https://0g.ciaotool.io/en/transfer/many-to-many">https://0g.ciaotool.io/en/transfer/many-to-many</a></td></tr></tbody></table>
+
+</details>
 
 ***
 
@@ -55,7 +63,7 @@ Start your Multi-to-Multi Transfer on EVM Network with CiaoTool now:
 
 Select your target blockchain and connect an EVM-compatible wallet.
 
-<figure><img src="../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -83,7 +91,7 @@ Supports two methods for importing sending private key: **"Manual Input"** and *
 {% tab title="Manual Input" %}
 Enter / batch paste wallet private keys, one address per line. Press Enter to start a new line.
 
-<figure><img src="../../../.gitbook/assets/image (931).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (929).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Upload File" %}
@@ -91,12 +99,12 @@ Enter / batch paste wallet private keys, one address per line. Press Enter to st
 
 <figure><img src="../../../.gitbook/assets/image (928).png" alt=""><figcaption></figcaption></figure>
 
-2. Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.   \
+2. Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.\
    Click to download and view the template:
 
-{% file src="../../../.gitbook/assets/EVM_privateKey_demo.xlsx" %}
+{% file src="../../../.gitbook/assets/EVM_Demo.xlsx" %}
 
-<figure><img src="../../../.gitbook/assets/image (930).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (929).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 {% endstep %}
@@ -118,7 +126,7 @@ Supports two methods for importing sending private key: **"Manual Input"** and *
 {% tab title="Manual Input" %}
 Enter / bulk paste wallet addresses, one address per line. Press Enter to start a new line.
 
-<figure><img src="../../../.gitbook/assets/image (935).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (934).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Upload File" %}
@@ -126,7 +134,7 @@ Enter / bulk paste wallet addresses, one address per line. Press Enter to start 
 
 <figure><img src="../../../.gitbook/assets/image (933).png" alt=""><figcaption></figcaption></figure>
 
-2. Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.   \
+2. Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.\
    Click to download and view the template:
 
 {% file src="../../../.gitbook/assets/EVM_address_demo.xlsx" %}
@@ -139,7 +147,7 @@ Enter / bulk paste wallet addresses, one address per line. Press Enter to start 
 {% step %}
 ### Enter Transfer Amount
 
-<figure><img src="../../../.gitbook/assets/image (925).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (924).png" alt=""><figcaption></figcaption></figure>
 
 Supports four transfer amount types: **"Custom"**, **"All Balance"**, **"Fixed Amount"**, and **"Fixed Retain"**.
 

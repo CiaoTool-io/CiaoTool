@@ -5,7 +5,7 @@ description: >-
   natural appearance of market activity and order flow.
 ---
 
-# Solana - Market Making Tutorial
+# Solana - Market Making Guide
 
 {% hint style="info" %}
 **CiaoTool Raydium Market Making** now fully supports all liquidity pool types, including **AMM V4, CLMM, and CPMM**.
@@ -103,7 +103,7 @@ privateKey
 
 3. Click "Import" to import all entered wallets into the operation panel.
 
-<figure><img src="../../../.gitbook/assets/image (1166).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1165).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Upload File" %}

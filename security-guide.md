@@ -41,7 +41,7 @@ As a **frontend Web3 SaaS Tool**, we adhere to the "Four No" principle and a sta
 {% endcolumn %}
 
 {% column width="50%" %}
-<figure><img src=".gitbook/assets/image (670).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (669).png" alt=""><figcaption></figcaption></figure>
 {% endcolumn %}
 {% endcolumns %}
 

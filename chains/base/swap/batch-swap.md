@@ -8,7 +8,7 @@ description: >-
 # Base - V3 Batch Swap
 
 {% hint style="info" %}
-**CiaoTool SushiSwap Batch Swap** now fullysupports **V3** liquidity pool types.&#x20;
+**CiaoTool SushiSwap Batch Swap** now fullysupports **V3** liquidity pool types.
 {% endhint %}
 
 ## What is CiaoTool Base Batch Swap? <a href="#what-is-coinfactory-solana-multisender" id="what-is-coinfactory-solana-multisender"></a>
@@ -84,10 +84,10 @@ Supports two import types for trading address private keys: "Manual Input" and "
 
 <figure><img src="../../../.gitbook/assets/image (1050).png" alt=""><figcaption></figcaption></figure>
 
-Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.\
+Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.\
 Click to download and view the template:
 
-{% file src="../../../.gitbook/assets/EVM_privateKey_demo.xlsx" %}
+{% file src="../../../.gitbook/assets/EVM_Demo.xlsx" %}
 {% endstep %}
 
 {% step %}

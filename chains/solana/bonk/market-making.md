@@ -5,7 +5,7 @@ description: >-
   natural appearance of market activity and order flow.
 ---
 
-# Bonk - Market Making Guide
+# BonkFun - Market Making Guide
 
 {% hint style="info" %}
 **CiaoTool Bonk Market Making** now fully supports all quote tokens, including official **SOL and USD1**.
@@ -101,7 +101,7 @@ privateKey
 
 3. Click "Import" to import all entered wallets into the operation panel.
 
-<figure><img src="../../../.gitbook/assets/image (1166).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1165).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Upload File" %}

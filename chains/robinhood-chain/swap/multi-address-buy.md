@@ -142,10 +142,10 @@ Supports two import types for trading address private keys: "Manual Input" and "
 
 <figure><img src="../../../.gitbook/assets/image (1074).png" alt=""><figcaption></figcaption></figure>
 
-Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.\
+Use a CiaoTool-compatible file template, then confirm import to display the data in the input field.\
 Click to download and view the template:
 
-{% file src="../../../.gitbook/assets/EVM_privateKey_demo.xlsx" %}
+{% file src="../../../.gitbook/assets/EVM_Demo.xlsx" %}
 {% endstep %}
 
 {% step %}
@@ -164,7 +164,7 @@ Supports two trading amount types: **"Custom Input"**, and **"All"**.
 {% step %}
 ### **Confirm** <a href="#confirm" id="confirm"></a>
 
-After verifying all details, all applicable fees are displayed before execution.&#x20;
+After verifying all details, all applicable fees are displayed before execution.
 
 Click the **"Start Swap"** button below and wait for the transaction process to complete.
 

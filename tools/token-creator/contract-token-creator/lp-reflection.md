@@ -5,7 +5,7 @@ description: >-
   sustainable tokenomics.
 ---
 
-# BSC - LP Reflection Token Creator Tutorial
+# BSC - LP Reflection Token Creator Guide
 
 {% hint style="danger" %}
 <mark style="color:red;">**Security Alert**</mark>
@@ -57,7 +57,7 @@ CiaoTool delivers a professional asset issuance solution on the BNB Chain that p
 
 Click the button in the top right corner to connect a wallet that supports the EVM network.
 
-<figure><img src="../../../.gitbook/assets/image (960).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (953).png" alt=""><figcaption></figcaption></figure>
 {% endstep %}
 
 {% step %}
@@ -218,7 +218,7 @@ Users must actively provide liquidity (add LP) and trade. Merely receiving LP to
 
 <summary><strong>Why are there still no reflections after making multiple purchases?</strong></summary>
 
-1. Avoid trading with tax-exempt whitelisted wallets (deployer/marketing).&#x20;
+1. Avoid trading with tax-exempt whitelisted wallets (deployer/marketing).
 2. The contract relies on a "buy-and-sell" tax cycle; a market sell order must occur to trigger the reflection payout.
 
 </details>

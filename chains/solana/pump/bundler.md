@@ -177,7 +177,7 @@ privateKey, 300
 2. Click ![](<../../../.gitbook/assets/image (7).png>)"Import File" button to open the input field.
 3. Click "Import" to import all entered wallets into the operation panel.
 
-<figure><img src="../../../.gitbook/assets/image (1124).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1123).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 {% endstep %}
