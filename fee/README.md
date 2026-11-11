@@ -73,3 +73,17 @@ We are committed to providing highly cost-effective Web3 tools. If you find a lo
 {% endcontent-ref %}
 {% endcolumn %}
 {% endcolumns %}
+
+{% columns %}
+{% column %}
+{% content-ref url="monad-chain.md" %}
+[monad-chain.md](monad-chain.md)
+{% endcontent-ref %}
+{% endcolumn %}
+
+{% column %}
+{% content-ref url="0g-chain.md" %}
+[0g-chain.md](0g-chain.md)
+{% endcontent-ref %}
+{% endcolumn %}
+{% endcolumns %}
