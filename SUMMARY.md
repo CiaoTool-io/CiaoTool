@@ -19,7 +19,7 @@
 
 ## 区块链 <a href="#chains" id="chains"></a>
 
-* [Solana - 一站式代币解决方案平台](chains/solana/README.md "Solana 指南")
+* [Solana Chain - 一站式代币解决方案平台](chains/solana/README.md "Solana Chain 指南")
   * [Solana 一键发币平台 | 创建 SPL 代币](chains/solana/token-creator/README.md "代币管理")
     * [Solana - 标准代币创建教程](chains/solana/token-creator/standard-token.md "标准代币创建")
     * [Solana - 税费代币创建教程](chains/solana/token-creator/tax-token.md "税费代币创建")
@@ -112,6 +112,7 @@
     * [BSC - 代币控制台](chains/bsc/token/console.md "控制台")
   * [BSC - PancakeSwap 专区](chains/bsc/swap/README.md "SWAP 专区")
     * [BSC - 市值管理教程](chains/bsc/swap/market-making.md "市值管理")
+    * [BSC - 交易量机器人教程](chains/bsc/swap/volume-bot.md "交易量机器人")
     * [BSC - 批量交易教程](chains/bsc/swap/batch-swap.md "批量交易")
     * [BSC - 多地址捆绑买入教程](chains/bsc/swap/multi-address-buy.md "多地址捆绑买入")
     * [BSC - 多地址捆绑卖出教程](chains/bsc/swap/multi-address-sell.md "多地址捆绑卖出")
@@ -143,12 +144,12 @@
     * [Flap - 批量交易教程](chains/bsc/flap/batch-swap.md "批量交易")
     * [Flap - 多地址捆绑买入教程](chains/bsc/flap/multi-address-buy.md "多地址捆绑买入")
     * [Flap - 多地址捆绑卖出教程](chains/bsc/flap/multi-address-sell.md "多地址捆绑卖出")
-* [opBNB - 一站式代币解决方案平台](chains/opbnb/README.md "opBNB 指南")
+* [opBNB Chain - 一站式代币解决方案平台](chains/opbnb/README.md "opBNB Chain 指南")
   * [一对多转账](tools/multisender/one-to-multi/one-to-many.md)
   * [批量一转多](tools/multisender/one-to-multi/one-to-many-multi.md)
   * [多对一转账](tools/multisender/multi-to-one/many-to-one.md)
   * [多对多转账](tools/multisender/multi-to-multi/many-to-many.md)
-* [Base - 一站式代币解决方案平台](chains/base/README.md "Base 指南")
+* [Base Chain - 一站式代币解决方案平台](chains/base/README.md "Base Chain 指南")
   * [Base - 批量转账工具集](chains/base/multisender/README.md "批量转账")
     * [一对多转账](tools/multisender/one-to-multi/one-to-many.md)
     * [批量一转多](tools/multisender/one-to-multi/one-to-many-multi.md)
