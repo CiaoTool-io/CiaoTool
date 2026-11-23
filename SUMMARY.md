@@ -112,7 +112,7 @@
     * [BSC - 代币控制台](chains/bsc/token/console.md "控制台")
   * [BSC - PancakeSwap 专区](chains/bsc/swap/README.md "SWAP 专区")
     * [BSC - 市值管理教程](chains/bsc/swap/market-making.md "市值管理")
-    * [BSC - 交易量机器人教程](chains/bsc/swap/volume-bot.md "交易量机器人")
+    * [BSC - 交易量机器人指南](chains/bsc/swap/volume-bot.md "交易量机器人")
     * [BSC - 批量交易教程](chains/bsc/swap/batch-swap.md "批量交易")
     * [BSC - 多地址捆绑买入教程](chains/bsc/swap/multi-address-buy.md "多地址捆绑买入")
     * [BSC - 多地址捆绑卖出教程](chains/bsc/swap/multi-address-sell.md "多地址捆绑卖出")
