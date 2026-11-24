@@ -147,46 +147,6 @@ Click to download and view the template:
 {% endstep %}
 
 {% step %}
-### Enter Buy Amount
-
-{% hint style="info" %}
-Keep at least 0.0008 BNB in each wallet to cover gas fees.
-{% endhint %}
-
-Supports three trading amount types: **"Fixed Amount"**, **"Fixed Retain"**, and **"All Balance"**.
-
-<figure><img src="../../../.gitbook/assets/image (985).png" alt=""><figcaption></figcaption></figure>
-
-1. **Fixed Amount**\
-   Swaps a set number of tokens across all wallets.
-2. **Fixed Retain**\
-   Keeps a set balance in wallets and swaps the rest.
-3. **All Balance**\
-   Swaps the entire wallet balance into the target token.
-{% endstep %}
-
-{% step %}
-### Trading Setting
-
-{% hint style="danger" %}
-Closing / refreshing the page will **immediately stop** the bot strategy. Please ensure that the page remains open and running continuously in the background while the strategy is being executed. To ensure necessary strategy execution, **this feature is not recommended for use on mobile devices.**
-{% endhint %}
-
-<figure><img src="../../../.gitbook/assets/image (986).png" alt=""><figcaption></figcaption></figure>
-
-**Transaction Speed**\
-Set higher priority fees to speed up block execution and frontrun MEV bots.
-
-**Stop Methods**
-
-* **Run Times:** Bot terminates automatically once the wallet swap loop hits your set limit.
-* **Price Range:** Bot terminates automatically if the token price breaks outside your set boundary.
-
-**Task Execution Interval**\
-Randomizes the delay between multi-wallet orders to simulate organic retail trading.
-{% endstep %}
-
-{% step %}
 ### **Confirm** <a href="#confirm" id="confirm"></a>
 
 After verifying all details, click the **"Start Swap"** button below and wait for the transaction process to complete.
