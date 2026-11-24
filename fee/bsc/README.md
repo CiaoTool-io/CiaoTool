@@ -62,6 +62,7 @@ description: >-
 ### **市值管理**
 
 * [**市值管理**](https://bsc.ciaotool.io/zh-Hans/swap/v2/market-making-manage-v2)：0.0008 BNB / 每次交易
+* [**交易量机器人**](https://bsc.ciaotool.io/zh-Hans/swap/v2/volume-bot-v2)**：**&#x30;.0008 BNB / 每次交易
 * [**批量交易**](https://bsc.ciaotool.io/zh-Hans/swap/v2/batch-swap-v2)：0.0008 BNB / 每次交易
 * [**多地址捆绑买入**](https://bsc.ciaotool.io/zh-Hans/swap/v2/multi-address-buy-v2): 0.008 BNB / 每个地址
 * [**多地址捆绑卖出**](https://bsc.ciaotool.io/zh-Hans/swap/v2/multi-address-sell-v2)**:** 0.008 BNB / 每个地址
