@@ -7,7 +7,7 @@ description: >-
 # BSC - Volume Bot Guide
 
 {% hint style="info" %}
-**CiaoTool PancakeSwap Market Making** supports all **V2 and V3** liquidity pool types. Please switch to the corresponding pool page to perform market-making operations based on your needs.
+**CiaoTool PancakeSwap Volume Bot** supports all **V2 and V3** liquidity pool types. Please switch to the corresponding pool page to perform market-making operations based on your needs.
 {% endhint %}
 
 ## Overview
