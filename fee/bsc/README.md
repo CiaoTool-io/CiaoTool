@@ -64,6 +64,7 @@ Available for PancakeSwap V2 and V3.
 
 * [**Market Making**](https://bsc.ciaotool.io/zh-Hans/swap/v2/market-making-manage-v2)**:** 0.0008 BNB / trading
 * [**Batch Swap**](https://bsc.ciaotool.io/en/swap/v2/batch-swap-v2)**:** 0.0008 BNB / trading
+* [**Volume Bot**](https://bsc.ciaotool.io/zh-Hans/swap/v2/volume-bot-v2)**:** 0.0008 BNB / trading
 * [**Multi-address Bundled Buy**](https://bsc.ciaotool.io/en/swap/v2/multi-address-buy-v2): 0.008 BNB / address
 * [**Multi-address Bundled Sell**](https://bsc.ciaotool.io/en/swap/v2/multi-address-sell-v2)**:** 0.008 BNB / address
 
@@ -72,6 +73,7 @@ Available for PancakeSwap V2 and V3.
 ## BSC Alpha Zone
 
 * [**Batch Swap**](https://bsc.ciaotool.io/en/bscalpha/batch-swap-alpha)**:** 0.008 BNB / trading
+* [**Volume Bot**](https://bsc.ciaotool.io/zh-Hans/bscalpha/volume-bot-alpha)**:** 0.0008 BNB / trading
 
 ***
 
@@ -91,6 +93,7 @@ Supports Four.meme tokens quoted in BNB / USD1 / UUSD / All RWA Tokens.
 
 * [**Divident Claim**](https://bsc.ciaotool.io/en/fourmeme/batch-claim-dividend): 0.00008 BNB / address
 * [**Market Making**](https://bsc.ciaotool.io/en/fourmeme/market-making-manage)**:** 0.0008 BNB / trading
+* [**Volume Bot**](https://bsc.ciaotool.io/zh-Hans/fourmeme/volume-bot)**:** 0.0008 BNB / trading
 * [**Batch Swap**](https://bsc.ciaotool.io/en/fourmeme/batch-swap-fourmeme)**:** 0.0008 BNB / trading
 * [**Multi-address Bundled Buy**](https://bsc.ciaotool.io/en/fourmeme/bnb/multi-address-buy)**:** 0.008 BNB / address
 * [**Multi-address Bundled Sell**](https://bsc.ciaotool.io/en/fourmeme/bnb/multi-address-sell)**:** 0.008 BNB / address
@@ -113,6 +116,7 @@ Supports Flap.sh tokens quoted in BNB / USD1 / UUSD / USDT / All RWA Tokens.
 
 * [**Divident Claim**](https://bsc.ciaotool.io/en/flap/batch-claim-dividend): 0.00008 BNB / address
 * [**Market Making**](https://bsc.ciaotool.io/en/flap/market-making-manage)**:** 0.0008 BNB / trading
+* [**Volume Bot**](https://bsc.ciaotool.io/zh-Hans/flap/volume-bot)**:** 0.0008 BNB / trading
 * [**Batch Swap**](https://bsc.ciaotool.io/en/flap/batch-swap-flap)**:** 0.0008 BNB / trading
 * [**Multi-address Bundled Buy**](https://bsc.ciaotool.io/en/flap/bnb/multi-address-buy)**:** 0.008 BNB / address
 * [**Multi-address Bundled Sell**](https://bsc.ciaotool.io/en/flap/bnb/multi-address-sell)**:** 0.008 BNB / address

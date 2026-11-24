@@ -5,7 +5,7 @@ description: >-
   BEP-20 creation and management.
 ---
 
-# BSC - Multi-Function Token Creator Tutorial
+# BSC - Multi-Function Token Creator Guide
 
 {% hint style="danger" %}
 <mark style="color:red;">**Security Alert**</mark>
@@ -19,7 +19,7 @@ This token type contains custom logic that **may be flagged** by certain audit p
 
 **CiaoTool BSC Multi-Functional Token Creator** is a high-efficiency smart contract deployment workbench custom-built for Web3 founders and advanced operators. Breaking the constraints of complex code development, it empowers users to ultra-fast launch advanced BEP-20 tokens on the BNB Chain.
 
-Compared to standard tokens, the core mechanism of the Multi-Functional Token lies in its "modular permission controls within the underlying contract." While maintaining a pure circulation profile with zero transaction taxes and zero reflection friction, the system opens custom receiving address options and embeds four highly strategic management switches:&#x20;
+Compared to standard tokens, the core mechanism of the Multi-Functional Token lies in its "modular permission controls within the underlying contract." While maintaining a pure circulation profile with zero transaction taxes and zero reflection friction, the system opens custom receiving address options and embeds four highly strategic management switches:
 
 Mint, Pause, Blacklist, and Maximum Holding Limit. This infrastructure arms project teams with robust on-chain governance and risk control tools when facing market-making launches, front-running bots, or product testing phases.
 
@@ -66,8 +66,6 @@ CiaoTool delivers a professional asset issuance solution on the BNB Chain that p
 {% stepper %}
 {% step %}
 ### **Connect Wallet**
-
-
 
 Click the button in the top right corner to connect a wallet that supports the EVM network.
 
@@ -152,7 +150,7 @@ Once created, your token only supports basic transfers and cannot be traded yet.
 
 Click here to view the Liquidity Pool Creation Tutorial:
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Create Liquidity Pool - V2</td><td><a href="../../../chains/bsc/swap/create-liquidity/v2.md">v2.md</a></td></tr><tr><td><a data-footnote-ref href="#user-content-fn-1">Liquidity Bundler</a> - V2</td><td><a href="../../../chains/bsc/swap/liquidity-bundler/v2.md">v2.md</a></td></tr><tr><td>Create Liquidity Pool - V3</td><td><a href="../../../chains/bsc/swap/create-liquidity/v3.md">v3.md</a></td></tr><tr><td><a data-footnote-ref href="#user-content-fn-1">Liquidity Bundler</a> - V3</td><td><a href="../../../chains/bsc/swap/liquidity-bundler/v3.md">v3.md</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Create Liquidity Pool - V2</td><td><a href="../../../v2-1.md">v2-1.md</a></td></tr><tr><td><a data-footnote-ref href="#user-content-fn-1">Liquidity Bundler</a> - V2</td><td><a href="../../../v2-2.md">v2-2.md</a></td></tr><tr><td>Create Liquidity Pool - V3</td><td><a href="../../../v3.md">v3.md</a></td></tr><tr><td><a data-footnote-ref href="#user-content-fn-1">Liquidity Bundler</a> - V3</td><td><a href="../../../v3-2.md">v3-2.md</a></td></tr></tbody></table>
 {% endstep %}
 {% endstepper %}
 

@@ -5,7 +5,7 @@ description: >-
   deflationary token model.
 ---
 
-# BSC - Burning Reflection Token Creator Tutorial
+# BSC - Burning Reflection Token Creator Guide
 
 {% hint style="danger" %}
 <mark style="color:red;">**Security Alert**</mark>
@@ -17,7 +17,7 @@ This token type contains custom logic that **may be flagged** by certain audit p
 
 <figure><picture><source srcset="../../../.gitbook/assets/屏幕截图 2026-06-17 141353.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/image (971).png" alt="CiaoTool BSC Toolkit Page about BSC Burning Reflection Token Creator Feature"></picture><figcaption></figcaption></figure>
 
-The core of this feature lies in the introduction of a tokenomics innovation called "Burn-to-Earn": once the token is deployed, the system automatically opens a dividend pool. Standard token holders cannot directly earn yields; users must actively transfer their project tokens to the black hole address (permanent destruction) to activate and qualify for reflections.&#x20;
+The core of this feature lies in the introduction of a tokenomics innovation called "Burn-to-Earn": once the token is deployed, the system automatically opens a dividend pool. Standard token holders cannot directly earn yields; users must actively transfer their project tokens to the black hole address (permanent destruction) to activate and qualify for reflections.
 
 Meanwhile, when creating the contract, project owners can freely designate the specific asset type distributed by the dividend pool.
 
@@ -29,7 +29,7 @@ Blackhole Address: `0x000000000000000000000000000000000000dEaD`
 
 Use Case:
 
-* **Hyper-Scarcity:**  Rewards token-burning to rapidly and permanently reduce circulating market supply.
+* **Hyper-Scarcity:** Rewards token-burning to rapidly and permanently reduce circulating market supply.
 * **Token Synergy:** Distributes USDT, BNB, or ecosystem assets to drive dual-token synergy.
 
 | Dimension                 | Holders Dividend Token                                | Burning Reflection Token                                                       |
@@ -191,7 +191,7 @@ Once created, your token only supports basic transfers and cannot be traded yet.
 
 Click here to view the Liquidity Pool Creation Tutorial:
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Create Liquidity Pool - V2</td><td><a href="../../../chains/bsc/swap/create-liquidity/v2.md">v2.md</a></td></tr><tr><td><a data-footnote-ref href="#user-content-fn-1">Liquidity Bundler</a> - V2</td><td><a href="../../../chains/bsc/swap/liquidity-bundler/v2.md">v2.md</a></td></tr><tr><td>Create Liquidity Pool - V3</td><td><a href="../../../chains/bsc/swap/create-liquidity/v3.md">v3.md</a></td></tr><tr><td><a data-footnote-ref href="#user-content-fn-1">Liquidity Bundler</a> - V3</td><td><a href="../../../chains/bsc/swap/liquidity-bundler/v3.md">v3.md</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Create Liquidity Pool - V2</td><td><a href="../../../v2-1.md">v2-1.md</a></td></tr><tr><td><a data-footnote-ref href="#user-content-fn-1">Liquidity Bundler</a> - V2</td><td><a href="../../../v2-2.md">v2-2.md</a></td></tr><tr><td>Create Liquidity Pool - V3</td><td><a href="../../../v3.md">v3.md</a></td></tr><tr><td><a data-footnote-ref href="#user-content-fn-1">Liquidity Bundler</a> - V3</td><td><a href="../../../v3-2.md">v3-2.md</a></td></tr></tbody></table>
 {% endstep %}
 {% endstepper %}
 
@@ -211,7 +211,7 @@ No. Currently, only one specific black hole address is supported, which is: `0x0
 
 <summary><strong>Why are there still no reflections after making multiple purchases?</strong></summary>
 
-1. Avoid trading with tax-exempt whitelisted wallets (deployer/marketing).&#x20;
+1. Avoid trading with tax-exempt whitelisted wallets (deployer/marketing).
 2. The contract relies on a "buy-and-sell" tax cycle; a market sell order must occur to trigger the reflection payout.
 
 </details>
