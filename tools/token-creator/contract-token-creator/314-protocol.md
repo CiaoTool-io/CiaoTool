@@ -160,7 +160,7 @@ Although 314 Protocol tokens can directly achieve buying and selling operations 
 
 Click here to view the Liquidity Pool Creation Tutorial:
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Create Liquidity Pool - V2</td><td><a href="../../../v2-1.md">v2-1.md</a></td></tr><tr><td><a data-footnote-ref href="#user-content-fn-1">Liquidity Bundler</a> - V2</td><td><a href="../../../v2-2.md">v2-2.md</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Create Liquidity Pool - V2</td><td><a href="/broken/pages/6eQ0rpos3Z7PbkbztyYO">Broken link</a></td></tr><tr><td><a data-footnote-ref href="#user-content-fn-1">Liquidity Bundler</a> - V2</td><td><a href="/broken/pages/JABbdfxFXF5Vg3AZ4tma">Broken link</a></td></tr></tbody></table>
 {% endstep %}
 {% endstepper %}
 
