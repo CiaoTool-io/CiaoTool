@@ -72,6 +72,7 @@ description: >-
 ## 币安 Alpha 专区
 
 * [**批量交易**](https://bsc.ciaotool.io/zh-Hans/bscalpha/batch-swap-alpha)：0.008 BNB / 每次交易
+* [**交易量机器人**](https://bsc.ciaotool.io/zh-Hans/bscalpha/volume-bot-alpha)**：**&#x30;.008 BNB / 每次交易
 
 ***
 
@@ -91,6 +92,7 @@ description: >-
 
 * [**分红提取**](https://bsc.ciaotool.io/zh-Hans/fourmeme/batch-claim-dividend)：0.00008 BNB / 每个地址
 * [**市值管理**](https://bsc.ciaotool.io/zh-Hans/fourmeme/market-making-manage)**：**&#x30;.0008 BNB / 每次交易
+* [**交易量机器人**](https://bsc.ciaotool.io/zh-Hans/fourmeme/volume-bot)**：**&#x30;.0008 BNB / 每次交易
 * [**批量交易**](https://bsc.ciaotool.io/zh-Hans/fourmeme/batch-swap-fourmeme)**：**&#x30;.0008 BNB / 每次交易
 * [**多地址捆绑买入**](https://bsc.ciaotool.io/zh-Hans/fourmeme/bnb/multi-address-buy)**：**&#x30;.008 BNB / 每个地址
 * [**多地址捆绑卖出**](https://bsc.ciaotool.io/zh-Hans/fourmeme/bnb/multi-address-sell)**：**&#x30;.008 BNB / 每个地址
@@ -113,6 +115,7 @@ description: >-
 
 * [**分红提取**](https://bsc.ciaotool.io/zh-Hans/flap/batch-claim-dividend)：0.00008 BNB / 每个地址
 * [**市值管理**](https://bsc.ciaotool.io/zh-Hans/flap/market-making-manage)：0.0008 BNB / 每次交易
+* [**交易量机器人**](https://bsc.ciaotool.io/zh-Hans/flap/volume-bot)**：**&#x30;.0008 BNB / 每次交易
 * [**批量交易**](https://bsc.ciaotool.io/zh-Hans/flap/batch-swap-flap)：0.0008 BNB / 每次交易
 * [**多地址捆绑买入**](https://bsc.ciaotool.io/zh-Hans/flap/bnb/multi-address-buy)**：**&#x30;.008 BNB / 每个地址
 * [**多地址捆绑卖出**](https://bsc.ciaotool.io/zh-Hans/flap/bnb/multi-address-sell)**：**&#x30;.008 BNB / 每个地址
